@@ -165,12 +165,14 @@ def lire_rap(diag):
             for m in medias:
                 legende = (m.get("caption") or "").strip()
                 img = m.get("media_url") if m.get("media_type") in ("IMAGE", "CAROUSEL_ALBUM") else m.get("thumbnail_url")
+                vid = m.get("media_url") if m.get("media_type") in ("VIDEO", "REELS") else None
                 res.append({
                     "id": "ig:" + m["id"], "categorie": "RAP FR", "source": "@" + compte.upper(),
                     "source_legende": "@" + compte,
                     "titre": legende.split("\n")[0][:140] or "(info dans l'image)",
                     "resume": legende[:600], "texte": legende[:4000], "lien": m.get("permalink", ""),
                     "date": m.get("timestamp"), "images": [img] if img else [], "credit": "@" + compte,
+                    "videos": [vid] if vid else [],
                 })
         except Exception as ex:
             diag.append(f"Rap · @{compte} → erreur : {ex}")
@@ -195,6 +197,33 @@ def _premier(obj, cles):
     return None
 
 
+def _videos_tweet(t):
+    """URLs .mp4 d'un tweet, la meilleure qualité d'abord."""
+    trouvees = []
+
+    def fouiller(o):
+        if isinstance(o, dict):
+            if isinstance(o.get("variants"), list):
+                for v in o["variants"]:
+                    if isinstance(v, dict) and "mp4" in str(v.get("content_type", v.get("url", ""))):
+                        trouvees.append((v.get("bitrate") or 0, v.get("url")))
+            for k, v in o.items():
+                if isinstance(v, str) and ".mp4" in v and v.startswith("http") and k != "expanded_url":
+                    trouvees.append((0, v))
+                else:
+                    fouiller(v)
+        elif isinstance(o, list):
+            for v in o:
+                fouiller(v)
+
+    fouiller(t)
+    urls = []
+    for _, u in sorted(trouvees, key=lambda x: -x[0]):
+        if u and u not in urls:
+            urls.append(u)
+    return urls
+
+
 def lire_x(diag, etat=None):
     """Comptes X (Twitter) via un scraper Apify payé au résultat, couvert par le crédit gratuit mensuel.
 
@@ -213,7 +242,9 @@ def lire_x(diag, etat=None):
     if compteur["tweets"] >= config.X_PLAFOND_MOIS:
         diag.append(f"X · plafond du mois atteint ({compteur['tweets']} tweets) : pause jusqu'au mois prochain")
         return []
-    depuis = (datetime.now(timezone.utc) - timedelta(hours=config.AGE_MAX_HEURES["RAP FR"]))
+    recul = config.AGE_MAX_HEURES["RAP FR"] * (3 if os.environ.get("CATEGORIE", "auto") != "auto"
+                                                or os.environ.get("MODE") == "test" else 1)
+    depuis = (datetime.now(timezone.utc) - timedelta(hours=recul))
     res = []
     for compte in config.COMPTES_X:
         entree = {"searchTerms": [f"from:{compte} since:{depuis:%Y-%m-%d_%H:%M:%S}_UTC -filter:replies"],
@@ -237,6 +268,7 @@ def lire_x(diag, etat=None):
                 if texte.startswith("From KaitoEasyAPI") or t.get("type") == "mock_tweet":
                     continue   # lignes de remplissage ajoutées par l'outil quand il y a peu de tweets
                 img = _premier(t, ["media_url_https", "mediaUrl", "media_url", "thumbnail_url"])
+                videos = _videos_tweet(t)
                 date = t.get("createdAt") or t.get("created_at")
                 try:
                     date = parsedate_to_datetime(date).isoformat() if date and "," in date else date
@@ -248,6 +280,7 @@ def lire_x(diag, etat=None):
                     "titre": texte.split("\n")[0][:140], "resume": texte[:600], "texte": texte[:4000],
                     "lien": t.get("url") or t.get("twitterUrl") or f"https://x.com/{compte}/status/{tid}",
                     "date": date, "images": [img] if isinstance(img, str) else [], "credit": "@" + compte,
+                    "videos": videos,
                 })
                 gardes += 1
             diag.append(f"X · @{compte} → {len(items)} tweets lus, {gardes} gardés "

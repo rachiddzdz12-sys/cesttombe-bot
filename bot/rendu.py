@@ -222,8 +222,11 @@ def slide_texte(post, accent, blocs, num, total, fin):
     return img
 
 
-def carrousel(post, photo, dossier, prefixe):
-    """post = {categorie, titre, mot_cle, sections, source, credit}. Renvoie la liste des JPEG."""
+def carrousel(post, photo, dossier, prefixe, video=None):
+    """post = {categorie, titre, mot_cle, sections, source, credit}.
+
+    Renvoie la liste des fichiers dans l'ordre du carrousel : couverture, [vidéo], slides de texte.
+    """
     accent = ACCENTS.get(post["categorie"], ACCENTS["GAMING"])
     dossier = Path(dossier)
     dossier.mkdir(parents=True, exist_ok=True)
@@ -231,13 +234,17 @@ def carrousel(post, photo, dossier, prefixe):
     pages = paginer(d, post["sections"])
     if hauteur_page(pages[-1]) > FOOT_TOP - FIN_H:
         pages.append([])               # la fin (source + abonnement) va sur une slide à part
-    pages = pages[: config.MAX_SLIDES - 1]
-    total = len(pages) + 1
+    dec = 1 if video else 0              # la vidéo prend la place n° 2
+    pages = pages[: config.MAX_SLIDES - 1 - dec]
+    total = len(pages) + 1 + dec
     images = [couverture(post, accent, photo)]
-    images += [slide_texte(post, accent, b, i, total, i == total) for i, b in enumerate(pages, start=2)]
+    images += [slide_texte(post, accent, b, i + dec, total, i + dec == total)
+               for i, b in enumerate(pages, start=2)]
     fichiers = []
     for i, im in enumerate(images, start=1):
-        p = dossier / f"{prefixe}-{i}.jpg"
+        p = dossier / f"{prefixe}-{i + (dec if i > 1 else 0)}.jpg"
         im.save(p, "JPEG", quality=92, optimize=True)
         fichiers.append(p)
+    if video:
+        fichiers.insert(1, Path(video))
     return fichiers

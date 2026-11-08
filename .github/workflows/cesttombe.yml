@@ -16,6 +16,11 @@ on:
         type: choice
         options: [auto, gaming, rap]
         default: auto
+      source:
+        description: "limiter à un type de source (tout = toutes)"
+        type: choice
+        options: [tout, x, instagram, web]
+        default: tout
 
 permissions:
   contents: write
@@ -31,6 +36,7 @@ jobs:
     env:
       MODE: ${{ github.event.inputs.mode || 'auto' }}
       CATEGORIE: ${{ github.event.inputs.categorie || 'auto' }}
+      SOURCE: ${{ github.event.inputs.source || 'tout' }}
       PUBLICATION: ${{ vars.PUBLICATION }}
     steps:
       - uses: actions/checkout@v6

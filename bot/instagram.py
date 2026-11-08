@@ -44,9 +44,14 @@ def publier_carrousel(urls, legende):
     ig = os.environ.get("IG_USER_ID")
     if not ig:
         raise ErreurInstagram("IG_USER_ID manquant")
-    enfants = [_req("POST", f"{ig}/media", image_url=u, is_carousel_item="true")["id"] for u in urls]
-    for c in enfants:
-        _attendre(c)
+    enfants = []
+    for u in urls:
+        if u.lower().endswith(".mp4"):
+            enfants.append(_req("POST", f"{ig}/media", media_type="VIDEO", video_url=u, is_carousel_item="true")["id"])
+        else:
+            enfants.append(_req("POST", f"{ig}/media", image_url=u, is_carousel_item="true")["id"])
+    for c, u in zip(enfants, urls):
+        _attendre(c, limite_s=420 if u.lower().endswith(".mp4") else 240)
     cont = _req("POST", f"{ig}/media", media_type="CAROUSEL", children=",".join(enfants), caption=legende)["id"]
     _attendre(cont)
     media_id = _req("POST", f"{ig}/media_publish", creation_id=cont)["id"]

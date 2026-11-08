@@ -112,6 +112,32 @@ check(len(f2) == 2, "rendu : info courte → 2 slides, couverture sans photo")
 enorme = dict(post, sections=[{"titre": f"Partie {i}", "texte": long_txt} for i in range(12)])
 check(len(rendu.carrousel(enorme, photo, out, "enorme")) == config.MAX_SLIDES, "rendu : plafonné à 10 slides")
 
+# ------------------------------------------------------------------ 3b. slide vidéo
+import subprocess  # noqa: E402
+from bot import video as vid  # noqa: E402
+src = out / "source.mp4"
+subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i", "testsrc=size=720x1280:rate=25:duration=4",
+                "-f", "lavfi", "-i", "sine=frequency=500:duration=4", "-shortest", "-c:v", "libx264", "-pix_fmt", "yuv420p",
+                str(src)], check=True)
+clip = vid.slide(post_rap, src, out, "clip")
+info = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v", "-show_entries", "stream=width,height",
+                       "-of", "csv=p=0", str(clip)], capture_output=True, text=True).stdout.strip()
+check(info == "1080,1350", "vidéo : mise en forme en 1080x1350")
+check(vid.a_du_son(clip), "vidéo : piste son présente")
+fv = rendu.carrousel(post, photo, out, "avec-video", video=clip)
+check(fv[1].suffix == ".mp4" and all(f.suffix == ".jpg" for f in fv[:1] + fv[2:]), "vidéo : placée en slide 2")
+check([f.name for f in fv][0] == "avec-video-1.jpg" and [f.name for f in fv][2] == "avec-video-3.jpg",
+      "vidéo : numérotation des fichiers")
+muet = out / "muet.mp4"
+subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i", "testsrc=size=1280x720:rate=30:duration=3",
+                "-c:v", "libx264", "-pix_fmt", "yuv420p", str(muet)], check=True)
+check(vid.a_du_son(vid.slide(post, muet, out, "muet")), "vidéo sans son : piste silencieuse ajoutée")
+check(sources._videos_tweet({"extended_entities": {"media": [{"video_info": {"variants": [
+    {"content_type": "video/mp4", "bitrate": 832000, "url": "https://video.twimg.com/a_low.mp4"},
+    {"content_type": "video/mp4", "bitrate": 2176000, "url": "https://video.twimg.com/a_high.mp4"},
+    {"content_type": "application/x-mpegURL", "url": "https://video.twimg.com/a.m3u8"}]}}]}})[0]
+      == "https://video.twimg.com/a_high.mp4", "X : meilleure qualité vidéo choisie")
+
 # ------------------------------------------------------------------ 4. --verif (horaires, quota, écart)
 paris = main.PARIS
 midi = datetime.now(paris).replace(hour=12, minute=0, second=0, microsecond=0)

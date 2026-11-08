@@ -4,6 +4,9 @@ import os
 # ------------------------------------------------------------------ interrupteur
 PUBLICATION_AUTO = True       # True = le bot publie tout seul toutes les 30 min
 
+# ------------------------------------------------------------------ vidéos des sources
+VIDEOS = True                 # si la source a une vidéo, elle devient la slide 2 du carrousel
+
 # ------------------------------------------------------------------ Reels
 REELS = True                  # publie aussi un Reel avec voix off pour chaque info
 REEL_DANS_LE_FEED = False     # False = le Reel va dans l'onglet Reels, le carrousel reste seul dans la grille

@@ -108,7 +108,7 @@ def verif():
 
 # ------------------------------------------------------------------ travail principal
 def executer():
-    from bot import hebergement, ia, images, instagram, reel, rendu, sources
+    from bot import hebergement, ia, images, instagram, reel, rendu, sources, video as vid
 
     mode = os.environ.get("MODE", "auto")
     test = mode == "test"
@@ -123,8 +123,13 @@ def executer():
         if os.environ.get("IG_ACCESS_TOKEN"):
             instagram.diagnostic(diag)
 
-        cands = sources.lire_gaming(diag) + sources.lire_rap(diag) + sources.lire_x(diag, etat)
         cat_forcee = os.environ.get("CATEGORIE", "").strip().lower() in ("gaming", "rap")
+        cands = sources.lire_gaming(diag) + sources.lire_rap(diag) + sources.lire_x(diag, etat)
+        filtre_source = os.environ.get("SOURCE", "").strip().lower()
+        if filtre_source in ("x", "instagram", "web"):   # lancement manuel limité à un type de source
+            prefixe_id = {"x": "x:", "instagram": "ig:", "web": "ag:"}[filtre_source]
+            cands = [c for c in cands if c["id"].startswith(prefixe_id)]
+            diag.append(f"Source limitée à : {filtre_source}")
         # en test, ou en lancement manuel ciblé, on accepte des infos plus anciennes (jusqu'à 3x)
         facteur_age = 3 if (test or (mode == "reel" and cat_forcee)) else 1
         frais = [c for c in cands if c["id"] not in etat["vus"]
@@ -190,7 +195,15 @@ def executer():
                     continue
                 post = {"categorie": cat, "source": c["source"], "credit": credit, **red}
                 prefixe = f"{now_paris:%Y%m%d-%H%M}-{'jv' if cat == 'GAMING' else 'rap'}"
-                fichiers = rendu.carrousel(post, photo, SORTIE, prefixe)
+                clip = None
+                if config.VIDEOS and c.get("videos"):
+                    source_video = vid.telecharger(c, SORTIE / f"{prefixe}-src", diag)
+                    if source_video:
+                        try:
+                            clip = vid.slide(post, source_video, SORTIE, prefixe)
+                        except Exception as ex:
+                            diag.append(f"  ⚠️ {str(ex)[:150]}")
+                fichiers = rendu.carrousel(post, photo, SORTIE, prefixe, video=clip)
                 (SORTIE / f"{prefixe}-legende.txt").write_text(red["legende"], encoding="utf-8")
                 diag.append(f"  carrousel prêt : « {red['titre']} » ({len(fichiers)} slides)")
                 video = None
@@ -211,7 +224,17 @@ def executer():
                     fait = True
                     break
                 urls = hebergement.heberger(en_ligne)
-                lien = instagram.publier_carrousel(urls[:len(fichiers)], red["legende"])
+                try:
+                    lien = instagram.publier_carrousel(urls[:len(fichiers)], red["legende"])
+                except instagram.ErreurInstagram as ex:
+                    if not clip:
+                        raise
+                    # Instagram a refusé la vidéo : on refait le carrousel sans elle
+                    diag.append(f"  ⚠️ vidéo refusée par Instagram ({str(ex)[:120]}) : carrousel sans vidéo")
+                    fichiers = rendu.carrousel(post, photo, SORTIE, prefixe + "b")
+                    en_ligne = fichiers + ([video] if video else [])
+                    urls = hebergement.heberger(en_ligne)
+                    lien = instagram.publier_carrousel(urls[:len(fichiers)], red["legende"])
                 vu(c)
                 etat["publies"].append({"ts": now_utc.isoformat(), "categorie": cat, "titre": red["titre"],
                                         "source_id": c["id"], "lien": lien})
