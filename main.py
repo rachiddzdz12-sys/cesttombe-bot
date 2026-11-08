@@ -81,14 +81,22 @@ class Journal(list):
         super().append(ligne)
 
 
+def publication_auto():
+    """La variable GitHub PUBLICATION (on/off) a priorité sur config.PUBLICATION_AUTO."""
+    v = os.environ.get("PUBLICATION", "").strip().lower()
+    if v in ("on", "off"):
+        return v == "on"
+    return config.PUBLICATION_AUTO
+
+
 # ------------------------------------------------------------------ --verif
 def verif():
     mode = os.environ.get("MODE", "auto")
     maintenant = datetime.now(PARIS)
     if mode in ("test", "reel"):
         lancer, raison = True, f"lancement manuel ({mode})"
-    elif os.environ.get("PUBLICATION", "").strip().lower() != "on":
-        lancer, raison = False, "publication automatique désactivée (variable PUBLICATION ≠ on)"
+    elif not publication_auto():
+        lancer, raison = False, "publication automatique désactivée (PUBLICATION_AUTO = False dans config.py)"
     else:
         r = raison_de_ne_pas_poster(charger_etat(), maintenant)
         lancer, raison = r is None, (r or "c'est le moment de poster")
@@ -180,7 +188,12 @@ def executer():
                 fichiers = rendu.carrousel(post, photo, SORTIE, prefixe)
                 (SORTIE / f"{prefixe}-legende.txt").write_text(red["legende"], encoding="utf-8")
                 diag.append(f"  carrousel prêt : « {red['titre']} » ({len(fichiers)} slides)")
-                if test:
+                if test:   # on vérifie aussi l'hébergement, sans publier
+                    try:
+                        urls = hebergement.heberger(fichiers)
+                        diag.append(f"  images en ligne ({len(urls)}) : {urls[0]}")
+                    except hebergement.ErreurHebergement as ex:
+                        diag.append(f"  ⚠️ hébergement des images impossible : {ex}")
                     fait = True
                     break
                 urls = hebergement.heberger(fichiers)

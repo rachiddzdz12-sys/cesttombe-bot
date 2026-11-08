@@ -49,6 +49,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          GITHUB_TOKEN: ${{ github.token }}
           IMAGES_TOKEN: ${{ secrets.IMAGES_TOKEN }}
           IMAGES_REPO: ${{ vars.IMAGES_REPO }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}

@@ -1,6 +1,9 @@
 """Réglages de C'EST TOMBÉ. C'est le seul fichier à modifier pour changer le comportement du bot."""
 import os
 
+# ------------------------------------------------------------------ interrupteur
+PUBLICATION_AUTO = False      # True = le bot publie tout seul toutes les 30 min
+
 # ------------------------------------------------------------------ rythme
 POSTS_PAR_JOUR = 6            # total gaming + rap
 HEURE_DEBUT = 9               # heure de Paris, premier post possible

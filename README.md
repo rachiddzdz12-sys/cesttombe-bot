@@ -59,9 +59,10 @@ Compte environ 45 minutes pour tout installer, une seule fois. Les écrans de Me
 
 1. **Dépôt du bot, privé** : crée un dépôt `cesttombe-bot` en **Private**, puis **Add file → Upload files** et dépose **tout le contenu** du dossier (y compris le dossier `.github`).
    > Si le dossier `.github` ne passe pas (ça arrive sur téléphone), crée le fichier à la main : **Add file → Create new file**, nom `.github/workflows/cesttombe.yml`, et colle le contenu du fichier.
-2. **Dépôt des images, public** : crée un dépôt `cesttombe-images` en **Public**. Laisse-le vide. Instagram doit pouvoir y télécharger les images, c'est pour ça qu'il est public. Ton code, lui, reste privé.
+2. **Images** : rien à faire si le dépôt `cesttombe-bot` est **public**. Le bot met les images dans sa branche `images` (remplacée à chaque post), avec le jeton automatique de GitHub. Tes clés restent cachées dans les Secrets.
+   > Option si tu préfères un dépôt de code privé : crée un dépôt public `cesttombe-images`, un token (étape 5) et la variable `IMAGES_REPO`.
 
-## Étape 5 — La clé GitHub pour le dépôt d'images
+## Étape 5 — (optionnel, seulement avec un dépôt privé) La clé GitHub pour le dépôt d'images
 
 1. GitHub → ta photo → **Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token**.
 2. **Repository access** : *Only select repositories* → `cesttombe-images`.
@@ -110,9 +111,9 @@ Onglet **Variables** → *New repository variable* :
 
 ## Étape 9 — Mode automatique
 
-Variable `PUBLICATION` → `on`. C'est tout : le bot tourne seul, toutes les 30 minutes.
+Dans `config.py` : `PUBLICATION_AUTO = True`. C'est tout : le bot tourne seul, toutes les 30 minutes.
 
-Pour **mettre en pause** : remets `PUBLICATION` à `off`.
+Pour **mettre en pause** : remets `False`. (Une variable GitHub `PUBLICATION` = `on` / `off` a priorité sur ce réglage, si tu préfères passer par les Settings.)
 
 ---
 
