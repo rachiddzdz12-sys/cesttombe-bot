@@ -108,7 +108,7 @@ def verif():
 
 # ------------------------------------------------------------------ travail principal
 def executer():
-    from bot import hebergement, ia, images, instagram, rendu, sources
+    from bot import hebergement, ia, images, instagram, reel, rendu, sources
 
     mode = os.environ.get("MODE", "auto")
     test = mode == "test"
@@ -193,20 +193,36 @@ def executer():
                 fichiers = rendu.carrousel(post, photo, SORTIE, prefixe)
                 (SORTIE / f"{prefixe}-legende.txt").write_text(red["legende"], encoding="utf-8")
                 diag.append(f"  carrousel prêt : « {red['titre']} » ({len(fichiers)} slides)")
+                video = None
+                if config.REELS:
+                    try:
+                        video = reel.fabriquer(post, photo, fichiers, red.get("voix_off"), SORTIE, prefixe, diag)
+                    except Exception as ex:   # sans Reel, le carrousel part quand même
+                        diag.append(f"  ⚠️ Reel impossible : {str(ex)[:150]}")
+                en_ligne = fichiers + ([video] if video else [])
                 if test:   # on vérifie aussi l'hébergement, sans publier
                     try:
-                        urls = hebergement.heberger(fichiers)
-                        diag.append(f"  images en ligne ({len(urls)}) : {urls[0]}")
+                        urls = hebergement.heberger(en_ligne)
+                        diag.append(f"  fichiers en ligne ({len(urls)}) : {urls[0]}")
+                        if video:
+                            diag.append(f"  reel en ligne : {urls[-1]}")
                     except hebergement.ErreurHebergement as ex:
-                        diag.append(f"  ⚠️ hébergement des images impossible : {ex}")
+                        diag.append(f"  ⚠️ hébergement impossible : {ex}")
                     fait = True
                     break
-                urls = hebergement.heberger(fichiers)
-                lien = instagram.publier_carrousel(urls, red["legende"])
+                urls = hebergement.heberger(en_ligne)
+                lien = instagram.publier_carrousel(urls[:len(fichiers)], red["legende"])
                 vu(c)
                 etat["publies"].append({"ts": now_utc.isoformat(), "categorie": cat, "titre": red["titre"],
                                         "source_id": c["id"], "lien": lien})
                 diag.append(f"  ✅ PUBLIÉ : {lien}")
+                if video:
+                    try:
+                        lien_reel = instagram.publier_reel(urls[-1], red["legende"], config.REEL_DANS_LE_FEED)
+                        etat["publies"][-1]["reel"] = lien_reel
+                        diag.append(f"  ✅ REEL PUBLIÉ : {lien_reel}")
+                    except Exception as ex:
+                        diag.append(f"  ⚠️ Reel non publié : {str(ex)[:200]}")
                 fait = True
                 break
             if fait and not test:

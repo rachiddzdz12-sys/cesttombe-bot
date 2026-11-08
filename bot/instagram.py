@@ -56,6 +56,20 @@ def publier_carrousel(urls, legende):
         return media_id
 
 
+def publier_reel(video_url, legende, dans_le_feed=False):
+    ig = os.environ.get("IG_USER_ID")
+    if not ig:
+        raise ErreurInstagram("IG_USER_ID manquant")
+    cont = _req("POST", f"{ig}/media", media_type="REELS", video_url=video_url, caption=legende,
+                share_to_feed="true" if dans_le_feed else "false")["id"]
+    _attendre(cont, limite_s=420)      # la vidéo prend plus de temps à être traitée
+    media_id = _req("POST", f"{ig}/media_publish", creation_id=cont)["id"]
+    try:
+        return _req("GET", media_id, fields="permalink").get("permalink", media_id)
+    except ErreurInstagram:
+        return media_id
+
+
 def diagnostic(diag):
     """Vérifie le token et le compte. Aide à trouver IG_USER_ID s'il manque."""
     try:

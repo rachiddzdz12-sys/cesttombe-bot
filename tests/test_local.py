@@ -153,12 +153,15 @@ publications = []
 hebergement.heberger = lambda fichiers: [f"https://raw.example/{Path(f).name}" for f in fichiers]
 instagram.publier_carrousel = lambda urls, legende: publications.append((urls, legende)) or "https://instagram.com/p/OK"
 instagram.diagnostic = lambda diag: None
+instagram.publier_reel = lambda url, legende, feed=False: "https://instagram.com/reel/OK"
 
 os.environ["MODE"] = "test"
 check(main.executer() == 0, "simulation test : se termine sans erreur")
 check(not publications, "simulation test : rien n'est publié")
 check(len(list(main.SORTIE.glob("*-legende.txt"))) == 2, "simulation test : 1 carrousel gaming + 1 rap générés")
 check(not tmp_etat.exists(), "simulation test : l'état n'est pas modifié")
+reels = list(main.SORTIE.glob("*-reel.mp4"))
+check(len(reels) == 2 and all(r.stat().st_size > 50_000 for r in reels), "simulation test : 2 Reels vidéo générés")
 check(any(k == "image" for k, _ in appels_ia), "simulation : l'image du post rap est envoyée à l'IA")
 
 os.environ["MODE"] = "auto"

@@ -4,6 +4,12 @@ import os
 # ------------------------------------------------------------------ interrupteur
 PUBLICATION_AUTO = True       # True = le bot publie tout seul toutes les 30 min
 
+# ------------------------------------------------------------------ Reels
+REELS = True                  # publie aussi un Reel avec voix off pour chaque info
+REEL_DANS_LE_FEED = False     # False = le Reel va dans l'onglet Reels, le carrousel reste seul dans la grille
+VOIX = "fr-FR-HenriNeural"    # autres voix : fr-FR-RemyMultilingualNeural, fr-FR-DeniseNeural, fr-FR-VivienneMultilingualNeural
+VOIX_VITESSE = "+8%"
+
 # ------------------------------------------------------------------ rythme
 POSTS_PAR_JOUR = 6            # total gaming + rap
 HEURE_DEBUT = 9               # heure de Paris, premier post possible

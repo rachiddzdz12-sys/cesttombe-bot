@@ -2,3 +2,5 @@ requests>=2.31
 feedparser>=6.0
 beautifulsoup4>=4.12
 Pillow>=10.0
+edge-tts>=7.0
+piper-tts>=1.2

@@ -142,9 +142,10 @@ Produis :
 - "sections" : 2 à 4 sections dans l'ordre logique. Chaque section : "titre" court (ex : "Ce qui se passe", "Les détails", "C'est quand", "Ce qu'en dit le studio", "Pourquoi ça compte") et "texte" de 25 à 70 mots. Total maximum 230 mots.
 - "accroche" : 1 phrase pour la légende Instagram, avec 1 emoji maximum.
 - "hashtags" : 2 ou 3 hashtags précis sur le sujet (nom du jeu, de l'artiste…), sans espace, en minuscules.
+- "voix_off" : le texte lu par une voix dans la vidéo Reel. 35 à 70 mots, phrases courtes faites pour l'oral, mêmes faits que les sections. Commence directement par l'info (pas de « bonjour »). Termine par : « Abonne-toi à C'est tombé pour pas rater la suite. »
 - "faisable" : false si la source ne contient pas assez d'info pour faire un post fiable, sinon true.
 
-Réponds UNIQUEMENT en JSON : {{"titre": "", "mot_cle": "", "sections": [{{"titre": "", "texte": ""}}], "accroche": "", "hashtags": [], "faisable": true}}"""
+Réponds UNIQUEMENT en JSON : {{"titre": "", "mot_cle": "", "sections": [{{"titre": "", "texte": ""}}], "accroche": "", "hashtags": [], "voix_off": "", "faisable": true}}"""
 
 
 def rediger(cand, image_jpeg=None):
@@ -170,7 +171,7 @@ ACCENTS = set("éèêëàâäîïôöùûüçÉÈÊËÀÂÄÎÏÔÖÙÛÜÇ")
 
 def manque_accents(res):
     """Vrai si un texte français assez long ne contient aucun accent (presque impossible en vrai)."""
-    texte = res["titre"] + " " + " ".join(s["texte"] for s in res["sections"])
+    texte = res["titre"] + " " + " ".join(s["texte"] for s in res["sections"]) + " " + res.get("voix_off", "")
     return len(texte.split()) >= 25 and not any(c in ACCENTS for c in texte)
 
 
@@ -204,6 +205,9 @@ def valider(rep, cand):
                f"Glisse pour tout savoir 👉\n\n"
                f"Source : {cand.get('source_legende', cand['source'])}\n\n"
                + " ".join(tags))
-    return {"titre": titre, "mot_cle": mot_cle,
+    voix_off = (rep.get("voix_off") or "").strip()
+    if len(voix_off.split()) < 15:      # secours : on lit le titre et la première section
+        voix_off = f"{titre}. {sections[0]['texte'].strip()} Abonne-toi à C'est tombé pour pas rater la suite."
+    return {"titre": titre, "mot_cle": mot_cle, "voix_off": voix_off[:900],
             "sections": [{"titre": s["titre"].strip(), "texte": s["texte"].strip()} for s in sections[:4]],
             "legende": legende[:2200]}
