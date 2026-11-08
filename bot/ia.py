@@ -86,7 +86,7 @@ def appel(parts):
 PROMPT_TRI = """Tu es le rédacteur en chef de « C'EST TOMBÉ », une page Instagram d'actu {theme} pour un public français de 16-30 ans.
 
 Voici des infos candidates. Pour chacune, décide :
-- "info" : true si c'est une VRAIE actualité (annonce, sortie, date, chiffre, polémique, clash, record, déclaration, rumeur sérieuse).
+- "info" : true si c'est une VRAIE actualité (annonce, sortie, date, chiffre, polémique, clash, record, déclaration, rumeur sérieuse). Les récaps de sorties (« les sorties de la semaine », « ce qui sort ce soir à minuit », liste des albums/sons du vendredi) comptent comme de l'info utile : note-les au moins 7.
   false si c'est un guide, une soluce, un bon plan, une promo, une liste de prix, un test, un contenu sponsorisé, ou un post sans info (juste une ambiance, un mème, une pub).
 - "score" : de 0 à 10, à quel point ça va faire réagir notre public (10 = tout le monde va en parler).
 - "doublon" : true UNIQUEMENT si c'est exactement le même événement qu'un des sujets déjà publiés listés plus bas (même fait, même annonce). Un sujet voisin ou une suite (ex : une réaction, un procès, une nouvelle étape) n'est PAS un doublon.
@@ -139,7 +139,7 @@ Texte : {texte}
 Produis :
 - "titre" : 6 à 10 mots, percutant, style breaking news, sans point final, sans emoji. Si le titre contient deux idées, sépare-les par « : » (ex : « Maes libéré : son avocat prend la parole »).
 - "mot_cle" : 1 à 3 mots copiés EXACTEMENT du titre, le cœur de l'info (un nom, un chiffre, un mot fort).
-- "sections" : 2 à 4 sections dans l'ordre logique. Chaque section : "titre" court (ex : "Ce qui se passe", "Les détails", "C'est quand", "Ce qu'en dit le studio", "Pourquoi ça compte") et "texte" de 25 à 70 mots. Total maximum 230 mots.
+- "sections" : 2 à 4 sections dans l'ordre logique. Pour un récap de sorties, liste les artistes et les titres (projet ou single) lisibles dans la source et l'image, sans en inventer. Chaque section : "titre" court (ex : "Ce qui se passe", "Les détails", "C'est quand", "Ce qu'en dit le studio", "Pourquoi ça compte") et "texte" de 25 à 70 mots. Total maximum 230 mots.
 - "accroche" : 1 phrase pour la légende Instagram, avec 1 emoji maximum.
 - "hashtags" : 2 ou 3 hashtags précis sur le sujet (nom du jeu, de l'artiste…), sans espace, en minuscules.
 - "voix_off" : le texte lu par une voix dans la vidéo Reel. 35 à 70 mots, phrases courtes faites pour l'oral, mêmes faits que les sections. Commence directement par l'info (pas de « bonjour »). Termine par : « Abonne-toi à C'est tombé pour pas rater la suite. »
