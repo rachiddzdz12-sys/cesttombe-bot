@@ -8,7 +8,12 @@
   "ig:18135277237706321": "2026-11-08T13:38:34.630738+00:00",
   "ig:18432869182150859": "2026-11-08T13:38:34.630738+00:00",
   "ig:18038348267849282": "2026-11-08T13:38:34.630738+00:00",
-  "ig:18348547036281323": "2026-11-08T13:38:34.630738+00:00"
+  "ig:18348547036281323": "2026-11-08T13:38:34.630738+00:00",
+  "ag:https://www.actugaming.net/?p=832797": "2026-11-08T14:29:41.939201+00:00",
+  "ag:https://www.actugaming.net/?p=832718": "2026-11-08T14:29:41.939201+00:00",
+  "ag:https://www.actugaming.net/?p=832715": "2026-11-08T14:29:41.939201+00:00",
+  "ag:https://www.actugaming.net/?p=832697": "2026-11-08T14:29:41.939201+00:00",
+  "ag:https://www.actugaming.net/?p=832693": "2026-11-08T14:29:41.939201+00:00"
  },
  "publies": [
   {
@@ -24,6 +29,14 @@
    "titre": "Maes libéré de prison : son avocat prend la parole",
    "source_id": "ig:18348547036281323",
    "lien": "https://www.instagram.com/p/Dfe4iyCDl2R/"
+  },
+  {
+   "ts": "2026-11-08T14:29:41.939201+00:00",
+   "categorie": "GAMING",
+   "titre": "GTA 6 sur PC : une sortie rapide à cause de l'IA ?",
+   "source_id": "ag:https://www.actugaming.net/?p=832693",
+   "lien": "https://www.instagram.com/p/Dfe-ZL5D7i_/",
+   "reel": "https://www.instagram.com/reel/Dfe-bYIk3Dg/"
   }
  ]
 }
