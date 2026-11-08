@@ -9,6 +9,8 @@ REELS = True                  # publie aussi un Reel avec voix off pour chaque i
 REEL_DANS_LE_FEED = False     # False = le Reel va dans l'onglet Reels, le carrousel reste seul dans la grille
 VOIX = "fr-FR-HenriNeural"    # autres voix : fr-FR-RemyMultilingualNeural, fr-FR-DeniseNeural, fr-FR-VivienneMultilingualNeural
 VOIX_VITESSE = "+8%"
+VOIX_A_TESTER = ["fr-FR-VivienneMultilingualNeural", "fr-FR-DeniseNeural", "fr-FR-EloiseNeural",
+                 "fr-FR-RemyMultilingualNeural"]
 
 # ------------------------------------------------------------------ rythme
 POSTS_PAR_JOUR = 6            # total gaming + rap

@@ -93,7 +93,7 @@ def publication_auto():
 def verif():
     mode = os.environ.get("MODE", "auto")
     maintenant = datetime.now(PARIS)
-    if mode in ("test", "reel"):
+    if mode in ("test", "reel", "voix"):
         lancer, raison = True, f"lancement manuel ({mode})"
     elif not publication_auto():
         lancer, raison = False, "publication automatique désactivée (PUBLICATION_AUTO = False dans config.py)"
@@ -240,8 +240,31 @@ def executer():
     return code
 
 
+def echantillons_voix():
+    """Mode « voix » : fait lire la même phrase par plusieurs voix et les met en ligne pour comparer."""
+    from bot import hebergement, voix
+    texte = ("Maes est officiellement sorti de prison après 22 mois de détention. "
+             "Son avocat parle d'un tournant majeur dans le dossier. "
+             "Abonne-toi à C'est tombé pour pas rater la suite.")
+    diag, fichiers = Journal(["Mode : voix"]), []
+    for v in config.VOIX_A_TESTER:
+        config.VOIX = v
+        f = voix.lire(texte, SORTIE / v, diag)
+        if f:
+            dest = SORTIE / f"voix-{v}.mp3"
+            f.rename(dest)
+            fichiers.append(dest)
+    if fichiers:
+        for u in hebergement.heberger(fichiers):
+            diag.append(f"  écoute : {u}")
+    resume_github(diag)
+    return 0
+
+
 if __name__ == "__main__":
     if "--verif" in sys.argv:
         verif()
+    elif os.environ.get("MODE") == "voix":
+        sys.exit(echantillons_voix())
     else:
         sys.exit(executer())

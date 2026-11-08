@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "test = génère les carrousels sans publier · reel = publie un post maintenant"
+        description: "test = génère sans publier · reel = publie un post maintenant · voix = échantillons de voix"
         type: choice
-        options: [test, reel]
+        options: [test, reel, voix]
         default: test
       categorie:
         description: "catégorie à essayer en premier (auto = alterne)"
