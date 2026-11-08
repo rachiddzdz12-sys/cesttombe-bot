@@ -104,9 +104,16 @@ def musique():
 def mixer_audio(voix_off, duree, sortie, diag):
     """Voix devant, musique loin derrière : la musique baisse encore quand la voix parle (ducking)."""
     fond = musique()
-    if not fond:
-        return voix_off            # pas de musique : la voix seule (ou rien)
     t = f"{duree:.2f}"
+    niveau = "loudnorm=I=-14:TP=-1.5:LRA=11"   # niveau standard des réseaux sociaux
+    if not fond:
+        if not voix_off:
+            return None
+        cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", str(voix_off), "-af",
+               f"aresample=44100,aformat=channel_layouts=stereo,adelay=300|300,apad,atrim=0:{t},{niveau}",
+               "-ar", "44100", "-t", t, str(sortie)]
+        r = subprocess.run(cmd, capture_output=True, text=True)
+        return sortie if r.returncode == 0 else voix_off
     fin = max(0.0, duree - 1.5)
     vol = config.MUSIQUE_VOLUME if voix_off else config.MUSIQUE_VOLUME * 2.5
     entree_musique = ["-stream_loop", "-1", "-ss", str(config.MUSIQUE_DEBUT), "-i", str(fond)]
@@ -117,11 +124,11 @@ def mixer_audio(voix_off, duree, sortie, diag):
                f"[0:a]aresample=44100,aformat=channel_layouts=stereo,adelay=300|300,apad,atrim=0:{t},"
                f"asplit=2[v][cle];[1:a]{musique_f}[m];"
                f"[m][cle]sidechaincompress=threshold=0.02:ratio=5:attack=15:release=450[md];"
-               f"[v][md]amix=inputs=2:normalize=0:duration=first,alimiter=limit=0.95[out]",
-               "-map", "[out]", "-t", t, str(sortie)]
+               f"[v][md]amix=inputs=2:normalize=0:duration=first,{niveau},alimiter=limit=0.89[out]",
+               "-map", "[out]", "-ar", "44100", "-t", t, str(sortie)]
     else:
         cmd = ["ffmpeg", "-y", "-loglevel", "error", *entree_musique, "-filter_complex",
-               f"[0:a]{musique_f}[out]", "-map", "[out]", "-t", t, str(sortie)]
+               f"[0:a]{musique_f},{niveau}[out]", "-map", "[out]", "-ar", "44100", "-t", t, str(sortie)]
     r = subprocess.run(cmd, capture_output=True, text=True)
     if r.returncode != 0:
         diag.append(f"  ⚠️ mixage musique impossible, voix seule : {r.stderr[-150:]}")
