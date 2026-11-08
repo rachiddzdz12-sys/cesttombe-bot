@@ -47,7 +47,8 @@ Compte environ 45 minutes pour tout installer, une seule fois. Les écrans de Me
    - va sur **business.facebook.com → Paramètres → Utilisateurs → Utilisateurs système → Ajouter** (rôle Admin) ;
    - **Attribuer des éléments** : ta page Facebook, ton compte Instagram et ton app (contrôle total) ;
    - **Générer un nouveau token** : choisis ton app, expiration **Jamais**, et coche :
-     `instagram_basic`, `instagram_content_publish`, `pages_show_list`, `pages_read_engagement`, `business_management`.
+     `instagram_basic`, `instagram_content_publish`, `instagram_manage_insights`, `pages_show_list`, `pages_read_engagement`, `business_management`, `ads_read`.
+     (`instagram_manage_insights` et `ads_read` sont exigés par Meta pour lire @rap.minute.)
    - Copie le token. C'est ton **IG_ACCESS_TOKEN**.
 
    > Plan B si tu bloques : l'**Explorateur de l'API Graph** (developers.facebook.com/tools/explorer) donne un token avec les mêmes permissions. Il marche pour le test, mais il expire : il faudra le remplacer.
@@ -131,7 +132,7 @@ Pour **mettre en pause** : remets `PUBLICATION` à `off`.
 | Message dans le résumé | Ce qu'il faut faire |
 |---|---|
 | `Gaming · … → HTTP 403` sur tous les flux | ActuGaming bloque les serveurs GitHub. Le bot essaie la page de secours ; si elle échoue aussi, il faudra une autre source gaming. |
-| `Rap · @rap.minute → refus de Meta` | Le compte n'est pas Pro, ou ton token n'a pas `instagram_basic` / `pages_read_engagement`. |
+| `Rap · @rap.minute → refus de Meta` | Le token doit avoir `instagram_basic`, `instagram_manage_insights`, `pages_read_engagement` et `ads_read` (la ligne « autorisations du token » du résumé les liste). Sinon, le compte suivi n'est pas Pro. |
 | `Meta · token refusé` | Token expiré ou mal copié : régénère-le (étape 3). |
 | `tri IA impossible` / `Gemini n'a pas répondu` | Quota gratuit atteint ou modèle renommé. Ajoute une variable GitHub `GEMINI_MODEL` (onglet Variables) avec le nom d'un modèle Flash gratuit listé sur aistudio.google.com. |
 | `image pas accessible publiquement` | Le dépôt d'images n'est pas public, ou `IMAGES_REPO` est mal écrit. |
