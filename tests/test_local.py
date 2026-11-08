@@ -80,6 +80,10 @@ v2 = ia.valider({"titre": "GTA 6 arrive", "mot_cle": "inexistant", "sections": [
 check(v2["mot_cle"] == "", "IA : mot clé absent du titre → ignoré")
 check(ia._extraire_json('```json\n{"a": 1}\n```') == {"a": 1}, "IA : JSON entouré de ``` accepté")
 check(ia.valider([rep], it)["mot_cle"] == "366 Go", "IA : réponse de rédaction en liste acceptée")
+check(ia.manque_accents({"titre": "Maes est libere de prison apres 22 mois",
+                         "sections": [{"titre": "x", "texte": " ".join(["il retrouve sa liberte apres"] * 6)}]}),
+      "IA : texte sans accents détecté")
+check(not ia.manque_accents(v), "IA : texte normal accepté")
 _appel_orig = ia.appel
 ia.appel = lambda parts: [{"id": 1, "info": True, "score": 7, "doublon": False}]
 check(ia.trier([it], [])[it["id"]]["score"] == 7, "IA : tri renvoyé en liste nue accepté")

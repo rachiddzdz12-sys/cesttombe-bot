@@ -126,7 +126,7 @@ def trier(candidats, titres_publies):
 
 
 PROMPT_REDAC = """Tu écris un post carrousel Instagram pour « C'EST TOMBÉ », page d'actu {theme}.
-Ton : direct, clair, phrases courtes, français correct, pas de vulgarité, pas de « wesh ». Tu tutoies le lecteur seulement dans l'accroche. Écris toujours les nombres, dates et durées en chiffres (22 mois, 6 novembre, 366 Go).
+Ton : direct, clair, phrases courtes, français correct, pas de vulgarité, pas de « wesh ». Tu tutoies le lecteur seulement dans l'accroche. Écris toujours les nombres, dates et durées en chiffres (22 mois, 6 novembre, 366 Go). Écris en français correct AVEC TOUS LES ACCENTS (é, è, ê, à, ù, ç…), y compris dans le titre.
 
 RÈGLE ABSOLUE : utilise UNIQUEMENT les faits présents dans la source ci-dessous{image}. N'invente rien : aucune date, aucun chiffre, aucun nom, aucune citation qui n'y figure pas. Si un détail n'est pas dans la source, ne l'écris pas. Reformule avec tes propres mots, ne recopie pas de phrases entières.
 
@@ -153,7 +153,23 @@ def rediger(cand, image_jpeg=None):
     if image_jpeg:
         parts.append({"inline_data": {"mime_type": "image/jpeg",
                                       "data": base64.b64encode(image_jpeg).decode()}})
-    return valider(appel(parts), cand)
+    res = valider(appel(parts), cand)
+    if manque_accents(res):           # Gemini oublie parfois tous les accents : on fait réécrire une fois
+        JOURNAL.append("texte sans accents : réécriture demandée")
+        parts[0] = {"text": parts[0]["text"] + "\n\nATTENTION : mets bien tous les accents français."}
+        res2 = valider(appel(parts), cand)
+        if not manque_accents(res2):
+            res = res2
+    return res
+
+
+ACCENTS = set("éèêëàâäîïôöùûüçÉÈÊËÀÂÄÎÏÔÖÙÛÜÇ")
+
+
+def manque_accents(res):
+    """Vrai si un texte français assez long ne contient aucun accent (presque impossible en vrai)."""
+    texte = res["titre"] + " " + " ".join(s["texte"] for s in res["sections"])
+    return len(texte.split()) >= 25 and not any(c in ACCENTS for c in texte)
 
 
 def valider(rep, cand):
