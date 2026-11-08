@@ -42,7 +42,12 @@ GAMING = {
                       "guide d'achat", "guide d’achat"],
 }
 
-COMPTES_RAP = ["rap.minute", "rapfractusofficiel"]  # pseudos Instagram (comptes Pro), sans le @
+COMPTES_RAP = ["rap.minute", "rapfractusofficiel"]
+
+# Comptes X (Twitter) rap, lus via Apify (crédit gratuit de 5 $/mois, sans carte) — secret APIFY_TOKEN
+COMPTES_X = ["RapFrActus"]
+APIFY_ACTEUR = "kaitoeasyapi~twitter-x-data-tweet-scraper-pay-per-result-cheapest"
+X_MAX_TWEETS = 20  # pseudos Instagram (comptes Pro), sans le @
 
 # ------------------------------------------------------------------ identité
 HANDLE = "@cesttombe.actu"

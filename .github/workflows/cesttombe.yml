@@ -65,6 +65,7 @@ jobs:
           IMAGES_TOKEN: ${{ secrets.IMAGES_TOKEN }}
           IMAGES_REPO: ${{ vars.IMAGES_REPO }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
         run: python main.py
 
       - name: Carrousels générés (à télécharger)

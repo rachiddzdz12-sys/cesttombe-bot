@@ -2,7 +2,8 @@
 import calendar
 import os
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
 
 import feedparser
 import requests
@@ -173,6 +174,71 @@ def lire_rap(diag):
                 })
         except Exception as ex:
             diag.append(f"Rap · @{compte} → erreur : {ex}")
+    return res
+
+
+def _premier(obj, cles):
+    """Cherche récursivement la première valeur d'une des clés (les scrapers X n'ont pas tous le même format)."""
+    if isinstance(obj, dict):
+        for k in cles:
+            if obj.get(k):
+                return obj[k]
+        for v in obj.values():
+            r = _premier(v, cles)
+            if r:
+                return r
+    elif isinstance(obj, list):
+        for v in obj:
+            r = _premier(v, cles)
+            if r:
+                return r
+    return None
+
+
+def lire_x(diag):
+    """Comptes X (Twitter) via un scraper Apify payé au résultat, couvert par le crédit gratuit mensuel."""
+    token = os.environ.get("APIFY_TOKEN")
+    if not config.COMPTES_X:
+        return []
+    if not token:
+        diag.append("X · APIFY_TOKEN manquant : comptes X ignorés")
+        return []
+    depuis = (datetime.now(timezone.utc) - timedelta(hours=config.AGE_MAX_HEURES["RAP FR"]))
+    res = []
+    for compte in config.COMPTES_X:
+        entree = {"searchTerms": [f"from:{compte} since:{depuis:%Y-%m-%d_%H:%M:%S}_UTC -filter:replies"],
+                  "from": compte, "maxItems": config.X_MAX_TWEETS, "queryType": "Latest"}
+        try:
+            r = requests.post(f"https://api.apify.com/v2/acts/{config.APIFY_ACTEUR}/run-sync-get-dataset-items",
+                              params={"token": token, "timeout": 150, "maxItems": config.X_MAX_TWEETS},
+                              json=entree, timeout=200)
+            if r.status_code >= 400:
+                diag.append(f"X · @{compte} → refus Apify HTTP {r.status_code} : {r.text[:150]}")
+                continue
+            items = [t for t in r.json() if isinstance(t, dict)][: config.X_MAX_TWEETS]
+            gardes = 0
+            for t in items:
+                texte = (t.get("text") or t.get("full_text") or t.get("fullText") or "").strip()
+                tid = str(t.get("id") or t.get("id_str") or t.get("tweetId") or "")
+                if not texte or not tid or texte.startswith("RT @") or t.get("isReply") or t.get("isRetweet"):
+                    continue
+                img = _premier(t, ["media_url_https", "mediaUrl", "media_url", "thumbnail_url"])
+                date = t.get("createdAt") or t.get("created_at")
+                try:
+                    date = parsedate_to_datetime(date).isoformat() if date and "," in date else date
+                except (TypeError, ValueError):
+                    pass
+                res.append({
+                    "id": "x:" + tid, "categorie": "RAP FR", "source": "@" + compte.upper(),
+                    "source_legende": "@" + compte + " (X)",
+                    "titre": texte.split("\n")[0][:140], "resume": texte[:600], "texte": texte[:4000],
+                    "lien": t.get("url") or t.get("twitterUrl") or f"https://x.com/{compte}/status/{tid}",
+                    "date": date, "images": [img] if isinstance(img, str) else [], "credit": "@" + compte,
+                })
+                gardes += 1
+            diag.append(f"X · @{compte} → {len(items)} tweets lus, {gardes} gardés")
+        except Exception as ex:
+            diag.append(f"X · @{compte} → erreur : {str(ex)[:150]}")
     return res
 
 
