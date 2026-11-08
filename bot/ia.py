@@ -126,7 +126,7 @@ def trier(candidats, titres_publies):
 
 
 PROMPT_REDAC = """Tu écris un post carrousel Instagram pour « C'EST TOMBÉ », page d'actu {theme}.
-Ton : direct, clair, phrases courtes, français correct, pas de vulgarité, pas de « wesh ». Tu tutoies le lecteur seulement dans l'accroche.
+Ton : direct, clair, phrases courtes, français correct, pas de vulgarité, pas de « wesh ». Tu tutoies le lecteur seulement dans l'accroche. Écris toujours les nombres, dates et durées en chiffres (22 mois, 6 novembre, 366 Go).
 
 RÈGLE ABSOLUE : utilise UNIQUEMENT les faits présents dans la source ci-dessous{image}. N'invente rien : aucune date, aucun chiffre, aucun nom, aucune citation qui n'y figure pas. Si un détail n'est pas dans la source, ne l'écris pas. Reformule avec tes propres mots, ne recopie pas de phrases entières.
 

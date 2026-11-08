@@ -120,7 +120,9 @@ def couverture(post, accent, photo):
     words = colored_words(post["titre"], post.get("mot_cle"), accent)
 
     if photo is not None:
-        img.paste(ImageOps.fit(photo, (W, PHOTO_H), method=Image.LANCZOS, centering=(0.5, 0.4)), (0, 0))
+        # rap : les visuels des pages Insta ont souvent leur texte incrusté en bas → on cadre en haut
+        cy = 0.12 if post["categorie"] == "RAP FR" else 0.4
+        img.paste(ImageOps.fit(photo, (W, PHOTO_H), method=Image.LANCZOS, centering=(0.5, cy)), (0, 0))
         chip_w = 24 + 14 + d.textlength("C’EST TOMBÉ", font=anton(34)) + 40
         d.rectangle([64, 64, 64 + chip_w, 64 + 62], fill=NOIR)
         logo(d, 84, 78, accent, size=34)

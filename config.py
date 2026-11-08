@@ -34,7 +34,7 @@ GAMING = {
 COMPTES_RAP = ["rap.minute"]  # pseudos Instagram (comptes Pro), sans le @
 
 # ------------------------------------------------------------------ identité
-HANDLE = "@cesttombe"
+HANDLE = "@cesttombe.actu"
 HASHTAGS = {
     "GAMING": ["#jeuxvideo", "#gaming", "#actujv", "#gamer", "#cesttombe"],
     "RAP FR": ["#rapfr", "#rapfrancais", "#actusrap", "#hiphopfrancais", "#cesttombe"],
