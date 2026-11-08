@@ -46,7 +46,7 @@ def appel(parts):
                                   json={"contents": [{"role": "user", "parts": parts}],
                                         "generationConfig": {"responseMimeType": "application/json",
                                                              "temperature": 0.4}},
-                                  timeout=90)
+                                  timeout=60)
             except requests.RequestException as ex:
                 derniere = f"{modele} : {type(ex).__name__}"
                 JOURNAL.append(f"{derniere} après {time.time() - debut:.0f} s")

@@ -64,6 +64,11 @@ def diagnostic(diag):
     except ErreurInstagram as ex:
         diag.append(f"Meta · token refusé : {ex}")
         return
+    try:
+        info = _req("GET", "debug_token", input_token=_token()).get("data", {})
+        diag.append("Meta · autorisations du token : " + ", ".join(sorted(info.get("scopes", []))))
+    except ErreurInstagram as ex:
+        diag.append(f"Meta · impossible de lire les autorisations du token : {ex}")
     ig = os.environ.get("IG_USER_ID")
     if not ig:
         try:
