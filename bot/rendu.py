@@ -121,7 +121,10 @@ def couverture(post, accent, photo):
 
     if photo is not None:
         # rap : les visuels des pages Insta ont souvent leur texte incrusté en bas → on cadre en haut
-        cy = 0.12 if post["categorie"] == "RAP FR" else 0.4
+        if photo.height > photo.width * 1.2:      # photo verticale (capture de vidéo) : on vise le visage
+            cy = 0.3
+        else:                                      # visuels des pages Insta rap : texte incrusté en bas
+            cy = 0.12 if post["categorie"] == "RAP FR" else 0.4
         img.paste(ImageOps.fit(photo, (W, PHOTO_H), method=Image.LANCZOS, centering=(0.5, cy)), (0, 0))
         chip_w = 24 + 14 + d.textlength("C’EST TOMBÉ", font=anton(34)) + 40
         d.rectangle([64, 64, 64 + chip_w, 64 + 62], fill=NOIR)

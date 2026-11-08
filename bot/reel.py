@@ -40,7 +40,7 @@ def fabriquer(post, photo, slides, texte_voix, dossier, prefixe, diag):
     fond = _fond_couverture(post, accent)
     grand = None
     if photo is not None:
-        cy = 0.12 if post["categorie"] == "RAP FR" else 0.4
+        cy = 0.3 if photo.height > photo.width * 1.2 else (0.12 if post["categorie"] == "RAP FR" else 0.4)
         grand = ImageOps.fit(photo, (int(W * 1.1), int(PH_H * 1.1)), method=Image.LANCZOS, centering=(0.5, cy))
     pages = [_plein(s) for s in slides[1:] if str(s).endswith(".jpg")]
 

@@ -197,6 +197,14 @@ def _premier(obj, cles):
     return None
 
 
+def _date_tweet(t):
+    date = t.get("createdAt") or t.get("created_at")
+    try:
+        return parsedate_to_datetime(date).isoformat() if date and "," in date else date
+    except (TypeError, ValueError):
+        return date
+
+
 def _videos_tweet(t):
     """URLs .mp4 d'un tweet, la meilleure qualité d'abord."""
     trouvees = []
@@ -244,11 +252,11 @@ def lire_x(diag, etat=None):
         return []
     recul = config.AGE_MAX_HEURES["RAP FR"] * (3 if os.environ.get("CATEGORIE", "auto") != "auto"
                                                 or os.environ.get("MODE") == "test" else 1)
-    depuis = (datetime.now(timezone.utc) - timedelta(hours=recul))
     res = []
     for compte in config.COMPTES_X:
-        entree = {"searchTerms": [f"from:{compte} since:{depuis:%Y-%m-%d_%H:%M:%S}_UTC -filter:replies"],
-                  "from": compte, "maxItems": config.X_MAX_TWEETS, "queryType": "Latest"}
+        # recherche simple « tweets de ce compte, les plus récents » ; l'âge est filtré ensuite par le bot
+        entree = {"twitterContent": f"from:{compte} -filter:replies", "maxItems": config.X_MAX_TWEETS,
+                  "queryType": "Latest", "lang": "fr"}
         try:
             r = requests.post(f"https://api.apify.com/v2/acts/{config.APIFY_ACTEUR}/run-sync-get-dataset-items",
                               params={"token": token, "timeout": 150, "maxItems": config.X_MAX_TWEETS},
@@ -258,6 +266,7 @@ def lire_x(diag, etat=None):
                 continue
             items = [t for t in r.json() if isinstance(t, dict)]
             compteur["tweets"] += len(items)          # Apify facture tout ce qu'il renvoie
+            items = [t for t in items if age_heures({"date": _date_tweet(t)}, datetime.now(timezone.utc)) <= recul]
             items = items[: config.X_MAX_TWEETS]
             gardes = 0
             for t in items:
@@ -269,11 +278,7 @@ def lire_x(diag, etat=None):
                     continue   # lignes de remplissage ajoutées par l'outil quand il y a peu de tweets
                 img = _premier(t, ["media_url_https", "mediaUrl", "media_url", "thumbnail_url"])
                 videos = _videos_tweet(t)
-                date = t.get("createdAt") or t.get("created_at")
-                try:
-                    date = parsedate_to_datetime(date).isoformat() if date and "," in date else date
-                except (TypeError, ValueError):
-                    pass
+                date = _date_tweet(t)
                 res.append({
                     "id": "x:" + tid, "categorie": "RAP FR", "source": "@" + compte.upper(),
                     "source_legende": "@" + compte + " (X)",
