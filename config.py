@@ -31,7 +31,7 @@ GAMING = {
                       "guide d'achat", "guide d’achat"],
 }
 
-COMPTES_RAP = ["rap.minute"]  # pseudos Instagram (comptes Pro), sans le @
+COMPTES_RAP = ["rap.minute", "rapfractusofficiel"]  # pseudos Instagram (comptes Pro), sans le @
 
 # ------------------------------------------------------------------ identité
 HANDLE = "@cesttombe.actu"
