@@ -234,6 +234,8 @@ def lire_x(diag, etat=None):
                 tid = str(t.get("id") or t.get("id_str") or t.get("tweetId") or "")
                 if not texte or not tid or texte.startswith("RT @") or t.get("isReply") or t.get("isRetweet"):
                     continue
+                if texte.startswith("From KaitoEasyAPI") or t.get("type") == "mock_tweet":
+                    continue   # lignes de remplissage ajoutées par l'outil quand il y a peu de tweets
                 img = _premier(t, ["media_url_https", "mediaUrl", "media_url", "thumbnail_url"])
                 date = t.get("createdAt") or t.get("created_at")
                 try:
