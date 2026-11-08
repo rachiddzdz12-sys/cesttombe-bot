@@ -124,7 +124,9 @@ def executer():
             instagram.diagnostic(diag)
 
         cands = sources.lire_gaming(diag) + sources.lire_rap(diag)
-        facteur_age = 3 if test else 1   # en test, on accepte des infos plus anciennes pour voir un rendu
+        cat_forcee = os.environ.get("CATEGORIE", "").strip().lower() in ("gaming", "rap")
+        # en test, ou en lancement manuel ciblé, on accepte des infos plus anciennes (jusqu'à 3x)
+        facteur_age = 3 if (test or (mode == "reel" and cat_forcee)) else 1
         frais = [c for c in cands if c["id"] not in etat["vus"]
                  and sources.age_heures(c, now_utc) <= config.AGE_MAX_HEURES[c["categorie"]] * facteur_age]
         diag.append(f"{len(frais)} infos fraîches et jamais traitées (sur {len(cands)} lues)")
