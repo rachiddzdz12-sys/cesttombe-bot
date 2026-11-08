@@ -107,8 +107,9 @@ def executer():
             instagram.diagnostic(diag)
 
         cands = sources.lire_gaming(diag) + sources.lire_rap(diag)
+        facteur_age = 3 if test else 1   # en test, on accepte des infos plus anciennes pour voir un rendu
         frais = [c for c in cands if c["id"] not in etat["vus"]
-                 and sources.age_heures(c, now_utc) <= config.AGE_MAX_HEURES[c["categorie"]]]
+                 and sources.age_heures(c, now_utc) <= config.AGE_MAX_HEURES[c["categorie"]] * facteur_age]
         diag.append(f"{len(frais)} infos fraîches et jamais traitées (sur {len(cands)} lues)")
 
         du_jour = posts_du_jour(etat, now_paris)
@@ -127,16 +128,29 @@ def executer():
                 diag.append(f"{cat} · tri IA impossible : {ex}")
                 continue
 
-            retenues = []
+            retenues, infos_faibles = [], []
             for c in pool:
                 n = notes.get(c["id"])
                 if not n:
+                    diag.append(f"  ?    « {c['titre'][:70]} » : pas notée par l'IA")
                     continue
                 score = int(n.get("score", 0) or 0)
-                if n.get("info") and not n.get("doublon") and score >= config.SCORE_MIN:
+                if not n.get("info"):
+                    verdict = "✗ pas une news"
+                elif n.get("doublon"):
+                    verdict = "✗ déjà publiée"
+                elif score < config.SCORE_MIN:
+                    verdict = f"✗ trop faible (mini {config.SCORE_MIN})"
+                    infos_faibles.append((score, c))
+                else:
+                    verdict = "✓"
                     retenues.append((score, c))
-                elif not test:
+                diag.append(f"  {score:>2}/10 {verdict} « {c['titre'][:70]} »")
+                if verdict != "✓" and not test:
                     vu(c)   # écartée pour de bon, on ne la reproposera pas
+            if test and not retenues and infos_faibles:
+                retenues = [max(infos_faibles, key=lambda x: x[0])]   # en test, on montre quand même un rendu
+                diag.append("  (test : aucune info au-dessus du seuil, on rend quand même la meilleure)")
             retenues.sort(key=lambda x: -x[0])
             diag.append(f"{cat} · {len(retenues)} infos retenues"
                         + (f", meilleure : « {retenues[0][1]['titre'][:80]} » ({retenues[0][0]}/10)" if retenues else ""))

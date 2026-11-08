@@ -7,7 +7,7 @@ HEURE_DEBUT = 9               # heure de Paris, premier post possible
 HEURE_FIN = 23                # heure de Paris, plus aucun post après
 ECART_MIN_MINUTES = 120       # temps minimum entre deux posts
 SCORE_MIN = 6                 # note mini (sur 10) donnée par l'IA pour qu'une info soit publiée
-AGE_MAX_HEURES = {"GAMING": 36, "RAP FR": 24}   # on ignore les infos plus vieilles
+AGE_MAX_HEURES = {"GAMING": 48, "RAP FR": 24}   # on ignore les infos plus vieilles
 
 # ------------------------------------------------------------------ sources
 GAMING = {

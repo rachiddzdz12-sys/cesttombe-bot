@@ -76,11 +76,24 @@ Réponds UNIQUEMENT en JSON : {{"resultats": [{{"id": "...", "info": true, "scor
 
 
 def trier(candidats, titres_publies):
+    """Renvoie {id réel du candidat: {"info", "score", "doublon"}}.
+
+    Gemini reçoit des numéros courts (1, 2, 3…) plutôt que les vrais identifiants (longues URL),
+    qu'il recopie parfois de travers.
+    """
     theme = "jeux vidéo" if candidats[0]["categorie"] == "GAMING" else "rap français"
-    liste = "\n".join(f'- id={c["id"]} | {c["titre"]} | {c["resume"][:280]}' for c in candidats)
+    liste = "\n".join(f'- id={i} | {c["titre"]} | {c["resume"][:280]}' for i, c in enumerate(candidats, start=1))
     deja = "\n".join(f"- {t}" for t in titres_publies[-20:]) or "(aucun)"
     rep = appel([{"text": PROMPT_TRI.format(theme=theme, deja=deja, liste=liste)}])
-    return {r["id"]: r for r in rep.get("resultats", []) if "id" in r}
+    notes = {}
+    for r in rep.get("resultats", []):
+        try:
+            i = int(str(r.get("id", "")).strip().lstrip("#")) - 1
+        except ValueError:
+            continue
+        if 0 <= i < len(candidats):
+            notes[candidats[i]["id"]] = r
+    return notes
 
 
 PROMPT_REDAC = """Tu écris un post carrousel Instagram pour « C'EST TOMBÉ », page d'actu {theme}.
