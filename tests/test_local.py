@@ -79,6 +79,13 @@ except ia.ErreurIA:
 v2 = ia.valider({"titre": "GTA 6 arrive", "mot_cle": "inexistant", "sections": [{"titre": "a", "texte": "b"}]}, it)
 check(v2["mot_cle"] == "", "IA : mot clé absent du titre → ignoré")
 check(ia._extraire_json('```json\n{"a": 1}\n```') == {"a": 1}, "IA : JSON entouré de ``` accepté")
+check(ia.valider([rep], it)["mot_cle"] == "366 Go", "IA : réponse de rédaction en liste acceptée")
+_appel_orig = ia.appel
+ia.appel = lambda parts: [{"id": 1, "info": True, "score": 7, "doublon": False}]
+check(ia.trier([it], [])[it["id"]]["score"] == 7, "IA : tri renvoyé en liste nue accepté")
+ia.appel = lambda parts: {"items": [{"id": "1", "info": True, "score": 5}]}
+check(ia.trier([it], [])[it["id"]]["score"] == 5, "IA : tri sous une autre clé accepté")
+ia.appel = _appel_orig
 
 # ------------------------------------------------------------------ 3. rendu
 out = Path(tempfile.mkdtemp())

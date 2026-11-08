@@ -110,8 +110,12 @@ def trier(candidats, titres_publies):
     liste = "\n".join(f'- id={i} | {c["titre"]} | {c["resume"][:280]}' for i, c in enumerate(candidats, start=1))
     deja = "\n".join(f"- {t}" for t in titres_publies[-20:]) or "(aucun)"
     rep = appel([{"text": PROMPT_TRI.format(theme=theme, deja=deja, liste=liste)}])
+    if isinstance(rep, dict):
+        rep = rep.get("resultats") or next((v for v in rep.values() if isinstance(v, list)), [])
     notes = {}
-    for r in rep.get("resultats", []):
+    for r in rep if isinstance(rep, list) else []:
+        if not isinstance(r, dict):
+            continue
         try:
             i = int(str(r.get("id", "")).strip().lstrip("#")) - 1
         except ValueError:
@@ -154,6 +158,10 @@ def rediger(cand, image_jpeg=None):
 
 def valider(rep, cand):
     """Contrôle et nettoie la réponse de l'IA. Lève ErreurIA si inutilisable."""
+    if isinstance(rep, list):   # parfois Gemini renvoie [ {...} ]
+        rep = next((r for r in rep if isinstance(r, dict)), {})
+    if not isinstance(rep, dict):
+        raise ErreurIA("réponse IA dans un format inattendu")
     if not rep.get("faisable", True):
         raise ErreurIA("source trop pauvre selon l'IA")
     titre = (rep.get("titre") or "").strip().rstrip(".")
