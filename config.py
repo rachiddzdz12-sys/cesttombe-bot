@@ -47,7 +47,8 @@ COMPTES_RAP = ["rap.minute", "rapfractusofficiel"]
 # Comptes X (Twitter) rap, lus via Apify (crédit gratuit de 5 $/mois, sans carte) — secret APIFY_TOKEN
 COMPTES_X = ["RapFrActus"]
 APIFY_ACTEUR = "kaitoeasyapi~twitter-x-data-tweet-scraper-pay-per-result-cheapest"
-X_MAX_TWEETS = 20  # pseudos Instagram (comptes Pro), sans le @
+X_MAX_TWEETS = 20
+X_PLAFOND_MOIS = 10000        # au-delà, plus aucune lecture X ce mois-ci (≈ 2,50 $ sur les 5 $ offerts)  # pseudos Instagram (comptes Pro), sans le @
 
 # ------------------------------------------------------------------ identité
 HANDLE = "@cesttombe.actu"

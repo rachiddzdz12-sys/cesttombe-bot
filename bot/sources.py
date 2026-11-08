@@ -195,13 +195,23 @@ def _premier(obj, cles):
     return None
 
 
-def lire_x(diag):
-    """Comptes X (Twitter) via un scraper Apify payé au résultat, couvert par le crédit gratuit mensuel."""
+def lire_x(diag, etat=None):
+    """Comptes X (Twitter) via un scraper Apify payé au résultat, couvert par le crédit gratuit mensuel.
+
+    etat["x_mois"] = {"mois": "2026-11", "tweets": 1234} : compteur pour ne jamais dépasser le plafond.
+    """
     token = os.environ.get("APIFY_TOKEN")
     if not config.COMPTES_X:
         return []
     if not token:
         diag.append("X · APIFY_TOKEN manquant : comptes X ignorés")
+        return []
+    mois = datetime.now(timezone.utc).strftime("%Y-%m")
+    compteur = (etat or {}).setdefault("x_mois", {"mois": mois, "tweets": 0})
+    if compteur.get("mois") != mois:
+        compteur.update({"mois": mois, "tweets": 0})
+    if compteur["tweets"] >= config.X_PLAFOND_MOIS:
+        diag.append(f"X · plafond du mois atteint ({compteur['tweets']} tweets) : pause jusqu'au mois prochain")
         return []
     depuis = (datetime.now(timezone.utc) - timedelta(hours=config.AGE_MAX_HEURES["RAP FR"]))
     res = []
@@ -215,7 +225,9 @@ def lire_x(diag):
             if r.status_code >= 400:
                 diag.append(f"X · @{compte} → refus Apify HTTP {r.status_code} : {r.text[:150]}")
                 continue
-            items = [t for t in r.json() if isinstance(t, dict)][: config.X_MAX_TWEETS]
+            items = [t for t in r.json() if isinstance(t, dict)]
+            compteur["tweets"] += len(items)          # Apify facture tout ce qu'il renvoie
+            items = items[: config.X_MAX_TWEETS]
             gardes = 0
             for t in items:
                 texte = (t.get("text") or t.get("full_text") or t.get("fullText") or "").strip()
@@ -236,7 +248,8 @@ def lire_x(diag):
                     "date": date, "images": [img] if isinstance(img, str) else [], "credit": "@" + compte,
                 })
                 gardes += 1
-            diag.append(f"X · @{compte} → {len(items)} tweets lus, {gardes} gardés")
+            diag.append(f"X · @{compte} → {len(items)} tweets lus, {gardes} gardés "
+                        f"(ce mois : {compteur['tweets']} / {config.X_PLAFOND_MOIS})")
         except Exception as ex:
             diag.append(f"X · @{compte} → erreur : {str(ex)[:150]}")
     return res

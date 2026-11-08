@@ -78,7 +78,7 @@ jobs:
           retention-days: 7
 
       - name: Sauvegarde de l'état
-        if: always() && steps.verif.outputs.lancer == 'true' && env.MODE != 'test'
+        if: always() && steps.verif.outputs.lancer == 'true'
         run: |
           git config user.name "cesttombe-bot"
           git config user.email "cesttombe-bot@users.noreply.github.com"

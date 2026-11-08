@@ -134,7 +134,7 @@ rap_item = {"id": "ig:42", "categorie": "RAP FR", "source": "@RAP.MINUTE", "sour
             "images": ["https://img.example/rap.jpg"], "credit": "@rap.minute"}
 sources.lire_gaming = lambda diag: [it]
 sources.lire_rap = lambda diag: [rap_item]
-sources.lire_x = lambda diag: []
+sources.lire_x = lambda diag, etat=None: []
 images.trouver_photo = lambda c, diag: (photo, c.get("credit", ""))
 appels_ia = []
 

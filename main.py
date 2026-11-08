@@ -123,7 +123,7 @@ def executer():
         if os.environ.get("IG_ACCESS_TOKEN"):
             instagram.diagnostic(diag)
 
-        cands = sources.lire_gaming(diag) + sources.lire_rap(diag) + sources.lire_x(diag)
+        cands = sources.lire_gaming(diag) + sources.lire_rap(diag) + sources.lire_x(diag, etat)
         cat_forcee = os.environ.get("CATEGORIE", "").strip().lower() in ("gaming", "rap")
         # en test, ou en lancement manuel ciblé, on accepte des infos plus anciennes (jusqu'à 3x)
         facteur_age = 3 if (test or (mode == "reel" and cat_forcee)) else 1
@@ -234,6 +234,10 @@ def executer():
     finally:
         if not test:
             sauver_etat(etat)
+        elif "x_mois" in etat:   # même en test, les tweets lus sont facturés : on garde le compteur
+            reel_etat = charger_etat()
+            reel_etat["x_mois"] = etat["x_mois"]
+            sauver_etat(reel_etat)
         if ia.JOURNAL:
             diag.append("Gemini : " + " · ".join(ia.JOURNAL))
         resume_github(diag)
