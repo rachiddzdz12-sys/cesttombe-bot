@@ -89,7 +89,7 @@ Voici des infos candidates. Pour chacune, décide :
 - "info" : true si c'est une VRAIE actualité (annonce, sortie, date, chiffre, polémique, clash, record, déclaration, rumeur sérieuse).
   false si c'est un guide, une soluce, un bon plan, une promo, une liste de prix, un test, un contenu sponsorisé, ou un post sans info (juste une ambiance, un mème, une pub).
 - "score" : de 0 à 10, à quel point ça va faire réagir notre public (10 = tout le monde va en parler).
-- "doublon" : true si c'est la même histoire qu'un des sujets déjà publiés listés plus bas.
+- "doublon" : true UNIQUEMENT si c'est exactement le même événement qu'un des sujets déjà publiés listés plus bas (même fait, même annonce). Un sujet voisin ou une suite (ex : une réaction, un procès, une nouvelle étape) n'est PAS un doublon.
 
 Sujets déjà publiés récemment :
 {deja}
