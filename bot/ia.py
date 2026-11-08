@@ -135,7 +135,7 @@ Titre : {titre}
 Texte : {texte}
 
 Produis :
-- "titre" : 6 à 10 mots, percutant, style breaking news, sans point final, sans emoji.
+- "titre" : 6 à 10 mots, percutant, style breaking news, sans point final, sans emoji. Si le titre contient deux idées, sépare-les par « : » (ex : « Maes libéré : son avocat prend la parole »).
 - "mot_cle" : 1 à 3 mots copiés EXACTEMENT du titre, le cœur de l'info (un nom, un chiffre, un mot fort).
 - "sections" : 2 à 4 sections dans l'ordre logique. Chaque section : "titre" court (ex : "Ce qui se passe", "Les détails", "C'est quand", "Ce qu'en dit le studio", "Pourquoi ça compte") et "texte" de 25 à 70 mots. Total maximum 230 mots.
 - "accroche" : 1 phrase pour la légende Instagram, avec 1 emoji maximum.
@@ -188,6 +188,8 @@ def valider(rep, cand):
     if len(titre.split()) > 14:
         titre = " ".join(titre.split()[:14])
     mot_cle = (rep.get("mot_cle") or "").strip()
+    if len(mot_cle.split()) > 3:      # un mot clé trop long colorerait la moitié du titre
+        mot_cle = ""
     if mot_cle and mot_cle.lower() not in titre.lower():
         mot_cle = ""
     elif mot_cle:  # reprend la casse exacte du titre
