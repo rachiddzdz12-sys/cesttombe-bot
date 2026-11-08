@@ -22,39 +22,64 @@ def _extraire_json(txt):
     return json.loads(txt)
 
 
+JOURNAL = []          # ce qui s'est passé avec Gemini pendant ce passage (affiché dans le résumé)
+_MODELES_HS = set()   # modèles en échec pendant ce passage : on ne les réessaie pas
+
+
+def _delai_conseille(r):
+    """Délai de réessai indiqué par Google (« retryDelay »: "33s"), sinon None."""
+    m = re.search(r'"retryDelay"\s*:\s*"(\d+)(?:\.\d+)?s"', r.text)
+    return int(m.group(1)) if m else None
+
+
 def appel(parts):
     cle = os.environ.get("GEMINI_API_KEY") or config.GEMINI_API_KEY_DANS_LE_CODE
     if not cle:
         raise ErreurIA("clé Gemini manquante")
     derniere = None
-    for modele in config.GEMINI_MODELES:
-        for essai in range(3):
+    for modele in [m for m in config.GEMINI_MODELES if m not in _MODELES_HS]:
+        for essai in range(2):
+            debut = time.time()
             try:
                 r = requests.post(URL.format(modele),
                                   headers={"x-goog-api-key": cle, "Content-Type": "application/json"},
                                   json={"contents": [{"role": "user", "parts": parts}],
                                         "generationConfig": {"responseMimeType": "application/json",
                                                              "temperature": 0.4}},
-                                  timeout=120)
+                                  timeout=90)
             except requests.RequestException as ex:
-                derniere = str(ex)
-                time.sleep(10)
+                derniere = f"{modele} : {type(ex).__name__}"
+                JOURNAL.append(f"{derniere} après {time.time() - debut:.0f} s")
                 continue
-            if r.status_code in (429, 500, 503):        # quota ou surcharge : on patiente
-                derniere = f"{modele} HTTP {r.status_code}"
-                time.sleep(20 * (essai + 1))
+            duree = time.time() - debut
+            if r.status_code == 429:
+                delai = _delai_conseille(r)
+                derniere = f"{modele} : quota atteint (HTTP 429)"
+                JOURNAL.append(derniere + (f", réessai conseillé dans {delai} s" if delai else ""))
+                if essai == 0 and delai is not None and delai <= 30:
+                    time.sleep(delai + 1)       # limite par minute : courte attente puis réessai
+                    continue
+                break                           # quota du jour ou attente trop longue : modèle suivant
+            if r.status_code in (500, 503):
+                derniere = f"{modele} : surchargé (HTTP {r.status_code})"
+                JOURNAL.append(derniere)
+                time.sleep(8)
                 continue
-            if r.status_code in (400, 404) and "model" in r.text.lower():
-                derniere = f"{modele} indisponible"
-                break                                   # modèle inconnu : on passe au suivant
+            if r.status_code in (400, 403, 404):
+                derniere = f"{modele} : refusé (HTTP {r.status_code}) {r.text[:160]}"
+                JOURNAL.append(derniere)
+                break
             if r.status_code != 200:
                 raise ErreurIA(f"{modele} HTTP {r.status_code} : {r.text[:300]}")
             try:
                 cand = r.json()["candidates"][0]["content"]["parts"]
-                return _extraire_json("".join(p.get("text", "") for p in cand))
+                rep = _extraire_json("".join(p.get("text", "") for p in cand if not p.get("thought")))
+                JOURNAL.append(f"{modele} : réponse en {duree:.0f} s")
+                return rep
             except (KeyError, IndexError, json.JSONDecodeError) as ex:
-                derniere = f"réponse illisible ({ex})"
-                time.sleep(5)
+                derniere = f"{modele} : réponse illisible ({type(ex).__name__})"
+                JOURNAL.append(derniere)
+        _MODELES_HS.add(modele)
     raise ErreurIA(f"Gemini n'a pas répondu correctement : {derniere}")
 
 

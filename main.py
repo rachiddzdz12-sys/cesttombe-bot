@@ -73,6 +73,14 @@ def resume_github(lignes):
             fh.write("### C'EST TOMBÉ\n\n" + "\n".join(f"- {l}" for l in lignes) + "\n")
 
 
+class Journal(list):
+    """Liste de lignes de diagnostic, affichées au fur et à mesure (avec l'heure dans les logs GitHub)."""
+
+    def append(self, ligne):
+        print(ligne, flush=True)
+        super().append(ligne)
+
+
 # ------------------------------------------------------------------ --verif
 def verif():
     mode = os.environ.get("MODE", "auto")
@@ -96,7 +104,8 @@ def executer():
 
     mode = os.environ.get("MODE", "auto")
     test = mode == "test"
-    diag = [f"Mode : {mode}"]
+    diag = Journal([f"Mode : {mode}"])
+    print(diag[0], flush=True)
     etat = charger_etat()
     now_utc = datetime.now(timezone.utc)
     now_paris = now_utc.astimezone(PARIS)
@@ -191,7 +200,8 @@ def executer():
     finally:
         if not test:
             sauver_etat(etat)
-        print("\n".join(diag))
+        if ia.JOURNAL:
+            diag.append("Gemini : " + " · ".join(ia.JOURNAL))
         resume_github(diag)
     return code
 
