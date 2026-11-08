@@ -2,7 +2,7 @@
 import os
 
 # ------------------------------------------------------------------ interrupteur
-PUBLICATION_AUTO = False      # True = le bot publie tout seul toutes les 30 min
+PUBLICATION_AUTO = True       # True = le bot publie tout seul toutes les 30 min
 
 # ------------------------------------------------------------------ rythme
 POSTS_PAR_JOUR = 6            # total gaming + rap

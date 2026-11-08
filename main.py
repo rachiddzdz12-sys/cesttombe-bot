@@ -131,6 +131,9 @@ def executer():
 
         du_jour = posts_du_jour(etat, now_paris)
         ordre = sorted(["GAMING", "RAP FR"], key=lambda cat: sum(p["categorie"] == cat for p in du_jour))
+        forcee = {"gaming": "GAMING", "rap": "RAP FR"}.get(os.environ.get("CATEGORIE", "").strip().lower())
+        if forcee:   # lancement manuel ciblé sur une catégorie
+            ordre = [forcee] + [c for c in ordre if c != forcee]
         titres_publies = [p["titre"] for p in etat["publies"]]
         vu = lambda c: etat["vus"].__setitem__(c["id"], now_utc.isoformat())
 

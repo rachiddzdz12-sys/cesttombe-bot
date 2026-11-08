@@ -11,6 +11,11 @@ on:
         type: choice
         options: [test, reel]
         default: test
+      categorie:
+        description: "catégorie à essayer en premier (auto = alterne)"
+        type: choice
+        options: [auto, gaming, rap]
+        default: auto
 
 permissions:
   contents: write
@@ -25,6 +30,7 @@ jobs:
     timeout-minutes: 15
     env:
       MODE: ${{ github.event.inputs.mode || 'auto' }}
+      CATEGORIE: ${{ github.event.inputs.categorie || 'auto' }}
       PUBLICATION: ${{ vars.PUBLICATION }}
     steps:
       - uses: actions/checkout@v6
