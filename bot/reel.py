@@ -4,6 +4,7 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageOps
 
+import config
 from bot import rendu, voix
 
 W, H, FPS = 1080, 1920, 30
@@ -67,11 +68,14 @@ def fabriquer(post, photo, slides, texte_voix, dossier, prefixe, diag):
         return img
 
     sortie = dossier / f"{prefixe}-reel.mp4"
+    duree_video = sum(d for _, d in scenes)
+    piste = mixer_audio(audio, duree_video, dossier / f"{prefixe}-mix.wav", diag)
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",
            "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-"]
-    cmd += ["-i", str(audio), "-af", "apad"] if audio else ["-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo"]
+    cmd += ["-i", str(piste)] if piste else ["-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo"]
     cmd += ["-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-pix_fmt", "yuv420p", "-r", str(FPS),
-            "-c:a", "aac", "-b:a", "128k", "-ar", "44100", "-shortest", "-movflags", "+faststart", str(sortie)]
+            "-c:a", "aac", "-b:a", "160k", "-ar", "44100", "-t", f"{duree_video:.2f}",
+            "-movflags", "+faststart", str(sortie)]
     ff = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     try:
         for i, sc in enumerate(scenes):
@@ -87,5 +91,39 @@ def fabriquer(post, photo, slides, texte_voix, dossier, prefixe, diag):
         pass
     if ff.wait() != 0 or not sortie.exists():
         raise RuntimeError("ffmpeg n'a pas pu créer le Reel")
-    diag.append(f"  reel · {voix.duree(sortie):.1f} s {'avec voix' if audio else 'muet'}")
+    diag.append(f"  reel · {voix.duree(sortie):.1f} s {'avec voix' if audio else 'sans voix'}"
+                f"{' + musique' if musique() else ''}")
+    return sortie
+
+
+def musique():
+    f = Path(__file__).resolve().parent.parent / config.MUSIQUE
+    return f if config.MUSIQUE and f.exists() else None
+
+
+def mixer_audio(voix_off, duree, sortie, diag):
+    """Voix devant, musique loin derrière : la musique baisse encore quand la voix parle (ducking)."""
+    fond = musique()
+    if not fond:
+        return voix_off            # pas de musique : la voix seule (ou rien)
+    t = f"{duree:.2f}"
+    fin = max(0.0, duree - 1.5)
+    vol = config.MUSIQUE_VOLUME if voix_off else config.MUSIQUE_VOLUME * 2.5
+    entree_musique = ["-stream_loop", "-1", "-ss", str(config.MUSIQUE_DEBUT), "-i", str(fond)]
+    musique_f = (f"aresample=44100,aformat=channel_layouts=stereo,atrim=0:{t},asetpts=N/SR/TB,"
+                 f"volume={vol},afade=t=in:d=0.6,afade=t=out:st={fin:.2f}:d=1.5")
+    if voix_off:
+        cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", str(voix_off), *entree_musique, "-filter_complex",
+               f"[0:a]aresample=44100,aformat=channel_layouts=stereo,adelay=300|300,apad,atrim=0:{t},"
+               f"asplit=2[v][cle];[1:a]{musique_f}[m];"
+               f"[m][cle]sidechaincompress=threshold=0.02:ratio=5:attack=15:release=450[md];"
+               f"[v][md]amix=inputs=2:normalize=0:duration=first,alimiter=limit=0.95[out]",
+               "-map", "[out]", "-t", t, str(sortie)]
+    else:
+        cmd = ["ffmpeg", "-y", "-loglevel", "error", *entree_musique, "-filter_complex",
+               f"[0:a]{musique_f}[out]", "-map", "[out]", "-t", t, str(sortie)]
+    r = subprocess.run(cmd, capture_output=True, text=True)
+    if r.returncode != 0:
+        diag.append(f"  ⚠️ mixage musique impossible, voix seule : {r.stderr[-150:]}")
+        return voix_off
     return sortie

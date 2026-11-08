@@ -9,6 +9,9 @@ REELS = True                  # publie aussi un Reel avec voix off pour chaque i
 REEL_DANS_LE_FEED = False     # False = le Reel va dans l'onglet Reels, le carrousel reste seul dans la grille
 VOIX = "fr-FR-DeniseNeural"     # autres voix : fr-FR-RemyMultilingualNeural, fr-FR-DeniseNeural, fr-FR-VivienneMultilingualNeural
 VOIX_VITESSE = "+8%"
+MUSIQUE = "musique/fond.mp3"  # instru de fond de chaque Reel (laisser vide "" pour aucune)
+MUSIQUE_VOLUME = 0.14         # 0.14 ≈ -17 dB : la musique accompagne, la voix reste devant
+MUSIQUE_DEBUT = 0             # secondes à sauter au début de l'instru (intro trop calme, par ex.)
 VOIX_A_TESTER = ["fr-FR-VivienneMultilingualNeural", "fr-FR-DeniseNeural", "fr-FR-EloiseNeural",
                  "fr-FR-RemyMultilingualNeural"]
 
