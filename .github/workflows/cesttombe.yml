@@ -1,0 +1,72 @@
+name: C'EST TOMBÉ
+
+on:
+  schedule:
+    # toutes les 30 min de 7h à 22h30 (heure UTC) ; le script vérifie lui-même l'heure de Paris
+    - cron: "*/30 6-21 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "test = génère les carrousels sans publier · reel = publie un post maintenant"
+        type: choice
+        options: [test, reel]
+        default: test
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cesttombe
+  cancel-in-progress: false
+
+jobs:
+  bot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      MODE: ${{ github.event.inputs.mode || 'auto' }}
+      PUBLICATION: ${{ vars.PUBLICATION }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Faut-il poster maintenant ?
+        id: verif
+        run: python3 main.py --verif
+
+      - uses: actions/setup-python@v5
+        if: steps.verif.outputs.lancer == 'true'
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installation
+        if: steps.verif.outputs.lancer == 'true'
+        run: pip install -r requirements.txt
+
+      - name: Lecture des sources, rédaction, rendu, publication
+        if: steps.verif.outputs.lancer == 'true'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IMAGES_TOKEN: ${{ secrets.IMAGES_TOKEN }}
+          IMAGES_REPO: ${{ vars.IMAGES_REPO }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+        run: python main.py
+
+      - name: Carrousels générés (à télécharger)
+        if: always() && steps.verif.outputs.lancer == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: carrousels-${{ github.run_number }}
+          path: sortie/
+          if-no-files-found: ignore
+          retention-days: 7
+
+      - name: Sauvegarde de l'état
+        if: always() && steps.verif.outputs.lancer == 'true' && env.MODE != 'test'
+        run: |
+          git config user.name "cesttombe-bot"
+          git config user.email "cesttombe-bot@users.noreply.github.com"
+          git add etat.json
+          git diff --cached --quiet || (git commit -q -m "état : mise à jour" && git push -q)
