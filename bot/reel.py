@@ -87,14 +87,16 @@ def _ampli_sure(media, choix, zone):
     return 0.0
 
 
-def plans_photo(post, images, bloc, total, diag):
-    """Première image : titre dessus ; les suivantes : juste le pseudo."""
+def plans_photo(post, images, bloc, total, diag, premieres=None):
+    """Première image (tirée de la source de l'info) : titre dessus ; les suivantes : juste le pseudo,
+    en commençant par les photos venues d'ailleurs pour varier."""
     hb = bloc["h"]
     utilises = {}
-    m0, c0 = da.meilleur_cadrage(images[:3], hb, utilises, W=W, H=H, fixes=fixes_titre(hb), **da.REEL)
+    m0, c0 = da.meilleur_cadrage(premieres or images[:3], hb, utilises, W=W, H=H, fixes=fixes_titre(hb), **da.REEL)
     zone = (da.M, c0["y0"], W - da.REEL["marge_droite"], c0["y1"])
     plans = [[m0, c0, calque_titre(post, c0, bloc), _ampli_sure(m0, c0, zone)]]
-    autres = [m for m in images if m["nom"] != m0["nom"]][:4]
+    autres = sorted([m for m in images if m["nom"] != m0["nom"]],
+                    key=lambda m: (m.get("origine") == "source", m["nom"].startswith("video@")))[:4]
     n = min(len(autres), max(0, int((total - 3.5) // PLAN_MIN)))
     for i, m in enumerate(autres[:n]):
         c = placement.choisir(m["img"], m["analyse"], W, H, 50, zones=("haut",), bord_haut=da.REEL["bord_haut"],
@@ -192,8 +194,8 @@ def fabriquer(post, medias, texte_voix, dossier, prefixe, diag):
         else:
             diag.append("  reel · trop de texte incrusté sur la vidéo : voix off sur la photo, puis vidéo brute")
             if l1:
-                pool = images or v["images"]
-                muet = video_des_plans(plans_photo(post, pool, bloc, l1, diag), tmp / "p1.mp4")
+                muet = video_des_plans(plans_photo(post, images + v["images"], bloc, l1, diag,
+                                                   premieres=da.de_la_source(images, v)), tmp / "p1.mp4")
                 partie1 = _avec_son(muet, mixer_audio(audio, l1, tmp / "mix.wav", diag), l1, tmp / "p1s.mp4")
             if l2:
                 partie2 = vid.rendre(v, vid.cadrage_centre(v, W, H), tmp / "p2.mp4", W, H, 0, l2, son=True)
@@ -204,7 +206,8 @@ def fabriquer(post, medias, texte_voix, dossier, prefixe, diag):
     else:
         total = l1 if l1 else 11.0
         pool = images or [{"img": da.fond_neutre((W, H)), "analyse": {"textes": [], "visages": []}, "nom": "neutre"}]
-        muet = video_des_plans(plans_photo(post, pool, bloc, total, diag), tmp / "p1.mp4")
+        muet = video_des_plans(plans_photo(post, pool, bloc, total, diag, premieres=da.de_la_source(pool)),
+                               tmp / "p1.mp4")
         _avec_son(muet, mixer_audio(audio, total, tmp / "mix.wav", diag), total, sortie)
 
     diag.append(f"  reel · {voix.duree(sortie):.1f} s {'avec voix' if audio else 'sans voix'}"

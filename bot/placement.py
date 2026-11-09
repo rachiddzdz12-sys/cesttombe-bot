@@ -25,6 +25,12 @@ def _visages():
     return cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
 
 
+@lru_cache(maxsize=1)
+def _profils():
+    import cv2
+    return cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_profileface.xml")
+
+
 def analyser(img):
     """Renvoie {"textes": [(x0,y0,x1,y1)], "visages": [...]} en pixels de l'image source."""
     import cv2
@@ -40,9 +46,16 @@ def analyser(img):
     except Exception:
         pass
     gris = cv2.cvtColor(rgb, cv2.COLOR_RGB2GRAY)
-    mini = max(40, min(gris.shape) // 12)
+    mini = max(24, min(gris.shape) // 25)        # visages assez petits aussi (photo de plain-pied)
     visages = [(x, y, x + w, y + h) for x, y, w, h in
                _visages().detectMultiScale(gris, scaleFactor=1.1, minNeighbors=6, minSize=(mini, mini))]
+    # visages de profil, tournés d'un côté ou de l'autre
+    larg = gris.shape[1]
+    for miroir in (False, True):
+        g = cv2.flip(gris, 1) if miroir else gris
+        for x, y, w, h in _profils().detectMultiScale(g, scaleFactor=1.1, minNeighbors=6, minSize=(mini, mini)):
+            x0 = larg - x - w if miroir else x
+            visages.append((x0, y, x0 + w, y + h))
     return {"textes": textes, "visages": visages}
 
 
