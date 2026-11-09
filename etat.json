@@ -32,7 +32,9 @@
   "ag:https://www.actugaming.net/?p=832823": "2026-11-09T12:38:21.680051+00:00",
   "ig:18180538486386328": "2026-11-09T12:41:00.559208+00:00",
   "ig:18136214197738458": "2026-11-09T12:41:00.559208+00:00",
-  "ag:https://www.actugaming.net/?p=832830": "2026-11-09T12:47:31.862996+00:00"
+  "ag:https://www.actugaming.net/?p=832830": "2026-11-09T12:47:31.862996+00:00",
+  "ag:https://www.actugaming.net/?p=832827": "2026-11-09T12:50:08.124277+00:00",
+  "ag:https://www.actugaming.net/?p=832850": "2026-11-09T12:50:08.124277+00:00"
  },
  "publies": [
   {
@@ -144,10 +146,18 @@
    "source_id": "ag:https://www.actugaming.net/?p=832830",
    "lien": "https://www.instagram.com/p/DfhXiVnn4Yb/",
    "reel": "https://www.instagram.com/reel/DfhXjzblQFC/"
+  },
+  {
+   "ts": "2026-11-09T12:50:08.124277+00:00",
+   "categorie": "GAMING",
+   "titre": "God of War Sons of Sparta : bientôt un portage sur PS4",
+   "source_id": "ag:https://www.actugaming.net/?p=832850",
+   "lien": "https://www.instagram.com/p/DfhX6AgDcGf/",
+   "reel": "https://www.instagram.com/reel/DfhX7WRgGyb/"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 227
+  "tweets": 247
  }
 }
