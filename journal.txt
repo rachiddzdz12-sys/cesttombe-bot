@@ -1,0 +1,16 @@
+Apify « from:teddyriner candidat » → 15 tweets, vidéo trouvée : oui
+Tweet : La résignation n'est pas une option. Face aux difficultés de notre pays, l'heure est venue de prendre ses responsabilités.  Je suis candidat
+  photo · 1 image(s) : 675x1200
+  visuels · commons « Teddy Riner » → 4 image(s)
+[0;93m2026-11-09 14:05:34.479606698 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+  vidéo · téléchargée (157 s, 54 Mo)
+  vidéo · 40 images analysées, texte incrusté sur 32
+  couverture · photo1 · zone bas · zoom 1.0 · propre
+  vidéo · trop de texte incrusté pour y poser le titre : slide 2 brute
+carrousel prêt (4 slides) : ['20261109-1505-actu-1.jpg', '20261109-1505-actu-2-video.mp4', '20261109-1505-actu-3.jpg', '20261109-1505-actu-4.jpg']
+  voix · Gemini (Aoede) (8.9 s)
+  reel · trop de texte incrusté sur la vidéo : voix off sur la photo, puis vidéo brute
+  reel · 3 image(s) animée(s), titre zone bas
+  reel · 29.8 s avec voix + musique + son de la vidéo
+✅ CARROUSEL PUBLIÉ : https://www.instagram.com/p/DfhhG3SjJlY/
+✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfhhLQeDTYn/
