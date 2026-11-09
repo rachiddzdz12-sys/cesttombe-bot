@@ -10,7 +10,7 @@ VIDEOS = True                 # si la source a une vidéo, elle devient la slide
 # ------------------------------------------------------------------ Reels
 REELS = True                  # publie aussi un Reel avec voix off pour chaque info
 REEL_DANS_LE_FEED = False     # False = le Reel va dans l'onglet Reels, le carrousel reste seul dans la grille
-VOIX = "fr-FR-DeniseNeural"     # autres voix : fr-FR-RemyMultilingualNeural, fr-FR-DeniseNeural, fr-FR-VivienneMultilingualNeural
+VOIX = "gemini:Aoede"           # voix Gemini (très naturelle) ; si elle ne répond pas : VOIX_SECOURS (edge-tts)
 VOIX_VITESSE = "+8%"
 VOIX_SECOURS = "fr-FR-DeniseNeural"   # voix edge-tts utilisée si la voix Gemini ne répond pas
 # Voix Gemini (VOIX = "gemini:<nom>") : ton demandé à la voix, avant le texte

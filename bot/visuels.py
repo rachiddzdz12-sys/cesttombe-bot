@@ -64,6 +64,7 @@ def steam(nom, n=4):
 # ------------------------------------------------------------------ Deezer (artistes)
 def deezer(nom, n=3):
     r = _get("https://api.deezer.com/search/artist", params={"q": nom, "limit": 5})
+    n += 2                                # des pochettes en double (éditions deluxe) seront écartées
     artiste = next((a for a in r.json().get("data", []) if _correspond(nom, a.get("name", ""), 1.0)), None)
     if not artiste:
         return []
@@ -109,7 +110,8 @@ SOURCES = {"jeu": (steam,), "artiste": (deezer, commons), "personne": (commons,)
 def chercher(sujets, diag, n=4):
     """sujets = [{"type": "jeu" | "artiste" | "personne" | "autre", "nom": "…"}] (donnés par l'IA).
     Renvoie [(image PIL, crédit)] — crédit non vide quand la licence l'exige."""
-    trouvees = []
+    from bot.images import _empreinte
+    trouvees, empreintes = [], []
     for s in (sujets or [])[:2]:
         nom, typ = (s.get("nom") or "").strip(), (s.get("type") or "autre").strip().lower()
         if not nom:
@@ -125,9 +127,14 @@ def chercher(sujets, diag, n=4):
             ok = 0
             for url, credit in urls:
                 try:
-                    trouvees.append((_image(url), credit))
-                    ok += 1
+                    img = _image(url)
                 except Exception:
                     continue
+                e = _empreinte(img)
+                if any(sum(a != b for a, b in zip(e, f)) < 10 for f in empreintes):
+                    continue                    # même image (ex : pochette de l'édition deluxe)
+                empreintes.append(e)
+                trouvees.append((img, credit))
+                ok += 1
             diag.append(f"  visuels · {fn.__name__} « {nom} » → {ok} image(s)")
     return trouvees[:n]
