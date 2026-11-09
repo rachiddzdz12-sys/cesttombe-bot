@@ -1,0 +1,74 @@
+name: Rafale de posts (demandée à la main)
+
+# Publie jusqu'à 6 infos jamais postées, l'une après l'autre, avec le code et l'état de main.
+on:
+  push:
+    branches: [rafale]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cesttombe            # jamais en même temps que le bot principal
+  cancel-in-progress: false
+
+jobs:
+  rafale:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installation
+        run: |
+          pip install -r requirements.txt
+          pip install --no-deps rapidocr-onnxruntime==1.2.3
+          which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+
+      - name: Publication des posts
+        env:
+          MODE: reel
+          SCORE_MIN: "5"
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          GITHUB_TOKEN: ${{ github.token }}
+          IMAGES_TOKEN: ${{ secrets.IMAGES_TOKEN }}
+          IMAGES_REPO: ${{ vars.IMAGES_REPO }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+        run: |
+          git config user.name "cesttombe-bot"
+          git config user.email "cesttombe-bot@users.noreply.github.com"
+          compte() { python3 -c "import json; print(len(json.load(open('etat.json'))['publies']))"; }
+          depart=$(compte); vides=0; avant=0
+          for passage in 1 2 3 4 5 6 7 8; do
+            python main.py 2>&1 | tee -a journal.txt || true
+            git add etat.json
+            git diff --cached --quiet || git commit -q -m "état : rafale (passage $passage)"
+            for essai in 1 2 3; do git pull -q --no-rebase --no-edit origin main && git push -q origin HEAD:main && break; sleep 5; done
+            faits=$(( $(compte) - depart ))
+            echo "=== passage $passage : $faits posts publiés ===" | tee -a journal.txt
+            if [ "$faits" -ge 6 ]; then break; fi
+            if [ "$faits" -eq "$avant" ]; then vides=$((vides + 1)); else vides=0; fi
+            avant=$faits
+            if [ "$vides" -ge 2 ]; then echo "plus d'info à publier" | tee -a journal.txt; break; fi
+            sleep 45
+          done
+
+      - name: Journal
+        if: always()
+        run: |
+          mkdir -p /tmp/j && cp journal.txt /tmp/j/ 2>/dev/null || true
+          find sortie -maxdepth 1 -type f \( -name "*.jpg" -o -name "*-legende.txt" \) -exec cp {} /tmp/j/ \;
+          cd /tmp/j && git init -q -b rafale-journal
+          git config user.name "cesttombe-bot" && git config user.email "cesttombe-bot@users.noreply.github.com"
+          git add -A && git commit -q -m "Journal rafale" && \
+          git push -q --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" rafale-journal
