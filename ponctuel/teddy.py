@@ -16,7 +16,7 @@ sys.path.insert(0, str(RACINE))
 
 import config  # noqa: E402
 import main  # noqa: E402
-from bot import da, hebergement, images, instagram, reel, rendu, sources  # noqa: E402
+from bot import da, hebergement, images, instagram, reel, rendu, sources, visuels  # noqa: E402
 
 rendu.ACCENTS["ACTU"] = "#2EE6FF"          # catégorie actu générale : cyan (ni lime gaming, ni orange rap)
 SORTIE = main.SORTIE
@@ -38,11 +38,9 @@ post = {
                   "ni de gauche."},
     ],
 }
-voix_off = ("Teddy Riner se lance dans la course à l’Élysée. Ce lundi, le quintuple champion olympique de judo "
-            "a annoncé sa candidature à l’élection présidentielle de 2027, dans une vidéo publiée sur ses réseaux. "
-            "Il dit que sa décision remonte à l’après JO de Paris, et se présente comme ni de droite ni de gauche. "
-            "Abonne-toi à C’est tombé pour pas rater la suite.")
-legende = ("Teddy Riner annonce sa candidature à la présidentielle 2027 🗳️\n\n"
+voix_off = ("Teddy Riner se lance dans la course à l’Élysée. Le quintuple champion olympique a annoncé ce lundi "
+            "sa candidature à la présidentielle 2027, dans une vidéo sur ses réseaux. Abonne-toi à C’est tombé.")
+legende = ("Teddy Riner se lance pour 2027 : retour sur son annonce en images 🗳️\n\n"
            "Glisse pour tout savoir 👉\n\n"
            "Sources : @teddyriner (X), franceinfo\n\n"
            "#teddyriner #presidentielle2027 #election #actualite #cesttombe")
@@ -74,7 +72,11 @@ diag.append(f"Tweet : {(tweet.get('text') or tweet.get('fullText') or '')[:140]}
 # ------------------------------------------------------------------ 2. rendu DA v2
 prefixe = f"{datetime.now(main.PARIS):%Y%m%d-%H%M}-actu"
 photos, _ = images.trouver_images(cand, diag)
-medias = main.preparer_medias(cand, photos, prefixe, diag)
+n_source = len(photos)
+photos, credits = images.completer(photos, visuels.chercher([{"type": "personne", "nom": "Teddy Riner"}], diag))
+if credits:
+    legende = legende.replace("\n\n#", f"\nPhotos : {' · '.join(credits)}\n\n#", 1)
+medias = main.preparer_medias(cand, photos, prefixe, diag, n_source)
 fichiers = da.carrousel(post, medias, SORTIE, prefixe, diag)
 diag.append(f"carrousel prêt ({len(fichiers)} slides) : {[f.name for f in fichiers]}")
 video = reel.fabriquer(post, medias, voix_off, SORTIE, prefixe, diag)
@@ -93,7 +95,7 @@ except instagram.ErreurInstagram as ex:
     urls = hebergement.heberger(fichiers + [video])
     lien = instagram.publier_carrousel(urls[:len(fichiers)], legende)
 diag.append(f"✅ CARROUSEL PUBLIÉ : {lien}")
-pub = {"ts": datetime.now(timezone.utc).isoformat(), "categorie": "ACTU", "titre": post["titre"],
+pub = {"ts": datetime.now(timezone.utc).isoformat(), "categorie": "ACTU", "titre": post["titre"] + " (en images)",
        "source_id": "x:" + str(tweet.get("id") or tweet.get("id_str") or ""), "lien": lien}
 try:
     pub["reel"] = instagram.publier_reel(urls[-1], legende, config.REEL_DANS_LE_FEED)
