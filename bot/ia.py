@@ -169,7 +169,7 @@ def rediger(cand, image_jpeg=None):
                 res = res2
         except ErreurIA:
             pass
-    return apostrophes(res)
+    return accents_manquants(apostrophes(res), cand)
 
 
 _ELISION = re.compile(r"\b(qu|[ldnsjmtcLDNSJMTC]|Qu|QU) (?=[aeiouyhéèêàâîôûAEIOUYHÉÈÊÀÂÎÔÛ])")
@@ -184,6 +184,43 @@ def _defauts(res):
     lettres = sum(c.isalpha() for c in texte) or 1
     accents = sum(c in ACCENTS for c in texte)
     return len(_ELISION.findall(texte)) + (5 if accents / lettres < 0.008 else 0)
+
+
+def _sans_accent(mot):
+    import unicodedata
+    return "".join(c for c in unicodedata.normalize("NFD", mot) if unicodedata.category(c) != "Mn")
+
+
+_AMBIGUS = {"cote", "marche", "peche", "tache", "sale", "mais", "jeune", "eleve", "pecher", "retraite", "ferme"}
+
+
+def accents_manquants(res, cand=None):
+    """Remet les accents oubliés sur un mot (souvent un nom ou le titre) quand le même mot apparaît
+    ailleurs correctement accentué (« pitie » → « pitié », « Cedric » → « Cédric »)."""
+    corpus = " ".join(_champs(res) + [s["titre"] for s in res["sections"]])
+    connus = {}
+    for m in re.findall(r"[\wÀ-ÿ’'-]+", corpus):
+        if any(c in ACCENTS for c in m) and len(m) >= 4:
+            connus.setdefault(_sans_accent(m).lower(), m.lower())
+
+    def fix(texte):
+        def remplace(mt):
+            m = mt.group(0)
+            cle = m.lower()
+            if len(m) < 4 or cle in _AMBIGUS or any(c in ACCENTS for c in m) or cle not in connus:
+                return m
+            bon = connus[cle]
+            if m.isupper():
+                return bon.upper()
+            return bon[0].upper() + bon[1:] if m[0].isupper() else bon
+        return re.sub(r"[\wÀ-ÿ]+", remplace, texte)
+
+    res["titre"] = fix(res["titre"])
+    res["mot_cle"] = fix(res.get("mot_cle", ""))
+    res["voix_off"] = fix(res.get("voix_off", ""))
+    for s in res["sections"]:
+        s["texte"], s["titre"] = fix(s["texte"]), fix(s["titre"])
+    return res
 
 
 def apostrophes(res):
