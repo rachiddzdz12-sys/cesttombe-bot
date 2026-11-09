@@ -34,7 +34,8 @@
   "ig:18136214197738458": "2026-11-09T12:41:00.559208+00:00",
   "ag:https://www.actugaming.net/?p=832830": "2026-11-09T12:47:31.862996+00:00",
   "ag:https://www.actugaming.net/?p=832827": "2026-11-09T12:50:08.124277+00:00",
-  "ag:https://www.actugaming.net/?p=832850": "2026-11-09T12:50:08.124277+00:00"
+  "ag:https://www.actugaming.net/?p=832850": "2026-11-09T12:50:08.124277+00:00",
+  "ag:https://www.actugaming.net/?p=832836": "2026-11-09T12:53:18.313050+00:00"
  },
  "publies": [
   {
@@ -154,10 +155,18 @@
    "source_id": "ag:https://www.actugaming.net/?p=832850",
    "lien": "https://www.instagram.com/p/DfhX6AgDcGf/",
    "reel": "https://www.instagram.com/reel/DfhX7WRgGyb/"
+  },
+  {
+   "ts": "2026-11-09T12:53:18.313050+00:00",
+   "categorie": "GAMING",
+   "titre": "PlayStation remet en avant ses jeux exclusifs sur son site",
+   "source_id": "ag:https://www.actugaming.net/?p=832836",
+   "lien": "https://www.instagram.com/p/DfhYNHTGkL9/",
+   "reel": "https://www.instagram.com/reel/DfhYS2mgche/"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 247
+  "tweets": 267
  }
 }
