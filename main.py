@@ -108,7 +108,7 @@ def verif():
 
 # ------------------------------------------------------------------ travail principal
 def executer():
-    from bot import da, hebergement, ia, images, instagram, reel, sources
+    from bot import da, hebergement, ia, images, instagram, reel, sources, visuels
 
     mode = os.environ.get("MODE", "auto")
     test = mode == "test"
@@ -193,6 +193,9 @@ def executer():
                     if not test:
                         vu(c)
                     continue
+                photos, credits = images.completer(photos, visuels.chercher(red.get("visuels"), diag))
+                if credits:   # photos sous licence libre : le crédit est obligatoire
+                    red["legende"] = red["legende"].replace("\n\n#", f"\nPhotos : {' · '.join(credits)}\n\n#", 1)
                 post = {"categorie": cat, "source": c["source"], "credit": credit, **red}
                 prefixe = f"{now_paris:%Y%m%d-%H%M}-{'jv' if cat == 'GAMING' else 'rap'}"
                 medias = preparer_medias(c, photos, prefixe, diag)
@@ -327,15 +330,14 @@ def photos_brutes():
 def echantillons_voix():
     """Mode « voix » : fait lire la même phrase par plusieurs voix et les met en ligne pour comparer."""
     from bot import hebergement, voix
-    texte = ("Maes est officiellement sorti de prison après 22 mois de détention. "
-             "Son avocat parle d'un tournant majeur dans le dossier. "
-             "Abonne-toi à C'est tombé pour pas rater la suite.")
+    texte = ("Teddy Riner se lance dans la course à l’Élysée. Le quintuple champion olympique a annoncé ce lundi "
+             "sa candidature à la présidentielle 2027, dans une vidéo sur ses réseaux. Abonne-toi à C’est tombé.")
     diag, fichiers = Journal(["Mode : voix"]), []
     for v in config.VOIX_A_TESTER:
         config.VOIX = v
         f = voix.lire(texte, SORTIE / v, diag)
         if f:
-            dest = SORTIE / f"voix-{v}.mp3"
+            dest = SORTIE / f"voix-{v.replace(':', '-')}.mp3"
             f.rename(dest)
             fichiers.append(dest)
     if fichiers:
