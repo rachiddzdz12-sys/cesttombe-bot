@@ -93,7 +93,7 @@ def publication_auto():
 def verif():
     mode = os.environ.get("MODE", "auto")
     maintenant = datetime.now(PARIS)
-    if mode in ("test", "reel", "voix"):
+    if mode in ("test", "reel", "voix", "photos"):
         lancer, raison = True, f"lancement manuel ({mode})"
     elif not publication_auto():
         lancer, raison = False, "publication automatique désactivée (PUBLICATION_AUTO = False dans config.py)"
@@ -267,6 +267,44 @@ def executer():
     return code
 
 
+def photos_brutes():
+    """Mode « photos » : télécharge les images brutes des meilleures infos du moment (pour faire des maquettes)."""
+    from bot import hebergement, images, sources
+    diag = Journal(["Mode : photos"])
+    etat = charger_etat()
+    cands = sources.lire_gaming(diag) + sources.lire_rap(diag) + sources.lire_x(diag, etat)
+    fichiers = []
+    for n, c in enumerate([c for c in cands if c.get("images")][:12]):
+        for k, url in enumerate(c["images"][:4]):
+            try:
+                img = images._telecharger(url)
+                f = SORTIE / f"brut-{n:02d}-{k}.jpg"
+                f.parent.mkdir(parents=True, exist_ok=True)
+                img.save(f, "JPEG", quality=90)
+                fichiers.append(f)
+                diag.append(f"  {f.name} · {img.width}x{img.height} · {c['titre'][:60]}")
+            except Exception as ex:
+                diag.append(f"  échec {url[:60]} : {str(ex)[:80]}")
+        for k, url in enumerate(c.get("videos", [])[:1]):
+            try:
+                r = sources.http_get(url)
+                f = SORTIE / f"brut-{n:02d}-video.mp4"
+                f.write_bytes(r.content)
+                fichiers.append(f)
+                diag.append(f"  {f.name} · vidéo · {c['titre'][:60]}")
+            except Exception as ex:
+                diag.append(f"  échec vidéo : {str(ex)[:80]}")
+    if fichiers:
+        hebergement.heberger(fichiers)
+        diag.append(f"{len(fichiers)} fichiers en ligne")
+    if "x_mois" in etat:
+        e = charger_etat()
+        e["x_mois"] = etat["x_mois"]
+        sauver_etat(e)
+    resume_github(diag)
+    return 0
+
+
 def echantillons_voix():
     """Mode « voix » : fait lire la même phrase par plusieurs voix et les met en ligne pour comparer."""
     from bot import hebergement, voix
@@ -293,5 +331,7 @@ if __name__ == "__main__":
         verif()
     elif os.environ.get("MODE") == "voix":
         sys.exit(echantillons_voix())
+    elif os.environ.get("MODE") == "photos":
+        sys.exit(photos_brutes())
     else:
         sys.exit(executer())

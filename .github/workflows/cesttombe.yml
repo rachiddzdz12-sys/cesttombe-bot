@@ -9,7 +9,7 @@ on:
       mode:
         description: "test = génère sans publier · reel = publie un post maintenant · voix = échantillons de voix · auto = passage normal"
         type: choice
-        options: [test, reel, voix, auto]
+        options: [test, reel, voix, auto, photos]
         default: test
       categorie:
         description: "catégorie à essayer en premier (auto = alterne)"
