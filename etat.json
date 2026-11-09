@@ -23,7 +23,8 @@
   "x:2118827303149183211": "2026-11-08T19:59:46.731693+00:00",
   "x:2118481530620170416": "2026-11-08T19:59:46.731693+00:00",
   "x:2118385701225930825": "2026-11-08T19:59:46.731693+00:00",
-  "x:2118410771952460288": "2026-11-08T19:59:46.731693+00:00"
+  "x:2118410771952460288": "2026-11-08T19:59:46.731693+00:00",
+  "ag:https://www.actugaming.net/?p=832813": "2026-11-09T08:01:37.807668+00:00"
  },
  "publies": [
   {
@@ -87,10 +88,18 @@
    "source_id": "x:2118410771952460288",
    "lien": "https://www.instagram.com/p/DffkMSamgLt/",
    "reel": "https://www.instagram.com/reel/DffkRP3DZn4/"
+  },
+  {
+   "ts": "2026-11-09T08:01:37.807668+00:00",
+   "categorie": "GAMING",
+   "titre": "Sorties jeux vidéo de la semaine du 9 novembre",
+   "source_id": "ag:https://www.actugaming.net/?p=832813",
+   "lien": "https://www.instagram.com/p/Dfg2yQuD8xX/",
+   "reel": "https://www.instagram.com/reel/Dfg2z3GgaB6/"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 92
+  "tweets": 112
  }
 }
