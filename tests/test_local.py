@@ -192,7 +192,7 @@ images.trouver_images = lambda c, diag, n=4: ([photo], c.get("credit", ""))
 appels_ia = []
 
 
-def faux_appel(parts):
+def faux_appel(parts, modeles=None):
     txt = parts[0]["text"]
     appels_ia.append(("image" if len(parts) > 1 else "texte", txt[:30]))
     if "rédacteur en chef" in txt:
