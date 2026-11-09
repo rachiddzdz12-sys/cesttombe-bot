@@ -21,6 +21,7 @@ jobs:
         run: |
           pip install -r requirements.txt
           pip install --no-deps rapidocr-onnxruntime==1.2.3
+          which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
       - name: Essai
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
