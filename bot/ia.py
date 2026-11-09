@@ -32,12 +32,12 @@ def _delai_conseille(r):
     return int(m.group(1)) if m else None
 
 
-def appel(parts):
+def appel(parts, modeles=None):
     cle = os.environ.get("GEMINI_API_KEY") or config.GEMINI_API_KEY_DANS_LE_CODE
     if not cle:
         raise ErreurIA("clé Gemini manquante")
     derniere = None
-    for modele in [m for m in config.GEMINI_MODELES if m not in _MODELES_HS]:
+    for modele in [m for m in (modeles or config.GEMINI_MODELES) if m not in _MODELES_HS]:
         for essai in range(2):
             debut = time.time()
             try:
@@ -157,12 +157,42 @@ def rediger(cand, image_jpeg=None):
         parts.append({"inline_data": {"mime_type": "image/jpeg",
                                       "data": base64.b64encode(image_jpeg).decode()}})
     res = valider(appel(parts), cand)
-    if manque_accents(res):           # Gemini oublie parfois tous les accents : on fait réécrire une fois
-        JOURNAL.append("texte sans accents : réécriture demandée")
-        parts[0] = {"text": parts[0]["text"] + "\n\nATTENTION : mets bien tous les accents français."}
-        res2 = valider(appel(parts), cand)
-        if not manque_accents(res2):
-            res = res2
+    if manque_accents(res):           # Gemini recopie parfois une source écrite sans accents ni apostrophes
+        JOURNAL.append("texte sans accents ou sans apostrophes : réécriture demandée")
+        parts[0] = {"text": parts[0]["text"] + "\n\nATTENTION : la source est mal orthographiée. Écris en "
+                    "français impeccable : tous les accents (é, è, à, ç…) et toutes les apostrophes "
+                    "(l’artiste, n’a, s’est, d’humour), y compris dans le titre et les noms (Cédric)."}
+        plus_fort = [m for m in config.GEMINI_MODELES if "lite" not in m] + config.GEMINI_MODELES
+        try:
+            res2 = valider(appel(parts, list(dict.fromkeys(plus_fort))), cand)
+            if not manque_accents(res2) or _defauts(res2) < _defauts(res):
+                res = res2
+        except ErreurIA:
+            pass
+    return apostrophes(res)
+
+
+_ELISION = re.compile(r"\b(qu|[ldnsjmtcLDNSJMTC]|Qu|QU) (?=[aeiouyhéèêàâîôûAEIOUYHÉÈÊÀÂÎÔÛ])")
+
+
+def _champs(res):
+    return [res["titre"], res.get("voix_off", "")] + [s["texte"] for s in res["sections"]]
+
+
+def _defauts(res):
+    texte = " ".join(_champs(res))
+    lettres = sum(c.isalpha() for c in texte) or 1
+    accents = sum(c in ACCENTS for c in texte)
+    return len(_ELISION.findall(texte)) + (5 if accents / lettres < 0.008 else 0)
+
+
+def apostrophes(res):
+    """Dernier filet : « n a » → « n’a », « L artiste » → « L’artiste »."""
+    fix = lambda t: _ELISION.sub(lambda m: m.group(1) + "’", t)  # noqa: E731
+    res["titre"] = fix(res["titre"])
+    res["voix_off"] = fix(res.get("voix_off", ""))
+    for s in res["sections"]:
+        s["texte"], s["titre"] = fix(s["texte"]), fix(s["titre"])
     return res
 
 
@@ -170,9 +200,10 @@ ACCENTS = set("éèêëàâäîïôöùûüçÉÈÊËÀÂÄÎÏÔÖÙÛÜÇ")
 
 
 def manque_accents(res):
-    """Vrai si un texte français assez long ne contient aucun accent (presque impossible en vrai)."""
-    texte = res["titre"] + " " + " ".join(s["texte"] for s in res["sections"]) + " " + res.get("voix_off", "")
-    return len(texte.split()) >= 25 and not any(c in ACCENTS for c in texte)
+    """Vrai si le texte est visiblement mal orthographié : presque pas d'accents (moins de 0,8 % des lettres,
+    alors qu'un texte français en a 2 à 4 %) ou des apostrophes manquantes (« n a », « s est »)."""
+    texte = " ".join(_champs(res))
+    return len(texte.split()) >= 25 and _defauts(res) > 0
 
 
 def valider(rep, cand):

@@ -11,7 +11,7 @@ GROTESK = str(RACINE / "fonts" / "SpaceGrotesk.ttf")
 
 W, H, PAD = 1080, 1350, 80
 NOIR, BLANC, GRIS, FILET = "#0B0B0C", "#F2F0EA", "#8A8A85", "#2A2A28"
-ACCENTS = {"GAMING": "#C8FF2E", "RAP FR": "#FF5A1F"}
+ACCENTS = {"GAMING": "#C8FF2E", "RAP FR": "#FF5A1F", "ACTU": "#2EE6FF"}
 PHOTO_H = 680
 
 

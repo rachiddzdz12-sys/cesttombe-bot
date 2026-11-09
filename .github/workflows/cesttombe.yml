@@ -32,7 +32,7 @@ concurrency:
 jobs:
   bot:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     env:
       MODE: ${{ github.event.inputs.mode || 'auto' }}
       CATEGORIE: ${{ github.event.inputs.categorie || 'auto' }}
@@ -59,6 +59,7 @@ jobs:
         if: steps.verif.outputs.lancer == 'true'
         run: |
           pip install -r requirements.txt
+          pip install --no-deps rapidocr-onnxruntime==1.2.3
           which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
 
       - name: Lecture des sources, rédaction, rendu, publication
