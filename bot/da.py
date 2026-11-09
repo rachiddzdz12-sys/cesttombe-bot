@@ -142,7 +142,13 @@ def fond_neutre(taille=(W, H)):
     return im
 
 
-def meilleur_cadrage(pool, hauteur, utilises, **opts):
+def de_la_source(images, video=None):
+    """Images qui montrent vraiment l'info : photos de la source, puis images de sa vidéo."""
+    src = [m for m in images if m.get("origine", "source") == "source"] + (video["images"] if video else [])
+    return src or list(images)
+
+
+def meilleur_cadrage(pool, hauteur, utilises, penalite=None, **opts):
     """pool = [{"img", "analyse", "nom"}]. Choisit l'image + le cadrage où le bloc tombe le mieux,
     en préférant une image pas encore utilisée et sans répéter un cadrage déjà montré."""
     meilleur = None
@@ -153,7 +159,7 @@ def meilleur_cadrage(pool, hauteur, utilises, **opts):
                                   **opts)
             if c is None:
                 continue
-            note = (c["propre"], -(c["cout"] + 40 * len(deja) + 3 * rang))
+            note = (c["propre"], -(c["cout"] + 120 * len(deja) + 3 * rang + (penalite(m) if penalite else 0)))
             if meilleur is None or note > meilleur[0]:
                 meilleur = (note, m, c)
         if meilleur:
@@ -217,8 +223,8 @@ def carrousel(post, medias, dossier, prefixe, diag):
         fichiers.append(vcouv)
         pool_texte = images + v["images"]
     else:
-        pool = images or v["images"]
-        m, c = meilleur_cadrage(pool[:3], bt["h"], utilises, W=W, H=H, fixes=FIXES_COUV)
+        pool = de_la_source(images, v)              # la 1re image parle toujours du sujet de l'info
+        m, c = meilleur_cadrage(pool, bt["h"], utilises, W=W, H=H, fixes=FIXES_COUV)
         f = dossier / f"{prefixe}-1.jpg"
         couverture(post, m, c, bt).save(f, "JPEG", quality=92, optimize=True)
         fichiers.append(f)
@@ -231,14 +237,20 @@ def carrousel(post, medias, dossier, prefixe, diag):
         if not pool_texte:
             pool_texte = pool
 
-    # 2. le texte, page par page, chacune sur une autre image
+    # 2. le texte, page par page, chacune sur une autre image : d'abord les photos venues d'ailleurs
+    #    (autres moments, autres lieux), plutôt que d'autres images de la même vidéo que la couverture
+    autres = any(m.get("origine") == "autre" for m in pool_texte)
+
+    def varier(m):
+        return 80 if autres and m.get("origine", "source") == "source" else 0
+
     pages = pages_de_texte(post["sections"])
     pages = pages[: config.MAX_SLIDES - len(fichiers)]
     total = len(fichiers) + len(pages)
     for i, bloc in enumerate(pages):
         num = len(fichiers) + 1
         fin = i == len(pages) - 1
-        m, c = meilleur_cadrage(pool_texte, bloc["h"], utilises, W=W, H=H,
+        m, c = meilleur_cadrage(pool_texte, bloc["h"], utilises, penalite=varier, W=W, H=H,
                                 fixes=FIXES_FIN if fin else FIXES_TEXTE)
         f = dossier / f"{prefixe}-{num}.jpg"
         slide_texte(post, m, c, bloc, num, total, fin).save(f, "JPEG", quality=92, optimize=True)

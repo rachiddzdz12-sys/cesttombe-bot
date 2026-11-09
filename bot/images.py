@@ -96,6 +96,23 @@ def trouver_images(cand, diag, n=4):
     return trouvees, (cand.get("credit", "") if trouvees else "")
 
 
+def completer(photos, extras, n_max=6):
+    """Ajoute les photos trouvées ailleurs (visuels.py) sans doublon. Renvoie (photos, crédits à afficher)."""
+    empreintes = [_empreinte(p) for p in photos]
+    credits = []
+    for img, credit in extras:
+        if len(photos) >= n_max:
+            break
+        e = _empreinte(img)
+        if any(sum(a != b for a, b in zip(e, f)) < 10 for f in empreintes):
+            continue
+        photos.append(img)
+        empreintes.append(e)
+        if credit and credit not in credits:
+            credits.append(credit)
+    return photos, credits
+
+
 def en_jpeg(img, cote_max=1600):
     img = img.copy()
     img.thumbnail((cote_max, cote_max))

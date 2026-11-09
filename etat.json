@@ -27,7 +27,15 @@
   "ag:https://www.actugaming.net/?p=832813": "2026-11-09T08:01:37.807668+00:00",
   "ig:18636248881004523": "2026-11-09T10:31:28.197658+00:00",
   "ig:17985689411900955": "2026-11-09T10:31:28.197658+00:00",
-  "x:2119582890241753369": "2026-11-09T10:31:28.197658+00:00"
+  "x:2119582890241753369": "2026-11-09T10:31:28.197658+00:00",
+  "ag:https://www.actugaming.net/?p=832835": "2026-11-09T12:38:21.680051+00:00",
+  "ag:https://www.actugaming.net/?p=832823": "2026-11-09T12:38:21.680051+00:00",
+  "ig:18180538486386328": "2026-11-09T12:41:00.559208+00:00",
+  "ig:18136214197738458": "2026-11-09T12:41:00.559208+00:00",
+  "ag:https://www.actugaming.net/?p=832830": "2026-11-09T12:47:31.862996+00:00",
+  "ag:https://www.actugaming.net/?p=832827": "2026-11-09T12:50:08.124277+00:00",
+  "ag:https://www.actugaming.net/?p=832850": "2026-11-09T12:50:08.124277+00:00",
+  "ag:https://www.actugaming.net/?p=832836": "2026-11-09T12:53:18.313050+00:00"
  },
  "publies": [
   {
@@ -107,10 +115,58 @@
    "source_id": "x:2119582890241753369",
    "lien": "https://www.instagram.com/p/DfhH8Ipl3zD/",
    "reel": "https://www.instagram.com/reel/DfhH9rpkomh/"
+  },
+  {
+   "ts": "2026-11-09T12:28:38.739426+00:00",
+   "categorie": "ACTU",
+   "titre": "Teddy Riner candidat à la présidentielle 2027",
+   "source_id": "x:2119740524064322005",
+   "lien": "https://www.instagram.com/p/DfhVPqskcLl/",
+   "reel": "https://www.instagram.com/reel/DfhVX9FDIKr/"
+  },
+  {
+   "ts": "2026-11-09T12:38:21.680051+00:00",
+   "categorie": "GAMING",
+   "titre": "Nvidia : le PDG visé par un scandale d'espionnage",
+   "source_id": "ag:https://www.actugaming.net/?p=832823",
+   "lien": "https://www.instagram.com/p/DfhWgUdDdrf/",
+   "reel": "https://www.instagram.com/reel/DfhWhm2HJKt/"
+  },
+  {
+   "ts": "2026-11-09T12:41:00.559208+00:00",
+   "categorie": "RAP FR",
+   "titre": "Heuss n’a eu aucune pitie pour Cedric Grolet",
+   "source_id": "ig:18136214197738458",
+   "lien": "https://www.instagram.com/p/DfhXPzbnLp7/",
+   "reel": "https://www.instagram.com/reel/DfhXRrgDVOv/"
+  },
+  {
+   "ts": "2026-11-09T12:47:31.862996+00:00",
+   "categorie": "GAMING",
+   "titre": "Sauver Mass Effect : un projet beaucoup trop coûteux",
+   "source_id": "ag:https://www.actugaming.net/?p=832830",
+   "lien": "https://www.instagram.com/p/DfhXiVnn4Yb/",
+   "reel": "https://www.instagram.com/reel/DfhXjzblQFC/"
+  },
+  {
+   "ts": "2026-11-09T12:50:08.124277+00:00",
+   "categorie": "GAMING",
+   "titre": "God of War Sons of Sparta : bientôt un portage sur PS4",
+   "source_id": "ag:https://www.actugaming.net/?p=832850",
+   "lien": "https://www.instagram.com/p/DfhX6AgDcGf/",
+   "reel": "https://www.instagram.com/reel/DfhX7WRgGyb/"
+  },
+  {
+   "ts": "2026-11-09T12:53:18.313050+00:00",
+   "categorie": "GAMING",
+   "titre": "PlayStation remet en avant ses jeux exclusifs sur son site",
+   "source_id": "ag:https://www.actugaming.net/?p=832836",
+   "lien": "https://www.instagram.com/p/DfhYNHTGkL9/",
+   "reel": "https://www.instagram.com/reel/DfhYS2mgche/"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 132
+  "tweets": 307
  }
 }

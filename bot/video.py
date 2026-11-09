@@ -89,7 +89,7 @@ def preparer(chemin, dossier, diag):
     avec_texte = sum(1 for _, _, a in analyses if a["textes"])
     diag.append(f"  vidéo · {n} images analysées, texte incrusté sur {avec_texte}")
     return {"chemin": Path(chemin), "duree": d, "son": a_du_son(chemin), "analyses": analyses, "pas": pas,
-            "facteur": facteur, "images": [{"img": img, "analyse": a, "nom": f"video@{t:.0f}s"}
+            "facteur": facteur, "images": [{"img": img, "analyse": a, "nom": f"video@{t:.0f}s", "origine": "source"}
                                            for t, img, a in choisies]}
 
 

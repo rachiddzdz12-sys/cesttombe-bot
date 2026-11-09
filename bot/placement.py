@@ -25,6 +25,12 @@ def _visages():
     return cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
 
 
+@lru_cache(maxsize=1)
+def _profils():
+    import cv2
+    return cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_profileface.xml")
+
+
 def analyser(img):
     """Renvoie {"textes": [(x0,y0,x1,y1)], "visages": [...]} en pixels de l'image source."""
     import cv2
@@ -40,9 +46,16 @@ def analyser(img):
     except Exception:
         pass
     gris = cv2.cvtColor(rgb, cv2.COLOR_RGB2GRAY)
-    mini = max(40, min(gris.shape) // 12)
+    mini = max(24, min(gris.shape) // 25)        # visages assez petits aussi (photo de plain-pied)
     visages = [(x, y, x + w, y + h) for x, y, w, h in
                _visages().detectMultiScale(gris, scaleFactor=1.1, minNeighbors=6, minSize=(mini, mini))]
+    # visages de profil, tournés d'un côté ou de l'autre
+    larg = gris.shape[1]
+    for miroir in (False, True):
+        g = cv2.flip(gris, 1) if miroir else gris
+        for x, y, w, h in _profils().detectMultiScale(g, scaleFactor=1.1, minNeighbors=6, minSize=(mini, mini)):
+            x0 = larg - x - w if miroir else x
+            visages.append((x0, y, x0 + w, y + h))
     return {"textes": textes, "visages": visages}
 
 
@@ -136,6 +149,10 @@ def choisir(img, analyse, W, H, hauteur_bloc, zones=("bas", "haut", "milieu"), c
                                  echelle, x0, y0)
             visible = _recouvrement((0, 0, W, H), grands)        # part de l'écran couverte de texte étranger
             netete = min(1.0, 1.5 / echelle)                     # < 1 dès que la source est agrandie > 1,5×
+            # le sujet doit rester à l'image : part des visages détectés entièrement visibles dans le cadrage
+            vus = [v for v in analyse["visages"]
+                   if v[0] >= x0 and v[1] >= y0 and v[2] <= x0 + cw and v[3] <= y0 + ch]
+            sujet = len(vus) / len(analyse["visages"]) if analyse["visages"] else 1.0
             cible = None
             for nom in zones:
                 zy0, zy1 = zone_y(nom, H, hauteur_bloc, bord_haut, bord_bas)
@@ -146,7 +163,8 @@ def choisir(img, analyse, W, H, hauteur_bloc, zones=("bas", "haut", "milieu"), c
                 f = sum(_recouvrement(b, textes) for b in boites.values())
                 sale = visible > 0 or t > 0 or v > 0 or f > 0   # un rendu « pas propre » perd toujours
                 fixe = (1000 * sale + 2000 * t + 1500 * min(1.0, visible * 8) + 500 * v + 300 * f
-                        + 40 * (1 - netete) + 6 * (zoom - 1) + {"bas": 0, "haut": 4, "milieu": 8}[nom])
+                        + 40 * (1 - netete) + 30 * (zoom - 1) + 150 * (1 - sujet)
+                        + {"bas": 0, "haut": 4, "milieu": 8}[nom])
                 if meilleur is not None and fixe >= meilleur["cout"]:
                     continue                                     # perdu d'avance : on évite le calcul d'image
                 if cible is None:

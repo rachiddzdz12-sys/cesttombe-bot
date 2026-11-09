@@ -142,10 +142,11 @@ Produis :
 - "sections" : 2 à 4 sections dans l'ordre logique. Pour un récap de sorties, liste les artistes et les titres (projet ou single) lisibles dans la source et l'image, sans en inventer. Chaque section : "titre" court (ex : "Ce qui se passe", "Les détails", "C'est quand", "Ce qu'en dit le studio", "Pourquoi ça compte") et "texte" de 25 à 70 mots. Total maximum 230 mots.
 - "accroche" : 1 phrase pour la légende Instagram, avec 1 emoji maximum.
 - "hashtags" : 2 ou 3 hashtags précis sur le sujet (nom du jeu, de l'artiste…), sans espace, en minuscules.
-- "voix_off" : le texte lu par une voix dans la vidéo Reel. 35 à 70 mots, phrases courtes faites pour l'oral, mêmes faits que les sections. Commence directement par l'info (pas de « bonjour »). Termine par : « Abonne-toi à C'est tombé pour pas rater la suite. »
+- "voix_off" : le texte lu par une voix dans le Reel. COURT : 20 à 35 mots en tout, 2 ou 3 phrases courtes faites pour l'oral, seulement l'essentiel (qui, quoi, le détail le plus fort). Commence directement par l'info (pas de « bonjour »). Termine par : « Abonne-toi à C'est tombé. »
+- "visuels" : 1 ou 2 sujets à montrer en photo, du plus important au moins important. Chaque sujet : "type" = "personne", "artiste" (musicien), "jeu" (jeu vidéo) ou "autre", et "nom" = le nom exact et complet, tel qu'on le chercherait (ex : « Teddy Riner », « Ninho », « God of War Ragnarök »).
 - "faisable" : false si la source ne contient pas assez d'info pour faire un post fiable, sinon true.
 
-Réponds UNIQUEMENT en JSON : {{"titre": "", "mot_cle": "", "sections": [{{"titre": "", "texte": ""}}], "accroche": "", "hashtags": [], "voix_off": "", "faisable": true}}"""
+Réponds UNIQUEMENT en JSON : {{"titre": "", "mot_cle": "", "sections": [{{"titre": "", "texte": ""}}], "accroche": "", "hashtags": [], "voix_off": "", "visuels": [{{"type": "", "nom": ""}}], "faisable": true}}"""
 
 
 def rediger(cand, image_jpeg=None):
@@ -169,7 +170,7 @@ def rediger(cand, image_jpeg=None):
                 res = res2
         except ErreurIA:
             pass
-    return apostrophes(res)
+    return accents_manquants(apostrophes(res), cand)
 
 
 _ELISION = re.compile(r"\b(qu|[ldnsjmtcLDNSJMTC]|Qu|QU) (?=[aeiouyhéèêàâîôûAEIOUYHÉÈÊÀÂÎÔÛ])")
@@ -184,6 +185,43 @@ def _defauts(res):
     lettres = sum(c.isalpha() for c in texte) or 1
     accents = sum(c in ACCENTS for c in texte)
     return len(_ELISION.findall(texte)) + (5 if accents / lettres < 0.008 else 0)
+
+
+def _sans_accent(mot):
+    import unicodedata
+    return "".join(c for c in unicodedata.normalize("NFD", mot) if unicodedata.category(c) != "Mn")
+
+
+_AMBIGUS = {"cote", "marche", "peche", "tache", "sale", "mais", "jeune", "eleve", "pecher", "retraite", "ferme"}
+
+
+def accents_manquants(res, cand=None):
+    """Remet les accents oubliés sur un mot (souvent un nom ou le titre) quand le même mot apparaît
+    ailleurs correctement accentué (« pitie » → « pitié », « Cedric » → « Cédric »)."""
+    corpus = " ".join(_champs(res) + [s["titre"] for s in res["sections"]])
+    connus = {}
+    for m in re.findall(r"[\wÀ-ÿ’'-]+", corpus):
+        if any(c in ACCENTS for c in m) and len(m) >= 4:
+            connus.setdefault(_sans_accent(m).lower(), m.lower())
+
+    def fix(texte):
+        def remplace(mt):
+            m = mt.group(0)
+            cle = m.lower()
+            if len(m) < 4 or cle in _AMBIGUS or any(c in ACCENTS for c in m) or cle not in connus:
+                return m
+            bon = connus[cle]
+            if m.isupper():
+                return bon.upper()
+            return bon[0].upper() + bon[1:] if m[0].isupper() else bon
+        return re.sub(r"[\wÀ-ÿ]+", remplace, texte)
+
+    res["titre"] = fix(res["titre"])
+    res["mot_cle"] = fix(res.get("mot_cle", ""))
+    res["voix_off"] = fix(res.get("voix_off", ""))
+    for s in res["sections"]:
+        s["texte"], s["titre"] = fix(s["texte"]), fix(s["titre"])
+    return res
 
 
 def apostrophes(res):
@@ -204,6 +242,23 @@ def manque_accents(res):
     alors qu'un texte français en a 2 à 4 %) ou des apostrophes manquantes (« n a », « s est »)."""
     texte = " ".join(_champs(res))
     return len(texte.split()) >= 25 and _defauts(res) > 0
+
+
+FIN_VOIX = "Abonne-toi à C’est tombé."
+VOIX_MOTS_MAX = 40
+
+
+def raccourcir_voix(texte):
+    """La voix off reste courte (≈ 12 s) : au-delà de VOIX_MOTS_MAX mots, on garde les premières phrases."""
+    texte = re.sub(r"\s*Abonne-toi à C[’']est tombé[^.!?]*[.!?]?\s*$", "", texte.strip())
+    phrases = re.split(r"(?<=[.!?…])\s+", texte)
+    garde, n = [], 0
+    for p in phrases:
+        if garde and n + len(p.split()) > VOIX_MOTS_MAX - 5:
+            break
+        garde.append(p)
+        n += len(p.split())
+    return " ".join(garde).strip() + " " + FIN_VOIX
 
 
 def valider(rep, cand):
@@ -237,8 +292,12 @@ def valider(rep, cand):
                f"Source : {cand.get('source_legende', cand['source'])}\n\n"
                + " ".join(tags))
     voix_off = (rep.get("voix_off") or "").strip()
-    if len(voix_off.split()) < 15:      # secours : on lit le titre et la première section
-        voix_off = f"{titre}. {sections[0]['texte'].strip()} Abonne-toi à C'est tombé pour pas rater la suite."
-    return {"titre": titre, "mot_cle": mot_cle, "voix_off": voix_off[:900],
+    if len(voix_off.split()) < 12:      # secours : on lit le titre et la première phrase
+        premiere = re.split(r"(?<=[.!?])\s+", sections[0]["texte"].strip())[0]
+        voix_off = f"{titre}. {premiere} {FIN_VOIX}"
+    voix_off = raccourcir_voix(voix_off)
+    visuels = [{"type": str(v.get("type") or "autre"), "nom": str(v["nom"]).strip()}
+               for v in (rep.get("visuels") or []) if isinstance(v, dict) and v.get("nom")][:2]
+    return {"titre": titre, "mot_cle": mot_cle, "voix_off": voix_off[:600], "visuels": visuels,
             "sections": [{"titre": s["titre"].strip(), "texte": s["texte"].strip()} for s in sections[:4]],
             "legende": legende[:2200]}

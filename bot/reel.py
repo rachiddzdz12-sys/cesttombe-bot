@@ -15,8 +15,9 @@ from bot import video as vid
 
 W, H, FPS = da.RW, da.RH, 30
 FONDU = 0.4
-CLIP_MAX = 30          # secondes de vidéo d'origine, avec son, après la voix off
-AMPLITUDE = 0.08       # zoom lent : de 100 % à 108 %
+CLIP_MAX = 20          # secondes de vidéo d'origine, avec son, après la voix off
+AMPLITUDE = 0.12       # zoom lent : de 100 % à 112 %
+PLAN_MIN = 2.5         # durée mini d'une image dans le Reel (s) : on change souvent d'image
 
 
 # ------------------------------------------------------------------ calques
@@ -50,19 +51,23 @@ def calque_pseudo(choix):
 
 # ------------------------------------------------------------------ photo animée
 class Plan:
-    """Une image plein écran qui zoome lentement, avec son calque de texte."""
+    """Une image plein écran qui bouge lentement (zoom avant, ou zoom arrière avec un léger glissement),
+    avec son calque de texte."""
 
-    def __init__(self, img, fenetre, couche, duree, ampli=AMPLITUDE):
+    def __init__(self, img, fenetre, couche, duree, ampli=AMPLITUDE, sens=1, glisse=0.0):
         x0, y0, cw, ch = fenetre
         self.base = img.crop((int(x0), int(y0), int(x0 + cw), int(y0 + ch))).resize(
             (int(W * (1 + ampli)), int(H * (1 + ampli))), Image.LANCZOS)
-        self.couche, self.duree, self.ampli = couche, duree, ampli
+        self.couche, self.duree, self.ampli, self.sens, self.glisse = couche, duree, ampli, sens, glisse
 
     def image(self, t):
-        z = 1 + self.ampli * min(1.0, max(0.0, t) / self.duree)
+        k = min(1.0, max(0.0, t) / self.duree)
+        k = k * k * (3 - 2 * k)                       # départ et arrivée en douceur
+        z = 1 + self.ampli * (k if self.sens > 0 else 1 - k)
         bw, bh = self.base.size
         vw, vh = bw / z, bh / z
-        x, y = (bw - vw) / 2, (bh - vh) / 2
+        x = (bw - vw) / 2 * (1 + self.glisse * (2 * k - 1))
+        y = (bh - vh) / 2
         im = self.base.resize((W, H), Image.BILINEAR, box=(x, y, x + vw, y + vh))
         if self.couche is not None:
             im = im.convert("RGBA")
@@ -82,27 +87,30 @@ def _ampli_sure(media, choix, zone):
     return 0.0
 
 
-def plans_photo(post, images, bloc, total, diag):
-    """Première image : titre dessus ; les suivantes : juste le pseudo."""
+def plans_photo(post, images, bloc, total, diag, premieres=None):
+    """Première image (tirée de la source de l'info) : titre dessus ; les suivantes : juste le pseudo,
+    en commençant par les photos venues d'ailleurs pour varier."""
     hb = bloc["h"]
     utilises = {}
-    m0, c0 = da.meilleur_cadrage(images[:3], hb, utilises, W=W, H=H, fixes=fixes_titre(hb), **da.REEL)
+    m0, c0 = da.meilleur_cadrage(premieres or images[:3], hb, utilises, W=W, H=H, fixes=fixes_titre(hb), **da.REEL)
     zone = (da.M, c0["y0"], W - da.REEL["marge_droite"], c0["y1"])
     plans = [[m0, c0, calque_titre(post, c0, bloc), _ampli_sure(m0, c0, zone)]]
-    autres = [m for m in images if m["nom"] != m0["nom"]][:3]
-    n = min(len(autres), max(0, int((total - 4) // 3)))
-    for m in autres[:n]:
+    autres = sorted([m for m in images if m["nom"] != m0["nom"]],
+                    key=lambda m: (m.get("origine") == "source", m["nom"].startswith("video@")))[:4]
+    n = min(len(autres), max(0, int((total - 3.5) // PLAN_MIN)))
+    for i, m in enumerate(autres[:n]):
         c = placement.choisir(m["img"], m["analyse"], W, H, 50, zones=("haut",), bord_haut=da.REEL["bord_haut"],
                               fixes={})
-        plans.append([m, c, calque_pseudo(c), AMPLITUDE])
+        plans.append([m, c, calque_pseudo(c), AMPLITUDE, -1 if i % 2 == 0 else 1, 0.6 if i % 2 == 0 else -0.6])
     if len(plans) == 1:
         durees = [total]
     else:
-        d0 = max(4.0, total * 0.45)
+        d0 = max(3.5, total * 0.35)
         durees = [d0] + [(total - d0) / (len(plans) - 1)] * (len(plans) - 1)
     diag.append(f"  reel · {len(plans)} image(s) animée(s), titre zone {c0['zone']}"
                 f"{'' if c0['propre'] else ' (PAS PROPRE)'}")
-    return [Plan(m["img"], c["fenetre"], couche, d, a) for (m, c, couche, a), d in zip(plans, durees)]
+    return [Plan(p[0]["img"], p[1]["fenetre"], p[2], d, p[3], *(p[4:] or [1, 0.0]))
+            for p, d in zip(plans, durees)]
 
 
 def video_des_plans(plans, sortie):
@@ -186,8 +194,8 @@ def fabriquer(post, medias, texte_voix, dossier, prefixe, diag):
         else:
             diag.append("  reel · trop de texte incrusté sur la vidéo : voix off sur la photo, puis vidéo brute")
             if l1:
-                pool = images or v["images"]
-                muet = video_des_plans(plans_photo(post, pool, bloc, l1, diag), tmp / "p1.mp4")
+                muet = video_des_plans(plans_photo(post, images + v["images"], bloc, l1, diag,
+                                                   premieres=da.de_la_source(images, v)), tmp / "p1.mp4")
                 partie1 = _avec_son(muet, mixer_audio(audio, l1, tmp / "mix.wav", diag), l1, tmp / "p1s.mp4")
             if l2:
                 partie2 = vid.rendre(v, vid.cadrage_centre(v, W, H), tmp / "p2.mp4", W, H, 0, l2, son=True)
@@ -198,7 +206,8 @@ def fabriquer(post, medias, texte_voix, dossier, prefixe, diag):
     else:
         total = l1 if l1 else 11.0
         pool = images or [{"img": da.fond_neutre((W, H)), "analyse": {"textes": [], "visages": []}, "nom": "neutre"}]
-        muet = video_des_plans(plans_photo(post, pool, bloc, total, diag), tmp / "p1.mp4")
+        muet = video_des_plans(plans_photo(post, pool, bloc, total, diag, premieres=da.de_la_source(pool)),
+                               tmp / "p1.mp4")
         _avec_son(muet, mixer_audio(audio, total, tmp / "mix.wav", diag), total, sortie)
 
     diag.append(f"  reel · {voix.duree(sortie):.1f} s {'avec voix' if audio else 'sans voix'}"

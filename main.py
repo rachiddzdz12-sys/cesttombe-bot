@@ -108,7 +108,7 @@ def verif():
 
 # ------------------------------------------------------------------ travail principal
 def executer():
-    from bot import da, hebergement, ia, images, instagram, reel, sources
+    from bot import da, hebergement, ia, images, instagram, reel, sources, visuels
 
     mode = os.environ.get("MODE", "auto")
     test = mode == "test"
@@ -193,9 +193,13 @@ def executer():
                     if not test:
                         vu(c)
                     continue
+                n_source = len(photos)        # les photos de la source passent toujours en premier (couverture)
+                photos, credits = images.completer(photos, visuels.chercher(red.get("visuels"), diag))
+                if credits:   # photos sous licence libre : le crédit est obligatoire
+                    red["legende"] = red["legende"].replace("\n\n#", f"\nPhotos : {' · '.join(credits)}\n\n#", 1)
                 post = {"categorie": cat, "source": c["source"], "credit": credit, **red}
                 prefixe = f"{now_paris:%Y%m%d-%H%M}-{'jv' if cat == 'GAMING' else 'rap'}"
-                medias = preparer_medias(c, photos, prefixe, diag)
+                medias = preparer_medias(c, photos, prefixe, diag, n_source)
                 fichiers = da.carrousel(post, medias, SORTIE, prefixe, diag)
                 (SORTIE / f"{prefixe}-legende.txt").write_text(red["legende"], encoding="utf-8")
                 diag.append(f"  carrousel prêt : « {red['titre']} » ({len(fichiers)} slides)")
@@ -266,13 +270,16 @@ def executer():
     return code
 
 
-def preparer_medias(cand, photos, prefixe, diag):
-    """Images (analysées : textes incrustés, visages) + vidéo de la source (analysée image par image)."""
+def preparer_medias(cand, photos, prefixe, diag, n_source=None):
+    """Images (analysées : textes incrustés, visages) + vidéo de la source (analysée image par image).
+    Les n_source premières photos viennent de la source de l'info ; les suivantes ont été cherchées ailleurs."""
+    n_source = len(photos) if n_source is None else n_source
     from bot import placement, video as vid
     images = []
     for i, img in enumerate(photos):
         try:
-            images.append({"img": img, "analyse": placement.analyser(img), "nom": f"photo{i + 1}"})
+            images.append({"img": img, "analyse": placement.analyser(img), "nom": f"photo{i + 1}",
+                           "origine": "source" if i < n_source else "autre"})
         except Exception as ex:
             diag.append(f"  ⚠️ analyse de l'image {i + 1} impossible : {str(ex)[:100]}")
     v = None
@@ -327,15 +334,14 @@ def photos_brutes():
 def echantillons_voix():
     """Mode « voix » : fait lire la même phrase par plusieurs voix et les met en ligne pour comparer."""
     from bot import hebergement, voix
-    texte = ("Maes est officiellement sorti de prison après 22 mois de détention. "
-             "Son avocat parle d'un tournant majeur dans le dossier. "
-             "Abonne-toi à C'est tombé pour pas rater la suite.")
+    texte = ("Teddy Riner se lance dans la course à l’Élysée. Le quintuple champion olympique a annoncé ce lundi "
+             "sa candidature à la présidentielle 2027, dans une vidéo sur ses réseaux. Abonne-toi à C’est tombé.")
     diag, fichiers = Journal(["Mode : voix"]), []
     for v in config.VOIX_A_TESTER:
         config.VOIX = v
         f = voix.lire(texte, SORTIE / v, diag)
         if f:
-            dest = SORTIE / f"voix-{v}.mp3"
+            dest = SORTIE / f"voix-{v.replace(':', '-')}.mp3"
             f.rename(dest)
             fichiers.append(dest)
     if fichiers:

@@ -10,20 +10,27 @@ VIDEOS = True                 # si la source a une vidéo, elle devient la slide
 # ------------------------------------------------------------------ Reels
 REELS = True                  # publie aussi un Reel avec voix off pour chaque info
 REEL_DANS_LE_FEED = False     # False = le Reel va dans l'onglet Reels, le carrousel reste seul dans la grille
-VOIX = "fr-FR-DeniseNeural"     # autres voix : fr-FR-RemyMultilingualNeural, fr-FR-DeniseNeural, fr-FR-VivienneMultilingualNeural
+VOIX = "gemini:Aoede"           # voix Gemini (très naturelle) ; si elle ne répond pas : VOIX_SECOURS (edge-tts)
 VOIX_VITESSE = "+8%"
+VOIX_SECOURS = "fr-FR-DeniseNeural"   # voix edge-tts utilisée si la voix Gemini ne répond pas
+# Voix Gemini (VOIX = "gemini:<nom>") : ton demandé à la voix, avant le texte
+VOIX_CONSIGNE = ("Lis le texte suivant en français, comme une jeune présentatrice d'actu sur Instagram qui "
+                 "raconte une info à ses abonnés : ton naturel, vivant et complice, débit plutôt rapide, sans "
+                 "exagérer. Lis uniquement le texte, pas cette consigne.")
+VOIX_GEMINI_TEMPO = 1.05
+GEMINI_TTS_MODELES = ["gemini-3.1-flash-tts-preview", "gemini-2.5-flash-preview-tts"]
 MUSIQUE = "musique/fond.mp3"  # instru de fond de chaque Reel (laisser vide "" pour aucune)
 MUSIQUE_VOLUME = 0.14         # 0.14 ≈ -17 dB : la musique accompagne, la voix reste devant
 MUSIQUE_DEBUT = 0             # secondes à sauter au début de l'instru (intro trop calme, par ex.)
-VOIX_A_TESTER = ["fr-FR-VivienneMultilingualNeural", "fr-FR-DeniseNeural", "fr-FR-EloiseNeural",
-                 "fr-FR-RemyMultilingualNeural"]
+VOIX_A_TESTER = ["gemini:Aoede", "gemini:Leda", "gemini:Despina", "gemini:Callirrhoe", "gemini:Sulafat",
+                 "gemini:Kore", "fr-FR-DeniseNeural"]
 
 # ------------------------------------------------------------------ rythme
 POSTS_PAR_JOUR = 6            # total gaming + rap
 HEURE_DEBUT = 9               # heure de Paris, premier post possible
 HEURE_FIN = 23                # heure de Paris, plus aucun post après
 ECART_MIN_MINUTES = 120       # temps minimum entre deux posts
-SCORE_MIN = 6                 # note mini (sur 10) donnée par l'IA pour qu'une info soit publiée
+SCORE_MIN = int(os.environ.get("SCORE_MIN") or 6)                 # note mini (sur 10) donnée par l'IA pour qu'une info soit publiée
 AGE_MAX_HEURES = {"GAMING": 48, "RAP FR": 24}   # on ignore les infos plus vieilles
 
 # ------------------------------------------------------------------ sources
