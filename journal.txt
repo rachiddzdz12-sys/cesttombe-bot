@@ -1,0 +1,166 @@
+Mode : reel
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @cesttombe.actu (2 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 20 / 100
+Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
+  8 infos retenues après filtre
+Rap · @rap.minute → 12 posts lus
+Rap · @rapfractusofficiel → 12 posts lus
+X · @RapFrActus → 20 tweets lus, 5 gardés (ce mois : 187 / 10000)
+8 infos fraîches et jamais traitées (sur 37 lues)
+   6/10 ✓ « God of War Sons of Sparta pourrait connaître un portage sur… PS4 »
+   5/10 ✓ « PlayStation (re)commence à labelliser ses jeux exclusifs sur son site  »
+   4/10 ✗ trop faible (mini 5) « Une nouvelle édition japonaise du PlayStation Portal va sortir avec da »
+   7/10 ✓ « Sauver Mass Effect 5 coûterait énormément d’argent selon le cofondateu »
+   5/10 ✓ « Star Wars Zero Company : Après avoir réembauché une partie de son équi »
+   9/10 ✓ « Le PDG de Nvidia est au cœur d’un scandale d’espionnage industriel et  »
+GAMING · 5 infos retenues, meilleure : « Le PDG de Nvidia est au cœur d’un scandale d’espionnage industriel et d’adultère » (9/10)
+  photo · échec : image trop petite (50x50)
+  photo · 1 image(s) : 1920x1080
+[0;93m2026-11-09 12:38:47.905258078 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+  couverture · photo1 · zone haut · zoom 1.0 · propre
+  carrousel prêt : « Nvidia : le PDG visé par un scandale d'espionnage » (3 slides)
+  voix · edge-tts (16.5 s)
+  reel · 1 image(s) animée(s), titre zone haut
+  reel · 17.3 s avec voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DfhWgUdDdrf/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfhWhm2HJKt/
+Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s
+=== passage 1 : 1 posts publiés ===
+Mode : reel
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @cesttombe.actu (2 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 22 / 100
+Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
+  8 infos retenues après filtre
+Rap · @rap.minute → 12 posts lus
+Rap · @rapfractusofficiel → 12 posts lus
+X · @RapFrActus → 20 tweets lus, 5 gardés (ce mois : 207 / 10000)
+6 infos fraîches et jamais traitées (sur 37 lues)
+   0/10 ✗ pas une news « Teddy Riner se présente aux présidentielles 😂 »
+   7/10 ✓ « Heuss n’a eu aucune pitié pour Cedric Grolet 🤣 »
+RAP FR · 1 infos retenues, meilleure : « Heuss n’a eu aucune pitié pour Cedric Grolet 🤣 » (7/10)
+  photo · 1 image(s) : 720x1280
+[0;93m2026-11-09 12:42:38.553477538 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+  vidéo · téléchargée (37 s, 6 Mo)
+  vidéo · 37 images analysées, texte incrusté sur 33
+  couverture vidéo · passage 14-34 s · zone bas · zoom 1.25
+  carrousel prêt : « Heuss n’a eu aucune pitie pour Cedric Grolet » (3 slides)
+  voix · edge-tts (10.2 s)
+  reel · titre sur la vidéo, passage 14-34 s, zone bas
+  reel · 31.1 s avec voix + musique + son de la vidéo
+  ✅ PUBLIÉ : https://www.instagram.com/p/DfhXPzbnLp7/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfhXRrgDVOv/
+Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 1 s · texte sans accents ou sans apostrophes : réécriture demandée · gemini-flash-latest : ReadTimeout après 60 s · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 1 s
+=== passage 2 : 2 posts publiés ===
+Mode : reel
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @cesttombe.actu (2 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 24 / 100
+Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
+  8 infos retenues après filtre
+Rap · @rap.minute → 12 posts lus
+Rap · @rapfractusofficiel → 12 posts lus
+X · @RapFrActus → 20 tweets lus, 5 gardés (ce mois : 227 / 10000)
+4 infos fraîches et jamais traitées (sur 37 lues)
+   5/10 ✓ « God of War Sons of Sparta pourrait connaître un portage sur… PS4 »
+   6/10 ✓ « PlayStation (re)commence à labelliser ses jeux exclusifs sur son site  »
+   7/10 ✓ « Sauver Mass Effect 5 coûterait énormément d’argent selon le cofondateu »
+   6/10 ✓ « Star Wars Zero Company : Après avoir réembauché une partie de son équi »
+GAMING · 4 infos retenues, meilleure : « Sauver Mass Effect 5 coûterait énormément d’argent selon le cofondateur de BioWa » (7/10)
+  photo · 1 image(s) : 1920x1085
+[0;93m2026-11-09 12:47:47.889686687 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+  couverture · photo1 · zone bas · zoom 1.12 · propre
+  carrousel prêt : « Sauver Mass Effect : un projet beaucoup trop coûteux » (3 slides)
+  voix · edge-tts (18.4 s)
+  reel · 1 image(s) animée(s), titre zone bas
+  reel · 19.2 s avec voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DfhXiVnn4Yb/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfhXjzblQFC/
+Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 2 s
+=== passage 3 : 3 posts publiés ===
+Mode : reel
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @cesttombe.actu (2 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 26 / 100
+Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
+  8 infos retenues après filtre
+Rap · @rap.minute → 12 posts lus
+Rap · @rapfractusofficiel → 12 posts lus
+X · @RapFrActus → 20 tweets lus, 5 gardés (ce mois : 247 / 10000)
+3 infos fraîches et jamais traitées (sur 37 lues)
+RAP FR · aucune info fraîche
+   6/10 ✓ « God of War Sons of Sparta pourrait connaître un portage sur… PS4 »
+   5/10 ✓ « PlayStation (re)commence à labelliser ses jeux exclusifs sur son site  »
+   4/10 ✗ trop faible (mini 5) « Star Wars Zero Company : Après avoir réembauché une partie de son équi »
+GAMING · 2 infos retenues, meilleure : « God of War Sons of Sparta pourrait connaître un portage sur… PS4 » (6/10)
+  photo · échec : image trop petite (50x50)
+  photo · 2 image(s) : 3840x2160, 1440x2160
+[0;93m2026-11-09 12:50:25.645610035 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+  couverture · photo2 · zone bas · zoom 1.8 · propre
+  carrousel prêt : « God of War Sons of Sparta : bientôt un portage sur PS4 » (3 slides)
+  voix · edge-tts (21.0 s)
+  reel · 2 image(s) animée(s), titre zone bas
+  reel · 21.8 s avec voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DfhX6AgDcGf/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfhX7WRgGyb/
+Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 2 s
+=== passage 4 : 4 posts publiés ===
+Mode : reel
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @cesttombe.actu (2 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 28 / 100
+Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
+  8 infos retenues après filtre
+Rap · @rap.minute → 12 posts lus
+Rap · @rapfractusofficiel → 12 posts lus
+X · @RapFrActus → 20 tweets lus, 5 gardés (ce mois : 267 / 10000)
+1 infos fraîches et jamais traitées (sur 37 lues)
+RAP FR · aucune info fraîche
+   5/10 ✓ « PlayStation (re)commence à labelliser ses jeux exclusifs sur son site  »
+GAMING · 1 infos retenues, meilleure : « PlayStation (re)commence à labelliser ses jeux exclusifs sur son site officiel » (5/10)
+  photo · 1 image(s) : 1920x1080
+[0;93m2026-11-09 12:53:34.845391352 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+  couverture · photo1 · zone bas · zoom 1.25 · propre
+  carrousel prêt : « PlayStation remet en avant ses jeux exclusifs sur son site » (3 slides)
+  voix · edge-tts (18.3 s)
+  reel · 1 image(s) animée(s), titre zone bas
+  reel · 19.1 s avec voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DfhYNHTGkL9/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfhYS2mgche/
+Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 2 s
+=== passage 5 : 5 posts publiés ===
+Mode : reel
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @cesttombe.actu (2 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 30 / 100
+Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
+  8 infos retenues après filtre
+Rap · @rap.minute → 12 posts lus
+Rap · @rapfractusofficiel → 12 posts lus
+X · @RapFrActus → 20 tweets lus, 5 gardés (ce mois : 287 / 10000)
+0 infos fraîches et jamais traitées (sur 37 lues)
+RAP FR · aucune info fraîche
+GAMING · aucune info fraîche
+=== passage 6 : 5 posts publiés ===
+Mode : reel
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @cesttombe.actu (2 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 30 / 100
+Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
+  8 infos retenues après filtre
+Rap · @rap.minute → 12 posts lus
+Rap · @rapfractusofficiel → 12 posts lus
+X · @RapFrActus → 20 tweets lus, 5 gardés (ce mois : 307 / 10000)
+0 infos fraîches et jamais traitées (sur 37 lues)
+RAP FR · aucune info fraîche
+GAMING · aucune info fraîche
+=== passage 7 : 5 posts publiés ===
+plus d'info à publier
