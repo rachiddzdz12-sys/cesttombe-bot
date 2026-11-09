@@ -24,7 +24,10 @@
   "x:2118481530620170416": "2026-11-08T19:59:46.731693+00:00",
   "x:2118385701225930825": "2026-11-08T19:59:46.731693+00:00",
   "x:2118410771952460288": "2026-11-08T19:59:46.731693+00:00",
-  "ag:https://www.actugaming.net/?p=832813": "2026-11-09T08:01:37.807668+00:00"
+  "ag:https://www.actugaming.net/?p=832813": "2026-11-09T08:01:37.807668+00:00",
+  "ig:18636248881004523": "2026-11-09T10:31:28.197658+00:00",
+  "ig:17985689411900955": "2026-11-09T10:31:28.197658+00:00",
+  "x:2119582890241753369": "2026-11-09T10:31:28.197658+00:00"
  },
  "publies": [
   {
@@ -96,10 +99,18 @@
    "source_id": "ag:https://www.actugaming.net/?p=832813",
    "lien": "https://www.instagram.com/p/Dfg2yQuD8xX/",
    "reel": "https://www.instagram.com/reel/Dfg2z3GgaB6/"
+  },
+  {
+   "ts": "2026-11-09T10:31:28.197658+00:00",
+   "categorie": "RAP FR",
+   "titre": "Lamine Yamal fête le Barça en musique",
+   "source_id": "x:2119582890241753369",
+   "lien": "https://www.instagram.com/p/DfhH8Ipl3zD/",
+   "reel": "https://www.instagram.com/reel/DfhH9rpkomh/"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 112
+  "tweets": 132
  }
 }
