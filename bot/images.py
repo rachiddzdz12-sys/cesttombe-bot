@@ -57,6 +57,45 @@ def trouver_photo(cand, diag):
     return None, ""
 
 
+def _empreinte(img):
+    """Petite empreinte (8x8 en niveaux de gris) pour repérer deux fois la même image."""
+    g = img.convert("L").resize((9, 8), Image.BILINEAR)
+    px = list(g.getdata())
+    return tuple(px[r * 9 + c] > px[r * 9 + c + 1] for r in range(8) for c in range(8))
+
+
+def trouver_images(cand, diag, n=4):
+    """Renvoie ([images PIL], crédit) : la photo principale d'abord, puis d'autres images de l'info
+    (autres photos du post, images de l'article) pour poser le texte des slides suivantes.
+    Ne lève jamais d'exception."""
+    urls = list(cand.get("images", []))
+    if cand.get("lien") and cand["categorie"] == "GAMING":
+        try:
+            urls += _images_de_la_page(cand["lien"])
+        except Exception as ex:
+            diag.append(f"  photo · page de l'article illisible : {str(ex)[:100]}")
+    vues, empreintes, trouvees = set(), [], []
+    for url in urls:
+        if len(trouvees) >= n or len(vues) >= 10:
+            break
+        if url in vues:
+            continue
+        vues.add(url)
+        try:
+            img = _telecharger(url)
+        except Exception as ex:
+            diag.append(f"  photo · échec : {str(ex)[:100]}")
+            continue
+        e = _empreinte(img)
+        if any(sum(a != b for a, b in zip(e, f)) < 10 for f in empreintes):
+            continue      # même image (autre taille ou autre format)
+        empreintes.append(e)
+        trouvees.append(img)
+    diag.append(f"  photo · {len(trouvees)} image(s) : " + ", ".join(f"{i.width}x{i.height}" for i in trouvees)
+                if trouvees else "  photo · aucune image")
+    return trouvees, (cand.get("credit", "") if trouvees else "")
+
+
 def en_jpeg(img, cote_max=1600):
     img = img.copy()
     img.thumbnail((cote_max, cote_max))

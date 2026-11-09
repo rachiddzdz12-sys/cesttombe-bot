@@ -108,7 +108,7 @@ def verif():
 
 # ------------------------------------------------------------------ travail principal
 def executer():
-    from bot import hebergement, ia, images, instagram, reel, rendu, sources, video as vid
+    from bot import da, hebergement, ia, images, instagram, reel, sources
 
     mode = os.environ.get("MODE", "auto")
     test = mode == "test"
@@ -184,8 +184,8 @@ def executer():
 
             fait = False
             for score, c in retenues[:3]:
-                photo, credit = images.trouver_photo(c, diag)
-                jpeg = images.en_jpeg(photo) if (photo is not None and cat == "RAP FR") else None
+                photos, credit = images.trouver_images(c, diag)
+                jpeg = images.en_jpeg(photos[0]) if (photos and cat == "RAP FR") else None
                 try:
                     red = ia.rediger(c, jpeg)
                 except ia.ErreurIA as ex:
@@ -195,25 +195,23 @@ def executer():
                     continue
                 post = {"categorie": cat, "source": c["source"], "credit": credit, **red}
                 prefixe = f"{now_paris:%Y%m%d-%H%M}-{'jv' if cat == 'GAMING' else 'rap'}"
-                clip = None
-                if config.VIDEOS and c.get("videos"):
-                    source_video = vid.telecharger(c, SORTIE / f"{prefixe}-src", diag)
-                    if source_video:
-                        try:
-                            clip = vid.slide(post, source_video, SORTIE, prefixe)
-                        except Exception as ex:
-                            diag.append(f"  ⚠️ {str(ex)[:150]}")
-                fichiers = rendu.carrousel(post, photo, SORTIE, prefixe, video=clip)
+                medias = preparer_medias(c, photos, prefixe, diag)
+                fichiers = da.carrousel(post, medias, SORTIE, prefixe, diag)
                 (SORTIE / f"{prefixe}-legende.txt").write_text(red["legende"], encoding="utf-8")
                 diag.append(f"  carrousel prêt : « {red['titre']} » ({len(fichiers)} slides)")
                 video = None
                 if config.REELS:
                     try:
-                        video = reel.fabriquer(post, photo, fichiers, red.get("voix_off"), SORTIE, prefixe, diag)
+                        video = reel.fabriquer(post, medias, red.get("voix_off"), SORTIE, prefixe, diag)
                     except Exception as ex:   # sans Reel, le carrousel part quand même
                         diag.append(f"  ⚠️ Reel impossible : {str(ex)[:150]}")
+                        traceback.print_exc()
                 en_ligne = fichiers + ([video] if video else [])
                 if test:   # on vérifie aussi l'hébergement, sans publier
+                    if os.environ.get("HEBERGEMENT", "").lower() == "non":
+                        diag.append("  (hébergement non testé)")
+                        fait = True
+                        break
                     try:
                         urls = hebergement.heberger(en_ligne)
                         diag.append(f"  fichiers en ligne ({len(urls)}) : {urls[0]}")
@@ -227,11 +225,12 @@ def executer():
                 try:
                     lien = instagram.publier_carrousel(urls[:len(fichiers)], red["legende"])
                 except instagram.ErreurInstagram as ex:
-                    if not clip:
+                    if not any(str(f).endswith(".mp4") for f in fichiers):
                         raise
                     # Instagram a refusé la vidéo : on refait le carrousel sans elle
                     diag.append(f"  ⚠️ vidéo refusée par Instagram ({str(ex)[:120]}) : carrousel sans vidéo")
-                    fichiers = rendu.carrousel(post, photo, SORTIE, prefixe + "b")
+                    sans = {"images": medias["images"] or (medias["video"] or {}).get("images", []), "video": None}
+                    fichiers = da.carrousel(post, sans, SORTIE, prefixe + "b", diag)
                     en_ligne = fichiers + ([video] if video else [])
                     urls = hebergement.heberger(en_ligne)
                     lien = instagram.publier_carrousel(urls[:len(fichiers)], red["legende"])
@@ -265,6 +264,26 @@ def executer():
             diag.append("Gemini : " + " · ".join(ia.JOURNAL))
         resume_github(diag)
     return code
+
+
+def preparer_medias(cand, photos, prefixe, diag):
+    """Images (analysées : textes incrustés, visages) + vidéo de la source (analysée image par image)."""
+    from bot import placement, video as vid
+    images = []
+    for i, img in enumerate(photos):
+        try:
+            images.append({"img": img, "analyse": placement.analyser(img), "nom": f"photo{i + 1}"})
+        except Exception as ex:
+            diag.append(f"  ⚠️ analyse de l'image {i + 1} impossible : {str(ex)[:100]}")
+    v = None
+    if config.VIDEOS and cand.get("videos"):
+        source = vid.telecharger(cand, SORTIE / f"{prefixe}-src", diag)
+        if source:
+            try:
+                v = vid.preparer(source, SORTIE / f"{prefixe}-src", diag)
+            except Exception as ex:
+                diag.append(f"  ⚠️ vidéo inutilisable : {str(ex)[:150]}")
+    return {"images": images, "video": v}
 
 
 def photos_brutes():

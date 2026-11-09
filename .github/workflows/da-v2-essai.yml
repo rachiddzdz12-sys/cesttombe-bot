@@ -1,0 +1,65 @@
+name: DA v2 · essai (ne publie rien)
+
+# Se lance seul à chaque envoi sur la branche da-v2. Ne publie rien sur Instagram, ne touche pas
+# au bot principal ni à son état : les rendus sont déposés sur la branche « da-v2-rendus ».
+on:
+  push:
+    branches: [da-v2]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: da-v2-essai
+  cancel-in-progress: true
+
+jobs:
+  essai:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installation
+        run: |
+          pip install -r requirements.txt
+          pip install --no-deps rapidocr-onnxruntime==1.2.3
+          which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+
+      - name: Tests hors ligne
+        run: python tests/test_local.py 2>&1 | tail -60
+
+      - name: Info connue (Heuss) avec la vraie voix
+        run: |
+          mkdir -p sortie
+          python essais_da/heuss.py 2>&1 | tee sortie/journal-heuss.txt
+
+      - name: Infos réelles du moment (mode test, rien n'est publié)
+        env:
+          MODE: test
+          HEBERGEMENT: "non"
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          CATEGORIE: rap
+        run: python main.py 2>&1 | tee sortie/journal-infos.txt
+
+      - name: Rendus déposés sur la branche da-v2-rendus
+        if: always()
+        run: |
+          mkdir -p /tmp/rendus
+          find sortie -maxdepth 1 -type f \( -name "*.jpg" -o -name "*.mp4" -o -name "*.txt" \) -exec cp {} /tmp/rendus/ \;
+          cd /tmp/rendus
+          git init -q -b da-v2-rendus
+          git config user.name "cesttombe-bot"
+          git config user.email "cesttombe-bot@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Rendus DA v2 (essai ${{ github.run_number }})"
+          git push -q --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" da-v2-rendus
