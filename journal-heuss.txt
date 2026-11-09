@@ -1,0 +1,7 @@
+[0;93m2026-11-09 12:13:57.012836062 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+  vidéo · 37 images analysées, texte incrusté sur 33
+  couverture vidéo · passage 14-34 s · zone bas · zoom 1.25
+  voix · edge-tts (13.4 s)
+  reel · titre sur la vidéo, passage 14-34 s, zone bas
+  reel · 34.3 s avec voix + musique + son de la vidéo
+['heuss-1-video.mp4', 'heuss-2.jpg', 'heuss-3.jpg'] heuss-reel.mp4
