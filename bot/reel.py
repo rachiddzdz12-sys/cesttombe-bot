@@ -15,8 +15,9 @@ from bot import video as vid
 
 W, H, FPS = da.RW, da.RH, 30
 FONDU = 0.4
-CLIP_MAX = 30          # secondes de vidéo d'origine, avec son, après la voix off
-AMPLITUDE = 0.08       # zoom lent : de 100 % à 108 %
+CLIP_MAX = 20          # secondes de vidéo d'origine, avec son, après la voix off
+AMPLITUDE = 0.12       # zoom lent : de 100 % à 112 %
+PLAN_MIN = 2.5         # durée mini d'une image dans le Reel (s) : on change souvent d'image
 
 
 # ------------------------------------------------------------------ calques
@@ -50,19 +51,23 @@ def calque_pseudo(choix):
 
 # ------------------------------------------------------------------ photo animée
 class Plan:
-    """Une image plein écran qui zoome lentement, avec son calque de texte."""
+    """Une image plein écran qui bouge lentement (zoom avant, ou zoom arrière avec un léger glissement),
+    avec son calque de texte."""
 
-    def __init__(self, img, fenetre, couche, duree, ampli=AMPLITUDE):
+    def __init__(self, img, fenetre, couche, duree, ampli=AMPLITUDE, sens=1, glisse=0.0):
         x0, y0, cw, ch = fenetre
         self.base = img.crop((int(x0), int(y0), int(x0 + cw), int(y0 + ch))).resize(
             (int(W * (1 + ampli)), int(H * (1 + ampli))), Image.LANCZOS)
-        self.couche, self.duree, self.ampli = couche, duree, ampli
+        self.couche, self.duree, self.ampli, self.sens, self.glisse = couche, duree, ampli, sens, glisse
 
     def image(self, t):
-        z = 1 + self.ampli * min(1.0, max(0.0, t) / self.duree)
+        k = min(1.0, max(0.0, t) / self.duree)
+        k = k * k * (3 - 2 * k)                       # départ et arrivée en douceur
+        z = 1 + self.ampli * (k if self.sens > 0 else 1 - k)
         bw, bh = self.base.size
         vw, vh = bw / z, bh / z
-        x, y = (bw - vw) / 2, (bh - vh) / 2
+        x = (bw - vw) / 2 * (1 + self.glisse * (2 * k - 1))
+        y = (bh - vh) / 2
         im = self.base.resize((W, H), Image.BILINEAR, box=(x, y, x + vw, y + vh))
         if self.couche is not None:
             im = im.convert("RGBA")
@@ -89,20 +94,21 @@ def plans_photo(post, images, bloc, total, diag):
     m0, c0 = da.meilleur_cadrage(images[:3], hb, utilises, W=W, H=H, fixes=fixes_titre(hb), **da.REEL)
     zone = (da.M, c0["y0"], W - da.REEL["marge_droite"], c0["y1"])
     plans = [[m0, c0, calque_titre(post, c0, bloc), _ampli_sure(m0, c0, zone)]]
-    autres = [m for m in images if m["nom"] != m0["nom"]][:3]
-    n = min(len(autres), max(0, int((total - 4) // 3)))
-    for m in autres[:n]:
+    autres = [m for m in images if m["nom"] != m0["nom"]][:4]
+    n = min(len(autres), max(0, int((total - 3.5) // PLAN_MIN)))
+    for i, m in enumerate(autres[:n]):
         c = placement.choisir(m["img"], m["analyse"], W, H, 50, zones=("haut",), bord_haut=da.REEL["bord_haut"],
                               fixes={})
-        plans.append([m, c, calque_pseudo(c), AMPLITUDE])
+        plans.append([m, c, calque_pseudo(c), AMPLITUDE, -1 if i % 2 == 0 else 1, 0.6 if i % 2 == 0 else -0.6])
     if len(plans) == 1:
         durees = [total]
     else:
-        d0 = max(4.0, total * 0.45)
+        d0 = max(3.5, total * 0.35)
         durees = [d0] + [(total - d0) / (len(plans) - 1)] * (len(plans) - 1)
     diag.append(f"  reel · {len(plans)} image(s) animée(s), titre zone {c0['zone']}"
                 f"{'' if c0['propre'] else ' (PAS PROPRE)'}")
-    return [Plan(m["img"], c["fenetre"], couche, d, a) for (m, c, couche, a), d in zip(plans, durees)]
+    return [Plan(p[0]["img"], p[1]["fenetre"], p[2], d, p[3], *(p[4:] or [1, 0.0]))
+            for p, d in zip(plans, durees)]
 
 
 def video_des_plans(plans, sortie):

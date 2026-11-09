@@ -1,0 +1,36 @@
+name: Essai voix + photos (ne publie rien)
+
+on:
+  push:
+    branches: [essai-voix-photos]
+
+permissions:
+  contents: write
+
+jobs:
+  essai:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Installation
+        run: |
+          pip install -r requirements.txt
+          pip install --no-deps rapidocr-onnxruntime==1.2.3
+      - name: Essai
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python essais/voix_photos.py 2>&1 | grep -v onnxruntime | tee sortie-log.txt
+      - name: Rendus
+        if: always()
+        run: |
+          mkdir -p /tmp/r && cp sortie-log.txt /tmp/r/ || true
+          find sortie -maxdepth 1 -type f \( -name "*.jpg" -o -name "*.mp3" -o -name "*.mp4" -o -name "*.txt" \) ! -name "_t.mp3" -exec cp {} /tmp/r/ \;
+          cd /tmp/r && git init -q -b essai-voix-photos-rendus
+          git config user.name "cesttombe-bot" && git config user.email "cesttombe-bot@users.noreply.github.com"
+          git add -A && git commit -q -m "Rendus essai voix + photos" && \
+          git push -q --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" essai-voix-photos-rendus
