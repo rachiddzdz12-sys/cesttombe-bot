@@ -27,7 +27,9 @@
   "ag:https://www.actugaming.net/?p=832813": "2026-11-09T08:01:37.807668+00:00",
   "ig:18636248881004523": "2026-11-09T10:31:28.197658+00:00",
   "ig:17985689411900955": "2026-11-09T10:31:28.197658+00:00",
-  "x:2119582890241753369": "2026-11-09T10:31:28.197658+00:00"
+  "x:2119582890241753369": "2026-11-09T10:31:28.197658+00:00",
+  "ag:https://www.actugaming.net/?p=832835": "2026-11-09T12:38:21.680051+00:00",
+  "ag:https://www.actugaming.net/?p=832823": "2026-11-09T12:38:21.680051+00:00"
  },
  "publies": [
   {
@@ -115,10 +117,18 @@
    "source_id": "x:2119740524064322005",
    "lien": "https://www.instagram.com/p/DfhVPqskcLl/",
    "reel": "https://www.instagram.com/reel/DfhVX9FDIKr/"
+  },
+  {
+   "ts": "2026-11-09T12:38:21.680051+00:00",
+   "categorie": "GAMING",
+   "titre": "Nvidia : le PDG visé par un scandale d'espionnage",
+   "source_id": "ag:https://www.actugaming.net/?p=832823",
+   "lien": "https://www.instagram.com/p/DfhWgUdDdrf/",
+   "reel": "https://www.instagram.com/reel/DfhWhm2HJKt/"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 167
+  "tweets": 187
  }
 }
