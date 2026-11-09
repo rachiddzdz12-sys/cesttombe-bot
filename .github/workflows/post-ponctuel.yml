@@ -1,0 +1,67 @@
+name: Post ponctuel (demandé à la main)
+
+on:
+  push:
+    branches: [post-ponctuel]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cesttombe            # jamais en même temps que le bot principal (même hébergement d'images)
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installation
+        run: |
+          pip install -r requirements.txt
+          pip install --no-deps rapidocr-onnxruntime==1.2.3
+          which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+
+      - name: Rendu et publication
+        env:
+          PUBLIER: "oui"
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          GITHUB_TOKEN: ${{ github.token }}
+          IMAGES_TOKEN: ${{ secrets.IMAGES_TOKEN }}
+          IMAGES_REPO: ${{ vars.IMAGES_REPO }}
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+        run: python ponctuel/teddy.py 2>&1 | tee journal.txt; exit ${PIPESTATUS[0]}
+
+      - name: Le bot principal note ce post (écart entre deux posts, quota du jour)
+        if: success()
+        run: |
+          git config user.name "cesttombe-bot"
+          git config user.email "cesttombe-bot@users.noreply.github.com"
+          for essai in 1 2 3; do
+            git fetch -q origin main && git checkout -q -B maj origin/main
+            python3 -c "
+          import json; p=json.load(open('sortie/publication.json')); e=json.load(open('etat.json'))
+          e.setdefault('publies', []).append(p['pub'])
+          if 'x_mois' in e and isinstance(e['x_mois'], dict) and 'tweets' in e['x_mois']: e['x_mois']['tweets'] += p['tweets_lus']
+          json.dump(e, open('etat.json','w'), ensure_ascii=False, indent=1)"
+            git add etat.json && git commit -q -m "état : post ponctuel Teddy Riner" && git push -q origin maj:main && break
+            sleep 5
+          done
+
+      - name: Rendus (à télécharger)
+        if: always()
+        run: |
+          mkdir -p /tmp/rendus && cp journal.txt /tmp/rendus/ 2>/dev/null || true
+          find sortie -maxdepth 1 -type f \( -name "*.jpg" -o -name "*.mp4" -o -name "*.txt" -o -name "*.json" \) -exec cp {} /tmp/rendus/ \;
+          cd /tmp/rendus && git init -q -b post-ponctuel-rendus
+          git config user.name "cesttombe-bot" && git config user.email "cesttombe-bot@users.noreply.github.com"
+          git add -A && git commit -q -m "Rendus post ponctuel" && \
+          git push -q --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" post-ponctuel-rendus
