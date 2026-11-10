@@ -15,13 +15,12 @@ jobs:
       - name: Échantillons
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          SAUTER: "1"            # on garde les échantillons déjà faits
         run: test -n "$SAUTER" || python3 essais/voix2.py
       - name: Transcription (vérifier ce que dit chaque voix)
         if: always()
         run: |
           mkdir -p /tmp/r /tmp/da /tmp/x
-          (git fetch -q origin essai-voix2-rendus && git archive FETCH_HEAD | tar -x -C /tmp/r) > /tmp/r/log-transcription.txt 2>&1 || true
+          cp sortie/* /tmp/r/ 2>/dev/null || true
           (git fetch -q origin analyse-da-sortie && git archive FETCH_HEAD | tar -x -C /tmp/x && cp /tmp/x/*.mp4 /tmp/da/) >> /tmp/r/log-transcription.txt 2>&1 || true
           pip install -q faster-whisper >> /tmp/r/log-transcription.txt 2>&1 || true
           python3 essais/transcrire.py >> /tmp/r/log-transcription.txt 2>&1 || true

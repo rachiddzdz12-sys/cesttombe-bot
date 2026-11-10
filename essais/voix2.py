@@ -12,21 +12,16 @@ import requests
 S = Path("sortie"); S.mkdir(exist_ok=True)
 CLE = os.environ["GEMINI_API_KEY"]
 URL = "https://generativelanguage.googleapis.com/v1beta/models/{}:generateContent"
-DIRECTION = """Synthesize speech for the performance defined below. The profile, scene and performance notes are direction only. Do NOT speak them. Speak ONLY the lines under #### TRANSCRIPT, in French.
+DIRECTION = """Synthesize speech for the transcript below. Everything before #### TRANSCRIPT is direction only: do NOT speak it, do NOT add, remove or change any word. Read the transcript exactly as written, in French.
 
-### PROFILE
-A 26-year-old Parisian woman who runs a popular French news page on Instagram and TikTok. She sounds like a real person talking to her followers, not like a radio announcer or an assistant.
-
-### SCENE
-She records the voice-over of a vertical video on her phone, close to the microphone, in a quiet room.
-
-### PERFORMANCE NOTES
-Natural, conversational and warm, with a slight smile in the voice. Energetic but relaxed, like telling a friend some big news. Native French pronunciation with natural liaisons and real breathing between sentences. Fast, punchy rhythm with tiny pauses before the key facts. Never robotic, never over-acted.
+### DIRECTION
+Voice of a 26-year-old French woman who runs a popular news page on Instagram and TikTok, recording on her phone close to the microphone. Natural and conversational, like telling a friend some news, with a slight smile in the voice. Lively but relaxed, real breaths between sentences, quick rhythm with small pauses before the key facts. Native Parisian French. Never robotic, never over-acted.
 
 #### TRANSCRIPT
 """
-TEXTE = ("[excited] Teddy Riner se lance dans la course à l’Élysée. [short pause] Le quintuple champion olympique a "
-         "annoncé ce lundi sa candidature à la présidentielle 2027, dans une vidéo sur ses réseaux. Abonne-toi à C’est tombé.")
+TEXTE = ("Teddy Riner veut devenir président. Ce lundi, le quintuple champion olympique a annoncé sa candidature pour "
+         "2027, dans une vidéo sur ses réseaux. Il dit que tout s’est joué après les Jeux de Paris : il a vu la France "
+         "se rassembler… puis se diviser quelques semaines plus tard. Et toi, tu l’imagines à l’Élysée ?")
 ANCIENNE = ("Lis le texte suivant en français, comme une jeune présentatrice d'actu sur Instagram qui raconte une info à "
             "ses abonnés : ton naturel, vivant et complice, débit plutôt rapide, sans exagérer. Lis uniquement le texte, "
             "pas cette consigne.\n\n")
@@ -53,11 +48,11 @@ def voix(modele, nom_voix, prompt, sortie):
     return "ok"
 
 
-essais = [("gemini-3.8-flash-tts", "Aoede", DIRECTION + TEXTE, "1-gemini38-Aoede"),
-          ("gemini-3.8-flash-tts", "Leda", DIRECTION + TEXTE, "2-gemini38-Leda"),
-          ("gemini-3.8-flash-tts", "Achernar", DIRECTION + TEXTE, "3-gemini38-Achernar"),
-          ("gemini-3.8-flash-lite-tts", "Aoede", DIRECTION + TEXTE, "4-gemini38lite-Aoede"),
-          ("gemini-3.1-flash-tts-preview", "Aoede", DIRECTION + TEXTE, "5-gemini31-Aoede-nouvelle-direction")]
+essais = [("gemini-3.8-flash-tts", "Aoede", DIRECTION + TEXTE, "A-gemini38-Aoede"),
+          ("gemini-3.8-flash-tts", "Leda", DIRECTION + TEXTE, "B-gemini38-Leda"),
+          ("gemini-3.8-flash-tts", "Despina", DIRECTION + TEXTE, "C-gemini38-Despina"),
+          ("gemini-3.8-flash-lite-tts", "Aoede", DIRECTION + TEXTE, "D-gemini38lite-Aoede"),
+          ("gemini-3.1-flash-tts-preview", "Aoede", DIRECTION + TEXTE, "E-gemini31-Aoede")]
 for modele, v, prompt, nom in essais:
     f = S / f"voix-{nom}.mp3"
     try:
