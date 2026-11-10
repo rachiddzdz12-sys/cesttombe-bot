@@ -26,7 +26,7 @@ jobs:
                   print("ERREUR", j["error"]); break
               for m in j.get("data", []):
                   n += 1
-                  cap = (m.get("caption") or "").split("\n")[0][:80]
+                  cap = (m.get("caption") or "").replace("\n", " ⏎ ")[:420] if m["timestamp"] >= "2026-11-10" else ""
                   print(m["timestamp"][:16], m.get("media_product_type"), m["media_type"], m["id"], m["permalink"], "|", cap)
               url, params = j.get("paging", {}).get("next"), {}
           r = requests.get(f"{G}/{u}/content_publishing_limit", params={"access_token": t, "fields": "config,quota_usage"}, timeout=30)
