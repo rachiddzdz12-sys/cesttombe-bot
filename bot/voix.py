@@ -32,7 +32,7 @@ def _gemini(texte, sortie, voix=None):
     derniere = None
     for modele in config.GEMINI_TTS_MODELES:
         r = requests.post(TTS_URL.format(modele), headers={"x-goog-api-key": cle}, timeout=120, json={
-            "contents": [{"parts": [{"text": f"{config.VOIX_CONSIGNE}\n\n{texte}"}]}],
+            "contents": [{"parts": [{"text": f"{config.VOIX_CONSIGNE}{texte}"}]}],
             "generationConfig": {"responseModalities": ["AUDIO"],
                                  "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voix}}}}})
         if r.status_code != 200:
@@ -50,10 +50,17 @@ def _gemini(texte, sortie, voix=None):
                "-ac", "1", "-i", "-", "-af",
                "silenceremove=start_periods=1:start_threshold=-45dB,areverse,"
                "silenceremove=start_periods=1:start_threshold=-45dB,areverse,"
-               f"atempo={config.VOIX_GEMINI_TEMPO}", "-ar", "44100", "-b:a", "192k", str(sortie)]
+               f"atempo={config.VOIX_GEMINI_TEMPO},{config.VOIX_TRAITEMENT}", "-ar", "44100", "-b:a", "192k",
+               str(sortie)]
         p = subprocess.run(cmd, input=pcm, capture_output=True)
         if p.returncode != 0 or not sortie.exists() or sortie.stat().st_size < 2000:
             derniere = f"{modele} : conversion impossible"
+            continue
+        # garde-fou : une voix qui lit aussi la consigne, ou qui invente des phrases, dure bien trop longtemps
+        attendu = len(texte.split()) / 3.0
+        if not (attendu * 0.5 <= duree(sortie) <= attendu * 1.6 + 1.5):
+            derniere = f"{modele} : durée anormale ({duree(sortie):.1f} s au lieu de ~{attendu:.0f} s), écartée"
+            sortie.unlink()
             continue
         return sortie
     raise RuntimeError(derniere or "aucun modèle TTS")
