@@ -1,5 +1,6 @@
 """Lecture des sources : ActuGaming (flux RSS) et comptes Instagram rap (API officielle)."""
 import calendar
+import json
 import os
 import re
 from datetime import datetime, timezone
@@ -10,6 +11,25 @@ import requests
 from bs4 import BeautifulSoup
 
 import config
+
+try:
+    import ftfy
+except ImportError:      # sans ftfy, les textes sont gardés tels quels
+    ftfy = None
+
+MOJIBAKE = re.compile(r"Ã[\x80-\xbf¡-ÿ]|â€|ðŸ|Â[ «»°]")
+
+
+def reparer(texte):
+    """Répare un texte mal décodé (« carriÃ¨re » → « carrière », « ðŸš¨ » → « 🚨 »)."""
+    if not texte or not MOJIBAKE.search(texte):
+        return texte
+    if ftfy:
+        return ftfy.fix_text(texte, uncurl_quotes=False)
+    try:
+        return texte.encode("cp1252").decode("utf-8")
+    except (UnicodeEncodeError, UnicodeDecodeError):
+        return texte
 
 
 def http_get(url, **kw):
@@ -163,7 +183,7 @@ def lire_rap(diag):
             medias = j.get("business_discovery", {}).get("media", {}).get("data", [])
             diag.append(f"Rap · @{compte} → {len(medias)} posts lus")
             for m in medias:
-                legende = (m.get("caption") or "").strip()
+                legende = reparer((m.get("caption") or "").strip())
                 img = m.get("media_url") if m.get("media_type") in ("IMAGE", "CAROUSEL_ALBUM") else m.get("thumbnail_url")
                 vid = m.get("media_url") if m.get("media_type") in ("VIDEO", "REELS") else None
                 res.append({
@@ -265,13 +285,13 @@ def lire_x(diag, etat=None):
             if r.status_code >= 400:
                 diag.append(f"X · @{compte} → refus Apify HTTP {r.status_code} : {r.text[:150]}")
                 continue
-            items = [t for t in r.json() if isinstance(t, dict)]
+            items = [t for t in json.loads(r.content.decode("utf-8", "replace")) if isinstance(t, dict)]
             compteur["tweets"] += len(items)          # Apify facture tout ce qu'il renvoie
             items = [t for t in items if age_heures({"date": _date_tweet(t)}, datetime.now(timezone.utc)) <= recul]
             items = items[: config.X_MAX_TWEETS]
             gardes = 0
             for t in items:
-                texte = (t.get("text") or t.get("full_text") or t.get("fullText") or "").strip()
+                texte = reparer((t.get("text") or t.get("full_text") or t.get("fullText") or "").strip())
                 tid = str(t.get("id") or t.get("id_str") or t.get("tweetId") or "")
                 if not texte or not tid or texte.startswith("RT @") or t.get("isReply") or t.get("isRetweet"):
                     continue

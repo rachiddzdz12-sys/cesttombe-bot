@@ -140,6 +140,7 @@ class Photo:
         self.duree, self.sens, self.choix, self.encadree = duree, sens, choix, encadree
         img = media["img"]
         if encadree:
+            img = recadrer_encadre(img, media["analyse"])
             fondu = img.copy()
             e = max(W / img.width, H / img.height)
             fondu = fondu.resize((int(img.width * e) + 2, int(img.height * e) + 2), Image.BILINEAR)
@@ -148,7 +149,7 @@ class Photo:
             fondu = fondu.filter(ImageFilter.GaussianBlur(28)).convert("RGBA")
             fondu.alpha_composite(Image.new("RGBA", (W, H), da3.NOIR + (120,)))
             self.fond = fondu.convert("RGB")
-            boite_w, boite_h = W - 80, ZONE_LIBRE[0] - 300          # entre la puce et les sous-titres
+            boite_w, boite_h = BOITE
             k = min(boite_w / img.width, boite_h / img.height)
             self.photo = img.resize((int(img.width * k * 1.06), int(img.height * k * 1.06)), Image.LANCZOS)
             self.taille = (int(img.width * k), int(img.height * k))
@@ -183,15 +184,47 @@ class Photo:
         return self.base.resize((W, H), Image.BILINEAR, box=(x, (bh - vh) / 2, x + vw, (bh - vh) / 2 + vh))
 
 
+BOITE = (W - 80, ZONE_LIBRE[0] - 300)      # photo encadrée : entre la puce et les sous-titres
+HAUTEUR_MIN = 820                          # plein écran : pas plus de ~2,3x d'agrandissement (sinon flou)
+
+
+def recadrer_encadre(img, analyse):
+    """Photo encadrée : une photo très large est recoupée vers le format de la boîte, autour du sujet
+    (visage, objet), pour qu'elle reste grande ; si le sujet ne tient pas dans la découpe, photo entière."""
+    cible = BOITE[0] / BOITE[1]
+    if img.width / img.height <= cible * 1.12:
+        return img
+    sujet = analyse.get("sujet")
+    for rapport in (cible, 4 / 3, 16 / 10):
+        cw = int(img.height * rapport)
+        if cw >= img.width:
+            break
+        if sujet:
+            sx0, _, sx1, _ = sujet
+            if sx1 - sx0 > cw * 0.96:
+                continue                          # le sujet serait coupé : format plus large
+            cx = (sx0 + sx1) / 2
+        else:
+            cx = img.width / 2
+        x0 = int(min(max(0, cx - cw / 2), img.width - cw))
+        return img.crop((x0, 0, x0 + cw, img.height))
+    return img
+
+
 def plan_photo(media, accroche, sens):
-    """Plein écran si le sujet y tient entier et proprement ; sinon photo encadrée (photo paysage, sujet
-    trop grand, texte incrusté sous nos textes…). Renvoie (plan, note : plus haut = meilleur)."""
+    """Plein écran si le sujet y tient entier et proprement (photo paysage comprise, recadrée sur le sujet) ;
+    sinon photo encadrée. Renvoie (plan, note : plus haut = meilleur)."""
     c = _cadre_photo(media, accroche)
-    img = media["img"]
+    img, an = media["img"], media["analyse"]
     paysage = img.width / img.height > 1.15
-    sujet_ok = c.get("sujet_visible", 1) >= 0.8 or (media["analyse"].get("visages") and
-                                                   c.get("visages_visibles", 0) >= 0.99)
-    if c["propre"] and sujet_ok and not paysage:
+    if an.get("visages"):
+        sujet_ok = c.get("visages_visibles", 0) >= 0.99 and c.get("sujet_visible", 1) >= 0.7
+    else:
+        sujet_ok = c.get("sujet_visible", 1) >= (0.85 if paysage else 0.8)
+    if paysage:     # une photo paysage en plein écran n'en garde qu'un tiers : il faut un vrai sujet
+        sujet_ok = sujet_ok and (an.get("sujet") is not None or an.get("visages"))
+    assez_grande = c["fenetre"][3] >= HAUTEUR_MIN
+    if c["propre"] and sujet_ok and assez_grande:
         return Photo(media, c, PLAN, sens), 2
     return Photo(media, c, PLAN, sens, encadree=True), 1
 
@@ -319,7 +352,10 @@ def fabriquer(post, medias, texte_voix, dossier, prefixe, diag):
     accroche = [(post.get("accroche_reel_haut") or post["titre_haut"], da3.LIME),
                 (post.get("accroche_reel_bas") or post["titre_bas"], da3.BLANC)]
     libelle = post.get("chiffre_libelle") or post.get("chiffre_texte") or ""
-    y_accroche = (plans[0].choix["y0"] if plans[0].choix.get("zone") in ("haut", "milieu") else 400)
+    if getattr(plans[0], "encadree", False):
+        y_accroche = ZONE_LIBRE[0] + 40            # sous la photo encadrée, jamais dessus
+    else:
+        y_accroche = (plans[0].choix["y0"] if plans[0].choix.get("zone") in ("haut", "milieu") else 400)
 
     def image(t):
         if t >= t_fin:

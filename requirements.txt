@@ -2,6 +2,7 @@ requests>=2.31
 feedparser>=6.0
 beautifulsoup4>=4.12
 Pillow>=10.0
+ftfy>=6.1          # répare les textes mal décodés (accents, emojis)
 edge-tts>=7.0
 piper-tts>=1.2
 # repérage des textes incrustés et des visages (placement du texte sur les images)

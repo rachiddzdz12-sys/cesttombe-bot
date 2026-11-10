@@ -390,7 +390,8 @@ def couverture_reel(post, medias):
     d.text((62, 1450 + int(ft.size * 1.1)), post["titre_bas"].upper(), font=ft, fill=LIME, anchor="ls")
     sous = post.get("chiffre_texte") or ""
     if sous:
-        d.text((62, 1450 + int(ft.size * 1.1) + 68), lignes(sous, police("texte", 36), RW - 124, 1)[0],
-               font=police("texte", 36), fill=BLANC, anchor="ls")
+        for k, l in enumerate(lignes(sous, police("texte", 36), RW - 124, 2)):
+            d.text((62, 1450 + int(ft.size * 1.1) + 68 + 46 * k), l, font=police("texte", 36), fill=BLANC,
+                   anchor="ls")
     base.alpha_composite(avec_ombre(couche))
     return base.convert("RGB")

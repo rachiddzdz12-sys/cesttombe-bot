@@ -62,11 +62,16 @@ def steam(nom, n=4):
 
 
 # ------------------------------------------------------------------ Deezer (artistes)
+FANS_MIN = 5000      # en dessous, risque d'homonyme inconnu : pas de pochettes Deezer
+
+
 def deezer(nom, n=3):
-    r = _get("https://api.deezer.com/search/artist", params={"q": nom, "limit": 5})
+    r = _get("https://api.deezer.com/search/artist", params={"q": nom, "limit": 10})
     n += 2                                # des pochettes en double (éditions deluxe) seront écartées
-    artiste = next((a for a in r.json().get("data", []) if _correspond(nom, a.get("name", ""), 1.0)), None)
-    if not artiste:
+    # homonymes (un DJ « Ninho » à côté du rappeur) : on garde le plus suivi, et seulement s'il a un vrai public
+    memes = [a for a in r.json().get("data", []) if _correspond(nom, a.get("name", ""), 1.0)]
+    artiste = max(memes, key=lambda a: a.get("nb_fan", 0), default=None)
+    if not artiste or artiste.get("nb_fan", 0) < FANS_MIN:
         return []
     urls = [(artiste["picture_xl"], "")] if artiste.get("picture_xl") else []
     albums = _get(f"https://api.deezer.com/artist/{artiste['id']}/albums", params={"limit": 6}).json().get("data", [])

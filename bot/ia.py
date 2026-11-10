@@ -334,10 +334,16 @@ def valider(rep, cand):
             "sections": sections[:4], "slides": slides[:4], "legende": legende[:2200],
             "titre_haut": haut, "titre_bas": bas, "rubrique": _court(rep.get("rubrique"), 18) or defaut_rubrique,
             "mots_cles": mots_cles, "accroche_couv": _court(rep.get("accroche_couv"), 30),
-            "chiffre": chiffre, "chiffre_texte": _court(rep.get("chiffre_texte"), 70),
+            "chiffre": chiffre, "chiffre_texte": _court(rep.get("chiffre_texte"), 80),
             "question_haut": q1, "question_bas": q2,
             "accroche_reel_haut": _court(rep.get("accroche_reel_haut"), 24) or haut,
             "accroche_reel_bas": _court(rep.get("accroche_reel_bas"), 24) or bas}
+
+
+MOTS_VIDES = {"et", "ou", "de", "du", "des", "la", "le", "les", "un", "une", "dans", "sur", "à", "au", "aux", "pour",
+              "avec", "en", "qui", "que", "son", "sa", "ses", "leur", "leurs", "par", "mais", "car", "ce", "cette",
+              "ces", "il", "elle", "ils", "elles", "on", "se", "ne", "pas", "plus", "très", "après", "avant", "chez",
+              "vers", "sans", "sous", "entre", "dont", "où", "lors", "son", "notre", "votre", "mon", "ma", "mes"}
 
 
 def _court(texte, n):
@@ -345,7 +351,17 @@ def _court(texte, n):
     t = re.sub(r"\s+", " ", str(texte or "")).strip()
     if len(t) <= n:
         return t
-    return t[:n].rsplit(" ", 1)[0].rstrip(",;:") if " " in t[:n] else t[:n]
+    coupe = t[:n]
+    # d'abord à une fin de phrase ou de proposition, si elle garde au moins la moitié du texte
+    fin = max(coupe.rfind(x) for x in (". ", " — ", " : ", ", ", " ; ", "! ", "? ", " et ", " mais ", " qui ",
+                                         " alors ", " avant ", " après ", " pour "))
+    if fin >= n // 2:
+        return coupe[:fin].rstrip(" ,;:—")
+    coupe = coupe.rsplit(" ", 1)[0] if " " in coupe else coupe
+    mots = coupe.split()
+    while len(mots) > 2 and (mots[-1].lower().strip(",;:") in MOTS_VIDES or mots[-1].endswith("'")):
+        mots.pop()                    # jamais « … dans un documentaire et »
+    return " ".join(mots).rstrip(",;:")
 
 
 def couper_titre(titre):
