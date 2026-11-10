@@ -280,7 +280,8 @@ def lire_x(diag, etat=None):
                 videos = _videos_tweet(t)
                 date = _date_tweet(t)
                 res.append({
-                    "id": "x:" + tid, "categorie": "RAP FR", "source": "@" + compte.upper(),
+                    "id": "x:" + tid, "source": "@" + compte.upper(),
+                    "categorie": "GAMING" if re.search(config.MOTS_GAMING, texte, re.I) else "RAP FR",
                     "source_legende": "@" + compte + " (X)",
                     "titre": texte.split("\n")[0][:140], "resume": texte[:600], "texte": texte[:4000],
                     "lien": t.get("url") or t.get("twitterUrl") or f"https://x.com/{compte}/status/{tid}",

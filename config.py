@@ -55,9 +55,13 @@ GAMING = {
 COMPTES_RAP = ["rap.minute", "rapfractusofficiel"]
 
 # Comptes X (Twitter) rap, lus via Apify (crédit gratuit de 5 $/mois, sans carte) — secret APIFY_TOKEN
-COMPTES_X = ["RapFrActus"]
+COMPTES_X = ["RapFrActus", "FrenchRapUS"]
 APIFY_ACTEUR = "kaitoeasyapi~twitter-x-data-tweet-scraper-pay-per-result-cheapest"
-X_MAX_TWEETS = 20
+X_MAX_TWEETS = 15           # par compte et par lecture (Apify facture au tweet)
+# un tweet qui parle de jeu vidéo part dans la catégorie GAMING (ex : @FrenchRapUS poste aussi sur GTA 6)
+MOTS_GAMING = (r"\b(gta|ps5|ps4|playstation|xbox|nintendo|switch 2|steam|rockstar|jeu vid[ée]o|jeux vid[ée]o|"
+               r"gaming|fortnite|call of duty|warzone|minecraft|ea sports|fc 2[0-9]|ubisoft|bethesda|"
+               r"trailer du jeu|manette|console)\b")
 X_PLAFOND_MOIS = 10000        # au-delà, plus aucune lecture X ce mois-ci (≈ 2,50 $ sur les 5 $ offerts)  # pseudos Instagram (comptes Pro), sans le @
 
 # ------------------------------------------------------------------ identité
