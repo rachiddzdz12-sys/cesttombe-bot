@@ -79,6 +79,16 @@ def lignes(texte, f, largeur_max, n_max=None):
     return out
 
 
+def bloc(texte, nom, taille, largeur_max, n_max, mini=22):
+    """Police la plus grande (jusqu'à `mini`) qui fait tenir le texte en n_max lignes, sans le couper."""
+    for t in range(taille, mini - 1, -1):
+        f = police(nom, t)
+        out = lignes(texte, f, largeur_max)
+        if len(out) <= n_max:
+            return f, out
+    return f, lignes(texte, f, largeur_max, n_max)
+
+
 def degrade(taille, haut=0.45, debut=0.28, bas=0.9):
     """Voile sombre : léger en haut (logo), fort en bas (textes)."""
     w, h = taille
@@ -240,11 +250,13 @@ def couverture(post, media, choix, total):
         d.text((M, y_bas), post["chiffre"].upper(), font=fs, fill=LIME, anchor="ls")
         xs = M + lw + 34
         d.rectangle([xs, y_bas - 82, xs + 2, y_bas + 4], fill=(230, 230, 225))
-        for k, l in enumerate(lignes(post.get("chiffre_texte", ""), fd, W - M - xs - 40 - 150, 2)):
-            d.text((xs + 32, y_bas - 48 + k * 40), l, font=fd, fill=BLANC, anchor="ls")
+        fd, ls = bloc(post.get("chiffre_texte", ""), "texte", 30, W - M - xs - 40 - 150, 2)
+        for k, l in enumerate(ls):
+            d.text((xs + 32, y_bas - 48 + k * int(fd.size * 1.33)), l, font=fd, fill=BLANC, anchor="ls")
     elif post.get("chiffre_texte"):
-        for k, l in enumerate(lignes(post["chiffre_texte"], fd, W - 2 * M - 180, 2)):
-            d.text((M, y_bas - 40 + k * 40), l, font=fd, fill=BLANC, anchor="ls")
+        fd, ls = bloc(post["chiffre_texte"], "texte", 30, W - 2 * M - 180, 2)
+        for k, l in enumerate(ls):
+            d.text((M, y_bas - 40 + k * int(fd.size * 1.33)), l, font=fd, fill=BLANC, anchor="ls")
     espace(d, (W - M - 50, 1303), "GLISSE", police("titre2", 30), BLANC, track=0.06, anchor="rs")
     fleche(d, W - M, 1292)
     base.alpha_composite(avec_ombre(couche))
@@ -409,8 +421,9 @@ def couverture_reel(post, medias):
     d.text((62, 1450 + int(ft.size * 1.1)), post["titre_bas"].upper(), font=ft, fill=LIME, anchor="ls")
     sous = post.get("chiffre_texte") or ""
     if sous:
-        for k, l in enumerate(lignes(sous, police("texte", 36), RW - 124, 2)):
-            d.text((62, 1450 + int(ft.size * 1.1) + 68 + 46 * k), l, font=police("texte", 36), fill=BLANC,
+        fs, ls = bloc(sous, "texte", 36, RW - 124, 2, mini=28)
+        for k, l in enumerate(ls):
+            d.text((62, 1450 + int(ft.size * 1.1) + 68 + int(fs.size * 1.28) * k), l, font=fs, fill=BLANC,
                    anchor="ls")
     base.alpha_composite(avec_ombre(couche))
     return base.convert("RGB")

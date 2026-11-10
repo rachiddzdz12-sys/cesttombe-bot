@@ -334,7 +334,7 @@ def valider(rep, cand):
             "sections": sections[:4], "slides": slides[:4], "legende": legende[:2200],
             "titre_haut": haut, "titre_bas": bas, "rubrique": _court(rep.get("rubrique"), 18) or defaut_rubrique,
             "mots_cles": mots_cles, "accroche_couv": _court(rep.get("accroche_couv"), 30),
-            "chiffre": chiffre, "chiffre_texte": _court(rep.get("chiffre_texte"), 80),
+            "chiffre": chiffre, "chiffre_texte": _court(rep.get("chiffre_texte"), 110),
             "question_haut": q1, "question_bas": q2,
             "accroche_reel_haut": _court(rep.get("accroche_reel_haut"), 24) or haut,
             "accroche_reel_bas": _court(rep.get("accroche_reel_bas"), 24) or bas}
@@ -343,7 +343,9 @@ def valider(rep, cand):
 MOTS_VIDES = {"et", "ou", "de", "du", "des", "la", "le", "les", "un", "une", "dans", "sur", "à", "au", "aux", "pour",
               "avec", "en", "qui", "que", "son", "sa", "ses", "leur", "leurs", "par", "mais", "car", "ce", "cette",
               "ces", "il", "elle", "ils", "elles", "on", "se", "ne", "pas", "plus", "très", "après", "avant", "chez",
-              "vers", "sans", "sous", "entre", "dont", "où", "lors", "son", "notre", "votre", "mon", "ma", "mes"}
+              "vers", "sans", "sous", "entre", "dont", "où", "lors", "son", "notre", "votre", "mon", "ma", "mes",
+              "plusieurs", "quelques", "certains", "certaines", "nombreux", "nombreuses", "beaucoup", "tout",
+              "tous", "toute", "toutes", "chaque", "même", "suite", "encore", "aussi", "bien", "être", "avoir"}
 
 
 def _court(texte, n):

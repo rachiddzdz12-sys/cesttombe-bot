@@ -89,8 +89,10 @@ def _sujet(gris, visages):
     """Le sujet de la photo, à garder entier dans le cadre : visages (+ tête et épaules), sinon bustes,
     sinon la zone la plus saillante. {"sujet": boîte ou None, "sujet_poids": importance}."""
     h, w = gris.shape
-    if visages:
-        bx = [(a - (c - a) * 0.25, b - (d - b) * 0.3, c + (c - a) * 0.25, d + (d - b) * 0.5) for a, b, c, d in visages]
+    principaux = principaux_visages(visages, w, h)
+    if principaux:
+        bx = [(a - (c - a) * 0.25, b - (d - b) * 0.3, c + (c - a) * 0.25, d + (d - b) * 0.5)
+              for a, b, c, d in principaux]
         poids = 1500
     else:
         mini = max(40, min(gris.shape) // 8)
@@ -102,8 +104,26 @@ def _sujet(gris, visages):
     x0, y0 = max(0, min(b[0] for b in bx)), max(0, min(b[1] for b in bx))
     x1, y1 = min(w, max(b[2] for b in bx)), min(h, max(b[3] for b in bx))
     if (x1 - x0) * (y1 - y0) > 0.8 * w * h:       # « sujet » = toute l'image : aucune contrainte utile
-        return {"sujet": None, "sujet_poids": 0}
-    return {"sujet": (x0, y0, x1, y1), "sujet_poids": poids}
+        return {"sujet": None, "sujet_poids": 0, "principaux": principaux}
+    return {"sujet": (x0, y0, x1, y1), "sujet_poids": poids, "principaux": principaux}
+
+
+def principaux_visages(visages, w, h):
+    """Les visages qui comptent : grands et près du centre. Dans une foule (public, photographes au bord de
+    l'image), seuls les personnages principaux sont gardés pour le cadrage."""
+    if not visages:
+        return []
+
+    def note(v):
+        a, b, c, d = v
+        dx = ((a + c) / 2 - w / 2) / (w / 2)
+        dy = ((b + d) / 2 - h * 0.5) / (h / 2)
+        centre = max(0.0, 1 - ((dx * dx + dy * dy) / 2) ** 0.5)
+        return (c - a) * (d - b) * centre ** 2
+
+    notes = [note(v) for v in visages]
+    haut = max(notes)
+    return [v for v, n in zip(visages, notes) if n >= 0.5 * haut] if haut > 0 else list(visages)
 
 
 def _fenetre(src_w, src_h, W, H, centrage, zoom):
@@ -197,9 +217,16 @@ def choisir(img, analyse, W, H, hauteur_bloc, zones=("bas", "haut", "milieu"), c
             visible = _recouvrement((0, 0, W, H), grands)        # part de l'écran couverte de texte étranger
             netete = min(1.0, 1.5 / echelle)                     # < 1 dès que la source est agrandie > 1,5×
             # le sujet doit rester à l'image : part des visages détectés entièrement visibles dans le cadrage
-            vus = [v for v in analyse["visages"]
-                   if v[0] >= x0 and v[1] >= y0 and v[2] <= x0 + cw and v[3] <= y0 + ch]
-            sujet = len(vus) / len(analyse["visages"]) if analyse["visages"] else 1.0
+            importants = analyse.get("principaux") or analyse["visages"]
+            # part visible de chaque visage important (un très gros plan qui ne tient pas entier reste centré)
+            parts = [max(0, min(v[2], x0 + cw) - max(v[0], x0)) * max(0, min(v[3], y0 + ch) - max(v[1], y0))
+                     / max(1, (v[2] - v[0]) * (v[3] - v[1])) for v in importants]
+            sujet = sum(1.0 if q >= 0.999 else 0.85 * q for q in parts) / len(parts) if parts else 1.0
+            decale = 0.0
+            if parts and min(parts) < 0.999:     # visage trop grand pour le cadre : on le garde au centre
+                fx = (min(v[0] for v in importants) + max(v[2] for v in importants)) / 2
+                fy = (min(v[1] for v in importants) + max(v[3] for v in importants)) / 2
+                decale = abs(x0 + cw / 2 - fx) / cw + 0.5 * abs(y0 + ch / 2 - fy) / ch
             boite, poids = analyse.get("sujet"), analyse.get("sujet_poids", 0)
             if boite:
                 bw, bh = boite[2] - boite[0], boite[3] - boite[1]
@@ -219,7 +246,7 @@ def choisir(img, analyse, W, H, hauteur_bloc, zones=("bas", "haut", "milieu"), c
                 f = sum(_recouvrement(b, textes) for b in boites.values())
                 sale = visible > 0 or t > 0 or v > 0 or f > 0   # un rendu « pas propre » perd toujours
                 fixe = (1000 * sale + 2000 * t + 1500 * min(1.0, visible * 8) + 500 * v + 300 * f
-                        + 40 * (1 - netete) + 30 * (zoom - 1) + 600 * (1 - sujet)
+                        + 40 * (1 - netete) + 30 * (zoom - 1) + 600 * (1 - sujet) + 250 * decale
                         + {"bas": 0, "haut": 4, "milieu": 8}[nom])
                 if boite:   # sujet coupé par le cadre, ou caché sous notre texte
                     cache = (_recouvrement(zone, [cible_sujet]) * (zone[2] - zone[0]) * (zone[3] - zone[1])
@@ -287,6 +314,7 @@ def _union(images, genants):
     return {"textes": [b for _, _, a in images for b in a["textes"]],
             "genants": [b for g in genants for b in g],
             "visages": [b for _, _, a in images for b in a["visages"]],
+            "principaux": [b for _, _, a in images for b in (a.get("principaux") or a["visages"])],
             "sujet": sujet, "sujet_poids": max([a.get("sujet_poids", 0) for _, _, a in images] or [0])}
 
 
