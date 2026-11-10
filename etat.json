@@ -35,7 +35,11 @@
   "ag:https://www.actugaming.net/?p=832830": "2026-11-09T12:47:31.862996+00:00",
   "ag:https://www.actugaming.net/?p=832827": "2026-11-09T12:50:08.124277+00:00",
   "ag:https://www.actugaming.net/?p=832850": "2026-11-09T12:50:08.124277+00:00",
-  "ag:https://www.actugaming.net/?p=832836": "2026-11-09T12:53:18.313050+00:00"
+  "ag:https://www.actugaming.net/?p=832836": "2026-11-09T12:53:18.313050+00:00",
+  "ag:https://www.actugaming.net/?p=832844": "2026-11-10T08:01:35.991078+00:00",
+  "ag:https://www.actugaming.net/?p=832976": "2026-11-10T08:01:35.991078+00:00",
+  "ag:https://www.actugaming.net/?p=832973": "2026-11-10T08:01:35.991078+00:00",
+  "ag:https://www.actugaming.net/?p=832860": "2026-11-10T08:01:35.991078+00:00"
  },
  "publies": [
   {
@@ -175,6 +179,6 @@
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 322
+  "tweets": 342
  }
 }
