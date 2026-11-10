@@ -168,6 +168,8 @@ check(sources._videos_tweet({"extended_entities": {"media": [{"video_info": {"va
 # ------------------------------------------------------------------ 4. --verif (horaires, quota, écart)
 paris = main.PARIS
 midi = datetime.now(paris).replace(hour=12, minute=0, second=0, microsecond=0)
+_rattrapage = config.RATTRAPAGE_JUSQUA
+config.RATTRAPAGE_JUSQUA = None              # règles normales pour ces vérifications
 vide = {"vus": {}, "publies": []}
 check(main.raison_de_ne_pas_poster(vide, midi) is None, "verif : midi, aucun post → on poste")
 check("hors horaires" in main.raison_de_ne_pas_poster(vide, midi.replace(hour=4)), "verif : 4h du matin → non")
@@ -177,6 +179,13 @@ plein = {"vus": {}, "publies": [{"ts": (midi - timedelta(minutes=200 + i)).isofo
                                  "titre": "x"} for i in range(config.POSTS_PAR_JOUR)]}
 if (midi - timedelta(minutes=200 + config.POSTS_PAR_JOUR)).date() == midi.date():
     check("quota" in main.raison_de_ne_pas_poster(plein, midi), "verif : quota du jour atteint → non")
+config.RATTRAPAGE_JUSQUA = (midi + timedelta(hours=2)).strftime("%Y-%m-%dT%H:%M")
+il_y_a_55 = {"vus": {}, "publies": [{"ts": (midi - timedelta(minutes=55)).isoformat(), "categorie": "GAMING",
+                                     "titre": "x"}]}
+check(main.raison_de_ne_pas_poster(il_y_a_55, midi) is None, "rattrapage : un post toutes les 50 min autorisé")
+config.RATTRAPAGE_JUSQUA = (midi - timedelta(hours=1)).strftime("%Y-%m-%dT%H:%M")
+check(main.raison_de_ne_pas_poster(il_y_a_55, midi) is not None, "rattrapage terminé : retour aux règles normales")
+config.RATTRAPAGE_JUSQUA = None
 
 # ------------------------------------------------------------------ 5. passage complet simulé (réseau remplacé)
 tmp_etat = Path(tempfile.mkdtemp()) / "etat.json"

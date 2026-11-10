@@ -26,7 +26,12 @@ VOIX_A_TESTER = ["gemini:Aoede", "gemini:Leda", "gemini:Despina", "gemini:Callir
                  "gemini:Kore", "fr-FR-DeniseNeural"]
 
 # ------------------------------------------------------------------ rythme
-POSTS_PAR_JOUR = 6            # total gaming + rap
+POSTS_PAR_JOUR = 6
+# Rattrapage après une coupure : jusqu'à cette date (heure de Paris), le bot poste plus souvent et accepte
+# des infos plus anciennes, pour couvrir ce qu'il a raté. Mettre None pour le désactiver.
+RATTRAPAGE_JUSQUA = "2026-11-11T12:00"
+RATTRAPAGE = {"posts_par_jour": 10, "ecart_min": 50, "facteur_age": 3, "score_min": 5}
+X_FACTEUR_RECUL = 1          # réglé par le bot pendant un rattrapage            # total gaming + rap
 HEURE_DEBUT = 9               # heure de Paris, premier post possible
 HEURE_FIN = 23                # heure de Paris, plus aucun post après
 ECART_MIN_MINUTES = 120       # temps minimum entre deux posts
