@@ -127,8 +127,26 @@ def cadre(media, W_, H_, hauteur_bloc, bas, fixes=None, eviter=(), zones=("bas",
                              fixes=fixes if fixes is not None else FIXES_HAUT, eviter=eviter)
 
 
+def nettete(m):
+    """Netteté de l'image (variance du laplacien sur une version réduite), gardée dans le média."""
+    if "nettete" not in m:
+        import cv2
+        import numpy as np
+        g = m["img"].convert("L")
+        g = g.resize((512, max(1, int(512 * g.height / g.width))))
+        m["nettete"] = float(cv2.Laplacian(np.asarray(g), cv2.CV_64F).var())
+    return m["nettete"]
+
+
+def flou(m, pool):
+    """Pénalité d'une image floue (bougé d'une vidéo, photo de mauvaise qualité) par rapport aux autres."""
+    ref = max(nettete(x) for x in pool)
+    return 260 if ref > 0 and nettete(m) < 0.35 * ref else 0
+
+
 def choisir_image(pool, hauteur_bloc, bas, utilises, penalite=None, fixes=None, W_=W, H_=H, zones=("bas",)):
-    """Meilleure image + cadrage du pool (propre d'abord), en variant les images d'une slide à l'autre."""
+    """Meilleure image + cadrage du pool (propre d'abord), en variant les images d'une slide à l'autre
+    et en écartant les images floues."""
     meilleur = None
     for strict in (True, False):
         for rang, m in enumerate(pool):
@@ -136,7 +154,8 @@ def choisir_image(pool, hauteur_bloc, bas, utilises, penalite=None, fixes=None, 
             c = cadre(m, W_, H_, hauteur_bloc, bas, fixes, deja if strict else (), zones)
             if c is None:
                 continue
-            note = (c["propre"], -(c["cout"] + 120 * len(deja) + 3 * rang + (penalite(m) if penalite else 0)))
+            note = (c["propre"], -(c["cout"] + 120 * len(deja) + 3 * rang + flou(m, pool)
+                                   + (penalite(m) if penalite else 0)))
             if meilleur is None or note > meilleur[0]:
                 meilleur = (note, m, c)
         if meilleur:

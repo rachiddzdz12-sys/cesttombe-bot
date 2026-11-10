@@ -317,7 +317,7 @@ def construire_plans(medias, n, tmp, diag):
             meilleur = None
             for m in pool:
                 p, note = plan_photo(m, accroche, 1 if i % 2 else -1)
-                cle = (-utilise.get(m["nom"], 0), note, -pool.index(m))
+                cle = (-utilise.get(m["nom"], 0), note - (1.5 if da3.flou(m, pool) else 0), -pool.index(m))
                 if meilleur is None or cle > meilleur[0]:
                     meilleur = (cle, p, m)
             plan = meilleur[1]
