@@ -1,0 +1,276 @@
+X · @FrenchRapUS → 15 tweets lus, 14 gardés (ce mois : 417 / 10000)
+10 tweet(s) à publier
+
+[1/10] GAMING · 🚨 APRÈS 10 ANNÉES DE DÉVELOPPEMENT, GTA 6 EST OFFICIELLEMENT PASSÉ GOLD CETTE NUIT ! 
+  photo · échec : image trop petite (48x48)
+  photo · 2 image(s) : 960x971, 1534x1572
+  visuels · steam « GTA 6 » → 0 image(s)
+  couverture · photo2 · zone bas · zoom 2.0 · propre
+  voix · Gemini (Aoede) (8.7 s)
+  reel · 2 image(s) animée(s), titre zone haut
+  reel · 9.5 s avec voix + musique
+  ❌ ErreurInstagram : API access blocked.
+Traceback (most recent call last):
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/ponctuel/tweets.py", line 55, in <module>
+    lien = instagram.publier_carrousel(urls[:len(fichiers)], red["legende"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 52, in publier_carrousel
+    enfants.append(_req("POST", f"{ig}/media", image_url=u, is_carousel_item="true")["id"])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 27, in _req
+    raise ErreurInstagram(j["error"].get("message", str(j["error"])))
+bot.instagram.ErreurInstagram: API access blocked.
+
+[2/10] GAMING · 🚨 ALERTE GÉNÉRALE !!
+  photo · échec : image trop petite (48x48)
+  photo · 2 image(s) : 1179x1164, 2048x2048
+  visuels · steam « GTA 6 » → 0 image(s)
+  couverture · photo2 · zone bas · zoom 1.12 · propre
+  voix · Gemini (Aoede) (7.5 s)
+  reel · 2 image(s) animée(s), titre zone bas
+  reel · 8.3 s avec voix + musique
+  ❌ ErreurInstagram : API access blocked.
+Traceback (most recent call last):
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/ponctuel/tweets.py", line 55, in <module>
+    lien = instagram.publier_carrousel(urls[:len(fichiers)], red["legende"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 52, in publier_carrousel
+    enfants.append(_req("POST", f"{ig}/media", image_url=u, is_carousel_item="true")["id"])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 27, in _req
+    raise ErreurInstagram(j["error"].get("message", str(j["error"])))
+bot.instagram.ErreurInstagram: API access blocked.
+
+[3/10] RAP FR · 🚨 ALERTE ! 
+  photo · 1 image(s) : 1189x1200
+  visuels · commons « SDM » → 0 image(s)
+  visuels · commons « Jean-Luc Mélenchon » → 4 image(s)
+  couverture · photo1 · zone bas · zoom 1.12 · propre
+  voix · Gemini (Aoede) (10.1 s)
+  reel · 3 image(s) animée(s), titre zone bas
+  reel · 10.9 s avec voix + musique
+  ❌ ErreurInstagram : API access blocked.
+Traceback (most recent call last):
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/ponctuel/tweets.py", line 55, in <module>
+    lien = instagram.publier_carrousel(urls[:len(fichiers)], red["legende"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 52, in publier_carrousel
+    enfants.append(_req("POST", f"{ig}/media", image_url=u, is_carousel_item="true")["id"])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 27, in _req
+    raise ErreurInstagram(j["error"].get("message", str(j["error"])))
+bot.instagram.ErreurInstagram: API access blocked.
+
+[4/10] RAP FR · 🚨 SCÈNE CHOQUANTE EN PLEINE CONFÉRENCE DE PRESSE DE FINAL SLAM !
+  photo · 1 image(s) : 960x720
+  visuels · commons « Squeezie » → 2 image(s)
+  visuels · commons « Anyme » → 2 image(s)
+  vidéo · téléchargée (44 s, 3 Mo)
+  vidéo · 40 images analysées, texte incrusté sur 30
+  couverture vidéo · passage 3-23 s · zone haut · zoom 1.25
+  voix · Gemini (Aoede) (7.6 s)
+  reel · trop de texte incrusté sur la vidéo : voix off sur la photo, puis vidéo brute
+  reel · 2 image(s) animée(s), titre zone haut
+  reel · 28.5 s avec voix + musique + son de la vidéo
+  ⚠️ vidéo refusée (API access blocked.) : carrousel sans vidéo
+  couverture · photo1 · zone bas · zoom 1.0 · propre
+  ❌ ErreurInstagram : API access blocked.
+Traceback (most recent call last):
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/ponctuel/tweets.py", line 55, in <module>
+    lien = instagram.publier_carrousel(urls[:len(fichiers)], red["legende"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 50, in publier_carrousel
+    enfants.append(_req("POST", f"{ig}/media", media_type="VIDEO", video_url=u, is_carousel_item="true")["id"])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 27, in _req
+    raise ErreurInstagram(j["error"].get("message", str(j["error"])))
+bot.instagram.ErreurInstagram: API access blocked.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/ponctuel/tweets.py", line 63, in <module>
+    lien = instagram.publier_carrousel(urls[:len(fichiers)], red["legende"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 52, in publier_carrousel
+    enfants.append(_req("POST", f"{ig}/media", image_url=u, is_carousel_item="true")["id"])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 27, in _req
+    raise ErreurInstagram(j["error"].get("message", str(j["error"])))
+bot.instagram.ErreurInstagram: API access blocked.
+
+[5/10] RAP FR · 🚨 ALERTE ! 
+  photo · 1 image(s) : 1180x650
+  visuels · commons « Philippe Chereau » → 0 image(s)
+  visuels · commons « Amine » → 0 image(s)
+  vidéo · téléchargée (38 s, 2 Mo)
+  vidéo · 38 images analysées, texte incrusté sur 36
+  couverture vidéo · passage 19-34 s · zone bas · zoom 1.12
+  voix · Gemini (Aoede) (9.2 s)
+  reel · titre sur la vidéo, passage 19-34 s, zone bas
+  reel · 25.1 s avec voix + musique + son de la vidéo
+  ⚠️ vidéo refusée (API access blocked.) : carrousel sans vidéo
+  couverture · photo1 · zone bas · zoom 1.0 · propre
+  slide 3 · photo1 : pas de zone parfaitement propre
+  ❌ ErreurInstagram : API access blocked.
+Traceback (most recent call last):
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/ponctuel/tweets.py", line 55, in <module>
+    lien = instagram.publier_carrousel(urls[:len(fichiers)], red["legende"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 50, in publier_carrousel
+    enfants.append(_req("POST", f"{ig}/media", media_type="VIDEO", video_url=u, is_carousel_item="true")["id"])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 27, in _req
+    raise ErreurInstagram(j["error"].get("message", str(j["error"])))
+bot.instagram.ErreurInstagram: API access blocked.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/ponctuel/tweets.py", line 63, in <module>
+    lien = instagram.publier_carrousel(urls[:len(fichiers)], red["legende"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 52, in publier_carrousel
+    enfants.append(_req("POST", f"{ig}/media", image_url=u, is_carousel_item="true")["id"])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 27, in _req
+    raise ErreurInstagram(j["error"].get("message", str(j["error"])))
+bot.instagram.ErreurInstagram: API access blocked.
+
+[6/10] RAP FR · 🚨 WHAT THE FUCK !?
+  photo · 1 image(s) : 1200x673
+  visuels · commons « Squeezie » → 2 image(s)
+  visuels · commons « Amine » → 0 image(s)
+  vidéo · téléchargée (64 s, 5 Mo)
+  vidéo · 40 images analysées, texte incrusté sur 40
+  couverture vidéo · passage 45-60 s · zone bas · zoom 1.12
+  voix · Gemini (Aoede) (6.2 s)
+  reel · titre sur la vidéo, passage 45-60 s, zone bas
+  reel · 22.1 s avec voix + musique + son de la vidéo
+  ⚠️ vidéo refusée (API access blocked.) : carrousel sans vidéo
+  couverture · photo1 · zone bas · zoom 1.0 · propre
+  ❌ ErreurInstagram : API access blocked.
+Traceback (most recent call last):
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/ponctuel/tweets.py", line 55, in <module>
+    lien = instagram.publier_carrousel(urls[:len(fichiers)], red["legende"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 50, in publier_carrousel
+    enfants.append(_req("POST", f"{ig}/media", media_type="VIDEO", video_url=u, is_carousel_item="true")["id"])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 27, in _req
+    raise ErreurInstagram(j["error"].get("message", str(j["error"])))
+bot.instagram.ErreurInstagram: API access blocked.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/ponctuel/tweets.py", line 63, in <module>
+    lien = instagram.publier_carrousel(urls[:len(fichiers)], red["legende"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 52, in publier_carrousel
+    enfants.append(_req("POST", f"{ig}/media", image_url=u, is_carousel_item="true")["id"])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 27, in _req
+    raise ErreurInstagram(j["error"].get("message", str(j["error"])))
+bot.instagram.ErreurInstagram: API access blocked.
+
+[7/10] RAP FR · 🚨 ALERTE ! 
+  photo · 1 image(s) : 960x720
+  visuels · commons « Anyme » → 4 image(s)
+  vidéo · téléchargée (74 s, 5 Mo)
+  vidéo · 40 images analysées, texte incrusté sur 38
+  couverture · video@1s · zone bas · zoom 1.0 · propre
+  vidéo · trop de texte incrusté pour y poser le titre : slide 2 brute
+  voix · Gemini (Aoede) (9.0 s)
+  reel · trop de texte incrusté sur la vidéo : voix off sur la photo, puis vidéo brute
+  reel · 3 image(s) animée(s), titre zone bas
+  reel · 29.9 s avec voix + musique + son de la vidéo
+  ⚠️ vidéo refusée (API access blocked.) : carrousel sans vidéo
+  couverture · photo1 · zone haut · zoom 1.0 · propre
+  ❌ ErreurInstagram : API access blocked.
+Traceback (most recent call last):
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/ponctuel/tweets.py", line 55, in <module>
+    lien = instagram.publier_carrousel(urls[:len(fichiers)], red["legende"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 52, in publier_carrousel
+    enfants.append(_req("POST", f"{ig}/media", image_url=u, is_carousel_item="true")["id"])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 27, in _req
+    raise ErreurInstagram(j["error"].get("message", str(j["error"])))
+bot.instagram.ErreurInstagram: API access blocked.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/ponctuel/tweets.py", line 63, in <module>
+    lien = instagram.publier_carrousel(urls[:len(fichiers)], red["legende"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 52, in publier_carrousel
+    enfants.append(_req("POST", f"{ig}/media", image_url=u, is_carousel_item="true")["id"])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 27, in _req
+    raise ErreurInstagram(j["error"].get("message", str(j["error"])))
+bot.instagram.ErreurInstagram: API access blocked.
+
+[8/10] GAMING · 🚨 C’EST MALHEUREUSEMENT CONFIRMÉ !
+  photo · échec : image trop petite (48x48)
+  photo · 2 image(s) : 1157x1200, 1179x1164
+  visuels · steam « GTA 6 » → 0 image(s)
+  couverture · photo1 · zone bas · zoom 1.0 · propre
+  voix · Gemini (Aoede) (9.3 s)
+  reel · 2 image(s) animée(s), titre zone bas
+  reel · 10.1 s avec voix + musique
+  ❌ ErreurInstagram : API access blocked.
+Traceback (most recent call last):
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/ponctuel/tweets.py", line 55, in <module>
+    lien = instagram.publier_carrousel(urls[:len(fichiers)], red["legende"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 52, in publier_carrousel
+    enfants.append(_req("POST", f"{ig}/media", image_url=u, is_carousel_item="true")["id"])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 27, in _req
+    raise ErreurInstagram(j["error"].get("message", str(j["error"])))
+bot.instagram.ErreurInstagram: API access blocked.
+
+[9/10] RAP FR · 🚨 UNE TROMPERIE QUI POURRAIT LUI COÛTER 81 MILLIARDS DE DOLLARS !
+  photo · 1 image(s) : 1179x1171
+  visuels · commons « NVIDIA » → 4 image(s)
+  couverture · photo1 · zone milieu · zoom 1.25 · propre
+  voix · Gemini (Aoede) (8.9 s)
+  reel · 3 image(s) animée(s), titre zone bas
+  reel · 9.7 s avec voix + musique
+  ❌ ErreurInstagram : API access blocked.
+Traceback (most recent call last):
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/ponctuel/tweets.py", line 55, in <module>
+    lien = instagram.publier_carrousel(urls[:len(fichiers)], red["legende"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 52, in publier_carrousel
+    enfants.append(_req("POST", f"{ig}/media", image_url=u, is_carousel_item="true")["id"])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 27, in _req
+    raise ErreurInstagram(j["error"].get("message", str(j["error"])))
+bot.instagram.ErreurInstagram: API access blocked.
+
+[10/10] GAMING · 🚨 LE PLUS GRAND JEU DE L’HISTOIRE !
+  photo · échec : image trop petite (48x48)
+  photo · 2 image(s) : 951x1200, 1179x1541
+  visuels · steam « GTA 6 » → 0 image(s)
+  visuels · commons « Travis Scott » → 4 image(s)
+  couverture · photo1 · zone haut · zoom 1.4 · propre
+  voix · Gemini (Aoede) (8.9 s)
+  reel · 3 image(s) animée(s), titre zone haut
+  reel · 9.7 s avec voix + musique
+  ❌ ErreurInstagram : API access blocked.
+Traceback (most recent call last):
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/ponctuel/tweets.py", line 55, in <module>
+    lien = instagram.publier_carrousel(urls[:len(fichiers)], red["legende"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 52, in publier_carrousel
+    enfants.append(_req("POST", f"{ig}/media", image_url=u, is_carousel_item="true")["id"])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/cesttombe-bot/cesttombe-bot/bot/instagram.py", line 27, in _req
+    raise ErreurInstagram(j["error"].get("message", str(j["error"])))
+bot.instagram.ErreurInstagram: API access blocked.
+
+Terminé : 0 post(s) publié(s) sur 10
+Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 3 s · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 7 s · gemini-flash-lite-latest : réponse en 3 s · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 1 s
