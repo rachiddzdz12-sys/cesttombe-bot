@@ -1,0 +1,8 @@
+A-gemini38-Aoede [gemini-3.8-flash-tts] : ok (16.8 s)
+B-gemini38-Leda [gemini-3.8-flash-tts] : ok (17.7 s)
+C-gemini38-Despina [gemini-3.8-flash-tts] : ok (56.2 s)
+D-gemini38lite-Aoede [gemini-3.8-flash-lite-tts] : ok (50.1 s)
+E-gemini31-Aoede [gemini-3.1-flash-tts-preview] : HTTP 429 : {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To m
