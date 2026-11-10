@@ -104,7 +104,16 @@ def commons(nom, n=4):
     return sortie
 
 
-SOURCES = {"jeu": (steam,), "artiste": (deezer, commons), "personne": (commons,), "autre": (commons,)}
+def commons_personne(nom, n=4):
+    """Photos libres d'une personne : seulement si le nom complet (prénom + nom) est dans le nom du fichier,
+    pour ne jamais prendre un homonyme (ex : « Leto » le rappeur ≠ Jared Leto)."""
+    if len(_mots(nom)) < 2:
+        return []
+    return [(u, c) for u, c in commons(nom, n * 2) if _correspond(nom, u.rsplit("/", 1)[-1], 1.0)][:n]
+
+
+# artistes : Deezer seulement (un nom de scène a trop d'homonymes) ; « autre » : pas de recherche d'images
+SOURCES = {"jeu": (steam,), "artiste": (deezer,), "personne": (commons_personne,), "autre": ()}
 
 
 def chercher(sujets, diag, n=4):
@@ -116,7 +125,7 @@ def chercher(sujets, diag, n=4):
         nom, typ = (s.get("nom") or "").strip(), (s.get("type") or "autre").strip().lower()
         if not nom:
             continue
-        for fn in SOURCES.get(typ, SOURCES["autre"]):
+        for fn in SOURCES.get(typ, ()):
             if len(trouvees) >= n:
                 break
             try:

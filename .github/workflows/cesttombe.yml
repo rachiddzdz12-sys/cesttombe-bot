@@ -89,5 +89,13 @@ jobs:
         run: |
           git config user.name "cesttombe-bot"
           git config user.email "cesttombe-bot@users.noreply.github.com"
-          git add etat.json
-          git diff --cached --quiet || (git commit -q -m "état : mise à jour" && git push -q)
+          git add etat.json dernier-journal.txt 2>/dev/null || git add etat.json
+          git diff --cached --quiet && exit 0
+          git commit -q -m "état : mise à jour"
+          # si main a bougé entre-temps, on se remet à jour et on réessaie : l'état ne doit jamais se perdre
+          for essai in 1 2 3 4 5; do
+            git push -q && exit 0
+            git pull -q --rebase -X theirs origin main || git pull -q --no-rebase --no-edit -X ours origin main
+            sleep 3
+          done
+          exit 1

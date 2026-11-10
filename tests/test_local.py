@@ -125,6 +125,13 @@ c = placement.choisir(img_haute, faux, 1080, 1350, 300)
 check(c["zone"] != "bas" or c["zoom"] > 1, "placement : évite le bandeau de texte incrusté")
 check(placement.choisir(img_haute, {"textes": [], "visages": []}, 1080, 1350, 300)["propre"], "placement : image vide = propre")
 
+# anti-doublon vérifié sur Instagram : mêmes hashtags de sujet = même info
+from bot import instagram as _ig  # noqa: E402
+check(_ig._meme_sujet(_ig._tags("#sardou #orelsan #rapfr"), _ig._tags("#orelsan #michelsardou #rapfr")),
+      "anti-doublon : Sardou/Orelsan reconnu malgré des hashtags différents")
+check(not _ig._meme_sujet(_ig._tags("#leto #ayanakamura"), _ig._tags("#leto #tiakola #lovestory")),
+      "anti-doublon : deux infos différentes sur le même artiste restent possibles")
+
 # ------------------------------------------------------------------ 3b. vidéo plein cadre + Reel
 import subprocess  # noqa: E402
 from bot import reel, video as vid  # noqa: E402

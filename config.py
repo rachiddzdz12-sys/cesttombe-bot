@@ -3,7 +3,7 @@ import os
 
 # ------------------------------------------------------------------ interrupteur
 PUBLICATION_AUTO = True       # True = le bot publie tout seul toutes les 30 min
-PAUSE = True                  # True = arrêt d'urgence : plus aucune publication automatique, quoi qu'il arrive
+PAUSE = False                 # True = arrêt d'urgence : plus aucune publication automatique, quoi qu'il arrive
 
 # ------------------------------------------------------------------ vidéos des sources
 VIDEOS = True                 # si la source a une vidéo, elle devient la slide 2 du carrousel

@@ -82,6 +82,10 @@ def sortie_github(cle, valeur):
 
 
 def resume_github(lignes):
+    try:
+        (RACINE / "dernier-journal.txt").write_text("\n".join(str(l) for l in lignes) + "\n", encoding="utf-8")
+    except Exception:
+        pass
     f = os.environ.get("GITHUB_STEP_SUMMARY")
     if f:
         with open(f, "a", encoding="utf-8") as fh:
@@ -258,22 +262,31 @@ def executer():
                         diag.append(f"  ⚠️ hébergement impossible : {ex}")
                     fait = True
                     break
+                doublon = instagram.deja_publie(red["legende"])
+                if doublon:      # filet de sécurité : le même sujet est déjà sur le compte
+                    diag.append(f"  ⏭️ déjà publié sur le compte ({doublon}) : on passe")
+                    vu(c)
+                    continue
+                # l'info est notée AVANT de publier : même si la suite plante, elle ne sera jamais republiée
+                vu(c)
+                etat["publies"].append({"ts": now_utc.isoformat(), "categorie": cat, "titre": red["titre"],
+                                        "source_id": c["id"], "lien": None})
+                sauver_etat(etat)
                 urls = hebergement.heberger(en_ligne)
                 try:
                     lien = instagram.publier_carrousel(urls[:len(fichiers)], red["legende"])
-                except instagram.ErreurInstagram as ex:
+                except instagram.MediaRefuse as ex:
                     if not any(str(f).endswith(".mp4") for f in fichiers):
                         raise
-                    # Instagram a refusé la vidéo : on refait le carrousel sans elle
+                    # Instagram a refusé la vidéo AVANT publication : on refait le carrousel sans elle
                     diag.append(f"  ⚠️ vidéo refusée par Instagram ({str(ex)[:120]}) : carrousel sans vidéo")
                     sans = {"images": medias["images"] or (medias["video"] or {}).get("images", []), "video": None}
                     fichiers = da.carrousel(post, sans, SORTIE, prefixe + "b", diag)
                     en_ligne = fichiers + ([video] if video else [])
                     urls = hebergement.heberger(en_ligne)
                     lien = instagram.publier_carrousel(urls[:len(fichiers)], red["legende"])
-                vu(c)
-                etat["publies"].append({"ts": now_utc.isoformat(), "categorie": cat, "titre": red["titre"],
-                                        "source_id": c["id"], "lien": lien})
+                etat["publies"][-1]["lien"] = lien
+                sauver_etat(etat)
                 diag.append(f"  ✅ PUBLIÉ : {lien}")
                 if video:
                     try:
@@ -282,6 +295,8 @@ def executer():
                         diag.append(f"  ✅ REEL PUBLIÉ : {lien_reel}")
                     except Exception as ex:
                         diag.append(f"  ⚠️ Reel non publié : {str(ex)[:200]}")
+                else:
+                    diag.append("  ⚠️ pas de Reel pour ce post")
                 fait = True
                 break
             if fait and not test:
