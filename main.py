@@ -45,17 +45,32 @@ def posts_du_jour(etat, maintenant_paris):
             if datetime.fromisoformat(p["ts"]).astimezone(PARIS).date() == maintenant_paris.date()]
 
 
+def rattrapage(maintenant_paris):
+    """Réglages de rattrapage (après une coupure) s'ils sont encore valables, sinon None."""
+    fin = getattr(config, "RATTRAPAGE_JUSQUA", None)
+    if not fin:
+        return None
+    try:
+        limite = datetime.fromisoformat(fin).replace(tzinfo=PARIS)
+    except ValueError:
+        return None
+    return config.RATTRAPAGE if maintenant_paris < limite else None
+
+
 def raison_de_ne_pas_poster(etat, maintenant_paris):
+    r = rattrapage(maintenant_paris) or {}
+    quota = r.get("posts_par_jour", config.POSTS_PAR_JOUR)
+    ecart_min = r.get("ecart_min", config.ECART_MIN_MINUTES)
     if not (config.HEURE_DEBUT <= maintenant_paris.hour < config.HEURE_FIN):
         return f"hors horaires ({maintenant_paris:%H:%M} à Paris)"
     du_jour = posts_du_jour(etat, maintenant_paris)
-    if len(du_jour) >= config.POSTS_PAR_JOUR:
+    if len(du_jour) >= quota:
         return f"quota du jour atteint ({len(du_jour)} posts)"
     if etat["publies"]:
         dernier = datetime.fromisoformat(etat["publies"][-1]["ts"])
         ecart = (maintenant_paris - dernier).total_seconds() / 60
-        if ecart < config.ECART_MIN_MINUTES:
-            return f"dernier post il y a {int(ecart)} min (minimum {config.ECART_MIN_MINUTES})"
+        if ecart < ecart_min:
+            return f"dernier post il y a {int(ecart)} min (minimum {ecart_min})"
     return None
 
 
@@ -82,7 +97,10 @@ class Journal(list):
 
 
 def publication_auto():
-    """La variable GitHub PUBLICATION (on/off) a priorité sur config.PUBLICATION_AUTO."""
+    """La variable GitHub PUBLICATION (on/off) a priorité sur config.PUBLICATION_AUTO.
+    config.PAUSE (arrêt d'urgence) a priorité sur tout."""
+    if getattr(config, "PAUSE", False):
+        return False
     v = os.environ.get("PUBLICATION", "").strip().lower()
     if v in ("on", "off"):
         return v == "on"
@@ -121,8 +139,17 @@ def executer():
 
     try:
         if os.environ.get("IG_ACCESS_TOKEN"):
-            instagram.diagnostic(diag)
+            try:
+                instagram.diagnostic(diag)
+            except instagram.AccesBloque:
+                if not test:
+                    # Meta bloque l'appli : on ne dépense ni Apify ni Gemini pour un post impossible.
+                    # Le bot reprend tout seul dès que l'accès revient.
+                    diag.append("⛔ Accès à l'API Instagram bloqué par Meta : rien n'est préparé cette fois")
+                    return 0
 
+        if not test and rattrapage(now_paris):
+            config.X_FACTEUR_RECUL = config.RATTRAPAGE["facteur_age"]
         cat_forcee = os.environ.get("CATEGORIE", "").strip().lower() in ("gaming", "rap")
         cands = sources.lire_gaming(diag) + sources.lire_rap(diag) + sources.lire_x(diag, etat)
         filtre_source = os.environ.get("SOURCE", "").strip().lower()
@@ -132,6 +159,12 @@ def executer():
             diag.append(f"Source limitée à : {filtre_source}")
         # en test, ou en lancement manuel ciblé, on accepte des infos plus anciennes (jusqu'à 3x)
         facteur_age = 3 if (test or (mode == "reel" and cat_forcee)) else 1
+        r = rattrapage(now_paris) if not test else None
+        if r:   # après une coupure : infos plus anciennes acceptées, note mini un peu plus basse
+            facteur_age = max(facteur_age, r["facteur_age"])
+            config.SCORE_MIN = min(config.SCORE_MIN, r["score_min"])
+            diag.append(f"Rattrapage jusqu'au {config.RATTRAPAGE_JUSQUA} : infos jusqu'à {facteur_age}× plus "
+                        f"anciennes, note mini {config.SCORE_MIN}")
         frais = [c for c in cands if c["id"] not in etat["vus"]
                  and sources.age_heures(c, now_utc) <= config.AGE_MAX_HEURES[c["categorie"]] * facteur_age]
         diag.append(f"{len(frais)} infos fraîches et jamais traitées (sur {len(cands)} lues)")

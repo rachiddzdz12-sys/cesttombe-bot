@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Appels de lecture
+      - name: Posts publiés
         env:
           T: ${{ secrets.IG_ACCESS_TOKEN }}
           U: ${{ secrets.IG_USER_ID }}
@@ -18,21 +18,19 @@ jobs:
           import json, os, requests
           G = "https://graph.facebook.com/v25.0"
           t, u = os.environ["T"], os.environ["U"]
-          def voir(nom, url, **p):
-              r = requests.get(url, params={"access_token": t, **p}, timeout=30)
-              j = r.json()
+          url, params, n = f"{G}/{u}/media", {"access_token": t, "limit": 50,
+                   "fields": "id,timestamp,media_type,media_product_type,caption,permalink"}, 0
+          while url and n < 150:
+              j = requests.get(url, params=params, timeout=30).json()
               if "error" in j:
-                  e = j["error"]; e.pop("fbtrace_id", None)
-                  print(nom, "→ ERREUR", r.status_code, json.dumps(e, ensure_ascii=False))
-              else:
-                  print(nom, "→ OK", json.dumps(j, ensure_ascii=False)[:600])
-          voir("compte IG", f"{G}/{u}", fields="username,followers_count,media_count")
-          voir("quota publication", f"{G}/{u}/content_publishing_limit", fields="config,quota_usage")
-          voir("me", f"{G}/me", fields="id,name")
-          r = requests.get(f"{G}/debug_token", params={"input_token": t, "access_token": t}, timeout=30).json()
-          d = r.get("data", r)
-          print("jeton →", json.dumps({k: d.get(k) for k in ("is_valid", "type", "application", "expires_at", "error", "scopes")}, ensure_ascii=False))
-          voir("derniers posts", f"{G}/{u}/media", fields="timestamp,media_type", limit=3)
+                  print("ERREUR", j["error"]); break
+              for m in j.get("data", []):
+                  n += 1
+                  cap = (m.get("caption") or "").split("\n")[0][:80]
+                  print(m["timestamp"][:16], m.get("media_product_type"), m["media_type"], m["id"], m["permalink"], "|", cap)
+              url, params = j.get("paging", {}).get("next"), {}
+          r = requests.get(f"{G}/{u}/content_publishing_limit", params={"access_token": t, "fields": "config,quota_usage"}, timeout=30)
+          print("quota", r.text[:200])
           PY
           cat /tmp/diag.txt
           mkdir -p /tmp/o && cp /tmp/diag.txt /tmp/o/ && cd /tmp/o && git init -q -b diag-ig-sortie

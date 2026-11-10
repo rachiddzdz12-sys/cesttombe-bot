@@ -2,7 +2,7 @@
 import calendar
 import os
 import re
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
 import feedparser
@@ -250,8 +250,9 @@ def lire_x(diag, etat=None):
     if compteur["tweets"] >= config.X_PLAFOND_MOIS:
         diag.append(f"X · plafond du mois atteint ({compteur['tweets']} tweets) : pause jusqu'au mois prochain")
         return []
-    recul = config.AGE_MAX_HEURES["RAP FR"] * (3 if os.environ.get("CATEGORIE", "auto") != "auto"
-                                                or os.environ.get("MODE") == "test" else 1)
+    recul = config.AGE_MAX_HEURES["RAP FR"] * max(getattr(config, "X_FACTEUR_RECUL", 1),
+                                                  3 if os.environ.get("CATEGORIE", "auto") != "auto"
+                                                  or os.environ.get("MODE") == "test" else 1)
     res = []
     for compte in config.COMPTES_X:
         # recherche simple « tweets de ce compte, les plus récents » ; l'âge est filtré ensuite par le bot

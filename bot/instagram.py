@@ -75,13 +75,20 @@ def publier_reel(video_url, legende, dans_le_feed=False):
         return media_id
 
 
+class AccesBloque(ErreurInstagram):
+    """Meta a bloqué l'accès de l'application à l'API (erreur 200 « API access blocked »)."""
+
+
 def diagnostic(diag):
-    """Vérifie le token et le compte. Aide à trouver IG_USER_ID s'il manque."""
+    """Vérifie le token et le compte. Aide à trouver IG_USER_ID s'il manque.
+    Lève AccesBloque si Meta bloque l'application : inutile alors de préparer un post."""
     try:
         moi = _req("GET", "me", fields="id,name")
         diag.append(f"Meta · token valide (utilisateur : {moi.get('name', moi.get('id'))})")
     except ErreurInstagram as ex:
         diag.append(f"Meta · token refusé : {ex}")
+        if "access blocked" in str(ex).lower():
+            raise AccesBloque(str(ex))
         return
     try:
         info = _req("GET", "debug_token", input_token=_token()).get("data", {})
