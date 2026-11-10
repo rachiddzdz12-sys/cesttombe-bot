@@ -1,38 +1,30 @@
-name: Diagnostic Instagram (lecture seule)
+name: Suppression des posts en double (demandée)
 on:
   push:
     branches: [diag-ig]
 permissions:
   contents: write
 jobs:
-  diag:
+  suppr:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Posts publiés
+      - name: Suppression
         env:
           T: ${{ secrets.IG_ACCESS_TOKEN }}
-          U: ${{ secrets.IG_USER_ID }}
         run: |
           python3 - <<'PY' > /tmp/diag.txt
-          import json, os, requests
+          import os, requests, time
           G = "https://graph.facebook.com/v25.0"
-          t, u = os.environ["T"], os.environ["U"]
-          url, params, n = f"{G}/{u}/media", {"access_token": t, "limit": 50,
-                   "fields": "id,timestamp,media_type,media_product_type,caption,permalink"}, 0
-          while url and n < 150:
-              j = requests.get(url, params=params, timeout=30).json()
-              if "error" in j:
-                  print("ERREUR", j["error"]); break
-              for m in j.get("data", []):
-                  n += 1
-                  cap = (m.get("caption") or "").replace("\n", " ⏎ ")[:420] if m["timestamp"] >= "2026-11-10" else ""
-                  print(m["timestamp"][:16], m.get("media_product_type"), m["media_type"], m["id"], m["permalink"], "|", cap)
-              url, params = j.get("paging", {}).get("next"), {}
-          r = requests.get(f"{G}/{u}/content_publishing_limit", params={"access_token": t, "fields": "config,quota_usage"}, timeout=30)
-          print("quota", r.text[:200])
+          ids = ["18077482469750159", "17943391521369192", "18439436857182981", "18399121297204655",
+                 "18126864976887070", "18145748809526076", "17980826361129353", "18136442668708131",
+                 "17880964587633349"]
+          for i in ids:
+              r = requests.delete(f"{G}/{i}", params={"access_token": os.environ["T"]}, timeout=30)
+              print(i, r.status_code, r.text[:300], flush=True)
+              time.sleep(3)
           PY
           cat /tmp/diag.txt
           mkdir -p /tmp/o && cp /tmp/diag.txt /tmp/o/ && cd /tmp/o && git init -q -b diag-ig-sortie
           git config user.name bot && git config user.email bot@users.noreply.github.com
-          git add -A && git commit -q -m diag && git push -q --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" diag-ig-sortie
+          git add -A && git commit -q -m suppr && git push -q --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" diag-ig-sortie
