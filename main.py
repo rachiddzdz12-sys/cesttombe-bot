@@ -97,7 +97,10 @@ class Journal(list):
 
 
 def publication_auto():
-    """La variable GitHub PUBLICATION (on/off) a priorité sur config.PUBLICATION_AUTO."""
+    """La variable GitHub PUBLICATION (on/off) a priorité sur config.PUBLICATION_AUTO.
+    config.PAUSE (arrêt d'urgence) a priorité sur tout."""
+    if getattr(config, "PAUSE", False):
+        return False
     v = os.environ.get("PUBLICATION", "").strip().lower()
     if v in ("on", "off"):
         return v == "on"
