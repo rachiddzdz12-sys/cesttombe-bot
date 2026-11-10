@@ -20,11 +20,12 @@ jobs:
       - name: Transcription (vérifier ce que dit chaque voix)
         if: always()
         run: |
-          mkdir -p /tmp/r /tmp/da && cp sortie/* /tmp/r/ 2>/dev/null || true
-          if [ -z "$(ls /tmp/r)" ]; then git fetch -q origin essai-voix2-rendus && git --work-tree=/tmp/r checkout FETCH_HEAD -- . ; fi
-          git fetch -q origin analyse-da-sortie && git --work-tree=/tmp/da checkout FETCH_HEAD -- '*.mp4' || true
-          pip install -q faster-whisper
-          python3 essais/transcrire.py
+          mkdir -p /tmp/r /tmp/da /tmp/x
+          (git fetch -q origin essai-voix2-rendus && git archive FETCH_HEAD | tar -x -C /tmp/r) > /tmp/r/log-transcription.txt 2>&1 || true
+          (git fetch -q origin analyse-da-sortie && git archive FETCH_HEAD | tar -x -C /tmp/x && cp /tmp/x/*.mp4 /tmp/da/) >> /tmp/r/log-transcription.txt 2>&1 || true
+          pip install -q faster-whisper >> /tmp/r/log-transcription.txt 2>&1 || true
+          python3 essais/transcrire.py >> /tmp/r/log-transcription.txt 2>&1 || true
+          ls /tmp/r /tmp/da >> /tmp/r/log-transcription.txt
       - name: Rendus
         if: always()
         run: |
