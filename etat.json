@@ -47,7 +47,9 @@
   "ig:18122783027068348": "2026-11-10T11:31:23.885009+00:00",
   "x:2119816177144717698": "2026-11-10T11:31:23.885009+00:00",
   "x:2119738266459009290": "2026-11-10T11:31:23.885009+00:00",
-  "x:2119904623750529395": "2026-11-10T11:31:23.885009+00:00"
+  "x:2119904623750529395": "2026-11-10T11:31:23.885009+00:00",
+  "ag:https://www.actugaming.net/?p=832957": "2026-11-10T12:32:19.326527+00:00",
+  "ag:https://www.actugaming.net/?p=833037": "2026-11-10T12:32:19.326527+00:00"
  },
  "publies": [
   {
@@ -199,10 +201,18 @@
    "source_id": "x:2119904623750529395",
    "lien": "https://www.instagram.com/p/Dfjzt8EG_5k/",
    "reel": "https://www.instagram.com/reel/Dfjz3NDCjjj/"
+  },
+  {
+   "ts": "2026-11-10T12:32:19.326527+00:00",
+   "categorie": "GAMING",
+   "titre": "GTA 6 : les précommandes dépassent toutes les prévisions",
+   "source_id": "ag:https://www.actugaming.net/?p=833037",
+   "lien": "https://www.instagram.com/p/Dfj6tqRGHB9/",
+   "reel": "https://www.instagram.com/reel/Dfj6v3vlecr/"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 492
+  "tweets": 507
  }
 }
