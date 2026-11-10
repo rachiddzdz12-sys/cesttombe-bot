@@ -1,0 +1,56 @@
+name: Analyse d'une DA Instagram (lecture seule)
+on:
+  push:
+    branches: [analyse-da]
+permissions:
+  contents: write
+jobs:
+  analyse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Récupération des posts
+        env:
+          T: ${{ secrets.IG_ACCESS_TOKEN }}
+          U: ${{ secrets.IG_USER_ID }}
+          COMPTE: 7run.club
+        run: |
+          mkdir -p /tmp/o && cd /tmp/o
+          python3 - <<'PY'
+          import json, os, requests
+          G = "https://graph.facebook.com/v25.0"
+          champs = ("media.limit(18){id,media_type,media_product_type,caption,timestamp,media_url,thumbnail_url,permalink,"
+                    "children{media_type,media_url,thumbnail_url}}")
+          r = requests.get(f"{G}/{os.environ['U']}", timeout=60, params={"access_token": os.environ["T"],
+              "fields": f"business_discovery.username({os.environ['COMPTE']}){{username,followers_count,media_count,{champs}}}"})
+          j = r.json()
+          if "error" in j:
+              e = j["error"]; e.pop("fbtrace_id", None)
+              open("erreur.txt", "w").write(json.dumps(e, ensure_ascii=False)); print(e); raise SystemExit(0)
+          bd = j["business_discovery"]
+          medias = bd.get("media", {}).get("data", [])
+          resume = {"username": bd.get("username"), "followers": bd.get("followers_count"), "media_count": bd.get("media_count"), "posts": []}
+          for i, m in enumerate(medias):
+              p = {k: m.get(k) for k in ("media_type", "media_product_type", "timestamp", "permalink", "caption")}
+              fichiers = []
+              elems = m.get("children", {}).get("data") or [m]
+              for k, c in enumerate(elems):
+                  url = c.get("media_url") or c.get("thumbnail_url")
+                  if not url: continue
+                  ext = "mp4" if c.get("media_type") == "VIDEO" and c.get("media_url") else "jpg"
+                  nom = f"{i:02d}-{k}.{ext}"
+                  try:
+                      b = requests.get(url, timeout=90).content
+                      if len(b) < 60_000_000:
+                          open(nom, "wb").write(b); fichiers.append(nom)
+                  except Exception as ex:
+                      print("échec", nom, ex)
+              p["fichiers"] = fichiers
+              resume["posts"].append(p)
+          json.dump(resume, open("posts.json", "w"), ensure_ascii=False, indent=1)
+          print(resume["username"], resume["followers"], len(resume["posts"]), "posts")
+          PY
+          ls -la | head -60
+          git init -q -b analyse-da-sortie
+          git config user.name bot && git config user.email bot@users.noreply.github.com
+          git add -A && git commit -q -m "analyse" && git push -q --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" analyse-da-sortie
