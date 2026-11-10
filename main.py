@@ -121,7 +121,14 @@ def executer():
 
     try:
         if os.environ.get("IG_ACCESS_TOKEN"):
-            instagram.diagnostic(diag)
+            try:
+                instagram.diagnostic(diag)
+            except instagram.AccesBloque:
+                if not test:
+                    # Meta bloque l'appli : on ne dépense ni Apify ni Gemini pour un post impossible.
+                    # Le bot reprend tout seul dès que l'accès revient.
+                    diag.append("⛔ Accès à l'API Instagram bloqué par Meta : rien n'est préparé cette fois")
+                    return 0
 
         cat_forcee = os.environ.get("CATEGORIE", "").strip().lower() in ("gaming", "rap")
         cands = sources.lire_gaming(diag) + sources.lire_rap(diag) + sources.lire_x(diag, etat)
