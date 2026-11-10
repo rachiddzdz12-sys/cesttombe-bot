@@ -56,7 +56,54 @@ def analyser(img):
         for x, y, w, h in _profils().detectMultiScale(g, scaleFactor=1.1, minNeighbors=6, minSize=(mini, mini)):
             x0 = larg - x - w if miroir else x
             visages.append((x0, y, x0 + w, y + h))
-    return {"textes": textes, "visages": visages}
+    return {"textes": textes, "visages": visages, **_sujet(gris, visages)}
+
+
+@lru_cache(maxsize=1)
+def _corps():
+    import cv2
+    return cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_upperbody.xml")
+
+
+def _saillance(gris):
+    """Zone la plus « parlante » de l'image (résidu spectral, Hou & Zhang 2007) quand il n'y a ni visage ni
+    buste : c'est en général l'objet ou le personnage principal. Renvoie (x0, y0, x1, y1)."""
+    import cv2
+    h, w = gris.shape
+    petit = cv2.resize(gris, (64, 64)).astype(np.float32)
+    f = np.fft.fft2(petit)
+    amp, phase = np.log(np.abs(f) + 1e-6), np.angle(f)
+    sal = np.abs(np.fft.ifft2(np.exp((amp - cv2.blur(amp, (3, 3))) + 1j * phase))) ** 2
+    sal = cv2.GaussianBlur(sal.astype(np.float32), (9, 9), 2.5)
+    yy, xx = np.mgrid[0:64, 0:64]
+    sal *= np.exp(-(((xx - 31.5) / 40) ** 2 + ((yy - 31.5) / 40) ** 2))   # léger avantage au centre
+    sal = np.where(sal >= np.percentile(sal, 80), sal, 0)                 # on garde les zones les plus fortes
+    tot = sal.sum() or 1
+    px, py = sal.sum(0).cumsum() / tot, sal.sum(1).cumsum() / tot
+    x0, x1 = np.searchsorted(px, 0.12), np.searchsorted(px, 0.88)
+    y0, y1 = np.searchsorted(py, 0.12), np.searchsorted(py, 0.88)
+    return (x0 * w / 64, y0 * h / 64, (x1 + 1) * w / 64, (y1 + 1) * h / 64)
+
+
+def _sujet(gris, visages):
+    """Le sujet de la photo, à garder entier dans le cadre : visages (+ tête et épaules), sinon bustes,
+    sinon la zone la plus saillante. {"sujet": boîte ou None, "sujet_poids": importance}."""
+    h, w = gris.shape
+    if visages:
+        bx = [(a - (c - a) * 0.25, b - (d - b) * 0.3, c + (c - a) * 0.25, d + (d - b) * 0.5) for a, b, c, d in visages]
+        poids = 1500
+    else:
+        mini = max(40, min(gris.shape) // 8)
+        bx = [(x, y, x + bw, y + bh) for x, y, bw, bh in
+              _corps().detectMultiScale(gris, scaleFactor=1.08, minNeighbors=5, minSize=(mini, mini))]
+        poids = 900
+        if not bx:
+            bx, poids = [_saillance(gris)], 450
+    x0, y0 = max(0, min(b[0] for b in bx)), max(0, min(b[1] for b in bx))
+    x1, y1 = min(w, max(b[2] for b in bx)), min(h, max(b[3] for b in bx))
+    if (x1 - x0) * (y1 - y0) > 0.8 * w * h:       # « sujet » = toute l'image : aucune contrainte utile
+        return {"sujet": None, "sujet_poids": 0}
+    return {"sujet": (x0, y0, x1, y1), "sujet_poids": poids}
 
 
 def _fenetre(src_w, src_h, W, H, centrage, zoom):
@@ -120,7 +167,7 @@ def zone_y(nom, H, hauteur_bloc, bord_haut=150, bord_bas=150):
 
 def choisir(img, analyse, W, H, hauteur_bloc, zones=("bas", "haut", "milieu"), centrages=CENTRAGES,
             zooms=ZOOMS, marge_x=72, marge_droite=None, bord_haut=150, bord_bas=150,
-            agrandissement_max=2.4, fixes=None, eviter=()):
+            agrandissement_max=2.4, fixes=None, eviter=(), genant=TEXTE_GENANT, echelle_source=1.0):
     """Teste chaque cadrage × zoom × zone. Renvoie le meilleur :
     {"fenetre", "zone", "y0", "y1", "propre": bool, "cout", "texte_visible", "zoom", "centrage"}.
     « propre » = aucun texte étranger visible à l'écran, aucun visage sous notre texte.
@@ -131,10 +178,10 @@ def choisir(img, analyse, W, H, hauteur_bloc, zones=("bas", "haut", "milieu"), c
     """
     marge_droite = marge_x if marge_droite is None else marge_droite
     fixes = ELEMENTS_FIXES if fixes is None else fixes
-    base = max(W / img.width, H / img.height)
+    base = max(W / img.width, H / img.height) / echelle_source   # agrandissement réel de la source
     meilleur = None
     for zoom in zooms:
-        if zoom > 1 and base * zoom > max(agrandissement_max, base):
+        if zoom > 1 and base * zoom > max(agrandissement_max, base) + 1e-6:
             continue
         for centrage in centrages:
             echelle, x0, y0, cw, ch = _fenetre(img.width, img.height, W, H, centrage, zoom)
@@ -145,7 +192,7 @@ def choisir(img, analyse, W, H, hauteur_bloc, zones=("bas", "haut", "milieu"), c
             # texte incrusté bien visible (sous-titre, logo de média…) ; un petit texte dans le décor
             # (t-shirt, emballage) est toléré ailleurs à l'écran, mais jamais sous notre texte
             grands = _vers_cible([b for b in analyse.get("genants", analyse["textes"])
-                                  if (b[3] - b[1]) * echelle >= TEXTE_GENANT * H],
+                                  if (b[3] - b[1]) * echelle >= genant * H],
                                  echelle, x0, y0)
             visible = _recouvrement((0, 0, W, H), grands)        # part de l'écran couverte de texte étranger
             netete = min(1.0, 1.5 / echelle)                     # < 1 dès que la source est agrandie > 1,5×
@@ -153,6 +200,15 @@ def choisir(img, analyse, W, H, hauteur_bloc, zones=("bas", "haut", "milieu"), c
             vus = [v for v in analyse["visages"]
                    if v[0] >= x0 and v[1] >= y0 and v[2] <= x0 + cw and v[3] <= y0 + ch]
             sujet = len(vus) / len(analyse["visages"]) if analyse["visages"] else 1.0
+            boite, poids = analyse.get("sujet"), analyse.get("sujet_poids", 0)
+            if boite:
+                bw, bh = boite[2] - boite[0], boite[3] - boite[1]
+                iw = min(boite[2], x0 + cw) - max(boite[0], x0)
+                ih = min(boite[3], y0 + ch) - max(boite[1], y0)
+                dedans = max(0, iw) * max(0, ih) / max(1, bw * bh)        # part du sujet visible
+                cible_sujet = ((boite[0] - x0) * echelle, (boite[1] - y0) * echelle,
+                               (boite[2] - x0) * echelle, (boite[3] - y0) * echelle)
+                aire_sujet = max(1, (cible_sujet[2] - cible_sujet[0]) * (cible_sujet[3] - cible_sujet[1]))
             cible = None
             for nom in zones:
                 zy0, zy1 = zone_y(nom, H, hauteur_bloc, bord_haut, bord_bas)
@@ -163,8 +219,12 @@ def choisir(img, analyse, W, H, hauteur_bloc, zones=("bas", "haut", "milieu"), c
                 f = sum(_recouvrement(b, textes) for b in boites.values())
                 sale = visible > 0 or t > 0 or v > 0 or f > 0   # un rendu « pas propre » perd toujours
                 fixe = (1000 * sale + 2000 * t + 1500 * min(1.0, visible * 8) + 500 * v + 300 * f
-                        + 40 * (1 - netete) + 30 * (zoom - 1) + 150 * (1 - sujet)
+                        + 40 * (1 - netete) + 30 * (zoom - 1) + 600 * (1 - sujet)
                         + {"bas": 0, "haut": 4, "milieu": 8}[nom])
+                if boite:   # sujet coupé par le cadre, ou caché sous notre texte
+                    cache = (_recouvrement(zone, [cible_sujet]) * (zone[2] - zone[0]) * (zone[3] - zone[1])
+                             / aire_sujet)
+                    fixe += poids * (1 - dedans) + 0.6 * poids * min(1.0, cache)
                 if meilleur is not None and fixe >= meilleur["cout"]:
                     continue                                     # perdu d'avance : on évite le calcul d'image
                 if cible is None:
@@ -174,7 +234,8 @@ def choisir(img, analyse, W, H, hauteur_bloc, zones=("bas", "haut", "milieu"), c
                 if meilleur is None or cout < meilleur["cout"]:
                     meilleur = {"fenetre": (x0, y0, cw, ch), "zone": nom, "y0": zy0, "y1": zy1,
                                 "propre": not sale, "texte_visible": visible,
-                                "cout": cout, "zoom": zoom, "centrage": centrage}
+                                "cout": cout, "zoom": zoom, "centrage": centrage,
+                                "sujet_visible": dedans if boite else 1.0, "visages_visibles": sujet}
     return meilleur
 
 
@@ -220,9 +281,13 @@ def _persistants(images):
 
 
 def _union(images, genants):
+    sujets = [a["sujet"] for _, _, a in images if a.get("sujet")]
+    # sujet « typique » du passage : boîte médiane (l'union des boîtes grossirait à chaque mouvement)
+    sujet = tuple(float(np.median([b[k] for b in sujets])) for k in range(4)) if sujets else None
     return {"textes": [b for _, _, a in images for b in a["textes"]],
             "genants": [b for g in genants for b in g],
-            "visages": [b for _, _, a in images for b in a["visages"]]}
+            "visages": [b for _, _, a in images for b in a["visages"]],
+            "sujet": sujet, "sujet_poids": max([a.get("sujet_poids", 0) for _, _, a in images] or [0])}
 
 
 def choisir_video(images, W, H, hauteur_bloc, duree_voulue, **options):

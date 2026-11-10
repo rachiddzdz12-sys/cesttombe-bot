@@ -130,7 +130,7 @@ def verif():
 
 # ------------------------------------------------------------------ travail principal
 def executer():
-    from bot import da, hebergement, ia, images, instagram, reel, sources, visuels
+    from bot import da3, hebergement, ia, images, instagram, reel3, sources, visuels
 
     mode = os.environ.get("MODE", "auto")
     test = mode == "test"
@@ -234,20 +234,21 @@ def executer():
                 photos, credits = images.completer(photos, visuels.chercher(red.get("visuels"), diag))
                 if credits:   # photos sous licence libre : le crédit est obligatoire
                     red["legende"] = red["legende"].replace("\n\n#", f"\nPhotos : {' · '.join(credits)}\n\n#", 1)
-                post = {"categorie": cat, "source": c["source"], "credit": credit, **red}
+                post = {"categorie": cat, "source": c["source"], "credit": credit,
+                        "source_affichee": c.get("source_legende", c["source"]), **red}
                 prefixe = f"{now_paris:%Y%m%d-%H%M}-{'jv' if cat == 'GAMING' else 'rap'}"
                 medias = preparer_medias(c, photos, prefixe, diag, n_source)
-                fichiers = da.carrousel(post, medias, SORTIE, prefixe, diag)
+                fichiers = da3.carrousel(post, medias, SORTIE, prefixe, diag)
                 (SORTIE / f"{prefixe}-legende.txt").write_text(red["legende"], encoding="utf-8")
                 diag.append(f"  carrousel prêt : « {red['titre']} » ({len(fichiers)} slides)")
-                video = None
+                video = couv_reel = None
                 if config.REELS:
                     try:
-                        video = reel.fabriquer(post, medias, red.get("voix_off"), SORTIE, prefixe, diag)
+                        video, couv_reel = reel3.fabriquer(post, medias, red.get("voix_off"), SORTIE, prefixe, diag)
                     except Exception as ex:   # sans Reel, le carrousel part quand même
                         diag.append(f"  ⚠️ Reel impossible : {str(ex)[:150]}")
                         traceback.print_exc()
-                en_ligne = fichiers + ([video] if video else [])
+                en_ligne = fichiers + ([video, couv_reel] if video else [])
                 if test:   # on vérifie aussi l'hébergement, sans publier
                     if os.environ.get("HEBERGEMENT", "").lower() == "non":
                         diag.append("  (hébergement non testé)")
@@ -257,7 +258,7 @@ def executer():
                         urls = hebergement.heberger(en_ligne)
                         diag.append(f"  fichiers en ligne ({len(urls)}) : {urls[0]}")
                         if video:
-                            diag.append(f"  reel en ligne : {urls[-1]}")
+                            diag.append(f"  reel en ligne : {urls[-2]}")
                     except hebergement.ErreurHebergement as ex:
                         diag.append(f"  ⚠️ hébergement impossible : {ex}")
                     fait = True
@@ -281,8 +282,8 @@ def executer():
                     # Instagram a refusé la vidéo AVANT publication : on refait le carrousel sans elle
                     diag.append(f"  ⚠️ vidéo refusée par Instagram ({str(ex)[:120]}) : carrousel sans vidéo")
                     sans = {"images": medias["images"] or (medias["video"] or {}).get("images", []), "video": None}
-                    fichiers = da.carrousel(post, sans, SORTIE, prefixe + "b", diag)
-                    en_ligne = fichiers + ([video] if video else [])
+                    fichiers = da3.carrousel(post, sans, SORTIE, prefixe + "b", diag)
+                    en_ligne = fichiers + ([video, couv_reel] if video else [])
                     urls = hebergement.heberger(en_ligne)
                     lien = instagram.publier_carrousel(urls[:len(fichiers)], red["legende"])
                 etat["publies"][-1]["lien"] = lien
@@ -290,7 +291,8 @@ def executer():
                 diag.append(f"  ✅ PUBLIÉ : {lien}")
                 if video:
                     try:
-                        lien_reel = instagram.publier_reel(urls[-1], red["legende"], config.REEL_DANS_LE_FEED)
+                        lien_reel = instagram.publier_reel(urls[-2], red["legende"], config.REEL_DANS_LE_FEED,
+                                                           couverture_url=urls[-1])
                         etat["publies"][-1]["reel"] = lien_reel
                         diag.append(f"  ✅ REEL PUBLIÉ : {lien_reel}")
                     except Exception as ex:

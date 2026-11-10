@@ -138,12 +138,13 @@ def deja_publie(legende, heures=24):
     return None
 
 
-def publier_reel(video_url, legende, dans_le_feed=False):
+def publier_reel(video_url, legende, dans_le_feed=False, couverture_url=None):
     ig = os.environ.get("IG_USER_ID")
     if not ig:
         raise ErreurInstagram("IG_USER_ID manquant")
+    extra = {"cover_url": couverture_url} if couverture_url else {}
     cont = _req("POST", f"{ig}/media", media_type="REELS", video_url=video_url, caption=legende,
-                share_to_feed="true" if dans_le_feed else "false")["id"]
+                share_to_feed="true" if dans_le_feed else "false", **extra)["id"]
     _attendre(cont, limite_s=420)      # la vidéo prend plus de temps à être traitée
     return _publier(ig, cont, legende, "REELS")
 

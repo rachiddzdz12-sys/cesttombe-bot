@@ -64,7 +64,7 @@ check(2.5 < sources.age_heures(it, now) < 3.5, "flux : âge de l'info calculé")
 
 # ------------------------------------------------------------------ 2. validation de la réponse IA
 rep = {"titre": "NieR Automata pèse soudain 366 Go sur Steam.", "mot_cle": "366 go",
-       "sections": [{"titre": "Ce qui se passe", "texte": "Texte."}, {"titre": "", "texte": "vide"}],
+       "sections": [{"titre": "Ce qui se passe", "texte": "Texte."}, {"titre": "Vide", "texte": "  "}],
        "accroche": "Ton disque dur va pleurer 😳", "hashtags": ["NieR Automata", "#steam"], "faisable": True}
 v = ia.valider(rep, it)
 check(v["titre"] == "NieR Automata pèse soudain 366 Go sur Steam", "IA : point final retiré du titre")
@@ -91,39 +91,52 @@ ia.appel = lambda parts: {"items": [{"id": "1", "info": True, "score": 5}]}
 check(ia.trier([it], [])[it["id"]]["score"] == 5, "IA : tri sous une autre clé accepté")
 ia.appel = _appel_orig
 
-# ------------------------------------------------------------------ 3. rendu (DA v2)
-from bot import da, placement  # noqa: E402
+# ------------------------------------------------------------------ 3. rendu (DA v3)
+import subprocess  # noqa: E402
+from bot import da3, placement, reel3, video as vid  # noqa: E402
 out = Path(tempfile.mkdtemp())
 photo = Image.new("RGB", (1600, 900), "#3B4A6B")
-long_txt = " ".join(["Une phrase de test pour remplir la slide et vérifier la pagination automatique."] * 6)
-post = {"categorie": "GAMING", "titre": "NieR Automata pèse soudain 366 Go sur Steam", "mot_cle": "366 Go",
-        "source": "ACTUGAMING", "credit": "Square Enix",
-        "sections": [{"titre": "Ce qui se passe", "texte": long_txt},
-                     {"titre": "Ce qu'en dit le studio", "texte": "Le studio enquête."},
-                     {"titre": "En attendant", "texte": long_txt}]}
+long_txt = " ".join(["Une phrase de test pour remplir la slide et vérifier la mise en page."] * 3)
+rep3 = {"titre": "NieR Automata pèse soudain 366 Go sur Steam", "titre_haut": "NieR Automata",
+        "titre_bas": "pèse 366 Go", "mot_cle": "366 Go", "rubrique": "Gaming",
+        "mots_cles": ["Steam", "NieR", "Bug", "366 Go"], "accroche_couv": "Le jeu le plus lourd de Steam",
+        "chiffre": "366 Go", "chiffre_texte": "c'est le poids affiché sur Steam",
+        "slides": [{"rubrique": "Le bug", "gros": "366 Go", "sous_titre": "au lieu de 50", "texte": long_txt},
+                   {"rubrique": "Le studio", "gros_haut": "Le studio", "gros_bas": "enquête",
+                    "texte": "Le studio enquête."}],
+        "question_haut": "Tu l'aurais", "question_bas": "téléchargé ?", "accroche": "Ton disque dur va pleurer",
+        "hashtags": ["#nier", "#steam"], "voix_off": "NieR Automata pèse 366 Go sur Steam. Tu l'aurais téléchargé ?",
+        "faisable": True}
+post = {"categorie": "GAMING", "source": "ACTUGAMING", "credit": "Square Enix", "source_affichee": "ActuGaming",
+        **ia.valider(rep3, it)}
+check(post["titre_haut"] and post["titre_bas"] and len(post["slides"]) == 2, "IA v3 : titre en 2 lignes et slides")
 une = lambda img, nom="photo1": {"img": img, "analyse": placement.analyser(img), "nom": nom}  # noqa: E731
 medias = {"images": [une(photo)], "video": None}
 diag_t = []
-f1 = da.carrousel(post, medias, out, "avec-photo", diag_t)
-check(all(Image.open(f).size == (1080, 1350) for f in f1), "rendu : toutes les slides en 1080x1350")
-check(all(Image.open(f).format == "JPEG" for f in f1), "rendu : JPEG (exigé par Instagram)")
-check(2 < len(f1) <= config.MAX_SLIDES, f"rendu : texte long paginé ({len(f1)} slides)")
-post_rap = dict(post, categorie="RAP FR", titre="Fianso annonce son dernier concert à l'Accor Arena",
-                mot_cle="dernier concert", source="@RAP.MINUTE", credit="@rap.minute",
-                sections=[{"titre": "Ce qui se passe", "texte": "Une date unique à l'Accor Arena."}])
-f2 = da.carrousel(post_rap, {"images": [], "video": None}, out, "sans-photo", diag_t)
-check(len(f2) == 2, "rendu : info courte → 2 slides, couverture sans photo")
-enorme = dict(post, sections=[{"titre": f"Partie {i}", "texte": long_txt} for i in range(12)])
-check(len(da.carrousel(enorme, medias, out, "enorme", diag_t)) == config.MAX_SLIDES, "rendu : plafonné à 10 slides")
-pages = da.pages_de_texte([{"titre": "Long", "texte": " ".join(["Phrase de test numéro un, assez longue."] * 14)}])
-check(len(pages) == 2 and all(p["h"] <= da.HAUTEUR_TEXTE_MAX for p in pages), "rendu : paragraphe trop long coupé en 2")
+f1 = da3.carrousel(post, medias, out, "avec-photo", diag_t)
+check(all(Image.open(f).size == (1080, 1350) for f in f1), "rendu v3 : toutes les slides en 1080x1350")
+check(all(Image.open(f).format == "JPEG" for f in f1), "rendu v3 : JPEG (exigé par Instagram)")
+check(len(f1) == 4, f"rendu v3 : couverture + 2 slides + question ({len(f1)} slides)")
+ancien = ia.valider({"titre": "Fianso annonce son dernier concert à l'Accor Arena", "mot_cle": "dernier concert",
+                     "sections": [{"titre": "Ce qui se passe", "texte": "Une date unique à l'Accor Arena."}],
+                     "accroche": "x", "hashtags": [], "faisable": True}, dict(it, categorie="RAP FR"))
+post_rap = {"categorie": "RAP FR", "source": "@RAP.MINUTE", "credit": "@rap.minute", "source_affichee": "@rap.minute",
+            **ancien}
+f2 = da3.carrousel(post_rap, {"images": [], "video": None}, out, "sans-photo", diag_t)
+check(len(f2) == 3 and post_rap["titre_haut"], "rendu v3 : ancien format accepté, sans photo → fond neutre")
+enorme = dict(post, slides=[dict(post["slides"][0], rubrique=f"Partie {i}") for i in range(12)])
+check(len(da3.carrousel(enorme, medias, out, "enorme", diag_t)) == config.MAX_SLIDES, "rendu v3 : plafonné à 10 slides")
 
-# placement : le texte ne se pose jamais sur un texte incrusté
+# placement : le texte ne se pose jamais sur un texte incrusté, et le sujet reste visible
 faux = {"textes": [(0, 1000, 1600, 1350)], "visages": []}     # bandeau de texte en bas de l'image
 img_haute = Image.new("RGB", (1080, 1350), "#202020")
 c = placement.choisir(img_haute, faux, 1080, 1350, 300)
 check(c["zone"] != "bas" or c["zoom"] > 1, "placement : évite le bandeau de texte incrusté")
 check(placement.choisir(img_haute, {"textes": [], "visages": []}, 1080, 1350, 300)["propre"], "placement : image vide = propre")
+large = Image.new("RGB", (1920, 1080), "#202020")
+sujet = {"textes": [], "visages": [], "sujet": (1500, 300, 1800, 800), "sujet_poids": 1500}
+c = placement.choisir(large, sujet, 1080, 1920, 300)
+check(c.get("sujet_visible", 0) >= 0.8, f"placement : le sujet au bord de l'image reste dans le cadre ({c.get('sujet_visible')})")
 
 # anti-doublon vérifié sur Instagram : mêmes hashtags de sujet = même info
 from bot import instagram as _ig  # noqa: E402
@@ -132,40 +145,35 @@ check(_ig._meme_sujet(_ig._tags("#sardou #orelsan #rapfr"), _ig._tags("#orelsan 
 check(not _ig._meme_sujet(_ig._tags("#leto #ayanakamura"), _ig._tags("#leto #tiakola #lovestory")),
       "anti-doublon : deux infos différentes sur le même artiste restent possibles")
 
-# ------------------------------------------------------------------ 3b. vidéo plein cadre + Reel
-import subprocess  # noqa: E402
-from bot import reel, video as vid  # noqa: E402
+# ------------------------------------------------------------------ 3b. vidéo + Reel v3
 src = out / "source.mp4"
 subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i", "color=c=0x334455:size=720x1280:rate=25:duration=6",
                 "-f", "lavfi", "-i", "sine=frequency=500:duration=6", "-shortest", "-c:v", "libx264", "-pix_fmt", "yuv420p",
                 str(src)], check=True)
 v = vid.preparer(src, out / "an", diag_t)
 check(v and v["son"] and len(v["analyses"]) >= 5, "vidéo : analysée image par image")
-fv = da.carrousel(post_rap, {"images": [une(photo)], "video": v}, out, "avec-video", diag_t)
-info = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v", "-show_entries", "stream=width,height",
-                       "-of", "csv=p=0", str(fv[0])], capture_output=True, text=True).stdout.strip()
-check(fv[0].suffix == ".mp4" and info == "1080,1350", "vidéo : couverture vidéo plein cadre 1080x1350")
-check(vid.a_du_son(fv[0]), "vidéo : piste son présente")
-_placer = vid.placer
-vid.placer = lambda *a, **k: None          # vidéo pleine de texte incrusté
-fr = da.carrousel(post_rap, {"images": [une(photo)], "video": v}, out, "repli", diag_t)
-check(fr[0].suffix == ".jpg" and fr[1].suffix == ".mp4", "vidéo trop chargée : image + titre, puis vidéo brute en 2")
-vid.placer = _placer
-muet = out / "muet.mp4"
-subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i", "color=c=0x223344:size=1280x720:rate=30:duration=4",
-                "-c:v", "libx264", "-pix_fmt", "yuv420p", str(muet)], check=True)
-vm = vid.preparer(muet, out / "an2", diag_t)
-check(vid.a_du_son(vid.brute(vm, out / "muet-brut.mp4", 1080, 1350)), "vidéo sans son : piste silencieuse ajoutée")
-_lire = reel.voix.lire
+fv = da3.carrousel(post_rap, {"images": [une(photo)], "video": v}, out, "avec-video", diag_t)
+check(all(f.suffix == ".jpg" for f in fv), "rendu v3 : carrousel en images seulement (la vidéo va dans le Reel)")
+_lire = reel3.voix.lire
 voix_test = out / "voix.mp3"
-subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i", "sine=frequency=300:duration=3", str(voix_test)],
+subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i", "sine=frequency=300:duration=4", str(voix_test)],
                check=True)
-reel.voix.lire = lambda texte, dossier, diag: voix_test
-rv = reel.fabriquer(post_rap, {"images": [une(photo)], "video": v}, "voix", out, "reel-video", diag_t)
-check(abs(vid.duree(rv) - (3.8 + 6)) < 1.0, "Reel vidéo : voix off puis vidéo avec son d'origine")
-rp = reel.fabriquer(post, medias, "voix", out, "reel-photo", diag_t)
-check(abs(vid.duree(rp) - 3.8) < 0.6, "Reel photo : photo animée le temps de la voix")
-reel.voix.lire = _lire
+reel3.voix.lire = lambda texte, dossier, diag: voix_test
+
+
+def taille(f):
+    return subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v", "-show_entries", "stream=width,height",
+                           "-of", "csv=p=0", str(f)], capture_output=True, text=True).stdout.strip()
+
+
+rv, cv = reel3.fabriquer(post_rap, {"images": [une(photo)], "video": v}, "un deux trois quatre cinq six", out,
+                         "reel-video", diag_t)
+check(taille(rv) == "1080,1920" and vid.a_du_son(rv), "Reel v3 : vidéo 1080x1920 avec son")
+check(abs(vid.duree(rv) - (0.3 + 4 + 0.3 + reel3.FIN)) < 1.0, f"Reel v3 : durée = voix + carte de fin ({vid.duree(rv):.1f} s)")
+check(Image.open(cv).size == (1080, 1920), "Reel v3 : couverture 1080x1920")
+rp, _ = reel3.fabriquer(post, medias, "un deux trois", out, "reel-photo", diag_t)
+check(rp.exists() and rp.stat().st_size > 30_000, "Reel v3 : une seule photo → photo animée")
+reel3.voix.lire = _lire
 check(sources._videos_tweet({"extended_entities": {"media": [{"video_info": {"variants": [
     {"content_type": "video/mp4", "bitrate": 832000, "url": "https://video.twimg.com/a_low.mp4"},
     {"content_type": "video/mp4", "bitrate": 2176000, "url": "https://video.twimg.com/a_high.mp4"},
@@ -223,7 +231,7 @@ publications = []
 hebergement.heberger = lambda fichiers: [f"https://raw.example/{Path(f).name}" for f in fichiers]
 instagram.publier_carrousel = lambda urls, legende: publications.append((urls, legende)) or "https://instagram.com/p/OK"
 instagram.diagnostic = lambda diag: None
-instagram.publier_reel = lambda url, legende, feed=False: "https://instagram.com/reel/OK"
+instagram.publier_reel = lambda url, legende, feed=False, couverture_url=None: "https://instagram.com/reel/OK"
 
 os.environ["MODE"] = "test"
 check(main.executer() == 0, "simulation test : se termine sans erreur")
