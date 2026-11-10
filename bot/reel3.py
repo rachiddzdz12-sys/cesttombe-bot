@@ -333,6 +333,7 @@ def fabriquer(post, medias, texte_voix, dossier, prefixe, diag):
     tmp = dossier / f"{prefixe}-reel3"
     shutil.rmtree(tmp, ignore_errors=True)
     tmp.mkdir(parents=True)
+    texte_voix = voix.preparer(texte_voix) if texte_voix else texte_voix   # les sous-titres = ce qui est lu
     audio = voix.lire(texte_voix, dossier / f"{prefixe}-audio", diag) if texte_voix else None
     duree_voix = voix.duree(audio) if audio else 8.0
     mots = minuter(texte_voix, audio) if audio else []

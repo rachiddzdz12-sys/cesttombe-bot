@@ -20,9 +20,14 @@ VOIX_CONSIGNE = (
     "speak it, do NOT add, remove or change any word. Read the transcript exactly as written, in French.\n\n"
     "### DIRECTION\nVoice of a 26-year-old French woman who runs a popular news page on Instagram and TikTok, "
     "recording on her phone close to the microphone. Natural and conversational, like telling a friend some news, "
-    "with a slight smile in the voice. Lively but relaxed, real breaths between sentences, quick rhythm with small "
-    "pauses before the key facts. Native Parisian French. Never robotic, never over-acted.\n\n#### TRANSCRIPT\n")
+    "with a slight smile in the voice. Lively but relaxed, steady quick rhythm, natural short pauses at punctuation only. "
+    "No sound effects, no laughing, no singing, no long silences. Native Parisian French. Never robotic, never over-acted.\n\n#### TRANSCRIPT\n")
 VOIX_GEMINI_TEMPO = 1.0
+# contrôle de chaque voix Gemini : réécoutée par une reconnaissance vocale et comparée au texte prévu
+VOIX_ESSAIS = 3                 # voix refaite jusqu'à 3 fois ; ensuite, voix de secours (edge-tts)
+VOIX_CONTROLE_MIN = 0.82        # ressemblance minimale entre ce qui est dit et le texte prévu
+VOIX_BLANC_MAX = 1.1            # un blanc plus long au milieu de la voix = voix ratée
+VOIX_CONTROLE_MODELE = "small"  # modèle faster-whisper (téléchargé une fois, gardé en cache)
 # chaque modèle a son propre quota gratuit par jour : si le premier est épuisé, on passe au suivant
 GEMINI_TTS_MODELES = ["gemini-3.8-flash-tts", "gemini-3.1-flash-tts-preview"]
 # traitement « studio » de la voix : coupe le bas, un peu de chaleur, de la présence, de-esser, compression

@@ -174,6 +174,14 @@ check(Image.open(cv).size == (1080, 1920), "Reel v3 : couverture 1080x1920")
 rp, _ = reel3.fabriquer(post, medias, "un deux trois", out, "reel-photo", diag_t)
 check(rp.exists() and rp.stat().st_size > 30_000, "Reel v3 : une seule photo → photo animée")
 reel3.voix.lire = _lire
+from bot import voix as _voix  # noqa: E402
+check(_voix.normaliser("Son 5ème disque, GTA 6 en 2027 !") == _voix.normaliser("son cinquième disque. GTA six en deux mille vingt-sept"),
+      "contrôle voix : chiffres et ordinaux reconnus écrits en lettres")
+trou = out / "trou.wav"
+subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i", "sine=frequency=300:duration=2",
+                "-f", "lavfi", "-i", "anullsrc=r=44100:cl=mono:d=1.6", "-f", "lavfi", "-i", "sine=frequency=300:duration=2",
+                "-filter_complex", "[0][1][2]concat=n=3:v=0:a=1", str(trou)], check=True)
+check(_voix.blancs(trou) and not _voix.blancs(voix_test), "contrôle voix : un long blanc au milieu est repéré")
 check(sources._videos_tweet({"extended_entities": {"media": [{"video_info": {"variants": [
     {"content_type": "video/mp4", "bitrate": 832000, "url": "https://video.twimg.com/a_low.mp4"},
     {"content_type": "video/mp4", "bitrate": 2176000, "url": "https://video.twimg.com/a_high.mp4"},
