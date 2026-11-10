@@ -39,7 +39,9 @@
   "ag:https://www.actugaming.net/?p=832844": "2026-11-10T08:01:35.991078+00:00",
   "ag:https://www.actugaming.net/?p=832976": "2026-11-10T08:01:35.991078+00:00",
   "ag:https://www.actugaming.net/?p=832973": "2026-11-10T08:01:35.991078+00:00",
-  "ag:https://www.actugaming.net/?p=832860": "2026-11-10T08:01:35.991078+00:00"
+  "ag:https://www.actugaming.net/?p=832860": "2026-11-10T08:01:35.991078+00:00",
+  "ag:https://www.actugaming.net/?p=833054": "2026-11-10T10:35:05.111210+00:00",
+  "x:2120085554838528016": "2026-11-10T10:35:05.111210+00:00"
  },
  "publies": [
   {
@@ -175,10 +177,18 @@
    "source_id": "x:2119740524064322005",
    "lien": "https://www.instagram.com/p/DfhhG3SjJlY/",
    "reel": "https://www.instagram.com/reel/DfhhLQeDTYn/"
+  },
+  {
+   "ts": "2026-11-10T10:35:05.111210+00:00",
+   "categorie": "GAMING",
+   "titre": "GTA 6 : le jeu est officiellement gold",
+   "source_id": "x:2120085554838528016",
+   "lien": "https://www.instagram.com/p/DfjtOi9l6Y1/",
+   "reel": "https://www.instagram.com/reel/DfjtQsJAcTB/"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 447
+  "tweets": 477
  }
 }
