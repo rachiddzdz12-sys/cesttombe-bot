@@ -1,0 +1,25 @@
+name: Essai voix 2 (ne publie rien)
+on:
+  push:
+    branches: [essai-voix2]
+permissions:
+  contents: write
+jobs:
+  essai:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+      - name: ffmpeg
+        run: which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+      - name: Échantillons
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python3 essais/voix2.py
+      - name: Rendus
+        if: always()
+        run: |
+          mkdir -p /tmp/r && cp sortie/* /tmp/r/ 2>/dev/null || true
+          cd /tmp/r && git init -q -b essai-voix2-rendus
+          git config user.name bot && git config user.email bot@users.noreply.github.com
+          git add -A && git commit -q -m "voix" && git push -q --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" essai-voix2-rendus
