@@ -15,11 +15,19 @@ jobs:
       - name: Échantillons
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python3 essais/voix2.py
+          SAUTER: "1"            # on garde les échantillons déjà faits
+        run: test -n "$SAUTER" || python3 essais/voix2.py
+      - name: Transcription (vérifier ce que dit chaque voix)
+        if: always()
+        run: |
+          mkdir -p /tmp/r /tmp/da && cp sortie/* /tmp/r/ 2>/dev/null || true
+          if [ -z "$(ls /tmp/r)" ]; then git fetch -q origin essai-voix2-rendus && git --work-tree=/tmp/r checkout FETCH_HEAD -- . ; fi
+          git fetch -q origin analyse-da-sortie && git --work-tree=/tmp/da checkout FETCH_HEAD -- '*.mp4' || true
+          pip install -q faster-whisper
+          python3 essais/transcrire.py
       - name: Rendus
         if: always()
         run: |
-          mkdir -p /tmp/r && cp sortie/* /tmp/r/ 2>/dev/null || true
           cd /tmp/r && git init -q -b essai-voix2-rendus
           git config user.name bot && git config user.email bot@users.noreply.github.com
           git add -A && git commit -q -m "voix" && git push -q --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" essai-voix2-rendus
