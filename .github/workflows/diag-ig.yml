@@ -1,0 +1,40 @@
+name: Diagnostic Instagram (lecture seule)
+on:
+  push:
+    branches: [diag-ig]
+permissions:
+  contents: write
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Appels de lecture
+        env:
+          T: ${{ secrets.IG_ACCESS_TOKEN }}
+          U: ${{ secrets.IG_USER_ID }}
+        run: |
+          python3 - <<'PY' > /tmp/diag.txt
+          import json, os, requests
+          G = "https://graph.facebook.com/v25.0"
+          t, u = os.environ["T"], os.environ["U"]
+          def voir(nom, url, **p):
+              r = requests.get(url, params={"access_token": t, **p}, timeout=30)
+              j = r.json()
+              if "error" in j:
+                  e = j["error"]; e.pop("fbtrace_id", None)
+                  print(nom, "→ ERREUR", r.status_code, json.dumps(e, ensure_ascii=False))
+              else:
+                  print(nom, "→ OK", json.dumps(j, ensure_ascii=False)[:600])
+          voir("compte IG", f"{G}/{u}", fields="username,followers_count,media_count")
+          voir("quota publication", f"{G}/{u}/content_publishing_limit", fields="config,quota_usage")
+          voir("me", f"{G}/me", fields="id,name")
+          r = requests.get(f"{G}/debug_token", params={"input_token": t, "access_token": t}, timeout=30).json()
+          d = r.get("data", r)
+          print("jeton →", json.dumps({k: d.get(k) for k in ("is_valid", "type", "application", "expires_at", "error", "scopes")}, ensure_ascii=False))
+          voir("derniers posts", f"{G}/{u}/media", fields="timestamp,media_type", limit=3)
+          PY
+          cat /tmp/diag.txt
+          mkdir -p /tmp/o && cp /tmp/diag.txt /tmp/o/ && cd /tmp/o && git init -q -b diag-ig-sortie
+          git config user.name bot && git config user.email bot@users.noreply.github.com
+          git add -A && git commit -q -m diag && git push -q --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" diag-ig-sortie
