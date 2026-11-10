@@ -1,0 +1,34 @@
+name: Vérif compte X (lecture seule)
+on:
+  push:
+    branches: [verif-x]
+permissions:
+  contents: write
+jobs:
+  verif:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+      - name: Derniers tweets
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+        run: |
+          python3 - <<'PY' > /tmp/tweets.txt
+          import json, os, requests, config
+          r = requests.post(f"https://api.apify.com/v2/acts/{config.APIFY_ACTEUR}/run-sync-get-dataset-items",
+                            params={"token": os.environ["APIFY_TOKEN"], "timeout": 150, "maxItems": 12},
+                            json={"twitterContent": "from:FrenchRapUS -filter:replies", "maxItems": 12, "queryType": "Latest"},
+                            timeout=200)
+          print("HTTP", r.status_code)
+          for t in r.json():
+              if not isinstance(t, dict): continue
+              a = t.get("author") or {}
+              print("---", t.get("createdAt") or t.get("created_at"), "|", a.get("name"), "@", a.get("userName"), "| abonnés", a.get("followers"),
+                    "| vidéo" if (t.get("extendedEntities") or {}).get("media") else "")
+              print((t.get("text") or t.get("fullText") or "")[:280].replace("\n", " "))
+          PY
+          cat /tmp/tweets.txt
+          mkdir -p /tmp/o && cp /tmp/tweets.txt /tmp/o/ && cd /tmp/o && git init -q -b verif-x-sortie
+          git config user.name bot && git config user.email bot@users.noreply.github.com
+          git add -A && git commit -q -m verif && git push -q --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" verif-x-sortie
