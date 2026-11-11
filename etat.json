@@ -84,7 +84,9 @@
   "x:2120154659440701736": "2026-11-11T08:01:35.809310+00:00",
   "x:2120436600047878620": "2026-11-11T09:01:57.022090+00:00",
   "x:2120349134502998402": "2026-11-11T09:01:57.022090+00:00",
-  "ig:18023091272730997": "2026-11-11T09:01:57.022090+00:00"
+  "ig:18023091272730997": "2026-11-11T09:01:57.022090+00:00",
+  "ag:https://www.actugaming.net/?p=833178": "2026-11-11T10:01:37.688622+00:00",
+  "ag:https://www.actugaming.net/?p=833165": "2026-11-11T10:01:37.688622+00:00"
  },
  "publies": [
   {
@@ -316,10 +318,18 @@
    "source_id": "ig:18023091272730997",
    "lien": "https://www.instagram.com/p/DfmHiyzjXX_/",
    "reel": "https://www.instagram.com/reel/DfmHm0GmVUE/"
+  },
+  {
+   "ts": "2026-11-11T10:01:37.688622+00:00",
+   "categorie": "GAMING",
+   "titre": "La PS5 franchit le cap des 100 millions de ventes",
+   "source_id": "ag:https://www.actugaming.net/?p=833165",
+   "lien": "https://www.instagram.com/p/DfmOPLnmO3V/",
+   "reel": "https://www.instagram.com/reel/DfmOS2fjM_8/"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 1092
+  "tweets": 1122
  }
 }
