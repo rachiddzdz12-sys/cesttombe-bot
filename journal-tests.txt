@@ -1,0 +1,70 @@
+  voix · contrôle OK (92%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (3.5 s)
+  reel · 8.1 s · 3 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://instagram.com/p/OK
+  ✅ REEL PUBLIÉ : https://instagram.com/reel/OK
+Mode : auto
+0 infos fraîches et jamais traitées (sur 2 lues)
+GAMING · aucune info fraîche
+RAP FR · aucune info fraîche
+
+57 vérifications OK :
+  ✓ flux : soluce, test et article « durée de vie » écartés
+  ✓ flux : image media:content récupérée en premier
+  ✓ flux : images du texte gardées en secours
+  ✓ flux : crédit photo récupéré
+  ✓ flux : âge de l'info calculé
+  ✓ IA : point final retiré du titre
+  ✓ IA : mot clé recalé sur la casse du titre
+  ✓ IA : section vide ignorée
+  ✓ IA : légende assemblée
+  ✓ IA : source pauvre refusée
+  ✓ IA : mot clé absent du titre → ignoré
+  ✓ IA : JSON entouré de ``` accepté
+  ✓ IA : réponse de rédaction en liste acceptée
+  ✓ IA : texte sans accents détecté
+  ✓ IA : texte normal accepté
+  ✓ IA : tri renvoyé en liste nue accepté
+  ✓ IA : tri sous une autre clé accepté
+  ✓ IA v3 : titre en 2 lignes et slides
+  ✓ rendu v3 : toutes les slides en 1080x1350
+  ✓ rendu v3 : JPEG (exigé par Instagram)
+  ✓ rendu v3 : couverture + 2 slides + question (4 slides)
+  ✓ rendu v3 : ancien format accepté, sans photo → fond neutre
+  ✓ rendu v3 : plafonné à 10 slides
+  ✓ placement : évite le bandeau de texte incrusté
+  ✓ placement : image vide = propre
+  ✓ placement : le sujet au bord de l'image reste dans le cadre (1.0)
+  ✓ anti-doublon : Sardou/Orelsan reconnu malgré des hashtags différents
+  ✓ anti-doublon : deux infos différentes sur le même artiste restent possibles
+  ✓ vidéo : analysée image par image
+  ✓ rendu v3 : carrousel en images seulement (la vidéo va dans le Reel)
+  ✓ Reel v3 : vidéo 1080x1920 avec son
+  ✓ Reel v3 : durée = voix + carte de fin (8.1 s)
+  ✓ Reel v3 : couverture 1080x1920
+  ✓ Reel v3 : une seule photo → photo animée
+  ✓ contrôle voix : chiffres et ordinaux reconnus écrits en lettres
+  ✓ contrôle voix : un long blanc au milieu est repéré
+  ✓ voix : le bruit électrique de fin est coupé, la voix finit en fondu
+  ✓ voix : le clic du début est coupé
+  ✓ voix : un vrai dernier mot après une pause est gardé
+  ✓ X : meilleure qualité vidéo choisie
+  ✓ verif : midi, aucun post → on poste
+  ✓ verif : 4h du matin → non
+  ✓ verif : post il y a 30 min → on attend
+  ✓ verif : quota du jour atteint → non
+  ✓ rattrapage : un post toutes les 50 min autorisé
+  ✓ rattrapage terminé : retour aux règles normales
+  ✓ simulation test : se termine sans erreur
+  ✓ simulation test : rien n'est publié
+  ✓ simulation test : 1 carrousel gaming + 1 rap générés
+  ✓ simulation test : l'état n'est pas modifié
+  ✓ simulation test : 2 Reels vidéo générés
+  ✓ simulation : l'image du post rap est envoyée à l'IA
+  ✓ simulation auto : se termine sans erreur
+  ✓ simulation auto : un seul post par passage
+  ✓ simulation auto : post enregistré
+  ✓ simulation auto : alterne gaming / rap
+  ✓ simulation auto : une info déjà publiée n'est jamais republiée
+
+Slides de test dans /tmp/tmp0m83v6h8
