@@ -2,36 +2,28 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (3 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 6 / 100
+Instagram · posts publiés par l'API sur 24 h : 7 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Rap · @rap.minute → 12 posts lus
 Rap · @rapfractusofficiel → 12 posts lus
-X · @RapFrActus → 15 tweets lus, 1 gardés (ce mois : 1047 / 10000)
-X · @FrenchRapUS → 15 tweets lus, 10 gardés (ce mois : 1062 / 10000)
+X · @RapFrActus → 15 tweets lus, 1 gardés (ce mois : 1077 / 10000)
+X · @FrenchRapUS → 15 tweets lus, 11 gardés (ce mois : 1092 / 10000)
 Rattrapage jusqu'au 2026-11-11T12:00 : infos jusqu'à 3× plus anciennes, note mini 5
-10 infos fraîches et jamais traitées (sur 45 lues)
-   3/10 ✗ pas une news « Débrief : The Elder Scrolls VI Sentinel, rachat d’Arkane, ventes Marve »
-   8/10 ✗ déjà publiée « Le démarrage de Zelda: Ocarina of Time est un carton du côté des vente »
-   6/10 ✓ « Bungie donne un aperçu de Symbiose, prochaine mise à jour majeure d’un »
-   5/10 ✓ « Shift Up présentera son prochain jeu en 2027 et rassure sur l’état du  »
-   7/10 ✓ « « Nous avons rencontré des obstacles en cours de route » : Le PDG de T »
-   4/10 ✗ pas une news « 🚨 ALERTE GÉNÉRALE ! »
-   5/10 ✗ pas une news « 🚨 ALERTE !  »
-   9/10 ✓ « 🚨 ROCKSTAR GAMES VIENT DE DÉVOILER DE NOUVEAUX DÉTAILS TECHNIQUES SUR  »
-  10/10 ✓ « 🚨 ALERTE GÉNÉRALE !!! »
-GAMING · 5 infos retenues, meilleure : « 🚨 ALERTE GÉNÉRALE !!! » (10/10)
-  photo · échec : image trop petite (48x48)
-  photo · échec : image trop petite (48x48)
-  photo · 1 image(s) : 1200x599
-  visuels · steam « GTA 6 » → 0 image(s)
-  vidéo · téléchargée (28 s, 16 Mo)
-  vidéo · 28 images analysées, texte incrusté sur 13
-  couverture · photo1 · zoom 1.0 · propre
-  carrousel prêt : « Rockstar Games dévoile le trailer final de GTA 6 » (3 slides)
+8 infos fraîches et jamais traitées (sur 46 lues)
+   8/10 ✓ « La Rvfleuze x Aya Nakamura au Zenith 🤝 »
+   3/10 ✗ pas une news « 🚨 TRISTE IMAGE !  »
+   4/10 ✗ pas une news « 🚨 SCÈNE COMPLÈTEMENT FOLLE EN NBA !! »
+RAP FR · 1 infos retenues, meilleure : « La Rvfleuze x Aya Nakamura au Zenith 🤝 » (8/10)
+  photo · 1 image(s) : 720x1280
+  visuels · commons_personne « Aya Nakamura » → 4 image(s)
+  vidéo · téléchargée (15 s, 4 Mo)
+  vidéo · 15 images analysées, texte incrusté sur 6
+  couverture · video@2s · zoom 1.25 · propre
+  carrousel prêt : « La Rvfleuze x Aya Nakamura au Zenith » (3 slides)
   voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (10.9 s)
-  reel · 14.5 s · 6 plans dont 3 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DfmAhXQIAty/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfmAoTTAHzz/
-Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 2 s
+  voix · Gemini (Aoede) (11.2 s)
+  reel · 14.8 s · 6 plans dont 2 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DfmHiyzjXX_/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfmHm0GmVUE/
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 3 s · gemini-flash-lite-latest : réponse en 3 s
