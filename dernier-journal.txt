@@ -2,29 +2,27 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (2 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 4 / 100
+Instagram · posts publiés par l'API sur 24 h : 5 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Rap · @rap.minute → 12 posts lus
 Rap · @rapfractusofficiel → 12 posts lus
-X · @RapFrActus → 15 tweets lus, 1 gardés (ce mois : 1167 / 10000)
-X · @FrenchRapUS → 15 tweets lus, 4 gardés (ce mois : 1182 / 10000)
-10 infos fraîches et jamais traitées (sur 39 lues)
-   7/10 ✓ « “Okou Gnakouri” de Kaaris fête ses 10 ans ! 🎂 »
-   3/10 ✗ pas une news « 🚨 SHAQ IMPOSE UNE CONDITION SURPRENANTE À SES ENFANTS POUR HÉRITER DE  »
-   2/10 ✗ pas une news « 🚨 ALERTE !  »
-   5/10 ✗ déjà publiée « 🚨 ÉNORME SCANDALE D’ÉTAT ! »
-RAP FR · 1 infos retenues, meilleure : « “Okou Gnakouri” de Kaaris fête ses 10 ans ! 🎂 » (7/10)
-  photo · 1 image(s) : 1080x1375
-  visuels · commons_personne « Kaaris » → 0 image(s)
-  couverture · photo1 · zoom 1.8 · PAS PROPRE
-  slide 2 · photo1 : pas de zone parfaitement propre
-  slide 3 · photo1 : pas de zone parfaitement propre
-  slide 4 · photo1 : pas de zone parfaitement propre
-  carrousel prêt : « Okou Gnakouri de Kaaris fête ses 10 ans » (5 slides)
+X · @RapFrActus → 15 tweets lus, 2 gardés (ce mois : 1197 / 10000)
+X · @FrenchRapUS → 15 tweets lus, 5 gardés (ce mois : 1212 / 10000)
+12 infos fraîches et jamais traitées (sur 41 lues)
+   8/10 ✓ « Une page se tourne pour le rap belge… 🥲 »
+   7/10 ✓ « Jefe fait aussi des scores sur Netflix 🎥 »
+   9/10 ✓ « 🚨LE NOMBRE DE GROS PROJETS QUI S’ENCHAÎNENT POUR CETTE FIN D’ANNÉE 😱 »
+   3/10 ✗ pas une news « 🚨 ALERTE ! »
+   4/10 ✗ pas une news « 🚨 SCÈNE CHOQUANTE !  »
+RAP FR · 3 infos retenues, meilleure : « 🚨LE NOMBRE DE GROS PROJETS QUI S’ENCHAÎNENT POUR CETTE FIN D’ANNÉE 😱 » (9/10)
+  photo · aucune image
+  visuels · deezer « SDM » → 6 image(s)
+  couverture · photo4 · zoom 1.12 · propre
+  carrousel prêt : « Une fin d'année riche en gros projets rap » (6 slides)
   voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (14.8 s)
-  reel · 18.4 s · 7 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Dfm_ABwn0lN/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Dfm_FqpAd95/
-Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 3 s
+  voix · Gemini (Aoede) (11.0 s)
+  reel · 14.6 s · 6 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DfnPg_HFybW/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfnPr-qgZAZ/
+Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 6 s
