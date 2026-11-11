@@ -86,7 +86,10 @@
   "x:2120349134502998402": "2026-11-11T09:01:57.022090+00:00",
   "ig:18023091272730997": "2026-11-11T09:01:57.022090+00:00",
   "ag:https://www.actugaming.net/?p=833178": "2026-11-11T10:01:37.688622+00:00",
-  "ag:https://www.actugaming.net/?p=833165": "2026-11-11T10:01:37.688622+00:00"
+  "ag:https://www.actugaming.net/?p=833165": "2026-11-11T10:01:37.688622+00:00",
+  "ig:17874482718647214": "2026-11-11T12:32:19.685147+00:00",
+  "ag:https://www.actugaming.net/?p=833121": "2026-11-11T12:32:19.685147+00:00",
+  "x:2120158139408326981": "2026-11-11T12:32:19.685147+00:00"
  },
  "publies": [
   {
@@ -326,10 +329,18 @@
    "source_id": "ag:https://www.actugaming.net/?p=833165",
    "lien": "https://www.instagram.com/p/DfmOPLnmO3V/",
    "reel": "https://www.instagram.com/reel/DfmOS2fjM_8/"
+  },
+  {
+   "ts": "2026-11-11T12:32:19.685147+00:00",
+   "categorie": "GAMING",
+   "titre": "Rockstar Games dévoile de nouveaux détails techniques sur GTA 6",
+   "source_id": "x:2120158139408326981",
+   "lien": "https://www.instagram.com/p/DfmfkqPDb7e/",
+   "reel": "https://www.instagram.com/reel/DfmfuVQgh-r/"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 1122
+  "tweets": 1152
  }
 }

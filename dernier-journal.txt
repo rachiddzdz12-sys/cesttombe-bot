@@ -1,28 +1,33 @@
 Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
-Instagram · @cesttombe.actu (3 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 8 / 100
+Instagram · @cesttombe.actu (2 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 5 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Rap · @rap.minute → 12 posts lus
 Rap · @rapfractusofficiel → 12 posts lus
-X · @RapFrActus → 15 tweets lus, 1 gardés (ce mois : 1107 / 10000)
-X · @FrenchRapUS → 15 tweets lus, 9 gardés (ce mois : 1122 / 10000)
-Rattrapage jusqu'au 2026-11-11T12:00 : infos jusqu'à 3× plus anciennes, note mini 5
-5 infos fraîches et jamais traitées (sur 44 lues)
-   4/10 ✗ trop faible (mini 5) « Le prochain jeu de Falcom sera la suite de The Legend of Heroes: Trail »
-   5/10 ✓ « The Outer Worlds 2 aura droit à une extension en deux parties, le prem »
-   8/10 ✓ « La PS5 franchit le cap des 100 millions de ventes juste avant son sixi »
-   8/10 ✓ « Fairgames : Le jeu service de Haven Studios vient d’être annulé par So »
-   5/10 ✓ « Bungie donne un aperçu de Symbiose, prochaine mise à jour majeure d’un »
-GAMING · 4 infos retenues, meilleure : « La PS5 franchit le cap des 100 millions de ventes juste avant son sixième annive » (8/10)
-  photo · 1 image(s) : 1600x900
-  couverture · photo1 · zoom 1.0 · propre
-  carrousel prêt : « La PS5 franchit le cap des 100 millions de ventes » (4 slides)
-  voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (14.6 s)
-  reel · 18.2 s · 7 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DfmOPLnmO3V/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfmOS2fjM_8/
-Gemini : gemini-flash-lite-latest : réponse en 5 s · gemini-flash-lite-latest : réponse en 3 s
+X · @RapFrActus → 15 tweets lus, 1 gardés (ce mois : 1137 / 10000)
+X · @FrenchRapUS → 15 tweets lus, 8 gardés (ce mois : 1152 / 10000)
+6 infos fraîches et jamais traitées (sur 43 lues)
+   2/10 ✗ pas une news « Heuss était en folie sur cette interview 🤣 »
+RAP FR · 0 infos retenues
+   8/10 ✓ « Le remake de The Legend of Zelda: Ocarina of Time s’est vendu à 5,2 mi »
+   6/10 ✓ « The Outer Worlds 2 aura droit à une extension en deux parties, le prem »
+   9/10 ✓ « Fairgames : Le jeu service de Haven Studios vient d’être annulé par So »
+   5/10 ✗ trop faible (mini 6) « Bungie donne un aperçu de Symbiose, prochaine mise à jour majeure d’un »
+  10/10 ✓ « 🚨 ROCKSTAR GAMES VIENT DE DÉVOILER DE NOUVEAUX DÉTAILS TECHNIQUES SUR  »
+GAMING · 4 infos retenues, meilleure : « 🚨 ROCKSTAR GAMES VIENT DE DÉVOILER DE NOUVEAUX DÉTAILS TECHNIQUES SUR GTA 6 QUI  » (10/10)
+  photo · échec : image trop petite (48x48)
+  photo · 2 image(s) : 960x1200, 1639x2048
+  visuels · steam « GTA 6 » → 0 image(s)
+  couverture · photo1 · zoom 1.4 · PAS PROPRE
+  slide 2 · photo2 : pas de zone parfaitement propre
+  slide 3 · photo2 : pas de zone parfaitement propre
+  carrousel prêt : « Rockstar Games dévoile de nouveaux détails techniques sur GTA 6 » (4 slides)
+  voix · contrôle OK (98%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (14.7 s)
+  reel · 18.3 s · 7 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DfmfkqPDb7e/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfmfuVQgh-r/
+Gemini : gemini-flash-lite-latest : réponse en 3 s · gemini-flash-lite-latest : réponse en 4 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 3 s
