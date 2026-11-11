@@ -105,6 +105,70 @@ def verifier(fichier, texte):
     return True, note, entendu
 
 
+# ------------------------------------------------------------------ bords de la voix
+# La voix Gemini finit parfois par un petit bruit électrique (souffle large bande de ~0,1 s, presque saturé,
+# détaché de la dernière phrase), et commence parfois par un clic. On les repère et on les coupe.
+def _platitude(seg):
+    import numpy as np
+    w = 256
+    if len(seg) < w:
+        seg = np.pad(seg, (0, w - len(seg)))
+    vals = []
+    for i in range(0, len(seg) - w + 1, w // 2):
+        m = np.abs(np.fft.rfft(seg[i:i + w] * np.hanning(w))) + 1e-9
+        vals.append(float(np.exp(np.mean(np.log(m))) / np.mean(m)))
+    return float(np.median(vals))
+
+
+def nettoyer_bords(x, sr):
+    """x : échantillons float (-1..1). Renvoie la voix sans les bruits isolés du début et de la fin,
+    coupée juste après la dernière syllabe, avec des fondus courts (aucun clic)."""
+    import numpy as np
+    w = int(sr * 0.01)
+    n = len(x) // w
+    if n < 10:
+        return x
+    env = np.array([20 * np.log10(np.sqrt(np.mean(x[i * w:(i + 1) * w] ** 2)) + 1e-9) for i in range(n)])
+    actif = env > -42
+    segs, i = [], 0
+    while i < n:                                  # morceaux de son, petits trous (< 80 ms) recollés
+        if actif[i]:
+            j = i
+            while j < n and actif[j]:
+                j += 1
+            if segs and i - segs[-1][1] < 8:
+                segs[-1][1] = j
+            else:
+                segs.append([i, j])
+            i = j
+        else:
+            i += 1
+    if not segs:
+        return x
+
+    def parasite(seg, ecart):
+        duree = (seg[1] - seg[0]) * 0.01
+        if ecart < 10 or duree > 0.45:            # collé à la parole, ou trop long pour un bruit
+            return False
+        if duree <= 0.03:                         # 30 ms isolés : un clic, jamais une syllabe
+            return True
+        f = _platitude(x[seg[0] * w:seg[1] * w])
+        return f > 0.42 or (duree <= 0.06 and f > 0.3)
+
+    limite_fin, limite_debut = len(x), 0
+    while len(segs) > 1 and parasite(segs[-1], segs[-1][0] - segs[-2][1]):
+        limite_fin = segs.pop()[0] * w - int(0.01 * sr)       # jamais un bout du bruit retiré dans la fin
+    while len(segs) > 1 and parasite(segs[0], segs[1][0] - segs[0][1]):
+        limite_debut = segs.pop(0)[1] * w + int(0.01 * sr)
+    debut = max(limite_debut, segs[0][0] * w - int(0.03 * sr))
+    fin = min(limite_fin, segs[-1][1] * w + int(0.18 * sr))
+    y = x[debut:fin].copy()
+    fi, fo = min(len(y), int(0.015 * sr)), min(len(y), int(0.12 * sr))
+    y[:fi] *= np.linspace(0, 1, fi)
+    y[len(y) - fo:] *= np.cos(np.linspace(0, np.pi / 2, fo)) ** 2
+    return y
+
+
 def _gemini(texte, sortie, voix=None):
     import requests
     voix = voix or config.VOIX.split(":", 1)[1]
@@ -126,12 +190,12 @@ def _gemini(texte, sortie, voix=None):
             derniere = f"{modele} : pas d'audio dans la réponse"
             continue
         taux = re.search(r"rate=(\d+)", part["inlineData"].get("mimeType", ""))
-        pcm = base64.b64decode(part["inlineData"]["data"])
-        # PCM brut → fichier audio, silences du début et de la fin retirés, léger coup d'accélérateur
-        cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "s16le", "-ar", taux.group(1) if taux else "24000",
-               "-ac", "1", "-i", "-", "-af",
-               "silenceremove=start_periods=1:start_threshold=-45dB,areverse,"
-               "silenceremove=start_periods=1:start_threshold=-45dB,areverse,"
+        sr = int(taux.group(1)) if taux else 24000
+        import numpy as np
+        brut = np.frombuffer(base64.b64decode(part["inlineData"]["data"]), dtype="<i2").astype(np.float32) / 32768
+        # bruit électrique de fin / clic de début retirés, voix coupée net après la dernière syllabe
+        pcm = (np.clip(nettoyer_bords(brut, sr), -1, 1) * 32767).astype("<i2").tobytes()
+        cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "s16le", "-ar", str(sr), "-ac", "1", "-i", "-", "-af",
                f"atempo={config.VOIX_GEMINI_TEMPO},{config.VOIX_TRAITEMENT}", "-ar", "44100", "-b:a", "192k",
                str(sortie)]
         p = subprocess.run(cmd, input=pcm, capture_output=True)

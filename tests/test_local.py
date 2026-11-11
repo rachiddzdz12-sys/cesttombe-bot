@@ -182,6 +182,19 @@ subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i", "sine
                 "-f", "lavfi", "-i", "anullsrc=r=44100:cl=mono:d=1.6", "-f", "lavfi", "-i", "sine=frequency=300:duration=2",
                 "-filter_complex", "[0][1][2]concat=n=3:v=0:a=1", str(trou)], check=True)
 check(_voix.blancs(trou) and not _voix.blancs(voix_test), "contrôle voix : un long blanc au milieu est repéré")
+import numpy as _np  # noqa: E402
+_sr = 24000
+_t = _np.arange(int(1.5 * _sr)) / _sr
+_parole = 0.3 * sum(_np.sin(2 * _np.pi * 180 * k * _t) / k for k in range(1, 6)) * (0.6 + 0.4 * _np.sin(2 * _np.pi * 4 * _t))
+_bruit = _np.random.default_rng(1).uniform(-0.9, 0.9, int(0.09 * _sr))
+_avec_bruit = _np.concatenate([_parole, _np.zeros(int(0.3 * _sr)), _bruit])
+_propre = _voix.nettoyer_bords(_avec_bruit, _sr)
+check(len(_propre) < len(_parole) + 0.25 * _sr and abs(_propre[-int(0.02 * _sr):]).max() < 0.01,
+      "voix : le bruit électrique de fin est coupé, la voix finit en fondu")
+_clic = _np.concatenate([_bruit[:int(0.01 * _sr)], _np.zeros(int(0.25 * _sr)), _parole])
+check(len(_voix.nettoyer_bords(_clic, _sr)) < len(_parole) + 0.1 * _sr, "voix : le clic du début est coupé")
+_mot = _np.concatenate([_parole, _np.zeros(int(0.3 * _sr)), _parole[:int(0.3 * _sr)]])
+check(len(_voix.nettoyer_bords(_mot, _sr)) > len(_parole) + 0.55 * _sr, "voix : un vrai dernier mot après une pause est gardé")
 check(sources._videos_tweet({"extended_entities": {"media": [{"video_info": {"variants": [
     {"content_type": "video/mp4", "bitrate": 832000, "url": "https://video.twimg.com/a_low.mp4"},
     {"content_type": "video/mp4", "bitrate": 2176000, "url": "https://video.twimg.com/a_high.mp4"},
