@@ -1,0 +1,63 @@
+name: DA v3 · essai (ne publie rien)
+
+# Se lance seul à chaque envoi sur la branche da-v3. Ne publie rien sur Instagram, ne touche pas
+# au bot principal ni à son état : les rendus sont déposés sur la branche « da-v3-rendus ».
+on:
+  push:
+    branches: [da-v3]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: da-v3-essai
+  cancel-in-progress: true
+
+jobs:
+  essai:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: whisper-small-v1
+
+      - name: Installation
+        run: |
+          pip install -r requirements.txt
+          pip install --no-deps rapidocr-onnxruntime==1.2.3
+          which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+
+      - name: Tests hors ligne
+        run: |
+          mkdir -p sortie
+          python tests/test_local.py 2>&1 | tail -70 | tee sortie/journal-tests.txt
+
+      - name: Essai du contrôle des voix
+        run: |
+          python essais_voix/controle.py sortie 2>&1 | tee sortie/journal-voix.txt
+
+      - name: Rendus déposés sur la branche da-v3-rendus
+        if: always()
+        run: |
+          mkdir -p /tmp/rendus
+          find sortie -maxdepth 1 -type f \( -name "*.jpg" -o -name "*.mp4" -o -name "*.mp3" -o -name "*.txt" \) -exec cp {} /tmp/rendus/ \;
+          cd /tmp/rendus
+          git init -q -b da-v3-rendus
+          git config user.name "cesttombe-bot"
+          git config user.email "cesttombe-bot@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Essai voix (essai ${{ github.run_number }})"
+          git push -q --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" da-v3-rendus
