@@ -19,17 +19,6 @@ X · @FrenchRapUS → refus Apify HTTP 401 : {
     "message": "User was not found or authentication token is not valid"
   }
 }
-2 infos fraîches et jamais traitées (sur 34 lues)
-   4/10 ✗ trop faible (mini 6) « Dome Keeper, roguelike sorti en 2022, va connaître en décembre une ver »
-GAMING · 0 infos retenues
-   8/10 ✓ « 🚨Les sorties de la semaine et à minuit 🔥 »
-RAP FR · 1 infos retenues, meilleure : « 🚨Les sorties de la semaine et à minuit 🔥 » (8/10)
-  photo · 1 image(s) : 1254x1254
-  visuels · deezer « SDM » → 6 image(s)
-  couverture · photo1 · zoom 2.0 · PAS PROPRE
-  carrousel prêt : « Les sorties de la semaine et à minuit » (6 slides)
-  voix · contrôle OK (91%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (13.8 s)
-  reel · 17.4 s · 7 plans dont 0 extraits vidéo · voix + musique
-  ⏭️ déjà publié sur le compte (https://www.instagram.com/p/DfnPg_HFybW/) : on passe
-Gemini : gemini-flash-lite-latest : réponse en 7 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 24 s · gemini-flash-lite-latest : réponse en 11 s · texte sans accents ou sans apostrophes : réécriture demandée · gemini-flash-latest : ReadTimeout après 60 s · gemini-flash-latest : ReadTimeout après 60 s · gemini-flash-lite-latest : réponse en 29 s
+0 infos fraîches et jamais traitées (sur 34 lues)
+GAMING · aucune info fraîche
+RAP FR · aucune info fraîche
