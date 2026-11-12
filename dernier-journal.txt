@@ -19,20 +19,7 @@ X · @FrenchRapUS → refus Apify HTTP 401 : {
     "message": "User was not found or authentication token is not valid"
   }
 }
-7 infos fraîches et jamais traitées (sur 34 lues)
-   7/10 ✓ « Intergalactic: The Heretic Prophet est dans « les dernières étapes de  »
-   8/10 ✓ « Trois dates sont annoncées à Paris pour le concert des 40 ans de The L »
-   9/10 ✓ « Suite au scandale médiatique, le PDG de Nvidia démissionne après plus  »
-   6/10 ✓ « Des anciens du studio id Software (DOOM) se rejoignent pour fonder Hid »
-GAMING · 4 infos retenues, meilleure : « Suite au scandale médiatique, le PDG de Nvidia démissionne après plus de 30 ans  » (9/10)
-  photo · échec : image trop petite (50x50)
-  photo · 1 image(s) : 1920x1080
-  rédaction impossible pour « Suite au scandale médiatique, le PDG de Nvidia démissionne a » : Gemini n'a pas répondu correctement : gemini-flash-latest : surchargé (HTTP 503)
-  photo · échec : image trop petite (50x50)
-  photo · 1 image(s) : 3840x2160
-  rédaction impossible pour « Trois dates sont annoncées à Paris pour le concert des 40 an » : Gemini n'a pas répondu correctement : None
-  photo · échec : image trop petite (50x50)
-  photo · 1 image(s) : 3840x2160
-  rédaction impossible pour « Intergalactic: The Heretic Prophet est dans « les dernières  » : Gemini n'a pas répondu correctement : None
+6 infos fraîches et jamais traitées (sur 34 lues)
+GAMING · tri IA impossible : Gemini n'a pas répondu correctement : gemini-flash-latest : surchargé (HTTP 503)
 RAP FR · tri IA impossible : Gemini n'a pas répondu correctement : None
-Gemini : gemini-flash-lite-latest : réponse en 9 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503)
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503)
