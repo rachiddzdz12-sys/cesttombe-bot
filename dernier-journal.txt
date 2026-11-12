@@ -19,7 +19,12 @@ X · @FrenchRapUS → refus Apify HTTP 401 : {
     "message": "User was not found or authentication token is not valid"
   }
 }
-6 infos fraîches et jamais traitées (sur 34 lues)
-GAMING · tri IA impossible : Gemini n'a pas répondu correctement : gemini-flash-latest : surchargé (HTTP 503)
+7 infos fraîches et jamais traitées (sur 34 lues)
+   6/10 ✓ « Xbox vous propose un récapitulatif personnalisé de votre histoire sur  »
+   4/10 ✗ trop faible (mini 6) « L’action-RPG Vindictus: Defying Fate présente son gameplay en vidéo et »
+   5/10 ✗ trop faible (mini 6) « Des anciens du studio id Software (DOOM) se rejoignent pour fonder Hid »
+GAMING · 1 infos retenues, meilleure : « Xbox vous propose un récapitulatif personnalisé de votre histoire sur les consol » (6/10)
+  photo · 1 image(s) : 1920x1080
+  rédaction impossible pour « Xbox vous propose un récapitulatif personnalisé de votre his » : Gemini n'a pas répondu correctement : gemini-flash-latest : surchargé (HTTP 503)
 RAP FR · tri IA impossible : Gemini n'a pas répondu correctement : None
-Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503)
+Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503)
