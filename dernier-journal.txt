@@ -19,6 +19,8 @@ X · @FrenchRapUS → refus Apify HTTP 401 : {
     "message": "User was not found or authentication token is not valid"
   }
 }
-0 infos fraîches et jamais traitées (sur 34 lues)
+1 infos fraîches et jamais traitées (sur 34 lues)
 GAMING · aucune info fraîche
-RAP FR · aucune info fraîche
+   3/10 ✗ pas une news « Heuss voulait trop rencontrer Soolking 🤣 »
+RAP FR · 0 infos retenues
+Gemini : gemini-flash-lite-latest : réponse en 4 s
