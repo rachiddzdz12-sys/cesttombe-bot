@@ -2,7 +2,7 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (4 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 5 / 100
+Instagram · posts publiés par l'API sur 24 h : 4 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Rap · @rap.minute → 12 posts lus
@@ -19,12 +19,14 @@ X · @FrenchRapUS → refus Apify HTTP 401 : {
     "message": "User was not found or authentication token is not valid"
   }
 }
-7 infos fraîches et jamais traitées (sur 34 lues)
-   6/10 ✓ « Xbox vous propose un récapitulatif personnalisé de votre histoire sur  »
-   4/10 ✗ trop faible (mini 6) « L’action-RPG Vindictus: Defying Fate présente son gameplay en vidéo et »
-   5/10 ✗ trop faible (mini 6) « Des anciens du studio id Software (DOOM) se rejoignent pour fonder Hid »
-GAMING · 1 infos retenues, meilleure : « Xbox vous propose un récapitulatif personnalisé de votre histoire sur les consol » (6/10)
-  photo · 1 image(s) : 1920x1080
-  rédaction impossible pour « Xbox vous propose un récapitulatif personnalisé de votre his » : Gemini n'a pas répondu correctement : gemini-flash-latest : surchargé (HTTP 503)
-RAP FR · tri IA impossible : Gemini n'a pas répondu correctement : None
-Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503)
+3 infos fraîches et jamais traitées (sur 34 lues)
+GAMING · aucune info fraîche
+   3/10 ✗ pas une news « Booba a bien révisé ses danses Fortnite 🤣 »
+   8/10 ✓ « Ninho a été aperçu par une touriste française, sur le tournage d’un cl »
+   9/10 ✓ « Une page se tourne pour le rap belge… 🥲 »
+RAP FR · 2 infos retenues, meilleure : « Une page se tourne pour le rap belge… 🥲 » (9/10)
+  photo · 1 image(s) : 1080x1375
+  rédaction impossible pour « Une page se tourne pour le rap belge… 🥲 » : Gemini n'a pas répondu correctement : gemini-flash-latest : surchargé (HTTP 503)
+  photo · 1 image(s) : 1320x2347
+  rédaction impossible pour « Ninho a été aperçu par une touriste française, sur le tourna » : Gemini n'a pas répondu correctement : None
+Gemini : gemini-flash-lite-latest : réponse en 5 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503)
