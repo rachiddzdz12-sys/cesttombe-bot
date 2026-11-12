@@ -2,7 +2,7 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (4 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 4 / 100
+Instagram · posts publiés par l'API sur 24 h : 5 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Rap · @rap.minute → 12 posts lus
@@ -19,21 +19,20 @@ X · @FrenchRapUS → refus Apify HTTP 401 : {
     "message": "User was not found or authentication token is not valid"
   }
 }
-3 infos fraîches et jamais traitées (sur 34 lues)
-GAMING · aucune info fraîche
-   9/10 ✓ « Maes prépare-t-il son grand retour ? 👀 »
-   8/10 ✓ « Une page se tourne pour le rap belge… 🥲 »
-   8/10 ✓ « Jefe fait aussi des scores sur Netflix 🎥 »
-RAP FR · 3 infos retenues, meilleure : « Maes prépare-t-il son grand retour ? 👀 » (9/10)
-  photo · 1 image(s) : 1080x1375
-  visuels · commons_personne « Maes » → 0 image(s)
-  couverture · photo1 · zoom 1.6 · PAS PROPRE
-  slide 2 · photo1 : pas de zone parfaitement propre
-  slide 3 · photo1 : pas de zone parfaitement propre
-  carrousel prêt : « Maes prépare-t-il son grand retour musical ? » (4 slides)
-  voix · contrôle OK (95%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (12.3 s)
-  reel · 15.9 s · 6 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DfpLJYMJTMj/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfpLM4vlQS4/
-Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 9 s · gemini-flash-lite-latest : réponse en 11 s
+7 infos fraîches et jamais traitées (sur 34 lues)
+   7/10 ✓ « Intergalactic: The Heretic Prophet est dans « les dernières étapes de  »
+   8/10 ✓ « Trois dates sont annoncées à Paris pour le concert des 40 ans de The L »
+   9/10 ✓ « Suite au scandale médiatique, le PDG de Nvidia démissionne après plus  »
+   6/10 ✓ « Des anciens du studio id Software (DOOM) se rejoignent pour fonder Hid »
+GAMING · 4 infos retenues, meilleure : « Suite au scandale médiatique, le PDG de Nvidia démissionne après plus de 30 ans  » (9/10)
+  photo · échec : image trop petite (50x50)
+  photo · 1 image(s) : 1920x1080
+  rédaction impossible pour « Suite au scandale médiatique, le PDG de Nvidia démissionne a » : Gemini n'a pas répondu correctement : gemini-flash-latest : surchargé (HTTP 503)
+  photo · échec : image trop petite (50x50)
+  photo · 1 image(s) : 3840x2160
+  rédaction impossible pour « Trois dates sont annoncées à Paris pour le concert des 40 an » : Gemini n'a pas répondu correctement : None
+  photo · échec : image trop petite (50x50)
+  photo · 1 image(s) : 3840x2160
+  rédaction impossible pour « Intergalactic: The Heretic Prophet est dans « les dernières  » : Gemini n'a pas répondu correctement : None
+RAP FR · tri IA impossible : Gemini n'a pas répondu correctement : None
+Gemini : gemini-flash-lite-latest : réponse en 9 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503)
