@@ -20,19 +20,20 @@ X · @FrenchRapUS → refus Apify HTTP 401 : {
   }
 }
 9 infos fraîches et jamais traitées (sur 34 lues)
-  10/10 ✓ « On y arrive enfin…🥹⌛️ »
-   8/10 ✓ « Une page se tourne pour le rap belge… 🥲 »
-   9/10 ✓ « Jefe fait aussi des scores sur Netflix 🎥 »
-RAP FR · 3 infos retenues, meilleure : « On y arrive enfin…🥹⌛️ » (10/10)
-  photo · 1 image(s) : 1080x1375
-  visuels · steam « GTA VI » → 0 image(s)
-  couverture · photo1 · zoom 2.0 · PAS PROPRE
-  slide 2 · photo1 : pas de zone parfaitement propre
-  slide 3 · photo1 : pas de zone parfaitement propre
-  carrousel prêt : « GTA VI sort officiellement dans seulement 7 jours ! » (4 slides)
-  voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (12.4 s)
-  reel · 16.0 s · 6 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Dfo2bkyFNOe/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Dfo2hWEEZ6Y/
-Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 3 s
+   6/10 ✓ « Professeur Layton et le Nouveau Monde à Vapeur se montre avec sa VF av »
+   4/10 ✗ trop faible (mini 6) « Conan le Barbare se met lui aussi à la mode du roguelite dans un nouve »
+   5/10 ✗ trop faible (mini 6) « Romancing SaGa 3: Destinies United prend un peu d’avance pour éviter l »
+   8/10 ✓ « Resident Evil Requiem remporte le trophée de meilleur jeu aux Golden J »
+   6/10 ✓ « Marvel 1943: Rise of Hydra n’est pas annulé, mais son gameplay serait  »
+   5/10 ✗ trop faible (mini 6) « La stratégie multiplateforme de Square Enix continue de fonctionner, a »
+GAMING · 3 infos retenues, meilleure : « Resident Evil Requiem remporte le trophée de meilleur jeu aux Golden Joystick Aw » (8/10)
+  photo · 2 image(s) : 1280x720, 600x900
+  rédaction impossible pour « Resident Evil Requiem remporte le trophée de meilleur jeu au » : Gemini n'a pas répondu correctement : gemini-flash-latest : ReadTimeout
+  photo · échec : image trop petite (50x50)
+  photo · 1 image(s) : 1920x1080
+  rédaction impossible pour « Professeur Layton et le Nouveau Monde à Vapeur se montre ave » : Gemini n'a pas répondu correctement : None
+  photo · échec : image trop petite (50x50)
+  photo · 3 image(s) : 1920x1080, 1416x797, 632x947
+  rédaction impossible pour « Marvel 1943: Rise of Hydra n’est pas annulé, mais son gamepl » : Gemini n'a pas répondu correctement : None
+RAP FR · tri IA impossible : Gemini n'a pas répondu correctement : None
+Gemini : gemini-flash-lite-latest : réponse en 4 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : ReadTimeout après 60 s
