@@ -2,50 +2,37 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (4 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 6 / 100
+Instagram · posts publiés par l'API sur 24 h : 4 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Rap · @rap.minute → 12 posts lus
 Rap · @rapfractusofficiel → 12 posts lus
-X · @RapFrActus → 15 tweets lus, 1 gardés (ce mois : 1227 / 10000)
-X · @FrenchRapUS → 15 tweets lus, 14 gardés (ce mois : 1242 / 10000)
-15 infos fraîches et jamais traitées (sur 49 lues)
-   6/10 ✗ pas une news « Combien de Go fait GTA 6 ? Place nécessaire et comment libérer de l’es »
-   3/10 ✗ trop faible (mini 6) « Mise à jour Aniimo du 12 novembre : arrêt des serveurs et nouveautés,  »
-   4/10 ✗ pas une news « Zelda Ocarina of Time : le remake Switch 2 est-il à la hauteur de la l »
-   5/10 ✗ trop faible (mini 6) « EA Sports FC 27 dévoile la neuvième Team Of The Week »
-   6/10 ✓ « La stratégie multiplateforme de Square Enix continue de fonctionner, a »
-   8/10 ✓ « GTA 6 : Même Hollywood commence à se préparer pour l’impact que va cau »
-   7/10 ✓ « « J’aimerais que des consoles comme la Xbox Series S ne soient jamais  »
-   8/10 ✓ « Le remake de The Legend of Zelda: Ocarina of Time s’est vendu à 5,2 mi »
-   5/10 ✗ trop faible (mini 6) « The Outer Worlds 2 aura droit à une extension en deux parties, le prem »
-  10/10 ✓ « 🚨 OH MON DIEU !!! »
-  10/10 ✓ « 🚨 ALERTE GÉNÉRALE !!! »
-GAMING · 6 infos retenues, meilleure : « 🚨 OH MON DIEU !!! » (10/10)
-  photo · échec : image trop petite (48x48)
-  photo · échec : image trop petite (48x48)
-  photo · 1 image(s) : 675x1200
-  visuels · steam « GTA 6 » → 0 image(s)
-  vidéo · téléchargée (20 s, 4 Mo)
-  vidéo · 20 images analysées, texte incrusté sur 5
-  couverture · video@14s · zoom 1.0 · propre
-  carrousel prêt : « Rockstar Games dévoile une première image de GTA 6 » (3 slides)
+X · @RapFrActus → refus Apify HTTP 401 : {
+  "error": {
+    "type": "user-or-token-not-found",
+    "message": "User was not found or authentication token is not valid"
+  }
+}
+X · @FrenchRapUS → refus Apify HTTP 401 : {
+  "error": {
+    "type": "user-or-token-not-found",
+    "message": "User was not found or authentication token is not valid"
+  }
+}
+9 infos fraîches et jamais traitées (sur 34 lues)
+  10/10 ✓ « On y arrive enfin…🥹⌛️ »
+   8/10 ✓ « Une page se tourne pour le rap belge… 🥲 »
+   9/10 ✓ « Jefe fait aussi des scores sur Netflix 🎥 »
+RAP FR · 3 infos retenues, meilleure : « On y arrive enfin…🥹⌛️ » (10/10)
+  photo · 1 image(s) : 1080x1375
+  visuels · steam « GTA VI » → 0 image(s)
+  couverture · photo1 · zoom 2.0 · PAS PROPRE
+  slide 2 · photo1 : pas de zone parfaitement propre
+  slide 3 · photo1 : pas de zone parfaitement propre
+  carrousel prêt : « GTA VI sort officiellement dans seulement 7 jours ! » (4 slides)
   voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (10.4 s)
-  reel · 14.0 s · 6 plans dont 3 extraits vidéo · voix + musique
-  ⏭️ déjà publié sur le compte (https://www.instagram.com/p/DfmfkqPDb7e/) : on passe
-  photo · échec : image trop petite (48x48)
-  photo · échec : image trop petite (48x48)
-  photo · 1 image(s) : 1200x675
-  visuels · commons_personne « Squeezie » → 0 image(s)
-  visuels · steam « GTA 6 » → 0 image(s)
-  vidéo · téléchargée (37 s, 22 Mo)
-  vidéo · 37 images analysées, texte incrusté sur 15
-  couverture · video@18s · zoom 1.0 · propre
-  carrousel prêt : « Squeezie dévoile le trailer de sa vidéo GTA 6 à Miami » (4 slides)
-  voix · contrôle OK (97%, essai 1, gemini-3.1-flash-tts-preview)
-  voix · Gemini (Aoede) (14.7 s)
-  reel · 18.3 s · 7 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DfolzIHkZgG/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Dfol4X1lMJA/
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
+  voix · Gemini (Aoede) (12.4 s)
+  reel · 16.0 s · 6 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Dfo2bkyFNOe/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Dfo2hWEEZ6Y/
+Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 3 s
