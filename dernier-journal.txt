@@ -2,7 +2,7 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (4 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 3 / 100
+Instagram · posts publiés par l'API sur 24 h : 4 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Rap · @rap.minute → 12 posts lus
@@ -19,22 +19,25 @@ X · @FrenchRapUS → refus Apify HTTP 401 : {
     "message": "User was not found or authentication token is not valid"
   }
 }
-15 infos fraîches et jamais traitées (sur 34 lues)
-   3/10 ✗ pas une news « Nos rappeurs ont parcouru du chemin depuis la sortie du dernier opus d »
-   6/10 ✓ « Konieur frappe fort avec son premier projet 🤯 »
-   7/10 ✓ « "PBB" de Freeze Corleone sortait il y a 8 ans 🎂 »
-   1/10 ✗ pas une news « L’exercice devait pas être facile 😅￼ »
-   8/10 ✓ « Les actualités de la semaine 🗞️ »
-   9/10 ✓ « A7 de SCH sortait il y a 11 ans aujourd’hui 🎂 »
-   9/10 ✓ « La réconciliation de Fianso et Lacrim 🤝 »
-RAP FR · 5 infos retenues, meilleure : « A7 de SCH sortait il y a 11 ans aujourd’hui 🎂 » (9/10)
-  photo · 1 image(s) : 1080x1375
-  visuels · deezer « SCH » → 4 image(s)
-  couverture · photo1 · zoom 1.6 · PAS PROPRE
-  carrousel prêt : « A7 de SCH fête ses 11 ans » (4 slides)
+16 infos fraîches et jamais traitées (sur 34 lues)
+   5/10 ✗ trop faible (mini 6) « The Blood of Dawnwalker accueillera le New Game + dans son patch 1.2 à »
+   7/10 ✓ « God of War Sons of Sparta confirme officiellement sa sortie sur PS4 le »
+   4/10 ✗ trop faible (mini 6) « Stranger Than Heaven présente en vidéo le contexte narratif de son cha »
+   6/10 ✓ « Le QSSR de la PS5 s’invite aussi dans Marvel’s Spider-Man 2, Control R »
+   6/10 ✓ « Attack on Titan 3 vous invitera à prendre le thé avec vos personnages  »
+   5/10 ✗ trop faible (mini 6) « Lucky Luke: The Lonesome Cowboy Collection signe le retour en 2027 des »
+   8/10 ✓ « 1 personne sur 3 travaillant dans l’industrie du jeu vidéo a été licen »
+   7/10 ✓ « Le programme de rétrocompatibilité de Xbox s’étend à 21 jeux supplémen »
+   5/10 ✗ trop faible (mini 6) « Une mise à jour arrive pour DOOM: The Dark Ages tandis qu’id Software  »
+   7/10 ✓ « Fable : 4 minutes de gameplay pour le prochain épisode qui ne montre f »
+GAMING · 6 infos retenues, meilleure : « 1 personne sur 3 travaillant dans l’industrie du jeu vidéo a été licenciée duran » (8/10)
+  photo · échec : image trop petite (50x50)
+  photo · 1 image(s) : 1900x1080
+  couverture · photo1 · zoom 1.0 · PAS PROPRE
+  carrousel prêt : « Un tiers des travailleurs du jeu vidéo licenciés » (4 slides)
   voix · contrôle OK (100%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (15.2 s)
-  reel · 18.8 s · 8 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Dfr9ykZE7ic/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Dfr92fllPtv/
-Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : ReadTimeout après 60 s · gemini-flash-lite-latest : réponse en 4 s
+  voix · Gemini (Aoede) (14.8 s)
+  reel · 18.4 s · 7 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DfsO4m1l6Ea/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfsO8VXjJNf/
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s · texte sans accents ou sans apostrophes : réécriture demandée · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 3 s

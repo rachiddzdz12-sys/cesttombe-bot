@@ -131,7 +131,12 @@
   "ag:https://www.actugaming.net/?p=833382": "2026-11-13T13:02:19.609318+00:00",
   "ig:18124434347076241": "2026-11-13T15:32:10.361487+00:00",
   "ig:18650057863021381": "2026-11-13T15:32:10.361487+00:00",
-  "ig:17980712955136374": "2026-11-13T15:32:10.361487+00:00"
+  "ig:17980712955136374": "2026-11-13T15:32:10.361487+00:00",
+  "ag:https://www.actugaming.net/?p=833462": "2026-11-13T18:01:55.029145+00:00",
+  "ag:https://www.actugaming.net/?p=833434": "2026-11-13T18:01:55.029145+00:00",
+  "ag:https://www.actugaming.net/?p=833393": "2026-11-13T18:01:55.029145+00:00",
+  "ag:https://www.actugaming.net/?p=833412": "2026-11-13T18:01:55.029145+00:00",
+  "ag:https://www.actugaming.net/?p=833420": "2026-11-13T18:01:55.029145+00:00"
  },
  "publies": [
   {
@@ -451,6 +456,14 @@
    "source_id": "ig:17980712955136374",
    "lien": "https://www.instagram.com/p/Dfr9ykZE7ic/",
    "reel": "https://www.instagram.com/reel/Dfr92fllPtv/"
+  },
+  {
+   "ts": "2026-11-13T18:01:55.029145+00:00",
+   "categorie": "GAMING",
+   "titre": "Un tiers des travailleurs du jeu vidéo licenciés",
+   "source_id": "ag:https://www.actugaming.net/?p=833420",
+   "lien": "https://www.instagram.com/p/DfsO4m1l6Ea/",
+   "reel": "https://www.instagram.com/reel/DfsO8VXjJNf/"
   }
  ],
  "x_mois": {
