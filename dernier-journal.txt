@@ -19,20 +19,22 @@ X · @FrenchRapUS → refus Apify HTTP 401 : {
     "message": "User was not found or authentication token is not valid"
   }
 }
-9 infos fraîches et jamais traitées (sur 34 lues)
-   6/10 ✓ « Une mise à jour arrive pour DOOM: The Dark Ages tandis qu’id Software  »
-   7/10 ✓ « Fable : 4 minutes de gameplay pour le prochain épisode qui ne montre f »
-   8/10 ✓ « Wolfenstein 3 est officiellement annoncé par MachineGames, deux person »
-   5/10 ✗ trop faible (mini 6) « Xbox : Asha Sharma plaide pour de plus petites équipes de développemen »
-GAMING · 3 infos retenues, meilleure : « Wolfenstein 3 est officiellement annoncé par MachineGames, deux personnages sont » (8/10)
-  photo · échec : image trop petite (50x50)
-  photo · 1 image(s) : 1920x1080
-  visuels · steam « Wolfenstein 3 » → 4 image(s)
-  couverture · photo1 · zoom 1.0 · propre
-  carrousel prêt : « Wolfenstein 3 est officiellement annoncé par MachineGames » (4 slides)
-  voix · contrôle OK (96%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (15.0 s)
-  reel · 18.6 s · 8 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Dfrsl-xDRE5/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfrsqWrjf88/
-Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 2 s
+15 infos fraîches et jamais traitées (sur 34 lues)
+   3/10 ✗ pas une news « Nos rappeurs ont parcouru du chemin depuis la sortie du dernier opus d »
+   6/10 ✓ « Konieur frappe fort avec son premier projet 🤯 »
+   7/10 ✓ « "PBB" de Freeze Corleone sortait il y a 8 ans 🎂 »
+   1/10 ✗ pas une news « L’exercice devait pas être facile 😅￼ »
+   8/10 ✓ « Les actualités de la semaine 🗞️ »
+   9/10 ✓ « A7 de SCH sortait il y a 11 ans aujourd’hui 🎂 »
+   9/10 ✓ « La réconciliation de Fianso et Lacrim 🤝 »
+RAP FR · 5 infos retenues, meilleure : « A7 de SCH sortait il y a 11 ans aujourd’hui 🎂 » (9/10)
+  photo · 1 image(s) : 1080x1375
+  visuels · deezer « SCH » → 4 image(s)
+  couverture · photo1 · zoom 1.6 · PAS PROPRE
+  carrousel prêt : « A7 de SCH fête ses 11 ans » (4 slides)
+  voix · contrôle OK (100%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (15.2 s)
+  reel · 18.8 s · 8 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Dfr9ykZE7ic/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Dfr92fllPtv/
+Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : ReadTimeout après 60 s · gemini-flash-lite-latest : réponse en 4 s

@@ -128,7 +128,10 @@
   "ag:https://www.actugaming.net/?p=833333": "2026-11-13T08:01:36.044159+00:00",
   "ig:18173910106464023": "2026-11-13T10:31:25.410807+00:00",
   "ag:https://www.actugaming.net/?p=833345": "2026-11-13T13:02:19.609318+00:00",
-  "ag:https://www.actugaming.net/?p=833382": "2026-11-13T13:02:19.609318+00:00"
+  "ag:https://www.actugaming.net/?p=833382": "2026-11-13T13:02:19.609318+00:00",
+  "ig:18124434347076241": "2026-11-13T15:32:10.361487+00:00",
+  "ig:18650057863021381": "2026-11-13T15:32:10.361487+00:00",
+  "ig:17980712955136374": "2026-11-13T15:32:10.361487+00:00"
  },
  "publies": [
   {
@@ -440,6 +443,14 @@
    "source_id": "ag:https://www.actugaming.net/?p=833382",
    "lien": "https://www.instagram.com/p/Dfrsl-xDRE5/",
    "reel": "https://www.instagram.com/reel/DfrsqWrjf88/"
+  },
+  {
+   "ts": "2026-11-13T15:32:10.361487+00:00",
+   "categorie": "RAP FR",
+   "titre": "A7 de SCH fête ses 11 ans",
+   "source_id": "ig:17980712955136374",
+   "lien": "https://www.instagram.com/p/Dfr9ykZE7ic/",
+   "reel": "https://www.instagram.com/reel/Dfr92fllPtv/"
   }
  ],
  "x_mois": {
