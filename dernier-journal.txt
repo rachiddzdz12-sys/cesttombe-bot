@@ -19,6 +19,19 @@ X · @FrenchRapUS → refus Apify HTTP 401 : {
     "message": "User was not found or authentication token is not valid"
   }
 }
-0 infos fraîches et jamais traitées (sur 34 lues)
-GAMING · aucune info fraîche
-RAP FR · aucune info fraîche
+5 infos fraîches et jamais traitées (sur 34 lues)
+   6/10 ✓ « Xbox : Asha Sharma plaide pour de plus petites équipes de développemen »
+   5/10 ✗ trop faible (mini 6) « Halo: Campaign Evolved annonce le retour prochain et gratuit de Baptêm »
+   7/10 ✓ « Sonic fête ses 35 ans avec un superbe court-métrage d’animation à dest »
+GAMING · 2 infos retenues, meilleure : « Sonic fête ses 35 ans avec un superbe court-métrage d’animation à destination de » (7/10)
+  photo · échec : image trop petite (50x50)
+  photo · 1 image(s) : 1800x1012
+  visuels · steam « Sonic » → 4 image(s)
+  couverture · photo1 · zoom 1.0 · propre
+  carrousel prêt : « Sonic fête ses 35 ans avec un court-métrage » (4 slides)
+  voix · contrôle OK (100%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (12.4 s)
+  reel · 16.0 s · 6 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DfrKDIFFHXs/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfrKNilmbh3/
+Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 2 s
