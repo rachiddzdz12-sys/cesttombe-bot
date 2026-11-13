@@ -136,7 +136,11 @@
   "ag:https://www.actugaming.net/?p=833434": "2026-11-13T18:01:55.029145+00:00",
   "ag:https://www.actugaming.net/?p=833393": "2026-11-13T18:01:55.029145+00:00",
   "ag:https://www.actugaming.net/?p=833412": "2026-11-13T18:01:55.029145+00:00",
-  "ag:https://www.actugaming.net/?p=833420": "2026-11-13T18:01:55.029145+00:00"
+  "ag:https://www.actugaming.net/?p=833420": "2026-11-13T18:01:55.029145+00:00",
+  "ig:18099241691132341": "2026-11-13T20:31:38.513881+00:00",
+  "ig:18426604420157312": "2026-11-13T20:31:38.513881+00:00",
+  "ig:18137215744587405": "2026-11-13T20:31:38.513881+00:00",
+  "ig:17880527655565700": "2026-11-13T20:31:38.513881+00:00"
  },
  "publies": [
   {
@@ -464,6 +468,14 @@
    "source_id": "ag:https://www.actugaming.net/?p=833420",
    "lien": "https://www.instagram.com/p/DfsO4m1l6Ea/",
    "reel": "https://www.instagram.com/reel/DfsO8VXjJNf/"
+  },
+  {
+   "ts": "2026-11-13T20:31:38.513881+00:00",
+   "categorie": "RAP FR",
+   "titre": "La réconciliation surprise entre Fianso et Lacrim",
+   "source_id": "ig:17880527655565700",
+   "lien": "https://www.instagram.com/p/DfsgEE7l95Z/",
+   "reel": "https://www.instagram.com/reel/DfsgIGYiKAp/"
   }
  ],
  "x_mois": {
