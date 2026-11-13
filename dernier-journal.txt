@@ -19,19 +19,19 @@ X · @FrenchRapUS → refus Apify HTTP 401 : {
     "message": "User was not found or authentication token is not valid"
   }
 }
-5 infos fraîches et jamais traitées (sur 34 lues)
-   6/10 ✓ « Xbox : Asha Sharma plaide pour de plus petites équipes de développemen »
-   5/10 ✗ trop faible (mini 6) « Halo: Campaign Evolved annonce le retour prochain et gratuit de Baptêm »
-   7/10 ✓ « Sonic fête ses 35 ans avec un superbe court-métrage d’animation à dest »
-GAMING · 2 infos retenues, meilleure : « Sonic fête ses 35 ans avec un superbe court-métrage d’animation à destination de » (7/10)
-  photo · échec : image trop petite (50x50)
-  photo · 1 image(s) : 1800x1012
-  visuels · steam « Sonic » → 4 image(s)
-  couverture · photo1 · zoom 1.0 · propre
-  carrousel prêt : « Sonic fête ses 35 ans avec un court-métrage » (4 slides)
-  voix · contrôle OK (100%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (12.4 s)
-  reel · 16.0 s · 6 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DfrKDIFFHXs/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfrKNilmbh3/
+4 infos fraîches et jamais traitées (sur 34 lues)
+   8/10 ✓ « A7 de SCH sortait il y a 11 ans aujourd’hui 🎂 »
+   9/10 ✓ « Ninho n’a pas fini de régler ses comptes… 🥶 »
+   9/10 ✓ « La réconciliation de Fianso et Lacrim 🤝 »
+RAP FR · 3 infos retenues, meilleure : « Ninho n’a pas fini de régler ses comptes… 🥶 » (9/10)
+  photo · 1 image(s) : 1080x1375
+  visuels · commons_personne « Ninho » → 0 image(s)
+  visuels · commons_personne « SDM » → 0 image(s)
+  couverture · photo1 · zoom 1.8 · propre
+  carrousel prêt : « Ninho s'attaque encore à son ancien producteur » (4 slides)
+  voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (14.8 s)
+  reel · 18.4 s · 7 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DfrbLuHFKuX/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfrbUsjjLuB/
 Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 2 s
