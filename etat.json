@@ -126,7 +126,9 @@
   "ig:17885659776528374": "2026-11-12T20:31:24.048560+00:00",
   "ag:https://www.actugaming.net/?p=833344": "2026-11-13T08:01:36.044159+00:00",
   "ag:https://www.actugaming.net/?p=833333": "2026-11-13T08:01:36.044159+00:00",
-  "ig:18173910106464023": "2026-11-13T10:31:25.410807+00:00"
+  "ig:18173910106464023": "2026-11-13T10:31:25.410807+00:00",
+  "ag:https://www.actugaming.net/?p=833345": "2026-11-13T13:02:19.609318+00:00",
+  "ag:https://www.actugaming.net/?p=833382": "2026-11-13T13:02:19.609318+00:00"
  },
  "publies": [
   {
@@ -430,6 +432,14 @@
    "source_id": "ig:18173910106464023",
    "lien": "https://www.instagram.com/p/DfrbLuHFKuX/",
    "reel": "https://www.instagram.com/reel/DfrbUsjjLuB/"
+  },
+  {
+   "ts": "2026-11-13T13:02:19.609318+00:00",
+   "categorie": "GAMING",
+   "titre": "Wolfenstein 3 est officiellement annoncé par MachineGames",
+   "source_id": "ag:https://www.actugaming.net/?p=833382",
+   "lien": "https://www.instagram.com/p/Dfrsl-xDRE5/",
+   "reel": "https://www.instagram.com/reel/DfrsqWrjf88/"
   }
  ],
  "x_mois": {
