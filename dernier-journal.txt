@@ -2,7 +2,7 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (4 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 5 / 100
+Instagram · posts publiés par l'API sur 24 h : 6 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Rap · @rap.minute → 12 posts lus
@@ -19,25 +19,20 @@ X · @FrenchRapUS → refus Apify HTTP 401 : {
     "message": "User was not found or authentication token is not valid"
   }
 }
-12 infos fraîches et jamais traitées (sur 34 lues)
-   7/10 ✓ « Guizmo réalise une très grosse année 🎤 »
-   5/10 ✗ trop faible (mini 6) « Konieur frappe fort avec son premier projet 🤯 »
-   6/10 ✓ « "PBB" de Freeze Corleone sortait il y a 8 ans 🎂 »
-   8/10 ✓ « Les actualités de la semaine 🗞️ »
-   9/10 ✓ « La réconciliation de Fianso et Lacrim 🤝 »
-   5/10 ✗ trop faible (mini 6) « Après SDM c’est autour de JONIO de représenter le 92 avec un gros TITR »
-   7/10 ✗ déjà publiée « GUIZMO x DA UZI c’est clairement une des connexions de l’année 🤯 »
-RAP FR · 4 infos retenues, meilleure : « La réconciliation de Fianso et Lacrim 🤝 » (9/10)
-  photo · 1 image(s) : 720x1280
-  visuels · commons_personne « Fianso » → 0 image(s)
-  visuels · commons_personne « Lacrim » → 0 image(s)
-  vidéo · téléchargée (30 s, 8 Mo)
-  vidéo · 30 images analysées, texte incrusté sur 7
-  couverture · video@0s · zoom 1.12 · propre
-  carrousel prêt : « La réconciliation surprise entre Fianso et Lacrim » (3 slides)
-  voix · contrôle OK (98%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (8.5 s)
-  reel · 12.1 s · 5 plans dont 3 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DfsgEE7l95Z/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfsgIGYiKAp/
-Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 4 s
+10 infos fraîches et jamais traitées (sur 34 lues)
+   3/10 ✗ pas une news « Avant la sortie de GTA VI, retour sur GTA IV et la concrétisation d’un »
+   4/10 ✗ pas une news « EA Sports FC 27 dévoile les Hall Of Fut Unleashed »
+   8/10 ✓ « God of War Sons of Sparta confirme officiellement sa sortie sur PS4 le »
+   6/10 ✓ « Le QSSR de la PS5 s’invite aussi dans Marvel’s Spider-Man 2, Control R »
+   7/10 ✓ « Attack on Titan 3 vous invitera à prendre le thé avec vos personnages  »
+   7/10 ✓ « Le programme de rétrocompatibilité de Xbox s’étend à 21 jeux supplémen »
+GAMING · 4 infos retenues, meilleure : « God of War Sons of Sparta confirme officiellement sa sortie sur PS4 le 16 novemb » (8/10)
+  photo · 4 image(s) : 1920x1080, 3840x2160, 3840x2160, 1440x2160
+  rédaction impossible pour « God of War Sons of Sparta confirme officiellement sa sortie  » : Gemini n'a pas répondu correctement : gemini-flash-latest : surchargé (HTTP 503)
+  photo · échec : image trop petite (50x50)
+  photo · 2 image(s) : 3840x2160, 600x900
+  rédaction impossible pour « Attack on Titan 3 vous invitera à prendre le thé avec vos pe » : Gemini n'a pas répondu correctement : None
+  photo · 1 image(s) : 1600x900
+  rédaction impossible pour « Le programme de rétrocompatibilité de Xbox s’étend à 21 jeux » : Gemini n'a pas répondu correctement : None
+RAP FR · tri IA impossible : Gemini n'a pas répondu correctement : None
+Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503)
