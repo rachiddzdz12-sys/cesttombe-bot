@@ -21,17 +21,18 @@ X · @FrenchRapUS → refus Apify HTTP 401 : {
 }
 1 infos fraîches et jamais traitées (sur 34 lues)
 GAMING · aucune info fraîche
-   6/10 ✓ « "PBB" de Freeze Corleone sortait il y a 8 ans 🎂 »
-RAP FR · 1 infos retenues, meilleure : « "PBB" de Freeze Corleone sortait il y a 8 ans 🎂 » (6/10)
+   9/10 ✓ « SDM devient le premier rappeur français à dévoiler une collection avec »
+RAP FR · 1 infos retenues, meilleure : « SDM devient le premier rappeur français à dévoiler une collection avec le Paris  » (9/10)
   photo · 1 image(s) : 1080x1375
-  visuels · commons_personne « Freeze Corleone » → 0 image(s)
+  visuels · commons_personne « SDM » → 0 image(s)
   couverture · photo1 · zoom 2.0 · PAS PROPRE
   slide 2 · photo1 : pas de zone parfaitement propre
   slide 3 · photo1 : pas de zone parfaitement propre
-  carrousel prêt : « PBB de Freeze Corleone sortait il y a 8 ans » (4 slides)
-  voix · contrôle OK (96%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (14.3 s)
-  reel · 17.9 s · 7 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DfuDihzjIY_/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfuDln_DCV9/
+  slide 4 · photo1 : pas de zone parfaitement propre
+  carrousel prêt : « SDM devient le premier rappeur français avec le PSG » (5 slides)
+  voix · contrôle OK (98%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (14.9 s)
+  reel · 18.5 s · 7 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DfuUmhjIAgM/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfuUs53gh3O/
 Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 3 s
