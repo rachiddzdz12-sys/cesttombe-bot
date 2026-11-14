@@ -19,26 +19,19 @@ X · @FrenchRapUS → refus Apify HTTP 401 : {
     "message": "User was not found or authentication token is not valid"
   }
 }
-5 infos fraîches et jamais traitées (sur 34 lues)
-   5/10 ✗ trop faible (mini 6) « Le QSSR de la PS5 s’invite aussi dans Marvel’s Spider-Man 2, Control R »
-GAMING · 0 infos retenues
-   3/10 ✗ pas une news « Le KO de Bilel Jkitou VS Gabriel Corzo 🇫🇷🇦🇷 »
-   7/10 ✓ « Guizmo réalise une très grosse année 🎤 »
+1 infos fraîches et jamais traitées (sur 34 lues)
+GAMING · aucune info fraîche
    6/10 ✓ « "PBB" de Freeze Corleone sortait il y a 8 ans 🎂 »
-   8/10 ✓ « Les actualités de la semaine 🗞️ »
-RAP FR · 3 infos retenues, meilleure : « Les actualités de la semaine 🗞️ » (8/10)
+RAP FR · 1 infos retenues, meilleure : « "PBB" de Freeze Corleone sortait il y a 8 ans 🎂 » (6/10)
   photo · 1 image(s) : 1080x1375
-  rédaction impossible pour « Les actualités de la semaine 🗞️ » : source trop pauvre selon l'IA
-  photo · 1 image(s) : 1080x1375
-  visuels · commons_personne « Guizmo » → 0 image(s)
-  visuels · commons_personne « Da Uzi » → 0 image(s)
-  couverture · photo1 · zoom 1.6 · PAS PROPRE
+  visuels · commons_personne « Freeze Corleone » → 0 image(s)
+  couverture · photo1 · zoom 2.0 · PAS PROPRE
   slide 2 · photo1 : pas de zone parfaitement propre
   slide 3 · photo1 : pas de zone parfaitement propre
-  carrousel prêt : « Guizmo annonce la réédition de La Tanière » (4 slides)
-  voix · contrôle OK (97%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (13.1 s)
-  reel · 16.7 s · 7 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DftyZZam_Hs/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DftycgBFUHv/
-Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 3 s
+  carrousel prêt : « PBB de Freeze Corleone sortait il y a 8 ans » (4 slides)
+  voix · contrôle OK (96%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (14.3 s)
+  reel · 17.9 s · 7 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DfuDihzjIY_/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfuDln_DCV9/
+Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 3 s
