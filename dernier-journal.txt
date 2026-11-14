@@ -19,20 +19,20 @@ X · @FrenchRapUS → refus Apify HTTP 401 : {
     "message": "User was not found or authentication token is not valid"
   }
 }
-1 infos fraîches et jamais traitées (sur 34 lues)
+2 infos fraîches et jamais traitées (sur 34 lues)
 GAMING · aucune info fraîche
-   9/10 ✓ « SDM devient le premier rappeur français à dévoiler une collection avec »
-RAP FR · 1 infos retenues, meilleure : « SDM devient le premier rappeur français à dévoiler une collection avec le Paris  » (9/10)
+   9/10 ✓ « Laylow pourrait (enfin) faire son retour ! 👀 »
+   7/10 ✓ « SDM est venu soutenir une distribution alimentaire organisée par le PS »
+RAP FR · 2 infos retenues, meilleure : « Laylow pourrait (enfin) faire son retour ! 👀 » (9/10)
   photo · 1 image(s) : 1080x1375
-  visuels · commons_personne « SDM » → 0 image(s)
-  couverture · photo1 · zoom 2.0 · PAS PROPRE
-  slide 2 · photo1 : pas de zone parfaitement propre
-  slide 3 · photo1 : pas de zone parfaitement propre
-  slide 4 · photo1 : pas de zone parfaitement propre
-  carrousel prêt : « SDM devient le premier rappeur français avec le PSG » (5 slides)
-  voix · contrôle OK (98%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (14.9 s)
-  reel · 18.5 s · 7 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DfuUmhjIAgM/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfuUs53gh3O/
-Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 3 s
+  visuels · commons_personne « Laylow » → 0 image(s)
+  couverture · photo1 · zoom 1.8 · propre
+  carrousel prêt : « Laylow pourrait enfin faire son retour » (3 slides)
+  voix · ⚠️ refaite, texte différent (65%) : « Tu penses que l'aileau va bientôt revenir ? Un proche veut l'artiste appartager une story avec un extrait inédit. Ce qui relance les attentes autour de sa musiq »
+  voix · ⚠️ refaite, texte différent (66%) : « Tu penses que Lélo va bientôt revenir ? Un proche de l'artiste a partagé une story avec un extra inédit, ce qui relance les attentes autour de sa musique. Dis-m »
+  voix · contrôle OK (97%, essai 3, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (9.7 s)
+  reel · 13.3 s · 5 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DfumBjWicKP/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfumFCVCuIe/
+Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 30 s
