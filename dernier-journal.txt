@@ -2,7 +2,7 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (4 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 5 / 100
+Instagram · posts publiés par l'API sur 24 h : 4 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Rap · @rap.minute → 12 posts lus
