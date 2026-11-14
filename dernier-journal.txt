@@ -2,7 +2,7 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (4 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 6 / 100
+Instagram · posts publiés par l'API sur 24 h : 5 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Rap · @rap.minute → 12 posts lus
@@ -19,20 +19,26 @@ X · @FrenchRapUS → refus Apify HTTP 401 : {
     "message": "User was not found or authentication token is not valid"
   }
 }
-10 infos fraîches et jamais traitées (sur 34 lues)
-   3/10 ✗ pas une news « Avant la sortie de GTA VI, retour sur GTA IV et la concrétisation d’un »
-   4/10 ✗ pas une news « EA Sports FC 27 dévoile les Hall Of Fut Unleashed »
-   8/10 ✓ « God of War Sons of Sparta confirme officiellement sa sortie sur PS4 le »
-   6/10 ✓ « Le QSSR de la PS5 s’invite aussi dans Marvel’s Spider-Man 2, Control R »
-   7/10 ✓ « Attack on Titan 3 vous invitera à prendre le thé avec vos personnages  »
-   7/10 ✓ « Le programme de rétrocompatibilité de Xbox s’étend à 21 jeux supplémen »
-GAMING · 4 infos retenues, meilleure : « God of War Sons of Sparta confirme officiellement sa sortie sur PS4 le 16 novemb » (8/10)
-  photo · 4 image(s) : 1920x1080, 3840x2160, 3840x2160, 1440x2160
-  rédaction impossible pour « God of War Sons of Sparta confirme officiellement sa sortie  » : Gemini n'a pas répondu correctement : gemini-flash-latest : surchargé (HTTP 503)
-  photo · échec : image trop petite (50x50)
-  photo · 2 image(s) : 3840x2160, 600x900
-  rédaction impossible pour « Attack on Titan 3 vous invitera à prendre le thé avec vos pe » : Gemini n'a pas répondu correctement : None
-  photo · 1 image(s) : 1600x900
-  rédaction impossible pour « Le programme de rétrocompatibilité de Xbox s’étend à 21 jeux » : Gemini n'a pas répondu correctement : None
-RAP FR · tri IA impossible : Gemini n'a pas répondu correctement : None
-Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503)
+5 infos fraîches et jamais traitées (sur 34 lues)
+   5/10 ✗ trop faible (mini 6) « Le QSSR de la PS5 s’invite aussi dans Marvel’s Spider-Man 2, Control R »
+GAMING · 0 infos retenues
+   3/10 ✗ pas une news « Le KO de Bilel Jkitou VS Gabriel Corzo 🇫🇷🇦🇷 »
+   7/10 ✓ « Guizmo réalise une très grosse année 🎤 »
+   6/10 ✓ « "PBB" de Freeze Corleone sortait il y a 8 ans 🎂 »
+   8/10 ✓ « Les actualités de la semaine 🗞️ »
+RAP FR · 3 infos retenues, meilleure : « Les actualités de la semaine 🗞️ » (8/10)
+  photo · 1 image(s) : 1080x1375
+  rédaction impossible pour « Les actualités de la semaine 🗞️ » : source trop pauvre selon l'IA
+  photo · 1 image(s) : 1080x1375
+  visuels · commons_personne « Guizmo » → 0 image(s)
+  visuels · commons_personne « Da Uzi » → 0 image(s)
+  couverture · photo1 · zoom 1.6 · PAS PROPRE
+  slide 2 · photo1 : pas de zone parfaitement propre
+  slide 3 · photo1 : pas de zone parfaitement propre
+  carrousel prêt : « Guizmo annonce la réédition de La Tanière » (4 slides)
+  voix · contrôle OK (97%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (13.1 s)
+  reel · 16.7 s · 7 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DftyZZam_Hs/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DftycgBFUHv/
+Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 3 s

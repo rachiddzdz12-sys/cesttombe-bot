@@ -145,7 +145,11 @@
   "ag:https://www.actugaming.net/?p=833472": "2026-11-14T08:01:48.651750+00:00",
   "ag:https://www.actugaming.net/?p=833453": "2026-11-14T08:01:48.651750+00:00",
   "ag:https://www.actugaming.net/?p=833428": "2026-11-14T08:01:48.651750+00:00",
-  "ag:https://www.actugaming.net/?p=833416": "2026-11-14T08:01:48.651750+00:00"
+  "ag:https://www.actugaming.net/?p=833416": "2026-11-14T08:01:48.651750+00:00",
+  "ag:https://www.actugaming.net/?p=833438": "2026-11-14T08:32:20.325795+00:00",
+  "ig:18112104989525190": "2026-11-14T08:32:20.325795+00:00",
+  "ig:18645744784051773": "2026-11-14T08:32:20.325795+00:00",
+  "ig:18142322272618792": "2026-11-14T08:32:20.325795+00:00"
  },
  "publies": [
   {
@@ -481,6 +485,14 @@
    "source_id": "ig:17880527655565700",
    "lien": "https://www.instagram.com/p/DfsgEE7l95Z/",
    "reel": "https://www.instagram.com/reel/DfsgIGYiKAp/"
+  },
+  {
+   "ts": "2026-11-14T08:32:20.325795+00:00",
+   "categorie": "RAP FR",
+   "titre": "Guizmo annonce la réédition de La Tanière",
+   "source_id": "ig:18142322272618792",
+   "lien": "https://www.instagram.com/p/DftyZZam_Hs/",
+   "reel": "https://www.instagram.com/reel/DftycgBFUHv/"
   }
  ],
  "x_mois": {
