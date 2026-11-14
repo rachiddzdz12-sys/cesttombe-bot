@@ -19,18 +19,6 @@ X · @FrenchRapUS → refus Apify HTTP 401 : {
     "message": "User was not found or authentication token is not valid"
   }
 }
-1 infos fraîches et jamais traitées (sur 34 lues)
+0 infos fraîches et jamais traitées (sur 34 lues)
 GAMING · aucune info fraîche
-   6/10 ✓ « SDM est venu soutenir une distribution alimentaire organisée par le PS »
-RAP FR · 1 infos retenues, meilleure : « SDM est venu soutenir une distribution alimentaire organisée par le PSG, pour de » (6/10)
-  photo · 1 image(s) : 1320x2347
-  visuels · commons_personne « SDM » → 0 image(s)
-  vidéo · téléchargée (21 s, 7 Mo)
-  vidéo · 21 images analysées, texte incrusté sur 12
-  couverture · video@10s · zoom 1.0 · propre
-  carrousel prêt : « SDM soutient une distribution alimentaire du PSG » (3 slides)
-  voix · contrôle OK (100%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (13.1 s)
-  reel · 16.7 s · 7 plans dont 3 extraits vidéo · voix + musique
-  ⏭️ déjà publié sur le compte (https://www.instagram.com/p/DfuUmhjIAgM/) : on passe
-Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 2 s
+RAP FR · aucune info fraîche
