@@ -5,6 +5,7 @@ Pillow>=10.0
 faster-whisper>=1.0     # réécoute chaque voix off (contrôle des voix bizarres)
 num2words>=0.5
 ftfy>=6.1          # répare les textes mal décodés (accents, emojis)
+googlenewsdecoder>=0.1.7   # lien Google Actualités → article d'origine
 edge-tts>=7.0
 piper-tts>=1.2
 # repérage des textes incrustés et des visages (placement du texte sur les images)

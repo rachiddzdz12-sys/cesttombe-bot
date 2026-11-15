@@ -62,6 +62,35 @@ check("https://img.example/inline.jpg" in it["images"], "flux : images du texte 
 check(it["credit"] == "Square Enix", "flux : crédit photo récupéré")
 check(2.5 < sources.age_heures(it, now) < 3.5, "flux : âge de l'info calculé")
 
+GNEWS = f"""<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>GTA 6 - Google Actualités</title>
+<item><title>GTA 6 : Rockstar dévoile l'heure de sortie exacte - Gamekult</title>
+<link>https://news.google.com/rss/articles/CBMiXYZ?oc=5</link><guid>CBMiXYZ</guid>
+<pubDate>{rfc(now - timedelta(hours=1))}</pubDate><description>&lt;a href="x"&gt;GTA 6&lt;/a&gt;</description>
+<source url="https://www.gamekult.com">Gamekult</source></item>
+<item><title>Le nouveau Zelda bat un record - Jeuxvideo.com</title><link>https://news.google.com/rss/articles/CBMiABC</link>
+<guid>CBMiABC</guid><pubDate>{rfc(now - timedelta(hours=2))}</pubDate><source url="https://www.jeuxvideo.com">Jeuxvideo.com</source></item>
+</channel></rss>"""
+g = sources.entrees_web(GNEWS.encode(), {"nom": "GOOGLE ACTU", "url": "x", "google": True})
+check(len(g) == 2 and g[0]["titre"] == "GTA 6 : Rockstar dévoile l'heure de sortie exacte",
+      "Google Actualités : « - Média » retiré du titre")
+check(g[0]["source_legende"] == "Gamekult" and g[0]["google"] and g[0]["a_lire"],
+      "Google Actualités : le vrai média est affiché, article lu seulement s'il est choisi")
+BING = f"""<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:News="https://www.bing.com:443/news/search?q=x&amp;format=rss"><channel><title>Bing</title>
+<item><title>GTA 6 : les congés posés pour la sortie explosent</title>
+<link>http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=1&amp;url=https%3a%2f%2fwww.presse-citron.net%2fgta-6-conges%2f&amp;c=1</link>
+<description>Les demandes de congés bondissent de 35 %.</description><pubDate>{rfc(now - timedelta(hours=2))}</pubDate>
+<News:Source>Presse-citron.net</News:Source></item></channel></rss>"""
+b = sources.entrees_web(BING.encode(), {"nom": "BING ACTU", "url": "x", "bing": True})
+check(b and b[0]["lien"] == "https://www.presse-citron.net/gta-6-conges/" and b[0]["source_legende"] == "Presse-citron.net",
+      "Bing Actualités : lien direct vers l'article et vrai média")
+filtre = sources.entrees_web(GNEWS.encode(), {"nom": "JV", "url": "x", "filtre": True})
+check(len(filtre) == 1 and sources.est_gta(filtre[0]), "source filtrée : seules les infos GTA sont gardées")
+check(sources.est_gta({"titre": "Grand Theft Auto VI : la carte de Leonida"}) and
+      not sources.est_gta({"titre": "Gratuit cette semaine sur l'Epic Games Store"}), "filtre GTA : reconnaît GTA 6 / Leonida")
+check(sources.texte_article("<html><article><p>" + "GTA 6 sort le 19 novembre sur PS5 et Xbox Series. " * 3
+                            + "</p><p>court</p></article></html>").startswith("GTA 6 sort"),
+      "article : texte principal extrait")
+
 # ------------------------------------------------------------------ 2. validation de la réponse IA
 rep = {"titre": "NieR Automata pèse soudain 366 Go sur Steam.", "mot_cle": "366 go",
        "sections": [{"titre": "Ce qui se passe", "texte": "Texte."}, {"titre": "Vide", "texte": "  "}],
@@ -206,6 +235,8 @@ paris = main.PARIS
 midi = datetime.now(paris).replace(hour=12, minute=0, second=0, microsecond=0)
 _rattrapage = config.RATTRAPAGE_JUSQUA
 config.RATTRAPAGE_JUSQUA = None              # règles normales pour ces vérifications
+_lancement = config.LANCEMENT_JUSQUA
+config.LANCEMENT_JUSQUA = None
 vide = {"vus": {}, "publies": []}
 check(main.raison_de_ne_pas_poster(vide, midi) is None, "verif : midi, aucun post → on poste")
 check("hors horaires" in main.raison_de_ne_pas_poster(vide, midi.replace(hour=4)), "verif : 4h du matin → non")
@@ -233,6 +264,10 @@ rap_item = {"id": "ig:42", "categorie": "RAP FR", "source": "@RAP.MINUTE", "sour
 sources.lire_gaming = lambda diag: [it]
 sources.lire_rap = lambda diag: [rap_item]
 sources.lire_x = lambda diag, etat=None: []
+sources.lire_web = lambda diag: []
+sources.lire_instagram = lambda diag, comptes=None: []
+sources.completer_article = lambda c, diag: c
+config.CATEGORIES, config.THEME, config.LANCEMENT_JUSQUA = ["GAMING", "RAP FR"], "", None
 images.trouver_images = lambda c, diag, n=4: ([photo], c.get("credit", ""))
 appels_ia = []
 
@@ -274,6 +309,34 @@ etat = json.loads(tmp_etat.read_text())
 check(len(etat["publies"]) == 2 and etat["publies"][1]["categorie"] != premier, "simulation auto : alterne gaming / rap")
 main.executer()
 check(len(json.loads(tmp_etat.read_text())["publies"]) == 2, "simulation auto : une info déjà publiée n'est jamais republiée")
+
+# page GTA : GTA en priorité, hors GTA seulement si énorme, rap coupé
+config.CATEGORIES, config.THEME = ["GAMING"], "GTA"
+tmp_etat.unlink()
+publications.clear()
+gta_item = dict(g[0], id="web:google actu:gta-heure", date=(now - timedelta(minutes=30)).isoformat(),
+                texte="Rockstar a confirmé l'heure de sortie de GTA 6 : minuit, heure locale, le 19 novembre. " * 5)
+titre_seul = dict(g[0], id="web:google actu:titre-seul", texte="", titre="GTA 6 : un titre sans article")
+sources.lire_web = lambda diag: [gta_item, titre_seul]
+os.environ["MODE"] = "auto"
+check(main.executer() == 0, "page GTA : se termine sans erreur")
+etat = json.loads(tmp_etat.read_text())
+check(len(etat["publies"]) == 1 and "gta" in etat["publies"][0]["source_id"], "page GTA : l'info GTA passe en premier")
+main.executer()
+etat = json.loads(tmp_etat.read_text())
+check(len(etat["publies"]) == 1, "page GTA : info gaming hors GTA notée 8 refusée (mini 9), rap coupé")
+check(all("#gta6" in l for _, l in publications), "page GTA : hashtags GTA dans la légende")
+check(json.loads(tmp_etat.read_text())["vus"].get("web:google actu:titre-seul"),
+      "page GTA : une info sans article lisible est écartée (jamais de post écrit sur un titre)")
+
+# mode lancement : plus de posts, plus tôt et plus tard
+config.LANCEMENT_JUSQUA = (datetime.now(main.PARIS) + timedelta(days=3)).strftime("%Y-%m-%dT%H:%M")
+r = main.reglages(datetime.now(main.PARIS))
+check(r["posts_par_jour"] == 16 and r["ecart_min"] == 40 and r["heure_debut"] == 7 and r["heure_fin"] == 24,
+      "lancement GTA 6 : 16 posts/jour, 40 min d'écart, de 7h à minuit")
+config.LANCEMENT_JUSQUA = (datetime.now(main.PARIS) - timedelta(days=1)).strftime("%Y-%m-%dT%H:%M")
+check(main.reglages(datetime.now(main.PARIS))["posts_par_jour"] == config.POSTS_PAR_JOUR,
+      "lancement GTA 6 : fini après la date, retour au rythme normal")
 
 print(f"\n{len(OK)} vérifications OK :")
 print("\n".join(f"  ✓ {m}" for m in OK))

@@ -57,11 +57,39 @@ def rattrapage(maintenant_paris):
     return config.RATTRAPAGE if maintenant_paris < limite else None
 
 
+def lancement(maintenant_paris):
+    """Réglages du mode « sortie de GTA 6 » s'ils sont encore valables, sinon None."""
+    fin = getattr(config, "LANCEMENT_JUSQUA", None)
+    if not fin:
+        return None
+    try:
+        limite = datetime.fromisoformat(fin).replace(tzinfo=PARIS)
+    except ValueError:
+        return None
+    return config.LANCEMENT if maintenant_paris < limite else None
+
+
+def reglages(maintenant_paris):
+    """Rythme du moment : normal, rattrapage (après une coupure) ou lancement (sortie de GTA 6)."""
+    r = {"posts_par_jour": config.POSTS_PAR_JOUR, "ecart_min": config.ECART_MIN_MINUTES,
+         "heure_debut": config.HEURE_DEBUT, "heure_fin": config.HEURE_FIN, "score_min": config.SCORE_MIN,
+         "facteur_age": 1}
+    for special in (lancement(maintenant_paris), rattrapage(maintenant_paris)):
+        if special:
+            r["posts_par_jour"] = max(r["posts_par_jour"], special.get("posts_par_jour", 0))
+            r["ecart_min"] = min(r["ecart_min"], special.get("ecart_min", 10 ** 6))
+            r["heure_debut"] = min(r["heure_debut"], special.get("heure_debut", 24))
+            r["heure_fin"] = max(r["heure_fin"], special.get("heure_fin", 0))
+            r["score_min"] = min(r["score_min"], special.get("score_min", 10))
+            r["facteur_age"] = max(r["facteur_age"], special.get("facteur_age", 1))
+    return r
+
+
 def raison_de_ne_pas_poster(etat, maintenant_paris):
-    r = rattrapage(maintenant_paris) or {}
-    quota = r.get("posts_par_jour", config.POSTS_PAR_JOUR)
-    ecart_min = r.get("ecart_min", config.ECART_MIN_MINUTES)
-    if not (config.HEURE_DEBUT <= maintenant_paris.hour < config.HEURE_FIN):
+    r = reglages(maintenant_paris)
+    quota = r["posts_par_jour"]
+    ecart_min = r["ecart_min"]
+    if not (r["heure_debut"] <= maintenant_paris.hour < r["heure_fin"]):
         return f"hors horaires ({maintenant_paris:%H:%M} à Paris)"
     du_jour = posts_du_jour(etat, maintenant_paris)
     if len(du_jour) >= quota:
@@ -155,10 +183,12 @@ def executer():
         if not test and rattrapage(now_paris):
             config.X_FACTEUR_RECUL = config.RATTRAPAGE["facteur_age"]
         cat_forcee = os.environ.get("CATEGORIE", "").strip().lower() in ("gaming", "rap")
-        cands = sources.lire_gaming(diag) + sources.lire_rap(diag) + sources.lire_x(diag, etat)
+        cands = (sources.lire_gaming(diag) + sources.lire_web(diag) + sources.lire_instagram(diag)
+                 + sources.lire_rap(diag) + sources.lire_x(diag, etat))
+        cands = [c for c in cands if c["categorie"] in config.CATEGORIES]
         filtre_source = os.environ.get("SOURCE", "").strip().lower()
         if filtre_source in ("x", "instagram", "web"):   # lancement manuel limité à un type de source
-            prefixe_id = {"x": "x:", "instagram": "ig:", "web": "ag:"}[filtre_source]
+            prefixe_id = {"x": ("x:",), "instagram": ("ig:",), "web": ("ag:", "web:")}[filtre_source]
             cands = [c for c in cands if c["id"].startswith(prefixe_id)]
             diag.append(f"Source limitée à : {filtre_source}")
         # en test, ou en lancement manuel ciblé, on accepte des infos plus anciennes (jusqu'à 3x)
@@ -169,20 +199,32 @@ def executer():
             config.SCORE_MIN = min(config.SCORE_MIN, r["score_min"])
             diag.append(f"Rattrapage jusqu'au {config.RATTRAPAGE_JUSQUA} : infos jusqu'à {facteur_age}× plus "
                         f"anciennes, note mini {config.SCORE_MIN}")
+        lc = lancement(now_paris)
+        if lc:  # sortie de GTA 6 : plus de posts, note mini plus basse pour tout couvrir
+            config.SCORE_MIN = min(config.SCORE_MIN, lc["score_min"])
+            diag.append(f"Lancement GTA 6 jusqu'au {config.LANCEMENT_JUSQUA} : {lc['posts_par_jour']} posts/jour "
+                        f"maxi, note mini {config.SCORE_MIN}")
+        page_gta = getattr(config, "THEME", "") == "GTA"
         frais = [c for c in cands if c["id"] not in etat["vus"]
                  and sources.age_heures(c, now_utc) <= config.AGE_MAX_HEURES[c["categorie"]] * facteur_age]
         diag.append(f"{len(frais)} infos fraîches et jamais traitées (sur {len(cands)} lues)")
 
         du_jour = posts_du_jour(etat, now_paris)
-        ordre = sorted(["GAMING", "RAP FR"], key=lambda cat: sum(p["categorie"] == cat for p in du_jour))
+        ordre = sorted(config.CATEGORIES, key=lambda cat: sum(p["categorie"] == cat for p in du_jour))
         forcee = {"gaming": "GAMING", "rap": "RAP FR"}.get(os.environ.get("CATEGORIE", "").strip().lower())
         if forcee:   # lancement manuel ciblé sur une catégorie
-            ordre = [forcee] + [c for c in ordre if c != forcee]
+            ordre = [forcee] + [c for c in ordre if c != forcee and c in config.CATEGORIES]
         titres_publies = [p["titre"] for p in etat["publies"]]
         vu = lambda c: etat["vus"].__setitem__(c["id"], now_utc.isoformat())
 
         for cat in ordre:
-            pool = [c for c in frais if c["categorie"] == cat][:15]
+            recentes = sorted([c for c in frais if c["categorie"] == cat],
+                              key=lambda c: sources.age_heures(c, now_utc))
+            if page_gta and cat == "GAMING":   # GTA d'abord ; quelques grosses infos gaming à côté
+                gta = [c for c in recentes if sources.est_gta(c)]
+                pool = gta[: config.POOL_TRI - 5] + [c for c in recentes if not sources.est_gta(c)][:5]
+            else:
+                pool = recentes[: config.POOL_TRI]
             if not pool:
                 diag.append(f"{cat} · aucune info fraîche")
                 continue
@@ -199,28 +241,44 @@ def executer():
                     diag.append(f"  ?    « {c['titre'][:70]} » : pas notée par l'IA")
                     continue
                 score = int(n.get("score", 0) or 0)
+                mini = config.SCORE_MIN
+                if page_gta and cat == "GAMING" and not sources.est_gta(c):
+                    mini = max(mini, config.SCORE_MIN_HORS_GTA)    # hors GTA : seulement l'énorme
                 if not n.get("info"):
                     verdict = "✗ pas une news"
                 elif n.get("doublon"):
                     verdict = "✗ déjà publiée"
-                elif score < config.SCORE_MIN:
-                    verdict = f"✗ trop faible (mini {config.SCORE_MIN})"
+                elif score < mini:
+                    verdict = f"✗ trop faible (mini {mini})"
                     infos_faibles.append((score, c))
                 else:
                     verdict = "✓"
                     retenues.append((score, c))
                 diag.append(f"  {score:>2}/10 {verdict} « {c['titre'][:70]} »")
-                if verdict != "✓" and not test:
+                if verdict not in ("✓", "✗ déjà publiée") and not test:
                     vu(c)   # écartée pour de bon, on ne la reproposera pas
+                # « déjà publiée » reste en réserve : si la meilleure version d'un événement échoue
+                # (article illisible…), une autre version du même événement peut encore passer
             if test and not retenues and infos_faibles:
                 retenues = [max(infos_faibles, key=lambda x: x[0])]   # en test, on montre quand même un rendu
                 diag.append("  (test : aucune info au-dessus du seuil, on rend quand même la meilleure)")
-            retenues.sort(key=lambda x: -x[0])
+            # GTA en priorité à note proche ; les annonces officielles de Rockstar passent devant
+            retenues.sort(key=lambda x: -(x[0] + (1 if page_gta and sources.est_gta(x[1]) else 0)
+                                          + (1 if "ROCKSTAR" in x[1]["source"].upper() else 0)))
             diag.append(f"{cat} · {len(retenues)} infos retenues"
                         + (f", meilleure : « {retenues[0][1]['titre'][:80]} » ({retenues[0][0]}/10)" if retenues else ""))
 
             fait = False
-            for score, c in retenues[:3]:
+            n_test = int(os.environ.get("TEST_N") or 1) if test else 1   # en test : rendre plusieurs infos
+            rendus = 0
+            for score, c in retenues[: max(3, n_test)]:
+                c = sources.completer_article(c, diag)      # article d'origine : texte complet, vrai lien
+                if c.get("a_lire") and len(c.get("texte", "")) < 250:
+                    # jamais un post écrit à partir d'un simple titre : trop maigre, risque d'inventer
+                    diag.append(f"  ⏭️ article illisible, info écartée : « {c['titre'][:60]} »")
+                    if not test:
+                        vu(c)
+                    continue
                 photos, credit = images.trouver_images(c, diag)
                 jpeg = images.en_jpeg(photos[0]) if (photos and cat == "RAP FR") else None
                 try:
@@ -237,6 +295,8 @@ def executer():
                 post = {"categorie": cat, "source": c["source"], "credit": credit,
                         "source_affichee": c.get("source_legende", c["source"]), **red}
                 prefixe = f"{now_paris:%Y%m%d-%H%M}-{'jv' if cat == 'GAMING' else 'rap'}"
+                if test and n_test > 1:
+                    prefixe += f"-{rendus + 1}"        # plusieurs rendus d'essai : un nom chacun
                 medias = preparer_medias(c, photos, prefixe, diag, n_source)
                 fichiers = da3.carrousel(post, medias, SORTIE, prefixe, diag)
                 (SORTIE / f"{prefixe}-legende.txt").write_text(red["legende"], encoding="utf-8")
@@ -252,8 +312,11 @@ def executer():
                 if test:   # on vérifie aussi l'hébergement, sans publier
                     if os.environ.get("HEBERGEMENT", "").lower() == "non":
                         diag.append("  (hébergement non testé)")
+                        rendus += 1
                         fait = True
-                        break
+                        if rendus >= n_test:
+                            break
+                        continue
                     try:
                         urls = hebergement.heberger(en_ligne)
                         diag.append(f"  fichiers en ligne ({len(urls)}) : {urls[0]}")
@@ -348,7 +411,8 @@ def photos_brutes():
     from bot import hebergement, images, sources
     diag = Journal(["Mode : photos"])
     etat = charger_etat()
-    cands = sources.lire_gaming(diag) + sources.lire_rap(diag) + sources.lire_x(diag, etat)
+    cands = (sources.lire_gaming(diag) + sources.lire_web(diag) + sources.lire_instagram(diag)
+             + sources.lire_rap(diag) + sources.lire_x(diag, etat))
     fichiers = []
     for n, c in enumerate([c for c in cands if c.get("images")][:12]):
         for k, url in enumerate(c["images"][:4]):

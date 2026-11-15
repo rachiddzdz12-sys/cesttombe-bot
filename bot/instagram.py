@@ -102,7 +102,9 @@ def _retrouver(ig, legende, produit, n=6):
 
 
 GENERIQUES = {"#rapfr", "#rapfrancais", "#actusrap", "#hiphopfrancais", "#cesttombe", "#jeuxvideo", "#gaming",
-              "#actujv", "#gamer", "#actualite", "#actu", "#news", "#rap", "#hiphop"}
+              "#actujv", "#gamer", "#actualite", "#actu", "#news", "#rap", "#hiphop", "#gta6", "#gtavi", "#gta",
+              "#gta5", "#gtav", "#grandtheftauto", "#grandtheftautovi", "#grandtheftauto6", "#rockstargames",
+              "#rockstar", "#gtaonline", "#gta6news", "#taketwo"}
 
 
 def _tags(texte):

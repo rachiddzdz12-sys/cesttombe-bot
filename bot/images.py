@@ -19,13 +19,15 @@ def _telecharger(url):
     return img.convert("RGB")
 
 
-def _images_de_la_page(lien):
+def _images_de_la_page(lien, principale_seulement=False):
     p = BeautifulSoup(http_get(lien).text, "html.parser")
     urls = []
     for prop in ("og:image", "twitter:image"):
         m = p.find("meta", property=prop) or p.find("meta", attrs={"name": prop})
         if m and m.get("content"):
             urls.append(m["content"])
+    if principale_seulement:      # les autres images d'une page (« à lire aussi »…) parlent souvent d'autre chose
+        return urls
     corps = p.find("article") or p
     for img in corps.find_all("img"):
         src = img.get("data-src") or img.get("src")
@@ -71,7 +73,7 @@ def trouver_images(cand, diag, n=4):
     urls = list(cand.get("images", []))
     if cand.get("lien") and cand["categorie"] == "GAMING":
         try:
-            urls += _images_de_la_page(cand["lien"])
+            urls += _images_de_la_page(cand["lien"], principale_seulement=bool(cand.get("a_lire")))
         except Exception as ex:
             diag.append(f"  photo · page de l'article illisible : {str(ex)[:100]}")
     vues, empreintes, trouvees = set(), [], []

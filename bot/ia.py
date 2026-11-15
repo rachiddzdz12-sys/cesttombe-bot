@@ -91,6 +91,7 @@ Voici des infos candidates. Pour chacune, décide :
 - "score" : de 0 à 10, à quel point ça va faire réagir notre public (10 = tout le monde va en parler).
 - "doublon" : true UNIQUEMENT si c'est exactement le même événement qu'un des sujets déjà publiés listés plus bas (même fait, même annonce). Un sujet voisin ou une suite (ex : une réaction, un procès, une nouvelle étape) n'est PAS un doublon.
 
+{consignes}
 Sujets déjà publiés récemment :
 {deja}
 
@@ -100,16 +101,45 @@ Infos candidates :
 Réponds UNIQUEMENT en JSON : {{"resultats": [{{"id": "...", "info": true, "score": 7, "doublon": false}}]}}"""
 
 
+def page_gta(cand):
+    return getattr(config, "THEME", "") == "GTA" and cand.get("categorie") == "GAMING"
+
+
+def est_gta(cand):
+    return bool(re.search(config.FILTRE_GTA, f"{cand.get('titre', '')} {cand.get('resume', '')}", re.I))
+
+
+def theme_de(cand):
+    if page_gta(cand):
+        return "GTA (GTA 6 / GTA VI, GTA Online, Rockstar Games) et grosses infos jeux vidéo"
+    return "jeux vidéo" if cand["categorie"] == "GAMING" else "rap français"
+
+
+CONSIGNES_TRI_GTA = """PAGE GTA : la semaine de la sortie de GTA 6 (19 novembre 2026), on veut couvrir TOUTE l'actu GTA, sans exception.
+- Tout ce qui concerne GTA 6 / GTA VI, GTA Online ou Rockstar compte comme une vraie info : annonces officielles (score 9 ou 10), trailers, heure de sortie, préchargement, taille du jeu, prix et éditions, ventes et records, notes des tests (Metacritic, OpenCritic…), problèmes au lancement (serveurs, bugs, codes), mises à jour, contenu du jeu (carte, personnages, radios, musique), GTA Online, coulisses et interviews, fuites et rumeurs sérieuses (score 5 à 7). Un « test » ou une note de GTA 6 EST une info.
+- Pas une info : soluce de mission, guide pas à pas, bon plan, promo de boutique, vidéo sans info.
+- Les infos jeux vidéo qui ne parlent pas de GTA : note-les sévèrement, 9 ou 10 seulement si c'est énorme (annonce majeure, nouvelle console, record historique).
+- Le même événement raconté par plusieurs médias = une seule info : donne la meilleure note à la version la plus complète et marque les autres "doublon" si l'événement est déjà dans les sujets publiés.
+"""
+
+CONSIGNES_REDAC_GTA = """
+PAGE GTA : la source peut être en anglais, écris toujours en français. Si l'info est une rumeur ou une fuite, dis-le clairement (rubrique « Rumeur » ou « Leak », et « selon … » dans le texte) : ne présente jamais une rumeur comme officielle. Si c'est officiel (Rockstar, Take-Two), dis-le (rubrique « Officiel »). Pour "visuels", mets GTA 6 comme {{"type": "jeu", "nom": "Grand Theft Auto VI"}}.
+"""
+
+
 def trier(candidats, titres_publies):
     """Renvoie {id réel du candidat: {"info", "score", "doublon"}}.
 
     Gemini reçoit des numéros courts (1, 2, 3…) plutôt que les vrais identifiants (longues URL),
     qu'il recopie parfois de travers.
     """
-    theme = "jeux vidéo" if candidats[0]["categorie"] == "GAMING" else "rap français"
-    liste = "\n".join(f'- id={i} | {c["titre"]} | {c["resume"][:280]}' for i, c in enumerate(candidats, start=1))
-    deja = "\n".join(f"- {t}" for t in titres_publies[-20:]) or "(aucun)"
-    rep = appel([{"text": PROMPT_TRI.format(theme=theme, deja=deja, liste=liste)}])
+    theme, consignes = theme_de(candidats[0]), ""
+    if page_gta(candidats[0]):
+        consignes = CONSIGNES_TRI_GTA
+    liste = "\n".join(f'- id={i} | {c.get("source_legende", c["source"])} | {c["titre"]} | {c["resume"][:280]}'
+                      for i, c in enumerate(candidats, start=1))
+    deja = "\n".join(f"- {t}" for t in titres_publies[-40:]) or "(aucun)"
+    rep = appel([{"text": PROMPT_TRI.format(theme=theme, deja=deja, liste=liste, consignes=consignes)}])
     if isinstance(rep, dict):
         rep = rep.get("resultats") or next((v for v in rep.values() if isinstance(v, list)), [])
     notes = {}
@@ -158,10 +188,12 @@ Réponds UNIQUEMENT en JSON : {{"titre": "", "titre_haut": "", "titre_bas": "", 
 
 
 def rediger(cand, image_jpeg=None):
-    theme = "jeux vidéo" if cand["categorie"] == "GAMING" else "rap français"
+    theme = theme_de(cand)
     parts = [{"text": PROMPT_REDAC.format(
         theme=theme, source=cand["source"], titre=cand["titre"], texte=cand["texte"][:5000],
         image=" et dans l'image jointe (lis le texte écrit dessus)" if image_jpeg else "")}]
+    if page_gta(cand):
+        parts[0]["text"] += CONSIGNES_REDAC_GTA.replace("{{", "{").replace("}}", "}")
     if image_jpeg:
         parts.append({"inline_data": {"mime_type": "image/jpeg",
                                       "data": base64.b64encode(image_jpeg).decode()}})
@@ -310,7 +342,10 @@ def valider(rep, cand):
         i = titre.lower().index(mot_cle.lower())
         mot_cle = titre[i:i + len(mot_cle)]
     tags = [("#" + t.lstrip("#")).lower().replace(" ", "") for t in rep.get("hashtags", [])[:3]]
-    tags += config.HASHTAGS[cand["categorie"]]
+    cle_tags = cand["categorie"]
+    if page_gta(cand) and not est_gta(cand) and "GAMING_HORS_GTA" in config.HASHTAGS:
+        cle_tags = "GAMING_HORS_GTA"          # grosse info gaming hors GTA : hashtags gaming classiques
+    tags += config.HASHTAGS[cle_tags]
     tags = list(dict.fromkeys(tags))
     legende = (f"{(rep.get('accroche') or titre).strip()}\n\n"
                f"Glisse pour tout savoir 👉\n\n"
@@ -328,11 +363,16 @@ def valider(rep, cand):
     if not haut or not bas:
         haut, bas = couper_titre(titre)
     defaut_rubrique = {"GAMING": "Gaming", "RAP FR": "Rap FR"}.get(cand["categorie"], "Actu")
+    rubrique = _court(rep.get("rubrique"), 18)
+    if page_gta(cand) and est_gta(cand):
+        defaut_rubrique = "GTA VI"
+        if (rubrique or "").lower() in ("gaming", "jeux vidéo", "jeu vidéo", "jeux video", "actu", "gta", "gta 6"):
+            rubrique = "GTA VI"
     mots_cles = [_court(m, 16) for m in (rep.get("mots_cles") or []) if _court(m, 16)][:4]
     chiffre = _court(rep.get("chiffre"), 9)
     return {"titre": titre, "mot_cle": mot_cle, "voix_off": voix_off[:700], "visuels": visuels,
             "sections": sections[:4], "slides": slides[:4], "legende": legende[:2200],
-            "titre_haut": haut, "titre_bas": bas, "rubrique": _court(rep.get("rubrique"), 18) or defaut_rubrique,
+            "titre_haut": haut, "titre_bas": bas, "rubrique": rubrique or defaut_rubrique,
             "mots_cles": mots_cles, "accroche_couv": _court(rep.get("accroche_couv"), 30),
             "chiffre": chiffre, "chiffre_texte": _court(rep.get("chiffre_texte"), 110),
             "question_haut": q1, "question_bas": q2,

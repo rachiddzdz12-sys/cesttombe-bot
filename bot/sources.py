@@ -1,9 +1,10 @@
-"""Lecture des sources : ActuGaming (flux RSS) et comptes Instagram rap (API officielle)."""
+"""Lecture des sources : flux RSS (ActuGaming, sites GTA, Google Actualités), comptes Instagram
+(API officielle) et comptes X (Apify)."""
 import calendar
 import json
 import os
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
 import feedparser
@@ -165,7 +166,173 @@ def lire_gaming(diag):
         return []
 
 
+def est_gta(cand):
+    return bool(re.search(config.FILTRE_GTA, f"{cand.get('titre', '')} {cand.get('resume', '')}", re.I))
+
+
+def _nom_court(url):
+    m = re.search(r"https?://(?:www\.)?([^/]+)", url or "")
+    return m.group(1) if m else url
+
+
+def entrees_web(contenu, src):
+    """Flux d'une source de SOURCES_WEB → candidats. Testable sans réseau."""
+    flux = feedparser.parse(contenu)
+    res = []
+    for e in flux.entries:
+        titre = texte_propre(e.get("title", ""))
+        if not titre:
+            continue
+        nom, nom_legende = src["nom"], src.get("nom_legende", src["nom"].title())
+        lien = e.get("link", "")
+        if src.get("bing"):
+            from urllib.parse import parse_qs, urlparse
+            lien = parse_qs(urlparse(lien).query).get("url", [lien])[0]
+            if e.get("news_source"):
+                nom, nom_legende = e["news_source"].upper()[:24], e["news_source"]
+        if src.get("google"):
+            # « Titre - Média » : le vrai média est dans <source>, on l'affiche à la place de Google
+            media = (e.get("source") or {}).get("title") or ""
+            if media and titre.endswith(" - " + media):
+                titre = titre[: -len(media) - 3].strip()
+            if media:
+                nom, nom_legende = media.upper()[:24], media
+        date = None
+        if e.get("published_parsed"):
+            date = datetime.fromtimestamp(calendar.timegm(e.published_parsed), tz=timezone.utc)
+        contenu_html = (e.get("content") or [{}])[0].get("value", "") if e.get("content") else ""
+        resume = "" if src.get("google") else texte_propre(e.get("summary", ""))[:600]
+        cand = {
+            "id": f"web:{src['nom'].lower()}:" + (e.get("id") or e.get("link") or titre),
+            "categorie": "GAMING", "source": nom, "source_legende": nom_legende,
+            "titre": titre, "resume": resume or titre,
+            "texte": "" if src.get("google") else texte_propre(contenu_html or e.get("summary", ""))[:6000],
+            "lien": lien, "date": date.isoformat() if date else None,
+            "images": [] if src.get("google") else _images(e), "credit": "" if src.get("google") else _credit(e),
+            "a_lire": True,            # article complet lu seulement s'il est choisi (texte, photos)
+            "google": bool(src.get("google")),
+        }
+        if src.get("filtre") and not est_gta(cand):
+            continue
+        res.append(cand)
+    return res
+
+
+def lire_web(diag):
+    res = []
+    for src in getattr(config, "SOURCES_WEB", []):
+        try:
+            r = http_get(src["url"])
+            if r.status_code != 200:
+                diag.append(f"Web · {src['nom']} → HTTP {r.status_code}")
+                continue
+            items = entrees_web(r.content, src)
+            diag.append(f"Web · {src['nom']} → {len(items)} infos")
+            res += items
+        except Exception as ex:
+            diag.append(f"Web · {src['nom']} → erreur : {str(ex)[:120]}")
+    return res
+
+
+def _lien_google(url):
+    """Lien Google Actualités → lien de l'article d'origine (None si impossible)."""
+    try:
+        from googlenewsdecoder import gnewsdecoder
+        r = gnewsdecoder(url, interval=1)
+        if (r.get("status") or r.get("success")) and r.get("decoded_url"):
+            return r["decoded_url"]
+    except Exception:
+        pass
+    try:
+        r = http_get(url, allow_redirects=True)
+        if "news.google.com" not in r.url:
+            return r.url
+    except Exception:
+        pass
+    return None
+
+
+def texte_article(html):
+    """Texte principal d'une page d'article (paragraphes de l'article)."""
+    p = BeautifulSoup(html, "html.parser")
+    for t in p(["script", "style", "nav", "header", "footer", "aside", "form", "figure"]):
+        t.decompose()
+    corps = p.find("article") or p.find("main") or p
+    paras = [texte_propre(x.get_text(" ")) for x in corps.find_all("p")]
+    return " ".join(x for x in paras if len(x) > 40)[:6000]
+
+
+def completer_article(cand, diag):
+    """Pour l'info choisie : lit l'article d'origine (texte complet, lien réel). Ne lève jamais d'exception."""
+    if not cand.get("a_lire"):
+        return cand
+    lien = cand.get("lien", "")
+    if cand.get("google"):
+        vrai = _lien_google(lien)
+        if not vrai:
+            diag.append("  article · lien Google Actualités non décodé : titre seul")
+            return cand
+        cand["lien"] = lien = vrai
+        diag.append(f"  article · {_nom_court(vrai)}")
+    if len(cand.get("texte", "")) >= 800:
+        return cand
+    try:
+        texte = texte_article(http_get(lien).text)
+        if len(texte) > len(cand.get("texte", "")):
+            cand["texte"] = texte
+        diag.append(f"  article · {len(cand['texte'])} caractères lus")
+    except Exception as ex:
+        diag.append(f"  article · illisible : {str(ex)[:100]}")
+    return cand
+
+
+def lire_instagram(diag, comptes=None):
+    """Comptes Instagram (API officielle Business Discovery). comptes = [{"compte", "categorie", "filtre"}]."""
+    token, ig = os.environ.get("IG_ACCESS_TOKEN"), os.environ.get("IG_USER_ID")
+    comptes = getattr(config, "COMPTES_IG", []) if comptes is None else comptes
+    if not comptes:
+        return []
+    if not token or not ig:
+        diag.append("Instagram · IG_ACCESS_TOKEN ou IG_USER_ID manquant : comptes ignorés")
+        return []
+    res = []
+    for cpt in comptes:
+        compte, cat = cpt["compte"], cpt.get("categorie", "GAMING")
+        champs = (f"business_discovery.username({compte})"
+                  "{username,media.limit(12){id,caption,media_type,media_url,thumbnail_url,timestamp,permalink}}")
+        try:
+            j = requests.get(f"{config.GRAPH}/{ig}", params={"fields": champs, "access_token": token},
+                             timeout=30).json()
+            if "error" in j:
+                diag.append(f"Instagram · @{compte} → refus de Meta : {j['error'].get('message')}")
+                continue
+            medias = j.get("business_discovery", {}).get("media", {}).get("data", [])
+            gardes = 0
+            for m in medias:
+                legende = reparer((m.get("caption") or "").strip())
+                img = m.get("media_url") if m.get("media_type") in ("IMAGE", "CAROUSEL_ALBUM") else m.get("thumbnail_url")
+                vid = m.get("media_url") if m.get("media_type") in ("VIDEO", "REELS") else None
+                cand = {
+                    "id": "ig:" + m["id"], "categorie": cat, "source": "@" + compte.upper(),
+                    "source_legende": "@" + compte,
+                    "titre": legende.split("\n")[0][:140] or "(info dans l'image)",
+                    "resume": legende[:600], "texte": legende[:4000], "lien": m.get("permalink", ""),
+                    "date": m.get("timestamp"), "images": [img] if img else [], "credit": "@" + compte,
+                    "videos": [vid] if vid else [],
+                }
+                if cpt.get("filtre") and not est_gta(cand):
+                    continue
+                res.append(cand)
+                gardes += 1
+            diag.append(f"Instagram · @{compte} → {len(medias)} posts lus, {gardes} gardés")
+        except Exception as ex:
+            diag.append(f"Instagram · @{compte} → erreur : {ex}")
+    return res
+
+
 def lire_rap(diag):
+    if "RAP FR" not in getattr(config, "CATEGORIES", ["GAMING", "RAP FR"]):
+        return []
     token, ig = os.environ.get("IG_ACCESS_TOKEN"), os.environ.get("IG_USER_ID")
     if not token or not ig:
         diag.append("Rap · IG_ACCESS_TOKEN ou IG_USER_ID manquant : source rap ignorée")
@@ -270,14 +437,19 @@ def lire_x(diag, etat=None):
     if compteur["tweets"] >= config.X_PLAFOND_MOIS:
         diag.append(f"X · plafond du mois atteint ({compteur['tweets']} tweets) : pause jusqu'au mois prochain")
         return []
-    recul = config.AGE_MAX_HEURES["RAP FR"] * max(getattr(config, "X_FACTEUR_RECUL", 1),
-                                                  3 if os.environ.get("CATEGORIE", "auto") != "auto"
-                                                  or os.environ.get("MODE") == "test" else 1)
+    facteur = max(getattr(config, "X_FACTEUR_RECUL", 1),
+                  3 if os.environ.get("CATEGORIE", "auto") != "auto" or os.environ.get("MODE") == "test" else 1)
     res = []
-    for compte in config.COMPTES_X:
-        # recherche simple « tweets de ce compte, les plus récents » ; l'âge est filtré ensuite par le bot
-        entree = {"twitterContent": f"from:{compte} -filter:replies", "maxItems": config.X_MAX_TWEETS,
-                  "queryType": "Latest", "lang": "fr"}
+    depuis = (datetime.now(timezone.utc) - timedelta(days=2)).strftime("%Y-%m-%d")
+    for cpt in config.COMPTES_X:
+        cpt = cpt if isinstance(cpt, dict) else {"compte": cpt, "lang": "fr"}
+        compte = cpt["compte"]
+        recul = config.AGE_MAX_HEURES.get(cpt.get("categorie") or "RAP FR", 24) * facteur
+        # tweets récents de ce compte seulement (« since: ») : Apify facture au tweet renvoyé
+        entree = {"twitterContent": f"from:{compte} since:{depuis} -filter:replies", "maxItems": config.X_MAX_TWEETS,
+                  "queryType": "Latest"}
+        if cpt.get("lang"):
+            entree["lang"] = cpt["lang"]
         try:
             r = requests.post(f"https://api.apify.com/v2/acts/{config.APIFY_ACTEUR}/run-sync-get-dataset-items",
                               params={"token": token, "timeout": 150, "maxItems": config.X_MAX_TWEETS},
@@ -300,15 +472,19 @@ def lire_x(diag, etat=None):
                 img = _premier(t, ["media_url_https", "mediaUrl", "media_url", "thumbnail_url"])
                 videos = _videos_tweet(t)
                 date = _date_tweet(t)
-                res.append({
+                cand = {
                     "id": "x:" + tid, "source": "@" + compte.upper(),
-                    "categorie": "GAMING" if re.search(config.MOTS_GAMING, texte, re.I) else "RAP FR",
+                    "categorie": cpt.get("categorie") or ("GAMING" if re.search(config.MOTS_GAMING, texte, re.I)
+                                                         else "RAP FR"),
                     "source_legende": "@" + compte + " (X)",
                     "titre": texte.split("\n")[0][:140], "resume": texte[:600], "texte": texte[:4000],
                     "lien": t.get("url") or t.get("twitterUrl") or f"https://x.com/{compte}/status/{tid}",
                     "date": date, "images": [img] if isinstance(img, str) else [], "credit": "@" + compte,
                     "videos": videos,
-                })
+                }
+                if cpt.get("filtre") and not est_gta(cand):
+                    continue
+                res.append(cand)
                 gardes += 1
             diag.append(f"X · @{compte} → {len(items)} tweets lus, {gardes} gardés "
                         f"(ce mois : {compteur['tweets']} / {config.X_PLAFOND_MOIS})")

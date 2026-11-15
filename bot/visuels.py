@@ -11,6 +11,8 @@ import re
 import unicodedata
 
 import requests
+
+import config
 from PIL import Image
 
 UA = "CestTombeBot/1.0 (+https://github.com/rachiddzdz12-sys/cesttombe-bot)"
@@ -50,7 +52,40 @@ def _image(url):
 
 
 # ------------------------------------------------------------------ Steam (jeux)
+_ROCKSTAR = {}
+
+
+def rockstar(nom, n=4):
+    """Images officielles récentes de @rockstargames (API Instagram) : pour GTA VI, absent de Steam."""
+    import os
+    if "urls" not in _ROCKSTAR:
+        token, ig = os.environ.get("IG_ACCESS_TOKEN"), os.environ.get("IG_USER_ID")
+        urls = []
+        if token and ig:
+            champs = ("business_discovery.username(rockstargames)"
+                      "{media.limit(30){caption,media_type,media_url,thumbnail_url}}")
+            j = requests.get(f"{config.GRAPH}/{ig}", params={"fields": champs, "access_token": token},
+                             timeout=30).json()
+            for m in j.get("business_discovery", {}).get("media", {}).get("data", []):
+                if not re.search(r"gta ?vi|gta ?6|grand theft auto vi", m.get("caption") or "", re.I):
+                    continue
+                u = m.get("media_url") if m.get("media_type") in ("IMAGE", "CAROUSEL_ALBUM") else m.get("thumbnail_url")
+                if u:
+                    urls.append(u)
+        _ROCKSTAR["urls"] = urls
+    import random
+    choix = _ROCKSTAR["urls"][:]
+    random.shuffle(choix)                 # pas toujours les mêmes images d'un post à l'autre
+    return [(u, "") for u in choix[:n]]
+
+
+def _est_gta6(nom):
+    return bool(re.search(r"gta ?(vi|6)\b|grand theft auto (vi|6)\b", nom or "", re.I))
+
+
 def steam(nom, n=4):
+    if _est_gta6(nom):
+        return rockstar(nom, n)
     r = _get("https://store.steampowered.com/api/storesearch/", params={"term": nom, "l": "french", "cc": "FR"})
     items = r.json().get("items", [])
     jeu = next((i for i in items if _correspond(nom, i.get("name", ""), 0.75)), None)
