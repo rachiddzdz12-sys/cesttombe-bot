@@ -57,21 +57,21 @@ def couverture(post, media, n, total):
     entete(img, post.get("rubrique") or "Breaking news")
     lmax = W - 2 * M - 40
     f, lh = bb.ajuster(post.get("titre_haut") or "", 800, 100, lmax, 2, mini=64)
-    lb = couper(post.get("titre_bas") or "", f, lmax)[:2]
+    lb = bb.tenir(post.get("titre_bas") or "", f, lmax, 2)
     if lb and not lb[-1].endswith((".", "?", "!")):
         lb[-1] += "."
     lignes = lh + lb
     pas, y_bas = int(f.size * 0.98), H - 210
-    fs = police(500, 38)
-    sous = couper(post.get("chiffre_texte") or "", fs, W - 2 * M - 160)[:2]
-    h = pas * len(lignes) + (24 + 48 * len(sous) if sous else 0)
+    fs, sous = bb.ajuster(post.get("chiffre_texte") or "", 500, 38, W - 2 * M - 160, 3, mini=32)
+    ps = int(fs.size * 1.26)
+    h = pas * len(lignes) + (24 + ps * len(sous) if sous else 0)
     y0 = y_bas - h
 
     def dessiner(d, force=None):
         for i, l in enumerate(lignes):
             ecrire(d, M, y0 + pas * (i + 1), l, f, force or (VIOLET_TXT if i >= len(lh) else BLANC), track=-2)
         for k, s in enumerate(sous):
-            ecrire(d, M, y0 + pas * len(lignes) + 24 + 48 * (k + 1) - 8, s, fs, force or GRIS)
+            ecrire(d, M, y0 + pas * len(lignes) + 24 + ps * (k + 1) - 8, s, fs, force or GRIS)
 
     bb.ombre(img, dessiner)
     d = ImageDraw.Draw(img)
@@ -87,6 +87,7 @@ def chiffre(media, kicker, valeur, texte, detail, n, total):
     entete(img, kicker)
     nombre, unite = bb.decouper_chiffre(valeur)
     f = police(900, 250 if len(nombre) <= 4 else 190)
+    ft, lt = bb.ajuster(texte or "", 500, 46, 640, 3, mini=36)
 
     def dessiner(dd, force=None):
         if nombre == "N°":
@@ -96,8 +97,8 @@ def chiffre(media, kicker, valeur, texte, detail, n, total):
             x = ecrire(dd, M - 6, 640, nombre, f, force or BLANC, track=-8)
             if unite:
                 ecrire(dd, x + 10, 640, unite, police(900, int(f.size * 0.6)), force or VIOLET_TXT)
-        for k, l in enumerate(couper(texte, police(500, 46), 640)[:3]):
-            ecrire(dd, M, 730 + 58 * k, l, police(500, 46), force or BLANC)
+        for k, l in enumerate(lt):
+            ecrire(dd, M, 730 + int(ft.size * 1.26) * k, l, ft, force or BLANC)
 
     bb.ombre(img, dessiner, rayon=18)
     d = ImageDraw.Draw(img)
@@ -114,8 +115,7 @@ def artiste(media, kicker, nom, sous, texte, n, total):
     img = fond(media, assombrir=0.62)
     entete(img, kicker or "Artiste")
     f, lignes = bb.ajuster(nom, 800, 130, W - 2 * M, 2, mini=80, track_ratio=-0.025)
-    fs = police(500, 46)
-    ls = couper(sous, fs, 600)[:2]
+    fs, ls = bb.ajuster(sous or "", 500, 46, 600, 2, mini=36)
     y = 560 + int(f.size * 0.98) * (2 - len(lignes)) // 2
 
     def dessiner(dd, force=None):
@@ -136,13 +136,13 @@ def artiste(media, kicker, nom, sous, texte, n, total):
 def texte_bas(img, texte, y_bas, source=None):
     if not texte and not source:
         return
-    fs = police(500, 36)
-    lignes = couper(texte or "", fs, W - 2 * M - 60)[:4]
-    y0 = y_bas - 48 * len(lignes)
+    fs, lignes = bb.ajuster(texte or "", 500, 36, W - 2 * M - 60, 4, mini=30)
+    pt = int(fs.size * 1.33)
+    y0 = y_bas - pt * len(lignes)
 
     def dessiner(dd, force=None):
         for k, l in enumerate(lignes):
-            ecrire(dd, M, y0 + 48 * (k + 1), l, fs, force or GRIS)
+            ecrire(dd, M, y0 + pt * (k + 1), l, fs, force or GRIS)
 
     bb.ombre(img, dessiner, rayon=10)
     d = ImageDraw.Draw(img)
@@ -158,17 +158,19 @@ def recit(media, slide, n, total, source=None):
     haut = slide.get("gros_haut") or slide.get("gros") or ""
     bas = slide.get("gros_bas") or ""
     f = police(800, 96)
-    lh, lb = couper(haut, f, W - 2 * M)[:2], couper(bas, f, W - 2 * M)[:2]
+    lh, lb = bb.tenir(haut, f, W - 2 * M, 2), bb.tenir(bas, f, W - 2 * M, 2)
     lignes = lh + lb
     y_bas, pas = 820, 94
     y0 = y_bas - pas * len(lignes)
     sous = slide.get("sous_titre") or ""
+    fsous, _ls = bb.ajuster(sous, 500, 42, W - 2 * M, 1, mini=30)
+    sous = _ls[0] if _ls else ""
 
     def dessiner(dd, force=None):
         for i, l in enumerate(lignes):
             ecrire(dd, M, y0 + pas * (i + 1), l, f, force or (VIOLET_TXT if i >= len(lh) else BLANC), track=-2)
         if sous:
-            ecrire(dd, M, y_bas + 62, sous, police(500, 42), force or BLANC)
+            ecrire(dd, M, y_bas + 62, sous, fsous, force or BLANC)
 
     bb.ombre(img, dessiner)
     d = ImageDraw.Draw(img)

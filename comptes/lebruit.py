@@ -31,6 +31,12 @@ REGLAGES = {
     "SCORE_MIN": 6,
     "HASHTAGS": {"RAP FR": ["#rapfr", "#rapfrancais", "#actusrap", "#hiphopfrancais", "#lebruit"]},
     # rubriques de la DA (petit titre en haut de chaque carte)
+    "CONSIGNES_TRI": """
+PAGE 100 % RAP : seules comptent les infos sur le rap et le hip-hop (artistes, sons, albums, clips, concerts,
+classements, chiffres de streaming, clashs, interviews, business du rap). Tout le reste (sport, MMA, foot,
+jeux vidéo, économie, faits divers sans rappeur, K-pop, variété, pop) = score 0, info « pas une news ».
+Une vidéo ou un tweet vague sans fait précis (« il est vraiment fort », « regardez ça ») = score 3 maximum.
+""",
     "CONSIGNES_REDAC": ("\nPAGE LE BRUIT (média rap, « Plus qu'une actu, une culture ») : pour \"rubrique\", choisis "
                         "EXACTEMENT une de ces rubriques : Breaking news, Sorties, Classements, Artiste, Culture, "
                         "Industrie, Interview, Clash. Pour \"visuels\", un rappeur ou un groupe est de type "

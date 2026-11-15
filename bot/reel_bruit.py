@@ -14,7 +14,7 @@ from PIL import Image, ImageDraw
 import config
 from bot import bruit_base as bb
 from bot import voix
-from bot.bruit_base import BLANC, GRIS, VIOLET, VIOLET_TXT, couper, ecrire, largeur, police
+from bot.bruit_base import BLANC, GRIS, VIOLET, VIOLET_TXT, ecrire, largeur, police
 from bot.reel import mixer_audio, musique
 
 W, H, FPS, M = 1080, 1920, 30, 84
@@ -160,12 +160,12 @@ def bloc_titre(img, haut, bas, sous, tl, y_bas=1430, taille=118):
     """Titre façon carte « Breaking news » : lignes blanches puis violettes, sous-titre gris, barre violette."""
     lmax = W - 2 * M - 30
     f, lh = bb.ajuster(haut, 800, taille, lmax, 2, mini=72, track_ratio=-0.025)
-    lb = couper(bas, f, lmax, track=-int(f.size * 0.025))[:2]
+    lb = bb.tenir(bas, f, lmax, 2, track=-int(f.size * 0.025))
     lignes = [(l, BLANC) for l in lh] + [(l, VIOLET_TXT) for l in lb]
-    fs = police(500, 42)
-    ls = couper(sous, fs, lmax - 100)[:2] if sous else []
+    fs, ls = bb.ajuster(sous, 500, 42, lmax - 100, 3, mini=34) if sous else (police(500, 42), [])
+    ps = int(fs.size * 1.29)
     pas = int(f.size * 0.98)
-    hauteur = pas * len(lignes) + (len(ls) * 54 + 30 if ls else 0)
+    hauteur = pas * len(lignes) + (len(ls) * ps + 30 if ls else 0)
     y0 = y_bas - hauteur
     d = ImageDraw.Draw(img)
 
@@ -178,7 +178,7 @@ def bloc_titre(img, haut, bas, sous, tl, y_bas=1430, taille=118):
                    track=-int(f.size * 0.025))
         p = bb.ease((tl - 0.35) / 0.45)
         for k, s in enumerate(ls):
-            ecrire(dd, M, y0 + pas * len(lignes) + 62 + 54 * k, s, fs, force or GRIS + (int(255 * p),))
+            ecrire(dd, M, y0 + pas * len(lignes) + 62 + ps * k, s, fs, force or GRIS + (int(255 * p),))
 
     bb.ombre(img, lambda dd, c: dessiner(dd, c))
     dessiner(d)
@@ -193,8 +193,7 @@ def carte_chiffre(img, valeur, libelle, tl, y=1150):
     p = bb.ease(tl / 0.5)
     a, dy = int(255 * p), int(40 * (1 - p))
     f = police(900, 240 if len(nombre) <= 4 else 180)
-    fl = police(500, 46)
-    ll = couper(libelle, fl, W - 2 * M - 40)[:3]
+    fl, ll = bb.ajuster(libelle or "", 500, 46, W - 2 * M - 40, 3, mini=36)
 
     def dessiner(dd, force=None):
         if nombre == "N°":
@@ -205,7 +204,7 @@ def carte_chiffre(img, valeur, libelle, tl, y=1150):
             if unite:
                 ecrire(dd, x + 10, y + dy, unite, police(900, int(f.size * 0.6)), force or VIOLET_TXT + (a,))
         for k, l in enumerate(ll):
-            ecrire(dd, M, y + 72 + 56 * k + dy, l, fl, force or BLANC + (a,))
+            ecrire(dd, M, y + 72 + int(fl.size * 1.22) * k + dy, l, fl, force or BLANC + (a,))
 
     bb.ombre(img, lambda dd, c: dessiner(dd, c), rayon=18)
     d = ImageDraw.Draw(img)
@@ -377,7 +376,7 @@ def fabriquer(post, medias, texte_voix, dossier, prefixe, diag):
     muet = tmp / "muet.mp4"
     ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",
                            "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-preset", "veryfast",
-                           "-crf", "21", "-pix_fmt", "yuv420p", str(muet)], stdin=subprocess.PIPE)
+                           "-crf", "21", "-maxrate", "7M", "-bufsize", "14M", "-pix_fmt", "yuv420p", str(muet)], stdin=subprocess.PIPE)
     try:
         for n in range(int(total * FPS)):
             ff.stdin.write(image(n / FPS, n).convert("RGB").tobytes())

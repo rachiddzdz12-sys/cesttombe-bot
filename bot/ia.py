@@ -136,6 +136,7 @@ def trier(candidats, titres_publies):
     theme, consignes = theme_de(candidats[0]), ""
     if page_gta(candidats[0]):
         consignes = CONSIGNES_TRI_GTA
+    consignes += getattr(config, "CONSIGNES_TRI", "")
     liste = "\n".join(f'- id={i} | {c.get("source_legende", c["source"])} | {c["titre"]} | {c["resume"][:280]}'
                       for i, c in enumerate(candidats, start=1))
     deja = "\n".join(f"- {t}" for t in titres_publies[-40:]) or "(aucun)"

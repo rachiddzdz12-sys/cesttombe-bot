@@ -29,13 +29,49 @@ def ecrire(d, x, y, txt, f, fill, track=0, anchor="ls"):
         d.text((x, y), txt, font=f, fill=fill, anchor=anchor)
         return x + f.getlength(txt)
     for i, ch in enumerate(txt):
-        d.text((x + f.getlength(txt[:i]) + track * i, y), ch, font=f, fill=fill, anchor=anchor)
+        # position crénée : fin du préfixe crénelé (lettre comprise) moins la chasse de la lettre
+        d.text((x + f.getlength(txt[:i + 1]) - f.getlength(ch) + track * i, y), ch, font=f, fill=fill,
+               anchor=anchor)
     return x + largeur(txt, f, track)
+
+
+PONCT_SEULE = set("?!:;»%…")
+MOTS_VIDES = {"de", "du", "des", "le", "la", "les", "l'", "d'", "un", "une", "et", "ou", "à", "au", "aux", "en",
+              "sur", "pour", "par", "avec", "dans", "sans", "son", "sa", "ses", "leur", "leurs", "ce", "cette",
+              "qui", "que", "qu'", "ne", "pas", "mais", "a", "est", "se", "sous", "chez", "vers", "très", "plus"}
+
+
+def unites(txt):
+    """Mots, avec la ponctuation isolée (« ? », « ! », « : », « » ») collée au mot d'avant et « « » au mot d'après."""
+    out = []
+    for mot in (txt or "").split():
+        if out and all(c in PONCT_SEULE for c in mot):
+            out[-1] += "\u00a0" + mot
+        elif out and out[-1] == "«":
+            out[-1] += "\u00a0" + mot
+        else:
+            out.append(mot)
+    return out
+
+
+def raccourcir(txt, garder):
+    """Coupe proprement à « garder » mots : à la dernière ponctuation si elle garde l'essentiel, sinon au dernier mot
+    plein (jamais « … de », « … et »), avec des points de suspension."""
+    mots = (txt or "").split()
+    if len(mots) <= garder:
+        return txt
+    debut = mots[:max(1, garder)]
+    for k in range(len(debut) - 1, int(len(debut) * 0.6) - 1, -1):
+        if debut[k][-1:] in ".!?;:,":
+            return " ".join(debut[:k + 1]).rstrip(",;:") + ("" if debut[k][-1:] in ".!?" else ".")
+    while len(debut) > 1 and debut[-1].lower().strip(",;:") in MOTS_VIDES:
+        debut.pop()
+    return " ".join(debut).rstrip(",;:") + "…"
 
 
 def couper(txt, f, lmax, track=0):
     lignes, cur = [], ""
-    for mot in (txt or "").split():
+    for mot in unites(txt):
         essai = (cur + " " + mot).strip()
         if largeur(essai, f, track) <= lmax or not cur:
             cur = essai
@@ -55,7 +91,25 @@ def ajuster(txt, poids, taille, lmax, n_max, mini=40, track_ratio=-0.02):
         if len(lignes) <= n_max:
             return f, lignes
     f = police(poids, mini)
-    return f, couper(txt, f, lmax, track=int(mini * track_ratio))[:n_max]
+    return f, tenir(txt, f, lmax, n_max, track=int(mini * track_ratio))
+
+
+def tenir(txt, f, lmax, n_max, track=0):
+    """Lignes du texte en n_max lignes au plus, sans jamais couper au milieu d'une idée (voir raccourcir)."""
+    lignes = couper(txt, f, lmax, track)
+    if len(lignes) <= n_max:
+        return lignes
+    mots = (txt or "").split()
+    for garder in range(len(mots) - 1, 0, -1):
+        lignes = couper(raccourcir(txt, garder), f, lmax, track)
+        if len(lignes) <= n_max:
+            return lignes
+    return lignes[:n_max]
+
+
+def lignes_auto(txt, poids, taille, lmax, n_max, mini, track_ratio=0.0):
+    """Police réduite jusqu'à « mini » pour tout faire tenir, puis coupe propre en dernier recours."""
+    return ajuster(txt, poids, taille, lmax, n_max, mini=mini, track_ratio=track_ratio)
 
 
 def ease(t):

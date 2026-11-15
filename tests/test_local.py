@@ -362,6 +362,12 @@ check(len(flb) == 5 and all(Image.open(f).size == (1080, 1350) for f in flb),
 check(reel_bruit.aligner("SDM et Ninho ont frappé fort ?", [{"mot": w, "debut": i, "fin": i + 0.5} for i, w in
       enumerate(["SDM", "et", "Nignon", "frappaient", "fort", "?"])])[2]["mot"] == "Ninho",
       "LE BRUIT : sous-titres = texte exact même si la reconnaissance vocale entend mal un nom")
+from bot import bruit_base as _bb
+_long = "Booba réagit publiquement au style artistique et au parcours musical de Dayarga, selon lui trop complexe."
+_lt = _bb.tenir(_long, _bb.police(500, 38), 500, 2)
+check(_bb.unites("Tu valides le morceau ?")[-1] == "morceau ?"
+      and not _lt[-1].split()[-1].lower().strip(".…") in _bb.MOTS_VIDES and _lt[-1][-1] in ".…",
+      f"LE BRUIT : jamais de « ? » seul en bout de ligne ni de texte coupé sur « de » ({_lt[-1]!r})")
 _lire2 = reel_bruit.voix.lire
 reel_bruit.voix.lire = lambda texte, dossier, diag: voix_test
 rlb, clb = reel_bruit.fabriquer(post_lb, medias, "SDM et Ninho frappent fort. Le duo prend la tête. Tu valides ?",
