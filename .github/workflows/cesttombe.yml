@@ -1,4 +1,4 @@
-name: C'EST TOMBÉ
+name: C'EST TOMBÉ + LE BRUIT
 
 on:
   schedule:
@@ -21,6 +21,11 @@ on:
         type: choice
         options: [tout, x, instagram, web]
         default: tout
+      compte:
+        description: "compte(s) concerné(s)"
+        type: choice
+        options: [les-deux, cesttombe, lebruit]
+        default: les-deux
 
 permissions:
   contents: write
@@ -32,7 +37,7 @@ concurrency:
 jobs:
   bot:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 40
     env:
       MODE: ${{ github.event.inputs.mode || 'auto' }}
       CATEGORIE: ${{ github.event.inputs.categorie || 'auto' }}
@@ -45,31 +50,40 @@ jobs:
         # si deux déclenchements se suivent, le second doit voir le post publié par le premier
         run: git pull -q --ff-only origin main || true
 
-      - name: Faut-il poster maintenant ?
+      - name: C'EST TOMBÉ · faut-il poster maintenant ?
         id: verif
+        if: github.event.inputs.compte != 'lebruit'
+        run: python3 main.py --verif
+
+      - name: LE BRUIT · faut-il poster maintenant ?
+        id: verif_lb
+        if: github.event.inputs.compte != 'cesttombe'
+        env:
+          COMPTE: lebruit
+          PUBLICATION: ${{ vars.PUBLICATION_LEBRUIT }}
         run: python3 main.py --verif
 
       - uses: actions/setup-python@v6
-        if: steps.verif.outputs.lancer == 'true'
+        if: steps.verif.outputs.lancer == 'true' || steps.verif_lb.outputs.lancer == 'true'
         with:
           python-version: "3.12"
           cache: pip
 
       - name: Modèle de reconnaissance vocale (cache)
-        if: steps.verif.outputs.lancer == 'true'
+        if: steps.verif.outputs.lancer == 'true' || steps.verif_lb.outputs.lancer == 'true'
         uses: actions/cache@v4
         with:
           path: ~/.cache/huggingface
           key: whisper-small-v1
 
       - name: Installation
-        if: steps.verif.outputs.lancer == 'true'
+        if: steps.verif.outputs.lancer == 'true' || steps.verif_lb.outputs.lancer == 'true'
         run: |
           pip install -r requirements.txt
           pip install --no-deps rapidocr-onnxruntime==1.2.3
           which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
 
-      - name: Lecture des sources, rédaction, rendu, publication
+      - name: C'EST TOMBÉ · sources, rédaction, rendu, publication
         if: steps.verif.outputs.lancer == 'true'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -82,8 +96,22 @@ jobs:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
         run: python main.py
 
+      - name: LE BRUIT · sources, rédaction, rendu, publication
+        if: always() && steps.verif_lb.outputs.lancer == 'true'
+        env:
+          COMPTE: lebruit
+          PUBLICATION: ${{ vars.PUBLICATION_LEBRUIT }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+          IMAGES_TOKEN: ${{ secrets.IMAGES_TOKEN }}
+          IMAGES_REPO: ${{ vars.IMAGES_REPO }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+        run: python main.py
+
       - name: Carrousels générés (à télécharger)
-        if: always() && steps.verif.outputs.lancer == 'true'
+        if: always() && (steps.verif.outputs.lancer == 'true' || steps.verif_lb.outputs.lancer == 'true')
         uses: actions/upload-artifact@v6
         with:
           name: carrousels-${{ github.run_number }}
@@ -92,11 +120,13 @@ jobs:
           retention-days: 7
 
       - name: Sauvegarde de l'état
-        if: always() && steps.verif.outputs.lancer == 'true'
+        if: always() && (steps.verif.outputs.lancer == 'true' || steps.verif_lb.outputs.lancer == 'true')
         run: |
           git config user.name "cesttombe-bot"
           git config user.email "cesttombe-bot@users.noreply.github.com"
-          git add etat.json dernier-journal.txt 2>/dev/null || git add etat.json
+          for f in etat.json etat-lebruit.json dernier-journal.txt dernier-journal-lebruit.txt; do
+            [ -f "$f" ] && git add "$f"
+          done
           git diff --cached --quiet && exit 0
           git commit -q -m "état : mise à jour"
           # si main a bougé entre-temps, on se remet à jour et on réessaie : l'état ne doit jamais se perdre

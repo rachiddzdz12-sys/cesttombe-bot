@@ -83,7 +83,7 @@ def appel(parts, modeles=None):
     raise ErreurIA(f"Gemini n'a pas répondu correctement : {derniere}")
 
 
-PROMPT_TRI = """Tu es le rédacteur en chef de « C'EST TOMBÉ », une page Instagram d'actu {theme} pour un public français de 16-30 ans.
+PROMPT_TRI = """Tu es le rédacteur en chef de « {page} », une page Instagram d'actu {theme} pour un public français de 16-30 ans.
 
 Voici des infos candidates. Pour chacune, décide :
 - "info" : true si c'est une VRAIE actualité (annonce, sortie, date, chiffre, polémique, clash, record, déclaration, rumeur sérieuse). Les récaps de sorties (« les sorties de la semaine », « ce qui sort ce soir à minuit », liste des albums/sons du vendredi) comptent comme de l'info utile : note-les au moins 7.
@@ -139,7 +139,8 @@ def trier(candidats, titres_publies):
     liste = "\n".join(f'- id={i} | {c.get("source_legende", c["source"])} | {c["titre"]} | {c["resume"][:280]}'
                       for i, c in enumerate(candidats, start=1))
     deja = "\n".join(f"- {t}" for t in titres_publies[-40:]) or "(aucun)"
-    rep = appel([{"text": PROMPT_TRI.format(theme=theme, deja=deja, liste=liste, consignes=consignes)}])
+    rep = appel([{"text": PROMPT_TRI.format(theme=theme, deja=deja, liste=liste, consignes=consignes,
+                                           page=config.NOM_PAGE)}])
     if isinstance(rep, dict):
         rep = rep.get("resultats") or next((v for v in rep.values() if isinstance(v, list)), [])
     notes = {}
@@ -155,7 +156,7 @@ def trier(candidats, titres_publies):
     return notes
 
 
-PROMPT_REDAC = """Tu écris un post carrousel Instagram pour « C'EST TOMBÉ », page d'actu {theme}.
+PROMPT_REDAC = """Tu écris un post carrousel Instagram pour « {page} », page d'actu {theme}.
 Ton : direct, clair, phrases courtes, français correct, pas de vulgarité, pas de « wesh ». Tu tutoies le lecteur seulement dans l'accroche. Écris toujours les nombres, dates et durées en chiffres (22 mois, 6 novembre, 366 Go). Écris en français correct AVEC TOUS LES ACCENTS (é, è, ê, à, ù, ç…), y compris dans le titre.
 
 PAS DE REMPLISSAGE : pas de phrases creuses (« cela fait parler », « les fans attendent avec impatience », « cette nouvelle attire l'attention »). Si la source est courte, fais seulement 2 sections courtes avec les vrais faits.
@@ -190,10 +191,12 @@ Réponds UNIQUEMENT en JSON : {{"titre": "", "titre_haut": "", "titre_bas": "", 
 def rediger(cand, image_jpeg=None):
     theme = theme_de(cand)
     parts = [{"text": PROMPT_REDAC.format(
-        theme=theme, source=cand["source"], titre=cand["titre"], texte=cand["texte"][:5000],
+        theme=theme, page=config.NOM_PAGE, source=cand["source"], titre=cand["titre"], texte=cand["texte"][:5000],
         image=" et dans l'image jointe (lis le texte écrit dessus)" if image_jpeg else "")}]
     if page_gta(cand):
         parts[0]["text"] += CONSIGNES_REDAC_GTA.replace("{{", "{").replace("}}", "}")
+    if getattr(config, "CONSIGNES_REDAC", ""):
+        parts[0]["text"] += config.CONSIGNES_REDAC
     if image_jpeg:
         parts.append({"inline_data": {"mime_type": "image/jpeg",
                                       "data": base64.b64encode(image_jpeg).decode()}})
@@ -295,17 +298,21 @@ def manque_accents(res):
     return len(texte.split()) >= 25 and _defauts(res) > 0
 
 
-FIN_VOIX = "Abonne-toi à C’est tombé."
+FIN_VOIX = "Abonne-toi à C’est tombé."   # remplacé par le nom du compte (voir fin_voix)
+
+
+def fin_voix():
+    return "Abonne-toi à C’est tombé." if config.NOM_PAGE == "C'EST TOMBÉ" else f"Abonne-toi à {config.NOM_PAGE.title()}."
 VOIX_MOTS_MAX = 60
 
 
 def raccourcir_voix(texte, question=""):
     """La voix off reste courte : au-delà de VOIX_MOTS_MAX mots, on garde les premières phrases.
     Elle finit par la question au spectateur si on l'a, sinon par l'appel à s'abonner."""
-    texte = re.sub(r"\s*Abonne-toi à C[’']est tombé[^.!?]*[.!?]?\s*$", "", texte.strip())
+    texte = re.sub(r"\s*Abonne-toi à [^.!?]*[.!?]?\s*$", "", texte.strip())
     phrases = re.split(r"(?<=[.!?…])\s+", texte)
     finit_par_question = phrases and phrases[-1].endswith("?")
-    fin = phrases.pop() if finit_par_question and len(phrases) > 1 else (question or FIN_VOIX)
+    fin = phrases.pop() if finit_par_question and len(phrases) > 1 else (question or fin_voix())
     garde, n = [], 0
     for p in phrases:
         if garde and n + len(p.split()) > VOIX_MOTS_MAX - len(fin.split()):
@@ -354,7 +361,7 @@ def valider(rep, cand):
     voix_off = (rep.get("voix_off") or "").strip()
     if len(voix_off.split()) < 12:      # secours : on lit le titre et la première phrase
         premiere = re.split(r"(?<=[.!?])\s+", sections[0]["texte"].strip())[0]
-        voix_off = f"{titre}. {premiere} {FIN_VOIX}"
+        voix_off = f"{titre}. {premiere} {fin_voix()}"
     q1, q2 = _court(rep.get("question_haut"), 26) or "Et toi,", _court(rep.get("question_bas"), 26) or "t'en penses quoi ?"
     voix_off = raccourcir_voix(voix_off, f"{q1} {q2}".strip())
     visuels = [{"type": str(v.get("type") or "autre"), "nom": str(v["nom"]).strip()}

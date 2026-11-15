@@ -338,6 +338,38 @@ config.LANCEMENT_JUSQUA = (datetime.now(main.PARIS) - timedelta(days=1)).strftim
 check(main.reglages(datetime.now(main.PARIS))["posts_par_jour"] == config.POSTS_PAR_JOUR,
       "lancement GTA 6 : fini après la date, retour au rythme normal")
 
+# ------------------------------------------------------------------ 6. compte LE BRUIT (2e compte, DA LE BRUIT)
+import subprocess as _sp  # noqa: E402
+r = _sp.run([sys.executable, "-c", "import main, config; print(main.ETAT.name, main.JOURNAL.name, config.NOM_PAGE, "
+             "config.DA, config.CATEGORIES, config.PUBLICATION_AUTO, __import__('os').environ['IG_USER_ID'])"],
+            capture_output=True, text=True, cwd=str(RACINE), env=dict(os.environ, COMPTE="lebruit", IG_USER_ID="999"))
+check("etat-lebruit.json dernier-journal-lebruit.txt LE BRUIT bruit ['RAP FR'] False 17841439323487258"
+      in r.stdout, f"LE BRUIT : profil appliqué, état et journal séparés ({r.stdout.strip() or r.stderr[-200:]})")
+r = _sp.run([sys.executable, "-c", "import main, config; print(main.ETAT.name, config.NOM_PAGE, config.DA)"],
+            capture_output=True, text=True, cwd=str(RACINE), env={k: v for k, v in os.environ.items() if k != "COMPTE"})
+check("etat.json C'EST TOMBÉ v3" in r.stdout, "C'EST TOMBÉ : inchangé sans COMPTE")
+from bot import da_bruit, reel_bruit  # noqa: E402
+_nom = config.NOM_PAGE
+config.NOM_PAGE = "LE BRUIT"
+post_lb = dict(post_rap, rubrique="Classements", chiffre="1", chiffre_texte="du Top 50 Spotify France",
+               slides=[{"rubrique": "Le classement", "gros": "1", "sous_titre": "Première place", "texte": "Texte."},
+                       {"rubrique": "Artiste", "gros": "Ninho", "sous_titre": "Le retour", "texte": "Texte."},
+                       {"rubrique": "Culture", "gros_haut": "Un duo", "gros_bas": "qui frappe fort", "texte": "Texte."}],
+               question_haut="Tu valides", question_bas="le morceau ?")
+flb = da_bruit.carrousel(post_lb, medias, out, "lebruit", diag_t)
+check(len(flb) == 5 and all(Image.open(f).size == (1080, 1350) for f in flb),
+      f"LE BRUIT : carrousel (couverture, N°1, artiste, récit, fin), chiffre en double écarté ({len(flb)} slides)")
+check(reel_bruit.aligner("SDM et Ninho ont frappé fort ?", [{"mot": w, "debut": i, "fin": i + 0.5} for i, w in
+      enumerate(["SDM", "et", "Nignon", "frappaient", "fort", "?"])])[2]["mot"] == "Ninho",
+      "LE BRUIT : sous-titres = texte exact même si la reconnaissance vocale entend mal un nom")
+_lire2 = reel_bruit.voix.lire
+reel_bruit.voix.lire = lambda texte, dossier, diag: voix_test
+rlb, clb = reel_bruit.fabriquer(post_lb, medias, "SDM et Ninho frappent fort. Le duo prend la tête. Tu valides ?",
+                                out, "lebruit", diag_t)
+check(taille(rlb) == "1080,1920" and Image.open(clb).size == (1080, 1920), "LE BRUIT : Reel 1080x1920 et couverture")
+reel_bruit.voix.lire = _lire2
+config.NOM_PAGE = _nom
+
 print(f"\n{len(OK)} vérifications OK :")
 print("\n".join(f"  ✓ {m}" for m in OK))
 print(f"\nSlides de test dans {out}")

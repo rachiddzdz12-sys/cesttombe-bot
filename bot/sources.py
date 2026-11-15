@@ -145,6 +145,8 @@ def _page_secours(diag):
 
 
 def lire_gaming(diag):
+    if "GAMING" not in getattr(config, "CATEGORIES", ["GAMING"]):
+        return []
     for i, url in enumerate(config.GAMING["flux"]):
         try:
             r = http_get(url)

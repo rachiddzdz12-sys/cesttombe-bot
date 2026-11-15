@@ -131,6 +131,9 @@ MOTS_GAMING = (r"\b(gta|ps5|ps4|playstation|xbox|nintendo|switch 2|steam|rocksta
 X_PLAFOND_MOIS = 10000        # au-delà, plus aucune lecture X ce mois-ci (≈ 2,50 $ sur les 5 $ offerts)  # pseudos Instagram (comptes Pro), sans le @
 
 # ------------------------------------------------------------------ identité
+NOM_PAGE = "C'EST TOMBÉ"
+DA = "v3"                     # "v3" = DA C'EST TOMBÉ (style 7run, lime) ; "bruit" = DA LE BRUIT
+CONSIGNES_REDAC = ""          # consignes de rédaction propres au compte (ajoutées au prompt)
 HANDLE = "@cesttombe.actu"
 HASHTAGS = {
     "GAMING": ["#gta6", "#gtavi", "#grandtheftauto", "#rockstargames", "#cesttombe"],

@@ -18,7 +18,18 @@ import config
 
 PARIS = ZoneInfo("Europe/Paris")
 RACINE = Path(__file__).resolve().parent
-ETAT = RACINE / "etat.json"
+
+# Plusieurs comptes, un seul bot : COMPTE=lebruit applique comptes/lebruit.py par-dessus config.py.
+# Sans COMPTE, c'est C'EST TOMBÉ, exactement comme avant.
+COMPTE = os.environ.get("COMPTE", "").strip().lower()
+if COMPTE:
+    import importlib
+    for _cle, _valeur in importlib.import_module(f"comptes.{COMPTE}").REGLAGES.items():
+        setattr(config, _cle, _valeur)
+    if getattr(config, "IG_USER_ID", None):
+        os.environ["IG_USER_ID"] = config.IG_USER_ID
+ETAT = RACINE / (f"etat-{COMPTE}.json" if COMPTE else "etat.json")
+JOURNAL = RACINE / (f"dernier-journal-{COMPTE}.txt" if COMPTE else "dernier-journal.txt")
 SORTIE = RACINE / "sortie"
 
 
@@ -111,13 +122,13 @@ def sortie_github(cle, valeur):
 
 def resume_github(lignes):
     try:
-        (RACINE / "dernier-journal.txt").write_text("\n".join(str(l) for l in lignes) + "\n", encoding="utf-8")
+        JOURNAL.write_text("\n".join(str(l) for l in lignes) + "\n", encoding="utf-8")
     except Exception:
         pass
     f = os.environ.get("GITHUB_STEP_SUMMARY")
     if f:
         with open(f, "a", encoding="utf-8") as fh:
-            fh.write("### C'EST TOMBÉ\n\n" + "\n".join(f"- {l}" for l in lignes) + "\n")
+            fh.write(f"### {config.NOM_PAGE}\n\n" + "\n".join(f"- {l}" for l in lignes) + "\n")
 
 
 class Journal(list):
@@ -158,7 +169,11 @@ def verif():
 
 # ------------------------------------------------------------------ travail principal
 def executer():
-    from bot import da3, hebergement, ia, images, instagram, reel3, sources, visuels
+    from bot import hebergement, ia, images, instagram, sources, visuels
+    if getattr(config, "DA", "v3") == "bruit":        # DA LE BRUIT : mêmes fonctions, autre rendu
+        from bot import da_bruit as da3, reel_bruit as reel3
+    else:
+        from bot import da3, reel3
 
     mode = os.environ.get("MODE", "auto")
     test = mode == "test"
@@ -294,7 +309,7 @@ def executer():
                     red["legende"] = red["legende"].replace("\n\n#", f"\nPhotos : {' · '.join(credits)}\n\n#", 1)
                 post = {"categorie": cat, "source": c["source"], "credit": credit,
                         "source_affichee": c.get("source_legende", c["source"]), **red}
-                prefixe = f"{now_paris:%Y%m%d-%H%M}-{'jv' if cat == 'GAMING' else 'rap'}"
+                prefixe = f"{now_paris:%Y%m%d-%H%M}-{'jv' if cat == 'GAMING' else 'rap'}" + (f"-{COMPTE}" if COMPTE else "")
                 if test and n_test > 1:
                     prefixe += f"-{rendus + 1}"        # plusieurs rendus d'essai : un nom chacun
                 medias = preparer_medias(c, photos, prefixe, diag, n_source)
