@@ -165,7 +165,10 @@
   "x:2121589213271322944": "2026-11-15T20:31:29.660226+00:00",
   "x:2121679809998737563": "2026-11-15T21:32:01.519133+00:00",
   "web:google news:CBMinAFBVV95cUxONEY4RHp3aWJCNlNUY3FUTWxCeEpFcU42dklOVmgzcW16RHBUdVZIZTM5QmZlTU1aQTQ0MHRLN2JsTDAxa3JaaTFiMnBLR0dvTTAyU2dWdWNhWHc0bE5VRDc1TWNtQjVuenVuSEZUR1BzSzRPRjFLaGtuWEZlTkJRb3M2M1pqT2o0VVFxUThRSVJ5YU5aRUFpZlY4YWU": "2026-11-15T21:32:01.519133+00:00",
-  "x:2121646842924417498": "2026-11-15T21:32:01.519133+00:00"
+  "x:2121646842924417498": "2026-11-15T21:32:01.519133+00:00",
+  "x:2121226575374950629": "2026-11-15T22:31:40.436130+00:00",
+  "web:google news:CBMimwFBVV95cUxQRkp0bjFZNDRFZEFKN2YzeUFnSk1PaGY2Sm1kVnNiTEh1U3d0WnlkbDI5NklQVVhLNW1NbkVueXNUMjJBV0RvTXVKWmhtUW83cy13RXpWeHdhWDZ5dnlFc0JqbmUteWI4TkpyRTlfV2w4Q01mX0NTdUkyVHkybUc5NktubVV0QzZ6UzJIcll1c1F4cjRYSlBxbml5RQ": "2026-11-15T22:31:40.436130+00:00",
+  "x:2122024581653291225": "2026-11-15T22:31:40.436130+00:00"
  },
  "publies": [
   {
@@ -565,10 +568,18 @@
    "source_id": "x:2121646842924417498",
    "lien": "https://www.instagram.com/p/DfxwfF8kz1l/",
    "reel": "https://www.instagram.com/reel/Dfxwl2fHCcn/"
+  },
+  {
+   "ts": "2026-11-15T22:31:40.436130+00:00",
+   "categorie": "GAMING",
+   "titre": "Les copies physiques de GTA VI rencontrent des problèmes",
+   "source_id": "x:2122024581653291225",
+   "lien": "https://www.instagram.com/p/Dfx3UaXl8QQ/",
+   "reel": "https://www.instagram.com/reel/Dfx3XdsDSak/"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 1302
+  "tweets": 1332
  }
 }
