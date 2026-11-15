@@ -19,8 +19,6 @@ X · @FrenchRapUS → refus Apify HTTP 401 : {
     "message": "User was not found or authentication token is not valid"
   }
 }
-1 infos fraîches et jamais traitées (sur 34 lues)
+0 infos fraîches et jamais traitées (sur 34 lues)
 GAMING · aucune info fraîche
-   2/10 ✗ pas une news « Il a eu Ninho avec ses tours de magie 😅 »
-RAP FR · 0 infos retenues
-Gemini : gemini-flash-lite-latest : réponse en 2 s
+RAP FR · aucune info fraîche
