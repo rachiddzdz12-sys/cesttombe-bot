@@ -272,7 +272,7 @@ def preparer(texte):
 
     def casse(m):
         mot = m.group(0)
-        return mot if mot in SIGLES or len(mot) <= 2 else mot.title()
+        return mot if mot in SIGLES or len(mot) <= 3 else mot.title()   # SDM, PNL, SCH : sigles lus lettre à lettre
 
     t = re.sub(r"\b[A-ZÀ-ÖØ-Þ][A-ZÀ-ÖØ-Þ'-]{2,}\b", casse, t)
     t = re.sub(r"\s+([,.])", r"\1", t)
