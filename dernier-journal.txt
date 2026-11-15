@@ -1,8 +1,8 @@
 Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
-Instagram · @cesttombe.actu (4 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 1 / 100
+Instagram · @cesttombe.actu (5 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 2 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 100 infos
@@ -17,56 +17,43 @@ Web · GTABASE → 30 infos
 Web · GAMEKULT → 4 infos
 Web · IGN FRANCE → 3 infos
 Web · JEUXVIDEO.COM → 3 infos
-Web · INSIDER GAMING → 5 infos
+Web · INSIDER GAMING → 4 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 3 gardés
-X · @RockstarGames → refus Apify HTTP 401 : {
-  "error": {
-    "type": "user-or-token-not-found",
-    "message": "User was not found or authentication token is not valid"
-  }
-}
-X · @RockstarIntel → refus Apify HTTP 401 : {
-  "error": {
-    "type": "user-or-token-not-found",
-    "message": "User was not found or authentication token is not valid"
-  }
-}
+X · @RockstarGames → 10 tweets lus, 1 gardés (ce mois : 1257 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 1272 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-216 infos fraîches et jamais traitées (sur 433 lues)
+225 infos fraîches et jamais traitées (sur 443 lues)
+   6/10 ✓ « Celebrate GTA Online’s colorful cast of supporting characters with 2X  »
+   8/10 ✓ « GTA VI Physical Copies Face Used Code Issues! »
+   7/10 ✓ « Twitch and KICK are giving away over 10,000 copies of GTA VI! »
+   6/10 ✓ « GTA VI Is Still a Mystery Even to Grand Theft Auto's Original Creators »
+   6/10 ✗ déjà publiée « GTA VI Is Still a Mystery Even to Grand Theft Auto's Original Creators »
+   7/10 ✗ déjà publiée « Twitch and KICK are giving away over 10,000 copies of GTA VI! »
+   7/10 ✓ « There's a GTA VI Midnight Launch Event in Miami hosted by @gwrldmedia  »
+   8/10 ✗ déjà publiée « GTA VI Physical Copies Face Used Code Issues! »
+   8/10 ✓ « Full GTA VI The Album Track List Leaked! »
+   9/10 ✓ « Latest GTA 6 Interview Confirms New Gameplay Features And Details! »
+   8/10 ✓ « First Look at GTA VI's In-Game TV Show 'Macca &amp; Friends'! »
+   4/10 ✗ pas une news « Matty Benedetto of Unnecessary Inventions Builds a Real GTA VI House A »
+   5/10 ✗ pas une news « The final word on Grand Theft Auto VI »
+   7/10 ✓ « Avant la sortie de GTA 6, les joueurs de GTA 5 organisent une dernière »
+   8/10 ✓ « GTA 6's Jason and Lucia Will Start as Small-Time Criminals Who Have to »
    9/10 ✓ « GTA 6 sans mode en ligne au lancement : les annonces de Rockstar et Ta »
-   9/10 ✓ « GTA VI : 50h de jeu rien que pour l’histoire et 200h pour le 100% ! »
-   4/10 ✗ pas une news « 10,000 Copies of GTA VI Ultimate Edition Are Being Given Away for PS5  »
-   9/10 ✓ « GTA VI Game Length Potentially Leaked By Reviewer »
+   9/10 ✗ déjà publiée « GTA VI : 50h de jeu rien que pour l’histoire et 200h pour le 100% ! »
+   7/10 ✓ « “Gaming Is Not a Waste of Time”: Logitech Gives Employees the Day Off  »
    9/10 ✗ déjà publiée « GTA VI Game Length Potentially Leaked By Reviewer »
    8/10 ✓ « GTA VI a été comparé à Vice City et a démontré le bond technologique r »
-   8/10 ✗ déjà publiée « GTA VI was compared to Vice City and showed Rockstar's technological l »
-   7/10 ✓ « L'analyste pense que la note de GTA 6 sur Metacritic devrait être d'au »
-   9/10 ✓ « GTA 6 Trophy Count and Full Completion Time Leaks in New Reports »
-   6/10 ✓ « GTA 5 is Still Selling Well Despite GTA 6 Release »
-   8/10 ✓ « ‘GTA 6’ Officially Justifies Its 13-Year Wait With Stunning New Featur »
-   9/10 ✗ déjà publiée « Une fuite chiffre la durée de GTA 6, 50 heures d'histoire et 200 pour  »
-   6/10 ✓ « Analysts Boost Take-Two Interactive Stock Forecasts Ahead of Grand The »
-   9/10 ✗ déjà publiée « La campagne principale de GTA 6 sur PS5 durera environ 50 heures et co »
-   9/10 ✗ déjà publiée « The main story campaign of GTA 6 on PS5 will take about 50 hours and i »
-   8/10 ✓ « À trois jours de la sortie de Grand Theft Auto VI sur PlayStation 5, l »
-   8/10 ✗ déjà publiée « With three days left until Grand Theft Auto VI's release on PlayStatio »
-   5/10 ✓ « 'John Wick' Director's New Action Heist Thriller Beats 'GTA 6' at Its  »
-   8/10 ✓ « GTA 6 codes reportedly being stolen from boxed copies without being op »
-   9/10 ✗ déjà publiée « [Grand Theft Auto VI] Plus de 200 heures pour le platiner? »
-   7/10 ✗ trop faible (mini 9) « I’m taking a week off to play a video game. I can explain »
    9/10 ✓ « 53 fichiers pour 223,09 Go »
-   2/10 ✗ pas une news « Black Friday : il y a encore du stock de PS5 ce week-end et des Switch »
-GAMING · 13 infos retenues, meilleure : « GTA VI Game Length Potentially Leaked By Reviewer » (9/10)
-  article · rockstarintel.com
-  article · 3021 caractères lus
-  photo · 1 image(s) : 1280x720
+GAMING · 14 infos retenues, meilleure : « Latest GTA 6 Interview Confirms New Gameplay Features And Details! » (9/10)
+  photo · échec : image trop petite (48x48)
+  photo · 1 image(s) : 1200x675
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  couverture · photo1 · zoom 1.25 · PAS PROPRE
-  carrousel prêt : « La durée de vie de GTA VI potentiellement fuite » (4 slides)
-  voix · contrôle OK (98%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (14.2 s)
-  reel · 17.8 s · 7 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DfxiSPMF8hR/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfxiVpGEWVd/
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s · texte sans accents ou sans apostrophes : réécriture demandée · gemini-flash-latest : ReadTimeout après 60 s · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 5 s
+  couverture · photo1 · zoom 1.12 · propre
+  carrousel prêt : « Une nouvelle interview confirme de nouveaux détails sur GTA 6 » (3 slides)
+  voix · contrôle OK (97%, essai 1, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (9.2 s)
+  reel · 12.8 s · 5 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DfxplRPGhEr/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfxppE0j20d/
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 1 s
