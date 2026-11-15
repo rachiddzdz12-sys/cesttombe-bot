@@ -19,6 +19,19 @@ X · @FrenchRapUS → refus Apify HTTP 401 : {
     "message": "User was not found or authentication token is not valid"
   }
 }
-0 infos fraîches et jamais traitées (sur 34 lues)
+1 infos fraîches et jamais traitées (sur 34 lues)
 GAMING · aucune info fraîche
-RAP FR · aucune info fraîche
+   9/10 ✓ « SDM & Ninho frappent fort 📈 »
+RAP FR · 1 infos retenues, meilleure : « SDM & Ninho frappent fort 📈 » (9/10)
+  photo · 1 image(s) : 1080x1375
+  visuels · commons_personne « SDM » → 0 image(s)
+  visuels · commons_personne « Ninho » → 0 image(s)
+  couverture · photo1 · zoom 1.6 · PAS PROPRE
+  slide 3 · photo1 : pas de zone parfaitement propre
+  carrousel prêt : « SDM et Ninho numéros 1 du Top 50 Spotify » (4 slides)
+  voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (13.3 s)
+  reel · 16.9 s · 7 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Dfwyh1ZjWD4/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfwyrJzk74x/
+Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 14 s
