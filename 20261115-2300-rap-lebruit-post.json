@@ -1,0 +1,60 @@
+{
+ "categorie": "RAP FR",
+ "source": "@RAPFRACTUS",
+ "credit": "@RapFrActus",
+ "source_affichee": "@RapFrActus (X)",
+ "titre": "Ninho réalise les deux meilleurs démarrages sur Spotify",
+ "mot_cle": "Spotify",
+ "voix_off": "Tu savais que Ninho a écrasé tous les records ? Il réalise les deux meilleurs démarrages de l'année sur Spotify en 24h avec des artistes inédits pour lui. À la première place, Les diamants de bokassa avec Tiakola, suivi de Bantu Mentalité avec SDM à la deuxième position. Tu écoutes ces nouveaux morceaux ?",
+ "visuels": [
+  {
+   "type": "artiste",
+   "nom": "Ninho"
+  }
+ ],
+ "sections": [
+  {
+   "titre": "Classement",
+   "texte": "Ninho décroche la première place avec le morceau Les diamants de bokassa en collaboration avec Tiakola sur la plateforme."
+  },
+  {
+   "titre": "Classement",
+   "texte": "Il s'empare de la deuxième position avec le titre Bantu Mentalité en collaboration avec l'artiste SDM sur Spotify."
+  }
+ ],
+ "slides": [
+  {
+   "rubrique": "Classement",
+   "gros": "",
+   "gros_haut": "Tiakola",
+   "gros_bas": "Les diamants",
+   "sous_titre": "Première place",
+   "texte": "Ninho décroche la première place avec le morceau Les diamants de bokassa en collaboration avec Tiakola sur la plateforme."
+  },
+  {
+   "rubrique": "Classement",
+   "gros": "",
+   "gros_haut": "SDM",
+   "gros_bas": "Bantu Mentalité",
+   "sous_titre": "Seconde place",
+   "texte": "Il s'empare de la deuxième position avec le titre Bantu Mentalité en collaboration avec l'artiste SDM sur Spotify."
+  }
+ ],
+ "legende": "Ninho frappe fort en s'emparant des deux meilleures places de l'année sur Spotify en 24h. 🎧\n\nGlisse pour tout savoir 👉\n\nSource : @RapFrActus (X)\n\n#ninho #tiakola #sdm #rapfr #rapfrancais #actusrap #hiphopfrancais #lebruit",
+ "titre_haut": "Ninho signe les",
+ "titre_bas": "meilleurs démarrages",
+ "rubrique": "Classements",
+ "mots_cles": [
+  "Ninho",
+  "Spotify",
+  "2",
+  "Classement"
+ ],
+ "accroche_couv": "Le carton",
+ "chiffre": "2",
+ "chiffre_texte": "Il signe les deux meilleurs démarrages de l'année sur Spotify en 24h.",
+ "question_haut": "Tu écoutes ces",
+ "question_bas": "nouveaux morceaux ?",
+ "accroche_reel_haut": "Le carton de Ninho",
+ "accroche_reel_bas": "sur Spotify !"
+}

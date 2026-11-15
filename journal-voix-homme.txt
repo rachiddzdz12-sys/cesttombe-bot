@@ -1,0 +1,25 @@
+Mode : test
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @le.bruit.rap (1 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 6 / 100
+Rap · @rap.minute → 12 posts lus
+Rap · @rapfractusofficiel → 12 posts lus
+Rap · @booska_p → 12 posts lus
+X · @RapFrActus → 10 tweets lus, 2 gardés (ce mois : 75 / 9000)
+X · @FrenchRapUS → 10 tweets lus, 3 gardés (ce mois : 90 / 9000)
+X · @Rapunchline → 10 tweets lus, 5 gardés (ce mois : 105 / 9000)
+X · @SpotifyFrance → 10 tweets lus, 7 gardés (ce mois : 120 / 9000)
+Essai ciblé « NINHO a r.alis. les DEUX MEILLEURS » : 1 info(s)
+1 infos fraîches et jamais traitées (sur 1 lues)
+   9/10 ✓ « 🚨NINHO a réalisé les DEUX MEILLEURS DÉMARRAGES DE L’ANNÉE sur Spotify  »
+RAP FR · 1 infos retenues, meilleure : « 🚨NINHO a réalisé les DEUX MEILLEURS DÉMARRAGES DE L’ANNÉE sur Spotify en 24h  » (9/10)
+  photo · 1 image(s) : 1075x1200
+  visuels · deezer « Ninho » → 4 image(s)
+  couverture LE BRUIT · photo1 · plein
+  carrousel prêt : « Ninho réalise les deux meilleurs démarrages sur Spotify » (5 slides)
+  voix · contrôle OK (97%, essai 1, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Charon) (17.7 s)
+  reel LE BRUIT · 21.4 s · 8 plans · voix + musique
+  (hébergement non testé)
+Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 2 s

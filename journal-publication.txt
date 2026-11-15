@@ -1,0 +1,20 @@
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @le.bruit.rap (1 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 0 / 100
+✅ PUBLIÉ : « Ninho réalise les deux meilleurs démarrages de l'année » → https://www.instagram.com/p/DfxyjhRky6X/
+✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfxylP-BQ4M/
+✅ PUBLIÉ : « Booba s'exprime sur la direction artistique de Dayarga » → https://www.instagram.com/p/Dfxy4Avky60/
+✅ REEL PUBLIÉ : https://www.instagram.com/reel/Dfxy6pvhHMY/
+✅ PUBLIÉ : « SDM et Ninho prennent la première place du Top 50 Spotify » → https://www.instagram.com/p/DfxzMWJE9rz/
+✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfxzT7mzY0x/
+Rap · @rap.minute → 12 posts lus
+Rap · @rapfractusofficiel → 12 posts lus
+Rap · @booska_p → 12 posts lus
+X · @RapFrActus → 10 tweets lus, 2 gardés (ce mois : 15 / 9000)
+X · @FrenchRapUS → 10 tweets lus, 3 gardés (ce mois : 30 / 9000)
+X · @Rapunchline → 10 tweets lus, 5 gardés (ce mois : 45 / 9000)
+X · @SpotifyFrance → 10 tweets lus, 7 gardés (ce mois : 60 / 9000)
+  info d'origine marquée vue : « 🚨NINHO a réalisé les DEUX MEILLEURS DÉMARRAGES DE L’ANNÉE sur Spotify  »
+  info d'origine marquée vue : « 🚨 BOOBA S'EXPRIME SUR DAYARGA »
+  info d'origine marquée vue : « SDM & Ninho frappent fort 📈 »
