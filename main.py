@@ -8,6 +8,7 @@
 """
 import json
 import os
+import re
 import sys
 import traceback
 from datetime import datetime, timedelta, timezone
@@ -28,6 +29,9 @@ if COMPTE:
         setattr(config, _cle, _valeur)
     if getattr(config, "IG_USER_ID", None):
         os.environ["IG_USER_ID"] = config.IG_USER_ID
+if os.environ.get("VOIX_GENRE", "").strip().lower() == "homme":     # essai d'une voix d'homme
+    config.VOIX, config.VOIX_SECOURS, config.VOIX_CONSIGNE = (config.VOIX_HOMME, config.VOIX_SECOURS_HOMME,
+                                                              config.VOIX_CONSIGNE_HOMME)
 ETAT = RACINE / (f"etat-{COMPTE}.json" if COMPTE else "etat.json")
 JOURNAL = RACINE / (f"dernier-journal-{COMPTE}.txt" if COMPTE else "dernier-journal.txt")
 SORTIE = RACINE / "sortie"
@@ -220,7 +224,12 @@ def executer():
             diag.append(f"Lancement GTA 6 jusqu'au {config.LANCEMENT_JUSQUA} : {lc['posts_par_jour']} posts/jour "
                         f"maxi, note mini {config.SCORE_MIN}")
         page_gta = getattr(config, "THEME", "") == "GTA"
-        frais = [c for c in cands if c["id"] not in etat["vus"]
+        # essai ciblé (MODE=test) : refaire le rendu d'une info précise, même déjà traitée ou publiée
+        filtre_test = os.environ.get("TEST_FILTRE", "").strip() if test else ""
+        if filtre_test:
+            cands = [c for c in cands if re.search(filtre_test, c['titre'], re.I)]
+            diag.append(f"Essai ciblé « {filtre_test} » : {len(cands)} info(s)")
+        frais = [c for c in cands if (filtre_test or c["id"] not in etat["vus"])
                  and sources.age_heures(c, now_utc) <= config.AGE_MAX_HEURES[c["categorie"]] * facteur_age]
         diag.append(f"{len(frais)} infos fraîches et jamais traitées (sur {len(cands)} lues)")
 
@@ -229,7 +238,7 @@ def executer():
         forcee = {"gaming": "GAMING", "rap": "RAP FR"}.get(os.environ.get("CATEGORIE", "").strip().lower())
         if forcee:   # lancement manuel ciblé sur une catégorie
             ordre = [forcee] + [c for c in ordre if c != forcee and c in config.CATEGORIES]
-        titres_publies = [p["titre"] for p in etat["publies"]]
+        titres_publies = [] if filtre_test else [p["titre"] for p in etat["publies"]]
         vu = lambda c: etat["vus"].__setitem__(c["id"], now_utc.isoformat())
 
         for cat in ordre:
@@ -315,6 +324,9 @@ def executer():
                 medias = preparer_medias(c, photos, prefixe, diag, n_source)
                 fichiers = da3.carrousel(post, medias, SORTIE, prefixe, diag)
                 (SORTIE / f"{prefixe}-legende.txt").write_text(red["legende"], encoding="utf-8")
+                if test:   # le post complet, pour pouvoir refaire un rendu à l'identique
+                    (SORTIE / f"{prefixe}-post.json").write_text(
+                        json.dumps(post, ensure_ascii=False, indent=1, default=str), encoding="utf-8")
                 diag.append(f"  carrousel prêt : « {red['titre']} » ({len(fichiers)} slides)")
                 video = couv_reel = None
                 if config.REELS:

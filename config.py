@@ -22,6 +22,12 @@ VOIX_CONSIGNE = (
     "recording on her phone close to the microphone. Natural and conversational, like telling a friend some news, "
     "with a slight smile in the voice. Lively but relaxed, steady quick rhythm, natural short pauses at punctuation only. "
     "No sound effects, no laughing, no singing, no long silences. Native Parisian French. Never robotic, never over-acted.\n\n#### TRANSCRIPT\n")
+# Essai d'une voix d'homme (VOIX_GENRE=homme, en MODE=test) : même direction, version masculine
+VOIX_HOMME = "gemini:Charon"
+VOIX_SECOURS_HOMME = "fr-FR-HenriNeural"
+VOIX_CONSIGNE_HOMME = (VOIX_CONSIGNE.replace("26-year-old French woman", "27-year-old French man")
+                       .replace("her phone", "his phone").replace("with a slight smile in the voice",
+                                                                    "relaxed and confident, with a slight smile in the voice"))
 VOIX_GEMINI_TEMPO = 1.0
 # contrôle de chaque voix Gemini : réécoutée par une reconnaissance vocale et comparée au texte prévu
 VOIX_ESSAIS = 3                 # voix refaite jusqu'à 3 fois ; ensuite, voix de secours (edge-tts)
