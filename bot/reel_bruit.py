@@ -314,6 +314,7 @@ def groupes(mots, t0, t1):
 
 def fabriquer(post, medias, texte_voix, dossier, prefixe, diag):
     """Renvoie (chemin du Reel .mp4, chemin de la couverture .jpg)."""
+    bb.casse_normale(post)
     from bot.da_bruit import Choix
     dossier = Path(dossier)
     tmp = dossier / f"{prefixe}-reel-bruit"
@@ -404,6 +405,7 @@ def fabriquer(post, medias, texte_voix, dossier, prefixe, diag):
 
 def couverture(post, medias):
     """Image de couverture du Reel (accroche) sans fabriquer la vidéo."""
+    bb.casse_normale(post)
     from bot.da_bruit import Choix
     pool = list(medias.get("images") or [])
     plan = Plan(Choix(pool).prendre(source_dabord=True), 0, 3, post.get("rubrique") or "Breaking news")

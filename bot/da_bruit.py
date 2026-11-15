@@ -236,6 +236,7 @@ def doublon_chiffre(gros, chiffre_post):
 
 def carrousel(post, medias, dossier, prefixe, diag):
     """Renvoie la liste des .jpg dans l'ordre (couverture, chiffre, parties, question)."""
+    bb.casse_normale(post)
     dossier = Path(dossier)
     dossier.mkdir(parents=True, exist_ok=True)
     v = medias.get("video")

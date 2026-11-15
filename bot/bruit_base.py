@@ -1,5 +1,6 @@
 """DA « LE BRUIT » : éléments communs au carrousel et au Reel (couleurs, polices Inter, logo B, arcs violets,
 texte, photos). Noir profond, photos en couleur un peu éteintes, accent violet, petits titres de rubrique."""
+import re
 from functools import lru_cache
 from pathlib import Path
 
@@ -286,3 +287,44 @@ def decouper_chiffre(ch):
         return "N°", "1"
     m = re.match(r"^([×x+\-]?[\d\s,.]+)\s*(.*)$", ch)
     return (m.group(1).strip(), m.group(2).strip()) if m else (ch, "")
+
+
+# ------------------------------------------------------------------ casse
+CHAMPS_TEXTE = ("titre_haut", "titre_bas", "chiffre_texte", "question_haut", "question_bas", "rubrique")
+CHAMPS_SLIDE = ("gros", "gros_haut", "gros_bas", "sous_titre", "texte", "rubrique")
+
+
+def _en_capitales(t):
+    lettres = [c for c in (t or "") if c.isalpha()]
+    return len(lettres) >= 6 and sum(c.isupper() for c in lettres) / len(lettres) > 0.8
+
+
+def casse_normale(post):
+    """Les textes écrits TOUT EN CAPITALES (souvent recopiés d'un tweet « 🚨 NINHO… ») repassent en casse normale :
+    les noms propres reprennent l'écriture vue ailleurs dans le post (Ninho, Spotify, SDM), le reste en minuscules.
+    Modifie le post en place ; sans effet sur un texte déjà normal."""
+    slides = [s for s in (post.get("slides") or post.get("sections") or []) if isinstance(s, dict)]
+    textes = [post.get(c) for c in CHAMPS_TEXTE] + [post.get("legende"), post.get("texte_voix")]
+    textes += [s.get(c) for s in slides for c in CHAMPS_SLIDE]
+    connus = {}
+    for t in textes:
+        if isinstance(t, str) and t and not _en_capitales(t):
+            for m in re.findall(r"[\w'’-]+", t):
+                if any(c.isupper() for c in m):
+                    connus.setdefault(m.lower(), m)
+
+    def corriger(t, suite=False):
+        """suite=True : 2e moitié d'un titre (« … / sur Dayarga »), pas de majuscule forcée au début."""
+        if not isinstance(t, str) or not _en_capitales(t):
+            return t
+        out = re.sub(r"[\w'’-]+", lambda m: connus.get(m.group(0).lower(), m.group(0).lower()), t)
+        return out if suite else out[:1].upper() + out[1:]
+
+    for c in CHAMPS_TEXTE:
+        if c in post:
+            post[c] = corriger(post[c], c.endswith("_bas"))
+    for s in slides:
+        for c in CHAMPS_SLIDE:
+            if c in s:
+                s[c] = corriger(s[c], c.endswith("_bas"))
+    return post

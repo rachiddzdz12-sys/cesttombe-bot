@@ -368,6 +368,11 @@ _lt = _bb.tenir(_long, _bb.police(500, 38), 500, 2)
 check(_bb.unites("Tu valides le morceau ?")[-1] == "morceau ?"
       and not _lt[-1].split()[-1].lower().strip(".…") in _bb.MOTS_VIDES and _lt[-1][-1] in ".…",
       f"LE BRUIT : jamais de « ? » seul en bout de ligne ni de texte coupé sur « de » ({_lt[-1]!r})")
+_pc = _bb.casse_normale({"titre_haut": "NINHO SIGNE LE", "titre_bas": "MEILLEUR DÉMARRAGE", "legende": "Ninho et SDM",
+                         "slides": [{"gros_haut": "SDM", "gros_bas": "BANTU MENTALITÉ", "texte": "Bantu Mentalité"}]})
+check((_pc["titre_haut"], _pc["titre_bas"], _pc["slides"][0]["gros_haut"], _pc["slides"][0]["gros_bas"])
+      == ("Ninho signe le", "meilleur démarrage", "SDM", "Bantu Mentalité"),
+      "LE BRUIT : titres recopiés TOUT EN CAPITALES remis en casse normale (noms propres gardés)")
 _lire2 = reel_bruit.voix.lire
 reel_bruit.voix.lire = lambda texte, dossier, diag: voix_test
 rlb, clb = reel_bruit.fabriquer(post_lb, medias, "SDM et Ninho frappent fort. Le duo prend la tête. Tu valides ?",
