@@ -1,0 +1,1 @@
+Pas de post : publication automatique désactivée (PUBLICATION_AUTO = False dans config.py)

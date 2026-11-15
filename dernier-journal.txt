@@ -2,12 +2,12 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (5 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 2 / 100
+Instagram · posts publiés par l'API sur 24 h : 3 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 100 infos
 Web · GOOGLE NEWS → 100 infos
-Web · BING ACTU → 11 infos
+Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
@@ -17,43 +17,42 @@ Web · GTABASE → 30 infos
 Web · GAMEKULT → 4 infos
 Web · IGN FRANCE → 3 infos
 Web · JEUXVIDEO.COM → 3 infos
-Web · INSIDER GAMING → 4 infos
+Web · INSIDER GAMING → 3 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 3 gardés
-X · @RockstarGames → 10 tweets lus, 1 gardés (ce mois : 1257 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 1272 / 10000)
+X · @RockstarGames → 10 tweets lus, 1 gardés (ce mois : 1287 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 1302 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-225 infos fraîches et jamais traitées (sur 443 lues)
+217 infos fraîches et jamais traitées (sur 443 lues)
    6/10 ✓ « Celebrate GTA Online’s colorful cast of supporting characters with 2X  »
    8/10 ✓ « GTA VI Physical Copies Face Used Code Issues! »
-   7/10 ✓ « Twitch and KICK are giving away over 10,000 copies of GTA VI! »
-   6/10 ✓ « GTA VI Is Still a Mystery Even to Grand Theft Auto's Original Creators »
-   6/10 ✗ déjà publiée « GTA VI Is Still a Mystery Even to Grand Theft Auto's Original Creators »
-   7/10 ✗ déjà publiée « Twitch and KICK are giving away over 10,000 copies of GTA VI! »
-   7/10 ✓ « There's a GTA VI Midnight Launch Event in Miami hosted by @gwrldmedia  »
+   8/10 ✓ « Twitch and KICK are giving away over 10,000 copies of GTA VI! »
+   7/10 ✓ « GTA VI Is Still a Mystery Even to Grand Theft Auto's Original Creators »
+   7/10 ✗ déjà publiée « GTA VI Is Still a Mystery Even to Grand Theft Auto's Original Creators »
+   8/10 ✗ déjà publiée « Twitch and KICK are giving away over 10,000 copies of GTA VI! »
+   5/10 ✗ pas une news « There's a GTA VI Midnight Launch Event in Miami hosted by @gwrldmedia  »
    8/10 ✗ déjà publiée « GTA VI Physical Copies Face Used Code Issues! »
-   8/10 ✓ « Full GTA VI The Album Track List Leaked! »
-   9/10 ✓ « Latest GTA 6 Interview Confirms New Gameplay Features And Details! »
+   9/10 ✓ « Full GTA VI The Album Track List Leaked! »
    8/10 ✓ « First Look at GTA VI's In-Game TV Show 'Macca &amp; Friends'! »
-   4/10 ✗ pas une news « Matty Benedetto of Unnecessary Inventions Builds a Real GTA VI House A »
-   5/10 ✗ pas une news « The final word on Grand Theft Auto VI »
+   4/10 ✗ pas une news « 3 Underrated Florida Rap Songs That Would Be Perfect for ‘GTA VI’ »
+   7/10 ✓ « GTA 6 Publisher Take-Two Makes Statement About GTA 7 And The Franchise »
+   8/10 ✓ « GTA 6 Players Must Work Their Way Up From Small-Time Crimes »
+   9/10 ✓ « GTA 6 : Take-Two refuse de se faire racheter après l'acquisition d'Ele »
+   8/10 ✗ déjà publiée « Les joueurs de GTA 6 devront faire leurs preuves en commençant par de  »
    7/10 ✓ « Avant la sortie de GTA 6, les joueurs de GTA 5 organisent une dernière »
-   8/10 ✓ « GTA 6's Jason and Lucia Will Start as Small-Time Criminals Who Have to »
-   9/10 ✓ « GTA 6 sans mode en ligne au lancement : les annonces de Rockstar et Ta »
-   9/10 ✗ déjà publiée « GTA VI : 50h de jeu rien que pour l’histoire et 200h pour le 100% ! »
+   8/10 ✗ déjà publiée « GTA 6's Jason and Lucia Will Start as Small-Time Criminals Who Have to »
+   8/10 ✓ « GTA 6 sans mode en ligne au lancement : les annonces de Rockstar et Ta »
+   8/10 ✓ « GTA VI : 50h de jeu rien que pour l’histoire et 200h pour le 100% ! »
    7/10 ✓ « “Gaming Is Not a Waste of Time”: Logitech Gives Employees the Day Off  »
-   9/10 ✗ déjà publiée « GTA VI Game Length Potentially Leaked By Reviewer »
-   8/10 ✓ « GTA VI a été comparé à Vice City et a démontré le bond technologique r »
-   9/10 ✓ « 53 fichiers pour 223,09 Go »
-GAMING · 14 infos retenues, meilleure : « Latest GTA 6 Interview Confirms New Gameplay Features And Details! » (9/10)
+GAMING · 13 infos retenues, meilleure : « Full GTA VI The Album Track List Leaked! » (9/10)
   photo · échec : image trop petite (48x48)
   photo · 1 image(s) : 1200x675
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
   couverture · photo1 · zoom 1.12 · propre
-  carrousel prêt : « Une nouvelle interview confirme de nouveaux détails sur GTA 6 » (3 slides)
-  voix · contrôle OK (97%, essai 1, gemini-3.1-flash-tts-preview)
-  voix · Gemini (Aoede) (9.2 s)
-  reel · 12.8 s · 5 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DfxplRPGhEr/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfxppE0j20d/
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 1 s
+  carrousel prêt : « Fuite de la liste complète des musiques de GTA 6 » (3 slides)
+  voix · contrôle OK (99%, essai 1, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (8.5 s)
+  reel · 12.1 s · 5 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DfxwfF8kz1l/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Dfxwl2fHCcn/
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
