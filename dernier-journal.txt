@@ -2,12 +2,12 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (5 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 5 / 100
+Instagram · posts publiés par l'API sur 24 h : 6 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 100 infos
-Web · GOOGLE NEWS → 102 infos
-Web · BING ACTU → 12 infos
+Web · GOOGLE NEWS → 100 infos
+Web · BING ACTU → 11 infos
 Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
@@ -20,40 +20,39 @@ Web · JEUXVIDEO.COM → 3 infos
 Web · INSIDER GAMING → 2 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 3 gardés
-X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 1347 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 1362 / 10000)
+X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 1377 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 1392 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-202 infos fraîches et jamais traitées (sur 443 lues)
-   8/10 ✓ « Twitch and KICK are giving away over 10,000 copies of GTA VI! »
+200 infos fraîches et jamais traitées (sur 440 lues)
    6/10 ✓ « GTA VI Is Still a Mystery Even to Grand Theft Auto's Original Creators »
    6/10 ✗ déjà publiée « GTA VI Is Still a Mystery Even to Grand Theft Auto's Original Creators »
-   8/10 ✗ déjà publiée « Twitch and KICK are giving away over 10,000 copies of GTA VI! »
+   9/10 ✗ déjà publiée « Twitch and KICK are giving away over 10,000 copies of GTA VI! »
    8/10 ✗ déjà publiée « GTA VI Physical Copies Face Used Code Issues! »
-   7/10 ✓ « First Look at GTA VI's In-Game TV Show 'Macca &amp; Friends'! »
-   7/10 ✓ « PlayStation : Amazon voit ses ventes de PS5 et de ses accessoires s’en »
-   6/10 ✓ « [Podcasts] Le 3216 RMC : Sortie de GTA VI, avez-vous prévu des congés  »
-   4/10 ✗ pas une news « GTA VI sur PS5 ou Xbox : faut-il vraiment payer un abonnement en plus  »
-   3/10 ✗ pas une news « GTA 6 code already used, missing or invalid? What to do on PS5 and Xbo »
-   8/10 ✓ « « Je ne travaille pas, j’ai GTA VI » : ces salariés qui prennent des j »
-   7/10 ✓ « Crimes, bolides et provocation: le sulfureux itinéraire de «GTA», de r »
-   8/10 ✓ « Le choix de la rédaction : GTA VI, véritable phénomène de société... l »
-   5/10 ✗ pas une news « GTA 6 isn’t even here yet and people are already getting EMOTIONAL say »
-   7/10 ✓ « GTA VI a-t-il vraiment coûté plus d’un milliard de dollars ? »
-   6/10 ✓ « Pourquoi «GTA VI» est le jeu vidéo le plus attendu de tous les temps »
-   6/10 ✓ « PS5 jailbreak progress made on latest firmware 14.22, days before GTA  »
-   7/10 ✓ « GTA VI: le jeu jackpot… et les absences programmées »
-   2/10 ✗ pas une news « What to Stream: 'GTA VI,' 'Always Lalisa,' 'The Altruists' and 'Steps' »
-   2/10 ✗ pas une news « What to Stream: 'GTA VI,' 'Always Lalisa,' 'The Altruists' and 'Steps' »
-   1/10 ✗ pas une news « News & Commentary: November 15, 2026 »
-GAMING · 12 infos retenues, meilleure : « Twitch and KICK are giving away over 10,000 copies of GTA VI! » (8/10)
+   8/10 ✓ « First Look at GTA VI's In-Game TV Show 'Macca &amp; Friends'! »
+   8/10 ✓ « Les sorties jeux vidéo de la semaine du 16 novembre (GTA 6, Milki Deli »
+   8/10 ✓ « GTA 6 : la relation entre Jason et Lucia peut changer et même ne plus  »
+   3/10 ✗ pas une news « GTA 6 Will Be a Test of Endurance »
+   4/10 ✗ pas une news « GTA VI : une sortie très attendue par les fans »
+   2/10 ✗ pas une news « GTA VI arrive : notre sélection de consoles reconditionnées pour jouer »
+   3/10 ✗ pas une news « Following a year of delays, Grand Theft Auto VI is nearly here »
+   6/10 ✓ « Suisse. Sortie de GTA 6 : des joueurs posent des vacances pour pouvoir »
+   6/10 ✓ « GTA 6 : de nombreux salariés sont prêts à poser congé pour jouer, les  »
+   7/10 ✓ « Jeu vidéo GTA: de la radio aux plateformes de streaming, son incroyabl »
+   6/10 ✓ « Il n’y a pas que les joueurs qui devront s’organiser pour la sortie de »
+   7/10 ✓ « Pourquoi la Grotti Cheetah, vraie voiture du jeu vidéo GTA 6, risque d »
+   3/10 ✗ pas une news « GTA VI, un jeu pour relancer la partie »
+   6/10 ✓ « PlayStation : Amazon voit ses ventes de PS5 et de ses accessoires s’en »
+   4/10 ✗ pas une news « [Podcasts] Le 3216 RMC : Sortie de GTA VI, avez-vous prévu des congés  »
+   8/10 ✓ « GTA VI : plus de 200 heures pour obtenir le platine ? »
+GAMING · 11 infos retenues, meilleure : « First Look at GTA VI's In-Game TV Show 'Macca &amp; Friends'! » (8/10)
   photo · échec : image trop petite (48x48)
   photo · 1 image(s) : 1200x675
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  couverture · photo1 · zoom 1.0 · PAS PROPRE
-  carrousel prêt : « Twitch et Kick offrent plus de 10 000 copies de GTA 6 » (3 slides)
-  voix · contrôle OK (96%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (9.7 s)
-  reel · 13.3 s · 5 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Dfyq8h3IGQP/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfyrCVvjkE9/
-Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s · texte sans accents ou sans apostrophes : réécriture demandée · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : ReadTimeout après 60 s · gemini-flash-lite-latest : réponse en 2 s
+  couverture · photo1 · zoom 1.12 · PAS PROPRE
+  carrousel prêt : « Découverte de l'émission Macca & Friends dans GTA VI » (3 slides)
+  voix · contrôle OK (97%, essai 1, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (13.2 s)
+  reel · 16.8 s · 7 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DfyxrRTCTjB/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Dfyxu6CDFcF/
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
