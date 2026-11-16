@@ -2,11 +2,11 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (5 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 12 / 100
+Instagram · posts publiés par l'API sur 24 h : 13 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 100 infos
-Web · GOOGLE NEWS → 102 infos
+Web · GOOGLE NEWS → 104 infos
 Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
@@ -14,49 +14,46 @@ Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
-Web · GAMEKULT → 4 infos
+Web · GAMEKULT → 5 infos
 Web · IGN FRANCE → 10 infos
 Web · JEUXVIDEO.COM → 2 infos
 Web · INSIDER GAMING → 4 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 2 gardés
-X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 1827 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 1842 / 10000)
+X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 1857 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 1872 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-249 infos fraîches et jamais traitées (sur 450 lues)
-   6/10 ✓ « GTA VI Hacker Pleads Guilty To All Crimes! »
+247 infos fraîches et jamais traitées (sur 453 lues)
    6/10 ✗ déjà publiée « Another GTA VI patch is rolling out! »
-   5/10 ✗ déjà publiée « GTA VI Is Still a Mystery Even to Grand Theft Auto's Original Creators »
-   7/10 ✗ déjà publiée « Twitch and KICK are giving away over 10,000 copies of GTA VI! »
-   7/10 ✗ déjà publiée « GTA VI Physical Copies Face Used Code Issues! »
-   6/10 ✓ « GTA 6 Should Help Boost PS5 And Xbox Sales, But Their Astronomical Pri »
-   2/10 ✗ pas une news « The DualSense Edge is taking a very rare discount as GTA 6 downloads o »
-   9/10 ✗ déjà publiée « ‘GTA 6’ officially launches next week and is available for pre-load no »
-   8/10 ✓ « Jeux vidéos : GTA 6 sort le 19 novembre, congés massifs, milliards de  »
-   7/10 ✓ « Le leaker de GTA qui a révélé l’existence de Lucia — après avoir pirat »
-   7/10 ✓ « "Des émotions artificielles": est-ce qu'on en fait trop avec la sortie »
-   8/10 ✓ « GTA 6 is Close to 15 Million Sold and $1.5 Billion Revenue – Rumor »
-   6/10 ✓ « GTA 6 plus dangereux que le Beaujolais nouveau ? Cette comparaison lun »
-   7/10 ✓ « NBA 2K27 intègre des cosmétiques inspirés de GTA 6 et Vice City, et bi »
-   7/10 ✗ déjà publiée « NBA 2K27 intègre des cosmétiques inspirés de GTA 6 et Vice City, et bi »
-   8/10 ✓ « GTA 6 tourne à 30 images par seconde même sur PS5 Pro, voici pourquoi  »
-   1/10 ✗ pas une news « GTA keeps dropping in Spurs championship seasons, and GTA VI could be  »
-   6/10 ✓ « Sortie de GTA VI : « Nous refusons que la dématérialisation des jeux v »
-   7/10 ✓ « Le phénomène GTA VI prend une nouvelle dimension »
-   7/10 ✓ « GTA VI est-il le produit culturel ultime ?: on vous explique pourquoi  »
-   4/10 ✗ trop faible (mini 9) « Star Wars Galactic Racer : Un mode multijoueur local en écran partagé  »
-   6/10 ✗ trop faible (mini 9) « Unbound, le studio de Shinji Mikami, prévoit la sortie de son premier  »
-   6/10 ✗ trop faible (mini 9) « Un jeu AAA Blade Runner est en discussion avec les ayants droits de la »
-GAMING · 12 infos retenues, meilleure : « Jeux vidéos : GTA 6 sort le 19 novembre, congés massifs, milliards de dollars et » (8/10)
-  article · francetransactions.com
-  article · 6000 caractères lus
-  photo · 1 image(s) : 1300x867
+   7/10 ✓ « GTA VI Hacker Pleads Guilty To All Crimes! »
+   6/10 ✗ déjà publiée « Another GTA VI patch is rolling out! »
+   7/10 ✗ déjà publiée « GTA VI Is Still a Mystery Even to Grand Theft Auto's Original Creators »
+   8/10 ✗ déjà publiée « Twitch and KICK are giving away over 10,000 copies of GTA VI! »
+   8/10 ✗ déjà publiée « GTA VI Physical Copies Face Used Code Issues! »
+   6/10 ✓ « “Certains partent à Tenerife, moi, à Vice City” : les Français du mond »
+   2/10 ✗ pas une news « Sell The GTA VI Hype - Take-Two’s Moat Is Shrinking (NASDAQ:TTWO) »
+   6/10 ✓ « With the launch of "Grand Theft Auto VI" around the corner, Take-Two I »
+   7/10 ✓ « GTA 6 Hacker Pleads Guilty Just Three Days Before Release After Costin »
+   9/10 ✓ « Gamers racing to pre-load ‘GTA VI’ shatter internet traffic records, c »
+   5/10 ✗ pas une news « Forget Zelda: GTA VI Is Here to Shock the Gaming World! »
+   8/10 ✓ « GTA 6 launches Thursday and workers are calling out sick »
+   3/10 ✗ pas une news « What to stream and play: ‘GTA VI,’ ‘Always Lalisa,’ ‘The Altruists’ »
+   1/10 ✗ pas une news « Les gamers n’en reviennent pas : le célèbre jeu GTA 6 sur PS5 est à pr »
+   7/10 ✗ déjà publiée « GTA 6 : pourquoi la violence et la drogue ne suffisent plus à faire de »
+   7/10 ✓ « GTA 6 studio head: "I'd never want to rebuild a city, I think that wou »
+   7/10 ✗ déjà publiée « Ultime bafouille - GTA 6 : pourquoi la violence et la drogue ne suffis »
+   5/10 ✓ « GTA 6 could make gaming history. Its mature rating should give parents »
+   7/10 ✗ déjà publiée « GTA 6 Hacker Pleads Guilty To Stealing And Leaking Gameplay Footage »
+GAMING · 8 infos retenues, meilleure : « Gamers racing to pre-load ‘GTA VI’ shatter internet traffic records, cause slowd » (9/10)
+  article · nypost.com
+  article · 3236 caractères lus
+  photo · 1 image(s) : 1200x799
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
   couverture · photo1 · zoom 1.4 · PAS PROPRE
-  carrousel prêt : « GTA 6 sort le 19 novembre aux États-Unis » (5 slides)
-  voix · contrôle OK (97%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (14.8 s)
-  reel · 18.4 s · 7 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Dfz5_aQF-y_/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Dfz6DCcESCx/
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : réponse en 2 s
+  carrousel prêt : « Les preloads de GTA VI affolent le trafic internet mondial » (4 slides)
+  voix · contrôle OK (96%, essai 1, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (15.6 s)
+  reel · 19.2 s · 8 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Df0A8dxjT3C/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df0BAY_jXFW/
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s
