@@ -2,13 +2,13 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (5 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 7 / 100
+Instagram · posts publiés par l'API sur 24 h : 8 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 100 infos
-Web · GOOGLE NEWS → 100 infos
+Web · GOOGLE NEWS → 102 infos
 Web · BING ACTU → 12 infos
-Web · BING ACTU VI → 11 infos
+Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
@@ -17,44 +17,43 @@ Web · GTABASE → 30 infos
 Web · GAMEKULT → 4 infos
 Web · IGN FRANCE → 3 infos
 Web · JEUXVIDEO.COM → 3 infos
-Web · INSIDER GAMING → 2 infos
+Web · INSIDER GAMING → 4 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 3 gardés
-X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 1407 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 1422 / 10000)
+X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 1437 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 1452 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-200 infos fraîches et jamais traitées (sur 440 lues)
+196 infos fraîches et jamais traitées (sur 445 lues)
    6/10 ✓ « GTA VI Is Still a Mystery Even to Grand Theft Auto's Original Creators »
    6/10 ✗ déjà publiée « GTA VI Is Still a Mystery Even to Grand Theft Auto's Original Creators »
    8/10 ✗ déjà publiée « Twitch and KICK are giving away over 10,000 copies of GTA VI! »
-   7/10 ✗ déjà publiée « GTA VI Physical Copies Face Used Code Issues! »
-   8/10 ✗ déjà publiée « GTA VI Soundtrack Tracklist Leaks Ahead of November 19 Game Launch »
-   4/10 ✗ pas une news « Countdown to GTA VI: Survival tips for the biggest release in over a d »
-   8/10 ✗ déjà publiée « Rockstar dote « GTA VI » de son propre dessin animé, « Macca & Friends »
-   8/10 ✗ déjà publiée « Rockstar Gives ‘GTA VI’ an In-Universe Cartoon Called ‘Macca & Friends »
-   7/10 ✓ « Le parti-pris : La sortie événement de GTA VI, "Prétendre que ce jeu,  »
-   7/10 ✓ « GTA VI, interdiction de vente évitée de justesse en Corée du Sud pour  »
-   6/10 ✓ « Game Awards 2026: GTA VI nommé avant sa sortie ? »
-   7/10 ✓ « GTA 6 à J-3 : les joueurs de GTA Online vont-ils vraiment abandonner L »
-   8/10 ✓ « Sorties jeux vidéo de la semaine du 16 novembre : GTA 6 écrase tout, m »
-   7/10 ✓ « Out this week: Grand Theft Auto VI, POPUCOM, Ranger’s Path: National P »
-   5/10 ✗ pas une news « Cette bande-annonce F1 de Canal+ a tout d'un trailer de GTA 6 »
-   8/10 ✓ « Ces Romands qui prévoient de mettre leur vie sur pause pour «GTA VI» »
-   8/10 ✓ « Les sorties jeux vidéo de la semaine du 16 novembre (GTA 6, Milki Deli »
-   8/10 ✗ déjà publiée « Les sorties jeux vidéo de la semaine du 16 novembre (GTA 6, Milki Deli »
-   8/10 ✓ « GTA 6 : la relation entre Jason et Lucia peut changer et même ne plus  »
-   8/10 ✗ déjà publiée « Suisse. Sortie de GTA 6 : des joueurs posent des vacances pour pouvoir »
-   3/10 ✗ pas une news « Super Meat Boy Again+, une version améliorée et enrichie du platformer »
-GAMING · 10 infos retenues, meilleure : « Sorties jeux vidéo de la semaine du 16 novembre : GTA 6 écrase tout, mais d'autr » (8/10)
-  article · big-n.fr
-  article · 2526 caractères lus
-  photo · 1 image(s) : 889x500
+   8/10 ✗ déjà publiée « GTA VI Physical Copies Face Used Code Issues! »
+   8/10 ✗ déjà publiée « GTA 6 Leak Seemingly Reveals Official Album's Full Track List Days Bef »
+   8/10 ✓ « GTA 6 Will Encourage Empathy, Rockstar Says »
+   8/10 ✗ déjà publiée « GTA 6 Encourages Empathy Since “It’s A Product of the Story We’re Tryi »
+   4/10 ✗ pas une news « GTA 6 : EA supplie les joueurs de ne pas désinstaller Madden NFL 27 »
+   5/10 ✓ « Rob Run : c’est quoi ce jeu GTA like gratuit qui cartonne sur Steam av »
+   7/10 ✓ « À Miami, GTA VI s’affiche partout et les fans comptent les heures »
+   7/10 ✓ « How Much Time Do You Need To Download ‘GTA 6’? Find Out Here »
+   7/10 ✗ déjà publiée « 'GTA 6': 3 intriguing new details we just learned »
+   9/10 ✓ « Fini la violence gratuite ? GTA 6 opère un changement historique qui v »
+   9/10 ✓ « All tech eyes on Grand Theft Auto VI release Thursday »
+   9/10 ✗ déjà publiée « GTA VI Countdown: 212 GB Install, $1.09B Pre-Sales »
+   6/10 ✗ pas une news « How to Play GTA 6 Early on XBOX With New Zealand Trick—All Time Zones, »
+   6/10 ✗ pas une news « How to Play GTA 6 Early on PS5 With New Zealand Trick—All Time Zones,  »
+   5/10 ✗ pas une news « Is GTA 6 Out Now? Grand Theft Auto 6 Launch Day Tracker »
+   5/10 ✓ « Korea's Largest Game Show G-STAR and Most Anticipated Title GTA 6 Arri »
+   8/10 ✓ « GTA 6 UK Release Time, Price and the Rockstar North Story »
+GAMING · 9 infos retenues, meilleure : « Fini la violence gratuite ? GTA 6 opère un changement historique qui va faire de » (9/10)
+  article · journaldugeek.com
+  article · 2760 caractères lus
+  photo · 1 image(s) : 1600x900
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  couverture · photo1 · zoom 1.0 · PAS PROPRE
-  carrousel prêt : « Sortie historique de GTA 6 et nouveautés de la semaine » (4 slides)
+  couverture · photo1 · zoom 1.0 · propre
+  carrousel prêt : « GTA 6 opère un changement historique sur la violence » (4 slides)
   voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (14.2 s)
-  reel · 17.8 s · 7 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Dfy44aJjsuw/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Dfy4-5kjMth/
-Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s · texte sans accents ou sans apostrophes : réécriture demandée · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : ReadTimeout après 60 s · gemini-flash-lite-latest : réponse en 2 s
+  voix · Gemini (Aoede) (12.8 s)
+  reel · 16.4 s · 7 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Dfy_dd5iffZ/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Dfy_i6Ika_0/
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
