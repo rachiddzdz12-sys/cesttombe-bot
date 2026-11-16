@@ -1,0 +1,45 @@
+name: Diagnostic Gemini (modèles qui répondent)
+
+on:
+  push:
+    branches: [diag-gemini]
+
+permissions:
+  contents: read
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Modèles Gemini disponibles et test de réponse
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python3 - <<'PY'
+          import os, time, requests
+          cle = os.environ["GEMINI_API_KEY"]
+          h = {"x-goog-api-key": cle}
+          noms, tok = [], None
+          while True:
+              r = requests.get("https://generativelanguage.googleapis.com/v1beta/models", headers=h,
+                               params={"pageSize": 200, **({"pageToken": tok} if tok else {})}, timeout=30).json()
+              for m in r.get("models", []):
+                  if "generateContent" in m.get("supportedGenerationMethods", []):
+                      noms.append(m["name"].split("/", 1)[1])
+              tok = r.get("nextPageToken")
+              if not tok:
+                  break
+          print("MODÈLES :", ", ".join(noms))
+          test = [n for n in noms if ("flash" in n or "gemma" in n) and not any(x in n for x in ("tts", "image", "audio", "live", "embedding", "native", "robotics", "computer"))]
+          for n in test:
+              t = time.time()
+              try:
+                  r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{n}:generateContent", headers=h,
+                                    json={"contents": [{"role": "user", "parts": [{"text": "Réponds en JSON {\"ok\": true}"}]}],
+                                          "generationConfig": {"responseMimeType": "application/json"}} if "gemma" not in n else
+                                         {"contents": [{"role": "user", "parts": [{"text": "Dis juste OK"}]}]}, timeout=60)
+                  print(f"{r.status_code}  {time.time()-t:5.1f}s  {n}  {r.text[:90].replace(chr(10),' ') if r.status_code != 200 else ''}")
+              except Exception as ex:
+                  print(f"ERR  {time.time()-t:5.1f}s  {n}  {type(ex).__name__}")
+          PY
