@@ -2,12 +2,12 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (5 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 10 / 100
+Instagram · posts publiés par l'API sur 24 h : 11 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 100 infos
 Web · GOOGLE NEWS → 102 infos
-Web · BING ACTU → 12 infos
+Web · BING ACTU → 11 infos
 Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
@@ -20,41 +20,42 @@ Web · JEUXVIDEO.COM → 3 infos
 Web · INSIDER GAMING → 3 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 3 gardés
-X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 1497 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 1512 / 10000)
+X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 1527 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 1542 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-197 infos fraîches et jamais traitées (sur 445 lues)
-   6/10 ✓ « GTA VI Is Still a Mystery Even to Grand Theft Auto's Original Creators »
-   6/10 ✗ déjà publiée « GTA VI Is Still a Mystery Even to Grand Theft Auto's Original Creators »
+197 infos fraîches et jamais traitées (sur 444 lues)
+   6/10 ✗ déjà publiée « Another GTA VI patch is rolling out! »
+   7/10 ✓ « GTA VI Is Still a Mystery Even to Grand Theft Auto's Original Creators »
+   7/10 ✗ déjà publiée « GTA VI Is Still a Mystery Even to Grand Theft Auto's Original Creators »
    8/10 ✗ déjà publiée « Twitch and KICK are giving away over 10,000 copies of GTA VI! »
    8/10 ✗ déjà publiée « GTA VI Physical Copies Face Used Code Issues! »
-   5/10 ✓ « Un Zelda ambiance Vice City : ce petit malin lance son propre "GTA" la »
-   7/10 ✓ « A GTA 6 Fan Booked a Hotel for a Week to Play and His Wife Is Not Happ »
-   7/10 ✓ « Il y aura de l’empathie dans GTA 6 : qu’est-ce que ça change ? »
-   6/10 ✓ « APPEL À TÉMOIGNAGES GTA VI arrive après 13 ans d’attente : congés posé »
-   8/10 ✓ « New GTA VI Update Released And Not Everyone Has Gotten It, Here’s Why »
-   8/10 ✓ « GTA 6 Main Story and Platinum Trophy Completion Times Surface Online »
-   6/10 ✓ « GTA 6 Official Projections Spell Disaster For Avengers: Doomsday »
-   7/10 ✓ « KFC Holds Funeral For "Ann Alibi" At Robina On GTA VI Launch Day, With »
-   7/10 ✓ « Anticipation grows ahead of 'Grand Theft Auto VI' release »
-   7/10 ✓ « 'GTA VI' digital only: Why is the decade's biggest game not on disc? »
-   8/10 ✗ déjà publiée « GTA 6 Free Code Giveaway Officially Announced By Rockstar Games »
-   9/10 ✓ « Avec cette astuce, les joueurs Xbox pourront jouer à GTA VI dès mercre »
-   9/10 ✗ déjà publiée « GTA 6 : comment y jouer dès mercredi midi, un jour avant la sortie off »
-   6/10 ✓ « « Grand Theft Auto VI » : Pourquoi GTA V est son meilleur allié, et so »
-   8/10 ✓ « "Elle a un peu les boules, mais...": femme et enfant priés de partir,  »
-   9/10 ✓ « Sorties JV : GTA VI, Ranger's Path: National Park Simulator (PC, PS5,  »
-   5/10 ✗ trop faible (mini 9) « Fable : La carte de Bowerstone a été dévoilée, avec plein de détails s »
-   4/10 ✗ trop faible (mini 9) « DokeV ne sortira qu’en 2028, mais il pourrait donner des nouvelles ava »
-   5/10 ✗ trop faible (mini 9) « Pearl Abyss (Crimson Desert) utilise l’IA à plusieurs étapes du dévelo »
-GAMING · 15 infos retenues, meilleure : « New GTA VI Update Released And Not Everyone Has Gotten It, Here’s Why » (8/10)
-  photo · 2 image(s) : 1024x576, 1280x720
-  visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  couverture · photo2 · zoom 1.0 · propre
-  carrousel prêt : « Nouvelle mise à jour pour GTA VI sur PS5 et Xbox » (4 slides)
-  voix · contrôle OK (99%, essai 1, gemini-3.1-flash-tts-preview)
-  voix · Gemini (Aoede) (17.4 s)
-  reel · 21.0 s · 8 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DfzNW2jF02f/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfzNa9LGwIn/
-Gemini : gemini-flash-lite-latest : réponse en 3 s · gemini-flash-lite-latest : réponse en 2 s
+   7/10 ✓ « GTA 6 release may trigger sick calls from gamers »
+   7/10 ✓ « [Podcasts] GTA VI, un quart des salariés joueurs ont posé un RTT : nav »
+   7/10 ✓ « GTA 6 et les réseaux : Orange encaisse le pré-téléchargement, Virgin M »
+   7/10 ✗ déjà publiée « L’histoire de GTA 6 pourrait durer environ 50 heures, et obtenir le pl »
+   7/10 ✗ déjà publiée « GTA 6’s story could take around 50 hours to complete, and earning the  »
+   6/10 ✓ « RTT pour jouer à GTA VI : "C'est navrant", souffle Jean-Philippe Doux »
+   8/10 ✓ « "C'est négocié depuis longtemps!": famille priée de partir, congès...  »
+   9/10 ✓ « ‘Grand Theft Auto VI’ could be biggest entertainment launch ever »
+   2/10 ✗ pas une news « Jouez à Grand Theft Auto VI dès sa sortie pour 163,98 $ avec une Xbox  »
+   2/10 ✗ pas une news « Play Grand Theft Auto VI at launch for $163,98 with a used Xbox One S. »
+   7/10 ✓ « 'GTA 6': 3 intriguing new details we just learned »
+   7/10 ✓ « GTA 6 ‘Free Download’ Trap Targets Crypto Wallets Days Before Launch »
+   3/10 ✗ pas une news « Comment jouer à GTA 6 avant tout le monde ? Il existe une astuce simpl »
+   7/10 ✗ déjà publiée « Physical GTA 6 Buyers Are Claiming They Aren’t Getting The Codes In Bo »
+   3/10 ✗ pas une news « GTA 6 est introuvable en magasin, mais ce site propose encore quelques »
+   2/10 ✗ pas une news « Welcome to 'Grandthropic', the Day the Gaming and AI Industries Get Te »
+   2/10 ✗ pas une news « PS5 Slim, Digital ou Pro : laquelle est faite pour vous ? »
+GAMING · 9 infos retenues, meilleure : « ‘Grand Theft Auto VI’ could be biggest entertainment launch ever » (9/10)
+  article · modernghana.com
+  article · 2581 caractères lus
+  photo · aucune image
+  visuels · steam « Grand Theft Auto VI » → 3 image(s)
+  couverture · photo3 · zoom 1.4 · propre
+  carrousel prêt : « Grand Theft Auto VI pourrait battre tous les records » (3 slides)
+  voix · contrôle OK (100%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (7.9 s)
+  reel · 11.5 s · 5 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DfzUK5TF4yV/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfzUO5MlErA/
+Gemini : gemini-flash-lite-latest : réponse en 8 s · gemini-flash-lite-latest : réponse en 2 s · texte sans accents ou sans apostrophes : réécriture demandée · gemini-flash-latest : ReadTimeout après 60 s · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s
