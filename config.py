@@ -154,9 +154,11 @@ GEMINI_API_KEY_DANS_LE_CODE = ""  # vide : la clé est dans le secret GitHub GEM
 
 # ------------------------------------------------------------------ technique
 GRAPH = "https://graph.facebook.com/v25.0"
-# flash-lite d'abord : rapide et rarement saturé ; flash en secours
-GEMINI_MODELES = [m for m in [os.environ.get("GEMINI_MODEL"), "gemini-flash-lite-latest",
-                              "gemini-flash-latest"] if m]
+# flash-lite d'abord : rapide et rarement saturé ; flash en secours ; puis des modèles nommés, car les alias
+# « -latest » peuvent rester saturés des heures (16/11 : 503 de 15h à 18h, plus aucun post sur les 2 pages)
+GEMINI_MODELES = [m for m in [os.environ.get("GEMINI_MODEL"), "gemini-flash-lite-latest", "gemini-flash-latest",
+                              "gemini-3.5-flash-lite", "gemini-3-flash-preview", "gemini-3.1-flash-lite",
+                              "gemini-3.5-flash"] if m]
 USER_AGENT = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
               "(KHTML, like Gecko) Chrome/130.0 Safari/537.36")
 MAX_SLIDES = 10
