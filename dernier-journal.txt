@@ -2,7 +2,7 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (7 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 13 / 100
+Instagram · posts publiés par l'API sur 24 h : 14 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 100 infos
@@ -16,46 +16,44 @@ Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
 Web · GAMEKULT → 5 infos
 Web · IGN FRANCE → 10 infos
-Web · JEUXVIDEO.COM → 2 infos
-Web · INSIDER GAMING → 5 infos
+Web · JEUXVIDEO.COM → 3 infos
+Web · INSIDER GAMING → 4 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 2 gardés
-X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 1887 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 1902 / 10000)
+X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 1917 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 1932 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-253 infos fraîches et jamais traitées (sur 452 lues)
-   8/10 ✗ déjà publiée « Another GTA VI patch is rolling out! »
-   7/10 ✓ « GTA VI Hacker Pleads Guilty To All Crimes! »
-   8/10 ✗ déjà publiée « Another GTA VI patch is rolling out! »
+247 infos fraîches et jamais traitées (sur 452 lues)
+   6/10 ✗ déjà publiée « Another GTA VI patch is rolling out! »
+   6/10 ✗ déjà publiée « Another GTA VI patch is rolling out! »
    6/10 ✗ déjà publiée « GTA VI Is Still a Mystery Even to Grand Theft Auto's Original Creators »
-   8/10 ✗ déjà publiée « Twitch and KICK are giving away over 10,000 copies of GTA VI! »
-   8/10 ✗ déjà publiée « GTA VI Physical Copies Face Used Code Issues! »
-   7/10 ✗ déjà publiée « GTA 6 leaker pleads guilty: the hack, the cost and the court case »
+   7/10 ✗ déjà publiée « Twitch and KICK are giving away over 10,000 copies of GTA VI! »
+   7/10 ✗ déjà publiée « GTA VI Physical Copies Face Used Code Issues! »
+   5/10 ✓ « GTA VI release could cost Arizonans $6.1M in lost wages, study shows »
+   2/10 ✗ pas une news « Comment jouer à GTA 6 avant tout le monde sur Xbox Series ? »
+   3/10 ✗ pas une news « The viral ‘Grand Theft Auto VI’ vs. ‘GTA V’ trend, but make it Philly  »
+   4/10 ✗ pas une news « Carrefour liquide déjà ses stocks GTA 6 : voici la meilleure offre du  »
+   6/10 ✗ déjà publiée « GTA 6 Hacker Pleads Guilty: 90 Clips, $5M Rockstar Cost »
+   2/10 ✗ pas une news « GTA 6: First-Mode Explained »
+   7/10 ✓ « Trois jours avant sa sortie, GTA 6 remplit les rayons PS5, mais devien »
+   6/10 ✓ « Everything to know about the ‘GTA 6’ album »
+   8/10 ✗ déjà publiée « Take-Two CEO Refuses to Hype GTA 6 or Apologise for the Violence »
+   7/10 ✗ déjà publiée « Some GTA 6 Boxes Reportedly Arrive With No Working Code: What To Do »
+   6/10 ✓ « Some gamers may call out sick to play GTA VI on Thursday »
+   7/10 ✗ déjà publiée « GTA VI’s total game length revealed; getting your money’s worth »
+   6/10 ✗ déjà publiée « GTA VI Hacker Pleads Guilty To 2022 Rockstar Games Breach »
+   6/10 ✗ déjà publiée « GTA 6 leaker pleads guilty: the hack, the cost and the court case »
    6/10 ✓ « How ‘GTA VI’ Got Its Vice City Sound »
-   7/10 ✓ « Discord teams up with Rockstar for Vice City theme to celebrate GTA 6  »
-   5/10 ✗ pas une news « How to Play GTA 6 Early With New Zealand Trick – Release Times Explain »
-   7/10 ✓ « Face à GTA 6, ces développeurs supplient les joueurs de ne pas s'enfui »
-   7/10 ✗ déjà publiée « GTA 6 leaker pleads guilty to Nvidia, Uber, Microsoft hacks »
-   9/10 ✓ « GTA 6 fever: millions plan to skip work as preorders top $1 billion »
-   8/10 ✓ « Professor cancels homework and exams during GTA 6 launch week »
-   7/10 ✓ « ‘Grand Theft Auto VI’ is almost here. What to know about the character »
-   8/10 ✓ « Holiday requests surge for 'GTA VI' release day »
-   6/10 ✓ « Two Miami hotspots bring Grand Theft Auto VI’s Vice City to life »
-   5/10 ✓ « NBA 2K27 Brings A Slice Of GTA 6's Vice City To Switch 2 This Month »
-   5/10 ✓ « NBA 2K27 Season 3 Brings in Vice City »
-   6/10 ✓ « Après Miami, la Riviera à la sauce « GTA » ? La Prom’, La Croisette, S »
-GAMING · 12 infos retenues, meilleure : « GTA 6 fever: millions plan to skip work as preorders top $1 billion » (9/10)
-  article · ynetnews.com
-  article · 0 caractères lus
-  ⏭️ article illisible, info écartée : « GTA 6 fever: millions plan to skip work as preorders top $1  »
-  photo · échec : image trop petite (48x48)
-  photo · 1 image(s) : 1200x675
+GAMING · 5 infos retenues, meilleure : « Trois jours avant sa sortie, GTA 6 remplit les rayons PS5, mais devient presque  » (7/10)
+  article · xboxygen.com
+  article · 6000 caractères lus
+  photo · 1 image(s) : 1280x720
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  couverture · photo1 · zoom 1.0 · propre
-  carrousel prêt : « Le hacker de GTA 6 plaidé coupable » (3 slides)
-  voix · contrôle OK (98%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (11.0 s)
-  reel · 14.6 s · 6 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Df0HkxVCeFC/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df0Hoj5DXAF/
-Gemini : gemini-flash-lite-latest : réponse en 8 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 9 s
+  couverture · photo1 · zoom 1.25 · propre
+  carrousel prêt : « GTA 6 invisible sur Xbox mais présent sur PS5 » (4 slides)
+  voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (13.9 s)
+  reel · 17.5 s · 7 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Df0OYLQCZML/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df0ObWmnEW3/
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
