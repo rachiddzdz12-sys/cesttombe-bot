@@ -2,7 +2,7 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (5 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 8 / 100
+Instagram · posts publiés par l'API sur 24 h : 9 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 100 infos
@@ -15,45 +15,47 @@ Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
 Web · GAMEKULT → 4 infos
-Web · IGN FRANCE → 3 infos
+Web · IGN FRANCE → 4 infos
 Web · JEUXVIDEO.COM → 3 infos
 Web · INSIDER GAMING → 4 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 3 gardés
-X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 1437 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 1452 / 10000)
+X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 1467 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 1482 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-196 infos fraîches et jamais traitées (sur 445 lues)
+194 infos fraîches et jamais traitées (sur 446 lues)
    6/10 ✓ « GTA VI Is Still a Mystery Even to Grand Theft Auto's Original Creators »
    6/10 ✗ déjà publiée « GTA VI Is Still a Mystery Even to Grand Theft Auto's Original Creators »
    8/10 ✗ déjà publiée « Twitch and KICK are giving away over 10,000 copies of GTA VI! »
    8/10 ✗ déjà publiée « GTA VI Physical Copies Face Used Code Issues! »
-   8/10 ✗ déjà publiée « GTA 6 Leak Seemingly Reveals Official Album's Full Track List Days Bef »
-   8/10 ✓ « GTA 6 Will Encourage Empathy, Rockstar Says »
-   8/10 ✗ déjà publiée « GTA 6 Encourages Empathy Since “It’s A Product of the Story We’re Tryi »
-   4/10 ✗ pas une news « GTA 6 : EA supplie les joueurs de ne pas désinstaller Madden NFL 27 »
-   5/10 ✓ « Rob Run : c’est quoi ce jeu GTA like gratuit qui cartonne sur Steam av »
-   7/10 ✓ « À Miami, GTA VI s’affiche partout et les fans comptent les heures »
-   7/10 ✓ « How Much Time Do You Need To Download ‘GTA 6’? Find Out Here »
-   7/10 ✗ déjà publiée « 'GTA 6': 3 intriguing new details we just learned »
-   9/10 ✓ « Fini la violence gratuite ? GTA 6 opère un changement historique qui v »
-   9/10 ✓ « All tech eyes on Grand Theft Auto VI release Thursday »
-   9/10 ✗ déjà publiée « GTA VI Countdown: 212 GB Install, $1.09B Pre-Sales »
-   6/10 ✗ pas une news « How to Play GTA 6 Early on XBOX With New Zealand Trick—All Time Zones, »
-   6/10 ✗ pas une news « How to Play GTA 6 Early on PS5 With New Zealand Trick—All Time Zones,  »
-   5/10 ✗ pas une news « Is GTA 6 Out Now? Grand Theft Auto 6 Launch Day Tracker »
-   5/10 ✓ « Korea's Largest Game Show G-STAR and Most Anticipated Title GTA 6 Arri »
-   8/10 ✓ « GTA 6 UK Release Time, Price and the Rockstar North Story »
-GAMING · 9 infos retenues, meilleure : « Fini la violence gratuite ? GTA 6 opère un changement historique qui va faire de » (9/10)
-  article · journaldugeek.com
-  article · 2760 caractères lus
-  photo · 1 image(s) : 1600x900
+   4/10 ✗ pas une news « GTA 6 : qui sont Jason, Lucia et les autres personnages ? »
+   9/10 ✓ « GTA 6 release time, launch date, preload and file size »
+   7/10 ✓ « Sortie de « GTA VI » : « Ce jeu vidéo raconte une société en état de c »
+   9/10 ✓ « GTA 6 Preload Is Live: Up to 212GB, Download Began November 10 »
+   5/10 ✓ « In the news today: Carney to meet Xi, Chinese exports surge, GTA VI ar »
+   9/10 ✓ « GTA 6 heure de sortie : minuit jeudi en France, la Nouvelle-Zélande jo »
+   9/10 ✓ « GTA 6 : comment jouer en avance, dès mercredi 12h, avec l’astuce Nouve »
+   8/10 ✓ « Une mention d'un mode 120 Hz a été trouvée dans les fichiers de la ver »
+   8/10 ✗ déjà publiée « A mention of a 120Hz mode has been found in the files of the PS5 Pro v »
+   3/10 ✗ pas une news « GTA VI : plus c’est long, plus c’est bon ! »
+   7/10 ✓ « Dans GTA 6, Jason et Lucia commenceront leur parcours en tant que peti »
+   7/10 ✗ déjà publiée « Dans GTA 6, Jason et Lucia commenceront leur parcours en tant que peti »
+   6/10 ✓ « GTA 6: Hacks, leaks, delays and the long road to release | BBC News »
+   7/10 ✓ « GTA 6: Miami se transforme en Vice City »
+   8/10 ✓ « GTA 6 - Sommeil PNJ applications et clignotants ces details fous qui r »
+   6/10 ✓ « GTA VI prevented console sales in Russia from falling in the January-S »
+   5/10 ✗ trop faible (mini 9) « La Xbox Series vous fait voyager dans le passé avec une mise à jour qu »
+   7/10 ✗ trop faible (mini 9) « Xbox : Helix sera bien une console capable de lire des jeux PC, et pas »
+GAMING · 13 infos retenues, meilleure : « GTA 6 release time, launch date, preload and file size » (9/10)
+  article · rockpapershotgun.com
+  article · 5553 caractères lus
+  photo · 1 image(s) : 1200x630
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
   couverture · photo1 · zoom 1.0 · propre
-  carrousel prêt : « GTA 6 opère un changement historique sur la violence » (4 slides)
-  voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (12.8 s)
-  reel · 16.4 s · 7 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Dfy_dd5iffZ/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Dfy_i6Ika_0/
-Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
+  carrousel prêt : « Tout savoir sur le lancement et la taille de GTA 6 » (4 slides)
+  voix · contrôle OK (98%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (14.2 s)
+  reel · 17.8 s · 7 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DfzGYsal7Fm/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfzGclXmI5S/
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s

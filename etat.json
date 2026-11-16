@@ -191,7 +191,12 @@
   "web:insider gaming:https://insider-gaming.com/?p=233673": "2026-11-16T09:01:45.086627+00:00",
   "web:insider gaming:https://insider-gaming.com/?p=233664": "2026-11-16T09:01:45.086627+00:00",
   "web:insider gaming:https://insider-gaming.com/?p=233686": "2026-11-16T09:01:45.086627+00:00",
-  "web:google actu:CBMiugFBVV95cUxNVnN5ODZKb3ZkMmFKTEdkVlg2dldGNXFnTVdHWmNQVVcxczRTLWR5ZDhMMUlLRURacC1URmJJX1owZGxuV3hzenNyZlFNQ0FvaWNyUnRwYXdXNEJ5VW44UlBfaHgzU1FoWGJ4dzFlTEQtUlF3R3lxTDJHVjJiMzhWWllNRm1lSXk0eFBlSVhEbldGcW9vX2M5a2FkbWdNOVNDUGdKalI1UUVKUkRTNW1zYk5GTlpsQzdpLXc": "2026-11-16T09:01:45.086627+00:00"
+  "web:google actu:CBMiugFBVV95cUxNVnN5ODZKb3ZkMmFKTEdkVlg2dldGNXFnTVdHWmNQVVcxczRTLWR5ZDhMMUlLRURacC1URmJJX1owZGxuV3hzenNyZlFNQ0FvaWNyUnRwYXdXNEJ5VW44UlBfaHgzU1FoWGJ4dzFlTEQtUlF3R3lxTDJHVjJiMzhWWllNRm1lSXk0eFBlSVhEbldGcW9vX2M5a2FkbWdNOVNDUGdKalI1UUVKUkRTNW1zYk5GTlpsQzdpLXc": "2026-11-16T09:01:45.086627+00:00",
+  "web:google actu:CBMigwFBVV95cUxPYllqOVpjQk9vd3c2bERBclhRellaMkUzeFNnX29fYUgtdVNSbW9QdjZtOEt1a0h2TjhzOC01Nk9MREt4YjNXRTI1c1FBNDdJenVISVNPdF9yeTkwcTdQbUdtTFlrZzFpN3R2aFJDVzRzU0JpRkpNNmFrbmNmek1FSVoyQQ": "2026-11-16T10:02:00.920758+00:00",
+  "web:google actu:CBMidkFVX3lxTE1tamhIMkctYU11NWVlMm5fd0VvZ2tvQXRZZW1DU3k1UWhkSFFsbjNRbkFOelE5bUdHQVcwTmJncFduZnZ3b2JqU0ZIS3JJVkxxQkpxblVqYWNJODJISmo2cFJtU0lBS1l6aXJTNTVxWGJDTjlyU2c": "2026-11-16T10:02:00.920758+00:00",
+  "ag:https://www.actugaming.net/?p=833594": "2026-11-16T10:02:00.920758+00:00",
+  "ag:https://www.actugaming.net/?p=833591": "2026-11-16T10:02:00.920758+00:00",
+  "web:google news:CBMiZ0FVX3lxTE9uWm5rbElzV2hwZjNaOU5QV0U5b2hvVVRsUWdCdTNDanJoWlpyZ0s2TmZmTkw3Y19rSXFGaGNibDNBaGZMNW13YzdVbk5RQmRmM3hqQlQzd2UyM1o4aTVfRmhIYWNrcVU": "2026-11-16T10:02:00.920758+00:00"
  },
  "publies": [
   {
@@ -631,10 +636,18 @@
    "source_id": "web:google actu:CBMiugFBVV95cUxNVnN5ODZKb3ZkMmFKTEdkVlg2dldGNXFnTVdHWmNQVVcxczRTLWR5ZDhMMUlLRURacC1URmJJX1owZGxuV3hzenNyZlFNQ0FvaWNyUnRwYXdXNEJ5VW44UlBfaHgzU1FoWGJ4dzFlTEQtUlF3R3lxTDJHVjJiMzhWWllNRm1lSXk0eFBlSVhEbldGcW9vX2M5a2FkbWdNOVNDUGdKalI1UUVKUkRTNW1zYk5GTlpsQzdpLXc",
    "lien": "https://www.instagram.com/p/Dfy_dd5iffZ/",
    "reel": "https://www.instagram.com/reel/Dfy_i6Ika_0/"
+  },
+  {
+   "ts": "2026-11-16T10:02:00.920758+00:00",
+   "categorie": "GAMING",
+   "titre": "Tout savoir sur le lancement et la taille de GTA 6",
+   "source_id": "web:google news:CBMiZ0FVX3lxTE9uWm5rbElzV2hwZjNaOU5QV0U5b2hvVVRsUWdCdTNDanJoWlpyZ0s2TmZmTkw3Y19rSXFGaGNibDNBaGZMNW13YzdVbk5RQmRmM3hqQlQzd2UyM1o4aTVfRmhIYWNrcVU",
+   "lien": "https://www.instagram.com/p/DfzGYsal7Fm/",
+   "reel": "https://www.instagram.com/reel/DfzGclXmI5S/"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 1452
+  "tweets": 1482
  }
 }
