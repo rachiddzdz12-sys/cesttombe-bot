@@ -196,7 +196,11 @@
   "web:google actu:CBMidkFVX3lxTE1tamhIMkctYU11NWVlMm5fd0VvZ2tvQXRZZW1DU3k1UWhkSFFsbjNRbkFOelE5bUdHQVcwTmJncFduZnZ3b2JqU0ZIS3JJVkxxQkpxblVqYWNJODJISmo2cFJtU0lBS1l6aXJTNTVxWGJDTjlyU2c": "2026-11-16T10:02:00.920758+00:00",
   "ag:https://www.actugaming.net/?p=833594": "2026-11-16T10:02:00.920758+00:00",
   "ag:https://www.actugaming.net/?p=833591": "2026-11-16T10:02:00.920758+00:00",
-  "web:google news:CBMiZ0FVX3lxTE9uWm5rbElzV2hwZjNaOU5QV0U5b2hvVVRsUWdCdTNDanJoWlpyZ0s2TmZmTkw3Y19rSXFGaGNibDNBaGZMNW13YzdVbk5RQmRmM3hqQlQzd2UyM1o4aTVfRmhIYWNrcVU": "2026-11-16T10:02:00.920758+00:00"
+  "web:google news:CBMiZ0FVX3lxTE9uWm5rbElzV2hwZjNaOU5QV0U5b2hvVVRsUWdCdTNDanJoWlpyZ0s2TmZmTkw3Y19rSXFGaGNibDNBaGZMNW13YzdVbk5RQmRmM3hqQlQzd2UyM1o4aTVfRmhIYWNrcVU": "2026-11-16T10:02:00.920758+00:00",
+  "ag:https://www.actugaming.net/?p=833606": "2026-11-16T11:02:13.051220+00:00",
+  "ag:https://www.actugaming.net/?p=833603": "2026-11-16T11:02:13.051220+00:00",
+  "ag:https://www.actugaming.net/?p=833598": "2026-11-16T11:02:13.051220+00:00",
+  "web:rockstar intel:https://rockstarintel.com/?p=44478": "2026-11-16T11:02:13.051220+00:00"
  },
  "publies": [
   {
@@ -644,10 +648,18 @@
    "source_id": "web:google news:CBMiZ0FVX3lxTE9uWm5rbElzV2hwZjNaOU5QV0U5b2hvVVRsUWdCdTNDanJoWlpyZ0s2TmZmTkw3Y19rSXFGaGNibDNBaGZMNW13YzdVbk5RQmRmM3hqQlQzd2UyM1o4aTVfRmhIYWNrcVU",
    "lien": "https://www.instagram.com/p/DfzGYsal7Fm/",
    "reel": "https://www.instagram.com/reel/DfzGclXmI5S/"
+  },
+  {
+   "ts": "2026-11-16T11:02:13.051220+00:00",
+   "categorie": "GAMING",
+   "titre": "Nouvelle mise à jour pour GTA VI sur PS5 et Xbox",
+   "source_id": "web:rockstar intel:https://rockstarintel.com/?p=44478",
+   "lien": "https://www.instagram.com/p/DfzNW2jF02f/",
+   "reel": "https://www.instagram.com/reel/DfzNa9LGwIn/"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 1482
+  "tweets": 1512
  }
 }
