@@ -5,57 +5,55 @@ Instagram · @cesttombe.actu (5 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 11 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → 100 infos
-Web · GOOGLE NEWS → 102 infos
-Web · BING ACTU → 11 infos
+Web · GOOGLE ACTU → 102 infos
+Web · GOOGLE NEWS → 100 infos
+Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 12 infos
-Web · ROCKSTAR INTEL → 10 infos
+Web · ROCKSTAR INTEL → HTTP 500
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
 Web · GAMEKULT → 4 infos
 Web · IGN FRANCE → 4 infos
-Web · JEUXVIDEO.COM → 3 infos
-Web · INSIDER GAMING → 3 infos
+Web · JEUXVIDEO.COM → 2 infos
+Web · INSIDER GAMING → 4 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 3 gardés
-X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 1527 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 1542 / 10000)
+X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 1557 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 1572 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-197 infos fraîches et jamais traitées (sur 444 lues)
+201 infos fraîches et jamais traitées (sur 435 lues)
    6/10 ✗ déjà publiée « Another GTA VI patch is rolling out! »
    7/10 ✓ « GTA VI Is Still a Mystery Even to Grand Theft Auto's Original Creators »
    7/10 ✗ déjà publiée « GTA VI Is Still a Mystery Even to Grand Theft Auto's Original Creators »
    8/10 ✗ déjà publiée « Twitch and KICK are giving away over 10,000 copies of GTA VI! »
    8/10 ✗ déjà publiée « GTA VI Physical Copies Face Used Code Issues! »
-   7/10 ✓ « GTA 6 release may trigger sick calls from gamers »
-   7/10 ✓ « [Podcasts] GTA VI, un quart des salariés joueurs ont posé un RTT : nav »
-   7/10 ✓ « GTA 6 et les réseaux : Orange encaisse le pré-téléchargement, Virgin M »
-   7/10 ✗ déjà publiée « L’histoire de GTA 6 pourrait durer environ 50 heures, et obtenir le pl »
-   7/10 ✗ déjà publiée « GTA 6’s story could take around 50 hours to complete, and earning the  »
-   6/10 ✓ « RTT pour jouer à GTA VI : "C'est navrant", souffle Jean-Philippe Doux »
-   8/10 ✓ « "C'est négocié depuis longtemps!": famille priée de partir, congès...  »
-   9/10 ✓ « ‘Grand Theft Auto VI’ could be biggest entertainment launch ever »
-   2/10 ✗ pas une news « Jouez à Grand Theft Auto VI dès sa sortie pour 163,98 $ avec une Xbox  »
-   2/10 ✗ pas une news « Play Grand Theft Auto VI at launch for $163,98 with a used Xbox One S. »
-   7/10 ✓ « 'GTA 6': 3 intriguing new details we just learned »
-   7/10 ✓ « GTA 6 ‘Free Download’ Trap Targets Crypto Wallets Days Before Launch »
-   3/10 ✗ pas une news « Comment jouer à GTA 6 avant tout le monde ? Il existe une astuce simpl »
-   7/10 ✗ déjà publiée « Physical GTA 6 Buyers Are Claiming They Aren’t Getting The Codes In Bo »
-   3/10 ✗ pas une news « GTA 6 est introuvable en magasin, mais ce site propose encore quelques »
-   2/10 ✗ pas une news « Welcome to 'Grandthropic', the Day the Gaming and AI Industries Get Te »
-   2/10 ✗ pas une news « PS5 Slim, Digital ou Pro : laquelle est faite pour vous ? »
-GAMING · 9 infos retenues, meilleure : « ‘Grand Theft Auto VI’ could be biggest entertainment launch ever » (9/10)
-  article · modernghana.com
-  article · 2581 caractères lus
-  photo · aucune image
-  visuels · steam « Grand Theft Auto VI » → 3 image(s)
-  couverture · photo3 · zoom 1.4 · propre
-  carrousel prêt : « Grand Theft Auto VI pourrait battre tous les records » (3 slides)
-  voix · contrôle OK (100%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (7.9 s)
-  reel · 11.5 s · 5 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DfzUK5TF4yV/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfzUO5MlErA/
-Gemini : gemini-flash-lite-latest : réponse en 8 s · gemini-flash-lite-latest : réponse en 2 s · texte sans accents ou sans apostrophes : réécriture demandée · gemini-flash-latest : ReadTimeout après 60 s · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s
+   9/10 ✗ déjà publiée « How Much Money Has GTA 6 Made in Pre-Orders? »
+   9/10 ✗ déjà publiée « How Much Money Has GTA 6 Made in Pre-Orders? »
+   8/10 ✗ déjà publiée « GTA 6 Length Leak: 50-Hour Story, 200-Hour 100% »
+   8/10 ✓ « EN IMAGES – Pour la sortie de GTA VI, Miami se mue en «Vice City» »
+   8/10 ✗ déjà publiée « GTA 6 players furious as physical copies reportedly arrive with missin »
+   2/10 ✗ pas une news « GTA 6 Is Almost Here, Get Ready With These Headsets and Game in Style »
+   7/10 ✓ « GTA 6 Wanted System Explained – How Police Track You in Vice City »
+   3/10 ✗ pas une news « GTA VI: 9 choses à préparer avant le lancement du 19 novembre »
+   5/10 ✓ « Free Veyra app uses RTX 40 and 50 GPUs to make GTA 6 on PS5 look like  »
+   2/10 ✗ pas une news « What to Stream: 'GTA VI,' 'Always Lalisa,' 'The Altruists' and 'Steps' »
+   6/10 ✓ « GTA 6 Has Jason and Lucia Working Their Way Up to Bigger Jobs »
+   2/10 ✗ pas une news « Grandthropic: GTA 6 and Anthropic’s I.P.O. Land on the Same Day »
+   7/10 ✗ déjà publiée « GTA 6's Second Day One Patch Is 620MB On PS5 and 1GB Bigger on Xbox »
+   9/10 ✗ déjà publiée « Sortie de GTA 6, toutes les infos à J-3 du lancement : pré-téléchargem »
+   8/10 ✓ « YouTube Partners With Rockstar Games on 24-Hour ‘Grand Theft Auto VI’  »
+   6/10 ✗ trop faible (mini 9) « Star Wars: Fate of the Old Republic ne devrait pas sortir avant un mom »
+GAMING · 6 infos retenues, meilleure : « GTA VI Is Still a Mystery Even to Grand Theft Auto's Original Creators! » (7/10)
+  photo · échec : image trop petite (48x48)
+  photo · 1 image(s) : 1200x675
+  visuels · steam « Grand Theft Auto VI » → 4 image(s)
+  couverture · photo1 · zoom 1.0 · propre
+  carrousel prêt : « GTA 6 reste un mystère pour ses créateurs » (3 slides)
+  voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (9.1 s)
+  reel · 12.7 s · 5 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Dfza8Z_oPI8/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DfzbAXbird5/
+Gemini : gemini-flash-lite-latest : réponse en 6 s · gemini-flash-lite-latest : réponse en 8 s
