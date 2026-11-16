@@ -1,1 +1,15 @@
-Pas de post : publication automatique désactivée (PUBLICATION_AUTO = False dans config.py)
+Mode : auto
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @le.bruit.rap (13 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 6 / 100
+Rap · @rap.minute → 12 posts lus
+Rap · @rapfractusofficiel → 12 posts lus
+Rap · @booska_p → 12 posts lus
+X · @RapFrActus → 10 tweets lus, 0 gardés (ce mois : 75 / 9000)
+X · @FrenchRapUS → 10 tweets lus, 3 gardés (ce mois : 90 / 9000)
+X · @Rapunchline → 10 tweets lus, 2 gardés (ce mois : 105 / 9000)
+X · @SpotifyFrance → 10 tweets lus, 1 gardés (ce mois : 120 / 9000)
+19 infos fraîches et jamais traitées (sur 42 lues)
+RAP FR · tri IA impossible : Gemini n'a pas répondu correctement : gemini-flash-latest : quota atteint (HTTP 429)
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : quota atteint (HTTP 429), réessai conseillé dans 53694 s
