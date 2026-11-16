@@ -7,7 +7,7 @@ REGLAGES = {
     "IG_USER_ID": "17841439323487258",       # identifiant Instagram du compte (pas un secret)
     "DA": "bruit",                           # carrousels et Reels dans la DA LE BRUIT (noir, violet, logo B)
     # interrupteur propre à ce compte : False tant que les rendus n'ont pas été validés
-    "PUBLICATION_AUTO": False,
+    "PUBLICATION_AUTO": True,
     # ligne éditoriale : 100 % rap
     "CATEGORIES": ["RAP FR"],
     "THEME": "",
@@ -22,10 +22,10 @@ REGLAGES = {
     ],
     "X_PLAFOND_MOIS": 9000,                  # avec les 9000 de C'EST TOMBÉ : reste dans les 5 $ offerts par Apify
     # rythme
-    "POSTS_PAR_JOUR": 6,
-    "HEURE_DEBUT": 9,
+    "POSTS_PAR_JOUR": 4,                     # démarrage en douceur (et voix Gemini : 16 C'EST TOMBÉ + 4 ≈ quota)
+    "HEURE_DEBUT": 11,                       # ~11h, 14h30, 18h, 21h30 : l'après-midi et le soir, quand le rap tourne
     "HEURE_FIN": 23,
-    "ECART_MIN_MINUTES": 120,
+    "ECART_MIN_MINUTES": 210,
     "LANCEMENT_JUSQUA": None,
     "RATTRAPAGE_JUSQUA": None,
     "SCORE_MIN": 6,

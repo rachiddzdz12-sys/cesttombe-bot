@@ -343,7 +343,7 @@ import subprocess as _sp  # noqa: E402
 r = _sp.run([sys.executable, "-c", "import main, config; print(main.ETAT.name, main.JOURNAL.name, config.NOM_PAGE, "
              "config.DA, config.CATEGORIES, config.PUBLICATION_AUTO, __import__('os').environ['IG_USER_ID'])"],
             capture_output=True, text=True, cwd=str(RACINE), env=dict(os.environ, COMPTE="lebruit", IG_USER_ID="999"))
-check("etat-lebruit.json dernier-journal-lebruit.txt LE BRUIT bruit ['RAP FR'] False 17841439323487258"
+check("etat-lebruit.json dernier-journal-lebruit.txt LE BRUIT bruit ['RAP FR'] True 17841439323487258"
       in r.stdout, f"LE BRUIT : profil appliqué, état et journal séparés ({r.stdout.strip() or r.stderr[-200:]})")
 r = _sp.run([sys.executable, "-c", "import main, config; print(main.ETAT.name, config.NOM_PAGE, config.DA)"],
             capture_output=True, text=True, cwd=str(RACINE), env={k: v for k, v in os.environ.items() if k != "COMPTE"})
