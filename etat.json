@@ -235,7 +235,9 @@
   "web:google actu:CBMizgFBVV95cUxPdHBfVUtnazlmazRFdmpIbmprLWkxNUNUaUU1M2Z3aUt5VHptcWpnSjZKd2tkT3Yxc3BsaWxqVVlmem1FSGJCOUpZSURva25xWExJd0t4XzdRVVBZczRJVV9lU0ZlOUE3VnBzUFRIYW1aRF9YUThCQS1IamtLa09qdEgtMlJOMnNLV1Y4ZGZONWp0OWRlM296M2ROX29Yd1BTYkxkZ2drMHZBUHBRRkFBNjl1RTlIX1FNd1NTM0pjUmZmWUFUNHltb1JCMGNqUQ": "2026-11-16T20:31:32.996344+00:00",
   "web:google actu:CBMipAFBVV95cUxNUHpaTUtlUEFMNkVOQS1PQndITFBzbkVKRGRDdnVqWERYYjN1SjlldnBCMjZCNFF4MnRLQmZXaU5ISm5adEdldWQ3Wm5wYUoyQ3lDcVlINmpVQ0g4X09VTWFUcS1ZYldUYjlEc3hhbFZEWTBoNl9HSU1GNzVtOWtRbDJtdkJvdzZkMHp2OEVwVlB4S0lkUFl5RWZVcTdZbDlEd2pnbw": "2026-11-16T21:31:27.840667+00:00",
   "web:dexerto:https://www.dexerto.com/food/subway-reveals-vice-city-sub-for-gta-6-but-theres-only-one-way-to-get-it-3428783/": "2026-11-16T21:31:27.840667+00:00",
-  "web:insider gaming:https://insider-gaming.com/?p=238133": "2026-11-16T21:31:27.840667+00:00"
+  "web:insider gaming:https://insider-gaming.com/?p=238133": "2026-11-16T21:31:27.840667+00:00",
+  "web:jeuxvideo.com:https://www.jeuxvideo.com/news/2114583/face-a-gta-6-ces-developpeurs-supplient-les-joueurs-de-ne-pas-s-enfuir.htm": "2026-11-16T22:32:28.977196+00:00",
+  "web:rockstar intel:https://rockstarintel.com/?p=44483": "2026-11-16T22:32:28.977196+00:00"
  },
  "publies": [
   {
@@ -747,10 +749,18 @@
    "source_id": "web:insider gaming:https://insider-gaming.com/?p=238133",
    "lien": "https://www.instagram.com/p/Df0Va2YDUq0/",
    "reel": "https://www.instagram.com/reel/Df0VeyvjlbT/"
+  },
+  {
+   "ts": "2026-11-16T22:32:28.977196+00:00",
+   "categorie": "GAMING",
+   "titre": "GTA VI pour 2 milliards de dollars cette semaine",
+   "source_id": "web:rockstar intel:https://rockstarintel.com/?p=44483",
+   "lien": "https://www.instagram.com/p/Df0cQKQk0fX/",
+   "reel": "https://www.instagram.com/reel/Df0cTThEelI/"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 1962
+  "tweets": 1992
  }
 }
