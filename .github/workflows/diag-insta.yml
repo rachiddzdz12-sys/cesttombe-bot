@@ -1,0 +1,66 @@
+name: Diagnostic Instagram (portée, shadowban)
+
+on:
+  push:
+    branches: [diag-insta]
+
+permissions:
+  contents: read
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Portée des 2 comptes
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: |
+          python3 - <<'PY'
+          import os, time, requests, json
+          from datetime import datetime, timedelta, timezone
+          G = "https://graph.facebook.com/v25.0"
+          tok = os.environ["IG_ACCESS_TOKEN"]
+          def get(path, **p):
+              r = requests.get(f"{G}/{path}", params={**p, "access_token": tok}, timeout=40)
+              j = r.json()
+              if "error" in j:
+                  return {"_err": j["error"].get("message", "")[:140]}
+              return j
+          for nom, uid in (("C'EST TOMBÉ", os.environ["IG_USER_ID"]), ("LE BRUIT", "17841439323487258")):
+              info = get(uid, fields="username,followers_count,follows_count,media_count")
+              print(f"\n######## {nom} : {json.dumps(info, ensure_ascii=False)}")
+              now = datetime.now(timezone.utc)
+              print("JOUR        portée(abonnés/non-abonnés)   vues   comptes engagés")
+              for k in range(14, -1, -1):
+                  d0 = (now - timedelta(days=k)).replace(hour=0, minute=0, second=0, microsecond=0)
+                  d1 = d0 + timedelta(days=1)
+                  s, u = int(d0.timestamp()), int(min(d1, now).timestamp())
+                  if u <= s:
+                      continue
+                  rr = get(f"{uid}/insights", metric="reach", period="day", metric_type="total_value",
+                           breakdown="follow_type", since=s, until=u)
+                  vv = get(f"{uid}/insights", metric="views,accounts_engaged", period="day", metric_type="total_value",
+                           since=s, until=u)
+                  def tot(j, m):
+                      for x in j.get("data", []):
+                          if x["name"] == m:
+                              return x.get("total_value", {}).get("value")
+                  bd = {}
+                  for x in rr.get("data", []):
+                      for b in x.get("total_value", {}).get("breakdowns", []):
+                          for res in b.get("results", []):
+                              bd[res["dimension_values"][0]] = res["value"]
+                  print(f"{d0:%Y-%m-%d}  {tot(rr,'reach')!s:>5} ({bd.get('FOLLOWER','-')}/{bd.get('NON_FOLLOWER','-')})"
+                        f"   {tot(vv,'views')!s:>6}   {tot(vv,'accounts_engaged')!s:>4}  {rr.get('_err','')}{vv.get('_err','')}")
+              med = get(f"{uid}/media", fields="id,timestamp,media_product_type,media_type,like_count,comments_count,caption", limit=60)
+              print("DATE (UTC)        TYPE      portée   vues  partages  enreg.  likes  coms  | début légende")
+              for m in med.get("data", []):
+                  ins = get(f"{m['id']}/insights", metric="reach,views,shares,saved")
+                  v = {x["name"]: x["values"][0]["value"] for x in ins.get("data", [])}
+                  print(f"{m['timestamp'][:16]}  {m.get('media_product_type','')[:5]:5} {m.get('media_type','')[:5]:5} "
+                        f"{v.get('reach','?')!s:>6} {v.get('views','?')!s:>6} {v.get('shares','?')!s:>8} {v.get('saved','?')!s:>6}"
+                        f"  {m.get('like_count',0)!s:>4} {m.get('comments_count',0)!s:>5}  | {(m.get('caption') or '')[:50].replace(chr(10),' ')} {ins.get('_err','')}")
+                  time.sleep(0.2)
+          PY
