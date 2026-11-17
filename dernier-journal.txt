@@ -1,8 +1,8 @@
 Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
-Instagram · @cesttombe.actu (11 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 26 / 100
+Instagram · @cesttombe.actu (12 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 27 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   9 infos retenues après filtre
 Web · GOOGLE ACTU → 100 infos
@@ -16,51 +16,44 @@ Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
 Web · GAMEKULT → 8 infos
 Web · IGN FRANCE → 14 infos
-Web · JEUXVIDEO.COM → 7 infos
-Web · INSIDER GAMING → 4 infos
+Web · JEUXVIDEO.COM → 6 infos
+Web · INSIDER GAMING → 3 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
-Instagram · @playstationfr → 12 posts lus, 2 gardés
-X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 2457 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 2472 / 10000)
+Instagram · @playstationfr → 12 posts lus, 3 gardés
+X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 2487 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 2502 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-271 infos fraîches et jamais traitées (sur 462 lues)
+263 infos fraîches et jamais traitées (sur 461 lues)
    9/10 ✗ déjà publiée « GTA VI Nominated For Game of the Year, Has Most Nominations! »
-   6/10 ✗ déjà publiée « Rockstar's Real-Life GTA Research Took Developers Into Dangerous Situa »
-   8/10 ✗ déjà publiée « GTA VI Could Make $2 Billion This Week, 15 Million Pre-Orders Already! »
-   7/10 ✗ déjà publiée « 6 New GTA 6 Screenshots Released Showing Dynamic Weather »
-   8/10 ✗ déjà publiée « GTA VI Could Make $2 Billion This Week, 15 Million Pre-Orders Already! »
-   6/10 ✓ « This couple made a contract allowing him to play GTA VI for 10 days »
-   5/10 ✓ « Rockstar Funds 7,500 Free Tickets for Haitian Music Event in Real Litt »
-   7/10 ✓ « Digital Foundry says GTA VI's CPU demands make a 40 FPS mode on PS5 Pr »
-   9/10 ✗ déjà publiée « GTA VI nommé aux Game Awards, les Oscars du jeu vidéo, avant même sa s »
-   5/10 ✓ « « J’attendais ça depuis tellement longtemps » : le phénomène GTA VI s’ »
-   6/10 ✓ « Why GTA 6 Is About To Take Over The Creator Economy »
-   6/10 ✓ « GTA 6 Has A Lot Of Different Bird Species, Here’s How Many »
-   9/10 ✗ déjà publiée « Avant même sa sortie ce jeudi, le très attendu jeu vidéo "GTA VI" en t »
-   6/10 ✓ « Cultural, economical impact of GTA 6 »
-   7/10 ✓ « En treize ans, le monde a changé et «GTA VI» roule dessus »
-   6/10 ✓ « Pouvoir jouer à GTA VI 12 heures avant la sortie officielle ? Les inte »
-   3/10 ✗ pas une news « This GTA 6-Inspired Keycap Set Will Make The Wait For A PC Version Sli »
-   3/10 ✗ pas une news « Why GRAND THEFT AUTO VI Should Stay Off Your Child’s Wish List »
-   8/10 ✗ déjà publiée « GTA 6 n'est même pas sorti qu'il aurait déjà rapporté 1,45 milliard de »
-   2/10 ✗ pas une news « What to Stream: ‘GTA VI,’ ‘Always Lalisa,’ ‘The Altruists’ and ‘Steps’ »
-   8/10 ✗ déjà publiée « Game Awards : quels jeux sont nominés au GOTY 2026 ? »
-GAMING · 9 infos retenues, meilleure : « Digital Foundry says GTA VI's CPU demands make a 40 FPS mode on PS5 Pro too diff » (7/10)
-  article · tweaktown.com
-  article · 0 caractères lus
-  ⏭️ article illisible, info écartée : « Digital Foundry says GTA VI's CPU demands make a 40 FPS mode »
-  article · liberation.fr
-  article · 43 caractères lus
-  ⏭️ article illisible, info écartée : « En treize ans, le monde a changé et «GTA VI» roule dessus »
-  article · cnn.com
-  article · 1591 caractères lus
-  photo · 1 image(s) : 800x450
+   7/10 ✗ déjà publiée « Rockstar's Real-Life GTA Research Took Developers Into Dangerous Situa »
+   9/10 ✗ déjà publiée « GTA VI Could Make $2 Billion This Week, 15 Million Pre-Orders Already! »
+   8/10 ✗ déjà publiée « 6 New GTA 6 Screenshots Released Showing Dynamic Weather »
+   9/10 ✗ déjà publiée « GTA VI Could Make $2 Billion This Week, 15 Million Pre-Orders Already! »
+  10/10 ✗ déjà publiée « Au cas où vous auriez manqué l'info : vous pouvez précharger dès maint »
+   7/10 ✓ « This Is the Full Cactus Jack x Nike x GTA 6 Apparel Drop »
+   2/10 ✗ pas une news « ‘South Park’ and the Extended Grand Theft Auto Political Metaphor »
+   1/10 ✗ pas une news « From Asteroids to GTA 6: Why video games keep pulling us back »
+   7/10 ✓ « Travis Scott Has Another Nike x GTA 6 Clothing Capsule to Go Alongside »
+   6/10 ✓ « Les Coréens, trop prudes pour Grand Theft Auto VI ? »
+   2/10 ✗ pas une news « Why Should I Care About GTA 6? »
+   3/10 ✗ pas une news « GTA 6 : 5 choses que vous ne pourrez plus faire dans le jeu vidéo »
+   8/10 ✓ « INTERVIEW: GTA 4 Actor on GTA 6 Reviews: “It Needs To Succeed” »
+   3/10 ✗ pas une news « I Can't Wait to Play Grand Theft Auto VI—For the Fashion (Yes, Really) »
+   5/10 ✓ « Erik Spoelstra Says His Kids Will Not Be Playing GTA VI as the Heat Tu »
+   6/10 ✗ déjà publiée « GTA 6's Game Awards Nominations Are Exactly What Everyone Predicted »
+   7/10 ✗ déjà publiée « How’s the weather in Leonida for GTA 6? The Weather Channel has the st »
+   6/10 ✗ déjà publiée « The ‘GTA VI’ Vice City court for the Heat is amazing »
+   7/10 ✗ déjà publiée « The Miami Heat Unveil Its Vice City-Inspired Court for GTA 6 »
+   6/10 ✗ déjà publiée « Game Awards : quels jeux sont nominés au GOTY 2026 ? »
+GAMING · 5 infos retenues, meilleure : « INTERVIEW: GTA 4 Actor on GTA 6 Reviews: “It Needs To Succeed” » (8/10)
+  article · 3436 caractères lus
+  photo · 1 image(s) : 1920x1080
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  couverture · photo1 · zoom 1.0 · propre
-  carrousel prêt : « Un couple signé un contrat pour jouer à GTA 6 » (4 slides)
-  voix · contrôle OK (97%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (4.6 s)
-  reel · 6.3 s · 4 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Df2zLwZl3_K/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df2zTTRlE7p/
-Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 4 s · gemini-flash-lite-latest : réponse en 3 s
+  couverture · photo1 · zoom 1.25 · propre
+  carrousel prêt : « L'acteur de Roman Bellic donne son avis sur GTA 6 » (5 slides)
+  voix · contrôle OK (96%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (7.7 s)
+  reel · 9.3 s · 6 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Df26aDjDZCD/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df26cVvCnP0/
+Gemini : gemini-flash-lite-latest : réponse en 3 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 8 s · texte sans accents ou sans apostrophes : réécriture demandée · gemini-flash-latest : ReadTimeout après 60 s · gemini-flash-latest : ReadTimeout après 60 s · gemini-3-flash-preview : réponse en 13 s
