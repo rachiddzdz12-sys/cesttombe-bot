@@ -1,0 +1,61 @@
+{
+ "categorie": "RAP FR",
+ "source": "@RAPFRACTUS",
+ "credit": "@RapFrActus",
+ "source_affichee": "@RapFrActus (X)",
+ "titre": "Gims mis en examen pour blanchiment aggravé",
+ "mot_cle": "Gims",
+ "voix_off": "Gims s'explique devant le juge après sa mise en examen. Il évoque un contrat de 50 millions d'euros. Tu crois à sa version des faits ?",
+ "visuels": [
+  {
+   "type": "artiste",
+   "nom": "Gims"
+  }
+ ],
+ "sections": [
+  {
+   "titre": "La mise en examen",
+   "texte": "Gims a prononcé ses propos devant le juge après avoir été mis en examen pour blanchiment aggravé et placé sous contrôle judiciaire."
+  },
+  {
+   "titre": "Sa défense",
+   "texte": "L'artiste affirme qu'il gagne le plus et qu'il négocie un contrat de 50 millions d'euros pour son catalogue, jugeant fou d'être dans cette situation."
+  }
+ ],
+ "slides": [
+  {
+   "rubrique": "La mise en examen",
+   "gros": "",
+   "gros_haut": "Contrôle",
+   "gros_bas": "judiciaire",
+   "sous_titre": "Placé sous contrôle",
+   "texte": "Gims a prononcé ses propos devant le juge après avoir été mis en examen pour blanchiment aggravé et placé sous contrôle judiciaire."
+  },
+  {
+   "rubrique": "Sa défense",
+   "gros": "",
+   "gros_haut": "Catalogue",
+   "gros_bas": "de 50 millions",
+   "sous_titre": "Il nie les faits",
+   "texte": "L'artiste affirme qu'il gagne le plus et qu'il négocie un contrat de 50 millions d'euros pour son catalogue, jugeant fou d'être dans cette situation."
+  }
+ ],
+ "legende": "Gims s'explique devant le juge après sa mise en examen pour blanchiment aggravé ⚖️\n\nMis en examen pour blanchiment aggravé et placé sous contrôle judiciaire, Gims s'est défendu devant le juge en évoquant un contrat de 50 millions d'euros pour son catalogue.\n\nGlisse pour tout voir 👉\nTu crois à sa version des faits ? Dis-le en commentaire 👇\n\n🔔 Abonne-toi à @le.bruit.rap pour toute l'actu rap\n\nSource : @RapFrActus (X)\n\n#rapfr #rapfrancais #actusrap #gims #blanchiment",
+ "legende_reel": "Gims s'explique devant le juge après sa mise en examen pour blanchiment aggravé ⚖️\n\nMis en examen pour blanchiment aggravé et placé sous contrôle judiciaire, Gims s'est défendu devant le juge en évoquant un contrat de 50 millions d'euros pour son catalogue.\n\nTu crois à sa version des faits ? Dis-le en commentaire 👇\n📩 Envoie ça à ton pote qui écoute les sons de Gims en boucle\n🔔 Abonne-toi à @le.bruit.rap pour toute l'actu rap\n\nSource : @RapFrActus (X)\n\n#rapfr #rapfrancais #actusrap #gims #blanchiment",
+ "titre_haut": "Gims mis en examen",
+ "titre_bas": "pour blanchiment",
+ "rubrique": "Breaking news",
+ "mots_cles": [
+  "Gims",
+  "juge",
+  "50M",
+  "contrat"
+ ],
+ "accroche_couv": "L'info du jour",
+ "chiffre": "50 M€",
+ "chiffre_texte": "Le montant du contrat pour son catalogue évoqué devant le juge.",
+ "question_haut": "Tu crois à sa",
+ "question_bas": "version des faits ?",
+ "accroche_reel_haut": "Gims s'explique",
+ "accroche_reel_bas": "devant le juge"
+}

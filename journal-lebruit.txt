@@ -1,0 +1,34 @@
+Mode : test
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @le.bruit.rap (16 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 8 / 100
+Rap · @rap.minute → 12 posts lus
+Rap · @rapfractusofficiel → 12 posts lus
+Rap · @booska_p → 12 posts lus
+X · @RapFrActus → 10 tweets lus, 2 gardés (ce mois : 435 / 9000)
+X · @FrenchRapUS → 10 tweets lus, 3 gardés (ce mois : 450 / 9000)
+X · @Rapunchline → 10 tweets lus, 2 gardés (ce mois : 465 / 9000)
+X · @SpotifyFrance → 10 tweets lus, 2 gardés (ce mois : 480 / 9000)
+11 infos fraîches et jamais traitées (sur 45 lues)
+   9/10 ✓ « 🚨GIMS a prononcé ces propos devant le juge après avoir été mise en exa »
+   8/10 ✓ « 🚨GIMS a déclaré qu’il est actuellement en NÉGOCIATION pour vendre son  »
+   0/10 ✗ pas une news « 🚨 ALERTE ! »
+   7/10 ✓ « 🚨 FIANSO A EMPÊCHÉ LA PRÉPARATION D'UN FILM SUR ZYED & BOUNA 👏🕊️ »
+   6/10 ✓ « Les 5 morceaux les plus écoutés de l’album de @Sdm__92 depuis vendredi »
+   6/10 ✓ « 🇨🇩 Pour Tiakola, annoncer son album à Kinshasa, c’était bien plus qu’u »
+   7/10 ✓ « Koba LaD dort sur plus de 100 000€ ? 🤯 »
+   9/10 ✓ « Jul a annoncé la sortie de son feat avec J Balvin pour le 20 novembre  »
+   8/10 ✓ « 🎬 Kery James prépare un film sur l’histoire d’Ideal J ! »
+  10/10 ✗ déjà publiée « Laylow est enfin de retour 🤯 »
+   8/10 ✗ déjà publiée « Gims au cœur d’une affaire judiciaire d’ampleur internationale 🥶 »
+RAP FR · 8 infos retenues, meilleure : « 🚨GIMS a prononcé ces propos devant le juge après avoir été mise en examen pour b » (9/10)
+  photo · 1 image(s) : 1200x675
+  visuels · deezer « Gims » → 4 image(s)
+  couverture LE BRUIT · photo1 · haut
+  carrousel prêt : « Gims mis en examen pour blanchiment aggravé » (5 slides)
+  voix · contrôle OK (97%, essai 1, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (7.4 s)
+  reel LE BRUIT · 8.6 s · 4 plans · voix + musique
+  (hébergement non testé)
+Gemini : gemini-flash-lite-latest : réponse en 24 s · gemini-flash-lite-latest : réponse en 14 s
