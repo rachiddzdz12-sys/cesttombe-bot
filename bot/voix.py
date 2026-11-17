@@ -297,6 +297,25 @@ def lire(texte, dossier, diag):
     return None
 
 
+def accelerer(fichier, max_s, diag=None):
+    """Voix trop lente (au-delà de max_s secondes) : légèrement accélérée, 22 % au plus, sans changer la hauteur.
+    Un Reel court est regardé en entier : c'est le premier signal qu'Instagram regarde."""
+    if not fichier or not max_s:
+        return fichier
+    d = duree(fichier)
+    if d <= max_s:
+        return fichier
+    tempo = min(1.22, d / max_s)
+    sortie = Path(fichier).with_name(Path(fichier).stem + "-rapide" + Path(fichier).suffix)
+    r = subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(fichier), "-filter:a", f"atempo={tempo:.3f}",
+                        "-b:a", "192k", str(sortie)], capture_output=True, text=True)
+    if r.returncode != 0 or not sortie.exists():
+        return fichier
+    if diag is not None:
+        diag.append(f"  voix · {d:.1f} s → accélérée ×{tempo:.2f} ({duree(sortie):.1f} s)")
+    return sortie
+
+
 def duree(fichier):
     r = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
                         "-of", "default=nw=1:nk=1", str(fichier)], capture_output=True, text=True)

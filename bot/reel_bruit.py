@@ -352,6 +352,7 @@ def fabriquer(post, medias, texte_voix, dossier, prefixe, diag):
     tmp.mkdir(parents=True)
     texte_voix = voix.preparer(texte_voix) if texte_voix else texte_voix
     audio = voix.lire(texte_voix, dossier / f"{prefixe}-audio", diag) if texte_voix else None
+    audio = voix.accelerer(audio, getattr(config, "VOIX_DUREE_MAX", 0), diag)
     duree_voix = voix.duree(audio) if audio else 8.0
     mots = mots_minutes(texte_voix, audio, diag) if audio else []
     t_fin_voix = (mots[-1][2] if mots else DELAI + duree_voix) + 0.25

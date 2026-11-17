@@ -306,7 +306,7 @@ FIN_VOIX = "Abonne-toi à C’est tombé."   # remplacé par le nom du compte (v
 
 def fin_voix():
     return "Abonne-toi à C’est tombé." if config.NOM_PAGE == "C'EST TOMBÉ" else f"Abonne-toi à {config.NOM_PAGE.title()}."
-VOIX_MOTS_MAX = 32       # ~10 s de voix : un Reel court est regardé en entier et revu (signal n°1 d'Instagram)
+VOIX_MOTS_MAX = 28       # ~10 s de voix : un Reel court est regardé en entier et revu (signal n°1 d'Instagram)
 HASHTAGS_MAX = 5         # limite d'Instagram depuis décembre 2025 (au-delà, la diffusion est pénalisée)
 
 
