@@ -2,11 +2,11 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (10 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 14 / 100
+Instagram · posts publiés par l'API sur 24 h : 15 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → HTTP 429
-Web · GOOGLE NEWS → 102 infos
+Web · GOOGLE ACTU → 100 infos
+Web · GOOGLE NEWS → HTTP 429
 Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
@@ -14,47 +14,44 @@ Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
-Web · GAMEKULT → 6 infos
-Web · IGN FRANCE → 14 infos
+Web · GAMEKULT → 7 infos
+Web · IGN FRANCE → 15 infos
 Web · JEUXVIDEO.COM → 3 infos
 Web · INSIDER GAMING → 4 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 2 gardés
-X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 2157 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 2172 / 10000)
+X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 2187 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 2202 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-171 infos fraîches et jamais traitées (sur 357 lues)
+161 infos fraîches et jamais traitées (sur 357 lues)
+   6/10 ✗ déjà publiée « Rockstar's Real-Life GTA Research Took Developers Into Dangerous Situa »
+   9/10 ✗ déjà publiée « GTA VI Could Make $2 Billion This Week, 15 Million Pre-Orders Already! »
    8/10 ✗ déjà publiée « 6 New GTA 6 Screenshots Released Showing Dynamic Weather »
    9/10 ✗ déjà publiée « GTA VI Could Make $2 Billion This Week, 15 Million Pre-Orders Already! »
-   6/10 ✗ déjà publiée « Another GTA VI patch is rolling out! »
-   6/10 ✗ déjà publiée « Another GTA VI patch is rolling out! »
-   6/10 ✗ pas une news « GTA 6 New Zealand time trick for Xbox, PS5: How to play hours early »
+   7/10 ✗ déjà publiée « Another GTA VI patch is rolling out! »
+   7/10 ✗ déjà publiée « Another GTA VI patch is rolling out! »
+   8/10 ✗ déjà publiée « « On a tous pris des congés » : « GTA VI », le jeu vidéo qui met la pl »
+   7/10 ✓ « GTA VI sera le plus grand jeu de tous les temps, mais sera-t-il le plu »
+   9/10 ✗ déjà publiée « GTA 6 sort ce 19 novembre : dix chiffres qui montrent déjà l'ampleur d »
+   7/10 ✓ « GTA VI : de Miami à Paris, une sortie qui envahit l’espace public »
+   7/10 ✓ « NBA 2K27 se pare aux couleurs de Vice City »
+   6/10 ✓ « GTA 6 : cette histoire d’amour qui promet de faire sensation »
+   3/10 ✗ pas une news « GTA 6 : comment télécharger le jeu plus rapidement ? »
+   4/10 ✗ pas une news « GTA 6 : comment y jouer 12 heures avant tout le monde sur Xbox Series »
+   7/10 ✗ déjà publiée « Vous voulez jouer à GTA 6 mais vous devez travailler ? Ce médecin vous »
+   6/10 ✓ « Avis aux ornithos, dans GTA 6, il y aura 62 espèces d’oiseaux à observ »
    7/10 ✗ déjà publiée « Xbox Is Prescribing GTA 6 Players a Day Off Without Naming the Game »
-   7/10 ✓ « GTA 6 Gone Gold: What the Report Means for Launch »
-   6/10 ✗ déjà publiée « Hacker Behind GTA 6 Leak Pleads Guilty to Rockstar Games Breach »
-   7/10 ✗ déjà publiée « Rockstar Games teams up with Discord for exclusive GTA 6 rewards, incl »
-   7/10 ✗ pas une news « GTA 6 : voici comment y jouer en avance grâce à l'astuce de la Nouvell »
-   8/10 ✓ « GTA 6 Reviews Expected Nov 18 as Metacritic Score Vanishes »
-   5/10 ✗ pas une news « Devolver Will Give You a Free Game for Deleting Your GTA 6 Preload »
-   6/10 ✗ déjà publiée « GTA 6’s 2022 Hacker Arion Kurtaj Has Officially Pled Guilty In Court »
-   5/10 ✗ pas une news « Devolver propose de gagner un exemplaire de Volvy’s Adventure: Reslime »
-   8/10 ✗ déjà publiée « New GTA 6 screenshots show realistic weather »
-   6/10 ✓ « GTA VI mania is here, and resellers are cashing in with marked-up Vice »
-   5/10 ✓ « GTA VI may not be ripe for sponsorship, but it’s the season’s biggest  »
-   6/10 ✗ déjà publiée « Arion Kurtaj Guilty Plea: 6 Counts, 90 GTA VI Clips »
-   8/10 ✗ déjà publiée « How long it takes to play GTA 6: Playthrough and achievements »
-   7/10 ✗ déjà publiée « Le pirate à l’origine de la fuite de GTA VI en 2022 plaide coupable de »
-   4/10 ✗ trop faible (mini 9) « Crazy Taxi: World Tour fera un détour du côté de l’Inde durant son tou »
-GAMING · 4 infos retenues, meilleure : « GTA 6 Reviews Expected Nov 18 as Metacritic Score Vanishes » (8/10)
-  article · thepcenthusiast.com
-  article · 3642 caractères lus
-  photo · 1 image(s) : 1600x900
-  visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  couverture · photo1 · zoom 1.0 · propre
-  carrousel prêt : « Les testeurs recevront GTA 6 le 18 novembre » (4 slides)
-  voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (13.4 s)
-  reel · 17.0 s · 7 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Df1yCQRl6tL/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df1yFlLocfd/
-Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
+  10/10 ✓ « Sortie de GTA 6, toutes les infos à J-2 : précommandes record, taille  »
+   8/10 ✗ déjà publiée « «GTA VI», jeu vidéo le plus cher de l’histoire et machine à cash pour  »
+   7/10 ✓ « Sony pousse une dernière petite mise à jour de sécurité PS5 avant GTA  »
+GAMING · 7 infos retenues, meilleure : « Sortie de GTA 6, toutes les infos à J-2 : précommandes record, taille du jeu, he » (10/10)
+  article · jeuxvideo.com
+  article · 0 caractères lus
+  ⏭️ article illisible, info écartée : « Sortie de GTA 6, toutes les infos à J-2 : précommandes recor »
+  article · trends.levif.be
+  article · 0 caractères lus
+  ⏭️ article illisible, info écartée : « GTA VI sera le plus grand jeu de tous les temps, mais sera-t »
+  article · republikgroup.com
+  article · 0 caractères lus
+  ⏭️ article illisible, info écartée : « GTA VI : de Miami à Paris, une sortie qui envahit l’espace p »
+Gemini : gemini-flash-lite-latest : réponse en 2 s
