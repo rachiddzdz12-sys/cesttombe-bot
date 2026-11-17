@@ -252,7 +252,12 @@
   "web:google actu:CBMihgFBVV95cUxNLTFMcU1Ja0Iyd295cGNxM25WdGFuZUtWRWlOY0ZJd3V3cXFyM2F4Sld6Z0ZGUzdJdGs2TEhPQkU5Z085d2d4MTF3bnFnRkdJVElTcDBGMFRmbUxWLUo1TVpjbGdCYmNyVlFBVlN1VUtJUGhrUDRQaE1yQmdMYW1aV1NGTFk1Zw": "2026-11-17T09:02:02.165658+00:00",
   "web:google news:CBMifEFVX3lxTE5WNWhZMlJJU3VDcnJTOGxVMXhodlpJa3JYTHNWMlpiMEdHSzFmRXVhRlE3NHZzUFdtUUNxdEdfbUJJYXQ2VFZvN2xpQU5sSUlVZXdZOE5FX1NPQnN1NDVpdklkQ0hDdmR6bUVwQXJOMVlGa3BUR05renlwNGI": "2026-11-17T09:02:02.165658+00:00",
   "web:google news:CBMiqwFBVV95cUxNUFlzcFU1X1ZBQjFoVWxrYnRWV3ZsekZNVXZUSTMzMUc5bHJiN2JaYVRNWno4NkpNajBZRTRVdjh4VE05VFdpbGtyaU13WEdzcGFKU0ozM1V1clJ4cjFmUmxZbGhNSEdBaGZOcWdONFFpQ254RUxkMHFmZmViQmlGb0wybGNWLW1pdFpDTkl6LWhVOU9FZjNObzVvS3FLLWJWMzBOTUxLQTkyLTg": "2026-11-17T09:02:02.165658+00:00",
-  "x:2122485871018692919": "2026-11-17T09:02:02.165658+00:00"
+  "x:2122485871018692919": "2026-11-17T09:02:02.165658+00:00",
+  "web:ign france:https://fr.ign.com/grand-theft-auto-6/93996/subway-lance-un-sandwich-inspire-de-gta-6-mais-il-y-a-un-hic": "2026-11-17T10:01:58.132561+00:00",
+  "web:google actu:CBMipwFBVV95cUxONjA2ZlpnWW9NZDNoX0dtTmdKLVdvbVdXSGMyaFpMUkpXbktVN2xpdVRlMlgwSnZ1Zl9VZWFWc0ZqR0ZJTk5tSTNBcVZsT21MdVk2MXM3aEJGNWQ3dFdfLW9XRVZJLUpKWHZpTUp5TW40Q3JIYmkyWkF2TFBWT2V1aHF0MENCVVVEa0ZVRXRSR2VsNGdsdXptckktd3oyMGFhTF85UVZhOA": "2026-11-17T10:01:58.132561+00:00",
+  "ag:https://www.actugaming.net/?p=833706": "2026-11-17T10:01:58.132561+00:00",
+  "ag:https://www.actugaming.net/?p=833703": "2026-11-17T10:01:58.132561+00:00",
+  "web:google news:CBMirgFBVV95cUxPRG5ocG1PTDYwTnI0VEZDMUFGUWJ2MWJ5Tk1hd3lObEZ3VWNvU2lQSFl4WGpETUV0eXI4OHN6amltZUNiRkEtbzZvQTBTQ0w4cUZoeWV2emhxbWNqajRqUXM4T2lPbkVuODZRR3BVOE9QYXdaWnZJemRNS25RaGwzYlZQWG1iQ255TmZoSmZxZ2Fva2NnTGllYzNuc21jS2dDbW1WS292cEI4NDVIVGc": "2026-11-17T10:01:58.132561+00:00"
  },
  "publies": [
   {
@@ -804,10 +809,18 @@
    "source_id": "x:2122485871018692919",
    "lien": "https://www.instagram.com/p/Df1knl6l_hs/",
    "reel": "https://www.instagram.com/reel/Df1krjEkxiZ/"
+  },
+  {
+   "ts": "2026-11-17T10:01:58.132561+00:00",
+   "categorie": "GAMING",
+   "titre": "Grand Theft Auto VI sortira le 19 novembre",
+   "source_id": "web:google news:CBMirgFBVV95cUxPRG5ocG1PTDYwTnI0VEZDMUFGUWJ2MWJ5Tk1hd3lObEZ3VWNvU2lQSFl4WGpETUV0eXI4OHN6amltZUNiRkEtbzZvQTBTQ0w4cUZoeWV2emhxbWNqajRqUXM4T2lPbkVuODZRR3BVOE9QYXdaWnZJemRNS25RaGwzYlZQWG1iQ255TmZoSmZxZ2Fva2NnTGllYzNuc21jS2dDbW1WS292cEI4NDVIVGc",
+   "lien": "https://www.instagram.com/p/Df1rNmDl3Dc/",
+   "reel": "https://www.instagram.com/reel/Df1rRrTkuQo/"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 2112
+  "tweets": 2142
  }
 }
