@@ -141,11 +141,14 @@ NOM_PAGE = "C'EST TOMBÉ"
 DA = "v3"                     # "v3" = DA C'EST TOMBÉ (style 7run, lime) ; "bruit" = DA LE BRUIT
 CONSIGNES_REDAC = ""          # consignes de rédaction propres au compte (ajoutées au prompt)
 HANDLE = "@cesttombe.actu"
+# 5 hashtags au plus (limite d'Instagram) : les 3 premiers de la liste + 2 précis sur le sujet (choisis par l'IA)
 HASHTAGS = {
-    "GAMING": ["#gta6", "#gtavi", "#grandtheftauto", "#rockstargames", "#cesttombe"],
-    "GAMING_HORS_GTA": ["#jeuxvideo", "#gaming", "#actujv", "#gamer", "#cesttombe"],
-    "RAP FR": ["#rapfr", "#rapfrancais", "#actusrap", "#hiphopfrancais", "#cesttombe"],
+    "GAMING": ["#gta6", "#gtavi", "#rockstargames", "#grandtheftauto", "#gtaonline"],
+    "GAMING_HORS_GTA": ["#jeuxvideo", "#gaming", "#actujv", "#gamer", "#jeuvideo"],
+    "RAP FR": ["#rapfr", "#rapfrancais", "#actusrap", "#hiphopfrancais", "#rap"],
 }
+PROMESSE = "ne rien rater de GTA 6"     # « Abonne-toi à @… pour … » dans la légende
+ENVOIE_A = "attend GTA 6"                # « Envoie ça à ton pote qui … » si l'IA n'a rien proposé
 
 # ------------------------------------------------------------------ clé Gemini
 # Utilisée seulement si le secret GitHub GEMINI_API_KEY n'existe pas.

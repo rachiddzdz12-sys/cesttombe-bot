@@ -179,14 +179,16 @@ Produis (format « carrousel + Reel » épuré : textes très courts, percutants
 - "chiffre_texte" : 4 à 10 mots qui expliquent ce chiffre (ou, sans chiffre, qui résument l'info).
 - "slides" : 2 à 4 slides pour la suite du carrousel, dans l'ordre logique. Chaque slide : "rubrique" (2 à 4 mots, ex : « Le déclic », « Les chiffres », « Ce qu'il a dit », « Et maintenant »), soit "gros" (un chiffre ou une date de la source, 6 caractères maximum, ex : « 2024 », « 23 », « 8 500 »), soit "gros_haut" + "gros_bas" (2 lignes courtes de 14 caractères maximum chacune quand il n'y a pas de chiffre), "sous_titre" (2 à 5 mots qui expliquent le gros texte) et "texte" (15 à 30 mots, les faits). Pour un récap de sorties, une slide par sortie (artiste en "gros_haut", titre en "gros_bas").
 - "question_haut" et "question_bas" : une question au lecteur coupée en 2 lignes courtes (ex : « Tu t'y » / « attendais ? », « Et toi, tu danserais » / « en plein marathon ? »). Neutre, jamais d'opinion politique.
-- "accroche_reel_haut" et "accroche_reel_bas" : l'accroche du Reel en 2 lignes de 18 caractères maximum, la plus intrigante possible (ex : « 7 heures de course » / « et c'est lui la star »).
-- "accroche" : 1 phrase pour la légende Instagram, avec 1 emoji maximum.
-- "hashtags" : 2 ou 3 hashtags précis sur le sujet (nom du jeu, de l'artiste…), sans espace, en minuscules.
-- "voix_off" : le texte lu par la voix du Reel, écrit pour l'oral comme une créatrice de contenu qui raconte l'info à ses abonnés : 35 à 55 mots, phrases courtes, du « tu ». Commence par une accroche forte (une question ou un fait surprenant), raconte l'essentiel avec les vrais faits, et termine par la même question au spectateur que "question_haut" + "question_bas".
+- "accroche_reel_haut" et "accroche_reel_bas" : le HOOK écrit en gros sur le Reel dès la 1re seconde, en 2 lignes de 18 caractères maximum : le fait le plus choc ou une promesse intrigante, la même idée que la 1re phrase de la voix off (ex : « 1,45 milliard » / « avant la sortie », « Ninho explose » / « un record Spotify »). Jamais « Breaking news » ni le nom de la page.
+- "accroche" : la 1re ligne de la légende Instagram, 6 à 14 mots : le fait le plus fort, avec le mot-clé principal (le nom du jeu ou de l'artiste) dans les 3 premiers mots, 1 emoji maximum à la fin (ex : « GTA 6 dépasse 1,45 milliard de dollars avant même sa sortie 🤯 »).
+- "contexte" : 1 ou 2 phrases pour la légende (20 à 35 mots) : les faits essentiels, avec les noms et les chiffres de la source.
+- "envoie_a" : 3 à 7 mots pour finir la phrase « Envoie ça à ton pote qui… », en lien avec l'info (ex : « attend GTA 6 depuis 10 ans », « écoute Ninho en boucle »).
+- "hashtags" : 2 hashtags précis sur le sujet (personnage, artiste, lieu, titre…), sans espace, en minuscules.
+- "voix_off" : le texte lu par la voix du Reel, pour l'oral, comme une créatrice de contenu : 18 à 28 mots MAXIMUM au total (le Reel doit durer moins de 10 secondes), phrases très courtes, du « tu ». 1re phrase = le hook : 4 à 9 mots, le fait le plus choc ou une promesse intrigante, SANS intro (jamais « Salut », « Aujourd'hui », « Alors », « Breaking news », « Grosse info »). Puis 1 ou 2 phrases courtes avec les vrais faits. Termine par la même question au spectateur que "question_haut" + "question_bas".
 - "visuels" : 1 ou 2 sujets à montrer en photo, du plus important au moins important. Chaque sujet : "type" = "personne", "artiste" (musicien), "jeu" (jeu vidéo) ou "autre", et "nom" = le nom exact et complet (ex : « Teddy Riner », « Ninho », « God of War Ragnarök »).
 - "faisable" : false si la source ne contient pas assez d'info pour faire un post fiable, sinon true.
 
-Réponds UNIQUEMENT en JSON : {{"titre": "", "titre_haut": "", "titre_bas": "", "mot_cle": "", "rubrique": "", "mots_cles": [], "accroche_couv": "", "chiffre": "", "chiffre_texte": "", "slides": [{{"rubrique": "", "gros": "", "gros_haut": "", "gros_bas": "", "sous_titre": "", "texte": ""}}], "question_haut": "", "question_bas": "", "accroche_reel_haut": "", "accroche_reel_bas": "", "accroche": "", "hashtags": [], "voix_off": "", "visuels": [{{"type": "", "nom": ""}}], "faisable": true}}"""
+Réponds UNIQUEMENT en JSON : {{"titre": "", "titre_haut": "", "titre_bas": "", "mot_cle": "", "rubrique": "", "mots_cles": [], "accroche_couv": "", "chiffre": "", "chiffre_texte": "", "slides": [{{"rubrique": "", "gros": "", "gros_haut": "", "gros_bas": "", "sous_titre": "", "texte": ""}}], "question_haut": "", "question_bas": "", "accroche_reel_haut": "", "accroche_reel_bas": "", "accroche": "", "contexte": "", "envoie_a": "", "hashtags": [], "voix_off": "", "visuels": [{{"type": "", "nom": ""}}], "faisable": true}}"""
 
 
 def rediger(cand, image_jpeg=None):
@@ -304,7 +306,8 @@ FIN_VOIX = "Abonne-toi à C’est tombé."   # remplacé par le nom du compte (v
 
 def fin_voix():
     return "Abonne-toi à C’est tombé." if config.NOM_PAGE == "C'EST TOMBÉ" else f"Abonne-toi à {config.NOM_PAGE.title()}."
-VOIX_MOTS_MAX = 60
+VOIX_MOTS_MAX = 32       # ~10 s de voix : un Reel court est regardé en entier et revu (signal n°1 d'Instagram)
+HASHTAGS_MAX = 5         # limite d'Instagram depuis décembre 2025 (au-delà, la diffusion est pénalisée)
 
 
 def raccourcir_voix(texte, question=""):
@@ -314,13 +317,48 @@ def raccourcir_voix(texte, question=""):
     phrases = re.split(r"(?<=[.!?…])\s+", texte)
     finit_par_question = phrases and phrases[-1].endswith("?")
     fin = phrases.pop() if finit_par_question and len(phrases) > 1 else (question or fin_voix())
+    budget = max(8, VOIX_MOTS_MAX - len(fin.split()))
     garde, n = [], 0
     for p in phrases:
-        if garde and n + len(p.split()) > VOIX_MOTS_MAX - len(fin.split()):
+        if garde and n + len(p.split()) > budget:
             break
         garde.append(p)
         n += len(p.split())
-    return (" ".join(garde).strip() + " " + fin).strip()
+    mots = " ".join(garde).split()
+    if len(mots) > budget:            # une seule phrase trop longue : coupée proprement
+        mots = mots[:budget]
+        while len(mots) > 3 and mots[-1].lower().strip(",;:") in MOTS_VIDES:
+            mots.pop()
+        mots[-1] = mots[-1].rstrip(",;:") + ("" if mots[-1][-1:] in ".!?…" else ".")
+    return (" ".join(mots).strip() + " " + fin).strip()
+
+
+def choisir_hashtags(precis, base):
+    """5 hashtags au plus : les 3 hashtags phares de la page, puis 2 précis sur le sujet, puis la suite de la base."""
+    propres = [("#" + re.sub(r"[^\w]", "", str(t).lstrip("#"))).lower() for t in (precis or [])]
+    propres = [t for t in propres if len(t) > 2][:2]
+    return list(dict.fromkeys(list(base[:3]) + propres + list(base[3:])))[:HASHTAGS_MAX]
+
+
+def legendes(rep, titre, question, tags, source, repli_contexte=""):
+    """Légendes du carrousel et du Reel : 1re ligne = le fait + le mot-clé (la recherche Instagram lit la légende),
+    puis les faits, la question (commentaires), l'envoi à un pote (partages en DM, le signal le plus fort pour
+    toucher des non-abonnés), l'abonnement, la source et 5 hashtags."""
+    accroche = (rep.get("accroche") or titre).strip()
+    contexte = (rep.get("contexte") or "").strip() or repli_contexte.strip()
+    if contexte and contexte.lower().rstrip(".") in accroche.lower():
+        contexte = ""
+    pote = re.sub(r"^(qui|à ton pote qui)\s+", "", (rep.get("envoie_a") or "").strip().rstrip(".!"), flags=re.I)
+    pote = pote or getattr(config, "ENVOIE_A", "")
+    question = re.sub(r"\s+", " ", question).strip()
+    abonne = f"🔔 Abonne-toi à {config.HANDLE} pour {getattr(config, 'PROMESSE', 'ne rien rater')}"
+    corps = f"{accroche}\n\n" + (f"{contexte}\n\n" if contexte else "")
+    fin = f"Source : {source}\n\n" + " ".join(tags)
+    commente = f"{question} Dis-le en commentaire 👇"
+    envoie = f"📩 Envoie ça à ton pote qui {pote}" if pote else ""
+    carrousel = corps + f"Glisse pour tout voir 👉\n{commente}\n\n{abonne}\n\n" + fin
+    reel = corps + f"{commente}\n" + (f"{envoie}\n" if envoie else "") + f"{abonne}\n\n" + fin
+    return carrousel, reel
 
 
 def valider(rep, cand):
@@ -349,22 +387,18 @@ def valider(rep, cand):
     elif mot_cle:  # reprend la casse exacte du titre
         i = titre.lower().index(mot_cle.lower())
         mot_cle = titre[i:i + len(mot_cle)]
-    tags = [("#" + t.lstrip("#")).lower().replace(" ", "") for t in rep.get("hashtags", [])[:3]]
     cle_tags = cand["categorie"]
     if page_gta(cand) and not est_gta(cand) and "GAMING_HORS_GTA" in config.HASHTAGS:
         cle_tags = "GAMING_HORS_GTA"          # grosse info gaming hors GTA : hashtags gaming classiques
-    tags += config.HASHTAGS[cle_tags]
-    tags = list(dict.fromkeys(tags))
-    legende = (f"{(rep.get('accroche') or titre).strip()}\n\n"
-               f"Glisse pour tout savoir 👉\n\n"
-               f"Source : {cand.get('source_legende', cand['source'])}\n\n"
-               + " ".join(tags))
+    tags = choisir_hashtags(rep.get("hashtags"), config.HASHTAGS[cle_tags])
     voix_off = (rep.get("voix_off") or "").strip()
     if len(voix_off.split()) < 12:      # secours : on lit le titre et la première phrase
         premiere = re.split(r"(?<=[.!?])\s+", sections[0]["texte"].strip())[0]
         voix_off = f"{titre}. {premiere} {fin_voix()}"
     q1, q2 = _court(rep.get("question_haut"), 26) or "Et toi,", _court(rep.get("question_bas"), 26) or "t'en penses quoi ?"
     voix_off = raccourcir_voix(voix_off, f"{q1} {q2}".strip())
+    legende, legende_reel = legendes(rep, titre, f"{q1} {q2}", tags, cand.get("source_legende", cand["source"]),
+                                     sections[0]["texte"])
     visuels = [{"type": str(v.get("type") or "autre"), "nom": str(v["nom"]).strip()}
                for v in (rep.get("visuels") or []) if isinstance(v, dict) and v.get("nom")][:2]
     haut, bas = _court(rep.get("titre_haut"), 26), _court(rep.get("titre_bas"), 26)
@@ -380,6 +414,7 @@ def valider(rep, cand):
     chiffre = _court(rep.get("chiffre"), 9)
     return {"titre": titre, "mot_cle": mot_cle, "voix_off": voix_off[:700], "visuels": visuels,
             "sections": sections[:4], "slides": slides[:4], "legende": legende[:2200],
+            "legende_reel": legende_reel[:2200],
             "titre_haut": haut, "titre_bas": bas, "rubrique": rubrique or defaut_rubrique,
             "mots_cles": mots_cles, "accroche_couv": _court(rep.get("accroche_couv"), 30),
             "chiffre": chiffre, "chiffre_texte": _court(rep.get("chiffre_texte"), 110),

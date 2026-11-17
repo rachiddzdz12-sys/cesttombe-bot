@@ -19,8 +19,10 @@ from bot.reel import mixer_audio, musique
 
 W, H, FPS, M = 1080, 1920, 30, 84
 DELAI = 0.3          # la voix commence 0,3 s après l'image (comme dans reel.mixer_audio)
-FIN = 3.2            # durée de la carte de fin
-PLAN = 2.4           # durée visée d'un plan
+FIN = 0.7            # on reste sur la question, puis le Reel reboucle sur le hook (plus de carte logo)
+PLAN = 1.7           # durée visée d'un plan : coupes rapides
+PUNCH = 0.35         # zoom de départ : du mouvement dès la 1re image
+Y_TEXTE = 1290       # bas des textes : au-dessus de la zone cachée par la légende d'Instagram
 
 
 # ------------------------------------------------------------------ mots minutés
@@ -156,7 +158,7 @@ def pied(img, n, total):
     ecrire(d, W - M - 120 - largeur(txt, F_PIED, 2), 1572, txt, F_PIED, BLANC, track=2)
 
 
-def bloc_titre(img, haut, bas, sous, tl, y_bas=1430, taille=118):
+def bloc_titre(img, haut, bas, sous, tl, y_bas=Y_TEXTE, taille=118):
     """Titre façon carte « Breaking news » : lignes blanches puis violettes, sous-titre gris, barre violette."""
     lmax = W - 2 * M - 30
     f, lh = bb.ajuster(haut, 800, taille, lmax, 2, mini=72, track_ratio=-0.025)
@@ -188,7 +190,7 @@ def bloc_titre(img, haut, bas, sous, tl, y_bas=1430, taille=118):
         d.rectangle((M, y_bas + 26, M + 70 * p, y_bas + 30), fill=VIOLET)
 
 
-def carte_chiffre(img, valeur, libelle, tl, y=1150):
+def carte_chiffre(img, valeur, libelle, tl, y=1010):
     nombre, unite = bb.decouper_chiffre(valeur)
     p = bb.ease(tl / 0.5)
     a, dy = int(255 * p), int(40 * (1 - p))
@@ -216,7 +218,7 @@ def carte_chiffre(img, valeur, libelle, tl, y=1150):
         d.ellipse((q[0] - 6, q[1] - 6, q[0] + 6, q[1] + 6), fill=VIOLET)
 
 
-def sous_titres(img, t, grp, y=1460):
+def sous_titres(img, t, grp, y=Y_TEXTE):
     g = next((g for g in grp if g[0] <= t < g[1]), None)
     if not g:
         return
@@ -225,7 +227,7 @@ def sous_titres(img, t, grp, y=1460):
     lignes, x = [[]], M
     for mot, t0 in mots:
         lm = F_ST.getlength(mot + " ")
-        if x + lm > W - M and lignes[-1]:
+        if x + lm > W - M - 130 and lignes[-1]:      # loin des boutons d'Instagram à droite
             lignes.append([])
             x = M
         lignes[-1].append((mot, t0, x))
@@ -271,11 +273,20 @@ def carte_fin(tl, n):
     return Image.fromarray(a3.clip(0, 255).astype(np.uint8)).convert("RGBA")
 
 
+def punch(img, t):
+    """Zoom arrière rapide sur les premières images : du mouvement dès la 1re frame."""
+    if t >= PUNCH:
+        return img
+    k = 1 + 0.12 * (1 - min(1.0, t / PUNCH)) ** 2
+    w, h = int(W / k), int(H / k)
+    return img.crop(((W - w) // 2, (H - h) // 2, (W - w) // 2 + w, (H - h) // 2 + h)).resize((W, H), Image.BICUBIC)
+
+
 # ------------------------------------------------------------------ montage
 def _decouper(mots, t_fin_voix, post):
     """Bornes des plans : accroche (1re phrase), parties (~2,4 s, coupées entre deux mots), question."""
     fins_phrase = [m[2] for m in mots if m[0].endswith((".", "?", "!"))]
-    t_accroche = next((t for t in fins_phrase if 1.8 <= t <= 3.8), min(2.9, t_fin_voix))
+    t_accroche = next((t for t in fins_phrase if 1.5 <= t <= 3.4), min(2.6, t_fin_voix))
     q = None
     if mots and mots[-1][0].endswith("?"):
         debut_derniere = [m for i, m in enumerate(mots) if i == 0 or mots[i - 1][0].endswith((".", "?", "!"))]
@@ -326,7 +337,7 @@ def fabriquer(post, medias, texte_voix, dossier, prefixe, diag):
     mots = mots_minutes(texte_voix, audio, diag) if audio else []
     t_fin_voix = (mots[-1][2] if mots else DELAI + duree_voix) + 0.25
     t_accroche, bornes, fin_milieu, t_question = _decouper(mots, t_fin_voix, post)
-    t_fin = max(t_fin_voix, 4.5)
+    t_fin = max(t_fin_voix, 4.0)
     total = t_fin + FIN
 
     v = medias.get("video")
@@ -351,8 +362,6 @@ def fabriquer(post, medias, texte_voix, dossier, prefixe, diag):
     q1, q2 = post.get("question_haut") or "Et toi,", post.get("question_bas") or "t'en penses quoi ?"
 
     def image(t, n):
-        if t >= t_fin:
-            return carte_fin(t - t_fin, n)
         k = next((i for i, p in enumerate(plans) if p.debut <= t < p.fin), len(plans) - 1)
         plan = plans[k]
         tl = t - plan.debut
@@ -365,14 +374,14 @@ def fabriquer(post, medias, texte_voix, dossier, prefixe, diag):
             bloc_titre(img, post.get("titre_haut") or "", post.get("titre_bas") or "",
                        post.get("chiffre_texte") or "", tl)
         elif plan.kicker == "Et toi ?":
-            bloc_titre(img, q1, q2, "", tl, y_bas=1420, taille=112)
+            bloc_titre(img, q1, q2, "Envoie-le à un pote qui doit savoir", tl, taille=112)
         else:
             if k == 1 and chiffre:
                 carte_chiffre(img, chiffre, post.get("chiffre_texte") or "", tl)
-            sous_titres(img, t, grp, y=1460 if plan.mode != "haut" else 1500)
+            sous_titres(img, t, grp)
         if 0 < tl < 0.12 and k > 0:
             img.alpha_composite(Image.new("RGBA", (W, H), VIOLET + (int(70 * (1 - tl / 0.12)),)))
-        return img
+        return punch(img, t)
 
     muet = tmp / "muet.mp4"
     ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",

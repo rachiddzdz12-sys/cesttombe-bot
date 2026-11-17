@@ -29,7 +29,9 @@ REGLAGES = {
     "LANCEMENT_JUSQUA": None,
     "RATTRAPAGE_JUSQUA": None,
     "SCORE_MIN": 6,
-    "HASHTAGS": {"RAP FR": ["#rapfr", "#rapfrancais", "#actusrap", "#hiphopfrancais", "#lebruit"]},
+    "HASHTAGS": {"RAP FR": ["#rapfr", "#rapfrancais", "#actusrap", "#hiphopfrancais", "#rap"]},
+    "PROMESSE": "toute l'actu rap",
+    "ENVOIE_A": "écoute du rap FR",
     # rubriques de la DA (petit titre en haut de chaque carte)
     "CONSIGNES_TRI": """
 PAGE 100 % RAP : seules comptent les infos sur le rap et le hip-hop (artistes, sons, albums, clips, concerts,

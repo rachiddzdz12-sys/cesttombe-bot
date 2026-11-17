@@ -18,12 +18,15 @@ from bot import da3, placement, voix
 from bot.reel import mixer_audio, musique
 
 W, H, FPS = da3.RW, da3.RH, 30
-PLAN = 2.4             # durée d'une image (s)
-ACCROCHE = 2.7         # durée de l'accroche au début (s)
-FIN = 3.0              # carte de fin (s)
+PLAN = 1.7             # durée d'une image (s) : coupes rapides, le Reel ne s'endort jamais
+ACCROCHE = 2.2         # durée du hook écrit au début (s)
+FIN = 1.2              # carte de fin courte : le Reel reboucle vite sur le hook (revisionnages)
+PUNCH = 0.35           # zoom de départ (s) : du mouvement dès la 1re image, pour arrêter le pouce
 DELAI_VOIX = 0.3       # la voix démarre 0,3 s après le début (voir mixer_audio)
-BANDE_ST = (1340, 1490)   # zone des sous-titres
-ZONE_LIBRE = (1180, 1500)  # aucun texte incrusté ni visage dans cette bande (sous-titres + chiffre clé)
+# Le bas du Reel (~30 %) est caché par la légende et le pseudo d'Instagram, la droite par les boutons :
+# sous-titres et textes restent au-dessus de y ≈ 1340 et loin du bord droit.
+BANDE_ST = (1230, 1340)   # zone des sous-titres
+ZONE_LIBRE = (1120, 1360)  # aucun texte incrusté ni visage dans cette bande (sous-titres + chiffre clé)
 ZONE_HAUTE = (300, 620)    # si le visage occupe le bas de l'image, les sous-titres passent en haut
 GENANT = 0.012             # dans un Reel, même un petit texte incrusté visible gêne
 BORD_HAUT = 260           # sous le logo et la puce
@@ -104,7 +107,7 @@ def sous_titres(d, mots, actif, y=1430):
     f = da3.police("titre", 64)
     sp = 20
     ws = [d.textlength(m.upper(), font=f) for m in mots]
-    while sum(ws) + sp * (len(mots) - 1) > W - 120 and f.size > 40:
+    while sum(ws) + sp * (len(mots) - 1) > W - 280 and f.size > 40:
         f = da3.police("titre", f.size - 4)
         ws = [d.textlength(m.upper(), font=f) for m in mots]
     x = W / 2 - (sum(ws) + sp * (len(mots) - 1)) / 2
@@ -129,6 +132,15 @@ def carte_fin(d, post):
     d.text((W / 2, y + 50), config.HANDLE, font=fl, fill=da3.BLANC, anchor="ms")
     d.text((W / 2, y + 145), "Abonne-toi pour ne rien rater", font=da3.police("texte", 30),
            fill=(225, 225, 220), anchor="ms")
+
+
+def punch(im, t):
+    """Zoom arrière rapide sur les premières images : le Reel bouge dès la 1re frame (arrête le défilement)."""
+    if t >= PUNCH:
+        return im
+    k = 1 + 0.12 * (1 - min(1.0, t / PUNCH)) ** 2
+    w, h = int(W / k), int(H / k)
+    return im.crop(((W - w) // 2, (H - h) // 2, (W - w) // 2 + w, (H - h) // 2 + h)).resize((W, H), Image.BICUBIC)
 
 
 # ------------------------------------------------------------------ plans (images qui bougent)
@@ -338,7 +350,7 @@ def fabriquer(post, medias, texte_voix, dossier, prefixe, diag):
     duree_voix = voix.duree(audio) if audio else 8.0
     mots = minuter(texte_voix, audio) if audio else []
     grp = groupes(mots)
-    t_fin = max(ACCROCHE + PLAN, DELAI_VOIX + duree_voix + 0.3)
+    t_fin = max(ACCROCHE + PLAN, DELAI_VOIX + duree_voix + 0.15)
     total = t_fin + FIN
     n_plans = max(2, int(round(t_fin / PLAN)))
     plans = construire_plans(medias, n_plans + 1, tmp, diag)
@@ -389,10 +401,10 @@ def fabriquer(post, medias, texte_voix, dossier, prefixe, diag):
                         if g[0][1] - 0.05 <= t < g[-1][2] + 0.05:
                             actif = max([k for k, m in enumerate(g) if m[1] <= t] or [0])
                             sous_titres(d, [re.sub(r"[.,;:!?…]+$", "", m[0]) for m in g], actif,
-                                        y=ZONE_HAUTE[0] + 200 if en_haut else 1450)
+                                        y=ZONE_HAUTE[0] + 200 if en_haut else BANDE_ST[1] - 30)
                             break
         im.alpha_composite(da3.avec_ombre(couche, rayon=8, force=0.7))
-        return im.convert("RGB")
+        return punch(im.convert("RGB"), t)
 
     muet = tmp / "muet.mp4"
     ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",

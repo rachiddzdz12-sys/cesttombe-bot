@@ -315,7 +315,9 @@ def executer():
                 n_source = len(photos)        # les photos de la source passent toujours en premier (couverture)
                 photos, credits = images.completer(photos, visuels.chercher(red.get("visuels"), diag))
                 if credits:   # photos sous licence libre : le crédit est obligatoire
-                    red["legende"] = red["legende"].replace("\n\n#", f"\nPhotos : {' · '.join(credits)}\n\n#", 1)
+                    for cle in ("legende", "legende_reel"):
+                        if red.get(cle):
+                            red[cle] = red[cle].replace("\n\n#", f"\nPhotos : {' · '.join(credits)}\n\n#", 1)
                 post = {"categorie": cat, "source": c["source"], "credit": credit,
                         "source_affichee": c.get("source_legende", c["source"]), **red}
                 prefixe = f"{now_paris:%Y%m%d-%H%M}-{'jv' if cat == 'GAMING' else 'rap'}" + (f"-{COMPTE}" if COMPTE else "")
@@ -324,6 +326,8 @@ def executer():
                 medias = preparer_medias(c, photos, prefixe, diag, n_source)
                 fichiers = da3.carrousel(post, medias, SORTIE, prefixe, diag)
                 (SORTIE / f"{prefixe}-legende.txt").write_text(red["legende"], encoding="utf-8")
+                if red.get("legende_reel"):
+                    (SORTIE / f"{prefixe}-legende-reel.txt").write_text(red["legende_reel"], encoding="utf-8")
                 if test:   # le post complet, pour pouvoir refaire un rendu à l'identique
                     (SORTIE / f"{prefixe}-post.json").write_text(
                         json.dumps(post, ensure_ascii=False, indent=1, default=str), encoding="utf-8")
@@ -381,7 +385,8 @@ def executer():
                 diag.append(f"  ✅ PUBLIÉ : {lien}")
                 if video:
                     try:
-                        lien_reel = instagram.publier_reel(urls[-2], red["legende"], config.REEL_DANS_LE_FEED,
+                        lien_reel = instagram.publier_reel(urls[-2], red.get("legende_reel") or red["legende"],
+                                                           config.REEL_DANS_LE_FEED,
                                                            couverture_url=urls[-1])
                         etat["publies"][-1]["reel"] = lien_reel
                         diag.append(f"  ✅ REEL PUBLIÉ : {lien_reel}")

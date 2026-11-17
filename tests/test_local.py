@@ -100,6 +100,16 @@ check(v["titre"] == "NieR Automata pèse soudain 366 Go sur Steam", "IA : point 
 check(v["mot_cle"] == "366 Go", "IA : mot clé recalé sur la casse du titre")
 check(len(v["sections"]) == 1, "IA : section vide ignorée")
 check("#nierautomata" in v["legende"] and "Source : ActuGaming" in v["legende"], "IA : légende assemblée")
+_rv = ia.valider({**rep, "hashtags": ["Lucia", "#ViceCity", "#jason", "#gta6"], "envoie_a": "attend GTA 6",
+                  "contexte": "Rockstar confirme l'actrice.", "voix_off": " ".join(["mot"] * 60) + ". Tu t'y attendais ?"}, it)
+_tags = [w for w in _rv["legende_reel"].split() if w.startswith("#")]
+check(len(_tags) <= 5 and any(_tags[:3] == b[:3] for b in config.HASHTAGS.values()) and "#lucia" in _tags,
+      f"IA : 5 hashtags au plus, les 3 phares + 2 précis ({' '.join(_tags)})")
+check("Envoie ça à ton pote qui attend GTA 6" in _rv["legende_reel"] and "Abonne-toi à" in _rv["legende_reel"]
+      and "Glisse" not in _rv["legende_reel"] and "Glisse" in _rv["legende"] and "en commentaire" in _rv["legende"],
+      "IA : légende du Reel (commentaire, envoi à un pote, abonnement) ≠ légende du carrousel (glisse)")
+check(len(_rv["voix_off"].split()) <= ia.VOIX_MOTS_MAX + 6 and _rv["voix_off"].endswith("?"),
+      f"IA : voix off courte, finit par la question ({len(_rv['voix_off'].split())} mots)")
 try:
     ia.valider({"faisable": False}, it)
     check(False, "IA : source pauvre refusée")
