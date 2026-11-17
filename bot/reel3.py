@@ -134,6 +134,12 @@ def carte_fin(d, post):
            fill=(225, 225, 220), anchor="ms")
 
 
+def court(texte, n):
+    """Texte coupé à un mot entier (jamais « officiell »), sans finir sur « de », « et »…"""
+    from bot.ia import _court
+    return _court(texte, n)
+
+
 def punch(im, t):
     """Zoom arrière rapide sur les premières images : le Reel bouge dès la 1re frame (arrête le défilement)."""
     if t >= PUNCH:
@@ -395,7 +401,7 @@ def fabriquer(post, medias, texte_voix, dossier, prefixe, diag):
                 en_haut = plan_courant.choix.get("zone") == "haut"
                 if stat and stat[0] <= t < stat[1]:
                     sticker(d, W / 2, ZONE_HAUTE[0] + 20 if en_haut else ZONE_LIBRE[0] + 20,
-                            [(chiffre, da3.LIME)] + ([(libelle[:28], da3.BLANC)] if libelle else []))
+                            [(chiffre, da3.LIME)] + ([(court(libelle, 28), da3.BLANC)] if libelle else []))
                 else:
                     for g in grp:
                         if g[0][1] - 0.05 <= t < g[-1][2] + 0.05:

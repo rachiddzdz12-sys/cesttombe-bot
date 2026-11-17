@@ -138,15 +138,29 @@ F_PIED = police(700, 24)
 F_ST = police(800, 80)
 
 
+class Calque:
+    """Dessin en transparence : ImageDraw remplace l'alpha au lieu de le fondre ; on dessine donc sur un calque
+    transparent, fondu dans l'image à la sortie (sinon les textes en fondu apparaissent d'un coup ou en noir)."""
+
+    def __init__(self, img):
+        self.img, self.c = img, Image.new("RGBA", img.size, (0, 0, 0, 0))
+
+    def __enter__(self):
+        return ImageDraw.Draw(self.c)
+
+    def __exit__(self, *exc):
+        self.img.alpha_composite(self.c)
+
+
 def nom_page():
     return getattr(config, "NOM_PAGE", "LE BRUIT")
 
 
 def entete(img, kicker, apparition=1.0):
-    d = ImageDraw.Draw(img)
     a = int(255 * apparition)
-    x = ecrire(d, M, 128, (kicker or "").upper(), F_KICK, BLANC + (a,), track=3)
-    d.line((x + 26, 117, x + 26 + 110 * apparition, 117), fill=VIOLET + (a,), width=3)
+    with Calque(img) as d:
+        x = ecrire(d, M, 128, (kicker or "").upper(), F_KICK, BLANC + (a,), track=3)
+        d.line((x + 26, 117, x + 26 + 110 * apparition, 117), fill=VIOLET + (a,), width=3)
     lg = bb.logo(58)
     img.alpha_composite(lg, (W - M - lg.width, 84))
 
@@ -179,18 +193,21 @@ def bloc_titre(img, haut, bas, sous, tl, y_bas=Y_TEXTE, taille=118):
             ecrire(dd, M, y0 + pas * (i + 1) + int(40 * (1 - p)), l, f, force or coul + (int(255 * p),),
                    track=-int(f.size * 0.025))
         p = bb.ease((tl - 0.35) / 0.45)
+        if force and p < 0.15:
+            return
         for k, s in enumerate(ls):
             ecrire(dd, M, y0 + pas * len(lignes) + 62 + ps * k, s, fs, force or GRIS + (int(255 * p),))
 
     bb.ombre(img, lambda dd, c: dessiner(dd, c))
-    dessiner(d)
-    p = bb.ease(tl / 0.5)
-    d.rectangle((M - 34, y0 + 18, M - 30, y0 + 18 + (hauteur + 10) * p), fill=VIOLET)
-    if ls:
-        d.rectangle((M, y_bas + 26, M + 70 * p, y_bas + 30), fill=VIOLET)
+    with Calque(img) as d:
+        dessiner(d)
+        p = bb.ease(tl / 0.5)
+        d.rectangle((M - 34, y0 + 18, M - 30, y0 + 18 + (hauteur + 10) * p), fill=VIOLET)
+        if ls:
+            d.rectangle((M, y_bas + 26, M + 70 * p, y_bas + 30), fill=VIOLET)
 
 
-def carte_chiffre(img, valeur, libelle, tl, y=1010):
+def carte_chiffre(img, valeur, libelle, tl, y=880):
     nombre, unite = bb.decouper_chiffre(valeur)
     p = bb.ease(tl / 0.5)
     a, dy = int(255 * p), int(40 * (1 - p))
@@ -209,13 +226,14 @@ def carte_chiffre(img, valeur, libelle, tl, y=1010):
             ecrire(dd, M, y + 72 + int(fl.size * 1.22) * k + dy, l, fl, force or BLANC + (a,))
 
     bb.ombre(img, lambda dd, c: dessiner(dd, c), rayon=18)
-    d = ImageDraw.Draw(img)
-    dessiner(d)
-    pts = [(600, y - 70), (680, y - 90), (740, y - 120), (800, y - 114), (860, y - 160), (920, y - 172), (980, y - 230)]
-    n = max(2, int(len(pts) * p))
-    d.line(pts[:n], fill=VIOLET, width=4)
-    for q in pts[1:n]:
-        d.ellipse((q[0] - 6, q[1] - 6, q[0] + 6, q[1] + 6), fill=VIOLET)
+    with Calque(img) as d:
+        dessiner(d)
+        pts = [(600, y - 70), (680, y - 90), (740, y - 120), (800, y - 114), (860, y - 160), (920, y - 172),
+               (980, y - 230)]
+        n = max(2, int(len(pts) * p))
+        d.line(pts[:n], fill=VIOLET, width=4)
+        for q in pts[1:n]:
+            d.ellipse((q[0] - 6, q[1] - 6, q[0] + 6, q[1] + 6), fill=VIOLET)
 
 
 def sous_titres(img, t, grp, y=Y_TEXTE):
@@ -245,7 +263,8 @@ def sous_titres(img, t, grp, y=Y_TEXTE):
                 ecrire(dd, xm, y0 + 92 * i + int(14 * (1 - p)), mot, F_ST, force or coul + (a,), track=-2)
 
     bb.ombre(img, lambda dd, c: dessiner(dd, c), rayon=14, force=190)
-    dessiner(ImageDraw.Draw(img))
+    with Calque(img) as d:
+        dessiner(d)
 
 
 def carte_fin(tl, n):
@@ -372,7 +391,7 @@ def fabriquer(post, medias, texte_voix, dossier, prefixe, diag):
         pied(img, k + 1, total_cartes)
         if k == 0:
             bloc_titre(img, post.get("titre_haut") or "", post.get("titre_bas") or "",
-                       post.get("chiffre_texte") or "", tl)
+                       post.get("chiffre_texte") or "", tl + 2.0)     # le hook est lisible dès la 1re image
         elif plan.kicker == "Et toi ?":
             bloc_titre(img, q1, q2, "Envoie-le à un pote qui doit savoir", tl, taille=112)
         else:

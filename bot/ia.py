@@ -182,8 +182,8 @@ Produis (format « carrousel + Reel » épuré : textes très courts, percutants
 - "accroche_reel_haut" et "accroche_reel_bas" : le HOOK écrit en gros sur le Reel dès la 1re seconde, en 2 lignes de 18 caractères maximum : le fait le plus choc ou une promesse intrigante, la même idée que la 1re phrase de la voix off (ex : « 1,45 milliard » / « avant la sortie », « Ninho explose » / « un record Spotify »). Jamais « Breaking news » ni le nom de la page.
 - "accroche" : la 1re ligne de la légende Instagram, 6 à 14 mots : le fait le plus fort, avec le mot-clé principal (le nom du jeu ou de l'artiste) dans les 3 premiers mots, 1 emoji maximum à la fin (ex : « GTA 6 dépasse 1,45 milliard de dollars avant même sa sortie 🤯 »).
 - "contexte" : 1 ou 2 phrases pour la légende (20 à 35 mots) : les faits essentiels, avec les noms et les chiffres de la source.
-- "envoie_a" : 3 à 7 mots pour finir la phrase « Envoie ça à ton pote qui… », en lien avec l'info (ex : « attend GTA 6 depuis 10 ans », « écoute Ninho en boucle »).
-- "hashtags" : 2 hashtags précis sur le sujet (personnage, artiste, lieu, titre…), sans espace, en minuscules.
+- "envoie_a" : 3 à 7 mots pour finir la phrase « Envoie ça à ton pote qui… », verbe à la 3e personne (« qui attend », jamais « qui attends »), en lien avec l'info (ex : « attend GTA 6 depuis 10 ans », « écoute Ninho en boucle »).
+- "hashtags" : 2 hashtags précis, UNIQUEMENT des noms propres du sujet (jeu, personnage, artiste, album, lieu), sans espace, en minuscules ; jamais un mot négatif ou judiciaire (pas de #blanchiment, #prison, #mort…).
 - "voix_off" : le texte lu par la voix du Reel, pour l'oral, comme une créatrice de contenu : 18 à 28 mots MAXIMUM au total (le Reel doit durer moins de 10 secondes), phrases très courtes, du « tu ». 1re phrase = le hook : 4 à 9 mots, le fait le plus choc ou une promesse intrigante, SANS intro (jamais « Salut », « Aujourd'hui », « Alors », « Breaking news », « Grosse info »). Puis 1 ou 2 phrases courtes avec les vrais faits. Termine par la même question au spectateur que "question_haut" + "question_bas".
 - "visuels" : 1 ou 2 sujets à montrer en photo, du plus important au moins important. Chaque sujet : "type" = "personne", "artiste" (musicien), "jeu" (jeu vidéo) ou "autre", et "nom" = le nom exact et complet (ex : « Teddy Riner », « Ninho », « God of War Ragnarök »).
 - "faisable" : false si la source ne contient pas assez d'info pour faire un post fiable, sinon true.
@@ -350,6 +350,9 @@ def legendes(rep, titre, question, tags, source, repli_contexte=""):
         contexte = ""
     pote = re.sub(r"^(qui|à ton pote qui)\s+", "", (rep.get("envoie_a") or "").strip().rstrip(".!"), flags=re.I)
     pote = pote or getattr(config, "ENVOIE_A", "")
+    premier, _, reste = pote.partition(" ")
+    if re.fullmatch(r"\w+(es|ds)", premier) and premier.lower() not in ("des", "les", "ses", "mes", "tes", "ces"):
+        pote = (premier[:-1] + (" " + reste if reste else "")).strip()     # « qui attends » → « qui attend »
     question = re.sub(r"\s+", " ", question).strip()
     abonne = f"🔔 Abonne-toi à {config.HANDLE} pour {getattr(config, 'PROMESSE', 'ne rien rater')}"
     corps = f"{accroche}\n\n" + (f"{contexte}\n\n" if contexte else "")
