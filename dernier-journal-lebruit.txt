@@ -1,1 +1,42 @@
-Pas de post : dernier post il y a 209 min (minimum 210)
+Mode : auto
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @le.bruit.rap (16 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 6 / 100
+Rap · @rap.minute → 12 posts lus
+Rap · @rapfractusofficiel → 12 posts lus
+Rap · @booska_p → 12 posts lus
+X · @RapFrActus → 10 tweets lus, 1 gardés (ce mois : 375 / 9000)
+X · @FrenchRapUS → 10 tweets lus, 4 gardés (ce mois : 390 / 9000)
+X · @Rapunchline → 10 tweets lus, 2 gardés (ce mois : 405 / 9000)
+X · @SpotifyFrance → 10 tweets lus, 2 gardés (ce mois : 420 / 9000)
+18 infos fraîches et jamais traitées (sur 45 lues)
+   8/10 ✓ « 🚨Les RAPPEURS qui ont obtenu au moins 20 CERTIFICATIONS cette année en »
+   0/10 ✗ pas une news « 🚨 HISTORIQUE !  »
+   0/10 ✗ pas une news « 🚨 C’EST CONFIRMÉ !!! »
+   0/10 ✗ pas une news « 🚨 ALERTE !  »
+   7/10 ✓ « 🚨 FIANSO A EMPÊCHÉ LA PRÉPARATION D'UN FILM SUR ZYED & BOUNA 👏🕊️ »
+   0/10 ✗ pas une news « Plus que deux jours avant GTA VI ‼️🎮 »
+   7/10 ✓ « Les 5 morceaux les plus écoutés de l’album de @Sdm__92 depuis vendredi »
+   5/10 ✗ trop faible (mini 6) « Timar - Freestyle Booska No System ‼️ »
+   0/10 ✗ pas une news « Gagne 2 pass 3 jours pour le FCKNYE 🎁 »
+   0/10 ✗ pas une news « 🎯 Pour Denis Villeneuve, James Bond est d’abord un tueur. Et Pattinson »
+   3/10 ✗ pas une news « Tu vas faire quoi en premier sur GTA VI ? 😂 »
+   0/10 ✗ pas une news « 🏆 11 nominations pour RAYE, 9 pour Rosalía et 6 pour Olivia Dean.  »
+   6/10 ✓ « 🇨🇩 Pour Tiakola, annoncer son album à Kinshasa, c’était bien plus qu’u »
+   0/10 ✗ pas une news « DJ Snake annonce une date en France 🇫🇷 »
+   8/10 ✓ « Koba LaD dort sur plus de 100 000€ ? 🤯 »
+   8/10 ✓ « Jul a annoncé la sortie de son feat avec J Balvin pour le 20 novembre  »
+   8/10 ✓ « 🎬 Kery James prépare un film sur l’histoire d’Ideal J ! »
+  10/10 ✗ déjà publiée « Laylow est enfin de retour 🤯 »
+RAP FR · 7 infos retenues, meilleure : « 🚨Les RAPPEURS qui ont obtenu au moins 20 CERTIFICATIONS cette année en France 🇫🇷 » (8/10)
+  photo · aucune image
+  visuels · deezer « Jul » → 6 image(s)
+  couverture LE BRUIT · photo1 · plein
+  carrousel prêt : « Les rappeurs avec le plus de certifications en France » (5 slides)
+  voix · contrôle OK (98%, essai 1, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (16.7 s)
+  reel LE BRUIT · 20.4 s · 8 plans · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Df2iZedmDIB/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df2idCzB75d/
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 11 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : réponse en 6 s
