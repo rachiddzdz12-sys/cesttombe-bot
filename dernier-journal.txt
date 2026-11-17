@@ -2,10 +2,10 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (10 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 21 / 100
+Instagram · posts publiés par l'API sur 24 h : 23 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   9 infos retenues après filtre
-Web · GOOGLE ACTU → 100 infos
+Web · GOOGLE ACTU → HTTP 429
 Web · GOOGLE NEWS → 102 infos
 Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 12 infos
@@ -17,47 +17,43 @@ Web · GTABASE → 30 infos
 Web · GAMEKULT → 7 infos
 Web · IGN FRANCE → 13 infos
 Web · JEUXVIDEO.COM → 6 infos
-Web · INSIDER GAMING → 5 infos
+Web · INSIDER GAMING → 4 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 2 gardés
-X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 2337 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 2352 / 10000)
+X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 2367 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 2382 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-257 infos fraîches et jamais traitées (sur 460 lues)
+178 infos fraîches et jamais traitées (sur 359 lues)
    6/10 ✗ déjà publiée « Rockstar's Real-Life GTA Research Took Developers Into Dangerous Situa »
    9/10 ✗ déjà publiée « GTA VI Could Make $2 Billion This Week, 15 Million Pre-Orders Already! »
    8/10 ✗ déjà publiée « 6 New GTA 6 Screenshots Released Showing Dynamic Weather »
    9/10 ✗ déjà publiée « GTA VI Could Make $2 Billion This Week, 15 Million Pre-Orders Already! »
-   7/10 ✓ « GTA 6 : ces lieux emblématiques de Miami que vous reconnaîtrez dans Vi »
-   8/10 ✓ « Take-Two lays off Firaxis employees on eve of Grand Theft Auto VI laun »
-   7/10 ✓ « GTA 6 Team Would “Never Stop Working” On it “If They Had the Choice”,  »
-   2/10 ✗ pas une news « A violent vacation: The poker vlogger trading cash games for GTA VI »
-   8/10 ✓ « On va enfin pouvoir jouer à GTA VI ! »
-   7/10 ✓ « New GTA 6 Screenshots Show Off A Crucial Next-Gen Feature »
-   6/10 ✓ « Twitch Has a Plan to Keep Advertisers Happy When ‘GTA VI’ Streams Get  »
-   9/10 ✓ « GTA 6 release week: US launch times, unlock schedule, and when you can »
-   7/10 ✓ « Sortie de GTA VI: crainte d'un absentéisme massif jeudi »
-   9/10 ✓ « The Metacritic Review Score Bar For ‘GTA 6’ Is Historically High »
-   6/10 ✓ « Grand Theft Auto VI’s 30 FPS Console Cap Could Reach 120 FPS via Free  »
-   5/10 ✓ « Does 'GTA VI' Bring Biggest Licensing Opportunity Yet for Rockstar Gam »
-   4/10 ✗ pas une news « All GTA 6 Guides, Walkthroughs, Best Tips & Tricks »
-   7/10 ✓ « « GTA VI » : comment cet événement planétaire est aussi un jackpot pou »
-   7/10 ✓ « How GTA VI Multiplayer Can Pull Players Away From GTA Online »
-   6/10 ✓ « NBA 2K27 s'associe à GTA VI pour une collab haute en couleurs »
-   3/10 ✗ trop faible (mini 9) « Exodus : Après avoir changé la tête de la version masculine de Jun, pl »
-GAMING · 14 infos retenues, meilleure : « GTA 6 release week: US launch times, unlock schedule, and when you can play » (9/10)
-  article · en.as.com
-  article · 4953 caractères lus
-  photo · 1 image(s) : 1472x828
+   2/10 ✗ pas une news « How to Play GTA 6 on PlayStation Portal »
+   9/10 ✓ « ‘GTA 6’ Release Time Revealed: What Time Can You Start Playing ‘Grand  »
+  10/10 ✓ « GTA VI Nominated For Game of the Year, Has Most Nominations »
+   9/10 ✗ déjà publiée « We got GTA 6 nominated for Game of the Year at The Game Awards before  »
+  10/10 ✓ « GTA 6 Lucia actor revealed thanks to The Game Awards Best Performance  »
+   8/10 ✗ déjà publiée « The 6 Game Of The Year Nominees At The Game Awards – Did ‘GTA 6’ Make  »
+  10/10 ✗ déjà publiée « GTA 6 Lucia Actress Officially Revealed During 2026 Game Awards Nomina »
+  10/10 ✗ déjà publiée « GTA 6 Receives Several Nominations at The Game Awards, Including Game  »
+   7/10 ✗ déjà publiée « Nearly 1 in 5 workers plan to take time off for highly anticipated GTA »
+   6/10 ✗ déjà publiée « More Than 28,000 Michiganders Projected To Take Off Work Thursday For  »
+   3/10 ✗ pas une news « 5 Tips Before You Start Playing GTA 6 »
+   7/10 ✓ « Five-Star Rotation: Inside ‘GTA VI’s’ Hip-Hop Lineup »
+   1/10 ✗ pas une news « The Best Games Like GTA 6 to Play on PC in 2026 »
+   7/10 ✓ « 'GTA 6' Pre-Orders Spark Subscription Fears Just 2 Days Before Launch »
+   8/10 ✓ « Sony Is Updating The PS5 Again, And It Might Have GTA 6 Pirates In Min »
+   8/10 ✗ déjà publiée « Just Days Before GTA 6’s Launch, Sony Strengthens PS5 Security With a  »
+   4/10 ✗ pas une news « PlayStation Plus Extra : 3 jeux quittent le service en décembre, dont  »
+   7/10 ✗ trop faible (mini 9) « Take-Two licencie un tiers du studios Firaxis (Civilization), malgré u »
+GAMING · 6 infos retenues, meilleure : « GTA VI Nominated For Game of the Year, Has Most Nominations » (10/10)
+  photo · 2 image(s) : 1024x576, 1280x720
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  couverture · photo1 · zoom 1.0 · PAS PROPRE
-  carrousel prêt : « GTA 6 : tout ce qu'il faut préparer avant la sortie » (4 slides)
-  voix · Gemini (Aoede) indisponible : gemini-3.1-flash-tts-preview HTTP 503 : {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experien
-  voix · edge-tts (18.1 s)
-  reel · 21.7 s · 9 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Df2YO2bmC_x/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df2YWojmd0F/
-Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : ReadTimeout après 60 s · gemini-3.5-flash-lite : réponse en 8 s · gemini-3.5-flash-lite : réponse en 9 s
+  couverture · photo2 · zoom 1.25 · propre
+  carrousel prêt : « GTA VI nommé pour le Jeu de l'année aux Game Awards » (5 slides)
+  voix · contrôle OK (98%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (14.8 s)
+  reel · 18.4 s · 7 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Df2e0uKDu-m/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df2e8seFCS5/
+Gemini : gemini-flash-lite-latest : réponse en 8 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3-flash-preview : réponse en 10 s
