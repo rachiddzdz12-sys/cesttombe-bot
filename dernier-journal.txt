@@ -1,61 +1,60 @@
 Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
-Instagram · @cesttombe.actu (9 abonnés)
+Instagram · @cesttombe.actu (10 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 14 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → 100 infos
+Web · GOOGLE ACTU → HTTP 429
 Web · GOOGLE NEWS → 102 infos
 Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 12 infos
-Web · ROCKSTAR INTEL → HTTP 500
+Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
-Web · GAMEKULT → 5 infos
-Web · IGN FRANCE → 13 infos
+Web · GAMEKULT → 6 infos
+Web · IGN FRANCE → 14 infos
 Web · JEUXVIDEO.COM → 3 infos
 Web · INSIDER GAMING → 4 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 2 gardés
-X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 2127 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 2142 / 10000)
+X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 2157 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 2172 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-239 infos fraîches et jamais traitées (sur 445 lues)
+171 infos fraîches et jamais traitées (sur 357 lues)
    8/10 ✗ déjà publiée « 6 New GTA 6 Screenshots Released Showing Dynamic Weather »
    9/10 ✗ déjà publiée « GTA VI Could Make $2 Billion This Week, 15 Million Pre-Orders Already! »
-   7/10 ✗ déjà publiée « Another GTA VI patch is rolling out! »
-   7/10 ✗ déjà publiée « Another GTA VI patch is rolling out! »
-   9/10 ✗ déjà publiée « Sortie de GTA 6, toutes les infos à J-3 du lancement : pré-téléchargem »
-   8/10 ✓ « Grand Theft Auto VI: What to know about characters, music and billions »
-   7/10 ✗ déjà publiée « PS5 Gets Another System Update Just Ahead of GTA VI »
-   8/10 ✓ « GTA 6 Global Release Times Confirmed: Here's How to Play Early Via the »
-   6/10 ✓ « Kalshi posts $120,000 job for a 'GTA VI researcher' — the gig starts a »
-   8/10 ✓ « How To Play GTA 6 Early On Xbox Using This Trick »
-   8/10 ✗ déjà publiée « GTA VI: la France dans le top 10 des hausses de demandes de congés pou »
-   5/10 ✓ « Billionaire CEO Gabe Newell can play 'GTA 6' with 14 friends in his su »
-   6/10 ✓ « UK Politician Downplays Fears Around GTA 6 Content for Kids, Says She' »
-   7/10 ✗ déjà publiée « Xbox Offers Doctor’s Note for Undefined Gaming Session Definitely Not  »
-   8/10 ✓ « Kai Cenat and IShowSpeed plan GTA 6 streams before its official US rel »
-   8/10 ✗ déjà publiée « GTA 6 : Rockstar dévoile six captures inédites pour présenter la météo »
-   5/10 ✓ « EA really doesn't want you to delete Madden NFL 27 to make room for GT »
-   4/10 ✗ pas une news « Subway lance un sandwich inspiré de GTA 6, mais il y a un hic »
-   7/10 ✓ « GTA VI Is Making GTA V Sell More Copies This Month »
-   4/10 ✗ pas une news « Subway lance un sandwich inspiré de GTA 6, mais il y a un hic »
-   5/10 ✗ trop faible (mini 9) « Voici la liste des nommés pour la meilleure bande-son d’un jeu aux Gra »
-   3/10 ✗ trop faible (mini 9) « Splatoon 3 se met à jour tandis que Splatoon Raiders a droit à une dém »
-GAMING · 9 infos retenues, meilleure : « Grand Theft Auto VI: What to know about characters, music and billions at stake » (8/10)
-  article · barrheadnews.com
-  article · 6000 caractères lus
-  photo · 1 image(s) : 1200x630
+   6/10 ✗ déjà publiée « Another GTA VI patch is rolling out! »
+   6/10 ✗ déjà publiée « Another GTA VI patch is rolling out! »
+   6/10 ✗ pas une news « GTA 6 New Zealand time trick for Xbox, PS5: How to play hours early »
+   7/10 ✗ déjà publiée « Xbox Is Prescribing GTA 6 Players a Day Off Without Naming the Game »
+   7/10 ✓ « GTA 6 Gone Gold: What the Report Means for Launch »
+   6/10 ✗ déjà publiée « Hacker Behind GTA 6 Leak Pleads Guilty to Rockstar Games Breach »
+   7/10 ✗ déjà publiée « Rockstar Games teams up with Discord for exclusive GTA 6 rewards, incl »
+   7/10 ✗ pas une news « GTA 6 : voici comment y jouer en avance grâce à l'astuce de la Nouvell »
+   8/10 ✓ « GTA 6 Reviews Expected Nov 18 as Metacritic Score Vanishes »
+   5/10 ✗ pas une news « Devolver Will Give You a Free Game for Deleting Your GTA 6 Preload »
+   6/10 ✗ déjà publiée « GTA 6’s 2022 Hacker Arion Kurtaj Has Officially Pled Guilty In Court »
+   5/10 ✗ pas une news « Devolver propose de gagner un exemplaire de Volvy’s Adventure: Reslime »
+   8/10 ✗ déjà publiée « New GTA 6 screenshots show realistic weather »
+   6/10 ✓ « GTA VI mania is here, and resellers are cashing in with marked-up Vice »
+   5/10 ✓ « GTA VI may not be ripe for sponsorship, but it’s the season’s biggest  »
+   6/10 ✗ déjà publiée « Arion Kurtaj Guilty Plea: 6 Counts, 90 GTA VI Clips »
+   8/10 ✗ déjà publiée « How long it takes to play GTA 6: Playthrough and achievements »
+   7/10 ✗ déjà publiée « Le pirate à l’origine de la fuite de GTA VI en 2022 plaide coupable de »
+   4/10 ✗ trop faible (mini 9) « Crazy Taxi: World Tour fera un détour du côté de l’Inde durant son tou »
+GAMING · 4 infos retenues, meilleure : « GTA 6 Reviews Expected Nov 18 as Metacritic Score Vanishes » (8/10)
+  article · thepcenthusiast.com
+  article · 3642 caractères lus
+  photo · 1 image(s) : 1600x900
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  couverture · photo1 · zoom 1.12 · propre
-  carrousel prêt : « Grand Theft Auto VI sortira le 19 novembre » (4 slides)
-  voix · contrôle OK (99%, essai 1, gemini-3.1-flash-tts-preview)
-  voix · Gemini (Aoede) (14.5 s)
-  reel · 18.1 s · 7 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Df1rNmDl3Dc/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df1rRrTkuQo/
-Gemini : gemini-flash-lite-latest : réponse en 7 s · gemini-flash-lite-latest : réponse en 7 s
+  couverture · photo1 · zoom 1.0 · propre
+  carrousel prêt : « Les testeurs recevront GTA 6 le 18 novembre » (4 slides)
+  voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (13.4 s)
+  reel · 17.0 s · 7 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Df1yCQRl6tL/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df1yFlLocfd/
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
