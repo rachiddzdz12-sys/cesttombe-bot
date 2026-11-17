@@ -1,1 +1,38 @@
-Pas de post : dernier post il y a 204 min (minimum 210)
+Mode : auto
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @le.bruit.rap (15 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 6 / 100
+Rap · @rap.minute → 12 posts lus
+Rap · @rapfractusofficiel → 12 posts lus
+Rap · @booska_p → 12 posts lus
+X · @RapFrActus → 10 tweets lus, 1 gardés (ce mois : 315 / 9000)
+X · @FrenchRapUS → 10 tweets lus, 7 gardés (ce mois : 330 / 9000)
+X · @Rapunchline → 10 tweets lus, 1 gardés (ce mois : 345 / 9000)
+X · @SpotifyFrance → 10 tweets lus, 1 gardés (ce mois : 360 / 9000)
+14 infos fraîches et jamais traitées (sur 46 lues)
+   8/10 ✓ « 🚨Les RAPPEURS qui ont obtenu au moins 20 CERTIFICATIONS cette année en »
+   0/10 ✗ pas une news « 🚨 VOICI LE GUIDE ULTIME POUR ÉVITER DE SE FAIRE SPOIL L’HISTOIRE DE GT »
+   7/10 ✓ « Les 5 morceaux les plus écoutés de l’album de @Sdm__92 depuis vendredi »
+   0/10 ✗ pas une news « 👔 Le petit frère de Lamine Yamal devient mannequin pour BOSS.  »
+   7/10 ✓ « Koba LaD dort sur plus de 100 000€ ? 🤯 »
+   8/10 ✓ « Jul a annoncé la sortie de son feat avec J Balvin pour le 20 novembre  »
+   0/10 ✗ pas une news « 🧠 La santé mentale des jeunes est aussi le reflet de leurs conditions  »
+   0/10 ✗ pas une news « 🐍 DJ Snake va faire vibrer le château de Chambord. »
+   9/10 ✓ « Nero nemesis, Cyborg, Santa Sauce, l’OVNI… Au fil des années, le mois  »
+   0/10 ✗ pas une news « 🇫🇷🐍 DJ Snake va faire vibrer le château de Chambord. »
+   0/10 ✗ pas une news « Une star du MMA et un crack du foot : deux champions français nous pré »
+   8/10 ✓ « 🎬 Kery James prépare un film sur l’histoire d’Ideal J ! »
+  10/10 ✗ déjà publiée « Cinq ans après son dernier album, Laylow est de retour le 4 décembre 2 »
+  10/10 ✗ déjà publiée « Laylow est enfin de retour 🤯 »
+RAP FR · 6 infos retenues, meilleure : « Nero nemesis, Cyborg, Santa Sauce, l’OVNI… Au fil des années, le mois de décembr » (9/10)
+  photo · 1 image(s) : 1080x1350
+  visuels · deezer « Laylow » → 6 image(s)
+  couverture LE BRUIT · photo1 · haut
+  carrousel prêt : « Sept nouveaux projets prévus pour le 4 décembre 2026 » (7 slides)
+  voix · contrôle OK (94%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (14.2 s)
+  reel LE BRUIT · 17.9 s · 6 plans · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Df2Gtarl57f/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df2GxonhjlY/
+Gemini : gemini-flash-lite-latest : réponse en 8 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 10 s
