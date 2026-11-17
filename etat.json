@@ -302,7 +302,16 @@
   "web:google news:CBMijAFBVV95cUxNc1J4TXF5LVFEWlV1RnI1Y0paMXlRWU1QZHJxQ211WFJIN2JaRjZkdFZDTG9Lc1NJWHVhSmNEa2NBTUNkcmNxUVdtZDhkS3Y1dU9DOTlJMFc4bFFZODFBS01Va0NRbkVxUlp6VVB5aU1Obkg0VjhITWd1ZGtwYjdfaDJkbFIwVTY5R2hjQg": "2026-11-17T17:31:36.038234+00:00",
   "ag:https://www.actugaming.net/?p=833773": "2026-11-17T17:31:36.038234+00:00",
   "ag:https://www.actugaming.net/?p=833785": "2026-11-17T17:31:36.038234+00:00",
-  "web:rockstar intel:https://rockstarintel.com/?p=44525": "2026-11-17T17:31:36.038234+00:00"
+  "web:rockstar intel:https://rockstarintel.com/?p=44525": "2026-11-17T17:31:36.038234+00:00",
+  "web:google news:CBMijgFBVV95cUxOTzhuTmJhV0gwNVVIZlpVWWFsNnpqd0U2UVhuYjEzWTkxRjAwNjRsckFrVDJyVFR1VlNfSlo4YzlpRzhSdm5HRGFjM3dPaWVrcHhkRmUtMFlBSkpZTmZhdDJBbFlpa25XVW92T3NMTzlDcGhXODNiUlNlMl9PRHpBdE00M282M0ZSVDlBWW5B": "2026-11-17T18:32:28.717057+00:00",
+  "web:google actu:CBMiogFBVV95cUxNOU4ySlF3M2M3RDJxTW9IUUlZMXkyR0dMUmVhSmo3R0dieUkwQXZTVWFwMEo2Zkl2cWtycDM4WkdIRkMzZU1NazNNMU96TWE4STduTEpmb0lBZmtJdGl1LU95Y2ZwNVY2VFNKaG9LTVM0TXVPelZXQ29SdElZV0g4ckxfOS0xcjVIYW9NMFB4QUFud2NHRGkyeEg3SE82ZkFJbkE": "2026-11-17T18:32:28.717057+00:00",
+  "web:google news:CBMifkFVX3lxTE5zdlJlWFhrMDdfM2xJeDVmelJtNWYySjUtSEY4UGtJV0xaOThnVHdpVVh2ajdLS1dBRHI3OEtjdGFxSHNVODh6emEtdlo2am5ET1I2S3o4QTlCQXZaQThSMVo0b3piT09aNGs0c1dRSHJYMHp5Ui15OFFqcDRFZw": "2026-11-17T18:32:28.717057+00:00",
+  "web:google news:CBMijwFBVV95cUxORXd5d0NxbHd0Zm9VcWdTOEZWemt0OTdMWnAwb2dwRjNfX0VRb3NUdWxnUnFxVEgwdk1rbjdUckNiQTRhbzBrNnJjalFvR1ZVZEdEdW8yS2MtSUxTdm9zZThMUFlMRWhBWG9UTXUxOTNUMHZhRE9FMXdoSEEwMDhFVVBpLXViUHZMUUROSTExSQ": "2026-11-17T18:32:28.717057+00:00",
+  "web:gamekult:https://www.gamekult.com/actualite/juste-avant-notre-verdict-sur-gta-6-retour-sur-gta-3-le-jeu-qui-a-tout-change-101-3050843845.html": "2026-11-17T18:32:28.717057+00:00",
+  "ag:https://www.actugaming.net/?p=833842": "2026-11-17T18:32:28.717057+00:00",
+  "ag:https://www.actugaming.net/?p=833767": "2026-11-17T18:32:28.717057+00:00",
+  "web:google news:CBMiqgFBVV95cUxNQkRSdjFMSUZYMEFOVGxHaVdKVzhvS2dJMkRWU1ZnMEZRbEw0VDRSVmlKTmRfbjRsWFdxOGZObm1lQ2NIS0xHRFhOcGJMNUpPd3Vkb01weWZXenJCcXI0ZTJWQUJMdzZBNV9rRjd6RFlhZTJwd2l1Uy1UbndqQ3RuM0czbTQyalV2bVhXVnJpN0RuMS1WWW9KMFhxcm4wRXZpaVZRcFFIUy05QQ": "2026-11-17T18:32:28.717057+00:00",
+  "web:gta boom:https://www.gtaboom.com/manni-perez-is-officially-the-first-female-gta-protagonist-as-gta-6-racks-up-awards-nominations-b38a": "2026-11-17T18:32:28.717057+00:00"
  },
  "publies": [
   {
@@ -918,10 +927,18 @@
    "source_id": "web:rockstar intel:https://rockstarintel.com/?p=44525",
    "lien": "https://www.instagram.com/p/Df2e0uKDu-m/",
    "reel": "https://www.instagram.com/reel/Df2e8seFCS5/"
+  },
+  {
+   "ts": "2026-11-17T18:32:28.717057+00:00",
+   "categorie": "GAMING",
+   "titre": "Manni Perez confirmée comme l'actrice de Lucia dans GTA 6",
+   "source_id": "web:gta boom:https://www.gtaboom.com/manni-perez-is-officially-the-first-female-gta-protagonist-as-gta-6-racks-up-awards-nominations-b38a",
+   "lien": "https://www.instagram.com/p/Df2llnzExAD/",
+   "reel": "https://www.instagram.com/reel/Df2lv4ukm9E/"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 2382
+  "tweets": 2412
  }
 }
