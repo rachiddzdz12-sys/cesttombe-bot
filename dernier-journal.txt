@@ -5,7 +5,7 @@ Instagram · @cesttombe.actu (9 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 14 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → HTTP 429
+Web · GOOGLE ACTU → 100 infos
 Web · GOOGLE NEWS → HTTP 429
 Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 12 infos
@@ -20,39 +20,39 @@ Web · JEUXVIDEO.COM → 3 infos
 Web · INSIDER GAMING → 2 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 2 gardés
-X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 2007 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 2022 / 10000)
+X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 2037 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 2052 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-67 infos fraîches et jamais traitées (sur 250 lues)
-   7/10 ✓ « Discord Gets a Vice City Makeover Ahead of GTA VI! »
-   6/10 ✓ « Rockstar's Real-Life GTA Research Took Developers Into Dangerous Situa »
+149 infos fraîches et jamais traitées (sur 350 lues)
+   6/10 ✓ « Discord Gets a Vice City Makeover Ahead of GTA VI! »
+   7/10 ✓ « Rockstar's Real-Life GTA Research Took Developers Into Dangerous Situa »
   10/10 ✗ déjà publiée « GTA VI Could Make $2 Billion This Week, 15 Million Pre-Orders Already! »
-   9/10 ✓ « 6 New GTA 6 Screenshots Released Showing Dynamic Weather  »
-   7/10 ✗ déjà publiée « Another GTA VI patch is rolling out! »
-   7/10 ✗ déjà publiée « Another GTA VI patch is rolling out! »
-   6/10 ✓ « KFC Australia Plans Fake GTA 6 Launch Day Funeral in Robina »
-   9/10 ✗ déjà publiée « GTA 6 Dynamic Weather Screenshots »
-   9/10 ✗ déjà publiée « De nouvelles images de GTA 6 mettent en avant les conditions météorolo »
-   8/10 ✓ « Discord Gets a Vice City Makeover Ahead of GTA VI »
-   5/10 ✓ « Kemi Badenoch Says Kids' GTA VI Screen Time Concerns Her More Than Vio »
-   8/10 ✗ déjà publiée « The Weather Channel Showcases GTA 6 Weather Across Six Leonida Locatio »
-   7/10 ✗ déjà publiée « Rockstar’s Real-Life GTA Research Took Developers Into Dangerous Situa »
-   8/10 ✗ déjà publiée « Rockstar is so confident in GTA 6's weather it has The Weather Channel »
-   7/10 ✓ « Très cher "GTA VI" : tous prêts à payer plein pot pour un jeu vidéo qu »
-   9/10 ✗ déjà publiée « 6 New GTA 6 Screenshots Released Showing Dynamic Weather »
-   7/10 ✓ « GTA 6's Vice City Takeover in NBA 2K27 Includes Courts, Rewards and GT »
-   7/10 ✓ « GTA 6 Publisher CEO Addresses Launch Expectations and Game Violence Cl »
-   8/10 ✗ déjà publiée « Discord teams up with Rockstar for Vice City theme to celebrate GTA 6  »
-   8/10 ✓ « Professor cancels homework and exams during GTA 6 launch week »
-GAMING · 10 infos retenues, meilleure : « 6 New GTA 6 Screenshots Released Showing Dynamic Weather  » (9/10)
+   8/10 ✗ déjà publiée « Another GTA VI patch is rolling out! »
+   8/10 ✗ déjà publiée « Another GTA VI patch is rolling out! »
+   6/10 ✓ « NBA 2K27 profite de la sortie de GTA 6 pour réaliser une collaboration »
+   2/10 ✗ pas une news « GTA VI est déjà au meilleur prix ici : les joueurs se ruent dessus et  »
+   9/10 ✗ déjà publiée « Sortie de GTA 6, toutes les infos à J-3 du lancement : pré-téléchargem »
+   8/10 ✗ déjà publiée « Patch de GTA 6 : une deuxième mise à jour avant la sortie, plus lourde »
+   7/10 ✓ « Xbox encourage les joueurs à prendre un jour de congé pour jouer à GTA »
+   8/10 ✓ « De nouvelles captures d’écran de GTA 6 montrent une météo dynamique su »
+   6/10 ✓ « «GTA VI» et ses joueurs : «La bande-annonce m’a tellement hypé que j’a »
+   4/10 ✗ pas une news « GTA 6: Jouez 12 heures avant la sortie officielle grâce à une astuce »
+   7/10 ✓ « GTA 6 J-2 : les streamers néo-zélandais vont-ils tout spoiler les prem »
+   6/10 ✓ « Très cher "GTA VI" : tous prêts à payer plein pot pour un jeu vidéo qu »
+   5/10 ✓ « Présidentielle 2027 : le jeu vidéo phénomène GTA VI va-t-il s’inviter  »
+   3/10 ✗ pas une news « Un jeu gratuit inspiré de GTA 6 débarque sur PS5 : vous pouvez déjà le »
+   5/10 ✗ déjà publiée « Présidentielle 2027 : le jeu vidéo phénomène GTA VI va-t-il s’inviter  »
+   7/10 ✓ « Le système météorologique de GTA 6 est le plus avancé de toute l'histo »
+   9/10 ✗ déjà publiée « [Grand Theft Auto VI] ATTENTION : Certaines boites des versions physiq »
+GAMING · 10 infos retenues, meilleure : « Rockstar's Real-Life GTA Research Took Developers Into Dangerous Situations! » (7/10)
   photo · échec : image trop petite (48x48)
   photo · 1 image(s) : 1200x675
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  couverture · photo1 · zoom 1.0 · propre
-  carrousel prêt : « 6 nouvelles images de GTA 6 dévoilées » (3 slides)
-  voix · contrôle OK (98%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (9.0 s)
-  reel · 12.6 s · 5 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Df1PlGPIEeY/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df1PpARFEc-/
-Gemini : gemini-flash-lite-latest : réponse en 7 s · gemini-flash-lite-latest : réponse en 5 s
+  couverture · photo1 · zoom 1.12 · propre
+  carrousel prêt : « Les recherches de Rockstar ont mené à des situations dangereuses » (4 slides)
+  voix · contrôle OK (100%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (11.8 s)
+  reel · 15.4 s · 6 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Df1WiR0jTnY/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df1Wp2TCVim/
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s

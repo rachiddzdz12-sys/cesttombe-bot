@@ -238,7 +238,11 @@
   "web:insider gaming:https://insider-gaming.com/?p=238133": "2026-11-16T21:31:27.840667+00:00",
   "web:jeuxvideo.com:https://www.jeuxvideo.com/news/2114583/face-a-gta-6-ces-developpeurs-supplient-les-joueurs-de-ne-pas-s-enfuir.htm": "2026-11-16T22:32:28.977196+00:00",
   "web:rockstar intel:https://rockstarintel.com/?p=44483": "2026-11-16T22:32:28.977196+00:00",
-  "x:2122462215517204881": "2026-11-17T06:01:40.641138+00:00"
+  "x:2122462215517204881": "2026-11-17T06:01:40.641138+00:00",
+  "web:google actu:CBMimgJBVV95cUxOS0xfZ3dJUW5udEJjcFJoNndXaTBkWDVLM1lVQW9XbDRwZmh1ZEdLZjdhOHc3aXAxQ3luQ2lHem5oX2w1alhfVnFLbElHSVVjSFlZQko4R2tuV211UWxJSGc1anpNdUZNdFB4ZnRXd2hCOUhzdGtJRXFLSnZoMi1Wclk4dUVacXlmSXhhU0J6MDhMVjVtQlhCTHNiSVNPVTh1ZFdjVy1CTjNZYml1V0c0cVFXUTExYnJmVGFVTGFSNTVFOWNwNUdIV29FUUdXVEdKQThCNl94VUYya3NiLVktUWFoTXR5UU5mbUtSSnlLUHQ2RTI3VDJPa1F0S29lc1JrdHVpQkVBN1lraFZtTV9Vd2tCeks3X1pRWlE": "2026-11-17T07:01:51.935064+00:00",
+  "web:google actu:CBMiswFBVV95cUxQelVDUFVfd2ltOTB0aXJUOU1DV2pQSDg3RHhvbXg0NGhYZnY4R015MTY1NGd5T0lKRTFHR21PV21selBjV3RYN2NrLTZLSTF0cV9PZzhrM3lxOEVrb0Znci04aUR0UEZLbjRzWmJNaGJxRUZzdFVKWXk0VnlkR1ppYk9vMURtckpJc24xQWIwRmI3R05yaTBiNnFUTzlxUVNKbGMwQTgwMDRrVy1ZRXJJVWRKMA": "2026-11-17T07:01:51.935064+00:00",
+  "web:google actu:CBMijgJBVV95cUxOeVQ5ZkVsY0FZY1Y1NWVmVXFFNGxYdXBoVlpCZUN2WDdFRFFoNGp6d09TTHlsSFl2dkNVSlY5OFViTVJoQnlJSzFvdlpDcDRoUEVJVHVSdS1iS2tsdmY5SFlsWm5zMlVBWnFFdVc2ODBISFptY3NENExsY1FuVW11cWVQR01XR3FMeDRhOUlYbGNjaTFHam5OUXpEaXdjc0FxYlBnd3k1OC1sLXRiel9oR2xDSHRBTk9wcjhKNEM0Mm9zeFhTVlh2ZFhhMllRRHFOZ25wMkdENzdmODZGRVFFTjdpQ3dEc0dtWlRkSWk3Yi1ZZm1lQ0tZN1RiWjJacXRtU01PRmNtT1U0aVpxWUE": "2026-11-17T07:01:51.935064+00:00",
+  "x:2122479327870665145": "2026-11-17T07:01:51.935064+00:00"
  },
  "publies": [
   {
@@ -766,10 +770,18 @@
    "source_id": "x:2122462215517204881",
    "lien": "https://www.instagram.com/p/Df1PlGPIEeY/",
    "reel": "https://www.instagram.com/reel/Df1PpARFEc-/"
+  },
+  {
+   "ts": "2026-11-17T07:01:51.935064+00:00",
+   "categorie": "GAMING",
+   "titre": "Les recherches de Rockstar ont mené à des situations dangereuses",
+   "source_id": "x:2122479327870665145",
+   "lien": "https://www.instagram.com/p/Df1WiR0jTnY/",
+   "reel": "https://www.instagram.com/reel/Df1Wp2TCVim/"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 2022
+  "tweets": 2052
  }
 }
