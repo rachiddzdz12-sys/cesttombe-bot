@@ -377,7 +377,12 @@
   "web:google actu:CBMioAJBVV95cUxPUmpmS1FhUk9XbUxQU3Z2ZlVHTUlmZzY2NUwxYmJuYWhxb0RHcm9rRGdRTlgzb3hMeTVKcXUyeHdIdjFNN3RUbzlmem05VV9ucGF5SGpsOXhWSG1KTkFjVldzcnNUQWxaSldTTEQ1N1l0MGczNVFDeGR3cTVxdE54VDZIV1RRaGRUQUc0alp5MkFJT29HdlhzRWs3ZkdBYllzRjVLX0NFVjVsZUN2bE01Ynk1dHVFcER4Sy1JVGctUTdiT2dsQjZqZXNUNGFPNXJyMWF1OXJUZW1HQ0RaR29YN2VvaV94VDdKeVF0dnhNMjQzQnF4dWYxOHlXN0stOEhtVVRBN3FkX3NNRnI4anlGSVRtdjVtb3Jtd29nN2JwcS0": "2026-11-18T15:02:05.902481+00:00",
   "web:google news:CBMiiAFBVV95cUxQVW1DdE1jcnhCaWVGQ25zb09ORFV3bm4zYVJJYXJXdkNUdWFlNTc0OG9PeWxRSkZxYldEcDYwZ1AzWkgxdjZvS0ZDYXNnREd0NkVRZEtjbTFhQl9kbld3RFBsc0F4SlBYajF5REV0YlgzdWRpcTRaalkzbWhMeGFEblg0dmNuWG5u": "2026-11-18T15:02:05.902481+00:00",
   "web:dexerto:https://www.dexerto.com/food/you-can-now-order-mcdonalds-through-discord-just-in-time-for-gta-6-3429402/": "2026-11-18T15:02:05.902481+00:00",
-  "x:2123065188614078472": "2026-11-18T15:02:05.902481+00:00"
+  "x:2123065188614078472": "2026-11-18T15:02:05.902481+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=238748": "2026-11-18T16:01:53.457330+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=238685": "2026-11-18T16:01:53.457330+00:00",
+  "web:google news:CBMikgFBVV95cUxOaVVkRGdnNUtHeXdKT3FKTkotUnE2ZXcwZVpiUUEtN0o3MU9qX1NiYkNXSVMzV3RYcXdqOXhIRlhiLW1SYTZITEVxSlRpNWluQlBJLW9ad0l1M0V0OHpxM0JidlllX3VQMjFtLWs1Rm1Ha3NNVEVrbExwMFhja1RHa2xqUEN1NkI4NzluM0tmaGdvZw": "2026-11-18T16:01:53.457330+00:00",
+  "web:gamesradar:Kj4qrWh879GH98tuA7Macd": "2026-11-18T16:01:53.457330+00:00",
+  "x:2122818059882856737": "2026-11-18T16:01:53.457330+00:00"
  },
  "publies": [
   {
@@ -1105,10 +1110,18 @@
    "source_id": "x:2123065188614078472",
    "lien": "https://www.instagram.com/p/Df4ym9ol2M9/",
    "reel": "https://www.instagram.com/reel/Df4yobID0Du/"
+  },
+  {
+   "ts": "2026-11-18T16:01:53.457330+00:00",
+   "categorie": "GAMING",
+   "titre": "GTA VI est nommé pour le Game of the Year",
+   "source_id": "x:2122818059882856737",
+   "lien": "https://www.instagram.com/p/Df45cPgDy6G/",
+   "reel": "https://www.instagram.com/reel/Df45eJMjgfh/"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 2802
+  "tweets": 2832
  }
 }
