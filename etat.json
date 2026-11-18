@@ -401,7 +401,10 @@
   "ag:https://www.actugaming.net/?p=833953": "2026-11-18T19:01:42.683278+00:00",
   "ag:https://www.actugaming.net/?p=833872": "2026-11-18T19:01:42.683278+00:00",
   "ag:https://www.actugaming.net/?p=833950": "2026-11-18T19:01:42.683278+00:00",
-  "web:gamesradar:stNhiWGa6YGPEVJqNa5arG": "2026-11-18T19:01:42.683278+00:00"
+  "web:gamesradar:stNhiWGa6YGPEVJqNa5arG": "2026-11-18T19:01:42.683278+00:00",
+  "web:google actu:CBMi5wFBVV95cUxPYnZBMW1xVTZmX1dZdFhVM2YwRzdHdi1aclpoZ0xjRG1sMHpkX05MOEdIU1lfbktKNVBualc1ZGtIRmZnR0Z4T1VvRVMzUlc0U3RmZGZHbnFFM053MDlGZXBmdEpMOTZ2OWhnR2pVOXVTS1hFV0xGR1FIRENOemdGdUtHY1REb0JYVkJoN2tzYU1DX0E0aU54NUxZZk9Da1p4cjJmUDJMSEVFSEtXV0pmcFBHbC1aMEJWTi0wR2RkZlJmYVBpcC1zd2hBZHBGM29xa0owcGh6QzE5VXZsczJ0QVhfNS1WMnc": "2026-11-18T20:01:36.917534+00:00",
+  "web:google actu:CBMi3AFBVV95cUxPZTluUzNtRVk1WUJzdTJJdkx3T2c5UjhSMF9SUXg2eE1QNDBDbG5SUWkzdHE4X1dJNktLS0twajJ1bWxtWU41OUVDcXJxZTdHclQxdktDX1NCSlpPMERuNkxCWWMyU016SUhqeTlsNmNxWXlIVVA2NEZldjgtS3ZBVG5qcWdRdG5wZ21Jc1I1UVB2cGhrei04QUZCcXc4MFJfbmJCanBPeUxIVjAzTkRtVkxjeFZaWmlQRVM0S3Q5Vlo2MUhGekd2bVVJR0FORkVyVHU4d2N0YU9UNlYz": "2026-11-18T20:01:36.917534+00:00",
+  "web:google actu:CBMikgFBVV95cUxNaXFIdFJxbmg5NnNtbWMtZnJKX2FWX1h3U3FPX3ZsZFJUR1k5WFpIeWt3ekN5bDItNUI1R2FSb1BHMUFpTjIwUzJqNXlTNl9hM0tCQ3l1cVlRZjU3TlAzR2dzeFdnT1BqYy1QdE84NmRqVExHUXFlYjVGQVpPSXE1d0pNcFB0dzZkOVkxVFVsSDVoQQ": "2026-11-18T20:01:36.917534+00:00"
  },
  "publies": [
   {
@@ -1160,10 +1163,18 @@
    "source_id": "web:gamesradar:stNhiWGa6YGPEVJqNa5arG",
    "lien": "https://www.instagram.com/p/Df5NziSFpvb/",
    "reel": "https://www.instagram.com/reel/Df5N1GsjO1v/"
+  },
+  {
+   "ts": "2026-11-18T20:01:36.917534+00:00",
+   "categorie": "GAMING",
+   "titre": "Suivez le lancement de GTA 6 en direct",
+   "source_id": "web:google actu:CBMikgFBVV95cUxNaXFIdFJxbmg5NnNtbWMtZnJKX2FWX1h3U3FPX3ZsZFJUR1k5WFpIeWt3ekN5bDItNUI1R2FSb1BHMUFpTjIwUzJqNXlTNl9hM0tCQ3l1cVlRZjU3TlAzR2dzeFdnT1BqYy1QdE84NmRqVExHUXFlYjVGQVpPSXE1d0pNcFB0dzZkOVkxVFVsSDVoQQ",
+   "lien": "https://www.instagram.com/p/Df5UiqQjXAB/",
+   "reel": "https://www.instagram.com/reel/Df5UkwaCXvc/"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 2922
+  "tweets": 2952
  }
 }
