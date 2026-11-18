@@ -1,0 +1,47 @@
+name: Story du dernier Reel (rattrapage, 2 comptes)
+
+on:
+  push:
+    branches: [diag-story]
+
+permissions:
+  contents: read
+
+jobs:
+  story:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -q requests
+      - name: Story du dernier Reel de chaque compte
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_CT: ${{ secrets.IG_USER_ID }}
+        run: |
+          python3 - <<'PY'
+          import os
+          from bot import instagram
+          for nom, uid in (("C'EST TOMBÉ", os.environ["IG_CT"]), ("LE BRUIT", "17841439323487258")):
+              os.environ["IG_USER_ID"] = uid
+              med = instagram._req("GET", f"{uid}/media", fields="id,media_product_type,media_url,thumbnail_url,timestamp,permalink", limit=10)
+              reel = next((m for m in med.get("data", []) if m.get("media_product_type") == "REELS"), None)
+              if not reel:
+                  print(nom, ": aucun Reel"); continue
+              print(nom, ": dernier Reel", reel["timestamp"], reel.get("permalink"))
+              try:
+                  sid = instagram.publier_story(video_url=reel["media_url"])
+                  print(nom, ": ✅ STORY PUBLIÉE (vidéo)", sid)
+              except instagram.MediaRefuse as ex:
+                  print(nom, ": vidéo refusée :", str(ex)[:200])
+                  try:
+                      sid = instagram.publier_story(image_url=reel.get("thumbnail_url"))
+                      print(nom, ": ✅ STORY PUBLIÉE (image)", sid)
+                  except Exception as ex2:
+                      print(nom, ": ❌ story refusée :", str(ex2)[:300])
+              except Exception as ex:
+                  print(nom, ": ❌ story refusée :", str(ex)[:300])
+          PY
