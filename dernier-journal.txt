@@ -6,57 +6,55 @@ Instagram · posts publiés par l'API sur 24 h : 32 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 92 infos
-Web · GOOGLE NEWS → 92 infos
+Web · GOOGLE NEWS → 100 infos
 Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 12 infos
-Web · ROCKSTAR INTEL → 10 infos
+Web · ROCKSTAR INTEL → HTTP 500
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
 Web · GAMEKULT → 11 infos
-Web · IGN FRANCE → 23 infos
+Web · IGN FRANCE → 24 infos
 Web · JEUXVIDEO.COM → 10 infos
-Web · INSIDER GAMING → 9 infos
+Web · INSIDER GAMING → 10 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 3 gardés
-X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 2727 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 2742 / 10000)
+X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 2757 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 2772 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-299 infos fraîches et jamais traitées (sur 466 lues)
-   6/10 ✓ « ⭐ EXCLUSIVE GTA VI content for GTA+ members is now live in-game! »
+302 infos fraîches et jamais traitées (sur 466 lues)
+   3/10 ✗ pas une news « How To Get The Exclusive GTA VI Tropical Weapon Skins! »
    9/10 ✗ déjà publiée « GTA VI Nominated For Game of the Year, Has Most Nominations! »
    9/10 ✗ déjà publiée « GTA VI Nominated For Game of the Year, Has Most Nominations! »
-   7/10 ✗ déjà publiée « Rockstar's Real-Life GTA Research Took Developers Into Dangerous Situa »
-   8/10 ✗ déjà publiée « GTA VI Could Make $2 Billion This Week, 15 Million Pre-Orders Already! »
-   8/10 ✗ déjà publiée « 6 New GTA 6 Screenshots Released Showing Dynamic Weather »
-   8/10 ✗ déjà publiée « GTA 6 New Zealand Trick Works on Xbox – But There May Be a Catch On PS »
-   8/10 ✗ déjà publiée « GTA 6 : les Néo-Zélandais jouent déjà avec Jason et Lucia, pendant que »
-   8/10 ✓ « GTA 6 deemed 'the single most visually striking game of the generation »
-   9/10 ✗ déjà publiée « Grand Theft Auto 6: Reviews come in as worldwide release begins »
-   3/10 ✗ pas une news « GTA 6 : Le jeu d’action culte aux centaines de bolides revient en préc »
-   7/10 ✗ déjà publiée « On a joué à GTA 6 qui sort demain et voici tous nos articles en live »
-   7/10 ✗ déjà publiée « Sortie de "GTA VI" : Cinq choses à savoir sur le jeu vidéo le plus che »
-   6/10 ✓ « L'émotion du streamer LaSalle quand il annonce passer sur GTA 6 après  »
-  10/10 ✗ déjà publiée « GTA 6's Metacritic Score Makes It The Highest-Rated Video Game Of All  »
-   9/10 ✗ déjà publiée « GTA 6 Metacritic score: Did it break the all-time record? »
-   7/10 ✓ « GTA 6 Uses FSR 4.1 on Xbox Series S to Upscale From 720p to 1080p »
-   4/10 ✗ pas une news « Preloaded GTA 6? Check You Don’t Need Any Extra Updates Before Playing »
-   8/10 ✗ déjà publiée « ‘Grand Theft Auto VI’ could be the biggest entertainment launch in his »
-   8/10 ✗ déjà publiée « Sortie de GTA 6 : suivez toutes les infos en direct »
-   6/10 ✗ déjà publiée « Xbox wants you to know there’s a really big gaming event tomorrow. It  »
-GAMING · 4 infos retenues, meilleure : « GTA 6 deemed 'the single most visually striking game of the generation' by tech  » (8/10)
-  article · tweaktown.com
-  article · 0 caractères lus
-  ⏭️ article illisible, info écartée : « GTA 6 deemed 'the single most visually striking game of the  »
-  photo · échec : image trop petite (48x48)
-  photo · 1 image(s) : 1200x675
+   6/10 ✗ déjà publiée « Rockstar's Real-Life GTA Research Took Developers Into Dangerous Situa »
+   9/10 ✗ déjà publiée « GTA VI Could Make $2 Billion This Week, 15 Million Pre-Orders Already! »
+   8/10 ✓ « 6 things I loved about GTA 6, and 3 open-world learning curves gamers  »
+   2/10 ✗ pas une news « How Do Weapons Work in GTA 6? Buying and Storing Guns, Explained »
+   7/10 ✗ déjà publiée « Can I play GTA 6 early today if I change my time zone? Sort of »
+   7/10 ✗ déjà publiée « Can I play GTA 6 early today if I change my time zone? Sort of »
+   7/10 ✓ « Take-Two Shares Jump as GTA VI Draws Near-Perfect Reviews Ahead of Rel »
+   8/10 ✓ « ‘Grand Theft Auto VI’ is a cultural and economic earthquake. Brace you »
+   9/10 ✗ déjà publiée « « GTA VI » : dans ses tests, la presse internationale dithyrambique »
+   4/10 ✗ pas une news « GTA 6 Age Rating: What Parents Need to Know »
+   3/10 ✗ pas une news « Every GTA 6 Trophy and Achievement at Launch and How to Unlock Them »
+   3/10 ✗ pas une news « All GTA 6 Trophies and Achievements »
+   6/10 ✗ déjà publiée « Ce Poitevin pose deux jours de congés pour jouer à GTA VI avec son mei »
+   8/10 ✓ « GTA 6 Doesn’t Allow You to Replay Story Missions »
+   3/10 ✗ pas une news « GTA 6 Jason and Lucia Relationship Guide—How To Build Your Bond, Expla »
+   8/10 ✓ « I’ve completed GTA 6 – here’s how much you can achieve in your day off »
+   9/10 ✓ « GTA 6 Draws Over 2.4M Twitch Viewers – TTWO Stock Jumps Pre-Market As  »
+   5/10 ✗ trop faible (mini 9) « Xbox wants you to know there’s a really big gaming event tomorrow. It  »
+GAMING · 6 infos retenues, meilleure : « GTA 6 Draws Over 2.4M Twitch Viewers – TTWO Stock Jumps Pre-Market As Early Post » (9/10)
+  article · finance.yahoo.com
+  article · 3619 caractères lus
+  photo · 1 image(s) : 1200x800
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  couverture · photo1 · zoom 1.0 · propre
-  carrousel prêt : « Du contenu exclusif pour GTA+ dans GTA VI » (3 slides)
-  voix · contrôle OK (97%, essai 1, gemini-3.1-flash-tts-preview)
-  voix · Gemini (Aoede) (5.1 s)
-  reel · 6.8 s · 4 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Df4kv_Bl8f0/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df4kxUKEVKS/
-Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : réponse en 7 s · gemini-3.5-flash-lite : réponse en 8 s
+  couverture · photo1 · zoom 1.4 · PAS PROPRE
+  carrousel prêt : « Grand Theft Auto 6 sort officiellement en Nouvelle-Zélande » (3 slides)
+  voix · contrôle OK (98%, essai 1, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (6.3 s)
+  reel · 7.9 s · 5 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Df4rYIbl8xL/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df4rZo8mbfH/
+Gemini : gemini-flash-lite-latest : réponse en 9 s · gemini-flash-lite-latest : réponse en 10 s

@@ -364,7 +364,15 @@
   "web:google actu:CBMizAFBVV95cUxQNmhKMnhmSEtGQldVdGtJYjQ4amROWEo4d09ZYzVFMEh4c2draXlFeFZVcDhDYXB5aDBhdU85SlpySkhFT3VoeVBSRGg1eW5HeXpsQmdnbm8ybDBrLVFDLU05QUtKQ0lDbkl3SWxWaFJ0a3dVc2tYSkRUV1BmNl92dkNRVExCbnczcTBCRUFRbHc0eHBpQXlweVJqS1ZqNlE4bGVIZUhDaE0tSzRxcmZ1aGh6UE1JZC01X2lCci1NQUpEQXcyOHYwXzdfM20": "2026-11-18T13:02:24.325606+00:00",
   "web:google news:CBMimwFBVV95cUxOLUtPRFh4U3NzdTNJVllYRnBNY3hLUGxYellrRHB6UHdDUlZ4MHp3ekRvczNvR256MjQyVlgwX3Uxd0wyWm1hMkVnMzRpSkpNR2tndXZPcmN1em9zSEV3NjFEWnFnQTNMbThtNTgycTB1dGpWNEt2eklnNFJ4WTByN3JFakdPWG9MV1F0eER1UjdSNHh5MTd0aEVIUQ": "2026-11-18T13:02:24.325606+00:00",
   "web:google news:CBMizwFBVV95cUxNWnBTUW1Wd2I0bG1Tem9nMnBKd3FiS0lKZTdCZGtDQXhZMnNDWlVmU1hRV3FJd1VFcVUzWm1pWEMxRm9uV2dWVFExbE91aWpha0Fra2hJcWl0aWxGUVVKTTUyMHFOSzBxRWwzb0NRcnM5LUxHak9rWVkxTGMxZDBRaUIzTzhrSWJHTnU4ZzlidFpzcS1LTVVkajBZNzljeEZIc2Izcl9VUFlYUGp0LUU1TV8yU0tIUzk3Zy1walFHRk1jYlFMdGxCcWtONGZrdFE": "2026-11-18T13:02:24.325606+00:00",
-  "x:2123018230738670016": "2026-11-18T13:02:24.325606+00:00"
+  "x:2123018230738670016": "2026-11-18T13:02:24.325606+00:00",
+  "x:2123042035930116163": "2026-11-18T14:02:03.838485+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=238671": "2026-11-18T14:02:03.838485+00:00",
+  "web:google news:CBMigwFBVV95cUxNT2VaczBSUUJUUVdzWXhqWk14Q1Nmd2dzd0tjV1JxSF9VY0lncHVBX2FXTlhSb1V0VHJhVllVSkZCY211U2dxakROMC1laXJYMzFjaTc0SDNZbk5xNGxHeDJuREc0UVNrbnFWYlh6QUFrZEJ5VHg2VHg2cUFDS2QyaTBNYw": "2026-11-18T14:02:03.838485+00:00",
+  "web:gta boom:https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f": "2026-11-18T14:02:03.838485+00:00",
+  "web:gamesradar:FkfR9je2iw7gTzMHywzvfk": "2026-11-18T14:02:03.838485+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=238661": "2026-11-18T14:02:03.838485+00:00",
+  "web:google news:CBMiigFBVV95cUxPUDJxcGZRRzBQVGtobjJBWnRPOWdZOUZOWGFETGZBTWVTU2RVNGw5UzBPVFViQ1NyWTFsZ0lXekpNTGVsMTVqckZRSFZzZ1RfVEU2cEwtQnJ1LVEza3BYenJPaEpZWHZkc2NveUNkUVNfaVhveVB3bF9kSFlodnlNSjktOFlhYmFtc2c": "2026-11-18T14:02:03.838485+00:00",
+  "web:google news:CBMiiwFBVV95cUxOWDAyT3h4a3lCRU1JRmk1VmZpcThZTmZIT2lTOWJ6cnBsTEU4WW9qMWFjSnI2LTVLT1cwN2dHekdSdFRCZ08zd2ZMaEk5RFJXb0pHdWhVRUVwblluRVNqNXdRU2RabzI4ZER0VnNqcGE2MGxaOWhOdENRSDhHVVR4bFhmZy1EX0x5cjFv": "2026-11-18T14:02:03.838485+00:00"
  },
  "publies": [
   {
@@ -1076,10 +1084,18 @@
    "source_id": "x:2123018230738670016",
    "lien": "https://www.instagram.com/p/Df4kv_Bl8f0/",
    "reel": "https://www.instagram.com/reel/Df4kxUKEVKS/"
+  },
+  {
+   "ts": "2026-11-18T14:02:03.838485+00:00",
+   "categorie": "GAMING",
+   "titre": "Grand Theft Auto 6 sort officiellement en Nouvelle-Zélande",
+   "source_id": "web:google news:CBMiiwFBVV95cUxOWDAyT3h4a3lCRU1JRmk1VmZpcThZTmZIT2lTOWJ6cnBsTEU4WW9qMWFjSnI2LTVLT1cwN2dHekdSdFRCZ08zd2ZMaEk5RFJXb0pHdWhVRUVwblluRVNqNXdRU2RabzI4ZER0VnNqcGE2MGxaOWhOdENRSDhHVVR4bFhmZy1EX0x5cjFv",
+   "lien": "https://www.instagram.com/p/Df4rYIbl8xL/",
+   "reel": "https://www.instagram.com/reel/Df4rZo8mbfH/"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 2742
+  "tweets": 2772
  }
 }
