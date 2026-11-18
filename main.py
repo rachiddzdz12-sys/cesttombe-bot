@@ -420,8 +420,8 @@ def executer():
                         diag.append(f"  ⚠️ Reel non publié : {str(ex)[:200]}")
                 else:
                     diag.append("  ⚠️ pas de Reel pour ce post")
-                if video and getattr(config, "STORIES", False):
-                    sid = publier_story(urls[-2], urls[-1], diag)
+                if getattr(config, "STORIES", False):          # chaque publication a sa story
+                    sid = publier_story(urls[-2] if video else None, urls[-1] if video else urls[0], diag)
                     if sid:
                         etat["publies"][-1]["story"] = sid
                 fait = True
