@@ -299,6 +299,7 @@ instagram.publier_carrousel = lambda urls, legende: publications.append((urls, l
 instagram.diagnostic = lambda diag: None
 instagram.publier_reel = lambda url, legende, feed=False, couverture_url=None: "https://instagram.com/reel/OK"
 stories = []
+config.STORIES = True
 instagram.quota = lambda: (30, 100)
 instagram.publier_story = lambda video_url=None, image_url=None: stories.append(video_url or image_url) or "STORY1"
 
