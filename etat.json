@@ -382,7 +382,10 @@
   "web:insider gaming:https://insider-gaming.com/?p=238685": "2026-11-18T16:01:53.457330+00:00",
   "web:google news:CBMikgFBVV95cUxOaVVkRGdnNUtHeXdKT3FKTkotUnE2ZXcwZVpiUUEtN0o3MU9qX1NiYkNXSVMzV3RYcXdqOXhIRlhiLW1SYTZITEVxSlRpNWluQlBJLW9ad0l1M0V0OHpxM0JidlllX3VQMjFtLWs1Rm1Ha3NNVEVrbExwMFhja1RHa2xqUEN1NkI4NzluM0tmaGdvZw": "2026-11-18T16:01:53.457330+00:00",
   "web:gamesradar:Kj4qrWh879GH98tuA7Macd": "2026-11-18T16:01:53.457330+00:00",
-  "x:2122818059882856737": "2026-11-18T16:01:53.457330+00:00"
+  "x:2122818059882856737": "2026-11-18T16:01:53.457330+00:00",
+  "web:gta boom:https://www.gtaboom.com/gta-6-ultimate-edition-unlock-guide-5081": "2026-11-18T17:15:15.133778+00:00",
+  "ig:17979683175150854": "2026-11-18T17:15:15.133778+00:00",
+  "x:2123068976045453338": "2026-11-18T17:15:15.133778+00:00"
  },
  "publies": [
   {
@@ -1118,10 +1121,18 @@
    "source_id": "x:2122818059882856737",
    "lien": "https://www.instagram.com/p/Df45cPgDy6G/",
    "reel": "https://www.instagram.com/reel/Df45eJMjgfh/"
+  },
+  {
+   "ts": "2026-11-18T17:15:15.133778+00:00",
+   "categorie": "GAMING",
+   "titre": "Grand Theft Auto VI : The Festival",
+   "source_id": "x:2123068976045453338",
+   "lien": "https://www.instagram.com/p/Df5BjHuFzMq/",
+   "reel": "https://www.instagram.com/reel/Df5BoEGD7NG/"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 2832
+  "tweets": 2862
  }
 }
