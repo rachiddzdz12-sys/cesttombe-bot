@@ -298,6 +298,9 @@ hebergement.heberger = lambda fichiers: [f"https://raw.example/{Path(f).name}" f
 instagram.publier_carrousel = lambda urls, legende: publications.append((urls, legende)) or "https://instagram.com/p/OK"
 instagram.diagnostic = lambda diag: None
 instagram.publier_reel = lambda url, legende, feed=False, couverture_url=None: "https://instagram.com/reel/OK"
+stories = []
+instagram.quota = lambda: (30, 100)
+instagram.publier_story = lambda video_url=None, image_url=None: stories.append(video_url or image_url) or "STORY1"
 
 os.environ["MODE"] = "test"
 check(main.executer() == 0, "simulation test : se termine sans erreur")
@@ -313,6 +316,8 @@ check(main.executer() == 0, "simulation auto : se termine sans erreur")
 check(len(publications) == 1, "simulation auto : un seul post par passage")
 etat = json.loads(tmp_etat.read_text())
 check(len(etat["publies"]) == 1 and etat["publies"][0]["lien"] == "https://instagram.com/p/OK", "simulation auto : post enregistré")
+check(len(stories) == 1 and stories[0].endswith("-reel.mp4") and etat["publies"][0].get("story") == "STORY1",
+      "simulation auto : le Reel est repris en story")
 premier = etat["publies"][0]["categorie"]
 main.executer()
 etat = json.loads(tmp_etat.read_text())

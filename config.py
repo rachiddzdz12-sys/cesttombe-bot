@@ -29,6 +29,8 @@ VOIX_CONSIGNE_HOMME = (VOIX_CONSIGNE.replace("26-year-old French woman", "27-yea
                        .replace("her phone", "his phone").replace("with a slight smile in the voice",
                                                                     "relaxed and confident, with a slight smile in the voice"))
 VOIX_GEMINI_TEMPO = 1.0
+STORIES = True                 # chaque Reel publié est aussi repris en story (24 h)
+STORIES_MARGE = 12             # story sautée s'il reste moins de 12 posts au quota API des 24 h
 VOIX_DUREE_MAX = 11.0          # au-delà, la voix est un peu accélérée (Reels de ~10-12 s)
 # contrôle de chaque voix Gemini : réécoutée par une reconnaissance vocale et comparée au texte prévu
 VOIX_ESSAIS = 3                 # voix refaite jusqu'à 3 fois ; ensuite, voix de secours (edge-tts)

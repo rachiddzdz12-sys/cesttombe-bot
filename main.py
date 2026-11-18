@@ -172,6 +172,32 @@ def verif():
 
 
 # ------------------------------------------------------------------ travail principal
+def publier_story(url_video, url_image, diag):
+    """Le Reel repris en story (vidéo, sinon sa couverture en image). Ne bloque jamais le post ; sautée si le
+    quota d'Instagram (posts publiés par l'API sur 24 h) est presque atteint, pour garder la place aux Reels."""
+    from bot import instagram
+    try:
+        utilise, total = instagram.quota()
+        if utilise >= total - getattr(config, "STORIES_MARGE", 12):
+            diag.append(f"  · story sautée : quota de l'API presque atteint ({utilise}/{total})")
+            return None
+    except Exception:
+        pass
+    for nom, media in (("vidéo", {"video_url": url_video}), ("image", {"image_url": url_image})):
+        if not next(iter(media.values())):
+            continue
+        try:
+            sid = instagram.publier_story(**media)
+            diag.append(f"  ✅ STORY PUBLIÉE ({nom})")
+            return sid
+        except instagram.MediaRefuse as ex:
+            diag.append(f"  ⚠️ story en {nom} refusée : {str(ex)[:160]}")
+        except Exception as ex:
+            diag.append(f"  ⚠️ story non publiée : {str(ex)[:160]}")
+            return None
+    return None
+
+
 def executer():
     from bot import hebergement, ia, images, instagram, sources, visuels
     if getattr(config, "DA", "v3") == "bruit":        # DA LE BRUIT : mêmes fonctions, autre rendu
@@ -394,6 +420,10 @@ def executer():
                         diag.append(f"  ⚠️ Reel non publié : {str(ex)[:200]}")
                 else:
                     diag.append("  ⚠️ pas de Reel pour ce post")
+                if video and getattr(config, "STORIES", False):
+                    sid = publier_story(urls[-2], urls[-1], diag)
+                    if sid:
+                        etat["publies"][-1]["story"] = sid
                 fait = True
                 break
             if fait and not test:

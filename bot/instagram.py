@@ -151,6 +151,32 @@ def publier_reel(video_url, legende, dans_le_feed=False, couverture_url=None):
     return _publier(ig, cont, legende, "REELS")
 
 
+def quota():
+    """(posts publiés par l'API sur 24 h glissantes, plafond) — stories, Reels et carrousels comptent."""
+    ig = os.environ.get("IG_USER_ID")
+    d = (_req("GET", f"{ig}/content_publishing_limit", fields="quota_usage,config").get("data") or [{}])[0]
+    return int(d.get("quota_usage") or 0), int((d.get("config") or {}).get("quota_total") or 50)
+
+
+def publier_story(video_url=None, image_url=None):
+    """Story (24 h) en vidéo ou en image. L'API ne permet ni lien, ni sondage, ni sticker.
+    MediaRefuse si Instagram refuse le média (on peut tenter l'image) ; PublicationIncertaine si la publication
+    elle-même échoue (on ne retente jamais : pas de story en double)."""
+    ig = os.environ.get("IG_USER_ID")
+    if not ig:
+        raise ErreurInstagram("IG_USER_ID manquant")
+    media = {"video_url": video_url} if video_url else {"image_url": image_url}
+    try:
+        cont = _req("POST", f"{ig}/media", media_type="STORIES", **media)["id"]
+        _attendre(cont, limite_s=300 if video_url else 120)
+    except ErreurInstagram as ex:
+        raise MediaRefuse(str(ex)) from ex
+    try:
+        return _req("POST", f"{ig}/media_publish", creation_id=cont)["id"]
+    except Exception as ex:
+        raise PublicationIncertaine(f"story : publication incertaine : {str(ex)[:150]}") from ex
+
+
 class AccesBloque(ErreurInstagram):
     """Meta a bloqué l'accès de l'application à l'API (erreur 200 « API access blocked »)."""
 
