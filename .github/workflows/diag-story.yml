@@ -1,4 +1,4 @@
-name: Story du dernier Reel (rattrapage, 2 comptes)
+name: Story vidéo du post de 21h (C'EST TOMBÉ)
 
 on:
   push:
@@ -17,31 +17,25 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -q requests
-      - name: Story du dernier Reel de chaque compte
+      - name: Story vidéo (le Reel hébergé par le bot)
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-          IG_CT: ${{ secrets.IG_USER_ID }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
         run: |
           python3 - <<'PY'
-          import os
+          import os, time
           from bot import instagram
-          for nom, uid in (("C'EST TOMBÉ", os.environ["IG_CT"]), ("LE BRUIT", "17841439323487258")):
-              os.environ["IG_USER_ID"] = uid
-              med = instagram._req("GET", f"{uid}/media", fields="id,media_product_type,media_url,thumbnail_url,timestamp,permalink", limit=10)
-              reel = next((m for m in med.get("data", []) if m.get("media_product_type") == "REELS"), None)
-              if not reel:
-                  print(nom, ": aucun Reel"); continue
-              print(nom, ": dernier Reel", reel["timestamp"], reel.get("permalink"))
-              try:
-                  sid = instagram.publier_story(video_url=reel["media_url"])
-                  print(nom, ": ✅ STORY PUBLIÉE (vidéo)", sid)
-              except instagram.MediaRefuse as ex:
-                  print(nom, ": vidéo refusée :", str(ex)[:200])
-                  try:
-                      sid = instagram.publier_story(image_url=reel.get("thumbnail_url"))
-                      print(nom, ": ✅ STORY PUBLIÉE (image)", sid)
-                  except Exception as ex2:
-                      print(nom, ": ❌ story refusée :", str(ex2)[:300])
-              except Exception as ex:
-                  print(nom, ": ❌ story refusée :", str(ex)[:300])
+          ig = os.environ["IG_USER_ID"]
+          url = "https://raw.githubusercontent.com/rachiddzdz12-sys/cesttombe-bot/images/p/20261118-2101-jv-reel.mp4"
+          cont = instagram._req("POST", f"{ig}/media", media_type="STORIES", video_url=url)["id"]
+          for _ in range(40):
+              st = instagram._req("GET", cont, fields="status_code,status")
+              if st.get("status_code") in ("FINISHED", "ERROR", "EXPIRED"):
+                  break
+              time.sleep(5)
+          print("conteneur vidéo :", st)
+          if st.get("status_code") == "FINISHED":
+              print("✅ STORY VIDÉO PUBLIÉE", instagram._req("POST", f"{ig}/media_publish", creation_id=cont)["id"])
+          else:
+              print("❌ vidéo refusée, raison :", st.get("status"))
           PY
