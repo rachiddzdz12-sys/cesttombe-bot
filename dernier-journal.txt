@@ -4,9 +4,9 @@ Meta · autorisations du token : ads_read, business_management, instagram_basic,
 Instagram · @cesttombe.actu (12 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 32 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
-  9 infos retenues après filtre
+  10 infos retenues après filtre
 Web · GOOGLE ACTU → 92 infos
-Web · GOOGLE NEWS → 100 infos
+Web · GOOGLE NEWS → 92 infos
 Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
@@ -15,44 +15,44 @@ Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
 Web · GAMEKULT → 11 infos
-Web · IGN FRANCE → 14 infos
-Web · JEUXVIDEO.COM → 8 infos
-Web · INSIDER GAMING → 2 infos
+Web · IGN FRANCE → 18 infos
+Web · JEUXVIDEO.COM → 10 infos
+Web · INSIDER GAMING → 9 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 3 gardés
-X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 2667 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 2682 / 10000)
+X · @RockstarGames → 10 tweets lus, 0 gardés (ce mois : 2697 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 2712 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-260 infos fraîches et jamais traitées (sur 455 lues)
+291 infos fraîches et jamais traitées (sur 461 lues)
+   8/10 ✓ « ⭐ EXCLUSIVE GTA VI content for GTA+ members is now live in-game! »
+  10/10 ✓ « GTA VI Reviews Are In, Becomes The Best Rated Video Game of All Time! »
    9/10 ✗ déjà publiée « GTA VI Nominated For Game of the Year, Has Most Nominations! »
    9/10 ✗ déjà publiée « GTA VI Nominated For Game of the Year, Has Most Nominations! »
-   6/10 ✗ déjà publiée « Rockstar's Real-Life GTA Research Took Developers Into Dangerous Situa »
+   7/10 ✗ déjà publiée « Rockstar's Real-Life GTA Research Took Developers Into Dangerous Situa »
    9/10 ✗ déjà publiée « GTA VI Could Make $2 Billion This Week, 15 Million Pre-Orders Already! »
    8/10 ✗ déjà publiée « 6 New GTA 6 Screenshots Released Showing Dynamic Weather »
-   9/10 ✓ « On a testé "GTA VI": son attente démesurée était-elle justifiée? »
-   9/10 ✗ déjà publiée « Game Awards 2026 : GTA 6 décroche huit nominations avant même sa sorti »
-   9/10 ✓ « As GTA 6 finally releases, Rockstar boss Sam Houser issues rare statem »
-  10/10 ✓ « GTA 6 review: "An open world with truly astonishing scale, scope, and  »
-  10/10 ✓ « Test : GTA 6 : un monstre sacré à l'ambition démesurée et inégalable »
-  10/10 ✓ « Grand Theft Auto VI is now available to play »
-   8/10 ✓ « Rockstar Issues an Official GTA 6 Spoiler Alert on Its Discord as Laun »
-   7/10 ✓ « Gta 6 Won’t Launch Without This PS5 Anti-Piracy Update Sony Just Relea »
-   8/10 ✗ déjà publiée « "GTA 6" : comment jouer 12 heures avant sa sortie officielle en France »
-   8/10 ✗ déjà publiée « “GTA VI” launches Thursday after 13 years, with a 212 GB download that »
-   7/10 ✓ « GTA 6 : 10 chiffres impressionnants avant sa sortie »
-   6/10 ✓ « Las Vegas’ Graffiti Mansion goes all out for ‘GTA VI’ »
-   4/10 ✗ pas une news « Appel à témoignages. Sortie de GTA VI : avez-vous posé un jour de cong »
-   8/10 ✗ déjà publiée « GTA 6 : les préchargements font exploser les records de trafic Interne »
-   8/10 ✗ déjà publiée « 'GTA 6' New Zealand release time: The internet goes completely Kiwi »
-   7/10 ✗ trop faible (mini 9) « The Sound of G.T.A. VI Was Born on the Dance Floor »
-GAMING · 9 infos retenues, meilleure : « Grand Theft Auto VI is now available to play » (10/10)
-  photo · 4 image(s) : 1024x341, 2560x2065, 2560x1920, 960x665
+  10/10 ✗ déjà publiée « 'GTA 6' is the highest-rated game of all time »
+   4/10 ✗ pas une news « How To Get The Exclusive GTA VI Tropical Weapon Skins »
+   5/10 ✗ pas une news « 'Grand Theft Auto VI' is almost here. What to know about the character »
+   7/10 ✓ « Comment Rockstar a fabriqué GTA VI : Miami en reportage, Édimbourg en  »
+  10/10 ✗ déjà publiée « GTA 6 : les premiers tests tombent, le jeu décroche 99 sur Metacritic »
+   9/10 ✗ déjà publiée « GTA 6 release: 'Grand Theft Auto VI' arrives with enormous hype and ex »
+   9/10 ✓ « GTA 6 : découvrez 15 minutes de gameplay de la première mission »
+   6/10 ✗ pas une news « How to play GTA 6 early: New Zealand trick, release time on Xbox and P »
+   6/10 ✗ déjà publiée « Grand Theft Auto VI is almost here. Is it going to cost D-FW employers »
+   9/10 ✗ déjà publiée « Jeux vidéo : coup d'envoi du lancement mondial de la superproduction « »
+  10/10 ✗ déjà publiée « GTA 6 is Now The Joint-Highest Rated Game of All Time »
+   8/10 ✓ « Performances de GTA 6 sur Xbox Series S : comment la console la moins  »
+   8/10 ✓ « GTA 6 : images du mode photo »
+GAMING · 6 infos retenues, meilleure : « GTA VI Reviews Are In, Becomes The Best Rated Video Game of All Time! » (10/10)
+  photo · échec : image trop petite (48x48)
+  photo · 1 image(s) : 1200x675
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  couverture · photo3 · zoom 1.25 · propre
-  carrousel prêt : « Grand Theft Auto VI est enfin disponible pour les joueurs » (4 slides)
-  voix · contrôle OK (98%, essai 1, gemini-3.1-flash-tts-preview)
-  voix · Gemini (Aoede) (4.3 s)
-  reel · 5.9 s · 4 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Df4W1zCF3Uk/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df4W7c5gDfP/
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s · texte sans accents ou sans apostrophes : réécriture demandée · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3-flash-preview : réponse en 7 s
+  couverture · photo1 · zoom 1.0 · propre
+  carrousel prêt : « GTA VI devient le jeu le mieux noté de l'histoire » (3 slides)
+  voix · contrôle OK (98%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (6.1 s)
+  reel · 7.8 s · 5 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Df4fRqdk4NI/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df4fTu9Cgyx/
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s

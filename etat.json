@@ -356,7 +356,11 @@
   "web:google news:CBMiZkFVX3lxTE1tMVl1NzVTX2JPWXB4WlhNMlNaQlQtVTk1Z2JBVUtHcTc5OXJrbmNVY29yN0lfcC1GSEM5Q2c0YUl4a0FGTjVGRDVuUGtyUlVuaEV5V3M5WjRiZUpMd195ME1WY0Z6Zw": "2026-11-18T10:01:52.024080+00:00",
   "web:google actu:CBMiwAFBVV95cUxQQnJLTTZRUTJUME1jMFU0Rmc3LW9RNWlnN1ZjTF9TSml2NlVWQk1NTjZ6T3g1M1ZrM3d1NkhFLXo1UW81cG1Mb2ZheXFkWmt3RFF0dHNuNVJ6TVY4X2YzdWZuXzFhVi1SY3FPYUVXWk4zc0JiQXNvWE5JTzdlQjFUUVR6RkRUcHViM2R3N0FoNXFMNGI0MVZfSTcwaXRZQi1Jd2NLMzd3MVRBXzFuY0dsbDFKRWdVemZkSjFtMXlIa1k": "2026-11-18T11:01:59.248804+00:00",
   "web:google news:CBMikgFBVV95cUxOTHo5VWtVLTZVc2FDNW9wVzVPSk1mbmlzRUd6MkV2TU9FaHR4RjZBN0tEUEU0amdNU3ljTFNQZ2hDYlY0dkk2RHJVUGxIaVhHYWRhcHAzd0EwZ3NraTJ6YmE1bXpfazBwdWRzS2dCT05xeVZwNXpTR2ZoRDRUTVVrd0NFVUloZ2Q4SWZfRzlrU3RaUQ": "2026-11-18T11:01:59.248804+00:00",
-  "web:rockstar intel:https://rockstarintel.com/?p=44558": "2026-11-18T11:01:59.248804+00:00"
+  "web:rockstar intel:https://rockstarintel.com/?p=44558": "2026-11-18T11:01:59.248804+00:00",
+  "web:rockstar intel:https://rockstarintel.com/?p=44621": "2026-11-18T12:16:44.737161+00:00",
+  "web:google news:CBMiigFBVV95cUxQbnJrbHE5SXBnU3h4ZjViR0FJNGdwYW0ybkFhQUtndEFMd0FBUUp0b2x1eWE2QWpVX2NWQWM2Q3c4NVJPcEFMaHpUQ0YtRGtOMnZoSEdPTEg3SmVCajdTam1PRVdMT0UxWXhabkZPRnhqYXBEMlF3UEJPRkVzSVpTVEZOQkdFVVhRTHc": "2026-11-18T12:16:44.737161+00:00",
+  "web:google news:CBMi4gFBVV95cUxQMmNSdUR6UmN0UzRwc3NLc0ZFaVlTUGlSZUtYSEx4OURfWlN3dE1TczVSRTNqZlNwdmZsWnU2czBQazRPQk10RDhtcTlNcE9BMmJJRjJqUlZwbVByd1pBMGhqNkJCdXFFTUdNVVUyN2p5TlJtdDcwWFJNU1g2UGlpRXBFdE9JVDBwRzh6NkNfQ1pTTFU1Tk03Rk9DUjlUc3Q2WHNXNVNuWkpzYWZ2aEtsT2pwZEdzT3haME16aGtlTE5jczFTdHdMOUpnblI4eXFlU2FxRVUwaXRhdVZldzVzYmhR": "2026-11-18T12:16:44.737161+00:00",
+  "x:2123012241226170586": "2026-11-18T12:16:44.737161+00:00"
  },
  "publies": [
   {
@@ -1052,10 +1056,18 @@
    "source_id": "web:rockstar intel:https://rockstarintel.com/?p=44558",
    "lien": "https://www.instagram.com/p/Df4W1zCF3Uk/",
    "reel": "https://www.instagram.com/reel/Df4W7c5gDfP/"
+  },
+  {
+   "ts": "2026-11-18T12:16:44.737161+00:00",
+   "categorie": "GAMING",
+   "titre": "GTA VI devient le jeu le mieux noté de l'histoire",
+   "source_id": "x:2123012241226170586",
+   "lien": "https://www.instagram.com/p/Df4fRqdk4NI/",
+   "reel": "https://www.instagram.com/reel/Df4fTu9Cgyx/"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 2682
+  "tweets": 2712
  }
 }
