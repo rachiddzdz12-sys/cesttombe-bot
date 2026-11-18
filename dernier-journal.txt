@@ -2,59 +2,60 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (12 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 32 / 100
+Instagram · posts publiés par l'API sur 24 h : 31 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
-  10 infos retenues après filtre
+  9 infos retenues après filtre
 Web · GOOGLE ACTU → 92 infos
-Web · GOOGLE NEWS → 92 infos
+Web · GOOGLE NEWS → HTTP 429
 Web · BING ACTU → 12 infos
-Web · BING ACTU VI → 11 infos
-Web · ROCKSTAR INTEL → HTTP 500
+Web · BING ACTU VI → 2 infos
+Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
-Web · GAMEKULT → 10 infos
-Web · IGN FRANCE → 30 infos
+Web · GAMEKULT → 11 infos
+Web · IGN FRANCE → 29 infos
 Web · JEUXVIDEO.COM → 11 infos
-Web · INSIDER GAMING → 6 infos
+Web · INSIDER GAMING → 7 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 5 gardés
-X · @RockstarGames → 10 tweets lus, 2 gardés (ce mois : 2877 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 2892 / 10000)
+X · @RockstarGames → 10 tweets lus, 2 gardés (ce mois : 2907 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 2922 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-321 infos fraîches et jamais traitées (sur 463 lues)
+237 infos fraîches et jamais traitées (sur 372 lues)
    6/10 ✗ déjà publiée « Tonight, the HEAT trade Miami for Vice City when they host the Milwauk »
+   8/10 ✗ déjà publiée « GTA VI Hands-On Gameplay Impressions! »
    7/10 ✗ déjà publiée « ⭐ EXCLUSIVE GTA VI content for GTA+ members is now live in-game! »
-   8/10 ✗ déjà publiée « GTA VI Nominated For Game of the Year, Has Most Nominations! »
-   3/10 ✗ pas une news « Tell us: are you playing Grand Theft Auto VI? »
-   4/10 ✗ pas une news « Will ‘biggest ever’ GTA 6 live up to the hype? »
-   5/10 ✗ pas une news « Pro athletes clamor for ‘Grand Theft Auto VI’ release, but they insist »
-   7/10 ✓ « 'GTA 6' Is Best-Reviewed Videogame Ever. It's a Lesson in CEO Leadersh »
-   6/10 ✗ pas une news « Gagnez votre Pack GTA VI avec Europe 2 ! »
-   8/10 ✓ « The full 'GTA 6' soundtrack reportedly leaked: See all artists and tra »
-   6/10 ✓ « Jeuxvideo.com lance « Sam in Live » sur Twitch à l’occasion de la sort »
-   5/10 ✗ pas une news « Real Estate of GTA VI: What It Would Cost To Live in the Real Location »
-   5/10 ✗ pas une news « 'GTA 6' streamers playing now: See the list. »
-   8/10 ✗ déjà publiée « Rockstar Drops GTA 6 Festival Set Times With Cactus Jack Finale »
-   7/10 ✓ « A couple of ‘Grand Theft Auto VI’ voice actors have been revealed. Who »
-   6/10 ✗ pas une news « I've played through GTA 6 - this is how my playthrough went »
-   9/10 ✓ « GTA VI Hands-On Gameplay Impressions »
-   8/10 ✓ « Les joueurs commencent à découvrir la superproduction "GTA VI", encens »
-   8/10 ✓ « “Grand Theft Auto VI” Surpasses All Expectations »
-   8/10 ✗ déjà publiée « GTA 6 : Travis Scott, Justice et Cardi B en festival à Miami ! »
-   9/10 ✓ « GTA 6 : ahurissant de réalisme, bande-son exceptionnelle, narration ho »
-GAMING · 8 infos retenues, meilleure : « GTA VI Hands-On Gameplay Impressions » (9/10)
-  article · rockstarintel.com
-  article · 5732 caractères lus
-  photo · 1 image(s) : 1280x720
+   9/10 ✗ déjà publiée « GTA VI Nominated For Game of the Year, Has Most Nominations! »
+   8/10 ✓ « GTA+ Members Get an Exclusive Car and Garage in GTA 6 »
+   9/10 ✓ « PS5 users report PlayStation Network errors as GTA 6 fever hits, some  »
+   8/10 ✓ « GTA 6 bat tous les records de streaming avant même sa sortie mondiale »
+   5/10 ✓ « Devolver parodie GTA 6 avec une bande-annonce hilarante pour son jeu V »
+   8/10 ✓ « Sortie de GTA 6 : suivez le lancement du jeu en direct »
+   7/10 ✓ « Take-Two, l'éditeur de « GTA VI », voit son cours s'envoler alors que  »
+   9/10 ✗ déjà publiée « GTA 6 : claque graphique, réalisme saisissant… Nos premières (fortes)  »
+   6/10 ✓ « GTA VI : les joueurs de PS5 doivent faire cette manipulation très vite »
+   3/10 ✗ pas une news « How to enable classic controls in GTA 6 »
+   4/10 ✗ trop faible (mini 5) « Vidéo GTA VI : après treize ans d’attente, les joueurs cherbourgeois p »
+   6/10 ✓ « "Tu m'as oubliée ?" : la sortie de GTA 6 pourrait-elle bousculer l'équ »
+   7/10 ✗ déjà publiée « "C'est presque irréel" : 13 ans après le dernier opus, GTA VI sort ce  »
+   5/10 ✗ pas une news « Where To Find Bigfoot In GTA 6 »
+   7/10 ✓ « Grand Theft Auto 6 is "the smoothest GTA game in history" despite 30fp »
+   4/10 ✗ trop faible (mini 5) « MindsEye : en faillite, le studio veut éponger ses dettes... en attaqu »
+   6/10 ✓ « GTA 6 studio head: "Multiple characters was a leap of faith" and Rocks »
+   3/10 ✗ trop faible (mini 9) « La scénariste de Clair Obscur: Expedition 33, Jennifer Svedberg-Yen, a »
+   2/10 ✗ pas une news « EA Sports FC 27 dévoile la dixième Team Of The Week »
+   3/10 ✗ trop faible (mini 9) « Crystal Dynamics continue de licencier au sein de ses équipes, alors q »
+GAMING · 10 infos retenues, meilleure : « PS5 users report PlayStation Network errors as GTA 6 fever hits, some struggling » (9/10)
+  article · 2603 caractères lus
+  photo · 1 image(s) : 1920x1080
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  couverture · photo1 · zoom 1.25 · propre
-  carrousel prêt : « Premières impressions sur le gameplay de GTA VI » (4 slides)
-  voix · ⚠️ refaite, texte différent (65%) : « T'as vu les premières images de GTA VI ? Tu joueras sur quelle plateforme ? T'as vu les premières images de GTA VI ? Tu joueras sur quelle plateforme ? »
-  voix · contrôle OK (97%, essai 2, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (4.2 s)
-  reel · 5.9 s · 4 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Df5G4slF5RA/
-  ⚠️ Reel non publié : Instagram a refusé le média (ERROR)
-Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 27 s · gemini-flash-lite-latest : réponse en 8 s
+  couverture · photo1 · zoom 1.12 · propre
+  carrousel prêt : « PSN : des erreurs signalées lors du lancement de GTA 6 » (5 slides)
+  voix · contrôle OK (96%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (4.1 s)
+  reel · 5.7 s · 4 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Df5NziSFpvb/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df5N1GsjO1v/
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : réponse en 2 s · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3-flash-preview : réponse en 8 s

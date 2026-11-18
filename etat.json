@@ -393,7 +393,15 @@
   "web:google news:CBMie0FVX3lxTE0takVMVE1yRUN6ZVF3WjBWR2FhMU5Ud0hiNjk3U2EyQlRzNV9YMWhPWkJoUmYxOFZBVExsek9JdEdORWQzUnZMR1ZRdXlyeUpweEtsRUF4TTdndi1vUnRNVzFMU0tOVlFnYW4zeUZEZmVSYmhFZEVpQThhWQ": "2026-11-18T18:02:10.382293+00:00",
   "web:google news:CBMibEFVX3lxTFBWdjJtbzBsRW5VNWQxcTFYUU82ejNvUEY3Q211UjRXNWRfYzhGTFp3YVdkZWJnTU1qRGZTTkU2SDVWMUZXYjBoRWtZUG9VSXVoOE54YnhoX2h0NjlzUGRsbm9FTzFPUURoT0lXdA": "2026-11-18T18:02:10.382293+00:00",
   "web:google news:CBMidkFVX3lxTE44MzdJSkZLclcxeHVRUzlweUl0eGQxTzRpUnNQUXBvdl9iZjFlODdYeXEwM0otbmpvVV9xQmlrRG5uWmRMLVRuUlF3R1N6TkZkZnd5QUp1ZkJQZ3l0a1c4N0FnaGFvZnJtMEY3eGFrRzhJUzJpUVE": "2026-11-18T18:02:10.382293+00:00",
-  "web:google news:CBMicEFVX3lxTFB0SWNiVGVMdGhXNEJidFZrYjVhN3Z2VVR4Q25GMDZUY1M1Y0xpMDAyT2hnMmN0eHZuLTlnYWxUVC1McDJqY1VkV0x5UGdOZ0lETU82cUFOSm1lS1hMY0pWQVoyWTVIQ2d6NXF3UXZCTmU": "2026-11-18T18:02:10.382293+00:00"
+  "web:google news:CBMicEFVX3lxTFB0SWNiVGVMdGhXNEJidFZrYjVhN3Z2VVR4Q25GMDZUY1M1Y0xpMDAyT2hnMmN0eHZuLTlnYWxUVC1McDJqY1VkV0x5UGdOZ0lETU82cUFOSm1lS1hMY0pWQVoyWTVIQ2d6NXF3UXZCTmU": "2026-11-18T18:02:10.382293+00:00",
+  "web:gamesradar:quyT8Fba6M3Y949oYErMSg": "2026-11-18T19:01:42.683278+00:00",
+  "web:google actu:CBMijAJBVV95cUxNbDVUVHE1UWREeGQ4emVYaDhTZEtaSG5XSXREcWFvelhNazZadXRxN25iN1NoUV9zWkEtZ3F1ekpSbDFVb0hNMzJ0c1dYRVpQb2RMZVh2LXVtRDl0d2dhOUY4OVNUeERGRVhNbE5hQjRxM2tGTFNBdWdaczNOU1c2eGYtNmpZUHlNdnowWm13WkxoZWlybm16V0NZS2Z6Z0V1YXdTaEh0VzlybldkbnlHbFR6R0ozMjRLdkdwUWRRNTZpd3lNSEUzbUF1bmR5WWlQLUx5WEt4WW5yR3YtZUhFN3ZVVlREYXlBSnJMRXB3Zm92dzF3Umgxa19wNTJuTC1wWjJaOTNyRkhYenRK": "2026-11-18T19:01:42.683278+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=238814": "2026-11-18T19:01:42.683278+00:00",
+  "web:gamekult:https://www.gamekult.com/actualite/mindseye-en-faillite-le-studio-veut-eponger-ses-dettes-en-attaquant-ses-detracteurs-en-justice-3050873055.html": "2026-11-18T19:01:42.683278+00:00",
+  "ag:https://www.actugaming.net/?p=833953": "2026-11-18T19:01:42.683278+00:00",
+  "ag:https://www.actugaming.net/?p=833872": "2026-11-18T19:01:42.683278+00:00",
+  "ag:https://www.actugaming.net/?p=833950": "2026-11-18T19:01:42.683278+00:00",
+  "web:gamesradar:stNhiWGa6YGPEVJqNa5arG": "2026-11-18T19:01:42.683278+00:00"
  },
  "publies": [
   {
@@ -1144,10 +1152,18 @@
    "titre": "Premières impressions sur le gameplay de GTA VI",
    "source_id": "web:google news:CBMicEFVX3lxTFB0SWNiVGVMdGhXNEJidFZrYjVhN3Z2VVR4Q25GMDZUY1M1Y0xpMDAyT2hnMmN0eHZuLTlnYWxUVC1McDJqY1VkV0x5UGdOZ0lETU82cUFOSm1lS1hMY0pWQVoyWTVIQ2d6NXF3UXZCTmU",
    "lien": "https://www.instagram.com/p/Df5G4slF5RA/"
+  },
+  {
+   "ts": "2026-11-18T19:01:42.683278+00:00",
+   "categorie": "GAMING",
+   "titre": "PSN : des erreurs signalées lors du lancement de GTA 6",
+   "source_id": "web:gamesradar:stNhiWGa6YGPEVJqNa5arG",
+   "lien": "https://www.instagram.com/p/Df5NziSFpvb/",
+   "reel": "https://www.instagram.com/reel/Df5N1GsjO1v/"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 2892
+  "tweets": 2922
  }
 }
