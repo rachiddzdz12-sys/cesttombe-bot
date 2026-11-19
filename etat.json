@@ -452,7 +452,11 @@
   "web:insider gaming:https://insider-gaming.com/?p=239100": "2026-11-19T14:01:44.071215+00:00",
   "web:insider gaming:https://insider-gaming.com/?p=239048": "2026-11-19T14:01:44.071215+00:00",
   "web:google actu:CBMiugFBVV95cUxQTG9ESjI4OTM4TzJSWHhZNnRNbzBqZkhEMGlYNER6T0ZSSWtKc0hHMGlFdXFicFh6R3BrUjFIRTJ4VHBiUUM3c2dBVXZ5NjNzR1dmdGZXbTg2MW1xbnIyVUdSeDZpaEZNUEVobkNLOFdvZmlfSnB2bS1CaXJ0bUlsZmFsaGlmS2ptTWVrRzJlSXpuYXNCZzZNZ0NHYWhfYjhzQk9iclBORHotcDdjZ2JiRUhhZUR5RHg0R1E": "2026-11-19T14:01:44.071215+00:00",
-  "web:google actu:CBMirAFBVV95cUxOUWdoS0h6TDczZkg4cXhTamd5a19qcV94STQ3QkwzWF8tSDVNSW8wYkhNSEgyNk9ZbERHZHVQVkxoUW10U2dPR1h5b2luZi1mcGJRcnVMYXIxS3pkRkhqN3haTy13TE43UngzbThxZHBDclNsN0MtVlVtZnEwQk9kQnBOQzlKWjZqMWxIMXZFcHlvMjF2TE5KQTNoRDR6T0FrWTZwY2hhdUdLbHRO": "2026-11-19T14:01:44.071215+00:00"
+  "web:google actu:CBMirAFBVV95cUxOUWdoS0h6TDczZkg4cXhTamd5a19qcV94STQ3QkwzWF8tSDVNSW8wYkhNSEgyNk9ZbERHZHVQVkxoUW10U2dPR1h5b2luZi1mcGJRcnVMYXIxS3pkRkhqN3haTy13TE43UngzbThxZHBDclNsN0MtVlVtZnEwQk9kQnBOQzlKWjZqMWxIMXZFcHlvMjF2TE5KQTNoRDR6T0FrWTZwY2hhdUdLbHRO": "2026-11-19T14:01:44.071215+00:00",
+  "web:google news:CBMiugFBVV95cUxNem9RdFlld20wcElpbnlZUGtwSkMwZ3FUSXRlclVuRC1sbEY3ajRGc1BkV0dLQmVkR3A1OG9pdDBVVlVmaHA4bERwV3pFcDhMaGszbzFzTjh4T2RDTUxDcWQwY0tiN2tSNjkzZmFjWWJEWFdya0VmYWNaUThreXdJSGd5X0g3ck4xMVV6TlhqZV9FektwYmIweGdFY0Ztb0R4Y0hNWFB4SlZhQ0hwZnFWLTJCb1VobjJ0bXc": "2026-11-19T15:01:58.851824+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=239076": "2026-11-19T15:01:58.851824+00:00",
+  "web:google news:CBMisAFBVV95cUxQSDNXMHAyOGlyVVZSRlNCa1JjSEVsNnpKR3JjeEtadDNlT1RPRGpsSE5VZDVEMW1ITlY3UERoTE1aR1JHdTlzZzlDMWNoWC1hWnJFUnk4YnpzSkVPOHgzNjV5MG5NSUp5OUIzdGc1dWtDSlQxTFNOOHBVZnNRdHJseWs3VzJicjZ5b2FqUnZTa0ZBZE0yamhpeDA5TnRDWEFOUFFnd1ZOSjhkNGk1MjZUMQ": "2026-11-19T15:01:58.851824+00:00",
+  "web:rockstar intel:https://rockstarintel.com/?p=44606": "2026-11-19T15:01:58.851824+00:00"
  },
  "publies": [
   {
@@ -1309,10 +1313,19 @@
    "lien": "https://www.instagram.com/p/Df7QeOIjf_y/",
    "reel": "https://www.instagram.com/reel/Df7QfscERUF/",
    "story": "18200884636396560"
+  },
+  {
+   "ts": "2026-11-19T15:01:58.851824+00:00",
+   "categorie": "GAMING",
+   "titre": "Rockstar Games dévoile officiellement la carte de GTA VI",
+   "source_id": "web:rockstar intel:https://rockstarintel.com/?p=44606",
+   "lien": "https://www.instagram.com/p/Df7Xa7UjUDS/",
+   "reel": "https://www.instagram.com/reel/Df7XdD1HG4-/",
+   "story": "18016225106764006"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 3252
+  "tweets": 3282
  }
 }
