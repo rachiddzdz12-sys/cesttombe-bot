@@ -1,59 +1,60 @@
 Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
-Instagram · @cesttombe.actu (14 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 33 / 100
+Instagram · @cesttombe.actu (16 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 34 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   9 infos retenues après filtre
 Web · GOOGLE ACTU → 92 infos
-Web · GOOGLE NEWS → 92 infos
+Web · GOOGLE NEWS → 100 infos
 Web · BING ACTU → 12 infos
-Web · BING ACTU VI → 2 infos
+Web · BING ACTU VI → 11 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
 Web · GAMEKULT → 11 infos
-Web · IGN FRANCE → 29 infos
+Web · IGN FRANCE → 27 infos
 Web · JEUXVIDEO.COM → 11 infos
-Web · INSIDER GAMING → 6 infos
+Web · INSIDER GAMING → 9 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
-Instagram · @playstationfr → 12 posts lus, 5 gardés
-X · @RockstarGames → 10 tweets lus, 2 gardés (ce mois : 2967 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 2982 / 10000)
+Instagram · @playstationfr → 12 posts lus, 6 gardés
+X · @RockstarGames → 10 tweets lus, 2 gardés (ce mois : 2997 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 3012 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-319 infos fraîches et jamais traitées (sur 463 lues)
+348 infos fraîches et jamais traitées (sur 482 lues)
    6/10 ✗ déjà publiée « Tonight, the HEAT trade Miami for Vice City when they host the Milwauk »
+   9/10 ✗ déjà publiée « GTA VI Hands-On Gameplay Impressions! »
+   8/10 ✓ « Electronic duo Overmono revealed as additional composers on GTA VI's s »
    9/10 ✗ déjà publiée « Rockstar Co-Founder Sam Houser Releases Statement On GTA VI »
    9/10 ✗ déjà publiée « GTA VI Hands-On Gameplay Impressions! »
-   8/10 ✗ déjà publiée « ⭐ EXCLUSIVE GTA VI content for GTA+ members is now live in-game! »
-   9/10 ✗ déjà publiée « GTA VI Nominated For Game of the Year, Has Most Nominations! »
-   9/10 ✓ « ‘GTA VI’ Breaks Records Ahead Of Its Thursday Release »
-   8/10 ✓ « GTA 6 Bigfoot sightings already ramping up as Rockstar honors a 22-yea »
-   2/10 ✗ pas une news « Ce que ça vous prend pour jouer à GTA 6 »
-   8/10 ✓ « The full 'GTA 6' soundtrack reportedly leaked: See all artists and tra »
-   7/10 ✗ déjà publiée « Nine days before launch, GTA VI preloads set Virgin Media O2’s daily d »
-   9/10 ✗ déjà publiée « GTA 6 est enfin là ! Voici tout ce qu’il faut savoir sur le jeu événem »
-   9/10 ✗ déjà publiée « PlayStation suffers widespread network problems hours before release o »
-   4/10 ✗ pas une news « Depuis ce mercredi 18 novembre, le jeu GTA VI est vendu moins cher que »
-   9/10 ✓ « GTA VI physical release ditches discs »
-   2/10 ✗ pas une news « Upper Valley residents drive into Grand Theft Auto VI »
-   3/10 ✗ pas une news « ‘GTA 6′ finally arrives this week — and it’s surprisingly still availa »
-   9/10 ✗ déjà publiée « ‘Grand Theft Auto VI’ Finally Launches on Thursday, Pre-Sales Reported »
-   8/10 ✓ « Budget, préventes, musique… Cinq chiffres vertigineux autour de "GTA V »
-   8/10 ✓ « I finished GTA 6's main story: Ask me anything! (except for major spoi »
-  10/10 ✓ « GTA 6 Sets Streaming Launch Record Within Minutes »
-GAMING · 7 infos retenues, meilleure : « GTA 6 Sets Streaming Launch Record Within Minutes » (10/10)
-  article · 2255 caractères lus
-  photo · 1 image(s) : 2560x1440
-  visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  couverture · photo1 · zoom 1.0 · PAS PROPRE
-  carrousel prêt : « GTA 6 bat tous les records de streaming au lancement » (5 slides)
-  voix · contrôle OK (98%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (7.8 s)
-  reel · 9.5 s · 6 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Df5bpEGl_hv/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df5bqS9FRgy/
+   7/10 ✗ déjà publiée « ⭐ EXCLUSIVE GTA VI content for GTA+ members is now live in-game! »
+   5/10 ✓ « [GTA 6] Rip aux Belges ! (j'en fais partie) »
+   0/10 ✗ pas une news « All GTA 6 Safe Codes for Chapter 2 in Port Gellhorn »
+   8/10 ✗ déjà publiée « Is PlayStation down? Some gamers report problems with PlayStation serv »
+   6/10 ✓ « "C'est bluffant": Sébastien, infirmier, a joué toute la nuit à GTA VI »
+   0/10 ✗ pas une news « Comment bloquer tous les spoilers de GTA 6 sur vos réseaux sociaux en  »
+   4/10 ✗ trop faible (mini 5) « [Podcasts] La consultation gratuite : Sortie de GTA VI, les jeux vidéo »
+   5/10 ✓ « Le clin d'œil plein d'humour des étudiants de l'école Créajeux de Nîme »
+   9/10 ✓ « Test de GTA 6 : pourquoi 19/20 ? Notre explication détaillée »
+   7/10 ✓ « Soldiers sign up to play ‘Grand Theft Auto VI’ in exchange for reenlis »
+   7/10 ✓ « Sortie de GTA VI : selon une étude, la France est dans le top 10 des p »
+   8/10 ✗ déjà publiée « The decade-long wait is over: “Grand Theft Auto VI” has arrived »
+   8/10 ✗ déjà publiée « Welcome to Leonida: My first two hours with GTA 6 »
+   8/10 ✓ « Grand Theft Auto VI Revs Up for a Worldwide Takeover »
+   5/10 ✓ « [Podcasts] Le 3216 RMC : GTA VI, qu'en pensez-vous ? - 19/11 »
+   9/10 ✗ déjà publiée « G.T.A. 6 Review: This Release Will Steal Your Heart »
+GAMING · 9 infos retenues, meilleure : « Electronic duo Overmono revealed as additional composers on GTA VI's score along » (8/10)
+  photo · échec : image trop petite (48x48)
+  photo · 1 image(s) : 1200x692
+  visuels · deezer « Overmono » → 5 image(s)
+  couverture · photo1 · zoom 1.0 · propre
+  carrousel prêt : « Overmono rejoint la bande originale de GTA 6 » (4 slides)
+  voix · contrôle OK (94%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (7.5 s)
+  reel · 9.2 s · 6 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Df6ZJ7-ICG4/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df6ZLkPgWJs/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3-flash-preview : réponse en 9 s
+Gemini : gemini-flash-lite-latest : réponse en 5 s · gemini-flash-lite-latest : réponse en 6 s
