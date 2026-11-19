@@ -468,7 +468,11 @@
   "x:2123455510389125393": "2026-11-19T17:08:08.869152+00:00",
   "web:google actu:CBMibEFVX3lxTE9tbVhEMWhiLVZqVlVXYjJyMUMwXzJHbUsxUFIwUy1jNGpyMUlxVnE3eUlOb0FkRGNfOWdwb1ZmSk5xVnlBVjE2THVZRHZQZ0hBc3hCYUhzNzVEMnU1MWx3cEdrRkRsQ3RiMkdTMw": "2026-11-19T18:01:41.251155+00:00",
   "web:insider gaming:https://insider-gaming.com/?p=239249": "2026-11-19T18:01:41.251155+00:00",
-  "web:google actu:CBMi4AFBVV95cUxNOExFcXZfRWw4aGZKbFhiVi1FRlNyaGREMXNfSjFTYkx1a3FpdjBrVk5xaG1BdjV4TFB1c1IxQ0VQM0RfYXMxblZkM3B0NW9NdFpIY2hnakI0eDZteWNuckdYZU90T1I1cmxKemFGbXZVaE5DeTJscjljVXZrUlFGak9kb0VlZm9UNC1ZMXJSNlNYMXJFbUwwZ2IyVnBKSE9mNGNCZUdzZDVVQnY2TE1xejlmYTJDdXBOR3p3emg3R29WZjhmWjZoOTlRZEV6ZGFmWHM0T1ZVeDNJWlhmZWt2UA": "2026-11-19T18:01:41.251155+00:00"
+  "web:google actu:CBMi4AFBVV95cUxNOExFcXZfRWw4aGZKbFhiVi1FRlNyaGREMXNfSjFTYkx1a3FpdjBrVk5xaG1BdjV4TFB1c1IxQ0VQM0RfYXMxblZkM3B0NW9NdFpIY2hnakI0eDZteWNuckdYZU90T1I1cmxKemFGbXZVaE5DeTJscjljVXZrUlFGak9kb0VlZm9UNC1ZMXJSNlNYMXJFbUwwZ2IyVnBKSE9mNGNCZUdzZDVVQnY2TE1xejlmYTJDdXBOR3p3emg3R29WZjhmWjZoOTlRZEV6ZGFmWHM0T1ZVeDNJWlhmZWt2UA": "2026-11-19T18:01:41.251155+00:00",
+  "web:gta boom:https://www.gtaboom.com/gta-6-early-money-the-three-sheets-liquor-parrot-stash-555d": "2026-11-19T19:01:43.294321+00:00",
+  "web:google news:CBMiggFBVV95cUxQUXNHYjdpR0ZFMTRpLWszSlFaZnFuWXctdkVmcnlEVmNHNTZwZTZLcVRWUW5fejE1bDFNelVTdUJlTGpZS05QcHN5TmdMem9fUktnNjktQndwZjFNdUhkbmxuNHYzOUlBVnl2aHo1aVFSWXhHVDdRSlFfWUtOTEJ0TkZR": "2026-11-19T19:01:43.294321+00:00",
+  "web:google actu:CBMiswFBVV95cUxPVGRDWVkxdDExdGFmSkc3NnNlQmZ6UkpHcmNKeEVfUTlUdE5mcXc0WUd3RmhpOE1nQlh4dzNsU25KLWNqRWZTMFl0VXQ4QmdibjZZTkY1UklKNTVJelBLem1ZNGJxaVpmRW14djJOeVR3V0o5N2FQa3VuRjJnbG9Zd0xXV0V4aEV0NU1ESEIzckMxb2NFejFqT3gzRFVaZUhkRFBhdW5RNF9uaTBFZ1JHbDR4RQ": "2026-11-19T19:01:43.294321+00:00",
+  "web:google actu:CBMiYkFVX3lxTE9WV3pYU29sZ1lOYUpPbzgyajFEX29NbWkwUnM1c3FFRnBDQzJqakpIYU5sNlk1NE5WSFZpbHlNNFdCMW5IQ3NpbVVGZzVLVUR2bjQyWFZZcWhHZEdxN1ZRX0h3": "2026-11-19T19:01:43.294321+00:00"
  },
  "publies": [
   {
@@ -1361,10 +1365,19 @@
    "lien": "https://www.instagram.com/p/Df7rs1KCfqu/",
    "reel": "https://www.instagram.com/reel/Df7r12okgxc/",
    "story": "18455775274193444"
+  },
+  {
+   "ts": "2026-11-19T19:01:43.294321+00:00",
+   "categorie": "GAMING",
+   "titre": "Pics de trafic inédits en France pour GTA 6",
+   "source_id": "web:google actu:CBMiYkFVX3lxTE9WV3pYU29sZ1lOYUpPbzgyajFEX29NbWkwUnM1c3FFRnBDQzJqakpIYU5sNlk1NE5WSFZpbHlNNFdCMW5IQ3NpbVVGZzVLVUR2bjQyWFZZcWhHZEdxN1ZRX0h3",
+   "lien": "https://www.instagram.com/p/Df7ybrwmooB/",
+   "reel": "https://www.instagram.com/reel/Df7ygYVDJJ_/",
+   "story": "17878967361586133"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 3372
+  "tweets": 3402
  }
 }
