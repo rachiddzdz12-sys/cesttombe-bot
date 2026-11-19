@@ -2,58 +2,58 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (16 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 35 / 100
+Instagram · posts publiés par l'API sur 24 h : 38 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   9 infos retenues après filtre
 Web · GOOGLE ACTU → 92 infos
-Web · GOOGLE NEWS → 92 infos
-Web · BING ACTU → 12 infos
-Web · BING ACTU VI → 11 infos
+Web · GOOGLE NEWS → HTTP 429
+Web · BING ACTU → 11 infos
+Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
-Web · GAMEKULT → 11 infos
+Web · GAMEKULT → 12 infos
 Web · IGN FRANCE → 28 infos
-Web · JEUXVIDEO.COM → 14 infos
-Web · INSIDER GAMING → 8 infos
+Web · JEUXVIDEO.COM → 16 infos
+Web · INSIDER GAMING → 7 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 10 tweets lus, 2 gardés (ce mois : 3087 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 3102 / 10000)
+X · @RockstarGames → 10 tweets lus, 2 gardés (ce mois : 3117 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 3132 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-348 infos fraîches et jamais traitées (sur 477 lues)
+260 infos fraîches et jamais traitées (sur 387 lues)
    6/10 ✗ déjà publiée « Tonight, the HEAT trade Miami for Vice City when they host the Milwauk »
-   8/10 ✗ déjà publiée « GTA VI Hands-On Gameplay Impressions! »
-   9/10 ✗ déjà publiée « Rockstar Co-Founder Sam Houser Releases Statement On GTA VI »
-   8/10 ✗ déjà publiée « GTA VI Hands-On Gameplay Impressions! »
-   8/10 ✗ déjà publiée « ⭐ EXCLUSIVE GTA VI content for GTA+ members is now live in-game! »
-   9/10 ✓ « Digital Foundry Finds that GTA 6 Indeed Runs Best on PS5 Pro »
-   8/10 ✓ « Why XBOX Has a Secret GTA VI Performance Advantage Over PS5 »
-   6/10 ✓ « How GTA VI Is Pushing the Limits of Virtual World Technology »
-   8/10 ✗ déjà publiée « PlayStation network struggles with GTA VI launch traffic »
-   9/10 ✗ déjà publiée « GTA 6 explose un nouveau record sur Twitch : les chiffres donnent le t »
-   9/10 ✗ déjà publiée « Grand Theft Auto VI sort dans le monde entier et séduit déjà les criti »
-   2/10 ✗ pas une news « Guide GTA 6 : comment ajuster rapidement la caméra ? »
-   9/10 ✗ déjà publiée « 'Grand Theft Auto VI' launches worldwide to near-perfect reviews »
-   2/10 ✗ pas une news « GTA 6: How To Give The Middle Finger »
-   6/10 ✓ « GTA VI : quand les constructeurs automobiles surfent sur le phénomène »
-   8/10 ✗ déjà publiée « Sortie de GTA VI : selon une étude, la France est dans le top 10 des p »
-   7/10 ✓ « 6 amazingly mundane things you can do in 'GTA 6' »
-   5/10 ✓ « Erik Spoelstra espère être invité par l’un de ses joueurs pour… tester »
-  10/10 ✗ déjà publiée « GTA 6 Launches With a Record-Tying 99 Metacritic »
-   8/10 ✓ « GTA 6 Locked at 30 FPS: Not Even PS5 Pro Can Handle 60 FPS »
-GAMING · 7 infos retenues, meilleure : « Digital Foundry Finds that GTA 6 Indeed Runs Best on PS5 Pro » (9/10)
-  article · 3947 caractères lus
-  photo · 1 image(s) : 1920x1080
-  visuels · steam « Grand Theft Auto VI » → 3 image(s)
-  couverture · photo1 · zoom 1.0 · propre
-  carrousel prêt : « Digital Foundry confirme que GTA 6 tourne mieux sur PS5 Pro » (4 slides)
+   5/10 ✓ « Why XBOX Has a Secret GTA VI Performance Advantage Over PS5! »
+   6/10 ✗ déjà publiée « GTA VI Hands-On Gameplay Impressions! »
+   8/10 ✗ déjà publiée « Rockstar Co-Founder Sam Houser Releases Statement On GTA VI »
+   6/10 ✗ déjà publiée « GTA VI Hands-On Gameplay Impressions! »
+   7/10 ✗ déjà publiée « ⭐ EXCLUSIVE GTA VI content for GTA+ members is now live in-game! »
+   9/10 ✗ déjà publiée « GTA VI lancé dans le monde entier »
+   8/10 ✓ « Au Japon, GTA 6 se mange une petite censure sympathique »
+   8/10 ✓ « Le lancement de « GTA VI » plus commenté que celui de la Coupe du Mond »
+   8/10 ✗ déjà publiée « 2,6 millions de messages en 24h : GTA VI écrase la Coupe du Monde 2026 »
+   6/10 ✓ « "Ça vaut bien une petite semaine de vacances pour en profiter" : LCI c »
+   3/10 ✗ pas une news « GTA 6 Has Made Me a ‘Nice Guy’ For The First Time Since 1999 »
+   5/10 ✓ « [Podcasts] GTA VI : on en fait trop ? - 19/11 »
+   5/10 ✓ « GTA 6 : que du bon à venir pour le PC ? »
+   7/10 ✓ « GTA 6 : les 6 voitures du jeu construites pour de vrai par West Coast  »
+   8/10 ✓ « GTA 6 est sorti : 17 millions de précommandes, le double de Cyberpunk »
+   6/10 ✓ « No, GTA 6 Does Not Run at 120 FPS on Xbox »
+   5/10 ✓ « Plus fort que l’effet Trump : GTA VI va-t-il nous redonner envie d’all »
+   4/10 ✗ pas une news « GTA : pourquoi la licence est plus politique que vous ne le pensez »
+   2/10 ✗ pas une news « Does Grand Theft Auto 6 Have Director Mode? »
+GAMING · 10 infos retenues, meilleure : « Au Japon, GTA 6 se mange une petite censure sympathique » (8/10)
+  article · 1820 caractères lus
+  photo · 2 image(s) : 800x800, 1920x1080
+  visuels · steam « Grand Theft Auto VI » → 4 image(s)
+  couverture · photo1 · zoom 1.4 · propre
+  carrousel prêt : « GTA 6 censuré de la nudité au Japon » (3 slides)
   voix · contrôle OK (96%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (4.8 s)
-  reel · 6.4 s · 4 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Df6vHncl7ji/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df6vJhbiXIQ/
+  voix · Gemini (Aoede) (5.6 s)
+  reel · 7.2 s · 5 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Df60pcFmL3I/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df60q2gDnHl/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 3 s · gemini-flash-lite-latest : réponse en 3 s
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 4 s

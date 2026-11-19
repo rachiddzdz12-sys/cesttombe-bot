@@ -424,7 +424,11 @@
   "web:google actu:CBMi1AFBVV95cUxPRTZMX1pRT3RQdWNwaGQxLUF1WC1nb0wtUkVmU0dBMkZ5WjBpY2N5YTBXSWNMZjVucFhENnBIbUVhRzgwZTdlMGo5cVhZVWZlTTEyVEpEa2tmeW5obFJVdll2UUhJcHVMZjdqSkc3MDV6d1lSa1lYQW41MUtnX3ZwWEV0azctNFBpU2xYd1JXOGNFMHVGS0dGdWI3WXI2TW5kWTN1dE9QRWJ3UU5yR0toaWt2V2VPWjBzVmhFRFBuWjJhT2dSNktQZjFTWjNSRnZiTUdqOQ": "2026-11-19T08:19:37.760893+00:00",
   "web:google actu:CBMinwFBVV95cUxNanU1SVpzWEtfQW0zZFNnMkJtblFYTUZHTGhObktpTktVOUs2OE54bjhJcW5tVXoyekdFdzBJWDQ3djM2di1kbXUtSGtMelh5dllWQW9tZDNsU0NSbmt0d1RYTkQ1T3lHdWp2d0ZoNFhhcEZwWW00bXk0WGN6aVpFelVvVVh0NXN1Yjd2Z1hMTDBVZ1pnRDNrUXpxTEM1aVU": "2026-11-19T09:13:40.708479+00:00",
   "web:google news:CBMic0FVX3lxTFBhUzU5UGJ3Wjc3cEI5S2NSZ0ZfM3RmdllodmRJY3E2SXE0d0RpWTNzZ1BzVHVfZnI4VWdRNnJpNXVteVFMcjFDRFZZMkNlX1J0d2VzX3o0Q18yVl9EQjN1TDJJVzdhRHhUanNlNmpnbUdPS1U": "2026-11-19T09:13:40.708479+00:00",
-  "web:gta boom:https://www.gtaboom.com/digital-foundry-finds-that-gta-6-indeed-runs-best-on-ps5-pro-b72f": "2026-11-19T09:13:40.708479+00:00"
+  "web:gta boom:https://www.gtaboom.com/digital-foundry-finds-that-gta-6-indeed-runs-best-on-ps5-pro-b72f": "2026-11-19T09:13:40.708479+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=239032": "2026-11-19T10:01:49.579724+00:00",
+  "web:google actu:CBMirAFBVV95cUxQcUtvMDllTkdSZmdtcWhENDVQQ1VQR1FselFhSDZWSXU5SENMQ1lwX2xsN0swbXVtd08xOS0yaUhXRmlQRVVjUDJtQkFwWmI0N3RjWjJnNUJNaExKcWtfX2wwOE9RWDJ0SGpUeTZNT19VMW1rUDdYVGRKYUh2MTl3d1NJVWpsc2l1SkFvaFhSU0E4ZENZQS0yMVhxM0tFTzhJNDdlZEllUmlwZlYw": "2026-11-19T10:01:49.579724+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=236457": "2026-11-19T10:01:49.579724+00:00",
+  "web:gamekult:https://www.gamekult.com/actualite/au-japon-gta-6-se-mange-une-petite-censure-sympathique-3050873064.html": "2026-11-19T10:01:49.579724+00:00"
  },
  "publies": [
   {
@@ -1236,10 +1240,19 @@
    "lien": "https://www.instagram.com/p/Df6vHncl7ji/",
    "reel": "https://www.instagram.com/reel/Df6vJhbiXIQ/",
    "story": "18129816044486126"
+  },
+  {
+   "ts": "2026-11-19T10:01:49.579724+00:00",
+   "categorie": "GAMING",
+   "titre": "GTA 6 censuré de la nudité au Japon",
+   "source_id": "web:gamekult:https://www.gamekult.com/actualite/au-japon-gta-6-se-mange-une-petite-censure-sympathique-3050873064.html",
+   "lien": "https://www.instagram.com/p/Df60pcFmL3I/",
+   "reel": "https://www.instagram.com/reel/Df60q2gDnHl/",
+   "story": "18024166391936416"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 3102
+  "tweets": 3132
  }
 }

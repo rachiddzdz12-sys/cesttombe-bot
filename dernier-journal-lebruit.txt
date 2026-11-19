@@ -1,1 +1,48 @@
-Pas de post : hors horaires (10:01 à Paris)
+Mode : auto
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @le.bruit.rap (17 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 7 / 100
+Rap · @rap.minute → 12 posts lus
+Rap · @rapfractusofficiel → 12 posts lus
+Rap · @booska_p → 12 posts lus
+X · @RapFrActus → 10 tweets lus, 1 gardés (ce mois : 615 / 9000)
+X · @FrenchRapUS → 10 tweets lus, 8 gardés (ce mois : 630 / 9000)
+X · @Rapunchline → 10 tweets lus, 2 gardés (ce mois : 645 / 9000)
+X · @SpotifyFrance → 10 tweets lus, 2 gardés (ce mois : 660 / 9000)
+22 infos fraîches et jamais traitées (sur 49 lues)
+   3/10 ✗ pas une news « 🚨Le concept de fou d’EL MVNOLO pour faire decouvrir son nouveau projet »
+   0/10 ✗ pas une news « 🚨 ALERTE !  »
+   0/10 ✗ pas une news « ⚠️ MESSAGE IMPORTANT ! »
+   0/10 ✗ pas une news « 🚨 ALERTE !  »
+   0/10 ✗ pas une news « 🚨 NOUS SOMMES LE 19 NOVEMBRE 2026. »
+   0/10 ✗ pas une news « 🚨 La streameuse française Julia Bayonetta s’est déguisé en Lucia pour  »
+   0/10 ✗ pas une news « 🚨 Un streamer américain fond en larmes après avoir perdu 12 heures de  »
+   0/10 ✗ pas une news « 🚨 C’EST UNE FOLIE MONUMENTALE !  »
+   0/10 ✗ pas une news « 🚨 TERRIBLE NOUVELLE ! »
+   9/10 ✓ « 🚨 DU JAMAIS VU »
+   7/10 ✓ « 🚨 FIANSO A EMPÊCHÉ LA PRÉPARATION D'UN FILM SUR ZYED & BOUNA 👏🕊️ »
+   3/10 ✗ pas une news « Orelsan sauve quelques personnes dans les temps additionnels 🤣  »
+   8/10 ✓ « Le feat improbable qui fait bien le travail : L2B et Orelsan ont perfo »
+   4/10 ✗ trop faible (mini 6) « Tout droit venu du Maroc 👀 »
+   0/10 ✗ pas une news « Nous y sommes enfin 🥳 »
+   0/10 ✗ pas une news « 🌴 C’est enfin l’heure. 13 ans après GTA V, Grand Theft Auto VI est dis »
+   0/10 ✗ pas une news « Et Angèle décerne le prix de l’album de l’année à 👀 »
+   3/10 ✗ pas une news « On était à la soirée GQ Men of the Year et on en a profité pour demand »
+   6/10 ✓ « Zed, Triangle des Bermudes, Cherry Pie… Toute l’actu du jour est dans  »
+   2/10 ✗ pas une news « Leta en roue libre à l’hôpital avec sa femme 😭 »
+   6/10 ✓ « Du 92 à B.L.O, ça date pas d’hier.  »
+   8/10 ✓ « 🔥Travis Scott donne du flow à Vice City ! »
+RAP FR · 6 infos retenues, meilleure : « 🚨 DU JAMAIS VU » (9/10)
+  photo · 1 image(s) : 1200x1200
+  visuels · deezer « Orelsan » → 6 image(s)
+  couverture LE BRUIT · photo1 · plein
+  carrousel prêt : « Orelsan annonce 15 concerts à Bercy » (4 slides)
+  voix · ⚠️ refaite, blanc de 1.1 s au milieu
+  voix · contrôle OK (99%, essai 2, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (6.9 s)
+  reel LE BRUIT · 8.1 s · 4 plans · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Df61DZGoSEu/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df61I7KuEQS/
+  ✅ STORY PUBLIÉE (vidéo)
+Gemini : gemini-flash-lite-latest : réponse en 5 s · gemini-flash-lite-latest : réponse en 5 s
