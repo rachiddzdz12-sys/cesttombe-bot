@@ -2,12 +2,12 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (16 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 38 / 100
+Instagram · posts publiés par l'API sur 24 h : 37 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   9 infos retenues après filtre
 Web · GOOGLE ACTU → 92 infos
-Web · GOOGLE NEWS → HTTP 429
-Web · BING ACTU → 11 infos
+Web · GOOGLE NEWS → 92 infos
+Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
@@ -20,40 +20,41 @@ Web · JEUXVIDEO.COM → 16 infos
 Web · INSIDER GAMING → 7 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 10 tweets lus, 2 gardés (ce mois : 3117 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 3132 / 10000)
+X · @RockstarGames → 10 tweets lus, 2 gardés (ce mois : 3147 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 3162 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-260 infos fraîches et jamais traitées (sur 387 lues)
+358 infos fraîches et jamais traitées (sur 480 lues)
    6/10 ✗ déjà publiée « Tonight, the HEAT trade Miami for Vice City when they host the Milwauk »
    5/10 ✓ « Why XBOX Has a Secret GTA VI Performance Advantage Over PS5! »
-   6/10 ✗ déjà publiée « GTA VI Hands-On Gameplay Impressions! »
+   7/10 ✗ déjà publiée « GTA VI Hands-On Gameplay Impressions! »
    8/10 ✗ déjà publiée « Rockstar Co-Founder Sam Houser Releases Statement On GTA VI »
-   6/10 ✗ déjà publiée « GTA VI Hands-On Gameplay Impressions! »
+   7/10 ✗ déjà publiée « GTA VI Hands-On Gameplay Impressions! »
    7/10 ✗ déjà publiée « ⭐ EXCLUSIVE GTA VI content for GTA+ members is now live in-game! »
-   9/10 ✗ déjà publiée « GTA VI lancé dans le monde entier »
-   8/10 ✓ « Au Japon, GTA 6 se mange une petite censure sympathique »
-   8/10 ✓ « Le lancement de « GTA VI » plus commenté que celui de la Coupe du Mond »
-   8/10 ✗ déjà publiée « 2,6 millions de messages en 24h : GTA VI écrase la Coupe du Monde 2026 »
-   6/10 ✓ « "Ça vaut bien une petite semaine de vacances pour en profiter" : LCI c »
-   3/10 ✗ pas une news « GTA 6 Has Made Me a ‘Nice Guy’ For The First Time Since 1999 »
-   5/10 ✓ « [Podcasts] GTA VI : on en fait trop ? - 19/11 »
-   5/10 ✓ « GTA 6 : que du bon à venir pour le PC ? »
-   7/10 ✓ « GTA 6 : les 6 voitures du jeu construites pour de vrai par West Coast  »
-   8/10 ✓ « GTA 6 est sorti : 17 millions de précommandes, le double de Cyberpunk »
-   6/10 ✓ « No, GTA 6 Does Not Run at 120 FPS on Xbox »
-   5/10 ✓ « Plus fort que l’effet Trump : GTA VI va-t-il nous redonner envie d’all »
-   4/10 ✗ pas une news « GTA : pourquoi la licence est plus politique que vous ne le pensez »
-   2/10 ✗ pas une news « Does Grand Theft Auto 6 Have Director Mode? »
-GAMING · 10 infos retenues, meilleure : « Au Japon, GTA 6 se mange une petite censure sympathique » (8/10)
-  article · 1820 caractères lus
-  photo · 2 image(s) : 800x800, 1920x1080
-  visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  couverture · photo1 · zoom 1.4 · propre
-  carrousel prêt : « GTA 6 censuré de la nudité au Japon » (3 slides)
-  voix · contrôle OK (96%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (5.6 s)
-  reel · 7.2 s · 5 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Df60pcFmL3I/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df60q2gDnHl/
+  10/10 ✗ déjà publiée « GTA 6 Becomes Biggest Entertainment Launch in History »
+   8/10 ✗ déjà publiée « GTA 6 arrives after 13-year wait: Live updates as gamers explore Vice  »
+   7/10 ✗ déjà publiée « Les premières heures de «GTA VI» en direct sur Twitch avec «Libération »
+   6/10 ✓ « All GTA 6 Smartphone Apps And What They Do »
+   8/10 ✓ « EN DIRECT, sortie de « GTA VI » : très peu de bugs dans le jeu, salué  »
+   3/10 ✗ pas une news « 'GTA 6': How to use a talking parrot to find a stash of money »
+   4/10 ✗ trop faible (mini 5) « Saxophonist tributes, Grand Theft Auto VI drive this week’s new music  »
+   7/10 ✓ « "Not every game needs to be GTA," Baldur's Gate 3 dev says as Grand Th »
+   1/10 ✗ pas une news « GTA 6: How to Solve the Pelican Valley Outpost Puzzle »
+   4/10 ✗ trop faible (mini 5) « Sortie mondiale de GTA VI : en Bretagne, cette développeuse lance Gran »
+   5/10 ✓ « "GTA VI" is here. Here's how Utah fought games like it. »
+   2/10 ✗ pas une news « GTA 6: Should you kill or spare Arnold? What to know. »
+   8/10 ✓ « GTA 6 Sparks Controversy with 'Anti-Furry Law' Scene »
+   9/10 ✗ déjà publiée « “GTA VI” bat des records quelques heures après sa sortie »
+   0/10 ✗ pas une news « Quels métiers et quelles études pour créer un jeu vidéo ? »
+GAMING · 6 infos retenues, meilleure : « EN DIRECT, sortie de « GTA VI » : très peu de bugs dans le jeu, salué pour son r » (8/10)
+  article · lemonde.fr
+  article · 659 caractères lus
+  photo · aucune image
+  couverture · neutre · zoom 1.0 · propre
+  carrousel prêt : « Blocage technique sur la page officielle » (3 slides)
+  voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (3.8 s)
+  reel · 5.5 s · 4 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Df68w0Clz52/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df68ymunAI4/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 4 s
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
