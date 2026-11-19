@@ -1,1 +1,40 @@
-Pas de post : dernier post il y a 175 min (minimum 210)
+Mode : auto
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @le.bruit.rap (17 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 8 / 100
+Rap · @rap.minute → 12 posts lus
+Rap · @rapfractusofficiel → 12 posts lus
+Rap · @booska_p → 12 posts lus
+X · @RapFrActus → 10 tweets lus, 1 gardés (ce mois : 675 / 9000)
+X · @FrenchRapUS → 10 tweets lus, 6 gardés (ce mois : 690 / 9000)
+X · @Rapunchline → 10 tweets lus, 2 gardés (ce mois : 705 / 9000)
+X · @SpotifyFrance → 10 tweets lus, 2 gardés (ce mois : 720 / 9000)
+15 infos fraîches et jamais traitées (sur 47 lues)
+   0/10 ✗ pas une news « 🚨 SURRÉALISTE ! »
+   6/10 ✓ « 🚨 FIANSO A EMPÊCHÉ LA PRÉPARATION D'UN FILM SUR ZYED & BOUNA 👏🕊️ »
+   2/10 ✗ pas une news « Booba avait déjà teasé GTA VI ? 😭 »
+   2/10 ✗ pas une news « Booba avait déjà teasé GTA VI ? 😭 »
+   0/10 ✗ pas une news « À partir de ce jeudi 19 novembre à 10 h 51, les femmes travailleront s »
+   9/10 ✓ « SCH annonce une tournée pour 2027 🇫🇷 »
+   0/10 ✗ pas une news « Rihanna et sa fille Rocki, nouvelles égéries du Lady Dior. »
+   0/10 ✗ pas une news « ⚖️ Michel Zecler craint un recul des droits des victimes de violences  »
+   8/10 ✗ déjà publiée « Gims a vendu son dernier projet pour 50 millions d’euros 🤯 »
+   0/10 ✗ pas une news « 🎮 GTA VI vient à peine de sortir que les tweetos sont déjà en roue lib »
+   5/10 ✗ trop faible (mini 6) « KDRAME a choisi le parfait timing pour sortir son nouveau clip tourné  »
+   8/10 ✓ « Le feat improbable qui fait bien le travail : L2B et Orelsan ont perfo »
+   4/10 ✗ pas une news « Zed, Triangle des Bermudes, Cherry Pie… Toute l’actu du jour est dans  »
+   6/10 ✓ « Du 92 à B.L.O, ça date pas d’hier.  »
+   8/10 ✓ « 🔥Travis Scott donne du flow à Vice City ! »
+RAP FR · 5 infos retenues, meilleure : « SCH annonce une tournée pour 2027 🇫🇷 » (9/10)
+  photo · 1 image(s) : 1080x1375
+  visuels · deezer « SCH » → 4 image(s)
+  couverture LE BRUIT · photo1 · haut
+  carrousel prêt : « SCH annonce une tournée pour 2027 » (5 slides)
+  voix · contrôle OK (100%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (4.7 s)
+  reel LE BRUIT · 5.9 s · 3 plans · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Df7Q3BcFRq8/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df7Q9ygB3jJ/
+  ✅ STORY PUBLIÉE (vidéo)
+Gemini : gemini-flash-lite-latest : réponse en 3 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 9 s

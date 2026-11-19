@@ -448,7 +448,11 @@
   "web:google news:CBMifkFVX3lxTE1kVHVDY2JTdXdJbzFsaDRVeVZHdC1CeFFFQVEwSVZjZEFxbE11TWsyNkhpdnNrVlA1dGRpSW5rWGM4Q2VHbEs0VllmeGRMUEI4eHQ4QkUzeXJreXhPb3BHZmZla2hlcmNwVWhGbFBBc2VmeF9YSUdzdURZbzNZUQ": "2026-11-19T13:08:49.202509+00:00",
   "web:insider gaming:https://insider-gaming.com/?p=239039": "2026-11-19T13:08:49.202509+00:00",
   "web:google news:CBMifkFVX3lxTE9CbUJwSUJ3T3VCVDUzTjUzMWNScXFqb0FkZ3phVTVnbXI2ZWh2X0RLV1NXQWJ2Skx0azcyUHpDM0x1c0h1SGZTcmtTQlJjcm41YkFudVd5UlZUVEx6WmZHNkF2WmZYeVI3aER4eG9tTGZ4Vm44eVJUeTZhTG9kUQ": "2026-11-19T13:08:49.202509+00:00",
-  "x:2123355098734821590": "2026-11-19T13:08:49.202509+00:00"
+  "x:2123355098734821590": "2026-11-19T13:08:49.202509+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=239100": "2026-11-19T14:01:44.071215+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=239048": "2026-11-19T14:01:44.071215+00:00",
+  "web:google actu:CBMiugFBVV95cUxQTG9ESjI4OTM4TzJSWHhZNnRNbzBqZkhEMGlYNER6T0ZSSWtKc0hHMGlFdXFicFh6R3BrUjFIRTJ4VHBiUUM3c2dBVXZ5NjNzR1dmdGZXbTg2MW1xbnIyVUdSeDZpaEZNUEVobkNLOFdvZmlfSnB2bS1CaXJ0bUlsZmFsaGlmS2ptTWVrRzJlSXpuYXNCZzZNZ0NHYWhfYjhzQk9iclBORHotcDdjZ2JiRUhhZUR5RHg0R1E": "2026-11-19T14:01:44.071215+00:00",
+  "web:google actu:CBMirAFBVV95cUxOUWdoS0h6TDczZkg4cXhTamd5a19qcV94STQ3QkwzWF8tSDVNSW8wYkhNSEgyNk9ZbERHZHVQVkxoUW10U2dPR1h5b2luZi1mcGJRcnVMYXIxS3pkRkhqN3haTy13TE43UngzbThxZHBDclNsN0MtVlVtZnEwQk9kQnBOQzlKWjZqMWxIMXZFcHlvMjF2TE5KQTNoRDR6T0FrWTZwY2hhdUdLbHRO": "2026-11-19T14:01:44.071215+00:00"
  },
  "publies": [
   {
@@ -1296,10 +1300,19 @@
    "lien": "https://www.instagram.com/p/Df7KA3tF916/",
    "reel": "https://www.instagram.com/reel/Df7KC9ZkUEk/",
    "story": "18098310719160640"
+  },
+  {
+   "ts": "2026-11-19T14:01:44.071215+00:00",
+   "categorie": "GAMING",
+   "titre": "GTA 6 : la durée de vie exacte dévoilée",
+   "source_id": "web:google actu:CBMirAFBVV95cUxOUWdoS0h6TDczZkg4cXhTamd5a19qcV94STQ3QkwzWF8tSDVNSW8wYkhNSEgyNk9ZbERHZHVQVkxoUW10U2dPR1h5b2luZi1mcGJRcnVMYXIxS3pkRkhqN3haTy13TE43UngzbThxZHBDclNsN0MtVlVtZnEwQk9kQnBOQzlKWjZqMWxIMXZFcHlvMjF2TE5KQTNoRDR6T0FrWTZwY2hhdUdLbHRO",
+   "lien": "https://www.instagram.com/p/Df7QeOIjf_y/",
+   "reel": "https://www.instagram.com/reel/Df7QfscERUF/",
+   "story": "18200884636396560"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 3222
+  "tweets": 3252
  }
 }
