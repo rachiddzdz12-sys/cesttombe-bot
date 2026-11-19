@@ -2,13 +2,13 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (16 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 40 / 100
+Instagram · posts publiés par l'API sur 24 h : 39 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   9 infos retenues après filtre
 Web · GOOGLE ACTU → 92 infos
 Web · GOOGLE NEWS → 92 infos
 Web · BING ACTU → 12 infos
-Web · BING ACTU VI → 2 infos
+Web · BING ACTU VI → 11 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
@@ -16,45 +16,45 @@ Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
 Web · GAMEKULT → 11 infos
 Web · IGN FRANCE → 28 infos
-Web · JEUXVIDEO.COM → 16 infos
-Web · INSIDER GAMING → 6 infos
+Web · JEUXVIDEO.COM → 17 infos
+Web · INSIDER GAMING → 5 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 10 tweets lus, 2 gardés (ce mois : 3177 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 3192 / 10000)
+X · @RockstarGames → 10 tweets lus, 2 gardés (ce mois : 3207 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 3222 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-346 infos fraîches et jamais traitées (sur 468 lues)
+351 infos fraîches et jamais traitées (sur 477 lues)
    6/10 ✗ déjà publiée « Tonight, the HEAT trade Miami for Vice City when they host the Milwauk »
    7/10 ✓ « Why XBOX Has a Secret GTA VI Performance Advantage Over PS5! »
    8/10 ✗ déjà publiée « GTA VI Hands-On Gameplay Impressions! »
    9/10 ✗ déjà publiée « Rockstar Co-Founder Sam Houser Releases Statement On GTA VI »
    8/10 ✗ déjà publiée « GTA VI Hands-On Gameplay Impressions! »
-   7/10 ✗ déjà publiée « ⭐ EXCLUSIVE GTA VI content for GTA+ members is now live in-game! »
-   0/10 ✗ pas une news « When do GTA 6's strip clubs unlock and what intimate acts you can perf »
-   8/10 ✓ « GameStop CEO Blasts All-Digital Releases as GTA 6 Arrives Without a Di »
-   0/10 ✗ pas une news « Does GTA 6 Auto Save? How To Save & Game Wipe Issues, Explained »
-   8/10 ✓ « Offer of four-day pass to play GTA 6 convinces dozens of US Army perso »
-   7/10 ✓ « Grand Theft Auto VI: a new era for the franchise – and for gaming itse »
-   8/10 ✓ « India's gamers skip work, crowd cafes for Grand Theft Auto VI as Modi  »
-   0/10 ✗ pas une news « 6 amazingly mundane things you can do in 'GTA 6' »
-   0/10 ✗ pas une news « GTA 6 Is Finally Here, So Come Watch Us Make Terrible Decisions In Vic »
-   9/10 ✓ « Grand Theft Auto VI launches to global fanfare »
-   8/10 ✗ déjà publiée « GTA 6 launches in the U.S. »
-   0/10 ✗ pas une news « Does GTA 6 Have A First-Person Mode? »
-   7/10 ✗ déjà publiée « GTA 6 characters and cast confirmed »
-   0/10 ✗ pas une news « I’m an elder millennial who stayed up all night to play ‘Grand Theft A »
-   0/10 ✗ pas une news « GTA 6: How to Enter First-Person »
-GAMING · 6 infos retenues, meilleure : « Grand Theft Auto VI launches to global fanfare » (9/10)
-  article · dw.com
-  article · 2036 caractères lus
-  photo · 1 image(s) : 940x529
-  visuels · steam « Grand Theft Auto VI » → 4 image(s)
+   8/10 ✗ déjà publiée « ⭐ EXCLUSIVE GTA VI content for GTA+ members is now live in-game! »
+   5/10 ✓ « GTA 6's shockingly accurate Instagram memes make fun of Rockstar's del »
+   4/10 ✗ trop faible (mini 5) « AJ Dybantsa Makes Grand Theft Auto VI Joke After Wizards Snap 8-Game L »
+   2/10 ✗ pas une news « GTA 6 Is Out. The Future of Content Is World Models. »
+   4/10 ✗ pas une news « GTA 6 Sex & Romance—How To Have Sex In GTA 6 »
+   7/10 ✓ « Parents: please don’t buy Grand Theft Auto VI for your child »
+   5/10 ✓ « 10 brands that got their ‘Grand Theft Auto VI’ marketing just right »
+   7/10 ✓ « VIDÉO. Ces trois nouveautés de « GTA VI » ont conquis les premiers jou »
+   3/10 ✗ trop faible (mini 5) « GTA VI Frenzy Spotlights Potential Insurance Risks Lurking in Digital  »
+   5/10 ✓ « GTA 6 fans are down bad for Mandy, who might actually be trying to kil »
+   7/10 ✓ « Burger King Belgique parodie le Heart Stopper Burger iconique de GTA a »
+   6/10 ✓ « GTA VI : on a testé le jeu avec un joueur à Marseille »
+   8/10 ✗ déjà publiée « Money Watch: GTA VI could be largest entertainment launch in history »
+   8/10 ✗ déjà publiée « Money Watch: GTA VI could be largest entertainment launch in history »
+   8/10 ✗ déjà publiée « Money Watch: GTA VI could be largest entertainment launch in history »
+GAMING · 8 infos retenues, meilleure : « Why XBOX Has a Secret GTA VI Performance Advantage Over PS5! » (7/10)
+  photo · échec : image trop petite (48x48)
+  photo · 1 image(s) : 1200x675
+  visuels · steam « Grand Theft Auto VI » → 3 image(s)
   couverture · photo1 · zoom 1.0 · propre
-  carrousel prêt : « Grand Theft Auto VI sort enfin après 13 ans » (4 slides)
-  voix · contrôle OK (98%, essai 1, gemini-3.1-flash-tts-preview)
-  voix · Gemini (Aoede) (6.9 s)
-  reel · 8.6 s · 5 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Df7CYPMIL8E/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df7CaWSFYIJ/
+  carrousel prêt : « Pourquoi Xbox a un avantage sur PS5 avec GTA 6 » (3 slides)
+  voix · ⚠️ refaite, texte différent (64%) : « Xbox a caché un avantage technique pour GTA VI face à la PS5. Tu joues sur quel console ? Xbox a caché un avantage technique pour GTA VI face à la PS5. Tu joues »
+  voix · contrôle OK (96%, essai 2, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (5.0 s)
+  reel · 6.7 s · 4 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Df7KA3tF916/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df7KC9ZkUEk/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
+Gemini : gemini-flash-lite-latest : réponse en 9 s · gemini-flash-lite-latest : réponse en 8 s
