@@ -465,7 +465,10 @@
   "web:gamesradar:DkWi7GNgcnidMcsszRkWWh": "2026-11-19T17:08:08.869152+00:00",
   "web:gamekult:https://www.gamekult.com/jeux/grand-theft-auto-6-3050884217/astuces.html": "2026-11-19T17:08:08.869152+00:00",
   "web:gta boom:https://www.gtaboom.com/gta-6-early-money-motel-tiger-attack-614c": "2026-11-19T17:08:08.869152+00:00",
-  "x:2123455510389125393": "2026-11-19T17:08:08.869152+00:00"
+  "x:2123455510389125393": "2026-11-19T17:08:08.869152+00:00",
+  "web:google actu:CBMibEFVX3lxTE9tbVhEMWhiLVZqVlVXYjJyMUMwXzJHbUsxUFIwUy1jNGpyMUlxVnE3eUlOb0FkRGNfOWdwb1ZmSk5xVnlBVjE2THVZRHZQZ0hBc3hCYUhzNzVEMnU1MWx3cEdrRkRsQ3RiMkdTMw": "2026-11-19T18:01:41.251155+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=239249": "2026-11-19T18:01:41.251155+00:00",
+  "web:google actu:CBMi4AFBVV95cUxNOExFcXZfRWw4aGZKbFhiVi1FRlNyaGREMXNfSjFTYkx1a3FpdjBrVk5xaG1BdjV4TFB1c1IxQ0VQM0RfYXMxblZkM3B0NW9NdFpIY2hnakI0eDZteWNuckdYZU90T1I1cmxKemFGbXZVaE5DeTJscjljVXZrUlFGak9kb0VlZm9UNC1ZMXJSNlNYMXJFbUwwZ2IyVnBKSE9mNGNCZUdzZDVVQnY2TE1xejlmYTJDdXBOR3p3emg3R29WZjhmWjZoOTlRZEV6ZGFmWHM0T1ZVeDNJWlhmZWt2UA": "2026-11-19T18:01:41.251155+00:00"
  },
  "publies": [
   {
@@ -1349,10 +1352,19 @@
    "lien": "https://www.instagram.com/p/Df7lyu0F7Ha/",
    "reel": "https://www.instagram.com/reel/Df7l0UMDZjf/",
    "story": "18131048197866957"
+  },
+  {
+   "ts": "2026-11-19T18:01:41.251155+00:00",
+   "categorie": "GAMING",
+   "titre": "GTA VI cartonne et bat des records historiques",
+   "source_id": "web:google actu:CBMi4AFBVV95cUxNOExFcXZfRWw4aGZKbFhiVi1FRlNyaGREMXNfSjFTYkx1a3FpdjBrVk5xaG1BdjV4TFB1c1IxQ0VQM0RfYXMxblZkM3B0NW9NdFpIY2hnakI0eDZteWNuckdYZU90T1I1cmxKemFGbXZVaE5DeTJscjljVXZrUlFGak9kb0VlZm9UNC1ZMXJSNlNYMXJFbUwwZ2IyVnBKSE9mNGNCZUdzZDVVQnY2TE1xejlmYTJDdXBOR3p3emg3R29WZjhmWjZoOTlRZEV6ZGFmWHM0T1ZVeDNJWlhmZWt2UA",
+   "lien": "https://www.instagram.com/p/Df7rs1KCfqu/",
+   "reel": "https://www.instagram.com/reel/Df7r12okgxc/",
+   "story": "18455775274193444"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 3342
+  "tweets": 3372
  }
 }
