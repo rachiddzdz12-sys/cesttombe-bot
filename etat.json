@@ -561,7 +561,8 @@
   "web:google news:CBMifEFVX3lxTFBSdkZnU2RuQkRlaV9zTEpFQy13U0FFSHZzSW95MEJ3emRTWHFuOUdzbmlpcjNTcUZoc3dERk1Ndmo0eEFGclViU0ZpaWdhUXh0bmFZa0FrWmN4eS1tYzlhWnNTZDR3VE95NTQtMnRWdjBGMnBrX1YyZDQ1bE8": "2026-11-20T19:01:47.157687+00:00",
   "web:insider gaming:https://insider-gaming.com/?p=239676": "2026-11-20T19:01:47.157687+00:00",
   "web:gamesradar:jnVeMjE2m5yS6TUTVjHtZA": "2026-11-20T19:01:47.157687+00:00",
-  "web:google news:CBMilgFBVV95cUxQbVA2YktqcElib01zSWRVLVVuY0IwNGFpaUNuSTNRTTc4d0VkSVdjUlJEanhzUmtLei1IaTlNRnFFLXRpVUpYbFJXWk1ZUk5xWUptQVNZU0xfWmt0TEQ5MzBkZFZsZzFZVUNVMWFQMVA3ekJ2YjJpZWQtR2JvQUZWR2FFd1NTNU1oVkYtcFc3N29rcks5elE": "2026-11-20T19:01:47.157687+00:00"
+  "web:google news:CBMilgFBVV95cUxQbVA2YktqcElib01zSWRVLVVuY0IwNGFpaUNuSTNRTTc4d0VkSVdjUlJEanhzUmtLei1IaTlNRnFFLXRpVUpYbFJXWk1ZUk5xWUptQVNZU0xfWmt0TEQ5MzBkZFZsZzFZVUNVMWFQMVA3ekJ2YjJpZWQtR2JvQUZWR2FFd1NTNU1oVkYtcFc3N29rcks5elE": "2026-11-20T19:01:47.157687+00:00",
+  "x:2123869236796010577": "2026-11-20T20:02:13.338743+00:00"
  },
  "publies": [
   {
@@ -1607,10 +1608,19 @@
    "lien": "https://www.instagram.com/p/Df-XQnUl2L3/",
    "reel": "https://www.instagram.com/reel/Df-XSKWD2wW/",
    "story": "18389199040233799"
+  },
+  {
+   "ts": "2026-11-20T20:02:13.338743+00:00",
+   "categorie": "GAMING",
+   "titre": "GTA VI bat tous les records de ventes",
+   "source_id": "x:2123869236796010577",
+   "lien": "https://www.instagram.com/p/Df-eHxDkuJ3/",
+   "reel": "https://www.instagram.com/reel/Df-eJ9CFR4y/",
+   "story": "18233193652334295"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 3882
+  "tweets": 3912
  }
 }
