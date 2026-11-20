@@ -520,7 +520,15 @@
   "ag:https://www.actugaming.net/?p=834351": "2026-11-20T13:01:44.145047+00:00",
   "ag:https://www.actugaming.net/?p=834345": "2026-11-20T13:01:44.145047+00:00",
   "web:google actu:CBMimgFBVV95cUxNeXNIRk5uTWlZc0phQ0JhVnB4SlE2THdSSl9lRmg4YTlYRjItdlVEXzhEbW9RQ0dyT2FDQ2NXQ1NGYjNBVUViUng1aXNEYTV5Y2toSU84TWhqMU5jVnB6U0tsb0R0RDJxd0hTY2ZSOFQwa3kxeURycHBGcEpxOWh4M092elMyTFVVOUlteWVyRXJ0RkZNb2hCOFFB": "2026-11-20T13:01:44.145047+00:00",
-  "web:insider gaming:https://insider-gaming.com/?p=239438": "2026-11-20T13:01:44.145047+00:00"
+  "web:insider gaming:https://insider-gaming.com/?p=239438": "2026-11-20T13:01:44.145047+00:00",
+  "web:google news:CBMidkFVX3lxTFA1b196SmJCT1M0ZmZBVWhsVEJPUmNZeVpQLVNNWDRYYjc0czJMQ2REQnRIZFpiUy1ZZERtTXRnMkpBbFRnMmxxclB0Q1FaSGFlT0J1bFQxYUJvcjVXTWNmaWw1anAtTHFaQkd1SEc5MGN1UWo3V1E": "2026-11-20T14:01:42.876634+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=239507": "2026-11-20T14:01:42.876634+00:00",
+  "web:google news:CBMitwFBVV95cUxQaUlrdDBqOVVlT0JUdlRialFsaHZYaUhxOHh6N1FYSE42VFdmektuRjhDMkZpMVhsY2JUalBFcjJFakZiTzVTYkxtME9RcmRCNGJfSHU3VmdpcXYwMHFsRXBPaHZFekJtMlFlZWQ4dGNBNWwwZy1la3d4WU4yN1ZSRVZZbTFrS3R0N1R1Q0JzZjFDYW12YjFROU80cnhiOFlOTTJjNWd5T2JhZEVhekVXeEJ2Y1FuVW_SAcsBQVVfeXFMTjRYWTFreFVya3M0LU9GTlFJT0xpOFNZeFl0RlNJc3JDcXluOWFsTFhhdUV2a3VmOHZMVXptMFpaZzh4SHZGNGxMY2xrM25aTy1uVElYTmFzVm9ELTZtRzA4V3hsV2NsSlMxME9ZSjJCMldEdFdVOHVWUmlTc2U4dHh5Z2s2SXRqaE9TLWI1cEJsZmFBLVNQckhZRnR2N05Sc0FJUTl2cXNqRjg1NjRCbHI3NGlCOWY5V1ZIQWgyLTE4eFI4WEZvR3Q4eTQ": "2026-11-20T14:01:42.876634+00:00",
+  "web:google news:CBMia0FVX3lxTE5YQno0ODJ3UHJSS0hSYVBrNElkSkpOQVNKTDlzbXQxZEE2b2pKOS1oeGdhS0I2Qm56d05YZGZiNWF5YjRMaU95MGFhNzZEMFJFdEFoenZDcTRJQmVuUUozSTR1MnZkV25fQWZN": "2026-11-20T14:01:42.876634+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=239482": "2026-11-20T14:01:42.876634+00:00",
+  "ag:https://www.actugaming.net/?p=832940": "2026-11-20T14:01:42.876634+00:00",
+  "ag:https://www.actugaming.net/?p=834354": "2026-11-20T14:01:42.876634+00:00",
+  "x:2123778388296888354": "2026-11-20T14:01:42.876634+00:00"
  },
  "publies": [
   {
@@ -1512,10 +1520,19 @@
    "lien": "https://www.instagram.com/p/Df9uDC9jx2F/",
    "reel": "https://www.instagram.com/reel/Df9uFOiCN-Y/",
    "story": "17999389677026249"
+  },
+  {
+   "ts": "2026-11-20T14:01:42.876634+00:00",
+   "categorie": "GAMING",
+   "titre": "Grand Theft Auto VI: The Album disponible dès maintenant",
+   "source_id": "x:2123778388296888354",
+   "lien": "https://www.instagram.com/p/Df906pAkZqk/",
+   "reel": "https://www.instagram.com/reel/Df908ltCqyf/",
+   "story": "18347895094281925"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 3702
+  "tweets": 3732
  }
 }
