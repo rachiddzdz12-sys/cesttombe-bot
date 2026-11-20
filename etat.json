@@ -541,7 +541,14 @@
   "web:gamesradar:ZwChtnoxT5k9ndkcz7itkS": "2026-11-20T16:02:38.247622+00:00",
   "web:gamesradar:cGuzW8gVcdNz7EeFYqXNE9": "2026-11-20T16:02:38.247622+00:00",
   "web:jeuxvideo.com:https://www.jeuxvideo.com/news/2115958/bowling-gta-6-quel-est-le-code-du-coffre-de-ce-braquage-du-chapitre-2.htm": "2026-11-20T16:02:38.247622+00:00",
-  "x:2123808838780617020": "2026-11-20T16:02:38.247622+00:00"
+  "x:2123808838780617020": "2026-11-20T16:02:38.247622+00:00",
+  "web:gamesradar:K6uMJSnPUcjEmwuTV8g7SU": "2026-11-20T17:02:02.520040+00:00",
+  "web:google news:CBMizwFBVV95cUxNd3R6cXFsMVZKa0x3Ykt2Q3NndkVHN1FTcVpKTjNxWmR0S0luYTRIVjNSUlNXTWt2cGJzU3dYY0pFUkVzWlNpcGl0R2tyQ1RHNXRrUjlPdnZEZTZPZlNUOV9PczI2bWZ4NjhISjdxbk5ZUXV2UF9SZmpNbktKdkZ1RkpoNGJXclc1QjhTLXNNZGlaZkJfMXZFdlRlY1NIdFFSRlFGMktNdkhYSHk4WjJpemdXZTVPemE0Xy1hSEdMaXZHSHBBaHhwWVhfM21BSE0": "2026-11-20T17:02:02.520040+00:00",
+  "web:google news:CBMiggFBVV95cUxNaDNuSy1STzZyeWd0YmVGTF9mVndYMjkyaFg3ejF4ZDRGQ2g1ZndkdzlRZ3ZYQUVZVENmOEt6TXFhT1p5alV6LUpua3Y5STV2M1lTQXE3ZW1pRVYtMzZDd1JoQU41dTQxYVBfUXlYZ1VQaHBlaXJUQmdWQ0hYLWxZVU13": "2026-11-20T17:02:02.520040+00:00",
+  "web:google news:CBMiswFBVV95cUxOakZNbG12ZVpHb2Iwa0lUSmttM2FxRS11MldZa3ZWQnN1ZkpYbmZXamlwNFRJb2lzNGQteWRmeWlRbjh1VDMwZlN5ZXFEamR1bGRfMU9scHBNNHZ3Ny1TRm40SGpadzNhVmQtSGwzcU4tOVlLYzNiejJfS3RNem5qNmdPRGNRUERxOEdOZ2ZDWTJsTjZ4MFNLVWxWTGl3c2FqcnlIVlVHTUlPVTNNOUVFYWFEdw": "2026-11-20T17:02:02.520040+00:00",
+  "web:google actu:CBMilwFBVV95cUxPU0t4ZXhPMk1RSzZWNzdObktCSXZ0YkFtY2ZIWm1YYVhmLVE1bWVNdy1LbHFsR1RXajhFNVMwVEtFMWg1V09aMUtNb1NmYmdlaHhwMVBiYTl1Z04xYmYyUnJTcHlEZ3p3VjJOR25RUGJSdEVVTURwandWN0xxRTR1by1mUXJZN00tVi1XcGJ5cHNjUnEtS3VR": "2026-11-20T17:02:02.520040+00:00",
+  "web:google actu:CBMi_gFBVV95cUxQSjRTQjJUR193bm9mVkZ6WHZDUmVGUDA0V1NoVHVkT2s0QWZ5d0kzM29tWlkyYTlLWjlkaTE3UXNKMU5HcXNETEdXWHZCWkVRQlNvdzhPb3lOcllROTBLNFUxbUMyUkdiRENoU3JvRHVyWDYxTnJyazVmNkszU2poTlVFQVYzOG15ZVhBLTdnRXZLMWctRk1KUURtNHYzVzdRd1loM0l5UVpBZXgwRWNZLVl5eENnMWk0OVVzTDNKM2lidmNwOEVObUpZS196UkliMUZNVGduUjBlWVAzS2dxYzR0Wm5PdkxEQl81LUpfR1NnWGV0RlBZMXRVLXB2dw": "2026-11-20T17:02:02.520040+00:00",
+  "x:2123794746275668322": "2026-11-20T17:02:02.520040+00:00"
  },
  "publies": [
   {
@@ -1560,10 +1567,19 @@
    "lien": "https://www.instagram.com/p/Df-C6v_kvRi/",
    "reel": "https://www.instagram.com/reel/Df-C8t_COu2/",
    "story": "18117224675143828"
+  },
+  {
+   "ts": "2026-11-20T17:02:02.520040+00:00",
+   "categorie": "GAMING",
+   "titre": "La femme en bikini de GTA VI est identifiée",
+   "source_id": "x:2123794746275668322",
+   "lien": "https://www.instagram.com/p/Df-J8p9l4F8/",
+   "reel": "https://www.instagram.com/reel/Df-KFKPj7eq/",
+   "story": "18392873482232430"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 3792
+  "tweets": 3822
  }
 }
