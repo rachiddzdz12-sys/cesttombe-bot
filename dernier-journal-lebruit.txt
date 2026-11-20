@@ -1,1 +1,47 @@
-Pas de post : hors horaires (10:01 à Paris)
+Mode : auto
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @le.bruit.rap (17 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 7 / 100
+Rap · @rap.minute → 12 posts lus
+Rap · @rapfractusofficiel → 12 posts lus
+Rap · @booska_p → 12 posts lus
+X · @RapFrActus → 10 tweets lus, 1 gardés (ce mois : 795 / 9000)
+X · @FrenchRapUS → 10 tweets lus, 8 gardés (ce mois : 810 / 9000)
+X · @Rapunchline → 10 tweets lus, 4 gardés (ce mois : 825 / 9000)
+X · @SpotifyFrance → 10 tweets lus, 3 gardés (ce mois : 840 / 9000)
+21 infos fraîches et jamais traitées (sur 52 lues)
+   6/10 ✓ « 🚨Ce NINHO version mélancolique est beaucoup trop fort  »
+   0/10 ✗ pas une news « 🚨 C’EST DU JAMAIS VU ! »
+   0/10 ✗ pas une news « 🚨 PRÉPAREZ-VOUS À CE QUE VOUS ALLEZ LIRE ! »
+   0/10 ✗ pas une news « 🚨 SURRÉALISTE ! »
+   0/10 ✗ pas une news « 🚨 ALERTE !  »
+   0/10 ✗ pas une news « 🚨 GTA 6 vous oblige désormais à laisser les femmes tranquilles lorsqu’ »
+   0/10 ✗ pas une news « 🚨 ALERTE !  »
+   0/10 ✗ pas une news « 🚨 LES 30 FPS SUR GTA 6 SONT MALHEUREUSEMENT UN CHOIX INÉVITABLE ! »
+   3/10 ✗ pas une news « 🚨 QUELLE CONNEXION »
+   7/10 ✓ « 10 ans après 🔥 Pour célébrer la décennie de la série https://t.co/p6i9 »
+   7/10 ✓ « Vous écoutez qui en premier cette semaine ? ➡️ https://t.co/TX3a9FoNVn »
+   8/10 ✓ « Zola a trouvé un alibi plutôt inattendu…😭 »
+   6/10 ✓ « 🚨Ce NINHO version mélancolique est beaucoup trop fort  »
+   3/10 ✗ pas une news « Les émotions 🥺 »
+   7/10 ✓ « Tiakola au Red Bull Symphonic, c’est quelque chose 🔥 »
+   8/10 ✓ « 🚨ORELSAN x L2B c’est la connexion la plus improbable de l’année  »
+   9/10 ✓ « 🇫🇷 Tiakola prend position et appelle à voter LFI en 2027 »
+   4/10 ✗ pas une news « Partir en guerre sur du Rohff ?  »
+   7/10 ✓ « No Limit x Orelsan x L2B, So La Lune, Djaksparo feat Gambi… Toute l’ac »
+   4/10 ✗ pas une news « Dans la Gova légendaire avec Niro, La Flèche et Mouloud : c’est dispon »
+   9/10 ✗ déjà publiée « Gims a vendu son dernier projet pour 50 millions d’euros 🤯 »
+RAP FR · 9 infos retenues, meilleure : « 🇫🇷 Tiakola prend position et appelle à voter LFI en 2027 » (9/10)
+  photo · 1 image(s) : 1206x2144
+  visuels · deezer « Tiakola » → 5 image(s)
+  couverture LE BRUIT · photo1 · plein
+  carrousel prêt : « Tiakola prend position et appelle à voter LFI en 2027 » (5 slides)
+  voix · ⚠️ refaite, texte différent (66%) : « Tu savais que Tiacola a appelé à voter LFI en 2027 ? Tu t'attendais à cette prise de parole ? Tu savais que Tiacola a appelé à voter LFI en 2027 ? Tu t'attendai »
+  voix · contrôle OK (99%, essai 2, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (5.4 s)
+  reel LE BRUIT · 6.6 s · 3 plans · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Df9aSRjl9w8/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df9aUVYvmqQ/
+  ✅ STORY PUBLIÉE (vidéo)
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 14 s

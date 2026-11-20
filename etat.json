@@ -495,7 +495,11 @@
   "web:google actu:CBMiogFBVV95cUxQTHJNbGM0WVpHWlVqYW9vaUJteU1iSlV6SHpHME9DdnQwdUtwMlVCUDZVUWNjblZxbU0zUVZrdTBqY3oxcG9nZ3hkdnJjSEVYWENPeEwwMXFIRWNoTFVkd2RDbDEyX2FneHZ5TVZrVEw2N3ZzQUJSM21XTXUyWFVpckRKNXhTdG9qamdPbnBUZm1XaUF5ejg5Z1FxdW9yMmJSOXc": "2026-11-20T08:01:38.915366+00:00",
   "x:2123501815425618085": "2026-11-20T08:01:38.915366+00:00",
   "web:google actu:CBMiqgFBVV95cUxNS3FyLUxFa041Rnh2NVhZcmpRSFhVMTFGNGRDUkx1VHhZY2lRTEV5dEhmN0RDZUJJbGtRQmZ4TzZkUU5VZXJQa3Y5enR0TXlRcG9fYjlfUTJyWk90QVRvMnFhcldiblN1R3I5UE1mcDd5blAzT2VsOWF0N01IU1ZNWDZKUjl4bm05SnB6T1JZTlpCM09hYV9yQVVIcjNiYzJjbW4wU3ZBRHFNQQ": "2026-11-20T09:01:50.075954+00:00",
-  "web:ign france:https://fr.ign.com/grand-theft-auto-6/94115/les-acteurs-de-jason-et-lucia-celebrent-la-sortie-de-gta-6-avec-une-declaration-commune": "2026-11-20T09:01:50.075954+00:00"
+  "web:ign france:https://fr.ign.com/grand-theft-auto-6/94115/les-acteurs-de-jason-et-lucia-celebrent-la-sortie-de-gta-6-avec-une-declaration-commune": "2026-11-20T09:01:50.075954+00:00",
+  "web:rockstar intel:https://rockstarintel.com/?p=44543": "2026-11-20T10:01:49.190429+00:00",
+  "web:google actu:CBMibkFVX3lxTE9XN1NlcWxicDRWR0JuMnp3Z29UMl9lczhfR2hSZ0pjbDJHeUpFRUNKUG9aOV9zVEZqcjZ5VnluZndnVXZtWUNjMmtBc3FNODBoeHFXY2tpMmtjeDlpZ09sMXBNNm0xRWJhTWlxb1V3": "2026-11-20T10:01:49.190429+00:00",
+  "web:google actu:CBMiyAFBVV95cUxPSVpQTkJfa1dLNU9EQWZlekVVTG5TeUwtYmMtYlU4ZlZVWmhOSGRmN3dENmg1ZG9FdFYxcXlsQkY1Q3F2Z0R6NUtjTW5rbjZwYXpsei1jbGJnWENPWm5UT3FnV3JkdV9uakZDRjJuMnBUaVp2MVZiT3BDQUNhM0x4UTQwVDFTWmlYY215ZFg3VE8zd2Jta2hhdDI4RUFuUm5TSXV5MDctcDQyRkNtOHZjVDZEdEVqYm01SHZNakx2dm83ZU1STEh2TA": "2026-11-20T10:01:49.190429+00:00",
+  "web:google actu:CBMitwFBVV95cUxPenBZTXlBMWVabE5PcDNwWmNuZjFtdXVfVmtXNnRLRGpsSVhpd0lWanNoc0ZIaDJ3OS15MDR1amxZdW03aE81TTM4NDJLbUhDakgtS1F3ME8ySWloQ1dZenE5b0FaZEhNRV9nY0s1Q3cxeTJMV29CWWJHOUZscHB4eVFjMzlsaHV4WG1pdWE0Vlo1VjBUb3kyWnZwekVQZG9oaWw2azdrcjRkSjJxNkhDTlh2Yk5zMk0": "2026-11-20T10:01:49.190429+00:00"
  },
  "publies": [
   {
@@ -1451,10 +1455,19 @@
    "lien": "https://www.instagram.com/p/Df9SkbtjnbQ/",
    "reel": "https://www.instagram.com/reel/Df9SrYJiQ3Q/",
    "story": "18122490427968315"
+  },
+  {
+   "ts": "2026-11-20T10:01:49.190429+00:00",
+   "categorie": "GAMING",
+   "titre": "GTA 6 est déjà jouable à la 1re personne",
+   "source_id": "web:google actu:CBMitwFBVV95cUxPenBZTXlBMWVabE5PcDNwWmNuZjFtdXVfVmtXNnRLRGpsSVhpd0lWanNoc0ZIaDJ3OS15MDR1amxZdW03aE81TTM4NDJLbUhDakgtS1F3ME8ySWloQ1dZenE5b0FaZEhNRV9nY0s1Q3cxeTJMV29CWWJHOUZscHB4eVFjMzlsaHV4WG1pdWE0Vlo1VjBUb3kyWnZwekVQZG9oaWw2azdrcjRkSjJxNkhDTlh2Yk5zMk0",
+   "lien": "https://www.instagram.com/p/Df9ZyLmlxQi/",
+   "reel": "https://www.instagram.com/reel/Df9Z4V0FVOY/",
+   "story": "17988016932103050"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 3582
+  "tweets": 3612
  }
 }
