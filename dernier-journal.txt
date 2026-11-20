@@ -1,7 +1,7 @@
 Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
-Instagram · @cesttombe.actu (16 abonnés)
+Instagram · @cesttombe.actu (15 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 48 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   9 infos retenues après filtre
@@ -17,44 +17,46 @@ Web · GTABASE → 30 infos
 Web · GAMEKULT → 14 infos
 Web · IGN FRANCE → 25 infos
 Web · JEUXVIDEO.COM → 17 infos
-Web · INSIDER GAMING → 4 infos
+Web · INSIDER GAMING → 5 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 10 tweets lus, 3 gardés (ce mois : 3447 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 3462 / 10000)
+X · @RockstarGames → 10 tweets lus, 3 gardés (ce mois : 3477 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 3492 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-280 infos fraîches et jamais traitées (sur 394 lues)
+252 infos fraîches et jamais traitées (sur 395 lues)
   10/10 ✗ déjà publiée « Grand Theft Auto VI is now available for PlayStation 5 and XBOX Series »
-   6/10 ✗ déjà publiée « Tonight, the HEAT trade Miami for Vice City when they host the Milwauk »
-   5/10 ✗ déjà publiée « New GTA VI Backgrounds Added To PS5! »
+   7/10 ✗ déjà publiée « Tonight, the HEAT trade Miami for Vice City when they host the Milwauk »
+   6/10 ✗ déjà publiée « New GTA VI Backgrounds Added To PS5! »
    9/10 ✗ déjà publiée « Full GTA VI Map Officially Revealed! »
    7/10 ✗ déjà publiée « GTA VI has led to MORE GTA V copies sold this month! »
    7/10 ✗ déjà publiée « Why XBOX Has a Secret GTA VI Performance Advantage Over PS5 »
    9/10 ✗ déjà publiée « Full GTA VI Map Officially Revealed! »
    8/10 ✗ déjà publiée « GTA VI Hands-On Gameplay Impressions! »
-   9/10 ✗ déjà publiée « Rockstar Co-Founder Sam Houser Releases Statement On GTA VI »
-  10/10 ✗ déjà publiée « Report: GTA 6 Generated Nearly $2B in Sales by Launch Day »
-   2/10 ✗ pas une news « GTA 6 BuckMe Guide: How the Family Savings Milestones Work »
-   9/10 ✗ déjà publiée « GTA 6 breaks the internet: 7.9 million viewers tune in as global traff »
-   7/10 ✓ « Doja Cat is not feeling "Okayyy" about being left off the GTA VI track »
-   5/10 ✓ « I Tried to Behave in ‘Grand Theft Auto VI.’ Good Luck With That. »
-   7/10 ✓ « Rockstar Just Explained How GTA 6 Could Fit Even More Content Into Vic »
-   4/10 ✗ trop faible (mini 5) « Psychologist on ‘GTA VI’ impact and how it can affect your loved ones »
-   3/10 ✗ pas une news « Are you taking off work to play GTA VI? »
-   8/10 ✓ « GTA 6 themed Graffiti Mansion hit by swatting call as game is released »
-   6/10 ✓ « La communauté furry divisée sur la parodie de GTA 6 »
-   6/10 ✓ « First impression: ‘Grand Theft Auto VI’s’ realism pulls gamers into be »
-GAMING · 6 infos retenues, meilleure : « GTA 6 themed Graffiti Mansion hit by swatting call as game is released » (8/10)
-  article · news3lv.com
-  article · 657 caractères lus
-  photo · 1 image(s) : 1320x743
+   8/10 ✗ déjà publiée « Rockstar Co-Founder Sam Houser Releases Statement On GTA VI »
+   7/10 ✓ « ‘Grand Theft Auto VI’ Soundtrack, Gracie Abrams, LISA, Tomorrow x Toge »
+   8/10 ✓ « The Miami Heat Sold Over $1.5 Million in Vice City Merch on GTA 6 Laun »
+   8/10 ✓ « Grand Theft Auto VI Releases Full 34-Song Soundtrack Album »
+   8/10 ✓ « 'GTA VI' Album Is Here: Stream Dua Lipa, Cardi B, Lana Del Rey & More »
+   8/10 ✗ déjà publiée « 'GTA 6' releases with record numbers »
+   9/10 ✓ « GTA 6 Returning Characters Include Niko Bellic, Jimmy De Santa and Val »
+   5/10 ✓ « Dog riding personal watercraft on ‘GTA VI' may have been inspired by t »
+   5/10 ✓ « Fairport voice actor featured in Grand Theft Auto VI »
+   3/10 ✗ pas une news « 'GTA 6' inspires DoorDash, UberEats, Grubhub discount codes »
+   7/10 ✗ déjà publiée « Gamers happily enter Vice City in ‘Grand Theft Auto VI’ »
+   7/10 ✓ « Strauss Zelnick Checked His Watch at a GTA 7 Question on GTA 6 Launch  »
+   4/10 ✗ pas une news « On a joué à The Expanse: Osiris Reborn, le successeur spirituel de Mas »
+GAMING · 8 infos retenues, meilleure : « GTA 6 Returning Characters Include Niko Bellic, Jimmy De Santa and Valentina » (9/10)
+  article · 2979 caractères lus
+  photo · 1 image(s) : 1920x1080
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  couverture · photo1 · zoom 1.0 · propre
-  carrousel prêt : « Fausse alerte police pour le manoir GTA 6 » (4 slides)
-  voix · contrôle OK (97%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (4.6 s)
-  reel · 6.2 s · 4 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Df8AIsiCcqS/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df8AOo3mP96/
+  couverture · photo1 · zoom 1.12 · propre
+  carrousel prêt : « Trois anciens personnages confirmés dans GTA 6 » (4 slides)
+  voix · ⚠️ refaite, texte différent (65%) : « Nico Bellic fait son grand retour dans GTA VI. Il apparaît plus âgé dans une mission liée au crime. Tu t'attendais à ce retour ? Nico Bellic fait son grand reto »
+  voix · ⚠️ refaite, texte différent (65%) : « Nico Bellic fait son grand retour dans GTA VI. Il apparaît plus âgé dans une mission liée au crime. Tu t'attendais à ce retour ? Nico Bellic fait son grand reto »
+  voix · contrôle OK (98%, essai 3, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (7.8 s)
+  reel · 9.4 s · 6 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Df8-EsKlwXW/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df8-GhlFdBd/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 4 s
