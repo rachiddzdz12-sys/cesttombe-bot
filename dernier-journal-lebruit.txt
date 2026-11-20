@@ -1,1 +1,53 @@
-Pas de post : dernier post il y a 175 min (minimum 210)
+Mode : auto
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @le.bruit.rap (17 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 9 / 100
+Rap · @rap.minute → 12 posts lus
+Rap · @rapfractusofficiel → 12 posts lus
+Rap · @booska_p → 12 posts lus
+X · @RapFrActus → refus Apify HTTP 400 : {
+  "error": {
+    "type": "run-failed",
+    "message": "Actor run did not succeed (run ID: 4bGQVwrldOMqunSPE, status: ABORTED)."
+  }
+}
+X · @FrenchRapUS → 10 tweets lus, 4 gardés (ce mois : 915 / 9000)
+X · @Rapunchline → 10 tweets lus, 5 gardés (ce mois : 930 / 9000)
+X · @SpotifyFrance → 10 tweets lus, 8 gardés (ce mois : 945 / 9000)
+23 infos fraîches et jamais traitées (sur 53 lues)
+   0/10 ✗ pas une news « 🚨 TRÈS MAUVAISE NOUVELLE !  »
+   0/10 ✗ pas une news « 🚨 ALERTE ! »
+   0/10 ✗ pas une news « 🚨 LE FLEX DE MALADE !!  »
+   8/10 ✓ « 🚨 SDM DEUXIÈME DU TOP ALBUM »
+   7/10 ✓ « Les morceaux les plus écoutés de la semaine sur Spotify 📈 »
+   7/10 ✓ « Les albums les plus écoutés de la semaine sur Spotify 📈 »
+   0/10 ✗ pas une news « Un monde parallèle 🪞Le groupe @ENHYPEN dévoile THE SIN : PARALLEL WORL »
+   6/10 ✓ « Les larmes hier soir quand @theodorabossy est arrivée au concert Red B »
+   2/10 ✗ pas une news « Vous écoutez qui en premier cette semaine ? ➡️ https://t.co/TX3a9FoNVn »
+   2/10 ✗ pas une news « Il était beaucoup trop hypé 😭 »
+   3/10 ✗ pas une news « Pourquoi Ninho ne peut pas arrêter le rap ?  »
+   5/10 ✗ trop faible (mini 6) « ️⚽️ Quand le rap s’invite sur les maillots de foot de Ligue 1 McDonald »
+   0/10 ✗ pas une news « Le casting de Kraken s’offre une belle exposition aux César ! 👏 »
+   0/10 ✗ pas une news « 🫂 200 000 spectateurs pour une histoire qui donne aussi la parole aux  »
+   3/10 ✗ pas une news « Jolagreen ne lâche pas GTA VI même en pleine tournée 🤣 »
+   9/10 ✗ déjà publiée « 🪎SCH transforme l’annonce de sa tournée 2027 en chasse au trésor géant »
+   7/10 ✓ « No Limit a réuni un casting XXL à l’Accor Arena 🤯 »
+   5/10 ✗ trop faible (mini 6) « 🌍 La France au cœur d’une initiative mondiale pour le hip-hop ! »
+   3/10 ✗ pas une news « Les actualités de la semaine 🗞️ »
+   7/10 ✓ « Zola a trouvé un alibi plutôt inattendu…😭 »
+   3/10 ✗ pas une news « 🚨Ce NINHO version mélancolique est beaucoup trop fort  »
+   6/10 ✓ « Tiakola au Red Bull Symphonic, c’est quelque chose 🔥 »
+   7/10 ✓ « 🚨ORELSAN x L2B c’est la connexion la plus improbable de l’année  »
+RAP FR · 8 infos retenues, meilleure : « 🚨 SDM DEUXIÈME DU TOP ALBUM » (8/10)
+  photo · 1 image(s) : 567x567
+  visuels · deezer « SDM » → 6 image(s)
+  couverture LE BRUIT · photo1 · plein
+  carrousel prêt : « SDM DEUXIÈME DU TOP ALBUM » (4 slides)
+  voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (8.9 s)
+  reel LE BRUIT · 10.1 s · 5 plans · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Df-RIA1H_-4/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df-RJwpBPGw/
+  ✅ STORY PUBLIÉE (vidéo)
+Gemini : gemini-flash-lite-latest : réponse en 5 s · gemini-flash-lite-latest : réponse en 6 s

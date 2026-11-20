@@ -7,7 +7,7 @@ Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 92 infos
 Web · GOOGLE NEWS → 100 infos
-Web · BING ACTU → 12 infos
+Web · BING ACTU → 2 infos
 Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
@@ -20,42 +20,41 @@ Web · JEUXVIDEO.COM → 15 infos
 Web · INSIDER GAMING → 6 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 10 tweets lus, 4 gardés (ce mois : 3807 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 3822 / 10000)
+X · @RockstarGames → 10 tweets lus, 4 gardés (ce mois : 3837 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 3852 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-324 infos fraîches et jamais traitées (sur 491 lues)
+326 infos fraîches et jamais traitées (sur 481 lues)
   10/10 ✗ déjà publiée « Grand Theft Auto VI is now available for PlayStation 5 and XBOX Series »
-   7/10 ✗ déjà publiée « NEW GTA Online Event Week is LIVE and it's for the GTA VI launch! »
-   8/10 ✓ « GTA VI's Famous Bikini Girl From Trailer 1 Has Been Found! »
-  10/10 ✗ déjà publiée « Full GTA VI Map Officially Revealed! »
+   4/10 ✗ pas une news « Here are some GTA VI settings you should change! »
+   8/10 ✗ déjà publiée « NEW GTA Online Event Week is LIVE and it's for the GTA VI launch! »
+   9/10 ✗ déjà publiée « Full GTA VI Map Officially Revealed! »
    8/10 ✗ déjà publiée « Why XBOX Has a Secret GTA VI Performance Advantage Over PS5 »
-   2/10 ✗ pas une news « GTA 6 Bowling Alley safe code »
-   8/10 ✗ déjà publiée « GTA VI : notre critique d'un retour spectaculaire à Vice City »
-   9/10 ✗ déjà publiée « GTA VI reportedly breaks every entertainment launch record in its firs »
-   6/10 ✓ « Grand Theft Auto VI Welcomes a New Wave of (Virtual) Gym Bros »
-   5/10 ✗ pas une news « GTA 6 Doesn't Officially Have First-Person, but You Can Force It to —  »
-   8/10 ✗ déjà publiée « GTA VI could generate $2.36 billion in first-day sales »
-   3/10 ✗ pas une news « How To Get Your Free Month Of GTA+ From GTA 6 (And Why You Should Wait »
-   5/10 ✓ « Dans la vie comme dans le jeu : GTA VI transforme les couples ! Par Ma »
-   1/10 ✗ pas une news « All My Time Meant For GTA 6 This Week Is Being Taken Away By A Volleyb »
-   2/10 ✗ pas une news « GTA VI : comment y jouer des heures sans dégrader sa santé »
-   7/10 ✓ « VÉRIF' - Une IA a-t-elle réussi à finir "GTA VI" en seulement 12 heure »
-   8/10 ✓ « Grand Theft Auto 5 protagonists are referenced in a perfect GTA 6 East »
-   7/10 ✗ déjà publiée « GTA 6 glitch adds the first-person mode that Rockstar skipped »
-   7/10 ✓ « Naughty Dog dev stunned by GTA 6: "Appears to me as a Bugatti Veyron w »
-   9/10 ✗ déjà publiée « Game Awards 2026: 8 nominations pour GTA VI, la vraie surprise ? »
-   4/10 ✗ trop faible (mini 9) « Jeu vidéo : « La souveraineté culturelle se joue dans notre capacité à »
-GAMING · 6 infos retenues, meilleure : « GTA VI's Famous Bikini Girl From Trailer 1 Has Been Found! » (8/10)
-  photo · échec : image trop petite (48x48)
-  photo · 1 image(s) : 1200x675
+   6/10 ✗ pas une news « How To Do GTA 6 Infinite Money Glitch »
+   8/10 ✓ « GTA 6 est tellement réaliste qu'il respecte carrément les réglementati »
+   3/10 ✗ pas une news « Don’t Miss Out on GTA 6 Launch Week: Here’s How to Take Rockstar’s New »
+   8/10 ✗ déjà publiée « GTA 6 est tellement réaliste qu'il respecte carrément les réglementati »
+   9/10 ✗ déjà publiée « Florida Joker Is In GTA VI, Rockstar Confirms »
+   7/10 ✗ déjà publiée « 'Grand Theft Auto VI: The Album': Every Song Ranked »
+   8/10 ✗ déjà publiée « 'GTA 6' release live updates: Reviews, memes and more as gamers explor »
+   9/10 ✗ déjà publiée « After accusing Rockstar of stealing his likeness for GTA 6, Florida Jo »
+   2/10 ✗ pas une news « Fusil de sniper GTA 6 : Où trouver une arme avec silencieux ? »
+   4/10 ✗ pas une news « Les différentes versions de GTA 6 : quelle est la meilleure ? Une cons »
+   9/10 ✗ déjà publiée « Près de 8 millions de spectateurs en simultané: GTA 6 a établi de nouv »
+   7/10 ✓ « GTA VI’s Approach To Sex And Romance Is Surprisingly Grown Up »
+   6/10 ✓ « Fcukers drop new single “Only One” for Grand Theft Auto VI »
+   6/10 ✓ « Nashville rapper’s song featured in popular video game Grand Theft Aut »
+   8/10 ✗ déjà publiée « GTA 6 refuse de se lancer sur certaines PS5, les joueurs sont désempar »
+GAMING · 4 infos retenues, meilleure : « GTA 6 est tellement réaliste qu'il respecte carrément les réglementations europé » (8/10)
+  article · 6000 caractères lus
+  photo · 1 image(s) : 832x451
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
   couverture · photo1 · zoom 1.0 · propre
-  carrousel prêt : « La femme en bikini de GTA VI est identifiée » (3 slides)
-  voix · ⚠️ refaite, texte différent (65%) : « La femme en bikini du trailer est identifiée. Ce n'est pas Lucia comme beaucoup le pensait. Avez-tu deviné son identité ? La femme en bikini du trailer est iden »
-  voix · contrôle OK (96%, essai 2, gemini-3.1-flash-tts-preview)
-  voix · Gemini (Aoede) (6.5 s)
+  carrousel prêt : « Les bouchons de GTA 6 respectent les normes européennes » (4 slides)
+  voix · ⚠️ refaite, texte différent (66%) : « Tu savais que les bouchons de GTA VI respectent les normes européennes ? Même le compte officiel de l'UE a réagi. Tu as remarqué ce détail ? Tu savais que les b »
+  voix · contrôle OK (98%, essai 2, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (6.4 s)
   reel · 8.1 s · 5 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Df-J8p9l4F8/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df-KFKPj7eq/
+  ✅ PUBLIÉ : https://www.instagram.com/p/Df-Qn4MFyUk/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df-QqD_kuDC/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3-flash-preview : réponse en 15 s · gemini-3-flash-preview : surchargé (HTTP 503) · gemini-3-flash-preview : ReadTimeout après 60 s · gemini-3.1-flash-lite : réponse en 2 s
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : réponse en 2 s · gemini-3.5-flash-lite : réponse en 8 s

@@ -548,7 +548,13 @@
   "web:google news:CBMiswFBVV95cUxOakZNbG12ZVpHb2Iwa0lUSmttM2FxRS11MldZa3ZWQnN1ZkpYbmZXamlwNFRJb2lzNGQteWRmeWlRbjh1VDMwZlN5ZXFEamR1bGRfMU9scHBNNHZ3Ny1TRm40SGpadzNhVmQtSGwzcU4tOVlLYzNiejJfS3RNem5qNmdPRGNRUERxOEdOZ2ZDWTJsTjZ4MFNLVWxWTGl3c2FqcnlIVlVHTUlPVTNNOUVFYWFEdw": "2026-11-20T17:02:02.520040+00:00",
   "web:google actu:CBMilwFBVV95cUxPU0t4ZXhPMk1RSzZWNzdObktCSXZ0YkFtY2ZIWm1YYVhmLVE1bWVNdy1LbHFsR1RXajhFNVMwVEtFMWg1V09aMUtNb1NmYmdlaHhwMVBiYTl1Z04xYmYyUnJTcHlEZ3p3VjJOR25RUGJSdEVVTURwandWN0xxRTR1by1mUXJZN00tVi1XcGJ5cHNjUnEtS3VR": "2026-11-20T17:02:02.520040+00:00",
   "web:google actu:CBMi_gFBVV95cUxQSjRTQjJUR193bm9mVkZ6WHZDUmVGUDA0V1NoVHVkT2s0QWZ5d0kzM29tWlkyYTlLWjlkaTE3UXNKMU5HcXNETEdXWHZCWkVRQlNvdzhPb3lOcllROTBLNFUxbUMyUkdiRENoU3JvRHVyWDYxTnJyazVmNkszU2poTlVFQVYzOG15ZVhBLTdnRXZLMWctRk1KUURtNHYzVzdRd1loM0l5UVpBZXgwRWNZLVl5eENnMWk0OVVzTDNKM2lidmNwOEVObUpZS196UkliMUZNVGduUjBlWVAzS2dxYzR0Wm5PdkxEQl81LUpfR1NnWGV0RlBZMXRVLXB2dw": "2026-11-20T17:02:02.520040+00:00",
-  "x:2123794746275668322": "2026-11-20T17:02:02.520040+00:00"
+  "x:2123794746275668322": "2026-11-20T17:02:02.520040+00:00",
+  "x:2123830732745298386": "2026-11-20T18:02:08.637687+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=239670": "2026-11-20T18:02:08.637687+00:00",
+  "web:google news:CBMiY0FVX3lxTE16LXZvell1NW9HSVZWcjFGT0ZIbktKT3B6UVhoSWlGMVVybTBTYkk4eGV2aUxCbExzVDh2RkdMTnlhU2ZQVkJtWEdXTkI3czRlS2w0ZzJIanlSRk9TUHJLZzd2MA": "2026-11-20T18:02:08.637687+00:00",
+  "web:google actu:CBMiogFBVV95cUxPcG5SU1pPMWJlclJTWTVWNERVOFFVWFNMUW5zU291S2V1NGlQMnpTUnBCT1l4Si14cXB6c3RYRnlvQnlsUkl1RHpXdXZiOXZRN3NKNGVwTmVKR19FX2tIUmpuMTV0a3FUdGRROTZPdjFrUVhERExfbkpaX2g0RGl2V0txRkhqNUlJaEFBQmZvTVFIdG5uTk1SSDVEZzZBOXNkeEE": "2026-11-20T18:02:08.637687+00:00",
+  "web:google actu:CBMiwwFBVV95cUxQRUUwMnZ1QTJWTWRZRm93VFczTTBteHZnNmxibXRyeV9tYkxJVjVEUzlPXzZ5YllwVjdRZVdxNFIyVThQMDhTdWxqLXFEbENucHBvLXYyeWc2cFFYaWdEeHluNTNNLVRCRjkzQUV0T0w5SDdKZTBaQ0poUFBZSThITzdBS1ltN0pGS0dLcnFHWjRKdTJiakd2dG9ld1hlaFZFLXVYVXkwY3dqUlJKYkZPQ2UzdUkyaWRaR3J1RFowOFlTSEU": "2026-11-20T18:02:08.637687+00:00",
+  "web:ign france:https://fr.ign.com/grand-theft-auto-6/94147/gta-6-est-tellement-realiste-quil-respecte-carrement-les-reglementations-europeennes-des-bouchons-de": "2026-11-20T18:02:08.637687+00:00"
  },
  "publies": [
   {
@@ -1576,10 +1582,19 @@
    "lien": "https://www.instagram.com/p/Df-J8p9l4F8/",
    "reel": "https://www.instagram.com/reel/Df-KFKPj7eq/",
    "story": "18392873482232430"
+  },
+  {
+   "ts": "2026-11-20T18:02:08.637687+00:00",
+   "categorie": "GAMING",
+   "titre": "Les bouchons de GTA 6 respectent les normes européennes",
+   "source_id": "web:ign france:https://fr.ign.com/grand-theft-auto-6/94147/gta-6-est-tellement-realiste-quil-respecte-carrement-les-reglementations-europeennes-des-bouchons-de",
+   "lien": "https://www.instagram.com/p/Df-Qn4MFyUk/",
+   "reel": "https://www.instagram.com/reel/Df-QqD_kuDC/",
+   "story": "18506961319099072"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 3822
+  "tweets": 3852
  }
 }
