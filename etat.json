@@ -528,7 +528,13 @@
   "web:insider gaming:https://insider-gaming.com/?p=239482": "2026-11-20T14:01:42.876634+00:00",
   "ag:https://www.actugaming.net/?p=832940": "2026-11-20T14:01:42.876634+00:00",
   "ag:https://www.actugaming.net/?p=834354": "2026-11-20T14:01:42.876634+00:00",
-  "x:2123778388296888354": "2026-11-20T14:01:42.876634+00:00"
+  "x:2123778388296888354": "2026-11-20T14:01:42.876634+00:00",
+  "web:google actu:CBMifEFVX3lxTE56dFg0MHVPNHhZTXRDUzRnU2plODUzWU03MG9YMjV0S0xGbnRuS3ctWFFYdTJGZDhIM2FabDNBMGRaWlZnUkxpZ0pYd1NyV0lXcHBwT2daSUF5T3dVOHBKNVN6M1RJeGkzSXVCcEF1WC1KazdocUFIUzBLWHg": "2026-11-20T14:56:19.022758+00:00",
+  "web:google news:CBMitwFBVV95cUxQODQxaTRXNmtiM190WnFhNmc2QWRDb1lJS3pWVVJhMmNtTFVzZTM0NXF6Q1k3YVowMWxsbkxJY0F0RlRyRFpTNXhINEYxMUFfbE80aDNJSF90MHgta1l5V3k3bjN4NlU0eEFmZmhmS3pta2NRaTNEWjhrWWpZYXNRX1oxUFdlaFBPSjZHSjNfSHU2MU9ybWltZzZMOEo5WG9KUVltT2xSUGg4alc2Mjk5X0NfaDFiOFU": "2026-11-20T14:56:19.022758+00:00",
+  "web:google actu:CBMiugFBVV95cUxNLWtGczhFNHdZaWNRRGFVZG5TelcxRlliSVJWZGg5UGdZSU9qMm1JVW1iQmEtNmo2d19kblNCUlJTejNxMUZoc0lyN3h0R3Y4QTlDWkR5bVBQdFlMUEZLdFJEMXJXU3cxOWxnenRBTHhsX2NySWgtX0FMVjNsTl9ZTXZ6cjFZcXg5UE1ZRnVSVzI1VFJjNFNLY190U3otcUZOM3E5eHNVSGd6WmhDWFBpUzB0TGFrai1sTEE": "2026-11-20T14:56:19.022758+00:00",
+  "web:google news:CBMiuwFBVV95cUxNeGhKV0xIVE1UajJRRnVTSjdsSS1Od0M1UU9DSWc1VzJ6OTFDWWlfZDkxRWtUTkU3eTBIWW5yWTJnaDFKQUw0NHZDa3RoRlluZXJibXBhVDR3U1N6YUY3RFJPMVZBb0JvZkx0ZDBqT0JORG9EQVh5cnF1ZUluS2tkc0w0eTJXd1ktdm84OHFTS1cyMTJzYTlNTlh3SVhzeFV6T0VvTGNXMDE4WmQ0Y2JZUE5kQWRzTG5zTkNB": "2026-11-20T14:56:19.022758+00:00",
+  "ag:https://www.actugaming.net/?p=834357": "2026-11-20T14:56:19.022758+00:00",
+  "web:gta boom:https://www.gtaboom.com/the-florida-joker-really-made-it-into-gta-6-as-a-background-face": "2026-11-20T14:56:19.022758+00:00"
  },
  "publies": [
   {
@@ -1529,10 +1535,19 @@
    "lien": "https://www.instagram.com/p/Df906pAkZqk/",
    "reel": "https://www.instagram.com/reel/Df908ltCqyf/",
    "story": "18347895094281925"
+  },
+  {
+   "ts": "2026-11-20T14:56:19.022758+00:00",
+   "categorie": "GAMING",
+   "titre": "Le Florida Joker présent dans les crédits de GTA 6",
+   "source_id": "web:gta boom:https://www.gtaboom.com/the-florida-joker-really-made-it-into-gta-6-as-a-background-face",
+   "lien": "https://www.instagram.com/p/Df97XDylweV/",
+   "reel": "https://www.instagram.com/reel/Df97ZDrANY2/",
+   "story": "17942150307395212"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 3732
+  "tweets": 3762
  }
 }
