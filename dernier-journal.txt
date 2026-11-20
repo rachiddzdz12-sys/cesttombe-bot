@@ -5,8 +5,8 @@ Instagram · @cesttombe.actu (15 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 48 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   9 infos retenues après filtre
-Web · GOOGLE ACTU → 100 infos
-Web · GOOGLE NEWS → 100 infos
+Web · GOOGLE ACTU → 92 infos
+Web · GOOGLE NEWS → HTTP 429
 Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
@@ -14,46 +14,52 @@ Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
-Web · GAMEKULT → 16 infos
-Web · IGN FRANCE → 26 infos
+Web · GAMEKULT → 15 infos
+Web · IGN FRANCE → 25 infos
 Web · JEUXVIDEO.COM → 15 infos
-Web · INSIDER GAMING → 8 infos
+Web · INSIDER GAMING → 9 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 10 tweets lus, 3 gardés (ce mois : 3657 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 3672 / 10000)
+X · @RockstarGames → 10 tweets lus, 3 gardés (ce mois : 3687 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 3702 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-323 infos fraîches et jamais traitées (sur 499 lues)
+230 infos fraîches et jamais traitées (sur 390 lues)
   10/10 ✗ déjà publiée « Grand Theft Auto VI is now available for PlayStation 5 and XBOX Series »
    7/10 ✗ déjà publiée « Tonight, the HEAT trade Miami for Vice City when they host the Milwauk »
-   7/10 ✓ « GTA VI Features Multiple References to Red Dead Redemption »
-   3/10 ✗ pas une news « Here are some GTA VI settings you should change! »
    5/10 ✗ déjà publiée « New GTA VI Backgrounds Added To PS5! »
-   8/10 ✗ déjà publiée « Full GTA VI Map Officially Revealed! »
+   9/10 ✗ déjà publiée « Full GTA VI Map Officially Revealed! »
    7/10 ✗ déjà publiée « Why XBOX Has a Secret GTA VI Performance Advantage Over PS5 »
-   8/10 ✗ déjà publiée « Full GTA VI Map Officially Revealed! »
+   9/10 ✗ déjà publiée « Full GTA VI Map Officially Revealed! »
    8/10 ✗ déjà publiée « GTA VI Hands-On Gameplay Impressions! »
-   6/10 ✓ « "Et si le plus grand roman de notre époque était un GTA VI ?" »
-   4/10 ✗ pas une news « How to get Paul Walker's Fast and Furious car in GTA 6 »
-   6/10 ✓ « GTA VI : l’indignation sélective du RN des Bouches-du-Rhône sur la vio »
-   2/10 ✗ pas une news « How To Unlock The Venturas Blvd Elegy In GTA VI »
-   3/10 ✗ pas une news « How To Unlock The Venturas Blvd Elegy In GTA VI »
-   7/10 ✗ déjà publiée « GTA 6's Full Credits Spark Returning Character Rumor — Are They Really »
-   7/10 ✓ « GTA 6 : les streamers forcés de ne pas montrer de vol de voitures sous »
-   3/10 ✗ pas une news « After 5 hours with GTA 6, I’ve already made 3 major mistakes — here’s  »
-   5/10 ✓ « Grand Theft Auto VI is out. Is the franchise still stealing the attent »
-   6/10 ✗ déjà publiée « 'GTA 6' release live updates: Reviews, memes and more as gamers explor »
-   2/10 ✗ pas une news « How to complete the Exotic Animals Front illegal operation in GTA 6 »
-GAMING · 5 infos retenues, meilleure : « GTA VI Features Multiple References to Red Dead Redemption » (7/10)
-  photo · échec : image trop petite (48x48)
-  photo · 1 image(s) : 1200x675
+   2/10 ✗ pas une news « How to Easily Get A Tank in GTA 6—Best Tank Method & Location »
+   4/10 ✗ trop faible (mini 5) « GTA 6 Mandy thirst levels reach heights that even former Nintendo boss »
+   8/10 ✗ déjà publiée « Au Japon, GTA 6 est censuré pour éviter la nudité et une part de repré »
+   8/10 ✗ déjà publiée « Au Japon, GTA 6 est censuré pour éviter la nudité et une part de repré »
+   7/10 ✓ « GTA 6 : après Jason et Lucia tout nus, Cyberleek promet la version pir »
+   6/10 ✓ « Bigfoot, jet-ski avec un chien, doomscroll… C’est aussi ça « GTA 6 » »
+   8/10 ✓ « GTA 6 : le casting complet du jeu dévoilé, qui incarne Jason ? »
+   3/10 ✗ pas une news « Comment jouer à GTA VI sur votre PC du boulot dès aujourd'hui, grâce à »
+   7/10 ✓ « Former Take-Two CEO says GTA 6 is "the last pre-AI blockbuster video g »
+   2/10 ✗ pas une news « Every Easter Egg In GTA 6—Locations & How To Find Them »
+   8/10 ✓ « GTA 6 Leaker ‘Cyberleek’ Reportedly Threatens to Release the XBOX Buil »
+   8/10 ✓ « GTA VI dévoile une bande-son XXL avec Dua Lipa et Keith Richards ! »
+   7/10 ✓ « 120 hours in GTA 6: What's it really like to review the biggest entert »
+   5/10 ✗ trop faible (mini 9) « Ubisoft fonde un studio pour travailler sur l’utilisation de l’IA géné »
+   4/10 ✗ trop faible (mini 9) « Monster Hunter Rise tiendra bientôt dans votre poche, le jeu arrive su »
+GAMING · 7 infos retenues, meilleure : « GTA 6 : le casting complet du jeu dévoilé, qui incarne Jason ? » (8/10)
+  article · rtbf.be
+  article · 0 caractères lus
+  ⏭️ article illisible, info écartée : « GTA 6 : le casting complet du jeu dévoilé, qui incarne Jason »
+  article · 2008 caractères lus
+  photo · 1 image(s) : 1920x1080
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
   couverture · photo1 · zoom 1.0 · propre
-  carrousel prêt : « GTA VI Features Multiple Références to Red Dead Redemption » (3 slides)
-  voix · contrôle OK (97%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (5.3 s)
-  reel · 7.0 s · 4 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Df9nIo5F6ud/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df9nK1GkwcX/
+  carrousel prêt : « Cyberleek menacé de diffuser un build XBOX de GTA 6 » (4 slides)
+  voix · ⚠️ refaite, texte différent (66%) : « Un leakeur menace de diffuser une version Xbox de GTA VI. Le fichier pourrait sortir le 23 novembre. Tu penses que la fuite est vraie ? Un leakeur menace de dif »
+  voix · contrôle OK (98%, essai 2, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (7.3 s)
+  reel · 8.9 s · 6 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Df9uDC9jx2F/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df9uFOiCN-Y/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
+Gemini : gemini-flash-lite-latest : réponse en 3 s · gemini-flash-lite-latest : réponse en 7 s

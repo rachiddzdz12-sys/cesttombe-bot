@@ -512,7 +512,15 @@
   "web:rockstar intel:https://rockstarintel.com/?p=44680": "2026-11-20T12:01:37.691563+00:00",
   "web:google news:CBMitgFBVV95cUxQbTlJd25QTmxnbzdWZ3ZxbUtERGloMXc1bDJjWnFKZEdqQzRnenhVcnBwYVNOVFhvb0d6VjgyUGp4SG5IbEc0UUdpeklZaHpuNlQxUk9VYTZZcXItZWZ2RUZPM3ZrMkNrcVVDbFJIdzB1WUNHZGdkNjVaemFHUHZDSnNtZ0o1b2paVUtiRkFnUnA4WnJSdk1yQm40Wm1UZ1U4S1gzMHNERXgzdDNwQjdJZHg5WkxqUQ": "2026-11-20T12:01:37.691563+00:00",
   "web:gamesradar:HT8bzoockryE2oWp6V4QsF": "2026-11-20T12:01:37.691563+00:00",
-  "x:2123741645938270621": "2026-11-20T12:01:37.691563+00:00"
+  "x:2123741645938270621": "2026-11-20T12:01:37.691563+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=239435": "2026-11-20T13:01:44.145047+00:00",
+  "web:gamesradar:Kyg4j8qhG6BkiHe2yRXKD9": "2026-11-20T13:01:44.145047+00:00",
+  "web:google actu:CBMi0gFBVV95cUxQa21ZZ2gtM1B1OFlpdHhfeVI0QVkwNlZydUREQTVpWEE0S00wMGYyOWdVLThSQXkwZGNqb0ZfV21PZVgzbS05dG1YRURMQnl5aENuRUZ1eXZhOHZpdV9BWmNPTFkxZ2xXTmxMVlMzVFppYjF5UmtTcHlmWGpiVmpIbXkxWUc4MkJMM0ZHM0hnMHhiU2h2NkVxS2VBN2FmWjdRNHFPNUVTT0JGU3dmZ1JVb1gyMUwxNHExbXVjQUNLb1Nic05VbGFyRFVtWGpJN2dCcXc": "2026-11-20T13:01:44.145047+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=239430": "2026-11-20T13:01:44.145047+00:00",
+  "ag:https://www.actugaming.net/?p=834351": "2026-11-20T13:01:44.145047+00:00",
+  "ag:https://www.actugaming.net/?p=834345": "2026-11-20T13:01:44.145047+00:00",
+  "web:google actu:CBMimgFBVV95cUxNeXNIRk5uTWlZc0phQ0JhVnB4SlE2THdSSl9lRmg4YTlYRjItdlVEXzhEbW9RQ0dyT2FDQ2NXQ1NGYjNBVUViUng1aXNEYTV5Y2toSU84TWhqMU5jVnB6U0tsb0R0RDJxd0hTY2ZSOFQwa3kxeURycHBGcEpxOWh4M092elMyTFVVOUlteWVyRXJ0RkZNb2hCOFFB": "2026-11-20T13:01:44.145047+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=239438": "2026-11-20T13:01:44.145047+00:00"
  },
  "publies": [
   {
@@ -1495,10 +1503,19 @@
    "lien": "https://www.instagram.com/p/Df9nIo5F6ud/",
    "reel": "https://www.instagram.com/reel/Df9nK1GkwcX/",
    "story": "18119508938042908"
+  },
+  {
+   "ts": "2026-11-20T13:01:44.145047+00:00",
+   "categorie": "GAMING",
+   "titre": "Cyberleek menacé de diffuser un build XBOX de GTA 6",
+   "source_id": "web:insider gaming:https://insider-gaming.com/?p=239438",
+   "lien": "https://www.instagram.com/p/Df9uDC9jx2F/",
+   "reel": "https://www.instagram.com/reel/Df9uFOiCN-Y/",
+   "story": "17999389677026249"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 3672
+  "tweets": 3702
  }
 }
