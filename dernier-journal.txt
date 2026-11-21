@@ -2,11 +2,11 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (17 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 48 / 100
+Instagram · posts publiés par l'API sur 24 h : 45 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 92 infos
-Web · GOOGLE NEWS → HTTP 429
+Web · GOOGLE NEWS → 92 infos
 Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
@@ -16,49 +16,36 @@ Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
 Web · GAMEKULT → 15 infos
 Web · IGN FRANCE → 19 infos
-Web · JEUXVIDEO.COM → 16 infos
+Web · JEUXVIDEO.COM → 15 infos
 Web · INSIDER GAMING → 6 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 10 tweets lus, 1 gardés (ce mois : 4062 / 10000)
-X · @RockstarIntel → refus Apify HTTP 400 : {
-  "error": {
-    "type": "run-failed",
-    "message": "Actor run did not succeed (run ID: CvlfGEUPE9MIO9bWk, status: ABORTED)."
-  }
-}
+X · @RockstarGames → 10 tweets lus, 1 gardés (ce mois : 4077 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 4092 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-178 infos fraîches et jamais traitées (sur 371 lues)
-   6/10 ✓ « PlayStation US Initially Resisted GTA 3 Exclusivity Deal »
-   5/10 ✓ « Le Premier ministre grec critiqué pour avoir fait "la promotion" de GT »
-   7/10 ✓ « "Il se prend pour Jason de GTA VI" : un policier "réquisitionne" le vé »
-   0/10 ✗ pas une news « Chapitre 1 GTA 6 (Un goût de paradis) : Soluce des 22 missions »
-   0/10 ✗ pas une news « Motel Cascara GTA 6 : Où trouver tous les objets de valeur du meilleur »
-   0/10 ✗ pas une news « Where to Find The Pegassi Toros in GTA 6—Randy’s Wishlist Car Location »
-   0/10 ✗ pas une news « When Do You Leave The Motel in GTA 6? Chapter Three Apartment, Explain »
-   6/10 ✗ déjà publiée « GTA 6 PC : un pirate affirme pouvoir rendre le jeu jouable en une sema »
-   4/10 ✗ trop faible (mini 5) « Le premier poème en prose écrit dans GTA VI »
-   7/10 ✗ déjà publiée « GTA VI : le carton a bien eu lieu, l'oseille coule à flot ! »
-   5/10 ✓ « GTA VI Has Gamers Hooked, Crypto Markets Hold Their Breath »
-   5/10 ✗ déjà publiée « GTA VI mobilise déjà les joueurs, le marché crypto retient son souffle »
-   9/10 ✗ déjà publiée « Le jeu "GTA VI" a généré 3,79 milliards de dollars de ventes le jour d »
-   8/10 ✗ déjà publiée « GTA 6 : 3,79 milliards de dollars de ventes le premier jour, plus que  »
-   6/10 ✓ « GTA VI : pourquoi la disparition des jeux vidéo sur disque inquiète le »
-   6/10 ✓ « Rockstar accused of tracing furry artwork for GTA 6’s custom SMG »
-   8/10 ✗ déjà publiée « GTA 6 signe un démarrage financier sans précédent »
-   8/10 ✓ « GTA 6 impressionne les grands noms du jeu vidéo : Naughty Dog, CD Proj »
-   8/10 ✗ déjà publiée « GTA 6 impressionne les grands noms du jeu vidéo : Naughty Dog, CD Proj »
-   7/10 ✓ « GTA 6 sur PC : date de sortie, Steam… Ce que l’on sait (vraiment) »
-GAMING · 8 infos retenues, meilleure : « GTA 6 impressionne les grands noms du jeu vidéo : Naughty Dog, CD Projekt et Lar » (8/10)
-  photo · échec : image trop petite (72x72)
-  photo · 3 image(s) : 3840x2160, 3840x2160, 592x886
-  visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  couverture · photo2 · zoom 1.4 · propre
-  carrousel prêt : « GTA 6 impressionne les studios de jeux vidéo » (5 slides)
-  voix · ⚠️ refaite, texte différent (66%) : « Tu ne devineras jamais ce que les autres studios pensent de GTA VI. Tu t'attendais à ces réactions ? Tu ne devineras jamais ce que les autres studios pensent de »
-  voix · ⚠️ refaite, texte différent (66%) : « Tu ne devineras jamais ce que les autres studios pensent de GTA VI. Tu t'attendais à ces réactions ? Tu ne devineras jamais ce que les autres studios pensent de »
-  voix · contrôle OK (97%, essai 3, gemini-3.1-flash-tts-preview)
-  voix · Gemini (Aoede) (5.2 s)
-  reel · 6.8 s · 4 plans dont 0 extraits vidéo · voix + musique
-❌ Erreur : MediaRefuse : Only photo or video can be accepted as media type.
-Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
+255 infos fraîches et jamais traitées (sur 472 lues)
+   4/10 ✗ pas une news « 30+ Hidden GTA 6 Controls and Secret Mechanics You May Have Missed! »
+   6/10 ✗ déjà publiée « 35,000 More Students Missed School in England on GTA VI Release Day! »
+   6/10 ✗ déjà publiée « Florida Joker Is In GTA VI, Rockstar Confirms »
+  10/10 ✗ déjà publiée « GTA VI Breaks Records With 32.5 Million Copies Sold, $4 Billion On Rel »
+   7/10 ✗ déjà publiée « GTA VI's Famous Bikini Girl From Trailer 1 Has Been Found! »
+   5/10 ✗ déjà publiée « New GTA VI Backgrounds Added To PS5! »
+   1/10 ✗ pas une news « Soluce Juste une égratignure GTA 6 : réparer la Ganado »
+   3/10 ✗ trop faible (mini 5) « ‘GTA 6’ Cited by Trump’s Education Department in Transgender Sports De »
+   2/10 ✗ pas une news « GTA 6 : Michel Drucker aurait-il caché une âme de gamer ? »
+   1/10 ✗ pas une news « Aux armes GTA 6 : soluce de la mission 3 (Ammu-Nation) »
+   1/10 ✗ pas une news « Partie de pêche GTA 6 : Soluce de la mission 2 (Cal et Donnie) »
+   1/10 ✗ pas une news « Prologue GTA 6 : soluce de la mission 1 (Lucia en prison) »
+   5/10 ✗ déjà publiée « Music Review: ‘Grand Theft Auto VI: The Album’ is overstuffed and chao »
+   4/10 ✗ trop faible (mini 5) « ‘GTA 6’: Where You Know Brian Heder Actor Stephen Root From »
+   9/10 ✗ déjà publiée « GTA 6 a rapporté plus d’argent en une journée qu’Avengers: Endgame en  »
+   1/10 ✗ pas une news « Déclassé Vamos GTA 6 : Quel est le code du garage de la mission de Mos »
+   6/10 ✓ « GTA 6 developer pays touching tribute to late mother by immortalizing  »
+   3/10 ✗ trop faible (mini 5) « Klay Thompson plays GTA 6 in surprising way »
+   3/10 ✗ pas une news « I don’t want to kill people in GTA 6, and I’m not sure if that’s a goo »
+   4/10 ✗ pas une news « GTA 6 has a hidden warehouse packed with loot worth $14,000 »
+GAMING · 1 infos retenues, meilleure : « GTA 6 developer pays touching tribute to late mother by immortalizing her in gam » (6/10)
+  article · 1933 caractères lus
+  photo · 1 image(s) : 1600x900
+  rédaction impossible pour « GTA 6 developer pays touching tribute to late mother by immo » : réponse incomplète (titre ou slides manquants)
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
