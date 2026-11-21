@@ -6,9 +6,9 @@ Instagram · posts publiés par l'API sur 24 h : 48 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 92 infos
-Web · GOOGLE NEWS → HTTP 429
-Web · BING ACTU → 12 infos
-Web · BING ACTU VI → 11 infos
+Web · GOOGLE NEWS → 92 infos
+Web · BING ACTU → 2 infos
+Web · BING ACTU VI → 2 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
@@ -17,54 +17,55 @@ Web · GTABASE → 30 infos
 Web · GAMEKULT → 15 infos
 Web · IGN FRANCE → 27 infos
 Web · JEUXVIDEO.COM → 18 infos
-Web · INSIDER GAMING → 7 infos
+Web · INSIDER GAMING → 6 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
 X · @RockstarGames → refus Apify HTTP 400 : {
   "error": {
     "type": "run-failed",
-    "message": "Actor run did not succeed (run ID: if4e3hx7SIt0MMLGe, status: FAILED)."
+    "message": "Actor run did not succeed (run ID: lPBnzzfLkQCkDiROv, status: ABORTED)."
   }
 }
 X · @RockstarIntel → refus Apify HTTP 400 : {
   "error": {
     "type": "run-failed",
-    "message": "Actor run did not succeed (run ID: qMpxCQSvA9vL05VIq, status: ABORTED)."
+    "message": "Actor run did not succeed (run ID: VPbbj4La5Im3GBEnF, status: FAILED)."
   }
 }
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-218 infos fraîches et jamais traitées (sur 380 lues)
-   2/10 ✗ pas une news « GTA 6 Starfish Island Garage: Where to Find the Vitello, Itali RSX and »
-   8/10 ✓ « “C’est fait” : le pire cauchemar de Rockstar se réalise, GTA 6 tombe a »
-   6/10 ✓ « GTA VI : le jeu réserve une belle surprise aux fans de DEXTER »
-   5/10 ✓ « Sortie de GTA VI: "Je n'ai pas dormi, pour être honnête", avoue Christ »
-   7/10 ✓ « Un bug du téléphone ouvre la vue subjective dans GTA 6, le streaming p »
-   8/10 ✓ « GTA 6 supprime une fonctionnalité appréciée des joueurs : impossible d »
-   6/10 ✗ déjà publiée « GTA 6 confirme: l'action du jeu se déroule dans le même univers que Re »
-   4/10 ✗ trop faible (mini 5) « «Merci de vous préoccuper de mon emploi du temps» : Emmanuel Grégoire  »
-   7/10 ✓ « Les recettes de GTA 6 ont déjà couvert les coûts de développement. Red »
-   8/10 ✓ « [Metacritic] GTA 6 fait l'objet d'un déferlement de critiques négative »
-   1/10 ✗ pas une news « Black Friday E.Leclerc : GTA 6 de nouveau en stock au meilleur prix du »
-   9/10 ✗ déjà publiée « GTA VI pulvérise le record de ventes pour un premier jour »
-   3/10 ✗ trop faible (mini 5) « GTA 6 : une voiture électrique tombe en panne avant les modèles essenc »
-   1/10 ✗ pas une news « E.Leclerc fait un carton ce samedi 21 novembre : GTA 6 est disponible  »
-   6/10 ✗ déjà publiée « Voici GTA 6 à la première personne avec DLSS 5 à 60 FPS »
-   5/10 ✓ « “GTA VI” permet aux femmes d’être aussi dures et ravagées que les homm »
-  10/10 ✗ déjà publiée « GTA VI pulvérise le record de ventes pour un premier jour et ramasse 3 »
-   7/10 ✓ « L'analyse des performances de GTA 6 révèle 2270 % de chutes de FPS sup »
-   2/10 ✗ pas une news « How to Get Paul Walker’s Mitsubishi Eclipse in GTA 6 »
-   2/10 ✗ pas une news « GTA 6 Collectible Card Locations: Three Early Pickups »
-GAMING · 9 infos retenues, meilleure : « “C’est fait” : le pire cauchemar de Rockstar se réalise, GTA 6 tombe aux mains d » (8/10)
-  article · lesnumeriques.com
-  article · 5551 caractères lus
-  photo · 1 image(s) : 1200x678
-  visuels · steam « Grand Theft Auto VI » → 3 image(s)
+281 infos fraîches et jamais traitées (sur 452 lues)
+   4/10 ✗ pas une news « Si le framerate de GTA 6 vous rebute, il y a cette petite astuce pour  »
+   6/10 ✗ déjà publiée « Pixels – GTA 6, le jeu vidéo qui rend la planète folle »
+   1/10 ✗ pas une news « GTA 6 Moses Walkthrough and How to Register a Car for Free »
+   8/10 ✓ « Le cauchemar de Rockstar : GTA 6 pourrait tourner sur PC dans quelques »
+   1/10 ✗ pas une news « GTA 6 Girls' Trip Walkthrough »
+   1/10 ✗ pas une news « GTA 6 Got Pills? Walkthrough »
+   1/10 ✗ pas une news « How to Complete Just Moved In in GTA 6 »
+   1/10 ✗ pas une news « GTA 6 Overnight Charges Walkthrough »
+   9/10 ✗ déjà publiée « GTA 6 : 32,5 millions de copies vendues et 3,79 milliards de dollars e »
+   5/10 ✓ « Audio : D’Angelo “Kamikazi” (from GTA 6 Soundtrack) »
+   5/10 ✓ « Logitech allows employees to play GTA 6 »
+  10/10 ✗ déjà publiée « « GTA VI » s’offre un lancement record avec 3,79 milliards de dollars  »
+   8/10 ✓ « GTA 6 noté 5,5 sur 10 par les joueurs de Metacritic : un review bombin »
+   6/10 ✓ « La Xbox Series X charge Grand Theft Auto VI 17 % plus rapidement que l »
+   6/10 ✓ « One Secret to the Success of ‘Grand Theft Auto VI’: Veteran Staff »
+   4/10 ✗ trop faible (mini 5) « Thunder’s Jared McCain reveals his preferred games over GTA 6 »
+   4/10 ✗ pas une news « "Is 30 FPS Okay?" Answering Readers' Questions About GTA 6 »
+   5/10 ✓ « The Guide #270: Grand Theft Auto VI is everywhere – but is it really t »
+   7/10 ✓ « Grand Theft Auto VI est désormais jouable sur une console PlayStation  »
+   3/10 ✗ trop faible (mini 5) « GTA 6 release sparks excitement at Bradley, spotlights growing world o »
+GAMING · 8 infos retenues, meilleure : « Le cauchemar de Rockstar : GTA 6 pourrait tourner sur PC dans quelques jours grâ » (8/10)
+  article · frandroid.com
+  article · 6000 caractères lus
+  photo · 1 image(s) : 1600x900
+  visuels · steam « Grand Theft Auto VI » → 4 image(s)
   couverture · photo1 · zoom 1.0 · propre
-  carrousel prêt : « GTA 6 tombe aux mains des pirates le jour de sa sortie » (5 slides)
-  voix · contrôle OK (95%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (8.2 s)
-  reel · 9.9 s · 6 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Df_psbijMb2/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df_pumjETTO/
+  carrousel prêt : « GTA 6 piraté sur PC avant sa sortie officielle » (4 slides)
+  voix · ⚠️ refaite, texte différent (65%) : « Tu penses que GT Assist tournera sur PC avant la version officielle ? Tu joueras sur PC ou console ? Tu penses que GT Assist tournera sur PC avant la version of »
+  voix · contrôle OK (92%, essai 2, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (5.2 s)
+  reel · 6.8 s · 4 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Df_wlzrF8I_/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df_wpGKCROK/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
