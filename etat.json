@@ -661,7 +661,11 @@
   "web:gamesradar:zw4FpQjWeVb5aj7vd4gen5": "2026-11-21T17:01:43.845062+00:00",
   "web:gamesradar:ybKFUUe33bqaaEvjRKzzHn": "2026-11-21T17:01:43.845062+00:00",
   "web:google news:CBMiqAFBVV95cUxOV1Nra0dmTUU4ZVlSVUJQR0tPZmtOT0oySjN6ZE8tRC15YUlwcUJtN2hmYl9vdEZsaWVUTmhWUHhNSURZbThWRnpMQktfRzBMWGxPMDdUWkFjNnFUbU56Znh3ZjVOUkduVWtaam1jRzJiVTVNX3ItY1FwLUhIUXlNcHg1azZUUDRlZWFMQWlhblotMTNxV1YzU1FkbTFfZW5STDYyZW43Wjk": "2026-11-21T17:01:43.845062+00:00",
-  "x:2124150087106572750": "2026-11-21T17:01:43.845062+00:00"
+  "x:2124150087106572750": "2026-11-21T17:01:43.845062+00:00",
+  "web:jeuxvideo.com:https://www.jeuxvideo.com/news/2116156/growler-de-vanessa-gta-vi-ou-trouver-cette-excellente-voiture-au-chapitre-3.htm": "2026-11-21T18:01:36.511286+00:00",
+  "web:gamesradar:oBkaGC3iVazrSkzSUEPs3Z": "2026-11-21T18:01:36.511286+00:00",
+  "web:jeuxvideo.com:https://www.jeuxvideo.com/news/2116146/gta-6-comment-reussir-un-braquage-de-banque.htm": "2026-11-21T18:01:36.511286+00:00",
+  "web:rockstar intel:https://rockstarintel.com/?p=44749": "2026-11-21T18:01:36.511286+00:00"
  },
  "publies": [
   {
@@ -1833,10 +1837,19 @@
    "lien": "https://www.instagram.com/p/DgAuoa-n5dI/",
    "reel": "https://www.instagram.com/reel/DgAuqDKEwkK/",
    "story": "17955971625304627"
+  },
+  {
+   "ts": "2026-11-21T18:01:36.511286+00:00",
+   "categorie": "GAMING",
+   "titre": "Déballage du coffret collector de Grand Theft Auto 6",
+   "source_id": "web:rockstar intel:https://rockstarintel.com/?p=44749",
+   "lien": "https://www.instagram.com/p/DgA1YGdjaPk/",
+   "reel": "https://www.instagram.com/reel/DgA1ZueD_6m/",
+   "story": "17970411033216436"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 3987
+  "tweets": 4017
  }
 }

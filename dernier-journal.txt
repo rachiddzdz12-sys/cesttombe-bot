@@ -6,7 +6,7 @@ Instagram · posts publiés par l'API sur 24 h : 48 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 92 infos
-Web · GOOGLE NEWS → 100 infos
+Web · GOOGLE NEWS → HTTP 429
 Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
@@ -16,50 +16,46 @@ Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
 Web · GAMEKULT → 15 infos
 Web · IGN FRANCE → 19 infos
-Web · JEUXVIDEO.COM → 18 infos
+Web · JEUXVIDEO.COM → 16 infos
 Web · INSIDER GAMING → 8 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → refus Apify HTTP 400 : {
-  "error": {
-    "type": "run-failed",
-    "message": "Actor run did not succeed (run ID: cmPa9gMQWPk65jDhT, status: ABORTED)."
-  }
-}
-X · @RockstarIntel → 10 tweets lus, 9 gardés (ce mois : 3987 / 10000)
+X · @RockstarGames → 10 tweets lus, 1 gardés (ce mois : 4002 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 4017 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-280 infos fraîches et jamais traitées (sur 483 lues)
+196 infos fraîches et jamais traitées (sur 383 lues)
+   6/10 ✗ déjà publiée « 35,000 More Students Missed School in England on GTA VI Release Day! »
    7/10 ✗ déjà publiée « Florida Joker Is In GTA VI, Rockstar Confirms »
-   6/10 ✓ « Could This Major GTA VI Leak Make It Playable On PC? »
   10/10 ✗ déjà publiée « GTA VI Breaks Records With 32.5 Million Copies Sold, $4 Billion On Rel »
-   7/10 ✗ déjà publiée « GTA VI's Famous Bikini Girl From Trailer 1 Has Been Found! »
-   5/10 ✗ déjà publiée « New GTA VI Backgrounds Added To PS5! »
+   8/10 ✗ déjà publiée « GTA VI's Famous Bikini Girl From Trailer 1 Has Been Found! »
+   6/10 ✗ déjà publiée « New GTA VI Backgrounds Added To PS5! »
    7/10 ✗ déjà publiée « Florida Joker Is In GTA VI, Rockstar Confirms »
-   0/10 ✗ pas une news « How to use auto drive in GTA 6 »
-   6/10 ✓ « Watch Bulls Mascot Play GTA 6 and Ignore Wizards Players' Intros in Vi »
-   0/10 ✗ pas une news « GTA 6 Equipment: All 12 pieces of equipment explained and how to unloc »
-   0/10 ✗ pas une news « Should you shake Mattia's hand in GTA 6? »
-   0/10 ✗ pas une news « Learn how to get a mask in GTA 6 to stay anonymous when committing a c »
-   0/10 ✗ pas une news « How to find the Avery Pawn Shop safe code in GTA 6 »
-   0/10 ✗ pas une news « How to unlock the Cut-Off Tool in GTA 6 so you can open up those yello »
-   6/10 ✓ « Grand Theft Auto VI: Collectors Box. Whats inside? »
-   0/10 ✗ pas une news « How to unlock the Dye-Pack Jammer in GTA 6 to finally steal Marked Bil »
-   0/10 ✗ pas une news « Where to get a Key Cloner in GTA 6 to steal premium cars »
-   5/10 ✓ « Electric cars are finally mainstream in GTA 6, and Vice City is full o »
-   0/10 ✗ pas une news « How to get a Snap Gun in GTA 6 to quietly lockpick doors »
-   4/10 ✗ trop faible (mini 5) « The most unforgivable crime in GTA 6 is that TV placement »
+   7/10 ✗ déjà publiée « Durée de vie de GTA 6 : combien d’heures pour finir le jeu ? »
+   7/10 ✓ « GTA VI : pourquoi la disparition des jeux vidéo sur disque inquiète le »
+   2/10 ✗ pas une news « Growler de Vanessa GTA VI : Où trouver cette excellente voiture au cha »
+   7/10 ✓ « Grand Theft Auto VI: Collectors Box. Whats inside? »
+   8/10 ✓ « Rockstar accused of tracing furry artwork for GTA 6’s custom SMG »
    9/10 ✗ déjà publiée « GTA 6 signe un démarrage financier sans précédent »
-GAMING · 4 infos retenues, meilleure : « Could This Major GTA VI Leak Make It Playable On PC? » (6/10)
-  photo · échec : image trop petite (48x48)
-  photo · 1 image(s) : 1200x675
+   8/10 ✓ « GTA 6 impressionne les grands noms du jeu vidéo : Naughty Dog, CD Proj »
+   8/10 ✗ déjà publiée « GTA 6 impressionne les grands noms du jeu vidéo : Naughty Dog, CD Proj »
+   8/10 ✗ déjà publiée « GTA 6 sur PC : date de sortie, Steam… Ce que l’on sait (vraiment) »
+   6/10 ✓ « Bienvenue dans le Game - GTA VI: le jeu vidéo du futur est-il accessib »
+   7/10 ✓ « Retirement home residents as old as 86 have been loving GTA 6 »
+   1/10 ✗ pas une news « GTA 6 Pawn Shop safe code »
+   6/10 ✓ « On peut tester GTA VI au festival Geek Life d’Amiens : « C’est le jeu  »
+   1/10 ✗ pas une news « GTA 6 : Comment réussir un braquage de banque ? »
+GAMING · 7 infos retenues, meilleure : « Grand Theft Auto VI: Collectors Box. Whats inside? » (7/10)
+  photo · échec : image trop petite (72x72)
+  photo · 4 image(s) : 1920x2560, 1920x2560, 1920x2560, 1920x2560
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  couverture · photo1 · zoom 1.0 · propre
-  carrousel prêt : « GTA VI : un leak majeur pour jouer sur PC ? » (4 slides)
-  voix · ⚠️ refaite, texte différent (62%) : « « J'étais assise pour être jouable sur PC suite à un leak majeur. » « Cette fuite de données changerait tout pour les joueurs. » « Tu vas y jouer sur PC ? » « J »
-  voix · contrôle OK (100%, essai 2, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (8.1 s)
-  reel · 9.7 s · 6 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgAuoa-n5dI/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgAuqDKEwkK/
+  couverture · photo3 · zoom 1.4 · propre
+  carrousel prêt : « Déballage du coffret collector de Grand Theft Auto 6 » (4 slides)
+  voix · ⚠️ refaite, texte différent (66%) : « Tu veux voir ce que contient le coffret collector de GTA 6 à 350 livres ? T'achèterais ce coffret à ce prix ? Tu veux voir ce que contient le coffret collector  »
+  voix · ⚠️ refaite, texte différent (65%) : « Tu veux voir ce que contient le coffret collector de VTA 6 à 350 livres ? Tu achèterais ce coffret à spris ? Tu veux voir ce que contient le coffret collector d »
+  voix · contrôle OK (97%, essai 3, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (6.8 s)
+  reel · 8.4 s · 5 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgA1YGdjaPk/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgA1ZueD_6m/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s · texte sans accents ou sans apostrophes : réécriture demandée · gemini-flash-latest : ReadTimeout après 60 s · gemini-flash-latest : surchargé (HTTP 503) · gemini-3-flash-preview : réponse en 6 s
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
