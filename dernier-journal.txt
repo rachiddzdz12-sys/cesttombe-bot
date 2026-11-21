@@ -6,8 +6,8 @@ Instagram · posts publiés par l'API sur 24 h : 48 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 92 infos
-Web · GOOGLE NEWS → 102 infos
-Web · BING ACTU → 12 infos
+Web · GOOGLE NEWS → 92 infos
+Web · BING ACTU → 11 infos
 Web · BING ACTU VI → 11 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
@@ -23,48 +23,49 @@ Instagram · @playstationfr → 12 posts lus, 6 gardés
 X · @RockstarGames → refus Apify HTTP 400 : {
   "error": {
     "type": "run-failed",
-    "message": "Actor run did not succeed (run ID: lOuSz270KZR18CrYZ, status: FAILED)."
+    "message": "Actor run did not succeed (run ID: 9eeTVUJv3Lyt8sSiH, status: FAILED)."
   }
 }
 X · @RockstarIntel → refus Apify HTTP 400 : {
   "error": {
     "type": "run-failed",
-    "message": "Actor run did not succeed (run ID: cZpDkQSVp2VdZQb7y, status: FAILED)."
+    "message": "Actor run did not succeed (run ID: glCo7GYSxei4EL8RA, status: FAILED)."
   }
 }
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-280 infos fraîches et jamais traitées (sur 480 lues)
-   4/10 ✗ pas une news « C'est parti pour votre premier week-end sur Grand Theft Auto VI. Jouez »
-  10/10 ✗ déjà publiée « Record de ventes pour “GTA VI”, qui a déjà rapporté 3,79 milliards de  »
-   6/10 ✓ « Le bonus RMC: GTA VI fait un carton musical avec sa bandon originale s »
-   5/10 ✓ « Spotify opens a Grand Theft Auto VI music hub in 33 markets »
-   1/10 ✗ pas une news « gta 6 »
-   2/10 ✗ pas une news « Si vous n'avez pas 80€ pour GTA 6, ce film au cinéma peut vous faire v »
-   6/10 ✓ « Grand Theft Auto Used to Satirize American Life. Now We’ve Caught Up W »
-   7/10 ✓ « Le gros secret de GTA 6 avait été percé en 2023. Le même message révél »
-  10/10 ✗ déjà publiée « GTA 6: un record de ventes à près de 3,8 milliards de dollars en seule »
-   8/10 ✓ « GTA 6 : une vague d'avis négatifs frappe le jeu sur Metacritic, certai »
-   7/10 ✓ « GTA 6 : tétraplégique, il joue sans manette uniquement par la pensée »
-   6/10 ✓ « GTA 6 Auto Upload Bans—Can Sex and Nudity Get You Banned From XBOX? »
-   7/10 ✓ « GTA 6 : bientôt une adaptation en film ? Rockstar Games pose une condi »
-   5/10 ✗ déjà publiée « « Grand Theft Auto VI - The Album » un condensé de la sono mondiale ac »
-   5/10 ✓ « Italie. Comme dans GTA VI, deux adolescents volent un bus et finissent »
-   6/10 ✓ « « Jouer à GTA, c’est tromper » : quand le jeu vidéo phénomène menace l »
+266 infos fraîches et jamais traitées (sur 469 lues)
+   3/10 ✗ pas une news « The 9 best things to do in the first 10 hours playing GTA 6 »
+   6/10 ✓ « « J’arrive pas à attraper la drogue » : GTA 6 remplace le Scrabble dan »
+   6/10 ✓ « Le jeu vidéo GTA VI pour les enfants ? Le Premier ministre grec critiq »
+   4/10 ✗ trop faible (mini 5) « GPU à +33,65 % sur 90 jours, GTA 6 et DDR6 : la semaine GinjFo »
+   7/10 ✓ « Russie: privés de GTA VI en raison des sanctions, les Russes imaginent »
+   7/10 ✓ « Ubisoft profite de GTA VI pour virer 166 personnes »
+   5/10 ✓ « GTA VI Runs Above 60 FPS on Xbox Series X via Quick Resume Bug, but th »
    6/10 ✓ « One Secret to the Success of ‘Grand Theft Auto VI’: Veteran Staff »
-   3/10 ✗ pas une news « GTA 6 : Mandy est-elle une énorme psychopathe ? Vous avez sûrement rat »
-  10/10 ✗ déjà publiée « Grand Theft Auto VI shatters entertainment records with staggering $3. »
-   8/10 ✗ déjà publiée « Pixels – GTA 6, le jeu vidéo qui rend la planète folle »
-GAMING · 11 infos retenues, meilleure : « GTA 6 : une vague d'avis négatifs frappe le jeu sur Metacritic, certains joueurs » (8/10)
-  article · 4wearegamers.com
-  article · 4332 caractères lus
-  photo · 1 image(s) : 1280x720
+   8/10 ✓ « L’actrice qui incarne Mandy dans GTA 6 s’exprime avec enthousiasme apr »
+   8/10 ✗ déjà publiée « L’actrice qui incarne Mandy dans GTA 6 s’exprime avec enthousiasme apr »
+   5/10 ✓ « Elye Wahi n'a pas encore téléchargé GTA VI »
+   2/10 ✗ pas une news « Black Friday PS5 : où trouver une PS5 pour jouer à GTA 6 ? Voici les o »
+   5/10 ✗ déjà publiée « Grand Theft Auto VI Hits 60 FPS and Above on Xbox Series X Through a Q »
+   2/10 ✗ pas une news « GTA 6 Watson Bay Safehouse Guide: Where to Find the VF-G1 and Open the »
+   9/10 ✗ déjà publiée « Rockstar: First-Day ‘Grand Theft Auto VI’ Unit Sales Top Record $3.79  »
+   7/10 ✓ « AfroBank FM, la radio 100 % musique africaine de GTA VI fait sensation »
+   7/10 ✓ « Lucia Caminos, la bad-girl de GTA VI »
+   6/10 ✓ « GTA VI: de Justice à Keith Richards comment les bandes originales de j »
+   9/10 ✗ déjà publiée « Record de ventes pour “GTA VI”, qui a déjà rapporté 3,79 milliards de  »
+   7/10 ✓ « Le bonus RMC: GTA VI fait un carton musical avec sa bandon originale s »
+GAMING · 12 infos retenues, meilleure : « L’actrice qui incarne Mandy dans GTA 6 s’exprime avec enthousiasme après que son » (8/10)
+  article · 6000 caractères lus
+  photo · 1 image(s) : 1200x675
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  couverture · photo1 · zoom 1.0 · propre
-  carrousel prêt : « GTA 6 frappe par des avis négatifs sur Metacritic » (5 slides)
-  voix · contrôle OK (97%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (3.4 s)
-  reel · 5.1 s · 3 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Df_3d11l5VL/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df_3fmvjKPH/
+  couverture · photo1 · zoom 1.12 · propre
+  carrousel prêt : « L'actrice de Mandy dans GTA 6 réagit au buzz » (4 slides)
+  voix · ⚠️ refaite, texte différent (65%) : « Tu joues à GTA VI, l'actrice de Mendy réagit enfin au buzz de son personnage mystérieux. Tu penses qu'elle est coupable ? Tu joues à GTA VI, l'actrice de Mendy  »
+  voix · ⚠️ refaite, texte différent (65%) : « Tu joues à GTA VI ? L'actrice de Mandir réagit enfin au buzz de son personnage mystérieux. Tu penses qu'elle est coupable ? Tu joues à GTA VI ? L'actrice de Man »
+  voix · contrôle OK (98%, essai 3, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (7.4 s)
+  reel · 9.0 s · 6 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Df_-XlEDT7K/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df_-ZLPDaWm/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 5 s
+Gemini : gemini-flash-lite-latest : réponse en 7 s · gemini-flash-lite-latest : réponse en 15 s

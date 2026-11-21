@@ -1,1 +1,54 @@
-Pas de post : hors horaires (10:01 à Paris)
+Mode : auto
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @le.bruit.rap (16 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 9 / 100
+Rap · @rap.minute → 12 posts lus
+Rap · @rapfractusofficiel → 12 posts lus
+Rap · @booska_p → 12 posts lus
+X · @RapFrActus → refus Apify HTTP 400 : {
+  "error": {
+    "type": "run-failed",
+    "message": "Actor run did not succeed (run ID: qufqB2Itgx0WzGbRx, status: FAILED)."
+  }
+}
+X · @FrenchRapUS → refus Apify HTTP 400 : {
+  "error": {
+    "type": "run-failed",
+    "message": "Actor run did not succeed (run ID: EpZugT4ISCxHRTPdR, status: FAILED)."
+  }
+}
+X · @Rapunchline → refus Apify HTTP 400 : {
+  "error": {
+    "type": "run-failed",
+    "message": "Actor run did not succeed (run ID: R2ieG2kCXGsZS7wO1, status: FAILED)."
+  }
+}
+X · @SpotifyFrance → refus Apify HTTP 400 : {
+  "error": {
+    "type": "run-failed",
+    "message": "Actor run did not succeed (run ID: v1AhGCFSJJiJd1l5t, status: FAILED)."
+  }
+}
+9 infos fraîches et jamais traitées (sur 36 lues)
+   3/10 ✗ pas une news « Madeleine + Lait, classique ou pas ? 👀 »
+   8/10 ✓ « 🎬 Cinq ans après L’Étrange Histoire de Mr. Anderson, Laylow s’apprête  »
+   0/10 ✗ pas une news « Un an après avoir subi la première défaite de sa carrière face à Jorda »
+   0/10 ✗ pas une news « Six ans après l’agression de Michel Zecler, Pierre Plantier, Philippe  »
+   4/10 ✗ pas une news « jrsaint94 a suivi Tiakola dans sa loge avant son show Red Bull Symphon »
+   2/10 ✗ pas une news « Ninho, Bouss, Stavo feat Zefor… Toute l’actu du jour est dans le Flash »
+   0/10 ✗ pas une news « Le Conseil de Paris a voté ce vendredi la création d’un square en homm »
+   9/10 ✗ déjà publiée « 🪎SCH transforme l’annonce de sa tournée 2027 en chasse au trésor géant »
+   7/10 ✓ « No Limit a réuni un casting XXL à l’Accor Arena 🤯 »
+RAP FR · 2 infos retenues, meilleure : « 🎬 Cinq ans après L’Étrange Histoire de Mr. Anderson, Laylow s’apprête à ouvrir u » (8/10)
+  photo · 1 image(s) : 1080x1440
+  visuels · deezer « Laylow » → 6 image(s)
+  couverture LE BRUIT · photo1 · haut
+  carrousel prêt : « Laylow annonce un nouveau chapitre avec INTENSE » (5 slides)
+  voix · contrôle OK (96%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (8.4 s)
+  reel LE BRUIT · 9.6 s · 4 plans · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Df_-9EijNQn/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df_--lstTm0/
+  ✅ STORY PUBLIÉE (vidéo)
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 3 s
