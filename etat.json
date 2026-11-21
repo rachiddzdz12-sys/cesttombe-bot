@@ -650,7 +650,18 @@
   "web:google news:CBMi2wFBVV95cUxNeXVqXzhqQVJQWk5hZDVHWU9yTXBBbkZaYmlJVUFaWFE5OFQ1ZkpXaUh4c1lUVWJZQUtpWHZaX2ZTLVdER18wbGRTVkZ3MjE4UnlvNlR3VzlXSVQyb254ZU9OREdtMEMwRU5ZYXpyZWlJSXBFRlN2LUJNOUU4dkVKSHpyUjRHUVNYZ0ZxbHdhenl5Qk1xU3FXRnQ0czVSUTRneFcxSlpfLTZHTmJfTXk1ZkIzVERnd3NxbHBFSVBVSVg2WHczTFBUd25HdVVNVWtXNzZHR01lRU5mUGM": "2026-11-21T16:01:35.086250+00:00",
   "web:insider gaming:https://insider-gaming.com/?p=239921": "2026-11-21T16:01:35.086250+00:00",
   "web:google news:CBMiqAFBVV95cUxPbDg2U1JaOUhvWHV1eG1SQXZDTVpvYzRKWG1DT1JJZFNZSkQ0SkFwQ1c0dWdqMzBBd25DWkhsaFBpVkVYclZFQUZjVXdfZFpieHZ6RGlTTU01X0RkSjl1c2haYWFKNHBTeWZiTU80bmthQmExRElmZ2dZeDNRa3ppSV9sRlVIX0E5bE9MclZsS0pfT1RYN29ic2J3TTFmZWN0YV9ZU1lYSEU": "2026-11-21T16:01:35.086250+00:00",
-  "x:2123903965305688300": "2026-11-21T16:01:35.086250+00:00"
+  "x:2123903965305688300": "2026-11-21T16:01:35.086250+00:00",
+  "web:google news:CBMiXEFVX3lxTE94R1BYdUlHWDRGSng3d2hkQ0Fra2FuVFB5UEdMM1BoX08tUXQwTFI1Nkx6WGdwdV9nYkFCbHN4ZVFidXM2N2xaZk1KbTRtR21qSGxub21JeUtSeTZs": "2026-11-21T17:01:43.845062+00:00",
+  "web:gamesradar:KbGQTkX2QZMH6xcFnaCUGb": "2026-11-21T17:01:43.845062+00:00",
+  "web:gamesradar:fGiB9ZLvQCmgCSgQxP3vGM": "2026-11-21T17:01:43.845062+00:00",
+  "web:gamesradar:PFPqrAjk2CxifPPHbLYy8h": "2026-11-21T17:01:43.845062+00:00",
+  "web:google news:CBMifkFVX3lxTE85MlJzeHI5QjF2bWEyaDNUek5tMGFMRVc5aVlxdlJoSC15VHFMa0toMDdVT3VZWlRqUk9idEhFd1Y1NVZpNTNKNTJBLTRFOW9oOUhNTUhJejVGMXlFamlDS202a21UakdKQjdZbndJdXo4S3FoQ05EQnZYZzJvQQ": "2026-11-21T17:01:43.845062+00:00",
+  "web:gamesradar:XvCBmeEngKLVG9uTvBgftW": "2026-11-21T17:01:43.845062+00:00",
+  "web:gamesradar:ecFcckma2vJPQVh8WkNnwi": "2026-11-21T17:01:43.845062+00:00",
+  "web:gamesradar:zw4FpQjWeVb5aj7vd4gen5": "2026-11-21T17:01:43.845062+00:00",
+  "web:gamesradar:ybKFUUe33bqaaEvjRKzzHn": "2026-11-21T17:01:43.845062+00:00",
+  "web:google news:CBMiqAFBVV95cUxOV1Nra0dmTUU4ZVlSVUJQR0tPZmtOT0oySjN6ZE8tRC15YUlwcUJtN2hmYl9vdEZsaWVUTmhWUHhNSURZbThWRnpMQktfRzBMWGxPMDdUWkFjNnFUbU56Znh3ZjVOUkduVWtaam1jRzJiVTVNX3ItY1FwLUhIUXlNcHg1azZUUDRlZWFMQWlhblotMTNxV1YzU1FkbTFfZW5STDYyZW43Wjk": "2026-11-21T17:01:43.845062+00:00",
+  "x:2124150087106572750": "2026-11-21T17:01:43.845062+00:00"
  },
  "publies": [
   {
@@ -1813,10 +1824,19 @@
    "lien": "https://www.instagram.com/p/DgAnkPQCdVg/",
    "reel": "https://www.instagram.com/reel/DgAnmTME3K_/",
    "story": "18114169628235641"
+  },
+  {
+   "ts": "2026-11-21T17:01:43.845062+00:00",
+   "categorie": "GAMING",
+   "titre": "GTA VI : un leak majeur pour jouer sur PC ?",
+   "source_id": "x:2124150087106572750",
+   "lien": "https://www.instagram.com/p/DgAuoa-n5dI/",
+   "reel": "https://www.instagram.com/reel/DgAuqDKEwkK/",
+   "story": "17955971625304627"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 3972
+  "tweets": 3987
  }
 }
