@@ -1,14 +1,14 @@
 Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
-Instagram · @cesttombe.actu (16 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 48 / 100
+Instagram · @cesttombe.actu (17 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 45 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → 92 infos
-Web · GOOGLE NEWS → HTTP 429
-Web · BING ACTU → 12 infos
-Web · BING ACTU VI → 12 infos
+Web · GOOGLE ACTU → 100 infos
+Web · GOOGLE NEWS → 100 infos
+Web · BING ACTU → 11 infos
+Web · BING ACTU VI → 11 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
@@ -23,52 +23,50 @@ Instagram · @playstationfr → 12 posts lus, 6 gardés
 X · @RockstarGames → refus Apify HTTP 400 : {
   "error": {
     "type": "run-failed",
-    "message": "Actor run did not succeed (run ID: 0MNeDV2pbRAKv55EA, status: FAILED)."
+    "message": "Actor run did not succeed (run ID: 21cHRu4Ar2FP3qAjT, status: FAILED)."
   }
 }
 X · @RockstarIntel → refus Apify HTTP 400 : {
   "error": {
     "type": "run-failed",
-    "message": "Actor run did not succeed (run ID: 8XK89kY8DX0A1rWna, status: FAILED)."
+    "message": "Actor run did not succeed (run ID: x6Yj3Mg4oOLK8SunT, status: FAILED)."
   }
 }
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-198 infos fraîches et jamais traitées (sur 374 lues)
-   8/10 ✓ « GTA 6 ne se lance pas : erreur PSN, code absent et crash du jeu »
-   7/10 ✗ déjà publiée « Could This Major GTA VI Leak Make It Playable On PC? »
-   9/10 ✗ déjà publiée « GTA 6 a pulvérisé le record de ventes à son lancement »
-   2/10 ✗ pas une news « GTA 6 guide : missions, butin, Donnie et astuces pour démarrer »
-   4/10 ✗ pas une news « GTA 6 : comment activer le mode première personne caché sur PS5 et Xbo »
-   1/10 ✗ pas une news « Chase Elliott ne prévoit pas de jouer à GTA VI »
-   6/10 ✓ « GTA 6 sur Nintendo Switch : green-nx le lance en cloud »
-   7/10 ✓ « GTA 6 limite l'accès à quatre magasins pour l'édition Ultimate, moyenn »
-   3/10 ✗ pas une news « GTA 6 : 11 hôtels de luxe pour dormir dans la vraie Vice City, à Miami »
-   8/10 ✗ déjà publiée « GTA 6 : la presse l'encense, les joueurs beaucoup moins, et pas toujou »
-   9/10 ✗ déjà publiée « How Many Copies Has GTA 6 Sold? Money Made So Far (November 2026) »
-   3/10 ✗ pas une news « GTA VI : Rockstar m’aurait-il trompé sur la marchandise ? »
-   2/10 ✗ pas une news « GTA 6 : Comment activer la conduite automatique ? »
-   3/10 ✗ pas une news « GTA 6 : j'avais juré d'attendre la version PC, et je ne regrette pas d »
-   5/10 ✓ « GTA VI sur Xbox Series X peut tourner à plus de 30 FPS grâce à la fonc »
-   6/10 ✓ « Débat autour de GTA 6 : des personnalités chrétiennes invitent à la ré »
-   1/10 ✗ pas une news « Where to Find The Pegassi Tempesta Supercar in GTA 6—Randy’s Wishlist  »
-   7/10 ✓ « Armées, marques, personnalités politiques... Ils surfent tous sur la v »
-   6/10 ✗ déjà publiée « Musique de GTA VI à Vice City : quelles nouveautés écouter ? »
-   2/10 ✗ pas une news « GTA 6 : comment échapper à la police avec Lucia dans le prologue ? »
-GAMING · 6 infos retenues, meilleure : « GTA 6 ne se lance pas : erreur PSN, code absent et crash du jeu » (8/10)
-  article · jvfrance.com
-  article · 0 caractères lus
-  ⏭️ article illisible, info écartée : « GTA 6 ne se lance pas : erreur PSN, code absent et crash du  »
-  article · fr.gamegpu.com
-  article · 2194 caractères lus
-  photo · 1 image(s) : 1920x1080
-  visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  couverture · photo1 · zoom 1.0 · PAS PROPRE
-  carrousel prêt : « GTA 6 bloqué l'accès à quatre magasins avec l'Édition Ultime » (4 slides)
-  voix · ⚠️ refaite, texte différent (67%) : « Tu savais que GTA VI bloquait 4 magasins pour la version standard ? Il faut payer 20 $ de plus pour y accéder. Tu trouves ça normal ? Tu savais que GTA VI bloqu »
-  voix · contrôle OK (97%, essai 2, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (7.5 s)
-  reel · 9.2 s · 6 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgAZ8XMDpaD/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgAZ_ZXAthm/
+276 infos fraîches et jamais traitées (sur 480 lues)
+   6/10 ✗ déjà publiée « GTA VI a essuyé de nombreuses critiques négatives lors de sa sortie. »
+  10/10 ✗ déjà publiée « GTA VI signe le meilleur démarrage de l’histoire, tous médias confondu »
+   5/10 ✗ déjà publiée « ‘Grand Theft Auto VI: The Album’ Is All Over the Place (in a Good Way) »
+  10/10 ✗ déjà publiée « Le jeu "GTA VI" a généré 3,79 milliards de dollars de ventes le jour d »
+   6/10 ✓ « Watch Bulls Mascot Play GTA 6 and Ignore Wizards Players' Intros in Vi »
+   0/10 ✗ pas une news « GTA 6 Day Release yacht guide: where Mattia is and how to hit all thre »
+   0/10 ✗ pas une news « Where to Find The Pegassi Infernus Supercar in GTA 6—Randy’s Wishlist  »
+   7/10 ✓ « Le limiteur de vitesse adaptatif de GTA 6 transforme la gâchette de la »
+   7/10 ✗ déjà publiée « GTA 6 : les joueurs sur PC saluent le portage non officiel sur PC malg »
+   6/10 ✓ « Le « petit Sam » de GTA 6 ressemble beaucoup à Sam Houser, et Rockstar »
+   0/10 ✗ pas une news « GTA 6 safe codes and how to get them »
+   7/10 ✓ « Men Are Spending Thousands on AI Girlfriends Inspired by GTA 6’s Lucia »
+   4/10 ✗ trop faible (mini 5) « GTA VI FSR 4.1 on Xbox: 1-Year Delay Claim Unproven »
+   6/10 ✓ « GTA VI Hype Takes Over as Creative Sign Steals the Show at ESPN’s ‘Col »
+   0/10 ✗ pas une news « GTA 6 Day Release: which choices add relationship hearts and which do  »
+   0/10 ✗ pas une news « GTA 6: Should You Kill Or Spare Kyle In "Buddy" »
+   8/10 ✗ déjà publiée « GTA 6 and Ocarina of Time remake caught in Metacritic review bomb war »
+   0/10 ✗ pas une news « Where to Find The Pegassi Vitello Supercar in GTA 6—Randy’s Wishlist C »
+   0/10 ✗ pas une news « Kyle GTA 6 : Comment finir la mission secondaire secrète de Hulk au ch »
+   5/10 ✓ « GTA 6 Provides A Perfect Explanation For Lucia's Violent Tendencies »
+GAMING · 6 infos retenues, meilleure : « Le limiteur de vitesse adaptatif de GTA 6 transforme la gâchette de la DualSense » (7/10)
+  article · notebookcheck.biz
+  article · 4345 caractères lus
+  photo · 1 image(s) : 1024x768
+  visuels · steam « Grand Theft Auto VI » → 3 image(s)
+  couverture · photo1 · zoom 1.0 · propre
+  slide 4 · photo4 : pas de zone parfaitement propre
+  carrousel prêt : « Le limiteur de vitesse adaptatif exclusif sur PS5 dans GTA 6 » (5 slides)
+  voix · ⚠️ refaite, texte différent (66%) : « Tu savais que la gâchette de la PS5 résiste dans GTA VI, elle bloque ton doigt pour limiter ta vitesse. Tu joueras sur PS5 ou Xbox ? Tu savais que la gâchette d »
+  voix · contrôle OK (95%, essai 2, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (8.0 s)
+  reel · 9.6 s · 6 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgAgrQTDLnG/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgAgtNZCVOy/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : réponse en 16 s
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s
