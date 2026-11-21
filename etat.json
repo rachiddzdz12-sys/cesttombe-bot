@@ -674,7 +674,13 @@
   "web:jeuxvideo.com:https://www.jeuxvideo.com/news/2115396/ces-3-jeux-a-la-gta-ont-participe-a-la-fermeture-de-leur-studio-et-ils-ne-sont-jamais-sortis.htm": "2026-11-21T19:01:42.034185+00:00",
   "web:google actu:CBMiYEFVX3lxTFB6MEE0TzY5a0lxaTNjbTNzbHBZajM1TXE1OUM0QTVQMHBlby1UZTM5MjRIQzNWT21FejVxcEFybmY4bnoyYjg3eWJiSEptTVhyU2V0UDFwVVR1TlZ6dWZINw": "2026-11-21T19:01:42.034185+00:00",
   "web:google actu:CBMixAFBVV95cUxQaG5kXzdQa2ZOLW1NeHdMeFpCMDdPTjZNSFhUM1V4ZF9DbFBjbUl1dktYXzdnTHJXOFczcUNzYjJ0T0g3WDE0N0VSNDY3TDZ0Y05fMnlfdWhDNmdNbE5SdHAwcUdiU0MzZXo3eV8xcHBZYlpSdHlyOHFwVlJLWklhcDR6dkJFOUE3Nk9pb19zMkRheWhfc3NubHhqUU4tWTdjMmFCZWZDbENzTXBJQ0x3VnNVYWNKT3B2bVEtSk1kMDJWRUJD": "2026-11-21T19:01:42.034185+00:00",
-  "web:google actu:CBMikwFBVV95cUxQclBqajFjV1NIaDg3SmpUTjhMdGlhTDFXcm42VXlNbWl6SzZvNzNxaENrUndVN295ZXBfcEhwVFdrNjJIT0Q3YmJtc19mMjdDNi1na2VlRnlHdWlDcW1QOHFPaFh3UkZfYmcyRzRpOENPU2tKOFpCVm9sUTdlNkZuNzgzaWN0ZDI0WTZsY1JHMU9jV00": "2026-11-21T19:01:42.034185+00:00"
+  "web:google actu:CBMikwFBVV95cUxQclBqajFjV1NIaDg3SmpUTjhMdGlhTDFXcm42VXlNbWl6SzZvNzNxaENrUndVN295ZXBfcEhwVFdrNjJIT0Q3YmJtc19mMjdDNi1na2VlRnlHdWlDcW1QOHFPaFh3UkZfYmcyRzRpOENPU2tKOFpCVm9sUTdlNkZuNzgzaWN0ZDI0WTZsY1JHMU9jV00": "2026-11-21T19:01:42.034185+00:00",
+  "web:google actu:CBMiakFVX3lxTE9vcU8yWC1SSThROGFhdW9GOGQ0MFdqMzZYTVhiNGx4a2VJYU1GNkdhTE9odk9nU1ZNVGl0bVpBUlVaOTFEdFYydDNUSGE3bEJYYTZ0a05KalRfOVlWOUhQbFl0eU9TQTJ6c2c": "2026-11-21T20:01:32.379264+00:00",
+  "web:google actu:CBMi0wFBVV95cUxOWmxIaFE5ajF1dXJvRWx4aHR2YXBXY0laekZnOG9tN09ZZHlnUDZjVnFVbWJDVzM5X0JsbjhHYXVmVG9UZGhaMkhXRmtFVWtlODRzcllKZ3pnWmJKOC1lR1ZObDNpU0MtRTNJYW9acWtIdHRmRmFpUmdpRDBaZ1RDZnpwYVkwdWlhd3RvOXZlWmRydHZtbFdqaDNUQWc5YmdPSmx4eTFOTEJYTHRNS1NNdnBHd3lvVk5iNzNHZG9KQm91X1ZjYlZ2Ym5fZ1BBXzBfUl84": "2026-11-21T20:01:32.379264+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=240046": "2026-11-21T20:01:32.379264+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=240049": "2026-11-21T20:01:32.379264+00:00",
+  "web:google actu:CBMijgFBVV95cUxNRmxmMlhrMzJ6TGlscjFlQ0dOT1JJYVhqQ0doSmxfQ0JvcjYwSUtKSG10dVo1S1d5YW1uNnczNzVMNU9jZDFBUjBqbUJaTXBJYkx3bVYwMmVtY2RJSnBNNDlVZ0RKRjdMWHJMMVVLNUVQVjNWb0VqRjlubThldWJ6WDI4c2ZsLXRvWkliZmV3": "2026-11-21T20:01:32.379264+00:00",
+  "ag:https://www.actugaming.net/?p=834589": "2026-11-21T20:01:32.379264+00:00"
  },
  "publies": [
   {
@@ -1864,10 +1870,17 @@
    "lien": "https://www.instagram.com/p/DgA8ES1jL0E/",
    "reel": "https://www.instagram.com/reel/DgA8FuTAaKZ/",
    "story": "18100816415537370"
+  },
+  {
+   "ts": "2026-11-21T20:01:32.379264+00:00",
+   "categorie": "GAMING",
+   "titre": "GTA 6 impressionne les studios de jeux vidéo",
+   "source_id": "ag:https://www.actugaming.net/?p=834589",
+   "lien": null
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 4047
+  "tweets": 4062
  }
 }
