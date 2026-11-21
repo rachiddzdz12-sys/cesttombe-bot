@@ -1,1 +1,47 @@
-Pas de post : dernier post il y a 174 min (minimum 210)
+Mode : auto
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @le.bruit.rap (16 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 8 / 100
+Rap · @rap.minute → 12 posts lus
+Rap · @rapfractusofficiel → 12 posts lus
+Rap · @booska_p → 12 posts lus
+X · @RapFrActus → refus Apify HTTP 400 : {
+  "error": {
+    "type": "run-failed",
+    "message": "Actor run did not succeed (run ID: 4cLboiM0oBV1VEUte, status: FAILED)."
+  }
+}
+X · @FrenchRapUS → refus Apify HTTP 400 : {
+  "error": {
+    "type": "run-failed",
+    "message": "Actor run did not succeed (run ID: koKLlasbafpJBeCWS, status: FAILED)."
+  }
+}
+X · @Rapunchline → refus Apify HTTP 400 : {
+  "error": {
+    "type": "run-failed",
+    "message": "Actor run did not succeed (run ID: w80RCGFm8A7CnOIhe, status: FAILED)."
+  }
+}
+X · @SpotifyFrance → refus Apify HTTP 400 : {
+  "error": {
+    "type": "run-failed",
+    "message": "Actor run did not succeed (run ID: aYw883KoTe9DDKWus, status: FAILED)."
+  }
+}
+2 infos fraîches et jamais traitées (sur 36 lues)
+   9/10 ✓ « Bientôt un feat entre Booba et Freeze Corleone ? 🤯 »
+   6/10 ✓ « 👑 À l’occasion de ses 40 ans de carrière, le légendaire MC Solaar se d »
+RAP FR · 2 infos retenues, meilleure : « Bientôt un feat entre Booba et Freeze Corleone ? 🤯 » (9/10)
+  photo · 1 image(s) : 1080x1375
+  visuels · deezer « Booba » → 6 image(s)
+  couverture LE BRUIT · photo1 · haut
+  carrousel prêt : « Bientôt un feat entre Booba et Freeze Corleone ? » (4 slides)
+  voix · contrôle OK (88%, essai 1, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (7.7 s)
+  reel LE BRUIT · 9.0 s · 5 plans · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgAagPhpeLQ/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgAah-dq0E3/
+  ✅ STORY PUBLIÉE (vidéo)
+Gemini : gemini-flash-lite-latest : réponse en 5 s · gemini-flash-lite-latest : réponse en 2 s
