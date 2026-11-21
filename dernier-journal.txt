@@ -2,13 +2,13 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (17 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 45 / 100
+Instagram · posts publiés par l'API sur 24 h : 48 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → 100 infos
+Web · GOOGLE ACTU → HTTP 429
 Web · GOOGLE NEWS → 100 infos
-Web · BING ACTU → 11 infos
-Web · BING ACTU VI → 11 infos
+Web · BING ACTU → 12 infos
+Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
@@ -17,56 +17,43 @@ Web · GTABASE → 30 infos
 Web · GAMEKULT → 15 infos
 Web · IGN FRANCE → 19 infos
 Web · JEUXVIDEO.COM → 19 infos
-Web · INSIDER GAMING → 7 infos
+Web · INSIDER GAMING → 9 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → refus Apify HTTP 400 : {
-  "error": {
-    "type": "run-failed",
-    "message": "Actor run did not succeed (run ID: 21cHRu4Ar2FP3qAjT, status: FAILED)."
-  }
-}
-X · @RockstarIntel → refus Apify HTTP 400 : {
-  "error": {
-    "type": "run-failed",
-    "message": "Actor run did not succeed (run ID: x6Yj3Mg4oOLK8SunT, status: FAILED)."
-  }
-}
+X · @RockstarGames → 10 tweets lus, 2 gardés (ce mois : 3957 / 10000)
+X · @RockstarIntel → 10 tweets lus, 9 gardés (ce mois : 3972 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-276 infos fraîches et jamais traitées (sur 480 lues)
-   6/10 ✗ déjà publiée « GTA VI a essuyé de nombreuses critiques négatives lors de sa sortie. »
-  10/10 ✗ déjà publiée « GTA VI signe le meilleur démarrage de l’histoire, tous médias confondu »
-   5/10 ✗ déjà publiée « ‘Grand Theft Auto VI: The Album’ Is All Over the Place (in a Good Way) »
-  10/10 ✗ déjà publiée « Le jeu "GTA VI" a généré 3,79 milliards de dollars de ventes le jour d »
-   6/10 ✓ « Watch Bulls Mascot Play GTA 6 and Ignore Wizards Players' Intros in Vi »
-   0/10 ✗ pas une news « GTA 6 Day Release yacht guide: where Mattia is and how to hit all thre »
-   0/10 ✗ pas une news « Where to Find The Pegassi Infernus Supercar in GTA 6—Randy’s Wishlist  »
-   7/10 ✓ « Le limiteur de vitesse adaptatif de GTA 6 transforme la gâchette de la »
-   7/10 ✗ déjà publiée « GTA 6 : les joueurs sur PC saluent le portage non officiel sur PC malg »
-   6/10 ✓ « Le « petit Sam » de GTA 6 ressemble beaucoup à Sam Houser, et Rockstar »
-   0/10 ✗ pas une news « GTA 6 safe codes and how to get them »
-   7/10 ✓ « Men Are Spending Thousands on AI Girlfriends Inspired by GTA 6’s Lucia »
-   4/10 ✗ trop faible (mini 5) « GTA VI FSR 4.1 on Xbox: 1-Year Delay Claim Unproven »
-   6/10 ✓ « GTA VI Hype Takes Over as Creative Sign Steals the Show at ESPN’s ‘Col »
-   0/10 ✗ pas une news « GTA 6 Day Release: which choices add relationship hearts and which do  »
-   0/10 ✗ pas une news « GTA 6: Should You Kill Or Spare Kyle In "Buddy" »
-   8/10 ✗ déjà publiée « GTA 6 and Ocarina of Time remake caught in Metacritic review bomb war »
-   0/10 ✗ pas une news « Where to Find The Pegassi Vitello Supercar in GTA 6—Randy’s Wishlist C »
-   0/10 ✗ pas une news « Kyle GTA 6 : Comment finir la mission secondaire secrète de Hulk au ch »
-   5/10 ✓ « GTA 6 Provides A Perfect Explanation For Lucia's Violent Tendencies »
-GAMING · 6 infos retenues, meilleure : « Le limiteur de vitesse adaptatif de GTA 6 transforme la gâchette de la DualSense » (7/10)
-  article · notebookcheck.biz
-  article · 4345 caractères lus
-  photo · 1 image(s) : 1024x768
-  visuels · steam « Grand Theft Auto VI » → 3 image(s)
+201 infos fraîches et jamais traitées (sur 395 lues)
+  10/10 ✗ déjà publiée « Grand Theft Auto VI is now available for PlayStation 5 and XBOX Series »
+   9/10 ✗ déjà publiée « Florida Joker Is In GTA VI, Rockstar Confirms »
+   7/10 ✓ « Could This Major GTA VI Leak Make It Playable On PC? »
+   3/10 ✗ pas une news « 30+ Hidden GTA 6 Controls and Secret Mechanics You May Have Missed! »
+  10/10 ✗ déjà publiée « GTA VI Breaks Records With 32.5 Million Copies Sold, $4 Billion On Rel »
+   8/10 ✓ « 35,000 More Students Missed School in England on GTA VI Release Day! »
+   8/10 ✗ déjà publiée « GTA VI's Famous Bikini Girl From Trailer 1 Has Been Found! »
+   6/10 ✗ déjà publiée « New GTA VI Backgrounds Added To PS5! »
+   9/10 ✗ déjà publiée « Florida Joker Is In GTA VI, Rockstar Confirms »
+   2/10 ✗ pas une news « Where to Find The Grotti Itali RSX Supercar in GTA 6—Randy’s Wishlist  »
+   2/10 ✗ pas une news « How to complete the GTA 6 Tourist Trap mission »
+  10/10 ✗ déjà publiée « Grand Theft Auto VI Makes Almost $4 Billion Dollars In Less Than 24 Ho »
+   4/10 ✗ pas une news « Slideshow: GTA 6 Bikini Girl Screenshots »
+   6/10 ✓ « Will GTA 6 run at 60fps when it releases on PC? »
+   7/10 ✓ « Journalist Plays GTA 6, Can’t Find a Church, Calls Game ‘Electronic Po »
+   3/10 ✗ pas une news « Get ready for the GTA 6 launch. Discover release times, preload detail »
+   5/10 ✓ « Ben Feder’s 5 Quotes: GTA VI as the Last Pre-AI Epic »
+   4/10 ✗ pas une news « How to Make Lucia Nude in GTA 6 »
+   8/10 ✗ déjà publiée « GTA 6 PS5 Review Bombing Out of Control as Zelda Receives Revenge Rati »
+   2/10 ✗ pas une news « Grand Theft Draft Pick: Packers’ Biggest Steals Between GTA 5 and GTA  »
+GAMING · 5 infos retenues, meilleure : « 35,000 More Students Missed School in England on GTA VI Release Day! » (8/10)
+  photo · échec : image trop petite (48x48)
+  photo · 1 image(s) : 1200x675
+  visuels · steam « Grand Theft Auto VI » → 4 image(s)
   couverture · photo1 · zoom 1.0 · propre
-  slide 4 · photo4 : pas de zone parfaitement propre
-  carrousel prêt : « Le limiteur de vitesse adaptatif exclusif sur PS5 dans GTA 6 » (5 slides)
-  voix · ⚠️ refaite, texte différent (66%) : « Tu savais que la gâchette de la PS5 résiste dans GTA VI, elle bloque ton doigt pour limiter ta vitesse. Tu joueras sur PS5 ou Xbox ? Tu savais que la gâchette d »
-  voix · contrôle OK (95%, essai 2, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (8.0 s)
-  reel · 9.6 s · 6 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgAgrQTDLnG/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgAgtNZCVOy/
+  carrousel prêt : « 35000 élèves absents en Angleterre le jour de GTA 6 » (3 slides)
+  voix · contrôle OK (96%, essai 1, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (6.5 s)
+  reel · 8.2 s · 5 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgAnkPQCdVg/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgAnmTME3K_/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s
+Gemini : gemini-flash-lite-latest : réponse en 7 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : réponse en 11 s
