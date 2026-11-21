@@ -1,7 +1,7 @@
 Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
-Instagram · @cesttombe.actu (15 abonnés)
+Instagram · @cesttombe.actu (16 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 48 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
@@ -14,57 +14,60 @@ Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
-Web · GAMEKULT → 16 infos
-Web · IGN FRANCE → 25 infos
+Web · GAMEKULT → 15 infos
+Web · IGN FRANCE → 20 infos
 Web · JEUXVIDEO.COM → 18 infos
-Web · INSIDER GAMING → 6 infos
+Web · INSIDER GAMING → 7 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
 X · @RockstarGames → refus Apify HTTP 400 : {
   "error": {
     "type": "run-failed",
-    "message": "Actor run did not succeed (run ID: wVmxQG4u1X78vcRGd, status: FAILED)."
+    "message": "Actor run did not succeed (run ID: 6JDgDHmehMHRq33fw, status: FAILED)."
   }
 }
 X · @RockstarIntel → refus Apify HTTP 400 : {
   "error": {
     "type": "run-failed",
-    "message": "Actor run did not succeed (run ID: NN8IPUWQShS2M6qfa, status: FAILED)."
+    "message": "Actor run did not succeed (run ID: MpLjPR3YbfqltkVNT, status: FAILED)."
   }
 }
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-184 infos fraîches et jamais traitées (sur 369 lues)
-   6/10 ✗ déjà publiée « GTA 6 review bombed on MetaCritic - and it's sadly exactly why you thi »
-   6/10 ✗ déjà publiée « GTA 6 fans list every 'legitimate' complaint as GOTY gets reviewbombed »
-   2/10 ✗ pas une news « How to Survive Vice City: 14 GTA 6 Tips to Help You Build Your Crimina »
-  10/10 ✗ déjà publiée « GTA VI sets records with nearly $3.8 billion in first-day sales »
-   8/10 ✓ « GTA 6 Developer Rockstar Explains How It Made Every NPC in the Game Fe »
-   7/10 ✓ « I Expected GTA 6 to Struggle on the Xbox Series S. Instead, I Couldn’t »
-   2/10 ✗ pas une news « Want to discuss ‘Grand Theft Auto VI’ with gaming friends? Here’s a pr »
-   2/10 ✗ pas une news « How to get a Slim Jim in GTA 6 to steal cars without setting off an al »
-   3/10 ✗ pas une news « How to turn off GTA 6 auto uploads on Xbox »
-   3/10 ✗ pas une news « 30+ Hidden GTA 6 Controls and Secret Mechanics You Probably Missed »
-   7/10 ✓ « GTA VI Soundtrack Leads New Music Friday Alongside Gracie Abrams, LISA »
-   6/10 ✓ « Grand Theft Auto VI and The Game Awards deserve each other »
-   5/10 ✓ « What is Vice City? Why 'Grand Theft Auto 6' has co-opted 'College Game »
-   1/10 ✗ pas une news « GTA 6: Should You Max Out Your Savings? »
-   7/10 ✓ « GTA 6's First Major Death Might Be The Most Disturbing In The Entire F »
-   9/10 ✗ déjà publiée « GTA 6 obliterates box office records as fans spot impressive details a »
-   3/10 ✗ pas une news « GTA 6 : comment jouer en vue à la première personne ? »
-   8/10 ✗ déjà publiée « How Grand Theft Auto VI's launch surpassed expectations »
-   8/10 ✗ déjà publiée « How Grand Theft Auto VI's launch surpassed expectations »
-   6/10 ✓ « Find Serenity in Grand Theft Auto VI. (Or Just Embrace the Chaos.) »
-GAMING · 7 infos retenues, meilleure : « GTA 6 Developer Rockstar Explains How It Made Every NPC in the Game Feel Alive » (8/10)
-  article · ign.com
-  article · 6000 caractères lus
-  photo · 1 image(s) : 1280x720
+182 infos fraîches et jamais traitées (sur 364 lues)
+  10/10 ✗ déjà publiée « GTA VI First-Day Sales: $3.79B, 4.7x GTA V »
+   8/10 ✗ déjà publiée « GTA 6: Is there a first-person mode? I've played it - here's what you  »
+   8/10 ✓ « GTA 6’s vehicle damage sets phenomenal, metal crushing, new standards »
+   2/10 ✗ pas une news « Everything to do before the GTA 6 Tourist Trap mission »
+   2/10 ✗ pas une news « A combination guide for electronic locks in Grand Theft Auto VI has ap »
+   3/10 ✗ pas une news « How to choose the right console for GTA 6 »
+   6/10 ✓ « Does GTA 6 Have Prostitutes or Sex Workers? »
+   9/10 ✓ « GTA 6 Officially Threatens Avengers 5 After Beating Brand New Day’s Bo »
+   8/10 ✓ « Rockstar wants you to see yourself in GTA 6's Jason and Lucia »
+   7/10 ✓ « Grand Theft Auto VI's Publisher Deeply Concerned About Efforts Reverse »
+   8/10 ✓ « GTA 6 launch costed the US around a billion dollars in productivity »
+   8/10 ✗ déjà publiée « How Rockstar Made Every NPC Feel Alive in GTA 6 »
+  10/10 ✗ déjà publiée « Grand Theft Auto VI rakes in billions »
+  10/10 ✗ déjà publiée « GTA 6 launch: 32.5 million copies, $3.79 billion, a record »
+   7/10 ✓ « Players are coming to ‘GTA VI’ for the car chases, but staying for the »
+   7/10 ✓ « GTA 6's narrative lead says Jason's reserved demeanor was inspired by  »
+   6/10 ✓ « Why is GTA VI so expensive to play? »
+   8/10 ✗ déjà publiée « GTA 6 review bombed on MetaCritic - and it's sadly exactly why you thi »
+   8/10 ✗ déjà publiée « GTA 6 fans list every 'legitimate' complaint as GOTY gets reviewbombed »
+   7/10 ✓ « Weird Al Yankovic's GTA 6 Role Explained »
+GAMING · 10 infos retenues, meilleure : « GTA 6 Officially Threatens Avengers 5 After Beating Brand New Day’s Box Office i » (9/10)
+  article · imdb.com
+  article · 0 caractères lus
+  ⏭️ article illisible, info écartée : « GTA 6 Officially Threatens Avengers 5 After Beating Brand Ne »
+  article · traxion.gg
+  article · 5950 caractères lus
+  photo · 1 image(s) : 1920x1080
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  couverture · photo1 · zoom 1.12 · propre
-  carrousel prêt : « Rockstar dévoile comment GTA 6 rend chaque personnage vivant » (4 slides)
-  voix · contrôle OK (98%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (8.3 s)
-  reel · 10.0 s · 6 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgAMEhVknKu/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgAMG4xk1li/
+  couverture · photo1 · zoom 1.0 · propre
+  carrousel prêt : « Les dégâts des véhicules dans GTA 6 fixent de nouveaux standards » (4 slides)
+  voix · contrôle OK (96%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (3.9 s)
+  reel · 5.6 s · 4 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgATII7DSiu/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgATJ-cjtcB/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : ReadTimeout après 60 s · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : réponse en 2 s · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : réponse en 2 s

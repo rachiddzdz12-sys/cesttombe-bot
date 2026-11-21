@@ -617,7 +617,12 @@
   "web:rockstar intel:https://rockstarintel.com/?p=44731": "2026-11-21T12:02:01.419359+00:00",
   "web:google news:CBMiYEFVX3lxTE1pWDJORThlcHluUUdFVmFRYWhaQmc4X3Vxb0wzMmlyMlJNX201X1pFYlM2ME1uRjhya095b0diMndzSkk0STd6ZzlQUkZzTnFKQndmT2FjVlNDYkk3YnhHeA": "2026-11-21T12:02:01.419359+00:00",
   "web:jeuxvideo.com:https://www.jeuxvideo.com/news/2115872/gta-6-comment-jouer-en-vue-a-la-premiere-personne.htm": "2026-11-21T12:02:01.419359+00:00",
-  "web:google news:CBMiggFBVV95cUxNZ2djV09jT3ZBdnhkTy1iUFprTW1hSlJLc2ZyWV9yMDNQdGtRT0o5d3pwaFF5S2V1QTNRVnlqdkc1SG9oNndzTFczZ3N3TVBqa0lfR2xzTkx3LVBCWEYwdk5SclJxbFpyQnhfamRXbzV1MUxGLUE3QmJNRVpIVU4zelp3": "2026-11-21T12:02:01.419359+00:00"
+  "web:google news:CBMiggFBVV95cUxNZ2djV09jT3ZBdnhkTy1iUFprTW1hSlJLc2ZyWV9yMDNQdGtRT0o5d3pwaFF5S2V1QTNRVnlqdkc1SG9oNndzTFczZ3N3TVBqa0lfR2xzTkx3LVBCWEYwdk5SclJxbFpyQnhfamRXbzV1MUxGLUE3QmJNRVpIVU4zelp3": "2026-11-21T12:02:01.419359+00:00",
+  "web:gamesradar:AzRGnUdbw3R8vy9tLthGbe": "2026-11-21T13:01:54.518537+00:00",
+  "web:google news:CBMivgFBVV95cUxQLUdoYWlyOEpQbkdqR1I4aVlmbEoyRElXUnB0eW9hUWlSVGMxTzlPNGlHelV0LXNaLWp4WVF2Tmsxb1JwYUxhWmYzZ0t5aWc3bEpiM3NSaV9YNV9zWXlqcUhhNFRUMjFmWmN4LWJuQi1yRGNNSUd6VWxWdXE5X29tLUZtZWlxU2Z4RkZraE5FWFpUcTJ4VTlOazlnekxPZ2VKb0hJekNnQkpOdWdMT2J1anFSVEszeHhpV2prSzNR": "2026-11-21T13:01:54.518537+00:00",
+  "web:google news:CBMigAFBVV95cUxOMWZ5ZUpZanZ4V21ETEFleXBkVmNhSXJiQ3dIeWNiZVVZQlhRN1I1LTg3TjBEMEo3WDgxM2c0SHljVjROa3R2Ym9QWUllTmdJRXV4NXNUZEZPN0hVM1JhRE9iQlQ1NDFGSmxjRTVseHRvRFY1MWM3YWloS3lwSjZGbdIBgAFBVV95cUxNc1B1WHBGN01TUnoyc2pEV0VEcnJNdmhwYS1NMmIyQWxvWEhSYTFycy0zVGd2UWNrZk9sTV9CTUhEdmQ5ck5yZXNuM2tUeUJWMklLX05RVzNtMTBGY2hKcXN0STFGd08yaXJPNDFWWklPdHBzUTRMSXNPb2NRMXExeA": "2026-11-21T13:01:54.518537+00:00",
+  "web:google news:CBMiYkFVX3lxTFB5QjdGSERsaHV6Q3lPZ1RvZlBwNFZyZW1hTWhsQ043cDBFZE9NYS1McEVGbjRCZm05UEJzMmN3SEZwMUxhYi1PRHo3eThZRDY3NUdqNmpvTExzN3NGSkRJS19R": "2026-11-21T13:01:54.518537+00:00",
+  "web:google news:CBMijwFBVV95cUxONUlxc0oxOElmWEpjbDR5OGJxdkN1RzJaM2RITHJGNjh1R0lPd1VWbzVsbFRudGVtSi1UN1JpbEtxd1cwWWRyQzFmYnNHQWJVOEoxekJ1emxrVGxWV01VdlFwQlNCQ2YwTjl3SENBSzV1QmhhbmNLc2kwZHpNOTVpaXVkVzNjYzVGYW1XeTNaZw": "2026-11-21T13:01:54.518537+00:00"
  },
  "publies": [
   {
@@ -1744,6 +1749,15 @@
    "lien": "https://www.instagram.com/p/DgAMEhVknKu/",
    "reel": "https://www.instagram.com/reel/DgAMG4xk1li/",
    "story": "18344529757259170"
+  },
+  {
+   "ts": "2026-11-21T13:01:54.518537+00:00",
+   "categorie": "GAMING",
+   "titre": "Les dégâts des véhicules dans GTA 6 fixent de nouveaux standards",
+   "source_id": "web:google news:CBMijwFBVV95cUxONUlxc0oxOElmWEpjbDR5OGJxdkN1RzJaM2RITHJGNjh1R0lPd1VWbzVsbFRudGVtSi1UN1JpbEtxd1cwWWRyQzFmYnNHQWJVOEoxekJ1emxrVGxWV01VdlFwQlNCQ2YwTjl3SENBSzV1QmhhbmNLc2kwZHpNOTVpaXVkVzNjYzVGYW1XeTNaZw",
+   "lien": "https://www.instagram.com/p/DgATII7DSiu/",
+   "reel": "https://www.instagram.com/reel/DgATJ-cjtcB/",
+   "story": "17956423914295982"
   }
  ],
  "x_mois": {
