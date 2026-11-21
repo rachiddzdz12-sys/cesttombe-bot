@@ -5,57 +5,67 @@ Instagram · @cesttombe.actu (15 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 48 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → 92 infos
-Web · GOOGLE NEWS → 100 infos
+Web · GOOGLE ACTU → HTTP 429
+Web · GOOGLE NEWS → 92 infos
 Web · BING ACTU → 12 infos
-Web · BING ACTU VI → 2 infos
+Web · BING ACTU VI → 11 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
-Web · GAMEKULT → 16 infos
+Web · GAMEKULT → 15 infos
 Web · IGN FRANCE → 27 infos
-Web · JEUXVIDEO.COM → 17 infos
-Web · INSIDER GAMING → 6 infos
+Web · JEUXVIDEO.COM → 18 infos
+Web · INSIDER GAMING → 7 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 10 tweets lus, 4 gardés (ce mois : 3927 / 10000)
-X · @RockstarIntel → 10 tweets lus, 9 gardés (ce mois : 3942 / 10000)
+X · @RockstarGames → refus Apify HTTP 400 : {
+  "error": {
+    "type": "run-failed",
+    "message": "Actor run did not succeed (run ID: I5gUJV2Ic1r7i1zFc, status: FAILED)."
+  }
+}
+X · @RockstarIntel → refus Apify HTTP 400 : {
+  "error": {
+    "type": "run-failed",
+    "message": "Actor run did not succeed (run ID: m9Uu0eyPMkB6G1TIm, status: FAILED)."
+  }
+}
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-322 infos fraîches et jamais traitées (sur 483 lues)
-  10/10 ✗ déjà publiée « Grand Theft Auto VI is now available for PlayStation 5 and XBOX Series »
-   7/10 ✗ déjà publiée « GTA VI's Famous Bikini Girl From Trailer 1 Has Been Found! »
-   6/10 ✗ déjà publiée « New GTA VI Backgrounds Added To PS5! »
-   7/10 ✗ déjà publiée « Florida Joker Is In GTA VI, Rockstar Confirms »
-   7/10 ✗ déjà publiée « NEW GTA Online Event Week is LIVE and it's for the GTA VI launch! »
-   6/10 ✓ « ‘Grand Theft Auto VI’ is a hit — everywhere but the Senate »
-  10/10 ✗ déjà publiée « Un lancement "record" : les ventes de GTA 6 ont atteint 3,79 milliards »
-   4/10 ✗ pas une news « GTA 6 Has a Secret Haunted Hotel That Looks Straight Out of Silent Hil »
-   8/10 ✓ « "GTA VI, le jeu vidéo qui rend la planète folle" : regardez le documen »
-   5/10 ✗ pas une news « Streaming GTA 6? Turn this setting on so you don't get copyright strik »
-  10/10 ✗ déjà publiée « Take-Two’s ‘Grand Theft Auto VI’ Hits Nearly $4 Billion in Sales on La »
-   6/10 ✓ « Concernant GTA 6, les Français se distinguent des Américains : cette é »
-  10/10 ✗ déjà publiée « GTA VI : les ventes ont atteint 3,79 milliards de dollars le jour de s »
-   9/10 ✗ déjà publiée « Let's put GTA 6's $3.79 billion launch into perspective: GTA 5 made $8 »
-   5/10 ✓ « ‘GTA 6’ has taken over. Is it too late to buy the developer’s stock? »
-  10/10 ✗ déjà publiée « GTA VI génère 3,79 milliards de dollars en 24 heures »
-   3/10 ✗ pas une news « 'GTA 6': How to listen to the radio outside of a vehicle »
-  10/10 ✗ déjà publiée « Grand Theft Auto VI takes record $3.8 bn on first day »
-   2/10 ✗ pas une news « When Do Your BuckMe Limits Increase in GTA 6? Banking App, Explained »
-  10/10 ✗ déjà publiée « GTA VI a été vendu à 32,5 millions d’exemplaires, générant 3,79 millia »
-GAMING · 4 infos retenues, meilleure : « "GTA VI, le jeu vidéo qui rend la planète folle" : regardez le documentaire de f » (8/10)
-  article · franceinfo.fr
-  article · 4433 caractères lus
-  photo · 1 image(s) : 1500x843
+221 infos fraîches et jamais traitées (sur 380 lues)
+   6/10 ✓ « Grand Theft Auto Used to Satirize American Life. Now We’ve Caught Up W »
+   7/10 ✓ « Waka Flocka Flame Calls Older 'GTA VI' Players 'Pathetic': 'Ain't Gett »
+   6/10 ✓ « Apple Music's Club Live Transforms Into GTA VI Radio Livestream »
+   9/10 ✓ « GTA VI Nears $4B Launch, Boosts Take-Two »
+  10/10 ✗ déjà publiée « Grand Theft Auto VI makes entertainment history with $3.8B haul »
+  10/10 ✗ déjà publiée « Grand Theft Auto VI brings in $3.79B in first-day retail sales »
+  10/10 ✗ déjà publiée « Grand Theft Auto VI brings in $3.79B in first-day retail sales »
+  10/10 ✗ déjà publiée « Grand Theft Auto VI brings in $3.79B in first-day retail sales »
+   6/10 ✓ « GTA 6 Is Reportedly Tackling the Male Loneliness Epidemic — and What N »
+   5/10 ✓ « 'Real Time': Bill Maher On 'GTA VI', Robert Pattinson As James Bond »
+   8/10 ✗ déjà publiée « 'GTA VI' reviewed: After a 13-year-wait, it lives up to the hype »
+  10/10 ✓ « ‘A new record for entertainment’: Grand Theft Auto VI sales hit $3.8bn »
+   6/10 ✓ « Chris ‘Mad Dog’ Russo goes on epic ‘GTA 6’ rant — and implores gamers  »
+   8/10 ✓ « ‘GTA 6’ cast celebrity cameos: Bobby Moynihan, Bad Bunny and more »
+   7/10 ✓ « Even Benny the Bull can’t stop playing GTA 6 during player introductio »
+   3/10 ✗ pas une news « GTA 6: How To Listen To Music Outside Of Your Car »
+   2/10 ✗ pas une news « Baton Rouge gamers and parents are talking about GTA VI after its rele »
+  10/10 ✗ déjà publiée « ‘Grand Theft Auto VI’ sets record with $3.79B in first-day retail sale »
+   4/10 ✗ pas une news « GTA 6's Romance Rules Explained: Can You Cheat On Lucia? »
+   5/10 ✓ « GTA VI’s $3.79B Is Retail Sales, Not Take-Two Revenue »
+   2/10 ✗ pas une news « EA Sports FC 27 dévoile la première équipe Thunderstruck »
+GAMING · 11 infos retenues, meilleure : « ‘A new record for entertainment’: Grand Theft Auto VI sales hit $3.8bn on first  » (10/10)
+  article · theguardian.com
+  article · 3004 caractères lus
+  photo · 1 image(s) : 1200x630
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  couverture · photo1 · zoom 1.12 · propre
-  carrousel prêt : « GTA VI, le jeu vidéo qui rend la planète folle » (5 slides)
-  voix · ⚠️ refaite, texte différent (64%) : « J'étais à 6 et le jeu le plus cher de l'histoire. France Info sort un documentaire sur ce phénomène mondial et sa satire de l'Amérique. Tu vas le regarder ? J'é »
-  voix · contrôle OK (100%, essai 2, gemini-3.1-flash-tts-preview)
-  voix · Gemini (Aoede) (8.3 s)
-  reel · 10.0 s · 6 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Df-lP5TmsNt/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df-lSARDGit/
+  couverture · photo1 · zoom 1.12 · PAS PROPRE
+  carrousel prêt : « Grand Theft Auto VI bat tous les records avec 3,79 milliards de dollars » (4 slides)
+  voix · contrôle OK (97%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (6.0 s)
+  reel · 7.7 s · 5 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Df_izX8lzv8/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df_i0wCJQf4/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s · texte sans accents ou sans apostrophes : réécriture demandée · gemini-flash-latest : ReadTimeout après 60 s · gemini-flash-latest : surchargé (HTTP 503) · gemini-3-flash-preview : réponse en 14 s
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
