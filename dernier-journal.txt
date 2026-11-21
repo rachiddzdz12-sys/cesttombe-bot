@@ -5,8 +5,8 @@ Instagram · @cesttombe.actu (15 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 48 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → HTTP 429
-Web · GOOGLE NEWS → 92 infos
+Web · GOOGLE ACTU → 92 infos
+Web · GOOGLE NEWS → HTTP 429
 Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 11 infos
 Web · ROCKSTAR INTEL → 10 infos
@@ -23,49 +23,48 @@ Instagram · @playstationfr → 12 posts lus, 6 gardés
 X · @RockstarGames → refus Apify HTTP 400 : {
   "error": {
     "type": "run-failed",
-    "message": "Actor run did not succeed (run ID: I5gUJV2Ic1r7i1zFc, status: FAILED)."
+    "message": "Actor run did not succeed (run ID: if4e3hx7SIt0MMLGe, status: FAILED)."
   }
 }
 X · @RockstarIntel → refus Apify HTTP 400 : {
   "error": {
     "type": "run-failed",
-    "message": "Actor run did not succeed (run ID: m9Uu0eyPMkB6G1TIm, status: FAILED)."
+    "message": "Actor run did not succeed (run ID: qMpxCQSvA9vL05VIq, status: ABORTED)."
   }
 }
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-221 infos fraîches et jamais traitées (sur 380 lues)
-   6/10 ✓ « Grand Theft Auto Used to Satirize American Life. Now We’ve Caught Up W »
-   7/10 ✓ « Waka Flocka Flame Calls Older 'GTA VI' Players 'Pathetic': 'Ain't Gett »
-   6/10 ✓ « Apple Music's Club Live Transforms Into GTA VI Radio Livestream »
-   9/10 ✓ « GTA VI Nears $4B Launch, Boosts Take-Two »
-  10/10 ✗ déjà publiée « Grand Theft Auto VI makes entertainment history with $3.8B haul »
-  10/10 ✗ déjà publiée « Grand Theft Auto VI brings in $3.79B in first-day retail sales »
-  10/10 ✗ déjà publiée « Grand Theft Auto VI brings in $3.79B in first-day retail sales »
-  10/10 ✗ déjà publiée « Grand Theft Auto VI brings in $3.79B in first-day retail sales »
-   6/10 ✓ « GTA 6 Is Reportedly Tackling the Male Loneliness Epidemic — and What N »
-   5/10 ✓ « 'Real Time': Bill Maher On 'GTA VI', Robert Pattinson As James Bond »
-   8/10 ✗ déjà publiée « 'GTA VI' reviewed: After a 13-year-wait, it lives up to the hype »
-  10/10 ✓ « ‘A new record for entertainment’: Grand Theft Auto VI sales hit $3.8bn »
-   6/10 ✓ « Chris ‘Mad Dog’ Russo goes on epic ‘GTA 6’ rant — and implores gamers  »
-   8/10 ✓ « ‘GTA 6’ cast celebrity cameos: Bobby Moynihan, Bad Bunny and more »
-   7/10 ✓ « Even Benny the Bull can’t stop playing GTA 6 during player introductio »
-   3/10 ✗ pas une news « GTA 6: How To Listen To Music Outside Of Your Car »
-   2/10 ✗ pas une news « Baton Rouge gamers and parents are talking about GTA VI after its rele »
-  10/10 ✗ déjà publiée « ‘Grand Theft Auto VI’ sets record with $3.79B in first-day retail sale »
-   4/10 ✗ pas une news « GTA 6's Romance Rules Explained: Can You Cheat On Lucia? »
-   5/10 ✓ « GTA VI’s $3.79B Is Retail Sales, Not Take-Two Revenue »
-   2/10 ✗ pas une news « EA Sports FC 27 dévoile la première équipe Thunderstruck »
-GAMING · 11 infos retenues, meilleure : « ‘A new record for entertainment’: Grand Theft Auto VI sales hit $3.8bn on first  » (10/10)
-  article · theguardian.com
-  article · 3004 caractères lus
-  photo · 1 image(s) : 1200x630
-  visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  couverture · photo1 · zoom 1.12 · PAS PROPRE
-  carrousel prêt : « Grand Theft Auto VI bat tous les records avec 3,79 milliards de dollars » (4 slides)
-  voix · contrôle OK (97%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (6.0 s)
-  reel · 7.7 s · 5 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/Df_izX8lzv8/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df_i0wCJQf4/
+218 infos fraîches et jamais traitées (sur 380 lues)
+   2/10 ✗ pas une news « GTA 6 Starfish Island Garage: Where to Find the Vitello, Itali RSX and »
+   8/10 ✓ « “C’est fait” : le pire cauchemar de Rockstar se réalise, GTA 6 tombe a »
+   6/10 ✓ « GTA VI : le jeu réserve une belle surprise aux fans de DEXTER »
+   5/10 ✓ « Sortie de GTA VI: "Je n'ai pas dormi, pour être honnête", avoue Christ »
+   7/10 ✓ « Un bug du téléphone ouvre la vue subjective dans GTA 6, le streaming p »
+   8/10 ✓ « GTA 6 supprime une fonctionnalité appréciée des joueurs : impossible d »
+   6/10 ✗ déjà publiée « GTA 6 confirme: l'action du jeu se déroule dans le même univers que Re »
+   4/10 ✗ trop faible (mini 5) « «Merci de vous préoccuper de mon emploi du temps» : Emmanuel Grégoire  »
+   7/10 ✓ « Les recettes de GTA 6 ont déjà couvert les coûts de développement. Red »
+   8/10 ✓ « [Metacritic] GTA 6 fait l'objet d'un déferlement de critiques négative »
+   1/10 ✗ pas une news « Black Friday E.Leclerc : GTA 6 de nouveau en stock au meilleur prix du »
+   9/10 ✗ déjà publiée « GTA VI pulvérise le record de ventes pour un premier jour »
+   3/10 ✗ trop faible (mini 5) « GTA 6 : une voiture électrique tombe en panne avant les modèles essenc »
+   1/10 ✗ pas une news « E.Leclerc fait un carton ce samedi 21 novembre : GTA 6 est disponible  »
+   6/10 ✗ déjà publiée « Voici GTA 6 à la première personne avec DLSS 5 à 60 FPS »
+   5/10 ✓ « “GTA VI” permet aux femmes d’être aussi dures et ravagées que les homm »
+  10/10 ✗ déjà publiée « GTA VI pulvérise le record de ventes pour un premier jour et ramasse 3 »
+   7/10 ✓ « L'analyse des performances de GTA 6 révèle 2270 % de chutes de FPS sup »
+   2/10 ✗ pas une news « How to Get Paul Walker’s Mitsubishi Eclipse in GTA 6 »
+   2/10 ✗ pas une news « GTA 6 Collectible Card Locations: Three Early Pickups »
+GAMING · 9 infos retenues, meilleure : « “C’est fait” : le pire cauchemar de Rockstar se réalise, GTA 6 tombe aux mains d » (8/10)
+  article · lesnumeriques.com
+  article · 5551 caractères lus
+  photo · 1 image(s) : 1200x678
+  visuels · steam « Grand Theft Auto VI » → 3 image(s)
+  couverture · photo1 · zoom 1.0 · propre
+  carrousel prêt : « GTA 6 tombe aux mains des pirates le jour de sa sortie » (5 slides)
+  voix · contrôle OK (95%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (8.2 s)
+  reel · 9.9 s · 6 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/Df_psbijMb2/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/Df_pumjETTO/
   ✅ STORY PUBLIÉE (vidéo)
 Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
