@@ -2,7 +2,7 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (18 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 42 / 100
+Instagram · posts publiés par l'API sur 24 h : 45 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 100 infos
@@ -20,49 +20,47 @@ Web · JEUXVIDEO.COM → 12 infos
 Web · INSIDER GAMING → 7 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 0 tweets lus, 0 gardés (ce mois : 4617 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 4633 / 10000)
-X · « ("GTA 6" OR "GTA VI") filter:native_vide » → 8 tweets lus, 8 gardés (ce mois : 4649 / 10000)
+X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4666 / 10000)
+X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4667 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-207 infos fraîches et jamais traitées (sur 493 lues)
-   6/10 ✗ déjà publiée « New GTA VI Glitch Can Run The Game Unlocked, 60FPS »
-   5/10 ✗ déjà publiée « EXCLUSIVE: »
-   6/10 ✗ déjà publiée « Could This Major GTA VI Leak Make It Playable On PC? »
-   7/10 ✗ déjà publiée « 35,000 More Students Missed School in England on GTA VI Release Day! »
-   8/10 ✗ déjà publiée « Florida Joker Is In GTA VI, Rockstar Confirms »
-   2/10 ✗ pas une news « Every golden gun location in GTA 6. »
-   2/10 ✗ pas une news « Best hidden loot spots in GTA 6. »
-   3/10 ✗ pas une news « ⚠️ STOP!! DO NOT FINISH CHAPTER 3 IN GTA 6 UNTIL YOU DO THIS - FREE CA »
-   2/10 ✗ pas une news « The MOST INSANE Vice City Loot Location in GTA 6 🤑 »
-   4/10 ✗ pas une news « I love this game bro. GTA 6 is a 10/10. https://t.co/bF4FyOXOqq »
-   2/10 ✗ pas une news « This is a 50K money route in GTA 6. »
-   3/10 ✗ pas une news « This game is a freaking fever dream »
-   4/10 ✗ pas une news « I'm playing GTA 6 like it's The Sims and I couldn't be happier with th »
-   7/10 ✓ « The "Mute Licensed Music" Setting in GTA 6 Does Not Prevent Copyright  »
-   2/10 ✗ pas une news « How to Claim the Vintage Vice City Pack Rewards in GTA 6 »
-   3/10 ✗ pas une news « GTA 6 Mission Music: Songs, Cutscenes and How to Identify Them »
+205 infos fraîches et jamais traitées (sur 475 lues)
+   7/10 ✓ « 'It's Better Not to Do It Than to Do It and Have It Not Be Good Enough »
+   5/10 ✓ « GTA 6's T-shirts Are True Works of Art »
+   0/10 ✗ pas une news « How To Get A Six-Star Wanted Level In GTA 6 »
+   8/10 ✓ « GTA 6 reviews are a near-perfect 99 out of 100 on Metacritic »
+   0/10 ✗ pas une news « How to Unlock Vanessa's Free Garage and Get Her Pink Growler in GTA 6 »
+   7/10 ✓ « GTA 6 needed a dedicated team to make sure all its different body type »
+   0/10 ✗ pas une news « GTA 6 Buck’s Pawn Shop Walkthrough With Gold Card Location and Escape  »
+   0/10 ✗ pas une news « GTA 6 Trust Halifax or Not? All Outcomes and Missable Rewards »
+   7/10 ✓ « Le récap tech de la semaine : GTA 6 explose les records, la cybermenac »
+   0/10 ✗ pas une news « Cloneur de Clé GTA 6 : Comment débloquer le meilleur outil de vol de v »
+   9/10 ✗ déjà publiée « 'Grand Theft Auto VI' sets record with $3.79B in first-day retail sale »
+   0/10 ✗ pas une news « Bye Bye Don (Revolver de Donnie) | Soluce GTA 6 »
+   0/10 ✗ pas une news « Permission de sortie (yacht de Mattia) | Soluce GTA 6 »
+   5/10 ✓ « A resurgent ‘Hunger Games’ goes big at the box office, despite competi »
    6/10 ✓ « Du padel dans GTA VI ? Une vidéo fait le buzz sur Instagram »
-   7/10 ✓ « How Metacritic Tried — and Failed — to Stop ‘GTA 6’ Review Bombing »
-   4/10 ✗ pas une news « Why GTA 6's Breakfast Run Is Being Called a Perfect Mission »
-   2/10 ✗ pas une news « 5 GTA 6 Driving Tips And Tricks To Make Getting Around Easier »
-GAMING · 3 infos retenues, meilleure : « The "Mute Licensed Music" Setting in GTA 6 Does Not Prevent Copyright Claims » (7/10)
-  article · 3302 caractères lus
-  photo · 1 image(s) : 1920x1075
-  contexte · 1 complément(s) : GAMEKULT
+   6/10 ✗ déjà publiée « How Metacritic Tried — and Failed — to Stop ‘GTA 6’ Review Bombing »
+   0/10 ✗ pas une news « 5 GTA 6 Driving Tips And Tricks To Make Getting Around Easier »
+   8/10 ✓ « 'GTA 6' Bombshell: Husband Melts Down After Wife Hid Her Role In Game  »
+   6/10 ✓ « How Grand Theft Auto Measures Up Against James Bond »
+   8/10 ✓ « Mode multijoueur de GTA 6 : quand arrivera le nouveau GTA Online ? »
+GAMING · 10 infos retenues, meilleure : « GTA 6 reviews are a near-perfect 99 out of 100 on Metacritic » (8/10)
+  article · cbsnews.com
+  article · 0 caractères lus
+  ⏭️ article illisible, info écartée : « GTA 6 reviews are a near-perfect 99 out of 100 on Metacritic »
+  article · polygon.com
+  article · 2592 caractères lus
+  photo · 1 image(s) : 1600x900
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · trouvée sur X « GTA 6 streamer settings audio » (397 likes) : holy sh*t, gta 6 could be a goldmine for content clippers.
-
-here’s how
-  vidéo · téléchargée (53 s, 4 Mo)
-  vidéo · 40 images analysées, texte incrusté sur 40
-  couverture · photo1 · zoom 1.8 · PAS PROPRE
-  carrousel prêt : « GTA 6 intègre une option muette pour les streamers » (4 slides)
-  voix · contrôle OK (100%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (8.8 s)
-  vidéo · 12 images analysées, texte incrusté sur 12
-  vidéo · temps forts : 6 passages (6s, 19s, 22s, 28s, 34s, 36s) sur 53 s
-  reel · 10.5 s · 6 plans dont 6 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgDoCTdF6aR/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgDoEQemeSN/
+  vidéo · recherche X « Amber Wallin GTA 6 » : rien qui montre vraiment le sujet
+  vidéo · recherche X « Amber Wallin » : rien qui montre vraiment le sujet
+  vidéo · recherche X « GTA 6 gameplay » : rien qui montre vraiment le sujet
+  couverture · photo1 · zoom 1.6 · propre
+  carrousel prêt : « Amber Wallin cache son rôle dans GTA 6 pendant 2 ans » (4 slides)
+  voix · contrôle OK (98%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (5.8 s)
+  reel · 7.4 s · 5 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgDtGdnlyeH/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgDtIrGkoDJ/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 6 s
