@@ -187,6 +187,7 @@ GRAINS = [np.kron(np.random.default_rng(i).normal(0, 4, (H // 2, W // 2)).astype
 F_KICK = police(600, 30)
 F_PIED = police(700, 24)
 F_ST = police(800, 80)
+F_ST_VIDEO = police(800, 58)       # sur une vraie vidéo : plus discret, la vidéo reste visible
 
 
 class Calque:
@@ -287,15 +288,17 @@ def carte_chiffre(img, valeur, libelle, tl, y=880):
             d.ellipse((q[0] - 6, q[1] - 6, q[0] + 6, q[1] + 6), fill=VIOLET)
 
 
-def sous_titres(img, t, grp, y=Y_TEXTE):
+def sous_titres(img, t, grp, y=Y_TEXTE, police_st=None):
     g = next((g for g in grp if g[0] <= t < g[1]), None)
     if not g:
         return
     debut, _, mots = g
+    fst = police_st or F_ST
+    pas = int(fst.size * 1.15)
     p = bb.ease((t - debut) / 0.12)
     lignes, x = [[]], M
     for mot, t0 in mots:
-        lm = F_ST.getlength(mot + " ")
+        lm = fst.getlength(mot + " ")
         if x + lm > W - M - 130 and lignes[-1]:      # loin des boutons d'Instagram à droite
             lignes.append([])
             x = M
@@ -304,14 +307,14 @@ def sous_titres(img, t, grp, y=Y_TEXTE):
     lignes = lignes[:2]
     dits = [m[1] for m in mots if m[1] <= t]
     courant = dits[-1] if dits else None
-    y0 = y - 92 * (len(lignes) - 1)
+    y0 = y - pas * (len(lignes) - 1)
 
     def dessiner(dd, force=None):
         for i, ligne in enumerate(lignes):
             for mot, t0, xm in ligne:
                 coul = VIOLET_TXT if t0 == courant else BLANC
                 a = int(255 * p) if t0 <= t else int(140 * p)
-                ecrire(dd, xm, y0 + 92 * i + int(14 * (1 - p)), mot, F_ST, force or coul + (a,), track=-2)
+                ecrire(dd, xm, y0 + pas * i + int(14 * (1 - p)), mot, fst, force or coul + (a,), track=-2)
 
     bb.ombre(img, lambda dd, c: dessiner(dd, c), rayon=14, force=190)
     with Calque(img) as d:
@@ -458,6 +461,9 @@ def fabriquer(post, medias, texte_voix, dossier, prefixe, diag):
     else:
         plans[-1].fin = t_fin
     fond_video = None
+    if v is not None and getattr(config, "VIDEO_EN_FOND", True) and v.get("duree", 0) > total + 1.5:
+        from bot import video as vid
+        v = vid.temps_forts(v, total + 0.5, tmp / "temps-forts", diag)
     if v is not None and getattr(config, "VIDEO_EN_FOND", True):
         try:
             fond_video = VideoFond(v, total, tmp / "fond-video")
@@ -485,11 +491,17 @@ def fabriquer(post, medias, texte_voix, dossier, prefixe, diag):
             bloc_titre(img, post.get("titre_haut") or "", post.get("titre_bas") or "",
                        post.get("chiffre_texte") or "", tl + 2.0)     # le hook est lisible dès la 1re image
         elif plan.kicker == "Et toi ?":
-            bloc_titre(img, q1, q2, "Envoie-le à un pote qui doit savoir", tl, taille=112)
+            # quand la vidéo continue après la voix : la question pendant qu'elle est dite, puis à la fin ;
+            # entre les deux, rien par-dessus la vidéo
+            fin_q = t_fin_voix + 0.4
+            if t < fin_q or t >= t_fin - 2.5 or fond_video is None:
+                bloc_titre(img, q1, q2, "Envoie-le à un pote qui doit savoir",
+                           tl if t < fin_q else t - (t_fin - 2.5), taille=112)
         else:
-            if k == 1 and chiffre:
+            sur_video = fond_video is not None and t < fond_video.fin
+            if k == 1 and chiffre and not sur_video:
                 carte_chiffre(img, chiffre, post.get("chiffre_texte") or "", tl)
-            sous_titres(img, t, grp)
+            sous_titres(img, t, grp, police_st=F_ST_VIDEO if sur_video else F_ST)
         if 0 < tl < 0.12 and k > 0:
             img.alpha_composite(Image.new("RGBA", (W, H), VIOLET + (int(70 * (1 - tl / 0.12)),)))
         return punch(img, t)

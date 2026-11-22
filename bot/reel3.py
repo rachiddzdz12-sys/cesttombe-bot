@@ -14,6 +14,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFilter
 
 import config
+from bot import video as vid
 from bot import da3, placement, voix
 from bot.reel import mixer_audio, musique
 
@@ -117,6 +118,20 @@ def sous_titres(d, mots, actif, y=1430):
             d.text((x, y), m.upper(), font=f, fill=da3.NOIR, anchor="ls")
         else:
             d.text((x, y), m.upper(), font=f, fill=da3.BLANC, anchor="ls")
+        x += w + sp
+
+
+def sous_titres_discrets(d, mots, actif, y=1430):
+    """Sur une vraie vidéo : sous-titres plus petits, sans bandeau, le mot dit en couleur. La vidéo reste visible."""
+    f = da3.police("titre", 46)
+    sp = 14
+    ws = [d.textlength(m.upper(), font=f) for m in mots]
+    while sum(ws) + sp * (len(mots) - 1) > W - 300 and f.size > 34:
+        f = da3.police("titre", f.size - 3)
+        ws = [d.textlength(m.upper(), font=f) for m in mots]
+    x = W / 2 - (sum(ws) + sp * (len(mots) - 1)) / 2
+    for k, (m, w) in enumerate(zip(mots, ws)):
+        d.text((x, y), m.upper(), font=f, fill=da3.LIME if k == actif else da3.BLANC, anchor="ls")
         x += w + sp
 
 
@@ -295,7 +310,7 @@ def debut_libre(video, deja, duree):
     longueur = max(0.0, video["duree"] - duree - 0.3)
     if longueur <= 0:
         return 0.0
-    depart = min(longueur, video["duree"] * 0.08)          # on saute l'intro (logo, écran noir)
+    depart = 0.0 if video.get("montage") else min(longueur, video["duree"] * 0.08)   # on saute l'intro
     t = depart + len(deja) * duree
     return t if t <= longueur else (depart + (len(deja) * duree * 1.7)) % max(1.0, longueur)
 
@@ -397,6 +412,9 @@ def fabriquer(post, medias, texte_voix, dossier, prefixe, diag):
     t_fin = max(ACCROCHE + PLAN, DELAI_VOIX + duree_voix + 0.15)
     total = t_fin + FIN
     n_plans = max(2, int(round(t_fin / PLAN)))
+    if medias.get("video") and medias["video"].get("duree", 0) > total + 1.5:
+        # vidéo longue : on n'en garde que les passages les plus forts, remis dans l'ordre
+        medias = {**medias, "video": vid.temps_forts(medias["video"], total + 1.0, tmp / "temps-forts", diag)}
     plans = construire_plans(medias, n_plans + 1, tmp, diag)
     bornes = [i * t_fin / n_plans for i in range(n_plans)] + [t_fin]
     voile = da3.degrade((W, H), haut=0.35, debut=0.55, bas=0.55)
@@ -437,15 +455,17 @@ def fabriquer(post, medias, texte_voix, dossier, prefixe, diag):
                 sticker(d, W / 2, y_accroche, accroche)
             else:
                 en_haut = plan_courant.choix.get("zone") == "haut"
-                if stat and stat[0] <= t < stat[1]:
+                sur_video = isinstance(plan_courant, (Clip, ClipCadre))
+                if stat and stat[0] <= t < stat[1] and not sur_video:
                     sticker(d, W / 2, ZONE_HAUTE[0] + 20 if en_haut else ZONE_LIBRE[0] + 20,
                             [(chiffre, da3.LIME)] + ([(court(libelle, 28), da3.BLANC)] if libelle else []))
                 else:
                     for g in grp:
                         if g[0][1] - 0.05 <= t < g[-1][2] + 0.05:
                             actif = max([k for k, m in enumerate(g) if m[1] <= t] or [0])
-                            sous_titres(d, [re.sub(r"[.,;:!?…]+$", "", m[0]) for m in g], actif,
-                                        y=ZONE_HAUTE[0] + 200 if en_haut else BANDE_ST[1] - 30)
+                            (sous_titres_discrets if sur_video else sous_titres)(
+                                d, [re.sub(r"[.,;:!?…]+$", "", m[0]) for m in g], actif,
+                                y=ZONE_HAUTE[0] + 200 if en_haut else BANDE_ST[1] - 30)
                             break
         im.alpha_composite(da3.avec_ombre(couche, rayon=8, force=0.7))
         return punch(im.convert("RGB"), t)
