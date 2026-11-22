@@ -18,7 +18,7 @@ jobs:
     env:
       MODE: test
       HEBERGEMENT: "non"
-      TEST_N: "2"
+      TEST_N: "1"
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
       IG_USER_ID: ${{ secrets.IG_USER_ID }}
@@ -44,12 +44,13 @@ jobs:
         run: |
           mkdir -p sortie
           python main.py 2>&1 | grep -v onnxruntime | tee sortie/journal-cesttombe.txt
-      - name: LE BRUIT · 2 vraies infos rap (ne publie rien)
+      - name: C'EST TOMBÉ · une info sur une mission (ne publie rien)
         continue-on-error: true
         env:
-          COMPTE: lebruit
+          TEST_N: "1"
+          TEST_FILTRE: "mission|quête|braquage|heist"
         run: |
-          python main.py 2>&1 | grep -v onnxruntime | tee sortie/journal-lebruit.txt
+          python main.py 2>&1 | grep -v onnxruntime | tee sortie/journal-mission.txt
       - name: Rendus déposés sur la branche da-v3-rendus
         if: always()
         run: |
