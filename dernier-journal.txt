@@ -5,7 +5,7 @@ Instagram · @cesttombe.actu (17 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 42 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → 100 infos
+Web · GOOGLE ACTU → 92 infos
 Web · GOOGLE NEWS → 92 infos
 Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 12 infos
@@ -20,55 +20,58 @@ Web · JEUXVIDEO.COM → 16 infos
 Web · INSIDER GAMING → 9 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 10 tweets lus, 1 gardés (ce mois : 4242 / 10000)
+X · @RockstarGames → refus Apify HTTP 400 : {
+  "error": {
+    "type": "run-failed",
+    "message": "Actor run did not succeed (run ID: n05kCg5Qx6Nq9HeNG, status: FAILED)."
+  }
+}
 X · @RockstarIntel → refus Apify HTTP 400 : {
   "error": {
     "type": "run-failed",
-    "message": "Actor run did not succeed (run ID: BrlxLrDYRo99byJ3t, status: ABORTED)."
+    "message": "Actor run did not succeed (run ID: ci3zjYyDpEVH6URrV, status: FAILED)."
   }
 }
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-180 infos fraîches et jamais traitées (sur 475 lues)
-   2/10 ✗ pas une news « Playing Grand Theft Auto VI »
-  10/10 ✗ déjà publiée « GTA VI : 3,79 milliards de dollars en un jour, le lancement record de  »
-   6/10 ✓ « Robert Pattinson sera James Bond, GTA 6 enfin disponible et un Van Gog »
+161 infos fraîches et jamais traitées (sur 466 lues)
+   4/10 ✗ trop faible (mini 5) « Même le jeu vidéo GTA VI a sa touche belge: voici ce que c'est »
+   7/10 ✗ déjà publiée « Dylan Rourke, Manni L. Perez revealed as GTA 6’s Jason and Lucia voice »
+   2/10 ✗ pas une news « Riding the bus in GTA 6: can public transport help you shake the polic »
+   3/10 ✗ pas une news « Ces 7 films ont inspiré GTA 6 et vous devez absolument les voir »
+   6/10 ✓ « « GTA 6 » : d’hypersexualisées et effacées à personnage principal, com »
+   6/10 ✓ « GTA VI : vous rêvez de découvrir Vice City ? Les recherches de logemen »
+   5/10 ✓ « Sortie de GTA VI: l'industrie du jeu vidéo pèse plus lourd que celle d »
+   1/10 ✗ pas une news « GTA 6 after the credits: can you keep exploring Vice City? »
+   8/10 ✗ déjà publiée « GTA 6 plombé par les avis négatifs sur Metacritic : que reprochent vra »
+   5/10 ✓ « « J’ai pêché deux paquets de drogue » : « GTA VI » a plu aux habitants »
+   7/10 ✗ déjà publiée « GTA 6 bat le record de trafic de Comcast, près d'un quart du réseau »
+   3/10 ✗ pas une news « PlayStation 5 : les propriétaires ont du mal à croire le prix de cette »
+   9/10 ✗ déjà publiée « GTA VI : 3,79 milliards de dollars en un jour, le lancement record de  »
    8/10 ✗ déjà publiée « Démarrage fast & furious pour GTA VI »
-   7/10 ✓ « Deal de drogue raté, plongée sous-marine et courses au supermarché : o »
-   9/10 ✗ déjà publiée « GTA 6 reçoit plus de 2000 avis négatifs sur Metacritic dès le lendemai »
+   3/10 ✗ pas une news « Deal de drogue raté, plongée sous-marine et courses au supermarché : o »
+   2/10 ✗ pas une news « Robert Pattinson sera James Bond, GTA 6 enfin disponible et un Van Gog »
+   6/10 ✓ « Greek PM Asks Youngsters To Get GTA 6 For Christmas, Faces Backlash. H »
+   8/10 ✗ déjà publiée « GTA 6 reçoit plus de 2000 avis négatifs sur Metacritic dès le lendemai »
    8/10 ✗ déjà publiée « GTA 6 : la presse mondiale a rendu son verdict, et les notes donnent l »
    9/10 ✗ déjà publiée « Take-Two Estimates GTA VI Hit $3.79 Billion in Day-One Retail Sales »
-   8/10 ✓ « “Feel the seriousness of your actions”: Rockstar explains GTA 6’s toug »
-   9/10 ✗ déjà publiée « «GTA VI» pulvérise le record de ventes au lancement et agace... une pa »
-  10/10 ✗ déjà publiée « GTA 6 made $3.79 billion on its first day and sold 32.5 million copies »
-   9/10 ✗ déjà publiée « GTA 6 breaks Comcast internet record with 24% of peak traffic »
-   7/10 ✓ « GTA 6 : faire le plein devient obligatoire, même les criminels devront »
-  10/10 ✗ déjà publiée « “Grand Theft Auto VI” generated $3.79 billion in retail sales on its f »
-  10/10 ✗ déjà publiée « GTA 6 Shatters Entertainment Records with $3.79 Billion Opening Day »
-   7/10 ✓ « GTA 6 voice actor: Game’s realism resonates with players »
-   6/10 ✗ déjà publiée « Miami turns up for GTA 6 soundtrack party »
-   6/10 ✗ déjà publiée « Miami celebrates the GTA 6 soundtrack with a star-studded party »
-   7/10 ✗ déjà publiée « GTA 6 voice actor: Game’s realism resonates with players | NewsNation  »
-   3/10 ✗ pas une news « GTA 6 South Leonida Real Estate explained: who Terro and Viper are, an »
-GAMING · 5 infos retenues, meilleure : « “Feel the seriousness of your actions”: Rockstar explains GTA 6’s tougher police » (8/10)
-  article · mixed-news.com
-  article · 2644 caractères lus
-  photo · 1 image(s) : 3840x2160
-  visuels · steam « Grand Theft Auto VI » → 3 image(s)
-  vidéo · trouvée sur X « GTA 6 police gameplay chase » (28003 likes) : adin ross discovers the wanted system in gta 6 after killing npcs and 
-  vidéo · téléchargée (136 s, 34 Mo)
-  vidéo · 40 images analysées, texte incrusté sur 40
-  couverture · video@2s · zoom 1.12 · propre
-  carrousel prêt : « Rockstar détaille la réponse de la police dans GTA 6 » (4 slides)
-  voix · Gemini (Aoede) indisponible : gemini-3.1-flash-tts-preview HTTP 429 : {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota,
-  voix · edge-tts (11.3 s)
-  voix · 11.3 s → accélérée ×1.03 (11.0 s)
-  vidéo · 14 images analysées, texte incrusté sur 14
-  vidéo · temps forts : 7 passages (42s, 64s, 72s, 74s, 78s, 82s, 110s) sur 136 s
-  reel · 12.6 s · 8 plans dont 8 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgCSCjECTDh/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgCSHNqjYjs/
+GAMING · 5 infos retenues, meilleure : « « GTA 6 » : d’hypersexualisées et effacées à personnage principal, comment la re » (6/10)
+  article · leparisien.fr
+  article · 161 caractères lus
+  ⏭️ article illisible, info écartée : « « GTA 6 » : d’hypersexualisées et effacées à personnage prin »
+  article · tf1info.fr
+  article · 3318 caractères lus
+  photo · 1 image(s) : 1280x720
+  contexte · 3 complément(s) : BFMTV VIA MSN, DEXERTO, YAHOO ACTUALITÉS
+  visuels · steam « Grand Theft Auto VI » → 4 image(s)
+  vidéo · recherche X « GTA 6 Miami Vice City comparison » : rien qui montre vraiment le sujet
+  vidéo · recherche X « Miami Vice » : rien qui montre vraiment le sujet
+  vidéo · recherche X « GTA 6 gameplay » : rien qui montre vraiment le sujet
+  couverture · photo1 · zoom 1.25 · propre
+  carrousel prêt : « GTA 6 fait bondir les recherches à Miami de 55% » (4 slides)
+  voix · contrôle OK (98%, essai 1, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (9.3 s)
+  reel · 10.9 s · 7 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgCZtljEpqn/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgCZ3BnCKNc/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 6 s · gemini-flash-lite-latest : réponse en 6 s
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : réponse en 44 s
