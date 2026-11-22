@@ -30,7 +30,7 @@ VOIX_CONSIGNE_HOMME = (VOIX_CONSIGNE.replace("26-year-old French woman", "27-yea
                                                                     "relaxed and confident, with a slight smile in the voice"))
 VOIX_GEMINI_TEMPO = 1.0
 EXIGER_DETAIL = True           # une info qui annonce sans dire quoi (titre du son, contenu…) n'est pas publiée
-RECHERCHE_GOOGLE = True        # Gemini cherche sur Google les faits précis quand la source est maigre
+RECHERCHE_GOOGLE = False       # Gemini + Google : quota gratuit à 0 (testé le 22/11) ; True si clé Gemini payante
 RECHERCHE_MODELES = ["gemini-flash-latest", "gemini-3.5-flash"]
 STORIES = True                 # chaque publication a sa story (le Reel en vidéo, sinon l'image de couverture)
 STORIES_MARGE = 12             # story sautée s'il reste moins de 12 posts au quota API des 24 h
