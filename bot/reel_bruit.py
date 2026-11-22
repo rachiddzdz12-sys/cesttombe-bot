@@ -407,6 +407,10 @@ def fabriquer(post, medias, texte_voix, dossier, prefixe, diag):
     t_fin_voix = (mots[-1][2] if mots else DELAI + duree_voix) + 0.25
     t_accroche, bornes, fin_milieu, t_question = _decouper(mots, t_fin_voix, post)
     t_fin = max(t_fin_voix, 4.0)
+    v = medias.get("video")
+    if v is not None and getattr(config, "VIDEO_EN_FOND", True):
+        # la vidéo de l'info est le cœur du Reel : on la laisse jouer un peu plus que la voix (12 s au plus)
+        t_fin = max(t_fin, min(v["duree"] - 0.3, getattr(config, "VIDEO_DUREE_MAX", 12.0)))
     total = t_fin + FIN
 
     v = medias.get("video")

@@ -194,7 +194,7 @@ Produis (format « carrousel + Reel » épuré : textes très courts, percutants
 - "envoie_a" : 3 à 7 mots pour finir la phrase « Envoie ça à ton pote qui… », verbe à la 3e personne (« qui attend », jamais « qui attends »), en lien avec l'info (ex : « attend GTA 6 depuis 10 ans », « écoute Ninho en boucle »).
 - "instagram" : le pseudo Instagram officiel (sans @) de l'artiste, du jeu ou de la personne au cœur de l'info, seulement si tu en es certain (ex : « ninho », « rockstargames ») ; "" sinon.
 - "hashtags" : 2 hashtags précis, UNIQUEMENT des noms propres du sujet (jeu, personnage, artiste, album, lieu), sans espace, en minuscules ; jamais un mot négatif ou judiciaire (pas de #blanchiment, #prison, #mort…).
-- "voix_off" : le texte lu par la voix du Reel, pour l'oral, comme une créatrice de contenu : 18 à 28 mots MAXIMUM au total (le Reel doit durer moins de 10 secondes), phrases très courtes, du « tu ». 1re phrase = le hook : 4 à 9 mots, le fait le plus choc ou une promesse intrigante, SANS intro (jamais « Salut », « Aujourd'hui », « Alors », « Breaking news », « Grosse info »). Puis 1 ou 2 phrases courtes avec les vrais faits. Termine par la même question au spectateur que "question_haut" + "question_bas".
+- "voix_off" : le texte lu par la voix du Reel, pour l'oral, comme une créatrice de contenu : 18 à 28 mots MAXIMUM au total (le Reel doit durer moins de 10 secondes), phrases très courtes, du « tu ». 1re phrase = le hook : 4 à 9 mots, le fait le plus choc AFFIRMÉ (pas une question), SANS intro (jamais « Salut », « Aujourd'hui », « Alors », « Breaking news », « Grosse info »). Puis 1 ou 2 phrases courtes avec le détail concret (le titre exact, ce qui a été dit, ce qu'on voit dans la vidéo, les chiffres). Termine par la même question au spectateur que "question_haut" + "question_bas". Une seule question dans toute la voix off : celle de la fin.
 - "visuels" : 1 ou 2 sujets à montrer en photo, du plus important au moins important. Chaque sujet : "type" = "personne", "artiste" (musicien), "jeu" (jeu vidéo) ou "autre", et "nom" = le nom exact et complet (ex : « Teddy Riner », « Ninho », « God of War Ragnarök »).
 - "faisable" : false si la source ne contient pas assez d'info pour faire un post fiable, sinon true.
 
@@ -325,7 +325,7 @@ FIN_VOIX = "Abonne-toi à C’est tombé."   # remplacé par le nom du compte (v
 
 def fin_voix():
     return "Abonne-toi à C’est tombé." if config.NOM_PAGE == "C'EST TOMBÉ" else f"Abonne-toi à {config.NOM_PAGE.title()}."
-VOIX_MOTS_MAX = 28       # ~10 s de voix : un Reel court est regardé en entier et revu (signal n°1 d'Instagram)
+VOIX_MOTS_MAX = 34       # ~10 s de voix : un Reel court est regardé en entier et revu (signal n°1 d'Instagram)
 HASHTAGS_MAX = 5         # limite d'Instagram depuis décembre 2025 (au-delà, la diffusion est pénalisée)
 
 
@@ -336,13 +336,24 @@ def raccourcir_voix(texte, question=""):
     phrases = re.split(r"(?<=[.!?…])\s+", texte)
     finit_par_question = phrases and phrases[-1].endswith("?")
     fin = phrases.pop() if finit_par_question and len(phrases) > 1 else (question or fin_voix())
-    budget = max(8, VOIX_MOTS_MAX - len(fin.split()))
-    garde, n = [], 0
-    for p in phrases:
-        if garde and n + len(p.split()) > budget:
-            break
-        garde.append(p)
-        n += len(p.split())
+    budget = max(10, VOIX_MOTS_MAX - len(fin.split()))
+
+    def prendre(liste):
+        garde, n = [], 0
+        for p in liste:
+            if garde and n + len(p.split()) > budget:
+                break
+            garde.append(p)
+            n += len(p.split())
+        return garde
+
+    phrases = [p for p in phrases if p.strip()]
+    garde = prendre(phrases)
+    if not any(not p.endswith("?") for p in garde):
+        # que des questions (« Tu as vu… ? Tu suis… ? ») : la voix doit dire les faits, ils passent avant
+        faits = [p for p in phrases if not p.endswith("?")]
+        if faits:
+            garde = prendre(faits)
     mots = " ".join(garde).split()
     if len(mots) > budget:            # une seule phrase trop longue : coupée proprement
         mots = mots[:budget]
