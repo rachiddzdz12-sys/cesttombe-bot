@@ -1,10 +1,5 @@
 {
  "vus": {
-  "x:2119238376490696991": "2026-11-08T19:55:27.538172+00:00",
-  "x:2118827303149183211": "2026-11-08T19:59:46.731693+00:00",
-  "x:2118481530620170416": "2026-11-08T19:59:46.731693+00:00",
-  "x:2118385701225930825": "2026-11-08T19:59:46.731693+00:00",
-  "x:2118410771952460288": "2026-11-08T19:59:46.731693+00:00",
   "ag:https://www.actugaming.net/?p=832813": "2026-11-09T08:01:37.807668+00:00",
   "ig:18636248881004523": "2026-11-09T10:31:28.197658+00:00",
   "ig:17985689411900955": "2026-11-09T10:31:28.197658+00:00",
@@ -807,7 +802,20 @@
   "web:gta boom:https://www.gtaboom.com/gta-6-aiming-the-complete-guide-to-better-aim-on-ps5-and-xbox-19ba": "2026-11-22T19:01:33.165154+00:00",
   "web:google actu:CBMiaEFVX3lxTE5OUGFqcmRJYzlYLWJMbFdLNUFFSDA3ZTB2X2xrdmh3TVpQRUZUNF80b1dNaGs4UGhjbVZlOWNVLWd2NGd6TktSUTlOX2dlald6ZzZrdHZfRzV0U3FBaHk5ZTFfX05MOHNv": "2026-11-22T19:01:33.165154+00:00",
   "web:gta boom:https://www.gtaboom.com/gta-6-kolt-associates-illegal-businesses-guide-e882": "2026-11-22T19:01:33.165154+00:00",
-  "web:google actu:CBMixwFBVV95cUxPV3B1b1M2a2h5ck02ZW1lVlM4dWdUdzNNbjZuc1l5Si1ObTFZcUNqWWRVcmFKaHlmNlQ2N2s2Z0RxR3pDU2lGTTdHUFh4S05NZDF4UFc2ZjhONlBOblZISHBoM2dyV09RakZTdHZiV2JsM1BYQ2ZQeGJncnNBMTczSjRHM05yQ1ZrcEo2SnUxLTEtcGJ3OUV2dnhyRkE5RTk3NGNSZ0I2VHFOcThSUHlfcUxDTDJtYUp6TVpCcWdSLWk5aDZFZmdN": "2026-11-22T19:01:33.165154+00:00"
+  "web:google actu:CBMixwFBVV95cUxPV3B1b1M2a2h5ck02ZW1lVlM4dWdUdzNNbjZuc1l5Si1ObTFZcUNqWWRVcmFKaHlmNlQ2N2s2Z0RxR3pDU2lGTTdHUFh4S05NZDF4UFc2ZjhONlBOblZISHBoM2dyV09RakZTdHZiV2JsM1BYQ2ZQeGJncnNBMTczSjRHM05yQ1ZrcEo2SnUxLTEtcGJ3OUV2dnhyRkE5RTk3NGNSZ0I2VHFOcThSUHlfcUxDTDJtYUp6TVpCcWdSLWk5aDZFZmdN": "2026-11-22T19:01:33.165154+00:00",
+  "x:2123829802855731515": "2026-11-22T20:01:35.616333+00:00",
+  "x:2123571437210411298": "2026-11-22T20:01:35.616333+00:00",
+  "x:2124307990262268151": "2026-11-22T20:01:35.616333+00:00",
+  "x:2124517878049161263": "2026-11-22T20:01:35.616333+00:00",
+  "x:2123581797619380635": "2026-11-22T20:01:35.616333+00:00",
+  "x:2123765558688760031": "2026-11-22T20:01:35.616333+00:00",
+  "x:2124479198190604578": "2026-11-22T20:01:35.616333+00:00",
+  "web:google news:CBMiggFBVV95cUxOb2pOa1NCTkhycV94OEZRUkpMSWtHTHZaMFZXT2U1czZINzdSdjY2YWFrTE43YmhlUkV4NXFkTmtBaWUxSi1uS3FxTFljcmpTNDIxU2pLb1ktODBsNVlVR0k1WEE3WWtraWQ2eVVMRWhsRFpxRkFmc3NNcGduWUtaMVRB": "2026-11-22T20:01:35.616333+00:00",
+  "web:gta boom:https://www.gtaboom.com/gta-6-vintage-vice-city-pack-claim-guide-3ca6": "2026-11-22T20:01:35.616333+00:00",
+  "web:google news:CBMikwFBVV95cUxNd2dXaXZxLVA2T0hYclp0M0hoZXJvYjlLRjd3ZmYxRDZmQ2NnalFQbm5FUS1ONm1ITW1NWGhzSERnaHNlMnFxeS1vRHJjRWZuXzRkRU5Cb3oxZm0zYTNIWXpDdW5HUEFsY05IOHFuYnEydC1PZVI4S3pmdjFVSHhHQ0x3SUc4ZnU5TmswdF9UZEVSNTA": "2026-11-22T20:01:35.616333+00:00",
+  "web:google news:CBMi5gFBVV95cUxOdFFxS09yTFNtVEo3bGZPMExhamwxWTF1eVFKRVZLdjh0X1RwLVpsUTlKSVBQd1JpWDFMNjNBUFZEY3VkdlJGb3Q4UFcyd1doWlFhbGJhUm13T0VJR01vMlIxWGVuZ1pmXzdYU1FFMFRxdUZzZC12d3VFT1Q3Vi1qM0pQWktWc2NNdHV4b2pDY2g1bXBuWmFQVkwwRDdIVk90M1dpZjZfYUhSY1dqSnJYdFdiQ1Uzcm9PVjFKVTRVN0NqaTBlRkNKZ3U5bE9DS29PZTIwUktmaHNpM1ZfOGRXVC10SFhWdw": "2026-11-22T20:01:35.616333+00:00",
+  "web:google news:CBMiZEFVX3lxTE9VNnpzZW9pNEN6WFN4b25KNDJZbXI2OFZyUDBSOHU0bl9nS1RVWVBDOV9jMVQyWUlSR05PeWZacEVDTjl6WGY2RV8xQ1RyUkRxZnFUQ2hxNnkzOUxLY09pV0NvQmw": "2026-11-22T20:01:35.616333+00:00",
+  "web:gta boom:https://www.gtaboom.com/the-mute-licensed-music-setting-in-gta-6-does-not-prevent-copyright-claims-2319": "2026-11-22T20:01:35.616333+00:00"
  },
  "publies": [
   {
@@ -2137,13 +2145,22 @@
    "lien": "https://www.instagram.com/p/DgDhOnWmiAC/",
    "reel": "https://www.instagram.com/reel/DgDhQtwmcw_/",
    "story": "18109996370256806"
+  },
+  {
+   "ts": "2026-11-22T20:01:35.616333+00:00",
+   "categorie": "GAMING",
+   "titre": "GTA 6 intègre une option muette pour les streamers",
+   "source_id": "web:gta boom:https://www.gtaboom.com/the-mute-licensed-music-setting-in-gta-6-does-not-prevent-copyright-claims-2319",
+   "lien": "https://www.instagram.com/p/DgDoCTdF6aR/",
+   "reel": "https://www.instagram.com/reel/DgDoEQemeSN/",
+   "story": "18103082663464913"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 4617
+  "tweets": 4665
  },
  "x_recherches": {
-  "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-22T15:06:14.570584+00:00"
+  "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-22T20:03:29.267164+00:00"
  }
 }

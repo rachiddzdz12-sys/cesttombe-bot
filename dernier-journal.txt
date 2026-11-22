@@ -5,7 +5,7 @@ Instagram · @cesttombe.actu (18 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 42 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → 92 infos
+Web · GOOGLE ACTU → 100 infos
 Web · GOOGLE NEWS → 100 infos
 Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 12 infos
@@ -20,51 +20,49 @@ Web · JEUXVIDEO.COM → 12 infos
 Web · INSIDER GAMING → 7 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 10 tweets lus, 1 gardés (ce mois : 4587 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 4602 / 10000)
+X · @RockstarGames → 0 tweets lus, 0 gardés (ce mois : 4617 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 4633 / 10000)
+X · « ("GTA 6" OR "GTA VI") filter:native_vide » → 8 tweets lus, 8 gardés (ce mois : 4649 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-204 infos fraîches et jamais traitées (sur 478 lues)
-   6/10 ✗ déjà publiée « EXCLUSIVE: »
-   2/10 ✗ pas une news « GTA VI Pre-Order Bonus Now Available To Buy Separately! »
-   7/10 ✗ déjà publiée « Could This Major GTA VI Leak Make It Playable On PC? »
-   8/10 ✗ déjà publiée « 35,000 More Students Missed School in England on GTA VI Release Day! »
+207 infos fraîches et jamais traitées (sur 493 lues)
+   6/10 ✗ déjà publiée « New GTA VI Glitch Can Run The Game Unlocked, 60FPS »
+   5/10 ✗ déjà publiée « EXCLUSIVE: »
+   6/10 ✗ déjà publiée « Could This Major GTA VI Leak Make It Playable On PC? »
+   7/10 ✗ déjà publiée « 35,000 More Students Missed School in England on GTA VI Release Day! »
    8/10 ✗ déjà publiée « Florida Joker Is In GTA VI, Rockstar Confirms »
-   6/10 ✓ « GTA 3 Had a $600,000 Music Budget It Never Spent »
-   0/10 ✗ pas une news « Ciel dégagé (escorte avec Donnie) | Soluce GTA 6 »
-   0/10 ✗ pas une news « Terre à terre (hydravion avec Lucia) | Soluce GTA 6 »
-   6/10 ✓ « Claude is coding for the PC recompile of Grand Theft Auto VI. »
-   0/10 ✗ pas une news « Nettoyer après Donnie (colis et Kingfishers) | Soluce GTA 6 »
-   0/10 ✗ pas une news « BuckMe (Mission compte bancaire) | Soluce GTA 6 »
-   8/10 ✓ « Grand Theft Auto VI nécessitera au minimum un processeur Ryzen 5 5600  »
-   3/10 ✗ pas une news « How to Listen to GTA 6 Radio While Walking: Headphones Explained »
-   0/10 ✗ pas une news « Bloqueur d'encre GTA 6 : Comment débloquer cet outil pour braquer les  »
-   0/10 ✗ pas une news « Feng Shui | Soluce GTA 6 »
-   5/10 ✓ « GTA 6 discourse is already suffering from the flat earther effect »
-   0/10 ✗ pas une news « GTA 6 Aiming: The Complete Guide to Better Aim on PS5 and Xbox »
-   0/10 ✗ pas une news « Hé, Arnold ! GTA 6 : soluce de la mission 8 (poursuite à Maroon Key) »
-   0/10 ✗ pas une news « How to Find All Three Kolt & Associates Businesses and Their Weapons i »
-   8/10 ✓ « GTA 6 Sex Scenes Took Thought and Iteration, Rockstar Says »
-GAMING · 5 infos retenues, meilleure : « Grand Theft Auto VI nécessitera au minimum un processeur Ryzen 5 5600 ou Core i5 » (8/10)
-  article · fr.gamegpu.com
-  article · 3301 caractères lus
-  photo · 1 image(s) : 1600x900
-  contexte · 1 complément(s) : DEXERTO
+   2/10 ✗ pas une news « Every golden gun location in GTA 6. »
+   2/10 ✗ pas une news « Best hidden loot spots in GTA 6. »
+   3/10 ✗ pas une news « ⚠️ STOP!! DO NOT FINISH CHAPTER 3 IN GTA 6 UNTIL YOU DO THIS - FREE CA »
+   2/10 ✗ pas une news « The MOST INSANE Vice City Loot Location in GTA 6 🤑 »
+   4/10 ✗ pas une news « I love this game bro. GTA 6 is a 10/10. https://t.co/bF4FyOXOqq »
+   2/10 ✗ pas une news « This is a 50K money route in GTA 6. »
+   3/10 ✗ pas une news « This game is a freaking fever dream »
+   4/10 ✗ pas une news « I'm playing GTA 6 like it's The Sims and I couldn't be happier with th »
+   7/10 ✓ « The "Mute Licensed Music" Setting in GTA 6 Does Not Prevent Copyright  »
+   2/10 ✗ pas une news « How to Claim the Vintage Vice City Pack Rewards in GTA 6 »
+   3/10 ✗ pas une news « GTA 6 Mission Music: Songs, Cutscenes and How to Identify Them »
+   6/10 ✓ « Du padel dans GTA VI ? Une vidéo fait le buzz sur Instagram »
+   7/10 ✓ « How Metacritic Tried — and Failed — to Stop ‘GTA 6’ Review Bombing »
+   4/10 ✗ pas une news « Why GTA 6's Breakfast Run Is Being Called a Perfect Mission »
+   2/10 ✗ pas une news « 5 GTA 6 Driving Tips And Tricks To Make Getting Around Easier »
+GAMING · 3 infos retenues, meilleure : « The "Mute Licensed Music" Setting in GTA 6 Does Not Prevent Copyright Claims » (7/10)
+  article · 3302 caractères lus
+  photo · 1 image(s) : 1920x1075
+  contexte · 1 complément(s) : GAMEKULT
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · recherche X « GTA 6 PC gameplay performance » : rien qui montre vraiment le sujet
-  vidéo · trouvée sur X « PC performance » (1247 likes) : pilot a mech with no restrictions on turning speed
+  vidéo · trouvée sur X « GTA 6 streamer settings audio » (397 likes) : holy sh*t, gta 6 could be a goldmine for content clippers.
 
-- more than 30 mis
-  vidéo · téléchargée (34 s, 6 Mo)
-  vidéo · 34 images analysées, texte incrusté sur 34
-  couverture · photo1 · zoom 1.12 · propre
-  carrousel prêt : « GTA 6 exige un gros processeur sur PC » (4 slides)
-  voix · ⚠️ refaite, texte différent (66%) : « GTA 6 demande au minimum un Ryzen 5 5600 sur PC pour atteindre 30 images par seconde. Ton PC déjà prêt ? GTA 6 demande au minimum un Ryzen 5 5600 sur PC pour at »
-  voix · contrôle OK (100%, essai 2, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (6.5 s)
-  vidéo · 10 images analysées, texte incrusté sur 10
-  vidéo · temps forts : 5 passages (2s, 4s, 14s, 27s, 29s) sur 34 s
-  reel · 8.2 s · 5 plans dont 5 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgDhOnWmiAC/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgDhQtwmcw_/
+here’s how
+  vidéo · téléchargée (53 s, 4 Mo)
+  vidéo · 40 images analysées, texte incrusté sur 40
+  couverture · photo1 · zoom 1.8 · PAS PROPRE
+  carrousel prêt : « GTA 6 intègre une option muette pour les streamers » (4 slides)
+  voix · contrôle OK (100%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (8.8 s)
+  vidéo · 12 images analysées, texte incrusté sur 12
+  vidéo · temps forts : 6 passages (6s, 19s, 22s, 28s, 34s, 36s) sur 53 s
+  reel · 10.5 s · 6 plans dont 6 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgDoCTdF6aR/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgDoEQemeSN/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 5 s
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
