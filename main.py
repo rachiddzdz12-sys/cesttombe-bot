@@ -354,7 +354,7 @@ def executer():
                 prefixe = f"{now_paris:%Y%m%d-%H%M}-{'jv' if cat == 'GAMING' else 'rap'}" + (f"-{COMPTE}" if COMPTE else "")
                 if test and n_test > 1:
                     prefixe += f"-{rendus + 1}"        # plusieurs rendus d'essai : un nom chacun
-                medias = preparer_medias(c, photos, prefixe, diag, n_source, red)
+                medias = preparer_medias(c, photos, prefixe, diag, n_source, red, etat)
                 fichiers = da3.carrousel(post, medias, SORTIE, prefixe, diag)
                 (SORTIE / f"{prefixe}-legende.txt").write_text(red["legende"], encoding="utf-8")
                 if red.get("legende_reel"):
@@ -450,7 +450,7 @@ def executer():
     return code
 
 
-def preparer_medias(cand, photos, prefixe, diag, n_source=None, red=None):
+def preparer_medias(cand, photos, prefixe, diag, n_source=None, red=None, etat=None):
     """Images (analysées : textes incrustés, visages) + vidéo de la source (analysée image par image).
     Les n_source premières photos viennent de la source de l'info ; les suivantes ont été cherchées ailleurs."""
     n_source = len(photos) if n_source is None else n_source
@@ -468,10 +468,11 @@ def preparer_medias(cand, photos, prefixe, diag, n_source=None, red=None):
     if config.VIDEOS and not cand.get("videos") and getattr(config, "VIDEOS_RECHERCHE_X", False) \
             and red and red.get("recherche_video"):
         # pas de vidéo dans la source : une vidéo qui montre le sujet (la mission, le clip, la scène virale)
-        vids = sources.videos_x(red["recherche_video"], mots, diag, likes_min=getattr(config, "VIDEOS_LIKES_MIN", 200))
-        court = " ".join(red["recherche_video"].split()[:2])
-        if not vids and court != red["recherche_video"]:      # recherche plus large : le nom seul
-            vids = sources.videos_x(court, mots, diag, likes_min=getattr(config, "VIDEOS_LIKES_MIN", 200) // 2)
+        mini = getattr(config, "VIDEOS_LIKES_MIN", 200)
+        vids = sources.videos_x(red["recherche_video"], mots, diag, likes_min=mini, etat=etat)
+        noms = [m for m in red["recherche_video"].split() if m.lower() not in sources.MOTS_GENERIQUES_VIDEO][:2]
+        if not vids and noms and " ".join(noms) != red["recherche_video"]:   # plus large : les noms seuls
+            vids = sources.videos_x(" ".join(noms), mots, diag, likes_min=mini // 2, etat=etat)
         if vids:
             cand = {**cand, "videos": vids}
     if config.VIDEOS and not cand.get("videos") and getattr(config, "VIDEOS_OFFICIELLES", False) \

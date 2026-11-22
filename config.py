@@ -137,6 +137,9 @@ COMPTES_RAP = ["rap.minute", "rapfractusofficiel", "booska_p"]   # pour le futur
 COMPTES_X = [
     {"compte": "RockstarGames", "categorie": "GAMING", "lang": None},
     {"compte": "RockstarIntel", "categorie": "GAMING", "lang": None, "filtre": True},
+    # les vidéos GTA 6 qui font le buzz (moments de jeu, secrets, missions, records) : l'info arrive AVEC sa vidéo
+    {"recherche": '("GTA 6" OR "GTA VI") filter:native_video min_faves:5000', "categorie": "GAMING", "lang": None,
+     "filtre": True, "videos_seulement": True, "toutes_les_h": 4, "max": 8},
 ]
 COMPTES_X_RAP = ["RapFrActus", "FrenchRapUS"]                    # pour le futur compte rap
 APIFY_ACTEUR = "kaitoeasyapi~twitter-x-data-tweet-scraper-pay-per-result-cheapest"
