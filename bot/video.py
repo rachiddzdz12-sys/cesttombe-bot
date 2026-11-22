@@ -189,7 +189,7 @@ def temps_forts(v, longueur, dossier, diag, morceau=2.0):
     ou si le montage échoue. Jamais d'exception."""
     import numpy as np
     d = v.get("duree", 0)
-    if d <= longueur + 1.5:
+    if d <= max(longueur * 1.6, longueur + 4):       # assez courte : on la passe telle quelle, sans trou
         return v
     try:
         dossier = Path(dossier)
@@ -226,7 +226,7 @@ def temps_forts(v, longueur, dossier, diag, morceau=2.0):
         while len(choisis) * morceau < longueur and libre.any():
             i = int(np.argmax(np.where(libre, fenetres, -1e9)))
             choisis.append(i)
-            libre[max(0, i - largeur - 1): i + largeur + 1] = False
+            libre[max(0, i - largeur + 1): i + largeur] = False   # pas de chevauchement (passages collés permis)
         choisis.sort()                                      # dans l'ordre de la vidéo : on suit l'histoire
         bouts = [(i * pas, i * pas + morceau) for i in choisis]
         filtres, flux = [], ""
