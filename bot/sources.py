@@ -446,13 +446,26 @@ def lire_x(diag, etat=None):
                   3 if os.environ.get("CATEGORIE", "auto") != "auto" or os.environ.get("MODE") == "test" else 1)
     res = []
     depuis = (datetime.now(timezone.utc) - timedelta(days=2)).strftime("%Y-%m-%d")
+    deja_cherche = (etat if etat is not None else {}).setdefault("x_recherches", {})
     for cpt in config.COMPTES_X:
         cpt = cpt if isinstance(cpt, dict) else {"compte": cpt, "lang": "fr"}
-        compte = cpt["compte"]
         recul = config.AGE_MAX_HEURES.get(cpt.get("categorie") or "RAP FR", 24) * facteur
-        # tweets récents de ce compte seulement (« since: ») : Apify facture au tweet renvoyé
-        entree = {"twitterContent": f"from:{compte} since:{depuis} -filter:replies", "maxItems": config.X_MAX_TWEETS,
-                  "queryType": "Latest"}
+        if cpt.get("recherche"):
+            # recherche de vidéos virales du sujet (ex : les clips GTA 6 les plus aimés), pas plus d'une fois
+            # toutes les quelques heures : chaque tweet renvoyé est facturé
+            compte = "recherche"
+            derniere = deja_cherche.get(cpt["recherche"])
+            if derniere and os.environ.get("MODE") != "test" and age_heures({"date": derniere}, datetime.now(
+                    timezone.utc)) < cpt.get("toutes_les_h", 4):
+                continue
+            entree = {"twitterContent": f"{cpt['recherche']} since:{depuis} -filter:replies",
+                      "maxItems": cpt.get("max", 8), "queryType": "Top"}
+            deja_cherche[cpt["recherche"]] = datetime.now(timezone.utc).isoformat()
+        else:
+            compte = cpt["compte"]
+            # tweets récents de ce compte seulement (« since: ») : Apify facture au tweet renvoyé
+            entree = {"twitterContent": f"from:{compte} since:{depuis} -filter:replies",
+                      "maxItems": config.X_MAX_TWEETS, "queryType": "Latest"}
         if cpt.get("lang"):
             entree["lang"] = cpt["lang"]
         try:
@@ -465,7 +478,7 @@ def lire_x(diag, etat=None):
             items = [t for t in json.loads(r.content.decode("utf-8", "replace")) if isinstance(t, dict)]
             compteur["tweets"] += len(items)          # Apify facture tout ce qu'il renvoie
             items = [t for t in items if age_heures({"date": _date_tweet(t)}, datetime.now(timezone.utc)) <= recul]
-            items = items[: config.X_MAX_TWEETS]
+            items = items[: cpt.get("max", config.X_MAX_TWEETS)]
             gardes = 0
             for t in items:
                 texte = reparer((t.get("text") or t.get("full_text") or t.get("fullText") or "").strip())
@@ -477,21 +490,28 @@ def lire_x(diag, etat=None):
                 img = _premier(t, ["media_url_https", "mediaUrl", "media_url", "thumbnail_url"])
                 videos = _videos_tweet(t)
                 date = _date_tweet(t)
+                if cpt.get("recherche"):
+                    if cpt.get("videos_seulement") and not videos:
+                        continue
+                    auteur = (t.get("author") or {}).get("userName") or (t.get("user") or {}).get("screen_name") or "X"
+                else:
+                    auteur = compte
                 cand = {
-                    "id": "x:" + tid, "source": "@" + compte.upper(),
+                    "id": "x:" + tid, "source": "@" + auteur.upper(),
                     "categorie": cpt.get("categorie") or ("GAMING" if re.search(config.MOTS_GAMING, texte, re.I)
                                                          else "RAP FR"),
-                    "source_legende": "@" + compte + " (X)",
+                    "source_legende": "@" + auteur + " (X)",
                     "titre": texte.split("\n")[0][:140], "resume": texte[:600], "texte": texte[:4000],
-                    "lien": t.get("url") or t.get("twitterUrl") or f"https://x.com/{compte}/status/{tid}",
-                    "date": date, "images": [img] if isinstance(img, str) else [], "credit": "@" + compte,
+                    "lien": t.get("url") or t.get("twitterUrl") or f"https://x.com/{auteur}/status/{tid}",
+                    "date": date, "images": [img] if isinstance(img, str) else [], "credit": "@" + auteur,
                     "videos": videos,
                 }
                 if cpt.get("filtre") and not est_gta(cand):
                     continue
                 res.append(cand)
                 gardes += 1
-            diag.append(f"X · @{compte} → {len(items)} tweets lus, {gardes} gardés "
+            diag.append(f"X · {('« ' + cpt['recherche'][:40] + ' »') if cpt.get('recherche') else '@' + compte} → "
+                        f"{len(items)} tweets lus, {gardes} gardés "
                         f"(ce mois : {compteur['tweets']} / {config.X_PLAFOND_MOIS})")
         except Exception as ex:
             diag.append(f"X · @{compte} → erreur : {str(ex)[:150]}")
@@ -559,12 +579,20 @@ MOTS_GENERIQUES_VIDEO = {
     "une", "pour", "avec", "dans", "sur", "rap", "son", "album", "sortie", "réaction", "reaction", "viral", "virale"}
 
 
-def videos_x(requete, mots, diag, jours=5, likes_min=200, n=8):
+def videos_x(requete, mots, diag, jours=5, likes_min=200, n=8, etat=None):
     """Recherche sur X des vidéos qui MONTRENT le sujet (ex : « GTA 6 mission bunker ») : la plus pertinente
     (mots de l'info dans le tweet), puis la plus aimée. [] si rien de pertinent."""
     token = os.environ.get("APIFY_TOKEN")
     requete = re.sub(r"[\"#@]", " ", requete or "").strip()
     if not token or not requete:
+        return []
+    distinctifs = {m for m in re.findall(r"[\wà-ÿ']+", requete.lower())
+                   if (len(m) >= 3 or (len(m) >= 2 and any(c.isdigit() for c in m))) and m not in MOTS_GENERIQUES_VIDEO}
+    if not distinctifs:            # « GTA 6 » seul : n'importe quelle vidéo passerait, on préfère rien
+        diag.append(f"  vidéo · recherche « {requete} » trop vague : pas de vidéo")
+        return []
+    compteur = (etat or {}).get("x_mois") or {}
+    if compteur.get("tweets", 0) >= config.X_PLAFOND_MOIS:
         return []
     depuis = (datetime.now(timezone.utc) - timedelta(days=jours)).strftime("%Y-%m-%d")
     q = f"{requete} filter:native_video min_faves:{likes_min} since:{depuis} -filter:replies"
@@ -578,9 +606,9 @@ def videos_x(requete, mots, diag, jours=5, likes_min=200, n=8):
         return []
     if not isinstance(tweets, list):
         return []
+    if compteur:
+        compteur["tweets"] = compteur.get("tweets", 0) + len(tweets)
     # mots qui désignent CE sujet (noms, lieux, chiffres) : sans eux, la vidéo parle d'autre chose
-    distinctifs = {m for m in re.findall(r"[\wà-ÿ']+", requete.lower())
-                   if (len(m) >= 3 or (len(m) >= 2 and any(c.isdigit() for c in m))) and m not in MOTS_GENERIQUES_VIDEO}
     cles = ({m.lower() for m in mots if len(m) >= 4} - MOTS_GENERIQUES_VIDEO) | distinctifs
     choix = []
     for t in tweets:
