@@ -265,6 +265,41 @@ class Clip:
         return Image.open(self.images[min(len(self.images) - 1, int(t * FPS))]).convert("RGB")
 
 
+class ClipCadre:
+    """Extrait d'une vidéo pleine de texte incrusté (stream, montage, sous-titres) : on ne la recadre pas, on la
+    montre ENTIÈRE dans un cadre au milieu de l'écran, sur un fond flouté de la même vidéo. On voit ce qui se passe."""
+    BOITE = (300, 1180)
+
+    def __init__(self, dossier, video, debut, duree):
+        self.dossier, self.duree = Path(dossier), duree
+        self.dossier.mkdir(parents=True, exist_ok=True)
+        haut, bas = self.BOITE
+        vf = (f"split[a][b];[a]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=28:2,"
+              f"eq=brightness=-0.25:saturation=0.6[fond];"
+              f"[b]scale={W}:{bas - haut}:force_original_aspect_ratio=decrease[v];"
+              f"[fond][v]overlay=(W-w)/2:{haut}+({bas - haut}-h)/2,fps={FPS}")
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{debut:.2f}", "-t", f"{duree + 0.2:.2f}",
+                        "-i", str(video["chemin"]), "-filter_complex", f"[0:v]{vf}", "-q:v", "3",
+                        str(self.dossier / "%04d.jpg")], check=True)
+        self.images = sorted(self.dossier.glob("*.jpg"))
+        if not self.images:
+            raise RuntimeError("extrait vidéo vide")
+        self.choix = {"zone": "bas"}
+
+    def image(self, t):
+        return Image.open(self.images[min(len(self.images) - 1, int(t * FPS))]).convert("RGB")
+
+
+def debut_libre(video, deja, duree):
+    """Un passage pas encore montré : les extraits se suivent dans la vidéo (on raconte ce qui s'y passe)."""
+    longueur = max(0.0, video["duree"] - duree - 0.3)
+    if longueur <= 0:
+        return 0.0
+    depart = min(longueur, video["duree"] * 0.08)          # on saute l'intro (logo, écran noir)
+    t = depart + len(deja) * duree
+    return t if t <= longueur else (depart + (len(deja) * duree * 1.7)) % max(1.0, longueur)
+
+
 FIXES = {"logo": (55, 55, 480, 125), "puce": (55, 140, 760, 200)}
 
 
@@ -318,12 +353,15 @@ def construire_plans(medias, n, tmp, diag):
         plan = None
         if veut_video:
             debut, c = _cadre_clip(v, deja, accroche)
-            if c is not None:
-                try:
+            try:
+                if c is not None:
                     plan = Clip(tmp / f"clip{i}", v, debut, c, PLAN)
-                    deja.append(debut)
-                except Exception as ex:
-                    diag.append(f"  reel · extrait vidéo impossible : {str(ex)[:100]}")
+                else:           # texte incrusté partout : la vidéo entière dans un cadre plutôt qu'une photo
+                    debut = debut_libre(v, deja, PLAN)
+                    plan = ClipCadre(tmp / f"clip{i}", v, debut, PLAN)
+                deja.append(debut)
+            except Exception as ex:
+                diag.append(f"  reel · extrait vidéo impossible : {str(ex)[:100]}")
         if plan is None:
             pool = (sources + autres) if (sources or autres) else (v["images"] if v else [])
             if not pool:
@@ -435,7 +473,7 @@ def fabriquer(post, medias, texte_voix, dossier, prefixe, diag):
         raise RuntimeError(f"assemblage du Reel impossible : {r.stderr[-200:]}")
     couv = dossier / f"{prefixe}-reel-couverture.jpg"
     da3.couverture_reel(post, medias).save(couv, "JPEG", quality=92)
-    nb_clips = sum(isinstance(p, Clip) for p in plans)
+    nb_clips = sum(isinstance(p, (Clip, ClipCadre)) for p in plans)
     diag.append(f"  reel · {total:.1f} s · {len(plans)} plans dont {nb_clips} extraits vidéo · "
                 f"{'voix' if audio else 'sans voix'}{' + musique' if musique() else ''}")
     shutil.rmtree(tmp, ignore_errors=True)

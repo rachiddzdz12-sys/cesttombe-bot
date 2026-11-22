@@ -469,6 +469,9 @@ def preparer_medias(cand, photos, prefixe, diag, n_source=None, red=None):
             and red and red.get("recherche_video"):
         # pas de vidéo dans la source : une vidéo qui montre le sujet (la mission, le clip, la scène virale)
         vids = sources.videos_x(red["recherche_video"], mots, diag, likes_min=getattr(config, "VIDEOS_LIKES_MIN", 200))
+        court = " ".join(red["recherche_video"].split()[:2])
+        if not vids and court != red["recherche_video"]:      # recherche plus large : le nom seul
+            vids = sources.videos_x(court, mots, diag, likes_min=getattr(config, "VIDEOS_LIKES_MIN", 200) // 2)
         if vids:
             cand = {**cand, "videos": vids}
     if config.VIDEOS and not cand.get("videos") and getattr(config, "VIDEOS_OFFICIELLES", False) \
