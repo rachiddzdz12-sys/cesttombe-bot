@@ -2,11 +2,11 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (17 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 42 / 100
+Instagram · posts publiés par l'API sur 24 h : 45 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → 92 infos
-Web · GOOGLE NEWS → 92 infos
+Web · GOOGLE ACTU → HTTP 429
+Web · GOOGLE NEWS → HTTP 429
 Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
@@ -15,55 +15,72 @@ Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
 Web · GAMEKULT → 15 infos
-Web · IGN FRANCE → 19 infos
-Web · JEUXVIDEO.COM → 15 infos
-Web · INSIDER GAMING → 6 infos
+Web · IGN FRANCE → 20 infos
+Web · JEUXVIDEO.COM → 16 infos
+Web · INSIDER GAMING → 9 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → refus Apify HTTP 400 : {
+X · @RockstarGames → 10 tweets lus, 1 gardés (ce mois : 4107 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 4122 / 10000)
+X · @recherche → refus Apify HTTP 400 : {
   "error": {
     "type": "run-failed",
-    "message": "Actor run did not succeed (run ID: EYqE7a4tJFkQwJpPe, status: ABORTED)."
-  }
-}
-X · @RockstarIntel → refus Apify HTTP 400 : {
-  "error": {
-    "type": "run-failed",
-    "message": "Actor run did not succeed (run ID: 1oMFPMY7NrLuVtkcE, status: ABORTED)."
+    "message": "Actor run did not succeed (run ID: T2KB67KKLSv4mK1YG, status: ABORTED)."
   }
 }
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-238 infos fraîches et jamais traitées (sur 461 lues)
-   2/10 ✗ pas une news « GTA 6 Moses Vehicle Theft Guide: All Five Cars and Where to Find Them »
-   2/10 ✗ pas une news « GTA 6 Dunk Robbery Guide: Lost Vista Pills and Scattered Pines Crystal »
-   3/10 ✗ pas une news « J'adore cette mission de GTA 6 mais impossible de la refaire »
-   6/10 ✓ « Avengers: Endgame Officially Reclaims #1 Global Streaming Spot After G »
-   8/10 ✓ « Circana Says GTA 6 Attracted Casual Gamers and Had Them Play It for 8  »
-   5/10 ✓ « GTA 6 : une vidéo de footing en endurance fondamentale approche les 5  »
-   2/10 ✗ pas une news « ATM GTA 6 : Comment braquer les distributeurs automatiques ? »
-   7/10 ✓ « GTA 6 launch costs the US around a billion dollars in productivity »
-   2/10 ✗ pas une news « Best Secret Gear Spot in GTA 6 Early Game—Insane Rifle, Grenade Launch »
-   1/10 ✗ pas une news « Ce dimanche 22 novembre, aucune autre manette PS5 n’est moins chère qu »
-   2/10 ✗ pas une news « How to Switch Characters in GTA 6 – When Jason and Lucia Switching Unl »
-   6/10 ✓ « Take-Two Stock Under Renewed Pressure as Investors Sell the News on GT »
-   7/10 ✓ « Grand Theft Auto VI mania could endanger marriages as relationship coa »
-   6/10 ✗ déjà publiée « Music Review: ‘Grand Theft Auto VI: The Album’ is overstuffed and chao »
-   9/10 ✗ déjà publiée « GTA 6 a rapporté plus d’argent en une journée qu’Avengers: Endgame en  »
-   2/10 ✗ pas une news « Déclassé Vamos GTA 6 : Quel est le code du garage de la mission de Mos »
-   8/10 ✓ « GTA 6 developer pays touching tribute to late mother by immortalizing  »
-   7/10 ✓ « [Grand Theft Auto VI] Des petits mais aussi un premier énorme bug »
-   9/10 ✗ déjà publiée « GTA 6 first-day sales of $3.8B is largest entertainment launch ever »
-   5/10 ✓ « PlayStation US Initially Resisted GTA 3 Exclusivity Deal »
-GAMING · 9 infos retenues, meilleure : « Circana Says GTA 6 Attracted Casual Gamers and Had Them Play It for 8 Hours a Da » (8/10)
-  article · 3396 caractères lus
-  photo · 1 image(s) : 1920x1080
+71 infos fraîches et jamais traitées (sur 293 lues)
+   6/10 ✗ déjà publiée « 35,000 More Students Missed School in England on GTA VI Release Day! »
+   7/10 ✗ déjà publiée « Florida Joker Is In GTA VI, Rockstar Confirms »
+   9/10 ✗ déjà publiée « GTA VI Breaks Records With 32.5 Million Copies Sold, $4 Billion On Rel »
+   7/10 ✗ déjà publiée « GTA VI's Famous Bikini Girl From Trailer 1 Has Been Found! »
+   5/10 ✗ déjà publiée « New GTA VI Backgrounds Added To PS5! »
+   6/10 ✓ « Player Got Banned for 30 Days for Texting a GTA 6 Nude Screenshot »
+   5/10 ✓ « GTA 6 Helped Turn Game Ownership Into a Political Fight »
+   6/10 ✓ « French Retirement Home Residents Are Trading Scrabble for GTA 6 »
+   6/10 ✓ « Your Xbox Can Ban You for Auto-Uploading GTA 6 Nude Clips »
+   3/10 ✗ pas une news « GTA 6 Is Too Big for Borders but Not for a Black Friday Discount »
+   1/10 ✗ pas une news « Where to Find The Buckingham Jubilee in GTA 6—Randy’s Wishlist Car Loc »
+   7/10 ✓ « Des joueurs de GTA 6 signalent des plantages sur PS5 accompagnés de l’ »
+   1/10 ✗ pas une news « Where to Find All of Randy’s Wishlist Supercars in GTA 6—Car Locations »
+   1/10 ✗ pas une news « Where to Find The Pfister Growler in GTA 6—Randy’s Wishlist Car Locati »
+   1/10 ✗ pas une news « GTA 6 Laptop Password Puzzle—Muffins Solution and La Perle Garage Code »
+   6/10 ✓ « The Dexter Apartment Is the Best Proof Yet of How GTA 6 Builds Its Wor »
+   5/10 ✓ « GTA 6 : l’Algérie 3e en Afrique pour l’engouement, mais première en no »
+   1/10 ✗ pas une news « Mission secondaire GTA 6 : Liste des quêtes annexes, comment les finir »
+   8/10 ✗ déjà publiée « Les joueurs de GTA 6 réagissent après que des boutiques exclusives ont »
+   7/10 ✓ « J'adore cette mission de GTA 6 mais impossible de la refaire »
+GAMING · 8 infos retenues, meilleure : « Des joueurs de GTA 6 signalent des plantages sur PS5 accompagnés de l’erreur CE- » (7/10)
+  article · 6000 caractères lus
+  photo · 1 image(s) : 1200x675
+  contexte · 1 complément(s) : GAMESRADAR
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
+  vidéo · trouvée sur X « GTA 6 PS5 error CE-108255-1 » (423 likes) : ça durera jusqu’à quand on veux un communiqué ou une solution de votre
+  vidéo · téléchargée (15 s, 1 Mo)
+  vidéo · 14 images analysées, texte incrusté sur 14
   couverture · photo1 · zoom 1.12 · propre
-  carrousel prêt : « GTA 6 a attiré les joueurs occasionnels pendant huit heures » (4 slides)
-  voix · contrôle OK (94%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (4.2 s)
-  reel · 5.9 s · 4 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgBNPccCUUp/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgBNRmmkZ2E/
-  ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
+  carrousel prêt : « Des plantages de GTA 6 signalés sur PS5 avec le code CE-108255-1 » (4 slides)
+  voix · contrôle OK (93%, essai 1, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (9.8 s)
+  reel · 11.4 s · 7 plans dont 7 extraits vidéo · voix + musique
+  ⏭️ déjà publié sur le compte (https://www.instagram.com/p/DgAgrQTDLnG/) : on passe
+  article · 101 caractères lus
+  ⏭️ article illisible, info écartée : « J'adore cette mission de GTA 6 mais impossible de la refaire »
+  article · 2410 caractères lus
+  photo · 1 image(s) : 1920x1080
+  contexte · 1 complément(s) : INSIDER GAMING
+  visuels · steam « Grand Theft Auto VI » → 4 image(s)
+  vidéo · recherche X « GTA 6 nudist colony gameplay » : rien qui montre vraiment le sujet
+  vidéo · recherche X « nudist colony » : rien qui montre vraiment le sujet
+  vidéo · trouvée sur X « GTA 6 gameplay » (2410 likes) : holy f*ck, gta 6 clips studio in 20 repos.
+
+i made $10k+ with opus 5.5
+  vidéo · téléchargée (30 s, 3 Mo)
+  vidéo · 30 images analysées, texte incrusté sur 30
+  couverture · photo1 · zoom 1.25 · propre
+  carrousel prêt : « Banni 30 jours pour une capture de GTA 6 » (4 slides)
+  voix · contrôle OK (98%, essai 1, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (9.8 s)
+  reel · 11.5 s · 7 plans dont 7 extraits vidéo · voix + musique
+  ⏭️ déjà publié sur le compte (https://www.instagram.com/p/DgAgrQTDLnG/) : on passe
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s

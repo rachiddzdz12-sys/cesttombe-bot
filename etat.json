@@ -702,7 +702,16 @@
   "web:google actu:CBMijAJBVV95cUxPZW84OGRQYm12YkJmVFNWaFZhbThQUlB1NHdrbDBYS0hzTzJqemtaZW54NXhHS1FubkVNU2VBMm5KWTQwenp3WENfV0FfSU1wamhUSzNtc3o1alp6ZWlSU3hJT1IzT1RrTXlQU0kyMWNETGtRbWh0akdURGxya01ncG1wQmg5X1JHNzFNTUFnWER6WXRvbEpLSDhlMUZURUxJaDQ3LTJqTmlPZjJqWHRLcnF6NTZpay1yaERXekV5aHpmS2EyNkJXdnotREphQzQ1TXk1U3E2dGRQZl9CNUJqZ19wN0doejZwMGUtckxlVzVyYWNNZEg3VUg0THZHZWpWY29YcHhnNmw3RmJW": "2026-11-21T21:31:28.771170+00:00",
   "web:google news:CBMidEFVX3lxTFBLbFFTQ3M0Z0FUQTI5RjBlSTdMQ1hfRWFaenBaTFpGX2JETE5LLWZQY0t2UEFmZlRmY1F1dlJsX2xjY3Qwejhuc2FjOUo3Nl9aUlRpUUFsZHJ4dkEydTk1amRSZUJWZ1RPak9TeXpGTm43dEpQ": "2026-11-21T21:31:28.771170+00:00",
   "web:jeuxvideo.com:https://www.jeuxvideo.com/news/2116173/declasse-vamos-gta-6-quel-est-le-code-du-garage-de-la-mission-de-moses.htm": "2026-11-21T21:31:28.771170+00:00",
-  "web:gta boom:https://www.gtaboom.com/circana-says-gta-6-attracted-casual-gamers-and-had-them-play-it-for-8-hours-a-day-d5e9": "2026-11-21T21:31:28.771170+00:00"
+  "web:gta boom:https://www.gtaboom.com/circana-says-gta-6-attracted-casual-gamers-and-had-them-play-it-for-8-hours-a-day-d5e9": "2026-11-21T21:31:28.771170+00:00",
+  "web:gta boom:https://www.gtaboom.com/gta-6-is-too-big-for-borders-but-not-for-a-black-friday-discount-f9fa": "2026-11-22T06:01:35.301319+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=240076": "2026-11-22T06:01:35.301319+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=239888": "2026-11-22T06:01:35.301319+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=240072": "2026-11-22T06:01:35.301319+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=240078": "2026-11-22T06:01:35.301319+00:00",
+  "web:jeuxvideo.com:https://www.jeuxvideo.com/news/2116183/mission-secondaire-gta-6-liste-des-quetes-annexes-comment-les-finir.htm": "2026-11-22T06:01:35.301319+00:00",
+  "web:ign france:https://fr.ign.com/grand-theft-auto-6/94168/des-joueurs-de-gta-6-signalent-des-plantages-sur-ps5-accompagnes-de-lerreur-ce-108255-1": "2026-11-22T06:01:35.301319+00:00",
+  "web:jeuxvideo.com:https://www.jeuxvideo.com/news/2116004/j-adore-cette-mission-de-gta-6-mais-impossible-de-la-refaire.htm": "2026-11-22T06:01:35.301319+00:00",
+  "web:gta boom:https://www.gtaboom.com/player-got-banned-for-30-days-for-texting-a-gta-6-nude-screenshot-430f": "2026-11-22T06:01:35.301319+00:00"
  },
  "publies": [
   {
@@ -1912,6 +1921,9 @@
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 4092
+  "tweets": 4182
+ },
+ "x_recherches": {
+  "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-22T06:02:21.547915+00:00"
  }
 }
