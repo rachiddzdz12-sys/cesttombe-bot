@@ -579,7 +579,7 @@ MOTS_GENERIQUES_VIDEO = {
     "une", "pour", "avec", "dans", "sur", "rap", "son", "album", "sortie", "réaction", "reaction", "viral", "virale"}
 
 
-def videos_x(requete, mots, diag, jours=5, likes_min=200, n=8, etat=None):
+def videos_x(requete, mots, diag, jours=5, likes_min=200, n=8, etat=None, obligatoires=(), libre=False):
     """Recherche sur X des vidéos qui MONTRENT le sujet (ex : « GTA 6 mission bunker ») : la plus pertinente
     (mots de l'info dans le tweet), puis la plus aimée. [] si rien de pertinent."""
     token = os.environ.get("APIFY_TOKEN")
@@ -588,7 +588,7 @@ def videos_x(requete, mots, diag, jours=5, likes_min=200, n=8, etat=None):
         return []
     distinctifs = {m for m in re.findall(r"[\wà-ÿ']+", requete.lower())
                    if (len(m) >= 3 or (len(m) >= 2 and any(c.isdigit() for c in m))) and m not in MOTS_GENERIQUES_VIDEO}
-    if not distinctifs:            # « GTA 6 » seul : n'importe quelle vidéo passerait, on préfère rien
+    if not distinctifs and not libre:   # « GTA 6 » seul : n'importe quelle vidéo passerait, on préfère rien
         diag.append(f"  vidéo · recherche « {requete} » trop vague : pas de vidéo")
         return []
     compteur = (etat or {}).get("x_mois") or {}
@@ -617,8 +617,10 @@ def videos_x(requete, mots, diag, jours=5, likes_min=200, n=8, etat=None):
         if not vids or "#ad" in texte or "sponsor" in texte:
             continue
         forts = sum(1 for k in distinctifs if k in texte)
-        if distinctifs and forts == 0:
+        if distinctifs and forts == 0 and not libre:
             continue
+        if obligatoires and not any(o.lower() in texte for o in obligatoires):
+            continue                     # le nom au cœur de l'info (Boobie Ike, Comcast…) doit y être
         lien = 2 * forts + sum(1 for k in cles - distinctifs if k in texte)
         choix.append((lien, t.get("likeCount") or 0, vids, texte[:70]))
     if not choix:
