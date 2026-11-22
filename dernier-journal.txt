@@ -1,1 +1,69 @@
-Pas de post : dernier post il y a 29 min (minimum 40)
+Mode : auto
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @cesttombe.actu (18 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 39 / 100
+Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
+  10 infos retenues après filtre
+Web · GOOGLE ACTU → 100 infos
+Web · GOOGLE NEWS → 100 infos
+Web · BING ACTU → 12 infos
+Web · BING ACTU VI → 12 infos
+Web · ROCKSTAR INTEL → 10 infos
+Web · DEXERTO → 50 infos
+Web · GTA BOOM → 30 infos
+Web · GAMESRADAR → 50 infos
+Web · GTABASE → 30 infos
+Web · GAMEKULT → 14 infos
+Web · IGN FRANCE → 19 infos
+Web · JEUXVIDEO.COM → 12 infos
+Web · INSIDER GAMING → 5 infos
+Instagram · @rockstargames → 12 posts lus, 12 gardés
+Instagram · @playstationfr → 12 posts lus, 6 gardés
+X · @RockstarGames → 10 tweets lus, 1 gardés (ce mois : 4482 / 10000)
+X · @RockstarIntel → refus Apify HTTP 400 : {
+  "error": {
+    "type": "run-failed",
+    "message": "Actor run did not succeed (run ID: jhB8rTIU1WwiMYv8m, status: ABORTED)."
+  }
+}
+Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
+163 infos fraîches et jamais traitées (sur 473 lues)
+   6/10 ✓ « GTA VI Pre-Order Bonus Now Available To Buy Separately »
+   9/10 ✓ « Sur Twitch, GTA 6 explose le record de Valorant et devient le jeu vidé »
+   9/10 ✗ déjà publiée « Sur Twitch, GTA 6 explose le record de Valorant et devient le jeu vidé »
+   8/10 ✓ « Précommandes, bandes-annonces, streaming… : GTA 6 bat tous les records »
+   8/10 ✓ « GTA 6 aurait écrasé Fortnite sur consoles le jour de sa sortie »
+   8/10 ✓ « GTA 6's Day 1 copies sold have already beaten the Nintendo 64's lifeti »
+   2/10 ✗ pas une news « This Is the One Thing I’ll Never Do Again in GTA 6 »
+   5/10 ✓ « Three weeks in GTA 6 reminded me why human artists are so impressive »
+   7/10 ✓ « GTA 6 Glitch Unlocks The FPS On Xbox Series X|S, But With Multiple Dra »
+  10/10 ✗ déjà publiée « ‘Grand Theft Auto VI’ sets record with $3.79B in first-day retail sale »
+  10/10 ✗ déjà publiée « GTA 6 bat tous les records : 32,5 millions de ventes et 3,79 milliards »
+   2/10 ✗ pas une news « Can you free-roam after beating GTA 6? »
+   1/10 ✗ pas une news « GTA 6: Should You Choose Cut Or Pure In "Dealer's Choice" »
+   3/10 ✗ pas une news « 'GTA 6' on Xbox Series S: How well it actually runs »
+   1/10 ✗ pas une news « Here's where to find the Riatas for Wyman in GTA 6 »
+   8/10 ✓ « GTA 6 Has Been Crashing on PlayStation 5 Consoles With Major Error »
+   2/10 ✗ pas une news « Relation Jason et Lucia GTA 6 : les 4 niveaux et comment l’améliorer »
+   7/10 ✓ « GTA 6 : Rockstar détaille le réseau de drogue complexe qui anime les g »
+   6/10 ✓ « Grand Theft Auto VI has the franchise's the first non-optional female  »
+   6/10 ✓ « GTA 6 likeness lawsuit: can a real person sue over a video game charac »
+GAMING · 11 infos retenues, meilleure : « Sur Twitch, GTA 6 explose le record de Valorant et devient le jeu vidéo le plus  » (9/10)
+  article · gamekult.com
+  article · 2044 caractères lus
+  photo · 1 image(s) : 1920x1021
+  contexte · 1 complément(s) : GAMEKULT
+  visuels · steam « Grand Theft Auto VI » → 4 image(s)
+  vidéo · recherche X « Grand Theft Auto VI Twitch record » : rien qui montre vraiment le sujet
+  vidéo · recherche X « Twitch record » : rien qui montre vraiment le sujet
+  vidéo · recherche X « GTA 6 gameplay » : rien qui montre vraiment le sujet
+  couverture · photo1 · zoom 1.8 · PAS PROPRE
+  carrousel prêt : « Grand Theft Auto VI pulvérise le record historique de Twitch » (3 slides)
+  voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (7.9 s)
+  reel · 9.6 s · 6 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgDA3O6j93s/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgDA45JjOpE/
+  ✅ STORY PUBLIÉE (vidéo)
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
