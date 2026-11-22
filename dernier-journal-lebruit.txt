@@ -1,1 +1,45 @@
-Pas de post : dernier post il y a 208 min (minimum 210)
+Mode : auto
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @le.bruit.rap (17 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 9 / 100
+Rap · @rap.minute → 12 posts lus
+Rap · @rapfractusofficiel → 12 posts lus
+Rap · @booska_p → 12 posts lus
+X · @RapFrActus → refus Apify HTTP 400 : {
+  "error": {
+    "type": "run-failed",
+    "message": "Actor run did not succeed (run ID: MPys6QZKCqabpKroX, status: FAILED)."
+  }
+}
+X · @FrenchRapUS → 10 tweets lus, 2 gardés (ce mois : 990 / 9000)
+X · @Rapunchline → 10 tweets lus, 2 gardés (ce mois : 1005 / 9000)
+X · @SpotifyFrance → refus Apify HTTP 400 : {
+  "error": {
+    "type": "run-failed",
+    "message": "Actor run did not succeed (run ID: GQkj47NE34atT0RUb, status: ABORTED)."
+  }
+}
+7 infos fraîches et jamais traitées (sur 40 lues)
+   0/10 ✗ pas une news « 🚨 VOICI 7 ASTUCES IMPORTANTES POUR KIFFER UN MAXIMUM SUR GTA 6 !  »
+   0/10 ✗ pas une news « 🚨 LA MAP DE GTA 6 EST TOUT SIMPLEMENT GIGANTESQUE !  »
+   6/10 ✓ « 🚨 BRULUX S'EXPRIME SUR BOOBA »
+   8/10 ✓ « Nouveau revers judiciaire pour Koba LaD ⚖️ »
+   0/10 ✗ pas une news « « Est-ce que cette meuf a réellement tourné ou alors êtes-vous les aut »
+   0/10 ✗ pas une news « À l’occasion des GQ Men of the Year 2026, le combattant de MMA Salahdi »
+   7/10 ✓ « Un tournage de clip qui vire au drame 😳 »
+RAP FR · 3 infos retenues, meilleure : « Nouveau revers judiciaire pour Koba LaD ⚖️ » (8/10)
+  photo · 1 image(s) : 1080x1375
+  visuels · deezer « Koba LaD » → 5 image(s)
+  vidéo · recherche X « Koba LaD tribunal justice » : rien qui montre vraiment le sujet
+  vidéo · recherche X « Koba LaD » : rien qui montre vraiment le sujet
+  vidéo · @kobalad : compte introuvable ou trop petit, pas de vidéo officielle
+  couverture LE BRUIT · photo1 · haut
+  carrousel prêt : « Koba LaD : refus de son statut de témoin assisté » (5 slides)
+  voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (9.0 s)
+  reel LE BRUIT · 10.2 s · 6 plans · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgC_Y7Yl04n/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgC_asVM33U/
+  ✅ STORY PUBLIÉE (vidéo)
+Gemini : gemini-flash-lite-latest : réponse en 12 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 14 s
