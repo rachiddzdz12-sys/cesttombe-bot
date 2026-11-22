@@ -505,3 +505,45 @@ def age_heures(cand, maintenant):
         return (maintenant - d).total_seconds() / 3600
     except ValueError:
         return 0
+
+
+def videos_officielles(compte, mots, diag, jours=10, abonnes_min=100_000):
+    """Vidéos récentes du compte Instagram officiel d'un artiste (extrait de clip, teaser…) : celle dont la
+    légende parle de l'info d'abord, sinon la plus récente des 3 derniers jours. [] si rien de sûr."""
+    compte = re.sub(r"[^\w.]", "", (compte or "").lstrip("@")).lower()
+    ig, token = os.environ.get("IG_USER_ID"), os.environ.get("IG_ACCESS_TOKEN")
+    if not compte or not ig or not token:
+        return []
+    champs = (f"business_discovery.username({compte})"
+              "{username,followers_count,media.limit(10){media_type,media_url,caption,timestamp,permalink}}")
+    try:
+        j = requests.get(f"{config.GRAPH}/{ig}", params={"fields": champs, "access_token": token}, timeout=30).json()
+    except Exception as ex:
+        diag.append(f"  vidéo · @{compte} : {str(ex)[:80]}")
+        return []
+    bd = j.get("business_discovery") or {}
+    if "error" in j or (bd.get("followers_count") or 0) < abonnes_min:
+        diag.append(f"  vidéo · @{compte} : compte introuvable ou trop petit, pas de vidéo officielle")
+        return []
+    maintenant = datetime.now(timezone.utc)
+    cles = {m.lower() for m in mots if len(m) >= 4}
+    choix = []
+    for m in (bd.get("media") or {}).get("data", []):
+        if m.get("media_type") != "VIDEO" or not m.get("media_url"):
+            continue
+        try:
+            age = (maintenant - datetime.fromisoformat(m["timestamp"].replace("+0000", "+00:00"))).days
+        except Exception:
+            continue
+        if age > jours:
+            continue
+        lien = sum(1 for k in cles if k in (m.get("caption") or "").lower())
+        if lien or age <= 3:
+            choix.append((lien, -age, m))
+    if not choix:
+        diag.append(f"  vidéo · @{compte} : pas de vidéo récente liée à l'info")
+        return []
+    choix.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    m = choix[0][2]
+    diag.append(f"  vidéo · officielle @{compte} ({m.get('permalink', '')})")
+    return [m["media_url"]]

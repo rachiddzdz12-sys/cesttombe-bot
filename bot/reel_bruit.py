@@ -128,6 +128,55 @@ class Plan:
         return Image.fromarray(a.clip(0, 255).astype(np.uint8)).convert("RGBA")
 
 
+class VideoFond:
+    """La vidéo de la source jouée en continu derrière nos textes, avec le rendu LE BRUIT : plein cadre
+    assombri, ou en haut fondue dans le noir si elle porte du texte incrusté en bas (légende, sous-titres)
+    ou si elle est en paysage."""
+
+    def __init__(self, v, duree, dossier):
+        from bot import video as vid
+        self.duree = max(0.0, min(duree, v["duree"] - 0.15))
+        vues = [{"img": img, "analyse": a} for t, img, a in v["analyses"] if t <= self.duree + 1.0] \
+            or [{"img": img, "analyse": a} for _, img, a in v["analyses"][:3]]
+        garder = min(bb.partie_propre(m) for m in vues)
+        w, h = vid.taille(v["chemin"])
+        self.mode = "haut" if (garder < 0.92 or (h and w / h > W / H * 1.35)) else "plein"
+        cx, cy = bb.centre_sujet(vues[len(vues) // 2])
+        cx, cy = min(max(cx, 0.0), 1.0), min(max(cy - 0.08, 0.0), 1.0)
+        look = "eq=saturation=0.85:contrast=1.06"
+        if self.mode == "plein":
+            vf = (f"scale={W}:{H}:force_original_aspect_ratio=increase,"
+                  f"crop={W}:{H}:(iw-{W})*{cx:.3f}:(ih-{H})*{cy:.3f}")
+        else:
+            self.h = 1240
+            vf = (f"crop=iw:ih*{garder:.3f}:0:0,scale={W}:{self.h}:force_original_aspect_ratio=increase,"
+                  f"crop={W}:{self.h}:(iw-{W})*{cx:.3f}:(ih-{self.h})*0.3")
+            self.masque = bb._masque_haut(W, self.h)[..., None]
+        self.dossier = Path(dossier)
+        self.dossier.mkdir(parents=True, exist_ok=True)
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-t", f"{self.duree:.2f}", "-i", str(v["chemin"]),
+                        "-vf", f"{vf},{look},fps={FPS}", "-q:v", "3", str(self.dossier / "%05d.jpg")], check=True)
+        self.images = sorted(self.dossier.glob("*.jpg"))
+        if not self.images:
+            raise RuntimeError("vidéo de la source vide")
+        self.fin = len(self.images) / FPS
+        self.ombre = bb._ombre_plein(W, H, True)
+
+    def image(self, t):
+        f = self.images[min(len(self.images) - 1, int(t * FPS))]
+        a = np.asarray(Image.open(f).convert("RGB")).astype(np.float32)
+        if self.mode == "plein":
+            a = a * 0.8 * self.ombre[..., None]
+        else:
+            fond = np.empty((H, W, 3), np.float32)
+            fond[:] = bb.FOND
+            y = 110
+            fond[y:y + self.h] = a * 0.86 * self.masque + fond[y:y + self.h] * (1 - self.masque)
+            a = fond
+        a += GRAINS[int(t * FPS) % len(GRAINS)][..., None]
+        return Image.fromarray(a.clip(0, 255).astype(np.uint8)).convert("RGBA")
+
+
 GRAINS = [np.kron(np.random.default_rng(i).normal(0, 4, (H // 2, W // 2)).astype(np.float32),
                   np.ones((2, 2), np.float32)) for i in range(4)]
 
@@ -377,15 +426,26 @@ def fabriquer(post, medias, texte_voix, dossier, prefixe, diag):
         plans.append(Plan(choix.prendre(source_dabord=True), t_question, t_fin, "Et toi ?"))
     else:
         plans[-1].fin = t_fin
+    fond_video = None
+    if v is not None and getattr(config, "VIDEO_EN_FOND", True):
+        try:
+            fond_video = VideoFond(v, total, tmp / "fond-video")
+        except Exception as ex:
+            diag.append(f"  reel LE BRUIT · vidéo de la source inutilisable : {str(ex)[:120]}")
     total_cartes = len(plans) + 1
     grp = groupes(mots, t_accroche, t_question or t_fin)
     q1, q2 = post.get("question_haut") or "Et toi,", post.get("question_bas") or "t'en penses quoi ?"
+
+    def fond(plan, t):
+        if fond_video is not None and t < fond_video.fin:
+            return fond_video.image(t)          # la vraie vidéo de l'info, en continu
+        return plan.image(t)
 
     def image(t, n):
         k = next((i for i, p in enumerate(plans) if p.debut <= t < p.fin), len(plans) - 1)
         plan = plans[k]
         tl = t - plan.debut
-        img = plan.image(t)
+        img = fond(plan, t)
         if k == 0 or plan.kicker == "Et toi ?":
             img.alpha_composite(bb.arcs(W, H, ("bas-droite", "haut-gauche"), 0.9))
         entete(img, plan.kicker, bb.ease(tl / 0.4))
@@ -415,7 +475,8 @@ def fabriquer(post, medias, texte_voix, dossier, prefixe, diag):
         pass
     if ff.wait() != 0:
         raise RuntimeError("ffmpeg n'a pas pu créer les images du Reel")
-    mix = mixer_audio(audio, total, tmp / "mix.wav", diag)
+    son = v["chemin"] if (fond_video is not None and v.get("son")) else None
+    mix = mixer_audio(audio, total, tmp / "mix.wav", diag, son_source=son)
     sortie = dossier / f"{prefixe}-reel.mp4"
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", str(muet)]
     cmd += ["-i", str(mix)] if mix else ["-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo"]
@@ -427,7 +488,9 @@ def fabriquer(post, medias, texte_voix, dossier, prefixe, diag):
     couv = dossier / f"{prefixe}-reel-couverture.jpg"
     image(1.6, 48).convert("RGB").save(couv, "JPEG", quality=92)
     diag.append(f"  reel LE BRUIT · {total:.1f} s · {len(plans)} plans · "
-                f"{'voix' if audio else 'sans voix'}{' + musique' if musique() else ''}")
+                + (f"vidéo de la source en fond ({fond_video.mode}, {fond_video.fin:.1f} s) · " if fond_video else "")
+                + f"{'voix' if audio else 'sans voix'}"
+                + (" + son de la vidéo" if son else (" + musique" if musique() else "")))
     shutil.rmtree(tmp, ignore_errors=True)
     return sortie, couv
 

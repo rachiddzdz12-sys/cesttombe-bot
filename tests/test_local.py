@@ -108,6 +108,23 @@ check(len(_tags) <= 5 and any(_tags[:3] == b[:3] for b in config.HASHTAGS.values
 check("Envoie ça à ton pote qui attend GTA 6" in _rv["legende_reel"] and "Abonne-toi à" in _rv["legende_reel"]
       and "Glisse" not in _rv["legende_reel"] and "Glisse" in _rv["legende"] and "en commentaire" in _rv["legende"],
       "IA : légende du Reel (commentaire, envoi à un pote, abonnement) ≠ légende du carrousel (glisse)")
+from bot import contexte as _cx
+_a = {"id": "1", "categorie": "RAP FR", "source": "@RAP.MINUTE", "titre": "🚨 Ninho dévoile un nouveau son avec Tiakola",
+      "resume": "Ninho et Tiakola", "texte": "Ninho dévoile un nouveau son"}
+_b = {"id": "2", "categorie": "RAP FR", "source": "@BOOSKA_P", "titre": "Ninho et Tiakola : « Jamais » est disponible",
+      "resume": "", "texte": "Le morceau « Jamais » de Ninho en featuring avec Tiakola est disponible."}
+_c = {"id": "3", "categorie": "RAP FR", "source": "@X", "titre": "Booba répond à Kaaris", "resume": "", "texte": "Booba"}
+_r = _cx.recoupements(_a, [_a, _b, _c])
+check(len(_r) == 1 and "« Jamais »" in _r[0] and _cx._artistes(_a)[:2] == ["Ninho", "Tiakola"],
+      "contexte : une source maigre (« nouveau son ») est complétée par une autre source du même sujet (le titre)")
+_appel = ia.appel
+ia.appel = lambda parts, modeles=None: {"detail_manquant": True}
+try:
+    ia.rediger(_a)
+    check(False, "IA : une info qui annonce sans dire quoi n'est pas rédigée")
+except ia.DetailManquant:
+    check(True, "IA : une info qui annonce sans dire quoi n'est pas rédigée")
+ia.appel = _appel
 check(len(_rv["voix_off"].split()) <= ia.VOIX_MOTS_MAX + 6 and _rv["voix_off"].endswith("?"),
       f"IA : voix off courte, finit par la question ({len(_rv['voix_off'].split())} mots)")
 try:

@@ -162,12 +162,21 @@ Ton : direct, clair, phrases courtes, français correct, pas de vulgarité, pas 
 
 PAS DE REMPLISSAGE : pas de phrases creuses (« cela fait parler », « les fans attendent avec impatience », « cette nouvelle attire l'attention »). Si la source est courte, fais seulement 2 sections courtes avec les vrais faits.
 
-RÈGLE ABSOLUE : utilise UNIQUEMENT les faits présents dans la source ci-dessous{image}. N'invente rien : aucune date, aucun chiffre, aucun nom, aucune citation qui n'y figure pas. Si un détail n'est pas dans la source, ne l'écris pas. Reformule avec tes propres mots, ne recopie pas de phrases entières.
+RÈGLE ABSOLUE : utilise UNIQUEMENT les faits présents dans la source ci-dessous{image} et dans le CONTEXTE EN PLUS. N'invente rien : aucune date, aucun chiffre, aucun nom, aucune citation qui n'y figure pas. Si un détail n'est nulle part, ne l'écris pas. Reformule avec tes propres mots, ne recopie pas de phrases entières.
+
+EXPLIQUE, N'ANNONCE PAS : le lecteur doit comprendre exactement de quoi on parle sans aller voir ailleurs. Donne toujours le détail concret :
+- un nouveau morceau, clip, album ou projet → son TITRE exact (entre guillemets), les featurings, le projet, la date ;
+- une déclaration, une interview, un discours, un tweet → CE QUI A ÉTÉ DIT concrètement (reformulé, ou une courte citation de moins de 12 mots entre guillemets) ;
+- un événement (concert, festival, cérémonie, procès, sortie de jeu…) → quoi, où, quand, qui ;
+- une vidéo virale → ce qu'on y VOIT, ce qui se passe, qui est dedans ;
+- un record, un classement, des ventes → les chiffres exacts et à quoi ils se comparent.
+Ce détail doit apparaître dans le titre (ou la 1re slide), dans "contexte" ET dans la voix off. Jamais « un nouveau son », « une déclaration forte », « un événement » sans dire lequel.
+Si ce détail essentiel n'est ni dans la source ni dans le CONTEXTE EN PLUS, mets "detail_manquant": true (l'info ne sera pas publiée telle quelle) ; sinon "detail_manquant": false.
 
 SOURCE ({source}) :
 Titre : {titre}
 Texte : {texte}
-
+{contexte}
 Produis (format « carrousel + Reel » épuré : textes très courts, percutants) :
 - "titre" : 6 à 10 mots, le titre complet de l'info, style breaking news, sans emoji.
 - "titre_haut" et "titre_bas" : le même titre coupé en 2 lignes courtes (chacune 22 caractères maximum, espaces compris). La 2e ligne est la plus forte (elle sera en couleur). Ex : « Teddy Riner, » / « candidat en 2027. »
@@ -183,19 +192,26 @@ Produis (format « carrousel + Reel » épuré : textes très courts, percutants
 - "accroche" : la 1re ligne de la légende Instagram, 6 à 14 mots : le fait le plus fort, avec le mot-clé principal (le nom du jeu ou de l'artiste) dans les 3 premiers mots, 1 emoji maximum à la fin (ex : « GTA 6 dépasse 1,45 milliard de dollars avant même sa sortie 🤯 »).
 - "contexte" : 1 ou 2 phrases pour la légende (20 à 35 mots) : les faits essentiels, avec les noms et les chiffres de la source.
 - "envoie_a" : 3 à 7 mots pour finir la phrase « Envoie ça à ton pote qui… », verbe à la 3e personne (« qui attend », jamais « qui attends »), en lien avec l'info (ex : « attend GTA 6 depuis 10 ans », « écoute Ninho en boucle »).
+- "instagram" : le pseudo Instagram officiel (sans @) de l'artiste, du jeu ou de la personne au cœur de l'info, seulement si tu en es certain (ex : « ninho », « rockstargames ») ; "" sinon.
 - "hashtags" : 2 hashtags précis, UNIQUEMENT des noms propres du sujet (jeu, personnage, artiste, album, lieu), sans espace, en minuscules ; jamais un mot négatif ou judiciaire (pas de #blanchiment, #prison, #mort…).
 - "voix_off" : le texte lu par la voix du Reel, pour l'oral, comme une créatrice de contenu : 18 à 28 mots MAXIMUM au total (le Reel doit durer moins de 10 secondes), phrases très courtes, du « tu ». 1re phrase = le hook : 4 à 9 mots, le fait le plus choc ou une promesse intrigante, SANS intro (jamais « Salut », « Aujourd'hui », « Alors », « Breaking news », « Grosse info »). Puis 1 ou 2 phrases courtes avec les vrais faits. Termine par la même question au spectateur que "question_haut" + "question_bas".
 - "visuels" : 1 ou 2 sujets à montrer en photo, du plus important au moins important. Chaque sujet : "type" = "personne", "artiste" (musicien), "jeu" (jeu vidéo) ou "autre", et "nom" = le nom exact et complet (ex : « Teddy Riner », « Ninho », « God of War Ragnarök »).
 - "faisable" : false si la source ne contient pas assez d'info pour faire un post fiable, sinon true.
 
-Réponds UNIQUEMENT en JSON : {{"titre": "", "titre_haut": "", "titre_bas": "", "mot_cle": "", "rubrique": "", "mots_cles": [], "accroche_couv": "", "chiffre": "", "chiffre_texte": "", "slides": [{{"rubrique": "", "gros": "", "gros_haut": "", "gros_bas": "", "sous_titre": "", "texte": ""}}], "question_haut": "", "question_bas": "", "accroche_reel_haut": "", "accroche_reel_bas": "", "accroche": "", "contexte": "", "envoie_a": "", "hashtags": [], "voix_off": "", "visuels": [{{"type": "", "nom": ""}}], "faisable": true}}"""
+Réponds UNIQUEMENT en JSON : {{"titre": "", "titre_haut": "", "titre_bas": "", "mot_cle": "", "rubrique": "", "mots_cles": [], "accroche_couv": "", "chiffre": "", "chiffre_texte": "", "slides": [{{"rubrique": "", "gros": "", "gros_haut": "", "gros_bas": "", "sous_titre": "", "texte": ""}}], "question_haut": "", "question_bas": "", "accroche_reel_haut": "", "accroche_reel_bas": "", "accroche": "", "contexte": "", "envoie_a": "", "hashtags": [], "voix_off": "", "instagram": "", "detail_manquant": false, "visuels": [{{"type": "", "nom": ""}}], "faisable": true}}"""
 
 
-def rediger(cand, image_jpeg=None):
+class DetailManquant(ErreurIA):
+    """L'info annonce sans dire quoi (titre du son, contenu de la déclaration…) et rien ne permet de compléter."""
+
+
+def rediger(cand, image_jpeg=None, contexte=""):
     theme = theme_de(cand)
+    bloc = (f"\nCONTEXTE EN PLUS (autres sources sur le même sujet, données officielles, recherche) :\n{contexte}\n"
+            if contexte else "")
     parts = [{"text": PROMPT_REDAC.format(
         theme=theme, page=config.NOM_PAGE, source=cand["source"], titre=cand["titre"], texte=cand["texte"][:5000],
-        image=" et dans l'image jointe (lis le texte écrit dessus)" if image_jpeg else "")}]
+        contexte=bloc, image=" et dans l'image jointe (lis le texte écrit dessus)" if image_jpeg else "")}]
     if page_gta(cand):
         parts[0]["text"] += CONSIGNES_REDAC_GTA.replace("{{", "{").replace("}}", "}")
     if getattr(config, "CONSIGNES_REDAC", ""):
@@ -203,7 +219,10 @@ def rediger(cand, image_jpeg=None):
     if image_jpeg:
         parts.append({"inline_data": {"mime_type": "image/jpeg",
                                       "data": base64.b64encode(image_jpeg).decode()}})
-    res = valider(appel(parts), cand)
+    brut = appel(parts)
+    if brut.get("detail_manquant") is True and getattr(config, "EXIGER_DETAIL", True):
+        raise DetailManquant("l'info ne dit pas de quoi il s'agit (titre, contenu…), rien pour compléter")
+    res = valider(brut, cand)
     if manque_accents(res):           # Gemini recopie parfois une source écrite sans accents ni apostrophes
         JOURNAL.append("texte sans accents ou sans apostrophes : réécriture demandée")
         parts[0] = {"text": parts[0]["text"] + "\n\nATTENTION : la source est mal orthographiée. Écris en "
@@ -418,6 +437,7 @@ def valider(rep, cand):
     return {"titre": titre, "mot_cle": mot_cle, "voix_off": voix_off[:700], "visuels": visuels,
             "sections": sections[:4], "slides": slides[:4], "legende": legende[:2200],
             "legende_reel": legende_reel[:2200],
+            "instagram": re.sub(r"[^\w.]", "", str(rep.get("instagram") or "").lstrip("@")).lower()[:30],
             "titre_haut": haut, "titre_bas": bas, "rubrique": rubrique or defaut_rubrique,
             "mots_cles": mots_cles, "accroche_couv": _court(rep.get("accroche_couv"), 30),
             "chiffre": chiffre, "chiffre_texte": _court(rep.get("chiffre_texte"), 110),

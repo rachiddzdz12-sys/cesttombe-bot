@@ -29,6 +29,9 @@ VOIX_CONSIGNE_HOMME = (VOIX_CONSIGNE.replace("26-year-old French woman", "27-yea
                        .replace("her phone", "his phone").replace("with a slight smile in the voice",
                                                                     "relaxed and confident, with a slight smile in the voice"))
 VOIX_GEMINI_TEMPO = 1.0
+EXIGER_DETAIL = True           # une info qui annonce sans dire quoi (titre du son, contenu…) n'est pas publiée
+RECHERCHE_GOOGLE = True        # Gemini cherche sur Google les faits précis quand la source est maigre
+RECHERCHE_MODELES = ["gemini-flash-latest", "gemini-3.5-flash"]
 STORIES = True                 # chaque publication a sa story (le Reel en vidéo, sinon l'image de couverture)
 STORIES_MARGE = 12             # story sautée s'il reste moins de 12 posts au quota API des 24 h
 VOIX_DUREE_MAX = 11.0          # au-delà, la voix est un peu accélérée (Reels de ~10-12 s)
@@ -44,6 +47,8 @@ VOIX_TRAITEMENT = ("highpass=f=80,equalizer=f=220:t=q:w=1:g=1.5,equalizer=f=3800
                    "acompressor=threshold=-20dB:ratio=3:attack=5:release=90:makeup=3")
 MUSIQUE = "musique/fond.mp3"  # instru de fond de chaque Reel (laisser vide "" pour aucune)
 MUSIQUE_VOLUME = 0.14         # 0.14 ≈ -17 dB : la musique accompagne, la voix reste devant
+SON_SOURCE_VOLUME = 0.35       # son de la vidéo de l'info sous la voix (LE BRUIT), baissé quand la voix parle
+VIDEO_EN_FOND = True           # LE BRUIT : la vidéo de l'info joue en fond du Reel (sinon : photos)
 MUSIQUE_DEBUT = 0             # secondes à sauter au début de l'instru (intro trop calme, par ex.)
 VOIX_A_TESTER = ["gemini:Aoede", "gemini:Leda", "gemini:Despina", "gemini:Callirrhoe", "gemini:Sulafat",
                  "gemini:Kore", "fr-FR-DeniseNeural"]

@@ -220,9 +220,10 @@ def musique():
     return f if config.MUSIQUE and f.exists() else None
 
 
-def mixer_audio(voix_off, duree, sortie, diag):
-    """Voix devant, musique loin derrière : la musique baisse encore quand la voix parle (ducking)."""
-    fond = musique()
+def mixer_audio(voix_off, duree, sortie, diag, son_source=None):
+    """Voix devant, musique loin derrière : la musique baisse encore quand la voix parle (ducking).
+    son_source : la vidéo de l'info jouée en fond ; son propre son remplace alors la musique (même ducking)."""
+    fond = son_source or musique()
     t = f"{duree:.2f}"
     niveau = "loudnorm=I=-14:TP=-1.5:LRA=11"   # niveau standard des réseaux sociaux
     if not fond:
@@ -236,6 +237,9 @@ def mixer_audio(voix_off, duree, sortie, diag):
     fin = max(0.0, duree - 1.5)
     vol = config.MUSIQUE_VOLUME if voix_off else config.MUSIQUE_VOLUME * 2.5
     entree_musique = ["-stream_loop", "-1", "-ss", str(config.MUSIQUE_DEBUT), "-i", str(fond)]
+    if son_source:          # le son de la vidéo, calé sur l'image (pas de boucle, pas de décalage)
+        vol = getattr(config, "SON_SOURCE_VOLUME", 0.35) * (1 if voix_off else 2.2)
+        entree_musique = ["-i", str(son_source)]
     musique_f = (f"aresample=44100,aformat=channel_layouts=stereo,atrim=0:{t},asetpts=N/SR/TB,"
                  f"volume={vol},afade=t=in:d=0.6,afade=t=out:st={fin:.2f}:d=1.5")
     if voix_off:

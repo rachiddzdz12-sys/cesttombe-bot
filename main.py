@@ -199,7 +199,7 @@ def publier_story(url_video, url_image, diag):
 
 
 def executer():
-    from bot import hebergement, ia, images, instagram, sources, visuels
+    from bot import contexte, hebergement, ia, images, instagram, sources, visuels
     if getattr(config, "DA", "v3") == "bruit":        # DA LE BRUIT : mêmes fonctions, autre rendu
         from bot import da_bruit as da3, reel_bruit as reel3
     else:
@@ -332,7 +332,12 @@ def executer():
                 photos, credit = images.trouver_images(c, diag)
                 jpeg = images.en_jpeg(photos[0]) if (photos and cat == "RAP FR") else None
                 try:
-                    red = ia.rediger(c, jpeg)
+                    plus = contexte.contexte_en_plus(c, cands, diag)
+                except Exception as ex:
+                    plus = ""
+                    diag.append(f"  contexte · impossible : {str(ex)[:100]}")
+                try:
+                    red = ia.rediger(c, jpeg, plus)
                 except ia.ErreurIA as ex:
                     diag.append(f"  rédaction impossible pour « {c['titre'][:60]} » : {ex}")
                     if not test:
@@ -349,7 +354,7 @@ def executer():
                 prefixe = f"{now_paris:%Y%m%d-%H%M}-{'jv' if cat == 'GAMING' else 'rap'}" + (f"-{COMPTE}" if COMPTE else "")
                 if test and n_test > 1:
                     prefixe += f"-{rendus + 1}"        # plusieurs rendus d'essai : un nom chacun
-                medias = preparer_medias(c, photos, prefixe, diag, n_source)
+                medias = preparer_medias(c, photos, prefixe, diag, n_source, red)
                 fichiers = da3.carrousel(post, medias, SORTIE, prefixe, diag)
                 (SORTIE / f"{prefixe}-legende.txt").write_text(red["legende"], encoding="utf-8")
                 if red.get("legende_reel"):
@@ -445,11 +450,11 @@ def executer():
     return code
 
 
-def preparer_medias(cand, photos, prefixe, diag, n_source=None):
+def preparer_medias(cand, photos, prefixe, diag, n_source=None, red=None):
     """Images (analysées : textes incrustés, visages) + vidéo de la source (analysée image par image).
     Les n_source premières photos viennent de la source de l'info ; les suivantes ont été cherchées ailleurs."""
     n_source = len(photos) if n_source is None else n_source
-    from bot import placement, video as vid
+    from bot import placement, sources, video as vid
     images = []
     for i, img in enumerate(photos):
         try:
@@ -458,6 +463,13 @@ def preparer_medias(cand, photos, prefixe, diag, n_source=None):
         except Exception as ex:
             diag.append(f"  ⚠️ analyse de l'image {i + 1} impossible : {str(ex)[:100]}")
     v = None
+    if config.VIDEOS and not cand.get("videos") and getattr(config, "VIDEOS_OFFICIELLES", False) \
+            and red and red.get("instagram"):
+        # pas de vidéo dans la source : extrait officiel posté par l'artiste (clip, teaser) s'il y en a un récent
+        mots = re.findall(r"[\wÀ-ÿ']+", f"{red.get('titre', '')} {' '.join(red.get('mots_cles') or [])}")
+        vids = sources.videos_officielles(red["instagram"], mots, diag)
+        if vids:
+            cand = {**cand, "videos": vids}
     if config.VIDEOS and cand.get("videos"):
         source = vid.telecharger(cand, SORTIE / f"{prefixe}-src", diag)
         if source:
