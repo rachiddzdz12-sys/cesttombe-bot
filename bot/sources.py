@@ -552,6 +552,13 @@ def videos_officielles(compte, mots, diag, jours=10, abonnes_min=100_000):
     return [m["media_url"]]
 
 
+MOTS_GENERIQUES_VIDEO = {
+    "gta", "gta6", "gtavi", "vi", "grand", "theft", "auto", "rockstar", "games", "game", "jeu", "jeux", "interview", "mission", "missions",
+    "gameplay", "video", "vidéo", "clip", "trailer", "new", "nouveau", "nouvelle", "live", "stream", "official",
+    "officiel", "leak", "leaks", "vs", "the", "and", "with", "from", "how", "first", "look", "full", "des", "les",
+    "une", "pour", "avec", "dans", "sur", "rap", "son", "album", "sortie", "réaction", "reaction", "viral", "virale"}
+
+
 def videos_x(requete, mots, diag, jours=5, likes_min=200, n=8):
     """Recherche sur X des vidéos qui MONTRENT le sujet (ex : « GTA 6 mission bunker ») : la plus pertinente
     (mots de l'info dans le tweet), puis la plus aimée. [] si rien de pertinent."""
@@ -571,22 +578,25 @@ def videos_x(requete, mots, diag, jours=5, likes_min=200, n=8):
         return []
     if not isinstance(tweets, list):
         return []
-    cles = {m.lower() for m in mots if len(m) >= 4} - {"gta", "grand", "theft", "auto", "rockstar", "games"}
+    # mots qui désignent CE sujet (noms, lieux, chiffres) : sans eux, la vidéo parle d'autre chose
+    distinctifs = {m for m in re.findall(r"[\wà-ÿ']+", requete.lower())
+                   if (len(m) >= 3 or (len(m) >= 2 and any(c.isdigit() for c in m))) and m not in MOTS_GENERIQUES_VIDEO}
+    cles = ({m.lower() for m in mots if len(m) >= 4} - MOTS_GENERIQUES_VIDEO) | distinctifs
     choix = []
     for t in tweets:
         texte = reparer(t.get("text") or t.get("full_text") or "").lower()
         vids = _videos_tweet(t)
         if not vids or "#ad" in texte or "sponsor" in texte:
             continue
-        lien = sum(1 for k in cles if k in texte)
+        forts = sum(1 for k in distinctifs if k in texte)
+        if distinctifs and forts == 0:
+            continue
+        lien = 2 * forts + sum(1 for k in cles - distinctifs if k in texte)
         choix.append((lien, t.get("likeCount") or 0, vids, texte[:70]))
     if not choix:
-        diag.append(f"  vidéo · recherche X « {requete} » : aucune vidéo")
+        diag.append(f"  vidéo · recherche X « {requete} » : rien qui montre vraiment le sujet")
         return []
     choix.sort(key=lambda x: (x[0], x[1]), reverse=True)
     lien, likes, vids, texte = choix[0]
-    if cles and lien == 0:
-        diag.append(f"  vidéo · recherche X « {requete} » : rien qui montre vraiment le sujet")
-        return []
     diag.append(f"  vidéo · trouvée sur X « {requete} » ({likes} likes) : {texte}")
     return vids[:2]
