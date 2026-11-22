@@ -1,1 +1,41 @@
-Pas de post : dernier post il y a 179 min (minimum 210)
+Mode : auto
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @le.bruit.rap (16 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 9 / 100
+Rap · @rap.minute → 12 posts lus
+Rap · @rapfractusofficiel → 12 posts lus
+Rap · @booska_p → 12 posts lus
+X · @RapFrActus → 10 tweets lus, 3 gardés (ce mois : 1035 / 9000)
+X · @FrenchRapUS → 10 tweets lus, 5 gardés (ce mois : 1050 / 9000)
+X · @Rapunchline → 10 tweets lus, 3 gardés (ce mois : 1065 / 9000)
+X · @SpotifyFrance → 10 tweets lus, 7 gardés (ce mois : 1080 / 9000)
+13 infos fraîches et jamais traitées (sur 54 lues)
+   9/10 ✗ déjà publiée « 🚨MAES réagit pour le PREMIÈRE FOIS à sa sortie de PRISON avec cette vi »
+   8/10 ✓ « 🚨L’album « Pyramide 1 &amp; 2 » de WERENOI vient d’atteindre  la barre »
+   6/10 ✓ « « DESTIN » de NINHO est le 6ème ALBUM le plus écouté de la semaine sur »
+   0/10 ✗ pas une news « 🚨 ROCKSTAR ENVISAGERAIT DE FAIRE ÉVOLUER GTA 6 AU FIL DES ANNÉES ! »
+   0/10 ✗ pas une news « 🚨 Un développeur de GTA 6 a inclus un hommage in-game à sa maman qui e »
+   0/10 ✗ pas une news « 🚨 GTA 6 N'A TOUJOURS PAS DE PLUIE ?! »
+   7/10 ✗ déjà publiée « 🚨 KOBA LAD : LA JUSTICE REJETTE SA DEMANDE DE STATUT DE TÉMOIN ASSISTÉ »
+   6/10 ✓ « 🚨 BRULUX S'EXPRIME SUR BOOBA »
+   7/10 ✓ « Les morceaux les plus écoutés de la semaine sur Spotify 📈 »
+   7/10 ✓ « Les albums les plus écoutés de la semaine sur Spotify 📈 »
+   5/10 ✗ trop faible (mini 6) « Les larmes hier soir quand @theodorabossy est arrivée au concert Red B »
+   0/10 ✗ pas une news « Le verdict médical est tombé pour Désiré Doué. »
+   3/10 ✗ pas une news « Ce que le succès à coûté à Ninho  »
+RAP FR · 5 infos retenues, meilleure : « 🚨L’album « Pyramide 1 &amp; 2 » de WERENOI vient d’atteindre  la barre des 700.0 » (8/10)
+  photo · 1 image(s) : 900x900
+  visuels · deezer « Werenoi » → 5 image(s)
+  vidéo · recherche X « Werenoi Pyramide clip interview » : rien qui montre vraiment le sujet
+  vidéo · recherche X « Werenoi Pyramide » : rien qui montre vraiment le sujet
+  vidéo · @werenoi : compte introuvable ou trop petit, pas de vidéo officielle
+  couverture LE BRUIT · photo1 · plein
+  carrousel prêt : « L'album Pyramide 1 & 2 dépasse 700 000 ventes » (4 slides)
+  voix · contrôle OK (97%, essai 1, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (9.9 s)
+  reel LE BRUIT · 11.0 s · 6 plans · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgDblpQF2gL/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgDbnKjO87M/
+  ✅ STORY PUBLIÉE (vidéo)
+Gemini : gemini-flash-lite-latest : réponse en 7 s · gemini-flash-lite-latest : réponse en 8 s
