@@ -415,7 +415,10 @@ def _videos_tweet(t):
 
     fouiller(t)
     urls = []
-    for _, u in sorted(trouvees, key=lambda x: -x[0]):
+    # ~720p d'abord (débit ≤ 2,6 Mb/s) : assez net pour un Reel, sans télécharger des 4K de 900 Mo
+    bons = sorted([x for x in trouvees if 0 < x[0] <= 2_600_000], key=lambda x: -x[0])
+    autres = sorted([x for x in trouvees if not (0 < x[0] <= 2_600_000)], key=lambda x: x[0] or 9e9)
+    for _, u in bons + autres:
         if u and u not in urls:
             urls.append(u)
     return urls
@@ -547,3 +550,43 @@ def videos_officielles(compte, mots, diag, jours=10, abonnes_min=100_000):
     m = choix[0][2]
     diag.append(f"  vidéo · officielle @{compte} ({m.get('permalink', '')})")
     return [m["media_url"]]
+
+
+def videos_x(requete, mots, diag, jours=5, likes_min=200, n=8):
+    """Recherche sur X des vidéos qui MONTRENT le sujet (ex : « GTA 6 mission bunker ») : la plus pertinente
+    (mots de l'info dans le tweet), puis la plus aimée. [] si rien de pertinent."""
+    token = os.environ.get("APIFY_TOKEN")
+    requete = re.sub(r"[\"#@]", " ", requete or "").strip()
+    if not token or not requete:
+        return []
+    depuis = (datetime.now(timezone.utc) - timedelta(days=jours)).strftime("%Y-%m-%d")
+    q = f"{requete} filter:native_video min_faves:{likes_min} since:{depuis} -filter:replies"
+    try:
+        r = requests.post(f"https://api.apify.com/v2/acts/{config.APIFY_ACTEUR}/run-sync-get-dataset-items",
+                          params={"token": token, "timeout": 120, "maxItems": n},
+                          json={"twitterContent": q, "maxItems": n, "queryType": "Top"}, timeout=170)
+        tweets = r.json() if r.status_code < 300 else []
+    except Exception as ex:
+        diag.append(f"  vidéo · recherche X impossible : {str(ex)[:80]}")
+        return []
+    if not isinstance(tweets, list):
+        return []
+    cles = {m.lower() for m in mots if len(m) >= 4} - {"gta", "grand", "theft", "auto", "rockstar", "games"}
+    choix = []
+    for t in tweets:
+        texte = reparer(t.get("text") or t.get("full_text") or "").lower()
+        vids = _videos_tweet(t)
+        if not vids or "#ad" in texte or "sponsor" in texte:
+            continue
+        lien = sum(1 for k in cles if k in texte)
+        choix.append((lien, t.get("likeCount") or 0, vids, texte[:70]))
+    if not choix:
+        diag.append(f"  vidéo · recherche X « {requete} » : aucune vidéo")
+        return []
+    choix.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    lien, likes, vids, texte = choix[0]
+    if cles and lien == 0:
+        diag.append(f"  vidéo · recherche X « {requete} » : rien qui montre vraiment le sujet")
+        return []
+    diag.append(f"  vidéo · trouvée sur X « {requete} » ({likes} likes) : {texte}")
+    return vids[:2]

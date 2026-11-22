@@ -463,10 +463,17 @@ def preparer_medias(cand, photos, prefixe, diag, n_source=None, red=None):
         except Exception as ex:
             diag.append(f"  ⚠️ analyse de l'image {i + 1} impossible : {str(ex)[:100]}")
     v = None
+    mots = re.findall(r"[\wÀ-ÿ']+", f"{(red or {}).get('titre', '')} {' '.join((red or {}).get('mots_cles') or [])} "
+                                    f"{(red or {}).get('recherche_video', '')}")
+    if config.VIDEOS and not cand.get("videos") and getattr(config, "VIDEOS_RECHERCHE_X", False) \
+            and red and red.get("recherche_video"):
+        # pas de vidéo dans la source : une vidéo qui montre le sujet (la mission, le clip, la scène virale)
+        vids = sources.videos_x(red["recherche_video"], mots, diag, likes_min=getattr(config, "VIDEOS_LIKES_MIN", 200))
+        if vids:
+            cand = {**cand, "videos": vids}
     if config.VIDEOS and not cand.get("videos") and getattr(config, "VIDEOS_OFFICIELLES", False) \
             and red and red.get("instagram"):
-        # pas de vidéo dans la source : extrait officiel posté par l'artiste (clip, teaser) s'il y en a un récent
-        mots = re.findall(r"[\wÀ-ÿ']+", f"{red.get('titre', '')} {' '.join(red.get('mots_cles') or [])}")
+        # sinon : extrait officiel posté par l'artiste (clip, teaser) s'il y en a un récent
         vids = sources.videos_officielles(red["instagram"], mots, diag)
         if vids:
             cand = {**cand, "videos": vids}

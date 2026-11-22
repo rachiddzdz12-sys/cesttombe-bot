@@ -312,10 +312,9 @@ def construire_plans(medias, n, tmp, diag):
     sources = [m for m in images if m.get("origine", "source") == "source"]
     autres = [m for m in images if m.get("origine") == "autre"]
     plans, deja, utilise = [], [], {}
-    ordre_photos = sources + autres
     for i in range(n):
         accroche = i == 0
-        veut_video = v is not None and (i % 2 == 0 or not ordre_photos)
+        veut_video = v is not None      # la vidéo du sujet d'abord : on montre ce dont on parle
         plan = None
         if veut_video:
             debut, c = _cadre_clip(v, deja, accroche)

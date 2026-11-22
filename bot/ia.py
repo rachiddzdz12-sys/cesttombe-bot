@@ -192,13 +192,14 @@ Produis (format « carrousel + Reel » épuré : textes très courts, percutants
 - "accroche" : la 1re ligne de la légende Instagram, 6 à 14 mots : le fait le plus fort, avec le mot-clé principal (le nom du jeu ou de l'artiste) dans les 3 premiers mots, 1 emoji maximum à la fin (ex : « GTA 6 dépasse 1,45 milliard de dollars avant même sa sortie 🤯 »).
 - "contexte" : 1 ou 2 phrases pour la légende (20 à 35 mots) : les faits essentiels, avec les noms et les chiffres de la source.
 - "envoie_a" : 3 à 7 mots pour finir la phrase « Envoie ça à ton pote qui… », verbe à la 3e personne (« qui attend », jamais « qui attends »), en lien avec l'info (ex : « attend GTA 6 depuis 10 ans », « écoute Ninho en boucle »).
+- "recherche_video" : 3 à 6 mots-clés pour trouver sur X une vidéo qui MONTRE le sujet précis (la mission, le moment de jeu, le clip, l'interview, la scène virale), dans la langue où ces vidéos circulent le plus (en anglais pour GTA). Ex : « GTA 6 secret bunker mission », « GTA 6 Lucia jail escape », « Maes sortie prison », « Werenoi clip Pyramide ».
 - "instagram" : le pseudo Instagram officiel (sans @) de l'artiste, du jeu ou de la personne au cœur de l'info, seulement si tu en es certain (ex : « ninho », « rockstargames ») ; "" sinon.
 - "hashtags" : 2 hashtags précis, UNIQUEMENT des noms propres du sujet (jeu, personnage, artiste, album, lieu), sans espace, en minuscules ; jamais un mot négatif ou judiciaire (pas de #blanchiment, #prison, #mort…).
 - "voix_off" : le texte lu par la voix du Reel, pour l'oral, comme une créatrice de contenu : 18 à 28 mots MAXIMUM au total (le Reel doit durer moins de 10 secondes), phrases très courtes, du « tu ». 1re phrase = le hook : 4 à 9 mots, le fait le plus choc AFFIRMÉ (pas une question), SANS intro (jamais « Salut », « Aujourd'hui », « Alors », « Breaking news », « Grosse info »). Puis 1 ou 2 phrases courtes avec le détail concret (le titre exact, ce qui a été dit, ce qu'on voit dans la vidéo, les chiffres). Termine par la même question au spectateur que "question_haut" + "question_bas". Une seule question dans toute la voix off : celle de la fin.
 - "visuels" : 1 ou 2 sujets à montrer en photo, du plus important au moins important. Chaque sujet : "type" = "personne", "artiste" (musicien), "jeu" (jeu vidéo) ou "autre", et "nom" = le nom exact et complet (ex : « Teddy Riner », « Ninho », « God of War Ragnarök »).
 - "faisable" : false si la source ne contient pas assez d'info pour faire un post fiable, sinon true.
 
-Réponds UNIQUEMENT en JSON : {{"titre": "", "titre_haut": "", "titre_bas": "", "mot_cle": "", "rubrique": "", "mots_cles": [], "accroche_couv": "", "chiffre": "", "chiffre_texte": "", "slides": [{{"rubrique": "", "gros": "", "gros_haut": "", "gros_bas": "", "sous_titre": "", "texte": ""}}], "question_haut": "", "question_bas": "", "accroche_reel_haut": "", "accroche_reel_bas": "", "accroche": "", "contexte": "", "envoie_a": "", "hashtags": [], "voix_off": "", "instagram": "", "detail_manquant": false, "visuels": [{{"type": "", "nom": ""}}], "faisable": true}}"""
+Réponds UNIQUEMENT en JSON : {{"titre": "", "titre_haut": "", "titre_bas": "", "mot_cle": "", "rubrique": "", "mots_cles": [], "accroche_couv": "", "chiffre": "", "chiffre_texte": "", "slides": [{{"rubrique": "", "gros": "", "gros_haut": "", "gros_bas": "", "sous_titre": "", "texte": ""}}], "question_haut": "", "question_bas": "", "accroche_reel_haut": "", "accroche_reel_bas": "", "accroche": "", "contexte": "", "envoie_a": "", "hashtags": [], "voix_off": "", "recherche_video": "", "instagram": "", "detail_manquant": false, "visuels": [{{"type": "", "nom": ""}}], "faisable": true}}"""
 
 
 class DetailManquant(ErreurIA):
@@ -448,6 +449,7 @@ def valider(rep, cand):
     return {"titre": titre, "mot_cle": mot_cle, "voix_off": voix_off[:700], "visuels": visuels,
             "sections": sections[:4], "slides": slides[:4], "legende": legende[:2200],
             "legende_reel": legende_reel[:2200],
+            "recherche_video": re.sub(r"\s+", " ", str(rep.get("recherche_video") or ""))[:80],
             "instagram": re.sub(r"[^\w.]", "", str(rep.get("instagram") or "").lstrip("@")).lower()[:30],
             "titre_haut": haut, "titre_bas": bas, "rubrique": rubrique or defaut_rubrique,
             "mots_cles": mots_cles, "accroche_couv": _court(rep.get("accroche_couv"), 30),

@@ -129,9 +129,11 @@ class Plan:
 
 
 class VideoFond:
-    """La vidéo de la source jouée en continu derrière nos textes, avec le rendu LE BRUIT : plein cadre
-    assombri, ou en haut fondue dans le noir si elle porte du texte incrusté en bas (légende, sous-titres)
-    ou si elle est en paysage."""
+    """La vidéo de l'info jouée en continu derrière nos textes, assez claire pour qu'on comprenne ce qui se passe :
+    - « plein » : vidéo verticale sans texte incrusté en bas → plein écran, juste assombrie en haut et en bas ;
+    - « cadre » : vidéo en paysage, carrée, ou avec du texte incrusté en bas → la vidéo ENTIÈRE dans un cadre
+      en haut de l'écran (rien de coupé), sur un fond flouté de la même vidéo."""
+    CADRE = (150, 980)                      # haut et bas de la zone où tient la vidéo entière (au-dessus des titres)
 
     def __init__(self, v, duree, dossier):
         from bot import video as vid
@@ -140,40 +142,40 @@ class VideoFond:
             or [{"img": img, "analyse": a} for _, img, a in v["analyses"][:3]]
         garder = min(bb.partie_propre(m) for m in vues)
         w, h = vid.taille(v["chemin"])
-        self.mode = "haut" if (garder < 0.92 or (h and w / h > W / H * 1.35)) else "plein"
+        vertical = bool(h) and w / h <= 0.7
+        self.mode = "plein" if (vertical and garder >= 0.92) else "cadre"
         cx, cy = bb.centre_sujet(vues[len(vues) // 2])
         cx, cy = min(max(cx, 0.0), 1.0), min(max(cy - 0.08, 0.0), 1.0)
-        look = "eq=saturation=0.85:contrast=1.06"
         if self.mode == "plein":
             vf = (f"scale={W}:{H}:force_original_aspect_ratio=increase,"
-                  f"crop={W}:{H}:(iw-{W})*{cx:.3f}:(ih-{H})*{cy:.3f}")
+                  f"crop={W}:{H}:(iw-{W})*{cx:.3f}:(ih-{H})*{cy:.3f},eq=saturation=0.9:contrast=1.05")
         else:
-            self.h = 1240
-            vf = (f"crop=iw:ih*{garder:.3f}:0:0,scale={W}:{self.h}:force_original_aspect_ratio=increase,"
-                  f"crop={W}:{self.h}:(iw-{W})*{cx:.3f}:(ih-{self.h})*0.3")
-            self.masque = bb._masque_haut(W, self.h)[..., None]
+            haut, bas = self.CADRE
+            coupe = f"crop=iw:ih*{garder:.3f}:0:0," if garder < 0.92 else ""
+            vf = (f"{coupe}split[a][b];"
+                  f"[a]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=28:2,"
+                  f"eq=brightness=-0.22:saturation=0.55[fond];"
+                  f"[b]scale={W}:{bas - haut}:force_original_aspect_ratio=decrease,eq=saturation=0.92:contrast=1.05[v];"
+                  f"[fond][v]overlay=(W-w)/2:{haut}+({bas - haut}-h)/2")
         self.dossier = Path(dossier)
         self.dossier.mkdir(parents=True, exist_ok=True)
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-t", f"{self.duree:.2f}", "-i", str(v["chemin"]),
-                        "-vf", f"{vf},{look},fps={FPS}", "-q:v", "3", str(self.dossier / "%05d.jpg")], check=True)
+        r = subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-t", f"{self.duree:.2f}", "-i", str(v["chemin"]),
+                            "-filter_complex", f"[0:v]{vf},fps={FPS}", "-q:v", "3", str(self.dossier / "%05d.jpg")],
+                           capture_output=True, text=True)
         self.images = sorted(self.dossier.glob("*.jpg"))
-        if not self.images:
-            raise RuntimeError("vidéo de la source vide")
+        if r.returncode != 0 or not self.images:
+            raise RuntimeError(f"vidéo de la source illisible : {r.stderr[-120:]}")
         self.fin = len(self.images) / FPS
-        self.ombre = bb._ombre_plein(W, H, True)
+        yy = np.arange(H, dtype=np.float32)[:, None]
+        # juste ce qu'il faut d'ombre pour lire nos textes : l'en-tête en haut, les sous-titres en bas
+        haut_ombre = (1 - yy / 230).clip(0, 1) * 0.55
+        bas_ombre = ((yy - H * 0.52) / (H * 0.3)).clip(0, 1) ** 1.2 * 0.78
+        self.ombre = (1 - np.maximum(haut_ombre, bas_ombre)).astype(np.float32)[..., None]
 
     def image(self, t):
         f = self.images[min(len(self.images) - 1, int(t * FPS))]
-        a = np.asarray(Image.open(f).convert("RGB")).astype(np.float32)
-        if self.mode == "plein":
-            a = a * 0.8 * self.ombre[..., None]
-        else:
-            fond = np.empty((H, W, 3), np.float32)
-            fond[:] = bb.FOND
-            y = 110
-            fond[y:y + self.h] = a * 0.86 * self.masque + fond[y:y + self.h] * (1 - self.masque)
-            a = fond
-        a += GRAINS[int(t * FPS) % len(GRAINS)][..., None]
+        a = np.asarray(Image.open(f).convert("RGB")).astype(np.float32) * self.ombre
+        a += GRAINS[int(t * FPS) % len(GRAINS)][..., None] * 0.6
         return Image.fromarray(a.clip(0, 255).astype(np.uint8)).convert("RGBA")
 
 
@@ -373,15 +375,40 @@ def _decouper(mots, t_fin_voix, post):
     return t_accroche, bornes, fin_milieu, q
 
 
+def coller(mots):
+    """« » & ? ! : collés à leurs mots : un titre (« Pyramide 1 & 2 ») ne se coupe jamais en plein milieu."""
+    out, i = [], 0
+    while i < len(mots):
+        w, a, b = mots[i][0], mots[i][1], mots[i][2]
+        if w == "«" and i + 1 < len(mots):
+            out.append(("« " + mots[i + 1][0], a, mots[i + 1][2]))
+            i += 2
+            continue
+        if w in ("»", "?", "!", ":", ";", "…") and out:
+            out[-1] = (out[-1][0] + "\u00a0" + w, out[-1][1], b)
+            i += 1
+            continue
+        if w in ("&", "x", "×", "feat.", "ft.") and out and i + 1 < len(mots):
+            out[-1] = (f"{out[-1][0]} {w} {mots[i + 1][0]}", out[-1][1], mots[i + 1][2])
+            i += 2
+            continue
+        out.append((w, a, b))
+        i += 1
+    return out
+
+
 def groupes(mots, t0, t1):
-    gs, cur = [], []
-    for m in mots:
+    gs, cur, guillemets = [], [], False
+    for m in coller(mots):
         if not (t0 - 0.05 <= m[1] < t1):
             continue
-        if cur and (len(cur) >= 4 or m[1] - cur[-1][2] > 0.25 or cur[-1][0].endswith((".", "?", ",", "!"))):
+        coupe = len(cur) >= (7 if guillemets else 4) or (not guillemets and cur and (
+            m[1] - cur[-1][2] > 0.25 or cur[-1][0].endswith((".", "?", ",", "!"))))
+        if cur and coupe:
             gs.append(cur)
             cur = []
         cur.append(m)
+        guillemets = (guillemets or "«" in m[0]) and "»" not in m[0]
     if cur:
         gs.append(cur)
     out = []

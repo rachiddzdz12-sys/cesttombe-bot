@@ -48,6 +48,8 @@ VOIX_TRAITEMENT = ("highpass=f=80,equalizer=f=220:t=q:w=1:g=1.5,equalizer=f=3800
 MUSIQUE = "musique/fond.mp3"  # instru de fond de chaque Reel (laisser vide "" pour aucune)
 MUSIQUE_VOLUME = 0.14         # 0.14 ≈ -17 dB : la musique accompagne, la voix reste devant
 SON_SOURCE_VOLUME = 0.35       # son de la vidéo de l'info sous la voix (LE BRUIT), baissé quand la voix parle
+VIDEOS_RECHERCHE_X = True      # sans vidéo dans la source : recherche sur X d'une vidéo qui montre le sujet
+VIDEOS_LIKES_MIN = 200         # vidéos assez vues seulement (évite les petits comptes et le hors-sujet)
 VIDEO_EN_FOND = True           # LE BRUIT : la vidéo de l'info joue en fond du Reel (sinon : photos)
 VIDEO_DUREE_MAX = 12.0         # avec une vidéo, le Reel peut durer jusqu’à 12 s pour la laisser jouer
 MUSIQUE_DEBUT = 0             # secondes à sauter au début de l'instru (intro trop calme, par ex.)
