@@ -115,7 +115,8 @@ def theme_de(cand):
     return "jeux vidéo" if cand["categorie"] == "GAMING" else "rap français"
 
 
-CONSIGNES_TRI_GTA = """PAGE GTA : la semaine de la sortie de GTA 6 (19 novembre 2026), on veut couvrir TOUTE l'actu GTA, sans exception.
+CONSIGNES_TRI_GTA = """PAGE GTA : GTA 6 est sorti le 19 novembre 2026 ; on veut couvrir TOUTE l'actu GTA, sans exception.
+- GTA 6 EST SORTI : une info sur l'avant-sortie (compte à rebours, date ou heure de sortie, précommandes, préchargement, stream « avant la sortie », dernières rumeurs avant le lancement) est PÉRIMÉE = score 0, sauf si elle date d'après le 19 novembre et apporte un fait nouveau.
 - Tout ce qui concerne GTA 6 / GTA VI, GTA Online ou Rockstar compte comme une vraie info : annonces officielles (score 9 ou 10), trailers, heure de sortie, préchargement, taille du jeu, prix et éditions, ventes et records, notes des tests (Metacritic, OpenCritic…), problèmes au lancement (serveurs, bugs, codes), mises à jour, contenu du jeu (carte, personnages, radios, musique), GTA Online, coulisses et interviews, fuites et rumeurs sérieuses (score 5 à 7). Un « test » ou une note de GTA 6 EST une info.
 - Pas une info : soluce de mission, guide pas à pas, bon plan, promo de boutique, vidéo sans info.
 - Les infos jeux vidéo qui ne parlent pas de GTA : note-les sévèrement, 9 ou 10 seulement si c'est énorme (annonce majeure, nouvelle console, record historique).
