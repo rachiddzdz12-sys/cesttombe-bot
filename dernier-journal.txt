@@ -5,7 +5,7 @@ Instagram · @cesttombe.actu (18 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 42 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → 100 infos
+Web · GOOGLE ACTU → 92 infos
 Web · GOOGLE NEWS → 100 infos
 Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 12 infos
@@ -13,59 +13,58 @@ Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
-Web · GTABASE → erreur : HTTPSConnectionPool(host='www.gtabase.com', port=443): Read timed out. (read timeout=25)
+Web · GTABASE → 30 infos
 Web · GAMEKULT → 14 infos
 Web · IGN FRANCE → 20 infos
-Web · JEUXVIDEO.COM → 13 infos
+Web · JEUXVIDEO.COM → 12 infos
 Web · INSIDER GAMING → 7 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → refus Apify HTTP 400 : {
-  "error": {
-    "type": "run-failed",
-    "message": "Actor run did not succeed (run ID: H1N7PaI6J0zW9MBv3, status: ABORTED)."
-  }
-}
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 4557 / 10000)
+X · @RockstarGames → 10 tweets lus, 1 gardés (ce mois : 4587 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 4602 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-198 infos fraîches et jamais traitées (sur 456 lues)
-   6/10 ✓ « GTA VI Pre-Order Bonus Now Available To Buy Separately! »
-   5/10 ✗ déjà publiée « Could This Major GTA VI Leak Make It Playable On PC? »
-   3/10 ✗ pas une news « Grand Theft Auto VI: Collectors Box. What's inside? »
-   7/10 ✓ « New GTA VI Glitch Can Run The Game Unlocked, 60FPS »
-   4/10 ✗ déjà publiée « 35,000 More Students Missed School in England on GTA VI Release Day! »
-   4/10 ✗ déjà publiée « Florida Joker Is In GTA VI, Rockstar Confirms »
-   7/10 ✓ « GTA 6 Just Turned a Preorder Bonus Into a $4.99 Add-On »
-   0/10 ✗ pas une news « Where to Find the Ascot Paragon Car in GTA 6—Randy’s Wishlist Car Loca »
-   6/10 ✓ « GTA 6's casino and go-karts aren't open, but are they really coming so »
-   0/10 ✗ pas une news « Reynolds Kit Car locations in GTA 6: How to restore the fourth car in  »
-   2/10 ✗ pas une news « How to Turn Off Copyrighted Music in GTA 6 for YouTube and Twitch »
-   8/10 ✓ « GTA 6 plante sur PS5 avec l’erreur CE-108255-1, Rockstar renvoie vers  »
-   7/10 ✓ « Forget the Lighthouse, GTA 6’s Best Minigame Is a Full-Blown Zombie Sh »
-   0/10 ✗ pas une news « GTA 6 Avery Pawn Robbery Walkthrough: Safe Code and Escape Route »
-   8/10 ✓ « The Biggest Entertainment Launch Ever, 'GTA 6' Hides a Secret Tom Crui »
-   4/10 ✗ trop faible (mini 5) « Sortie de GTA VI, policiers condamnés dans l’affaire Zecler, XV de Fra »
-   2/10 ✗ pas une news « Comment jouer à GTA 6 en 60 FPS sur Xbox Series X »
-   3/10 ✗ pas une news « Oh No, I Can’t Stop Watching People Play ‘GTA VI’ »
-   7/10 ✓ « "GTA 6 n’est pas qu’un jeu vidéo, c’est un nouveau système d’exploitat »
-   7/10 ✓ « GTA 6 already has an infinite money glitch, but many players are skipp »
-   0/10 ✗ pas une news « Black Friday gaming : le meilleur des bons plans autour des consoles »
-GAMING · 9 infos retenues, meilleure : « New GTA VI Glitch Can Run The Game Unlocked, 60FPS » (7/10)
-  photo · échec : image trop petite (48x48)
-  photo · 1 image(s) : 1200x675
-  contexte · 3 complément(s) : GAMESRADAR, ROCKSTAR INTEL
+204 infos fraîches et jamais traitées (sur 478 lues)
+   6/10 ✗ déjà publiée « EXCLUSIVE: »
+   2/10 ✗ pas une news « GTA VI Pre-Order Bonus Now Available To Buy Separately! »
+   7/10 ✗ déjà publiée « Could This Major GTA VI Leak Make It Playable On PC? »
+   8/10 ✗ déjà publiée « 35,000 More Students Missed School in England on GTA VI Release Day! »
+   8/10 ✗ déjà publiée « Florida Joker Is In GTA VI, Rockstar Confirms »
+   6/10 ✓ « GTA 3 Had a $600,000 Music Budget It Never Spent »
+   0/10 ✗ pas une news « Ciel dégagé (escorte avec Donnie) | Soluce GTA 6 »
+   0/10 ✗ pas une news « Terre à terre (hydravion avec Lucia) | Soluce GTA 6 »
+   6/10 ✓ « Claude is coding for the PC recompile of Grand Theft Auto VI. »
+   0/10 ✗ pas une news « Nettoyer après Donnie (colis et Kingfishers) | Soluce GTA 6 »
+   0/10 ✗ pas une news « BuckMe (Mission compte bancaire) | Soluce GTA 6 »
+   8/10 ✓ « Grand Theft Auto VI nécessitera au minimum un processeur Ryzen 5 5600  »
+   3/10 ✗ pas une news « How to Listen to GTA 6 Radio While Walking: Headphones Explained »
+   0/10 ✗ pas une news « Bloqueur d'encre GTA 6 : Comment débloquer cet outil pour braquer les  »
+   0/10 ✗ pas une news « Feng Shui | Soluce GTA 6 »
+   5/10 ✓ « GTA 6 discourse is already suffering from the flat earther effect »
+   0/10 ✗ pas une news « GTA 6 Aiming: The Complete Guide to Better Aim on PS5 and Xbox »
+   0/10 ✗ pas une news « Hé, Arnold ! GTA 6 : soluce de la mission 8 (poursuite à Maroon Key) »
+   0/10 ✗ pas une news « How to Find All Three Kolt & Associates Businesses and Their Weapons i »
+   8/10 ✓ « GTA 6 Sex Scenes Took Thought and Iteration, Rockstar Says »
+GAMING · 5 infos retenues, meilleure : « Grand Theft Auto VI nécessitera au minimum un processeur Ryzen 5 5600 ou Core i5 » (8/10)
+  article · fr.gamegpu.com
+  article · 3301 caractères lus
+  photo · 1 image(s) : 1600x900
+  contexte · 1 complément(s) : DEXERTO
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · trouvée sur X « GTA 6 60FPS glitch Xbox » (20459 likes) : a glitch with xbox series x's quick resume feature seems to have gta 6
-  vidéo · téléchargée (46 s, 8 Mo)
-  vidéo · 40 images analysées, texte incrusté sur 35
+  vidéo · recherche X « GTA 6 PC gameplay performance » : rien qui montre vraiment le sujet
+  vidéo · trouvée sur X « PC performance » (1247 likes) : pilot a mech with no restrictions on turning speed
+
+- more than 30 mis
+  vidéo · téléchargée (34 s, 6 Mo)
+  vidéo · 34 images analysées, texte incrusté sur 34
   couverture · photo1 · zoom 1.12 · propre
-  carrousel prêt : « Un glitch de GTA VI permet de jouer en 60 FPS » (4 slides)
-  voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (8.1 s)
-  vidéo · 12 images analysées, texte incrusté sur 12
-  vidéo · temps forts : 6 passages (8s, 26s, 32s, 38s, 40s, 42s) sur 46 s
-  reel · 9.8 s · 6 plans dont 6 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgDaby0F5g6/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgDadtRgADL/
+  carrousel prêt : « GTA 6 exige un gros processeur sur PC » (4 slides)
+  voix · ⚠️ refaite, texte différent (66%) : « GTA 6 demande au minimum un Ryzen 5 5600 sur PC pour atteindre 30 images par seconde. Ton PC déjà prêt ? GTA 6 demande au minimum un Ryzen 5 5600 sur PC pour at »
+  voix · contrôle OK (100%, essai 2, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (6.5 s)
+  vidéo · 10 images analysées, texte incrusté sur 10
+  vidéo · temps forts : 5 passages (2s, 4s, 14s, 27s, 29s) sur 34 s
+  reel · 8.2 s · 5 plans dont 5 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgDhOnWmiAC/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgDhQtwmcw_/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 5 s
