@@ -31,6 +31,7 @@ REGLAGES = {
     "SCORE_MIN": 6,
     "HASHTAGS": {"RAP FR": ["#rapfr", "#rapfrancais", "#actusrap", "#hiphopfrancais", "#rap"]},
     "PROMESSE": "toute l'actu rap",
+    "VIDEO_PLAN_B": "",                  # pas de « vidéo de rap au hasard » : sans vidéo du sujet, des photos
     "VIDEOS_OFFICIELLES": True,          # sans vidéo dans la source : extrait officiel posté par l'artiste
     "ENVOIE_A": "écoute du rap FR",
     # rubriques de la DA (petit titre en haut de chaque carte)

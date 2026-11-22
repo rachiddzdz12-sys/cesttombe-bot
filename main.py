@@ -450,6 +450,10 @@ def executer():
     return code
 
 
+MOTS_DEBUT = {"le", "la", "les", "un", "une", "des", "il", "elle", "ils", "officiel", "officielle", "selon", "après",
+              "avant", "pourquoi", "comment", "quand", "ce", "cette", "ces", "son", "sa", "ses", "leur", "on", "en"}
+
+
 def preparer_medias(cand, photos, prefixe, diag, n_source=None, red=None, etat=None):
     """Images (analysées : textes incrustés, visages) + vidéo de la source (analysée image par image).
     Les n_source premières photos viennent de la source de l'info ; les suivantes ont été cherchées ailleurs."""
@@ -469,10 +473,17 @@ def preparer_medias(cand, photos, prefixe, diag, n_source=None, red=None, etat=N
             and red and red.get("recherche_video"):
         # pas de vidéo dans la source : une vidéo qui montre le sujet (la mission, le clip, la scène virale)
         mini = getattr(config, "VIDEOS_LIKES_MIN", 200)
-        vids = sources.videos_x(red["recherche_video"], mots, diag, likes_min=mini, etat=etat)
+        # les noms propres du titre (personnage, personne, lieu, marque) : la vidéo doit en parler
+        noms_titre = [w for w in re.findall(r"\b[A-ZÀ-Ý][\wÀ-ÿ'’-]{2,}", red.get("titre", ""))
+                      if w.lower() not in sources.MOTS_GENERIQUES_VIDEO | MOTS_DEBUT]
+        vids = sources.videos_x(red["recherche_video"], mots, diag, likes_min=mini, etat=etat, obligatoires=noms_titre)
         noms = [m for m in red["recherche_video"].split() if m.lower() not in sources.MOTS_GENERIQUES_VIDEO][:2]
         if not vids and noms and " ".join(noms) != red["recherche_video"]:   # plus large : les noms seuls
-            vids = sources.videos_x(" ".join(noms), mots, diag, likes_min=mini // 2, etat=etat)
+            vids = sources.videos_x(" ".join(noms), mots, diag, likes_min=mini // 2, etat=etat,
+                                    obligatoires=noms_titre)
+        if not vids and getattr(config, "VIDEO_PLAN_B", ""):
+            # rien sur le sujet précis : des images du jeu plutôt que des photos fixes (page GTA)
+            vids = sources.videos_x(config.VIDEO_PLAN_B, mots, diag, likes_min=2000, etat=etat, libre=True)
         if vids:
             cand = {**cand, "videos": vids}
     if config.VIDEOS and not cand.get("videos") and getattr(config, "VIDEOS_OFFICIELLES", False) \
