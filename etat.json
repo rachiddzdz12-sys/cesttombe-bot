@@ -1,14 +1,5 @@
 {
  "vus": {
-  "ig:17916804351514667": "2026-11-08T13:37:01.961613+00:00",
-  "ig:18100545644532876": "2026-11-08T13:37:01.961613+00:00",
-  "ig:17925018876223887": "2026-11-08T13:37:01.961613+00:00",
-  "ig:18113790113149856": "2026-11-08T13:37:01.961613+00:00",
-  "ig:18126382375918376": "2026-11-08T13:38:34.630738+00:00",
-  "ig:18135277237706321": "2026-11-08T13:38:34.630738+00:00",
-  "ig:18432869182150859": "2026-11-08T13:38:34.630738+00:00",
-  "ig:18038348267849282": "2026-11-08T13:38:34.630738+00:00",
-  "ig:18348547036281323": "2026-11-08T13:38:34.630738+00:00",
   "ag:https://www.actugaming.net/?p=832797": "2026-11-08T14:29:41.939201+00:00",
   "ag:https://www.actugaming.net/?p=832718": "2026-11-08T14:29:41.939201+00:00",
   "ag:https://www.actugaming.net/?p=832715": "2026-11-08T14:29:41.939201+00:00",
@@ -764,7 +755,17 @@
   "web:google news:CBMiqwFBVV95cUxQZmFWdmZCVWtIX2kzZTlTWlh5UHBZdTFLWHNqdWw2WHBpeW53WWJfRGVXZHUxaWVJRFlQbTRuRHRTaEcwRTM3UktEZ3pKbS02X2RfNVlSR0h1OU5hVDczV0VWYzhCZTFOSDhMTm5ETFJxeEY5V3RpM0VHWWVWWTFlQ0NhQnFPbTRzXzZyQWVlTElBclU5djR5QWhDNDJ0LWlqUFAtRXRrLTU5YnM": "2026-11-22T12:31:16.080826+00:00",
   "web:google news:CBMiZkFVX3lxTFBVMGxwMjRidXljUFRnc3BjaUZBQm1YWlY2NFlZRDY4WGJGNEFiMTVrUTZfNW92NXdfSVE4UmxqYW1weS1ILXhMUlNOWjA1YWlzNmJCRGJLa2VTRnVnVUlJYk5TdHNaUQ": "2026-11-22T12:31:16.080826+00:00",
   "web:google news:CBMid0FVX3lxTE12bURjM1BNNXlzeUFRTlNHa3oxVDlGWjh3bzZ6MVdJRlhqdjkxZTZBVUYxSHRUSGN0WmpPdmRrWjFma3AzUHF3RWh5NjQ3Vm5Bb1psejlIczJSOXFlLWkyRDlTNnVyRjd3ZmlOWkNBXzlVMkR5d1RZ": "2026-11-22T12:31:16.080826+00:00",
-  "web:google actu:CBMiVEFVX3lxTE9CTm00akFocjR2bzJiZERIZ09sQkhXVXR1dHoyU3QtbVVrRVZZZFo4V2R2ZVFSa2EtU1lfN1lpcHV6YXRMSWZ2NTRrS2pvLWxLWHNOdw": "2026-11-22T12:31:16.080826+00:00"
+  "web:google actu:CBMiVEFVX3lxTE9CTm00akFocjR2bzJiZERIZ09sQkhXVXR1dHoyU3QtbVVrRVZZZFo4V2R2ZVFSa2EtU1lfN1lpcHV6YXRMSWZ2NTRrS2pvLWxLWHNOdw": "2026-11-22T12:31:16.080826+00:00",
+  "web:gta boom:https://www.gtaboom.com/gta-6-where-to-find-four-hidden-weapons-in-pelican-valley-and-the-griffin-bunker-in-chapter-1-13f1": "2026-11-22T13:31:49.296242+00:00",
+  "web:google actu:CBMif0FVX3lxTE55S0ZwSEZHUGF3bExNV2dFOUNoQ1hOeFV6am5uNzZDRU5FdFJJUzdtd2NBSjJlbG9xRGZWTkF0cFJXNUxnX3JzWXlBanF3WkdQU3hkNzhaZkFiRXFYWjVXdm10LTJnblBtX285R01Lemx2dE9kMzBhdVpYLTlsT0U": "2026-11-22T13:31:49.296242+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=240131": "2026-11-22T13:31:49.296242+00:00",
+  "web:gamesradar:j42kRQ8s5UrJUuaT8peSuh": "2026-11-22T13:31:49.296242+00:00",
+  "web:gamesradar:sg9dL9kJfASveoKGdWBWUf": "2026-11-22T13:31:49.296242+00:00",
+  "web:google news:CBMiY0FVX3lxTE0yY0FoWms5QllTYXA3SHNUak9JWWZtZ2xWR05UZDhCd2s4RWpLSE1Qb1dlU0FnbDU4M183MUZZNWdyaTRBSWRfSm9ic3oyUXh3TU80ZTJUYVF6RFNJWjJIZG0tQQ": "2026-11-22T13:31:49.296242+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=240126": "2026-11-22T13:31:49.296242+00:00",
+  "web:google news:CBMieEFVX3lxTFA4aDBwdHl2b3dmX1pwb0pEQlpkZHJydGs4U2daRFVMTEtQeUxfWDdxSWE4WXpwNG5ubzAzcjFxODAwXzd5QkRDU2JRLV9ZR0p3WUVvZDRaQ2J6MFA4NFNNQlhGNmJMVG13S3RpQ2ZDSTlhNldRYWxiZg": "2026-11-22T13:31:49.296242+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=240216": "2026-11-22T13:31:49.296242+00:00",
+  "x:2124465918457639048": "2026-11-22T13:31:49.296242+00:00"
  },
  "publies": [
   {
@@ -2031,11 +2032,20 @@
    "lien": "https://www.instagram.com/p/DgC0m00l8y9/",
    "reel": "https://www.instagram.com/reel/DgC0olFHPKT/",
    "story": "17985368772137195"
+  },
+  {
+   "ts": "2026-11-22T13:31:49.296242+00:00",
+   "categorie": "GAMING",
+   "titre": "Le propriétaire du chien en jet ski réagit à GTA 6",
+   "source_id": "x:2124465918457639048",
+   "lien": "https://www.instagram.com/p/DgC7lX2Fyja/",
+   "reel": "https://www.instagram.com/reel/DgC7oB_gnd5/",
+   "story": "17945634453377805"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 4437
+  "tweets": 4467
  },
  "x_recherches": {
   "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-22T10:33:40.760856+00:00"
