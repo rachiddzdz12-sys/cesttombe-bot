@@ -46,11 +46,12 @@ jobs:
         run: |
           mkdir -p sortie
           python main.py 2>&1 | grep -v onnxruntime | tee sortie/journal-cesttombe.txt
-      - name: C'EST TOMBÉ · la fille en bikini du trailer retrouvée (ne publie rien)
+      - name: LE BRUIT · Maes (ne publie rien)
         continue-on-error: true
         env:
           TEST_N: "1"
-          TEST_FILTRE: "Bikini"
+          COMPTE: lebruit
+          TEST_FILTRE: "maes"
         run: |
           python main.py 2>&1 | grep -v onnxruntime | tee sortie/journal-mission.txt
       - name: Rendus déposés sur la branche da-v3-rendus
