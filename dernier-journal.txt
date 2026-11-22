@@ -6,63 +6,77 @@ Instagram · posts publiés par l'API sur 24 h : 42 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 100 infos
-Web · GOOGLE NEWS → 100 infos
+Web · GOOGLE NEWS → HTTP 429
 Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
-Web · GTABASE → erreur : HTTPSConnectionPool(host='www.gtabase.com', port=443): Read timed out. (read timeout=25)
+Web · GTABASE → 30 infos
 Web · GAMEKULT → 14 infos
-Web · IGN FRANCE → 19 infos
-Web · JEUXVIDEO.COM → 14 infos
-Web · INSIDER GAMING → 5 infos
+Web · IGN FRANCE → 20 infos
+Web · JEUXVIDEO.COM → 13 infos
+Web · INSIDER GAMING → 6 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 10 tweets lus, 1 gardés (ce mois : 4512 / 10000)
+X · @RockstarGames → refus Apify HTTP 400 : {
+  "error": {
+    "type": "run-failed",
+    "message": "Actor run did not succeed (run ID: UaDYmguH4UDQfFnoR, status: ABORTED)."
+  }
+}
 X · @RockstarIntel → refus Apify HTTP 400 : {
   "error": {
     "type": "run-failed",
-    "message": "Actor run did not succeed (run ID: 5G86KeE4fb12Cnc9O, status: FAILED)."
+    "message": "Actor run did not succeed (run ID: HG0BWUiMfRlKsYWH5, status: FAILED)."
   }
 }
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-168 infos fraîches et jamais traitées (sur 445 lues)
-  10/10 ✗ déjà publiée « GTA 6 établit un record absolu de ventes mondiales durant les 24 premi »
-   7/10 ✓ « Bye Mandy, GTA 6 players have moved onto being infatuated with goth gi »
-   2/10 ✗ pas une news « Lamborghini Urus en or GTA 6 : Où trouver la voiture unique de Casanov »
-  10/10 ✗ déjà publiée « Grand Theft Auto VI generates billions in record-breaking launch »
-   6/10 ✓ « "GTA VI" Festival: best performances and highlights »
-   2/10 ✗ pas une news « Where to find the Fast & Furious Mitsubishi Eclipse in GTA 6 »
-   8/10 ✓ « 'Grand Theft Auto VI' Easter Eggs Found Involving Satanic Rituals, Ali »
-   6/10 ✓ « GTA 6 : un joueur prétend avoir été suspendu du PSN pour une photo de  »
-   7/10 ✓ « Lancement de GTA 6, Codes de triches, série Harry Potter qui se fait h »
-   5/10 ✓ « GTA 6 Parody In Binding of Isaac Used AI Without Creator's Knowledge »
-   5/10 ✓ « [Vidéo] GTA 6 : « Abrutissant, abêtissant et avilissant » : peut-on se »
-   1/10 ✗ pas une news « GTA 6: How To Do the First-Person Glitch (PS5 & Xbox) »
-   6/10 ✗ déjà publiée « GTA 6’s Red Dead Redemption Easter Egg Is a Subtle Nod to Arthur Morga »
-   7/10 ✓ « GTA à Marseille, Quimper et Sète : la sortie de GTA 6 inspire des paro »
-   7/10 ✓ « GTA 6 : un Français fait un Ironman virtuel en 12 h 40, sa vidéo attei »
-   3/10 ✗ pas une news « En attendant GTA 6 sur PC, trois épisodes de la saga à (re)découvrir »
-   7/10 ✓ « "Grand Theft Auto VI" Mayhem Strikes America »
-   1/10 ✗ pas une news « How Long Is Chapter 2 in GTA 6? All Missables and Mission List »
-   9/10 ✗ déjà publiée « GTA 6 devient le jeu le plus suivi de l'histoire de Twitch, devant Lea »
-   7/10 ✓ « Mom Sends Daughter to Grandma’s House So She Can Play GTA 6 for 24 Hou »
-GAMING · 11 infos retenues, meilleure : « 'Grand Theft Auto VI' Easter Eggs Found Involving Satanic Rituals, Aliens, 'Manh » (8/10)
-  article · bloody-disgusting.com
-  article · 4541 caractères lus
-  photo · 1 image(s) : 900x580
+113 infos fraîches et jamais traitées (sur 375 lues)
+   0/10 ✗ pas une news « GTA 6 Transgressor Locations: How to restore the first car in Wyman's  »
+   7/10 ✗ déjà publiée « Il joue à GTA 6 par la pensée grâce à son implant Neuralink »
+   6/10 ✓ « "GTA VI" et ses stations cultes, un modèle dont les radios françaises  »
+   0/10 ✗ pas une news « Meilleures voitures GTA 6 : Liste et emplacement des voitures uniques  »
+   0/10 ✗ pas une news « Where to Find the Buckingham Windsor Drop Car in GTA 6—Randy’s Wishlis »
+   5/10 ✓ « "Lançon-City" : la commune joue la carte du jeu vidéo GTA VI et attire »
+   5/10 ✓ « GTA 6 PC : carte 3D Vice City (RageForge 0.5) & percée XCL / Leonida »
+   7/10 ✓ « Verstappen, Hamilton, Antonelli : la folie GTA VI s’empare du paddock »
+   6/10 ✓ « La folie GTA VI rapporte 1,5 million de dollars au Heat »
+   0/10 ✗ pas une news « GTA 6 saccade sur votre télé ? Ce réglage méconnu sur les télés Samsun »
+   5/10 ✓ « On a fait le test du jeu dans le jeu : Time Jackers Rewind, un peu che »
+   5/10 ✗ déjà publiée « On a fait le test du jeu dans le jeu : Time Jackers Rewind, un peu che »
+   0/10 ✗ pas une news « Mandy GTA 6 : Peut-on coucher avec elle et que cache-elle ? »
+   0/10 ✗ pas une news « Mandy GTA 6 : peut-on coucher avec elle ? Romance et secrets »
+   0/10 ✗ pas une news « GTA 6 : peut-on ranger les vêtements de Lucia donnés par Andy chez Jas »
+   9/10 ✗ déjà publiée « GTA 6 établit un record absolu de ventes mondiales durant les 24 premi »
+   8/10 ✓ « Rockstar laisse entendre que la carte de GTA 6 sera étendue à l'avenir »
+   8/10 ✓ « GTA 6 bat un record sur Internet avec 24% du trafic en période de poin »
+   7/10 ✓ « Des joueurs de GTA 6 sur PS5 et Xbox protestent après avoir été bannis »
+   6/10 ✗ déjà publiée « GTA 6 : un joueur prétend avoir été suspendu du PSN pour une photo de  »
+GAMING · 9 infos retenues, meilleure : « Rockstar laisse entendre que la carte de GTA 6 sera étendue à l'avenir » (8/10)
+  article · fr.egw.news
+  article · 0 caractères lus
+  ⏭️ article illisible, info écartée : « Rockstar laisse entendre que la carte de GTA 6 sera étendue  »
+  article · notebookcheck.biz
+  article · 2819 caractères lus
+  photo · 1 image(s) : 1200x900
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · trouvée sur X « GTA 6 Easter eggs secrets » (5299 likes) : claude code just finished gta 6 in 12 hours while i was at work. it un
-  vidéo · téléchargée (15 s, 3 Mo)
-  vidéo · 15 images analysées, texte incrusté sur 14
-  couverture · video@0s · zoom 1.6 · propre
-  carrousel prêt : « Des Easter eggs insolites découverts dans Grand Theft Auto VI » (5 slides)
-  voix · contrôle OK (95%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (7.6 s)
-  reel · 9.3 s · 6 plans dont 6 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgDM134jsnV/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgDM3dWDVOd/
+  vidéo · recherche X « GTA 6 download screen PS5 Xbox » : rien qui montre vraiment le sujet
+  vidéo · recherche X « download screen » : rien qui montre vraiment le sujet
+  vidéo · trouvée sur X « GTA 6 gameplay » (42876 likes) : nearly 3 minutes of non-spoiler gameplay from gta 6.
+
+(source: @digita
+  vidéo · téléchargée (168 s, 30 Mo)
+  vidéo · 40 images analysées, texte incrusté sur 22
+  couverture · video@86s · zoom 1.0 · propre
+  carrousel prêt : « GTA 6 saturé Internet avec 24 % du trafic total » (5 slides)
+  voix · contrôle OK (97%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (10.4 s)
+  vidéo · 14 images analysées, texte incrusté sur 10
+  vidéo · temps forts : 7 passages (16s, 82s, 91s, 120s, 144s, 150s, 164s) sur 168 s
+  reel · 12.0 s · 7 plans dont 7 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgDUCE9F0Cu/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgDUDlnjVyk/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 6 s
+Gemini : gemini-flash-lite-latest : réponse en 3 s · gemini-flash-lite-latest : réponse en 5 s · texte sans accents ou sans apostrophes : réécriture demandée · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3-flash-preview : réponse en 11 s
