@@ -1,1 +1,64 @@
-Pas de post : dernier post il y a 29 min (minimum 40)
+Mode : auto
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @cesttombe.actu (17 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 39 / 100
+Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
+  10 infos retenues après filtre
+Web · GOOGLE ACTU → 92 infos
+Web · GOOGLE NEWS → 100 infos
+Web · BING ACTU → 12 infos
+Web · BING ACTU VI → 12 infos
+Web · ROCKSTAR INTEL → 10 infos
+Web · DEXERTO → 50 infos
+Web · GTA BOOM → 30 infos
+Web · GAMESRADAR → 50 infos
+Web · GTABASE → 30 infos
+Web · GAMEKULT → 15 infos
+Web · IGN FRANCE → 19 infos
+Web · JEUXVIDEO.COM → 14 infos
+Web · INSIDER GAMING → 8 infos
+Instagram · @rockstargames → 12 posts lus, 12 gardés
+Instagram · @playstationfr → 12 posts lus, 6 gardés
+X · @RockstarGames → 10 tweets lus, 1 gardés (ce mois : 4317 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 4332 / 10000)
+X · « ("GTA 6" OR "GTA VI") filter:native_vide » → 8 tweets lus, 8 gardés (ce mois : 4347 / 10000)
+Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
+167 infos fraîches et jamais traitées (sur 489 lues)
+   6/10 ✗ déjà publiée « 35,000 More Students Missed School in England on GTA VI Release Day! »
+   7/10 ✗ déjà publiée « Florida Joker Is In GTA VI, Rockstar Confirms »
+  10/10 ✗ déjà publiée « GTA VI Breaks Records With 32.5 Million Copies Sold, $4 Billion On Rel »
+   7/10 ✗ déjà publiée « GTA VI's Famous Bikini Girl From Trailer 1 Has Been Found! »
+   5/10 ✗ déjà publiée « New GTA VI Backgrounds Added To PS5! »
+   2/10 ✗ pas une news « This is the funniest GTA 6 clip I’ve seen so far 🤣 https://t.co/5hqK2C »
+   0/10 ✗ pas une news « GTA 6 or me? https://t.co/NAulXcMGqC »
+   0/10 ✗ pas une news « Still ignoring me for gta 6? https://t.co/3UYIyaZ8z0 »
+   0/10 ✗ pas une news « a little something that’s better than playing GTA 6 😝 https://t.co/ITa »
+   0/10 ✗ pas une news « GTA 6 is pretty wild! https://t.co/uhQf3scsic »
+   0/10 ✗ pas une news « HERE'S THE FASTEST MONEY METHOD IN GTA 6 - MAKE $500,000 PER HOUR AT A »
+   0/10 ✗ pas une news « Playing GTA 6 on PC in 60fps with Veyra is the best way to play. #GTA6 »
+   0/10 ✗ pas une news « GTA 6 controller or my hand tonight? https://t.co/Sa41L5DcoI »
+   8/10 ✓ « GTA VI’s Jet Ski Dog: EXCLUSIVE Interview With Real-Life Inspiration O »
+   8/10 ✓ « 'GTA 6' players can't stop doomscrolling in the game: 'Art really does »
+   7/10 ✓ « Trahi par une photo : une star de United fait polémique à cause de GTA »
+   6/10 ✓ « Janelle James Bullied Her Way Into GTA 6, Then Rockstar Sent Her a Cus »
+   4/10 ✗ trop faible (mini 5) « SS United States diving, GTA 6 Pensacola nod in top news »
+   5/10 ✓ « I’m playing Grand Theft Auto VI for the outfits, of course »
+   6/10 ✓ « How a piece of Detroit ended up inside GTA VI »
+GAMING · 6 infos retenues, meilleure : « GTA VI’s Jet Ski Dog: EXCLUSIVE Interview With Real-Life Inspiration Owner » (8/10)
+  photo · 3 image(s) : 1024x1024, 1024x1024, 1280x719
+  contexte · 1 complément(s) : ROCKSTAR INTEL
+  visuels · steam « Grand Theft Auto VI » → 4 image(s)
+  vidéo · recherche X « GTA 6 jet ski dog Loosy » : rien qui montre vraiment le sujet
+  vidéo · trouvée sur X « jet ski » (5732 likes) : you can jet ski with a dog in grand theft auto vi https://t.co/3kn7ttc
+  vidéo · téléchargée (12 s, 2 Mo)
+  vidéo · 12 images analysées, texte incrusté sur 12
+  couverture · photo2 · zoom 1.4 · propre
+  carrousel prêt : « Le chien du jet ski dans GTA 6 inspiré d'un vrai animal » (4 slides)
+  voix · contrôle OK (97%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (7.9 s)
+  reel · 9.6 s · 6 plans dont 6 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgCm4C-D70I/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgCnA_gimy5/
+  ✅ STORY PUBLIÉE (vidéo)
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 4 s
