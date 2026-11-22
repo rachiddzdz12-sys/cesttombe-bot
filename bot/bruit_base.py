@@ -304,18 +304,21 @@ def casse_normale(post):
     les noms propres reprennent l'écriture vue ailleurs dans le post (Ninho, Spotify, SDM), le reste en minuscules.
     Modifie le post en place ; sans effet sur un texte déjà normal."""
     slides = [s for s in (post.get("slides") or post.get("sections") or []) if isinstance(s, dict)]
-    textes = [post.get(c) for c in CHAMPS_TEXTE] + [post.get("legende"), post.get("texte_voix")]
+    textes = [post.get(c) for c in CHAMPS_TEXTE] + [post.get("legende"), post.get("texte_voix"), post.get("voix_off")]
     textes += [s.get(c) for s in slides for c in CHAMPS_SLIDE]
     connus = {}
     for t in textes:
         if isinstance(t, str) and t and not _en_capitales(t):
             for m in re.findall(r"[\w'’-]+", t):
-                if any(c.isupper() for c in m):
+                if any(c.isupper() for c in m) and not (m.isupper() and len(m) >= 4):
                     connus.setdefault(m.lower(), m)
 
     def corriger(t, suite=False):
         """suite=True : 2e moitié d'un titre (« … / sur Dayarga »), pas de majuscule forcée au début."""
-        if not isinstance(t, str) or not _en_capitales(t):
+        if isinstance(t, str) and not _en_capitales(t):
+            # un nom recopié en capitales dans un titre normal (« MAES réagit ») : écrit comme ailleurs (« Maes »)
+            return re.sub(r"\b[A-ZÀ-Ý]{4,}\b", lambda m: connus.get(m.group(0).lower(), m.group(0)), t)
+        if not isinstance(t, str):
             return t
         out = re.sub(r"[\w'’-]+", lambda m: connus.get(m.group(0).lower(), m.group(0).lower()), t)
         return out if suite else out[:1].upper() + out[1:]
