@@ -477,7 +477,8 @@ def preparer_medias(cand, photos, prefixe, diag, n_source=None, red=None, etat=N
         noms_titre = [w for w in re.findall(r"\b[A-ZÀ-Ý][\wÀ-ÿ'’-]{2,}", red.get("titre", ""))
                       if w.lower() not in sources.MOTS_GENERIQUES_VIDEO | MOTS_DEBUT]
         vids = sources.videos_x(red["recherche_video"], mots, diag, likes_min=mini, etat=etat, obligatoires=noms_titre)
-        noms = [m for m in red["recherche_video"].split() if m.lower() not in sources.MOTS_GENERIQUES_VIDEO][:2]
+        noms = [m for m in red["recherche_video"].split()
+                if m.lower() not in sources.MOTS_GENERIQUES_VIDEO and not m.isdigit()][:2]
         if not vids and noms and " ".join(noms) != red["recherche_video"]:   # plus large : les noms seuls
             vids = sources.videos_x(" ".join(noms), mots, diag, likes_min=mini // 2, etat=etat,
                                     obligatoires=noms_titre)

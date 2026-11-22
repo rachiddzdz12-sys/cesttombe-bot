@@ -181,3 +181,76 @@ def cadrage_centre(v, W, H):
 def brute(v, sortie, W, H, longueur=MAX_SECONDES):
     """La vidéo telle quelle, recadrée plein cadre, sans rien dessus (avec son)."""
     return rendre(v, cadrage_centre(v, W, H), sortie, W, H, 0, min(longueur, v["duree"]))
+
+
+def temps_forts(v, longueur, dossier, diag, morceau=2.0):
+    """Montage des passages les plus forts de la vidéo (ça bouge, ça crie, ça réagit), remis dans l'ordre,
+    pour tenir en `longueur` secondes. Renvoie la vidéo préparée du montage, ou v si elle est déjà assez courte
+    ou si le montage échoue. Jamais d'exception."""
+    import numpy as np
+    d = v.get("duree", 0)
+    if d <= longueur + 1.5:
+        return v
+    try:
+        dossier = Path(dossier)
+        dossier.mkdir(parents=True, exist_ok=True)
+        pas = 0.5
+        n = int(d / pas)
+        # mouvement : différence entre images successives (petites images en niveaux de gris, 4 par seconde)
+        r = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(v["chemin"]), "-vf",
+                            "fps=4,scale=64:36,format=gray", "-f", "rawvideo", "-"], capture_output=True)
+        img = np.frombuffer(r.stdout, np.uint8)
+        img = img[: len(img) // (64 * 36) * 64 * 36].reshape(-1, 36, 64).astype(np.float32)
+        diff = np.abs(np.diff(img, axis=0)).mean(axis=(1, 2)) if len(img) > 1 else np.zeros(1)
+        mouvement = np.array([diff[int(i * pas * 4): int((i + 1) * pas * 4)].mean() if int(i * pas * 4) < len(diff)
+                              else 0.0 for i in range(n)])
+        # son : énergie (cris, réactions, explosions, refrain)
+        son = np.zeros(n)
+        if v.get("son"):
+            r = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(v["chemin"]), "-ac", "1", "-ar", "8000",
+                                "-f", "s16le", "-"], capture_output=True)
+            a = np.frombuffer(r.stdout, np.int16).astype(np.float32)
+            k = int(8000 * pas)
+            son = np.array([np.sqrt((a[i * k:(i + 1) * k] ** 2).mean()) if i * k < len(a) else 0.0 for i in range(n)])
+
+        def norme(x):
+            x = np.nan_to_num(x)
+            return (x - np.median(x)) / (np.percentile(x, 90) - np.median(x) + 1e-6)
+
+        score = 0.6 * norme(mouvement) + 0.4 * norme(son)
+        score[: int(1.0 / pas)] -= 1.0                       # pas l'intro (logo, écran noir)
+        score[-int(1.0 / pas):] -= 1.0                      # ni la fin (écran de fin)
+        largeur = int(morceau / pas)
+        fenetres = np.convolve(score, np.ones(largeur) / largeur, mode="valid")
+        choisis, libre = [], np.ones(len(fenetres), bool)
+        while len(choisis) * morceau < longueur and libre.any():
+            i = int(np.argmax(np.where(libre, fenetres, -1e9)))
+            choisis.append(i)
+            libre[max(0, i - largeur - 1): i + largeur + 1] = False
+        choisis.sort()                                      # dans l'ordre de la vidéo : on suit l'histoire
+        bouts = [(i * pas, i * pas + morceau) for i in choisis]
+        filtres, flux = [], ""
+        for j, (a0, a1) in enumerate(bouts):
+            filtres.append(f"[0:v]trim={a0:.2f}:{a1:.2f},setpts=PTS-STARTPTS[v{j}]")
+            if v.get("son"):
+                filtres.append(f"[0:a]atrim={a0:.2f}:{a1:.2f},asetpts=PTS-STARTPTS[a{j}]")
+            flux += f"[v{j}]" + (f"[a{j}]" if v.get("son") else "")
+        filtres.append(f"{flux}concat=n={len(bouts)}:v=1:a={1 if v.get('son') else 0}"
+                       + ("[v][a]" if v.get("son") else "[v]"))
+        sortie = dossier / "temps-forts.mp4"
+        cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", str(v["chemin"]), "-filter_complex", ";".join(filtres),
+               "-map", "[v]"] + (["-map", "[a]", "-c:a", "aac", "-b:a", "160k"] if v.get("son") else []) + \
+              ["-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", str(sortie)]
+        r = subprocess.run(cmd, capture_output=True, text=True)
+        if r.returncode != 0:
+            raise RuntimeError(r.stderr[-150:])
+        nouveau = preparer(sortie, dossier / "analyse", diag)
+        if not nouveau:
+            return v
+        nouveau["montage"] = True
+        diag.append(f"  vidéo · temps forts : {len(bouts)} passages ({', '.join(f'{a:.0f}s' for a, _ in bouts)}) "
+                    f"sur {d:.0f} s")
+        return nouveau
+    except Exception as ex:
+        diag.append(f"  vidéo · temps forts impossibles, vidéo dans l'ordre : {str(ex)[:120]}")
+        return v
