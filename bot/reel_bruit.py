@@ -491,7 +491,12 @@ def fabriquer(post, medias, texte_voix, dossier, prefixe, diag):
             bloc_titre(img, post.get("titre_haut") or "", post.get("titre_bas") or "",
                        post.get("chiffre_texte") or "", tl + 2.0)     # le hook est lisible dès la 1re image
         elif plan.kicker == "Et toi ?":
-            bloc_titre(img, q1, q2, "Envoie-le à un pote qui doit savoir", tl, taille=112)
+            # quand la vidéo continue après la voix : la question pendant qu'elle est dite, puis à la fin ;
+            # entre les deux, rien par-dessus la vidéo
+            fin_q = t_fin_voix + 0.4
+            if t < fin_q or t >= t_fin - 2.5 or fond_video is None:
+                bloc_titre(img, q1, q2, "Envoie-le à un pote qui doit savoir",
+                           tl if t < fin_q else t - (t_fin - 2.5), taille=112)
         else:
             sur_video = fond_video is not None and t < fond_video.fin
             if k == 1 and chiffre and not sur_video:
