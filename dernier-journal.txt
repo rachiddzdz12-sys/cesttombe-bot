@@ -20,50 +20,55 @@ Web · JEUXVIDEO.COM → 16 infos
 Web · INSIDER GAMING → 9 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 10 tweets lus, 1 gardés (ce mois : 4197 / 10000)
-X · @RockstarIntel → 10 tweets lus, 9 gardés (ce mois : 4212 / 10000)
+X · @RockstarGames → 10 tweets lus, 1 gardés (ce mois : 4242 / 10000)
+X · @RockstarIntel → refus Apify HTTP 400 : {
+  "error": {
+    "type": "run-failed",
+    "message": "Actor run did not succeed (run ID: BrlxLrDYRo99byJ3t, status: ABORTED)."
+  }
+}
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-188 infos fraîches et jamais traitées (sur 484 lues)
-   6/10 ✗ déjà publiée « 35,000 More Students Missed School in England on GTA VI Release Day! »
-   7/10 ✗ déjà publiée « Florida Joker Is In GTA VI, Rockstar Confirms »
-  10/10 ✗ déjà publiée « GTA VI Breaks Records With 32.5 Million Copies Sold, $4 Billion On Rel »
-   7/10 ✗ déjà publiée « GTA VI's Famous Bikini Girl From Trailer 1 Has Been Found! »
-   9/10 ✗ déjà publiée « GTA 6 : la presse mondiale a rendu son verdict, et les notes donnent l »
-   7/10 ✓ « Samsung prépare un nouveau design pour One UI 10, les premiers avis su »
+180 infos fraîches et jamais traitées (sur 475 lues)
+   2/10 ✗ pas une news « Playing Grand Theft Auto VI »
+  10/10 ✗ déjà publiée « GTA VI : 3,79 milliards de dollars en un jour, le lancement record de  »
+   6/10 ✓ « Robert Pattinson sera James Bond, GTA 6 enfin disponible et un Van Gog »
+   8/10 ✗ déjà publiée « Démarrage fast & furious pour GTA VI »
+   7/10 ✓ « Deal de drogue raté, plongée sous-marine et courses au supermarché : o »
+   9/10 ✗ déjà publiée « GTA 6 reçoit plus de 2000 avis négatifs sur Metacritic dès le lendemai »
+   8/10 ✗ déjà publiée « GTA 6 : la presse mondiale a rendu son verdict, et les notes donnent l »
+   9/10 ✗ déjà publiée « Take-Two Estimates GTA VI Hit $3.79 Billion in Day-One Retail Sales »
+   8/10 ✓ « “Feel the seriousness of your actions”: Rockstar explains GTA 6’s toug »
    9/10 ✗ déjà publiée « «GTA VI» pulvérise le record de ventes au lancement et agace... une pa »
-   0/10 ✗ pas une news « GTA 6 It’s a Date guide: one drink at the Courtyard Bar for a Jason an »
-   0/10 ✗ pas une news « Sortie de GTA 6 : la PlayStation 5 est encore en stock à prix canon ce »
-   0/10 ✗ pas une news « GTA 6 : La PS5 est de retour en stock sur Amazon, mais il faut faire v »
   10/10 ✗ déjà publiée « GTA 6 made $3.79 billion on its first day and sold 32.5 million copies »
-   6/10 ✓ « GTA 6 : faire le plein devient obligatoire, même les criminels devront »
+   9/10 ✗ déjà publiée « GTA 6 breaks Comcast internet record with 24% of peak traffic »
+   7/10 ✓ « GTA 6 : faire le plein devient obligatoire, même les criminels devront »
   10/10 ✗ déjà publiée « “Grand Theft Auto VI” generated $3.79 billion in retail sales on its f »
   10/10 ✗ déjà publiée « GTA 6 Shatters Entertainment Records with $3.79 Billion Opening Day »
-   0/10 ✗ pas une news « GTA 6 Child’s Play walkthrough: how to save Rafa, earn $30,000 and get »
-   6/10 ✓ « GTA 6 voice actor: Game’s realism resonates with players »
-   8/10 ✓ « Officiel : ça prend 1h41 de traverser tout GTA 6 en courant »
-   7/10 ✗ déjà publiée « Miami turns up for GTA 6 soundtrack party »
-   7/10 ✗ déjà publiée « Miami celebrates the GTA 6 soundtrack with a star-studded party »
-   0/10 ✗ pas une news « IShowSpeed Will Be Live-Playing 'GTA VI' Before Its U.S. Release »
-   0/10 ✗ pas une news « 'It gives me the ick': Can you cheat on someone with a video game? »
-GAMING · 4 infos retenues, meilleure : « Officiel : ça prend 1h41 de traverser tout GTA 6 en courant » (8/10)
-  article · www2.u-trail.com
-  article · 0 caractères lus
-  ⏭️ article illisible, info écartée : « Officiel : ça prend 1h41 de traverser tout GTA 6 en courant »
-  article · phonandroid.com
-  article · 6000 caractères lus
-  photo · 1 image(s) : 1200x750
-  visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · trouvée sur X « GTA 6 gameplay preview graphics » (464 likes) : i genuinely don't understand how gta 6 managed to generate this much e
-  vidéo · téléchargée (28 s, 7 Mo)
-  vidéo · 28 images analysées, texte incrusté sur 6
-  couverture · video@18s · zoom 1.0 · propre
-  carrousel prêt : « Les premiers avis de la presse sur GTA 6 » (4 slides)
-  voix · contrôle OK (98%, essai 1, gemini-3.1-flash-tts-preview)
-  voix · Gemini (Aoede) (7.2 s)
-  vidéo · 10 images analysées, texte incrusté sur 2
-  vidéo · temps forts : 5 passages (3s, 6s, 12s, 18s, 25s) sur 28 s
-  reel · 8.8 s · 5 plans dont 5 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgCLEIxjzZR/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgCLFrvEdu9/
+   7/10 ✓ « GTA 6 voice actor: Game’s realism resonates with players »
+   6/10 ✗ déjà publiée « Miami turns up for GTA 6 soundtrack party »
+   6/10 ✗ déjà publiée « Miami celebrates the GTA 6 soundtrack with a star-studded party »
+   7/10 ✗ déjà publiée « GTA 6 voice actor: Game’s realism resonates with players | NewsNation  »
+   3/10 ✗ pas une news « GTA 6 South Leonida Real Estate explained: who Terro and Viper are, an »
+GAMING · 5 infos retenues, meilleure : « “Feel the seriousness of your actions”: Rockstar explains GTA 6’s tougher police » (8/10)
+  article · mixed-news.com
+  article · 2644 caractères lus
+  photo · 1 image(s) : 3840x2160
+  visuels · steam « Grand Theft Auto VI » → 3 image(s)
+  vidéo · trouvée sur X « GTA 6 police gameplay chase » (28003 likes) : adin ross discovers the wanted system in gta 6 after killing npcs and 
+  vidéo · téléchargée (136 s, 34 Mo)
+  vidéo · 40 images analysées, texte incrusté sur 40
+  couverture · video@2s · zoom 1.12 · propre
+  carrousel prêt : « Rockstar détaille la réponse de la police dans GTA 6 » (4 slides)
+  voix · Gemini (Aoede) indisponible : gemini-3.1-flash-tts-preview HTTP 429 : {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota,
+  voix · edge-tts (11.3 s)
+  voix · 11.3 s → accélérée ×1.03 (11.0 s)
+  vidéo · 14 images analysées, texte incrusté sur 14
+  vidéo · temps forts : 7 passages (42s, 64s, 72s, 74s, 78s, 82s, 110s) sur 136 s
+  reel · 12.6 s · 8 plans dont 8 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgCSCjECTDh/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgCSHNqjYjs/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
+Gemini : gemini-flash-lite-latest : réponse en 6 s · gemini-flash-lite-latest : réponse en 6 s
