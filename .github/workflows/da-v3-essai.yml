@@ -39,19 +39,18 @@ jobs:
           pip install -r requirements.txt
           pip install --no-deps rapidocr-onnxruntime==1.2.3
           which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
-      - name: C'EST TOMBÉ · infos venues de X, vidéos virales comprises (ne publie rien)
+      - name: C'EST TOMBÉ · le Florida Joker dans GTA 6 (ne publie rien)
         continue-on-error: true
         env:
-          SOURCE: x
-          TEST_N: "2"
+          TEST_FILTRE: "Florida Joker"
         run: |
           mkdir -p sortie
           python main.py 2>&1 | grep -v onnxruntime | tee sortie/journal-cesttombe.txt
-      - name: C'EST TOMBÉ · une info d'article (ne publie rien)
+      - name: C'EST TOMBÉ · la fille en bikini du trailer retrouvée (ne publie rien)
         continue-on-error: true
         env:
           TEST_N: "1"
-          SOURCE: web
+          TEST_FILTRE: "Bikini"
         run: |
           python main.py 2>&1 | grep -v onnxruntime | tee sortie/journal-mission.txt
       - name: Rendus déposés sur la branche da-v3-rendus
