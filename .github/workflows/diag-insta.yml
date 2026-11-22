@@ -1,0 +1,70 @@
+name: Diagnostic Instagram (portée)
+
+on:
+  push:
+    branches: [diag-insta]
+
+permissions:
+  contents: read
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Portée des 2 comptes
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: |
+          python3 - <<'PY'
+          import os, time, requests, json
+          from datetime import datetime, timedelta, timezone
+          G = "https://graph.facebook.com/v25.0"
+          tok = os.environ["IG_ACCESS_TOKEN"]
+          def get(path, **p):
+              for _ in range(3):
+                  try:
+                      j = requests.get(f"{G}/{path}", params={**p, "access_token": tok}, timeout=40).json()
+                      return j
+                  except Exception:
+                      time.sleep(2)
+              return {}
+          for nom, uid in (("cesttombe", os.environ["IG_USER_ID"]), ("lebruit", "17841439323487258")):
+              info = get(uid, fields="username,followers_count,follows_count,media_count")
+              print("JSON", json.dumps({"compte": nom, "type": "info", **info}))
+              now = datetime.now(timezone.utc)
+              for k in range(16, -1, -1):
+                  d0 = (now - timedelta(days=k)).replace(hour=0, minute=0, second=0, microsecond=0)
+                  s, u = int(d0.timestamp()), int(min(d0 + timedelta(days=1), now).timestamp())
+                  if u <= s:
+                      continue
+                  rr = get(f"{uid}/insights", metric="reach", period="day", metric_type="total_value", breakdown="follow_type", since=s, until=u)
+                  vv = get(f"{uid}/insights", metric="views,accounts_engaged,total_interactions,follows_and_unfollows", period="day", metric_type="total_value", since=s, until=u)
+                  vals = {}
+                  for x in rr.get("data", []) + vv.get("data", []):
+                      tv = x.get("total_value", {})
+                      vals[x["name"]] = tv.get("value")
+                      for b in tv.get("breakdowns", []):
+                          for res in b.get("results", []):
+                              vals[f"{x['name']}_{'_'.join(res['dimension_values'])}"] = res["value"]
+                  print("JSON", json.dumps({"compte": nom, "type": "jour", "jour": f"{d0:%Y-%m-%d}", **vals}))
+              url, n = f"{uid}/media", 0
+              params = {"fields": "id,timestamp,media_product_type,media_type,like_count,comments_count,caption", "limit": 50}
+              while url and n < 250:
+                  med = get(url, **params) if not url.startswith("http") else requests.get(url, timeout=40).json()
+                  for m in med.get("data", []):
+                      metr = "reach,views,shares,saved,total_interactions" + (",ig_reels_avg_watch_time,ig_reels_video_view_total_time" if m.get("media_product_type") == "REELS" else "")
+                      ins = get(f"{m['id']}/insights", metric=metr)
+                      v = {x["name"]: x["values"][0]["value"] for x in ins.get("data", [])}
+                      if not v and "error" in ins and "REELS" == m.get("media_product_type"):
+                          ins = get(f"{m['id']}/insights", metric="reach,views,shares,saved,total_interactions")
+                          v = {x["name"]: x["values"][0]["value"] for x in ins.get("data", [])}
+                      print("JSON", json.dumps({"compte": nom, "type": "media", "ts": m["timestamp"], "produit": m.get("media_product_type"),
+                                                "likes": m.get("like_count", 0), "coms": m.get("comments_count", 0),
+                                                "legende": (m.get("caption") or "")[:60], **v}))
+                      n += 1
+                      time.sleep(0.1)
+                  url = (med.get("paging") or {}).get("next")
+                  params = {}
+          PY
