@@ -749,7 +749,14 @@
   "x:2123949024428560435": "2026-11-22T10:31:26.222757+00:00",
   "x:2123943978903175247": "2026-11-22T10:31:26.222757+00:00",
   "web:google news:CBMitwFBVV95cUxOZVJRd3FodWpJQUczR0xsM2o0Sjg2MnBVYy1iS1o2dy1UMENmdWNuUi1kdU5xSzNOQS1rdC12NWpnaW9XLWxPU1luQmRwazhiTUNtRkFnc3ZQTWg2YzFNSzdXdHpfVWRFZHd5Zi1JcXJNOThXRGdSMGhxQVpYZEh0cnNjelowbkFfUnk2OHBaSDhxVGZnNk5fZzQzdzFwMTltYmtlS01VNEMwRW1aZFRSQ1o4Zk1YNkU": "2026-11-22T10:31:26.222757+00:00",
-  "web:rockstar intel:https://rockstarintel.com/?p=44809": "2026-11-22T10:31:26.222757+00:00"
+  "web:rockstar intel:https://rockstarintel.com/?p=44809": "2026-11-22T10:31:26.222757+00:00",
+  "web:gamesradar:yg24694XFDPihA3HRgrxaL": "2026-11-22T11:31:58.682468+00:00",
+  "web:google news:CBMibkFVX3lxTE5tLTZPY2tPOXNfUkJNVzNMODRjblNhVktlb2V6VmVaTC1aZ3NOWE5paDMwbTNkc18wRUJUOHJVVHE3RWJmeVpvb2pnc3JTMjdVNlQyUWFLbVZ2MjQwbmtsN2JhT0xVQU9PSTA5MzBR": "2026-11-22T11:31:58.682468+00:00",
+  "web:google news:CBMiwwFBVV95cUxPZFVfaTZCVkVKaTdiYi1pSE5MdnY4M0lrd1BTYWdKU29RYWRDeVFBUFMtNFBUQ1JuTHBINUdJVFVUc3o0UmhWeWxYSXhZb2wxOEd1eUZzR1NrVGkwSHZFMk5DVzJZNk1tOVNMdmd3Rl9yMnpnMHlHazNxUmxqYWFZeGlXcjNMSlU4bUtfT29RbjBCT0NyV3ZlSmVjeERKaHdCc0xTWXZLNmxnXzRrM0hPcmR6QkFWQ01EYXk1Y2tsVGhVTkk": "2026-11-22T11:31:58.682468+00:00",
+  "web:google news:CBMimwFBVV95cUxPQ1FJYXFfeDl6d25RNkNLX2JYel95LXJEcGtjQlZHMUlkZVNWZVhNMnlxWnE3NVI3ZkxRY2dTSmgtcXdJUWJ0UWUyVHBuTUdJcFhDbENZdXFVbWFLV3U1ZTlKZjVnTGFpdkVzT2VaSVgwbkZkZTc1N1dhVi1FUXo4SkhhLUVRQk1sa0trZFkxazBya21aSUxZUmNCRQ": "2026-11-22T11:31:58.682468+00:00",
+  "web:google news:CBMifkFVX3lxTFB0UTFzMTRWa1pTc1hSYnZKbWU0X0VVSnI2bTZtdU1TVEFCeTlqYVJkR08zWmhpYTFIV1NDbUJWOVNKSXNfOTRlV1B0OGZLSGpKc1NHZWhVa2lQRzJ0SEJrdVpDRXZyakhybmxkNlhXN0ktLUpjcHV0NzBEc1NxZw": "2026-11-22T11:31:58.682468+00:00",
+  "web:gta boom:https://www.gtaboom.com/how-to-find-the-vercetti-estate-in-gta-6-a2d6": "2026-11-22T11:31:58.682468+00:00",
+  "web:google news:CBMi4AFBVV95cUxPZk8wTXpnaUFOM0NPOXR6VkNpa0xSZjk3a3VnOElzOExwOVRvSGppb3htelI5T2VxdXZnbVNUeDcxazAxRkhxX2w3aWxFaklHeDhRaTg0eWUzX19nbXFSeXBFRTNpY2ZOVU8zTXNSNXF2UnkxMk5TNTlHVXREbTItX0hEeTV4dllDdVFEOGZZendITl9XRmNCU05KanhsZ0YxQUFjZFZiS0FqSDFWV1VKSk5QM1I4TGhSMDNEUlZBR0F0NFJycmg3dXBTdEc1LW5QeHFiWHFoNDQ5VGpiUTRNYw": "2026-11-22T11:31:58.682468+00:00"
  },
  "publies": [
   {
@@ -1998,11 +2005,20 @@
    "lien": "https://www.instagram.com/p/DgCm4C-D70I/",
    "reel": "https://www.instagram.com/reel/DgCnA_gimy5/",
    "story": "17886513549527078"
+  },
+  {
+   "ts": "2026-11-22T11:31:58.682468+00:00",
+   "categorie": "GAMING",
+   "titre": "La Jordanie veut interdire GTA 6 pour les enfants",
+   "source_id": "web:google news:CBMi4AFBVV95cUxPZk8wTXpnaUFOM0NPOXR6VkNpa0xSZjk3a3VnOElzOExwOVRvSGppb3htelI5T2VxdXZnbVNUeDcxazAxRkhxX2w3aWxFaklHeDhRaTg0eWUzX19nbXFSeXBFRTNpY2ZOVU8zTXNSNXF2UnkxMk5TNTlHVXREbTItX0hEeTV4dllDdVFEOGZZendITl9XRmNCU05KanhsZ0YxQUFjZFZiS0FqSDFWV1VKSk5QM1I4TGhSMDNEUlZBR0F0NFJycmg3dXBTdEc1LW5QeHFiWHFoNDQ5VGpiUTRNYw",
+   "lien": "https://www.instagram.com/p/DgCttRvD0Ht/",
+   "reel": "https://www.instagram.com/reel/DgCtvazDZra/",
+   "story": "18116333192172033"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 4362
+  "tweets": 4407
  },
  "x_recherches": {
   "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-22T10:33:40.760856+00:00"
