@@ -1,0 +1,72 @@
+name: Diagnostic vidéos GTA (ne publie rien)
+
+on:
+  push:
+    branches: [diag-video]
+
+permissions:
+  contents: read
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+    steps:
+      - uses: actions/checkout@v6
+      - run: pip install -q requests && (which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg))
+      - name: X (Apify) — vidéos GTA 6 les plus vues
+        run: |
+          python3 - <<'PY'
+          import os, json, requests, subprocess, sys
+          sys.path.insert(0, ".")
+          import config
+          from bot.sources import _videos_tweet
+          tok = os.environ["APIFY_TOKEN"]
+          for q in ("GTA 6 mission filter:native_video min_faves:300 since:2026-11-18",
+                    "GTA VI gameplay filter:native_video min_faves:1000 since:2026-11-18"):
+              r = requests.post(f"https://api.apify.com/v2/acts/{config.APIFY_ACTEUR}/run-sync-get-dataset-items",
+                                params={"token": tok, "timeout": 120, "maxItems": 8},
+                                json={"twitterContent": q, "maxItems": 8, "queryType": "Top"}, timeout=180)
+              items = r.json() if r.status_code < 300 else []
+              print("XRECH", q, "→", r.status_code, len(items) if isinstance(items, list) else items)
+              for t in (items if isinstance(items, list) else [])[:8]:
+                  v = _videos_tweet(t)
+                  txt = (t.get("text") or t.get("full_text") or "")[:90].replace("\n", " ")
+                  print("XRECH  ", t.get("likeCount"), "likes ·", len(v), "vidéo(s) ·", txt)
+              for t in (items if isinstance(items, list) else []):
+                  v = _videos_tweet(t)
+                  if v:
+                      d = requests.get(v[0], timeout=60)
+                      open("/tmp/x.mp4", "wb").write(d.content)
+                      p = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration:stream=width,height", "-of", "csv=p=0", "/tmp/x.mp4"], capture_output=True, text=True)
+                      print("XRECH   téléchargement :", d.status_code, len(d.content) // 1000, "Ko ·", p.stdout.replace("\n", " "))
+                      break
+          PY
+      - name: Reddit depuis GitHub
+        run: |
+          python3 - <<'PY'
+          import requests
+          r = requests.get("https://www.reddit.com/r/GTA6/search.json", params={"q": "mission", "restrict_sr": 1, "sort": "top", "t": "week", "limit": 5},
+                           headers={"User-Agent": "cesttombe-bot/1.0 (actu)"}, timeout=30)
+          print("REDDIT", r.status_code, r.text[:150].replace("\n", " "))
+          PY
+      - name: Comptes Instagram GTA (vidéos accessibles)
+        run: |
+          python3 - <<'PY'
+          import os, requests
+          G, tok, ig = "https://graph.facebook.com/v25.0", os.environ["IG_ACCESS_TOKEN"], os.environ["IG_USER_ID"]
+          for u in ("rockstarintel", "gta6", "gtavi", "gta6news", "gtavinews", "gta6.news", "gta6updates", "gtaonline",
+                    "gta6_info", "gta6countdown", "gtavi.news", "gta6daily", "gtabase", "tezfunz2", "gamingbible", "ign", "dexerto"):
+              ch = f"business_discovery.username({u}){{username,followers_count,media.limit(12){{media_type,media_url,timestamp,caption}}}}"
+              j = requests.get(f"{G}/{ig}", params={"fields": ch, "access_token": tok}, timeout=30).json()
+              if "error" in j:
+                  print("IGGTA", u, "→ indisponible"); continue
+              bd = j["business_discovery"]; med = bd.get("media", {}).get("data", [])
+              v = [m for m in med if m.get("media_type") == "VIDEO"]
+              gta = [m for m in v if m.get("media_url") and "gta" in (m.get("caption") or "").lower()]
+              print("IGGTA", u, bd.get("followers_count"), "abonnés ·", len(v), "vidéos /", len(med), "· vidéos GTA téléchargeables :", len(gta))
+          PY
