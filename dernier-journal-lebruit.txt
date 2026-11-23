@@ -6,12 +6,9 @@ Instagram · posts publiés par l'API sur 24 h : 6 / 100
 Rap · @rap.minute → 12 posts lus
 Rap · @rapfractusofficiel → 12 posts lus
 Rap · @booska_p → 12 posts lus
-X · @RapFrActus → 1 tweets lus, 0 gardés (ce mois : 1115 / 9000)
-X · @FrenchRapUS → 1 tweets lus, 0 gardés (ce mois : 1116 / 9000)
-X · @Rapunchline → 1 tweets lus, 0 gardés (ce mois : 1117 / 9000)
-X · @SpotifyFrance → 1 tweets lus, 0 gardés (ce mois : 1118 / 9000)
-2 infos fraîches et jamais traitées (sur 36 lues)
-   0/10 ✗ pas une news « Michel Drucker écoute Huntrill en jouant à GTA 😂 »
-   0/10 ✗ pas une news « 😳💨 IShowSpeed claque un 10,35 secondes au 100 mètres sous les yeux d’U »
-RAP FR · 0 infos retenues
-Gemini : gemini-flash-lite-latest : réponse en 12 s
+X · @RapFrActus → 1 tweets lus, 0 gardés (ce mois : 1119 / 9000)
+X · @FrenchRapUS → 1 tweets lus, 0 gardés (ce mois : 1120 / 9000)
+X · @Rapunchline → 1 tweets lus, 0 gardés (ce mois : 1121 / 9000)
+X · @SpotifyFrance → 1 tweets lus, 0 gardés (ce mois : 1122 / 9000)
+0 infos fraîches et jamais traitées (sur 36 lues)
+RAP FR · aucune info fraîche
