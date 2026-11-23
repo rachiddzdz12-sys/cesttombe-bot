@@ -1,1 +1,17 @@
-Pas de post : hors horaires (10:01 à Paris)
+Mode : auto
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @le.bruit.rap (17 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 9 / 100
+Rap · @rap.minute → 12 posts lus
+Rap · @rapfractusofficiel → 12 posts lus
+Rap · @booska_p → 12 posts lus
+X · @RapFrActus → 1 tweets lus, 0 gardés (ce mois : 1111 / 9000)
+X · @FrenchRapUS → 1 tweets lus, 0 gardés (ce mois : 1112 / 9000)
+X · @Rapunchline → 1 tweets lus, 0 gardés (ce mois : 1113 / 9000)
+X · @SpotifyFrance → 1 tweets lus, 0 gardés (ce mois : 1114 / 9000)
+2 infos fraîches et jamais traitées (sur 36 lues)
+   3/10 ✗ pas une news « Et vous, c’est quoi votre classique de Niro ? 🎤 »
+   0/10 ✗ pas une news « 🎀 Chelsea B : crochet, boucles et culture »
+RAP FR · 0 infos retenues
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 1 s

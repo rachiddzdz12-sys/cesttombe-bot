@@ -2,7 +2,7 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (19 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 45 / 100
+Instagram · posts publiés par l'API sur 24 h : 48 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 100 infos
@@ -13,55 +13,55 @@ Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
-Web · GTABASE → 30 infos
-Web · GAMEKULT → 13 infos
-Web · IGN FRANCE → 20 infos
+Web · GTABASE → erreur : HTTPSConnectionPool(host='www.gtabase.com', port=443): Read timed out. (read timeout=25)
+Web · GAMEKULT → 12 infos
+Web · IGN FRANCE → 17 infos
 Web · JEUXVIDEO.COM → 13 infos
-Web · INSIDER GAMING → 7 infos
+Web · INSIDER GAMING → 5 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4690 / 10000)
-X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4691 / 10000)
+X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4695 / 10000)
+X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4696 / 10000)
+X · « ("GTA 6" OR "GTA VI") filter:native_vide » → 1 tweets lus, 0 gardés (ce mois : 4697 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-182 infos fraîches et jamais traitées (sur 475 lues)
-   6/10 ✓ « How Grand Theft Auto Measures Up Against James Bond »
-   7/10 ✓ « Quand GTA VI s'invite en plein milieu… du concert avec OrelSan ! »
-   8/10 ✓ « GTA VI: The Album is out now with Justice, Fred again.. and a Daft Pun »
-   6/10 ✗ déjà publiée « GTA 6 subit un review-bombing sur Metacritic pour deux raisons stupide »
-   6/10 ✗ déjà publiée « GTA 6 subit un review-bombing sur Metacritic pour deux raisons stupide »
-   7/10 ✓ « GTA 6 : Mandy cacherait un terrible secret, et les fans commencent à a »
-   0/10 ✗ pas une news « GTA 6: How to Identify Which Houses You Can Enter »
-   6/10 ✗ déjà publiée « GTA VI is being review bombed on Metacritic »
-   7/10 ✓ « GTA 6 à plus de 30 FPS sur Xbox Series X|S : comment activer ce glitch »
-   5/10 ✗ déjà publiée « GTA VI pulvérise tous les records : 3,79 milliards de dollars générés  »
-   8/10 ✓ « GTA 6 is missing two popular minigames – Rockstar explains why »
-   8/10 ✓ « Les scènes de sexe de GTA 6 ont représenté un gros défi pour Rockstar »
-   7/10 ✓ « 'GTA 6' players love its in-game memes »
-   0/10 ✗ pas une news « How to finish Pick Up Groceries in GTA 6: any 3 items will do »
-   7/10 ✗ déjà publiée « 'GTA 6' players love its in-game memes »
-   8/10 ✓ « Red Dead Redemption 3, le prochain Rockstar après GTA 6 ? Les indices  »
-   6/10 ✗ déjà publiée « Il joue à GTA VI par télépathie grâce à l’implant cérébral de Neuralin »
-   7/10 ✓ « Les sorties jeux vidéo de la semaine du 23 novembre (Appulse, Reshine… »
-   7/10 ✓ « GTA 6 apparaît sur Steam mais ce n’est pas ce que vous croyez »
-   7/10 ✓ « «On n’est pas dans GTA VI» : 280 professionnels blessés depuis le débu »
-GAMING · 12 infos retenues, meilleure : « GTA VI: The Album is out now with Justice, Fred again.. and a Daft Punk producti » (8/10)
-  article · weraveyou.com
-  article · 0 caractères lus
-  ⏭️ article illisible, info écartée : « GTA VI: The Album is out now with Justice, Fred again.. and  »
-  article · notebookcheck.net
-  article · 1579 caractères lus
-  photo · 1 image(s) : 2500x1875
+185 infos fraîches et jamais traitées (sur 439 lues)
+   6/10 ✓ « GTA 6's story seemingly confirms leak revealing Rockstar's next game »
+   8/10 ✓ « GTA 6 drew 61% of active US PS5 players on launch day, Circana says »
+   7/10 ✓ « The GTA 6 Jason Arrest Video Going Viral Is Real Footage »
+   6/10 ✓ « "On n'est pas dans GTA VI" : Geffray fustige une flambée de violence d »
+   7/10 ✓ « Scandale en Italie : des adolescents dégradent des bus puis en volent  »
+   0/10 ✗ pas une news « GTA 6 Get Lucia’s Clothes guide: picking up Andy’s bag at Manatee’s Re »
+   7/10 ✓ « Ces coins de la carte de GTA VI cachent l’arrivée du futur GTA Online »
+   6/10 ✓ « GTA 6 : les 61 codes de triche ne seront pas accessibles dès le début  »
+   5/10 ✓ « SoulCalibur Is Getting Review Bombed Thanks To GTA 6 And Ocarina Of Ti »
+   9/10 ✗ déjà publiée « Le jeu Grand Theft Auto VI devient le plus gros lancement de l'histoir »
+   7/10 ✓ « Lana Del Rey celebrates ‘GTA 6’ launch with Miami tour and Vice City B »
+   9/10 ✗ déjà publiée « GTA VI pulvérise les records d’audience sur Twitch avec plus de 3,3 mi »
+   7/10 ✓ « GTA 6 : envoyer des photos de personnes nues à vos amis sur PS5 pourra »
+   6/10 ✓ « Les réactions des joueurs NBA à la sortie de GTA VI »
+   6/10 ✓ « Durov deems GTA 6 less realistic as crime gangs don’t use Telegram »
+   5/10 ✓ « Le chiffre con de la semaine. GTA VI, le bon filon marketting… et poli »
+   7/10 ✓ « Naughty Dog Dev: GTA 6 Appears to Him ‘as a Bugatti Veyron Would to a  »
+   0/10 ✗ pas une news « This Is the One Thing I’ll Never Do Again in GTA 6 »
+   7/10 ✓ « Elle vole un avion de chasse dans GTA 6 par la pensée sans jamais touc »
+   6/10 ✓ « Cardi B celebrates the release of Grand Theft Auto VI with a $3 millio »
+   5/10 ✗ trop faible (mini 9) « Après Persona 6, vous n’aurez pas à attendre autant d’années avant le  »
+   3/10 ✗ trop faible (mini 9) « Toujours en accès anticipé, 1666: Amsterdam aura droit à sa première m »
+   3/10 ✗ trop faible (mini 9) « Nioh 3 devrait ressortir dans une édition plus complète, qui vient d’ê »
+GAMING · 16 infos retenues, meilleure : « GTA 6 drew 61% of active US PS5 players on launch day, Circana says » (8/10)
+  article · mixed-news.com
+  article · 2580 caractères lus
+  photo · 1 image(s) : 3840x2160
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · recherche X « GTA 6 darts bowling gameplay » : rien qui montre vraiment le sujet
-  vidéo · recherche X « darts bowling » : rien qui montre vraiment le sujet
+  vidéo · recherche X « GTA 6 PS5 gameplay launch day » : rien qui montre vraiment le sujet
+  vidéo · recherche X « PS5 launch » : rien qui montre vraiment le sujet
   vidéo · recherche X « GTA 6 gameplay » : rien qui montre vraiment le sujet
-  couverture · photo1 · zoom 1.6 · propre
-  carrousel prêt : « Pourquoi GTA 6 oublie les fléchettes et le bowling » (4 slides)
-  voix · contrôle OK (95%, essai 1, gemini-3.1-flash-tts-preview)
-  voix · Gemini (Aoede) (6.4 s)
-  reel · 8.1 s · 5 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgFBCoCkads/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgFBFEECswF/
-  ⚠️ story en vidéo refusée : Instagram a refusé le média (ERROR)
-  ✅ STORY PUBLIÉE (image)
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
+  couverture · photo1 · zoom 1.0 · PAS PROPRE
+  carrousel prêt : « GTA 6 a attiré 61 pour cent des joueurs PS5 aux États-Unis » (4 slides)
+  voix · contrôle OK (96%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (9.5 s)
+  reel · 11.1 s · 7 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgFH-3FESCj/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgFIBBNjZfZ/
+  ✅ STORY PUBLIÉE (vidéo)
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse illisible (JSONDecodeError) · gemini-flash-lite-latest : réponse en 2 s
