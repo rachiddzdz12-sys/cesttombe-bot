@@ -5,8 +5,8 @@ Instagram · @cesttombe.actu (19 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 39 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → 96 infos
-Web · GOOGLE NEWS → 102 infos
+Web · GOOGLE ACTU → 95 infos
+Web · GOOGLE NEWS → 100 infos
 Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 11 infos
 Web · ROCKSTAR INTEL → 10 infos
@@ -17,50 +17,54 @@ Web · GTABASE → 30 infos
 Web · GAMEKULT → 11 infos
 Web · IGN FRANCE → 16 infos
 Web · JEUXVIDEO.COM → 17 infos
-Web · INSIDER GAMING → 7 infos
+Web · INSIDER GAMING → 6 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4746 / 10000)
-X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4747 / 10000)
+X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4751 / 10000)
+X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4752 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-292 infos fraîches et jamais traitées (sur 470 lues)
-   0/10 ✗ pas une news « How to Get a Key Cloner in GTA 6—Stealing Expensive Cars, Explained »
+286 infos fraîches et jamais traitées (sur 466 lues)
+   7/10 ✗ déjà publiée « Grand Theft Auto VI sets record for Comcast internet traffic »
+   2/10 ✗ pas une news « All Mini-Golf Course Locations in GTA 6 »
+   8/10 ✓ « Quatre jours après sa sortie, GTA 6 répare enfin ses averses et ses ap »
+   7/10 ✓ « All the ‘GTA 6’ Movie and TV References: From ‘Jaws’ to ‘Die Hard,’ Ro »
+   6/10 ✓ « Vroom at the Top: GTA VI Revs Its Engine »
+   4/10 ✗ trop faible (mini 5) « The Fort Lauderdale Tattoo Studio That Shares its Name with GTA 6’s Hy »
+   3/10 ✗ pas une news « Every Playable Video Game in GTA 6, Ranked Worst to Best »
+   6/10 ✓ « This GTA 6 Glitch (Almost) Ruined The Game’s Most Iconic Scene »
+   4/10 ✗ pas une news « GTA 6 : une récompense gratuite est à récupérer sur Twitch, voici comm »
+   3/10 ✗ pas une news « GTA 6's Criminal Profiles Explained »
+   8/10 ✓ « See the Biggest Stars Who Made Cameos in ‘GTA 6’ »
+   1/10 ✗ pas une news « Armes dans GTA 6 : comment les acheter, les débloquer et ne plus les p »
+   2/10 ✗ pas une news « GTA 6 Biker Hideout Robbery: Safe Code and Where to Find the Gun and B »
+   7/10 ✓ « GTA 6 Includes A Mario And Luigi Easter Egg »
+   6/10 ✓ « GTA 6 Player Gets Social Ban On PSN After Sending A Photo Of In-Game N »
+   8/10 ✗ déjà publiée « How GTA 6 made $3.79 billion on launch day »
+   7/10 ✓ « "On ne joue pas à GTA 6 pour acheter des fleurs, faire des courses et  »
+   8/10 ✗ déjà publiée « ‘Grand Theft Auto VI’ sets record with $3.79B in first-day retail sale »
    6/10 ✓ « A Cyberpunk 2 Director Joked His Game Was Cancelled After Seeing GTA 6 »
-   5/10 ✓ « How a Surprise D’Angelo Song Landed in GTA VI »
-   7/10 ✓ « GTA 6 Online Could Be Bigger Than Fortnite, Bank Of America Stock Anal »
-   4/10 ✗ trop faible (mini 5) « Tampa Spots We’re Shocked Didn’t Make it into GTA 6 »
-   0/10 ✗ pas une news « GTA 6 Chapter 3 Mission List – Every Mission in GTA 6 Chapter 3 in Ord »
-   3/10 ✗ déjà publiée « Fact Check Team: GTA VI generates $3.79 billion in first-day sales »
-   0/10 ✗ pas une news « Voiture DWNPLY GTA 6 : emplacement et revente à 22 000 $ (Downplay) »
-   0/10 ✗ pas une news « Where to Find Arthur Morgan's Hat in GTA 6 »
-   0/10 ✗ pas une news « GTA 6 Alien Encounter Walkthrough for All 3 Parts »
-   0/10 ✗ pas une news « GTA 6 Chapter 2 Mission List – Every Mission in GTA 6 Chapter 2 in Ord »
-   6/10 ✗ déjà publiée « Sur Xbox, GTA VI atteint 60 FPS grâce à un bug, mais le jeu tourne aus »
-   7/10 ✗ déjà publiée « GTA VI : 7 ans de prison pour le hacker à l'origine des fuites »
-   0/10 ✗ pas une news « GTA 6 Chapter 1 Mission List – Every Mission in GTA 6 Chapter 1 in Ord »
-   0/10 ✗ pas une news « Easy Method for Randy’s Supercars in GTA 6—How To Beat Advanced Tracke »
-   7/10 ✗ déjà publiée « L'homme à l'origine des fuites de vidéos de GTA VI condamné à sept ans »
-   6/10 ✓ « D’Angelo’s Estate Releases Posthumous Song ‘Kamikazi’ for ‘GTA 6’: Sin »
-   7/10 ✓ « GTA 6 Players Are Learning the Hard Way Not to Steal Teslas »
-   6/10 ✓ « Gary Plauche, who killed his son's kidnapper, spotted in 'GTA VI' airp »
-   0/10 ✗ pas une news « 10 Hacks Every 'GTA 6' Player Should Know »
-GAMING · 6 infos retenues, meilleure : « GTA 6 Online Could Be Bigger Than Fortnite, Bank Of America Stock Analyst Says » (7/10)
-  article · gamespot.com
+   8/10 ✗ déjà publiée « Analyst: GTA 6 made $4 billion opening weekend with 45 million copies  »
+   2/10 ✗ pas une news « Where to Find the Self-Aware NPC's Garage With the Meteorite & Purple  »
+GAMING · 9 infos retenues, meilleure : « Quatre jours après sa sortie, GTA 6 répare enfin ses averses et ses appels manqu » (8/10)
+  article · pausehardware.com
+  article · illisible : ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+  ⏭️ article illisible, info écartée : « Quatre jours après sa sortie, GTA 6 répare enfin ses averses »
+  article · people.com
   article · 0 caractères lus
-  ⏭️ article illisible, info écartée : « GTA 6 Online Could Be Bigger Than Fortnite, Bank Of America  »
-  article · consequence.net
-  article · 921 caractères lus
-  photo · 1 image(s) : 1200x675
+  ⏭️ article illisible, info écartée : « See the Biggest Stars Who Made Cameos in ‘GTA 6’ »
+  article · variety.com
+  article · 3308 caractères lus
+  photo · 1 image(s) : 1000x563
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · recherche X « GTA 6 Tesla steal » : rien qui montre vraiment le sujet
-  vidéo · recherche X « Tesla steal » : rien qui montre vraiment le sujet
+  vidéo · recherche X « GTA 6 Pulp Fiction reference Jason Lucia » : rien qui montre vraiment le sujet
+  vidéo · recherche X « Pulp Fiction » : rien qui montre vraiment le sujet
   vidéo · recherche X « GTA 6 gameplay » : rien qui montre vraiment le sujet
   couverture · photo1 · zoom 1.0 · propre
-  carrousel prêt : « Les joueurs de GTA 6 ne peuvent plus voler de Tesla » (4 slides)
-  voix · contrôle OK (99%, essai 1, gemini-3.1-flash-tts-preview)
-  voix · Gemini (Aoede) (9.6 s)
-  reel · 11.2 s · 7 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgGQ1-JF8p8/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgGQ310FCE_/
+  carrousel prêt : « Les références au cinéma cachées dans GTA 6 » (5 slides)
+  voix · contrôle OK (97%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (8.0 s)
+  reel · 9.6 s · 6 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgGW5xKEgvc/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgGW7EjFBt6/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : quota atteint (HTTP 429), réessai conseillé dans 40794 s · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : réponse en 4 s · gemini-3.5-flash-lite : réponse en 2 s
+Gemini : gemini-flash-lite-latest : réponse en 9 s · gemini-flash-lite-latest : réponse en 4 s · texte sans accents ou sans apostrophes : réécriture demandée · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : quota atteint (HTTP 429), réessai conseillé dans 37647 s · gemini-3-flash-preview : réponse en 16 s
