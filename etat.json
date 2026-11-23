@@ -1,13 +1,5 @@
 {
  "vus": {
-  "ag:https://www.actugaming.net/?p=832835": "2026-11-09T12:38:21.680051+00:00",
-  "ag:https://www.actugaming.net/?p=832823": "2026-11-09T12:38:21.680051+00:00",
-  "ig:18180538486386328": "2026-11-09T12:41:00.559208+00:00",
-  "ig:18136214197738458": "2026-11-09T12:41:00.559208+00:00",
-  "ag:https://www.actugaming.net/?p=832830": "2026-11-09T12:47:31.862996+00:00",
-  "ag:https://www.actugaming.net/?p=832827": "2026-11-09T12:50:08.124277+00:00",
-  "ag:https://www.actugaming.net/?p=832850": "2026-11-09T12:50:08.124277+00:00",
-  "ag:https://www.actugaming.net/?p=832836": "2026-11-09T12:53:18.313050+00:00",
   "ag:https://www.actugaming.net/?p=832844": "2026-11-10T08:01:35.991078+00:00",
   "ag:https://www.actugaming.net/?p=832976": "2026-11-10T08:01:35.991078+00:00",
   "ag:https://www.actugaming.net/?p=832973": "2026-11-10T08:01:35.991078+00:00",
@@ -876,7 +868,12 @@
   "web:google actu:CBMi7wFBVV95cUxOWFpWcDJnbmRsLTQ1SVZwN1lha0FJQ2FET25NaHdiM0JUNE1OcWN3a0hoRkEtS2EyQ3BZdzdUSklLMmIwSWFDb2tiNXNYMDNHNDk1QXRfNElvQ3p0UDhXSGVFRGlxTEJpTGtLclBpT1BMRmp6REZrT2FMSkJxdFZzd2ZQZ1FNZkZRa3NNZkR3bmdaTkZTZ2VWQnIwTXpGcmpBS3ZVOTE4Yl9abzhrLXZhSG9wTk54Z3JGSTJwUmFLc0dnaGhyN1hLeHJsQ1ZjYXREaWE2REp3NFRxTDhZenlRdGp3SlRFNjZ4OE5nUDk1cw": "2026-11-23T12:01:55.796811+00:00",
   "web:ign france:https://fr.ign.com/the-hunger-games-sunrise-on-the-reaping/94186/hunger-games-lever-de-soleil-sur-la-moisson-fait-de-lombre-a-gta-6-avec-un-week-end-de-lancement-a-2": "2026-11-23T12:01:55.796811+00:00",
   "web:google actu:CBMilgFBVV95cUxNZklPUEEzcjMxUXZISmtDTXBzSjVFSnYyV2Z3RW1mdmI2V3gzR0VMWGhXb1QxMlZoVklsQ1hRWHBMc2FHcFVqSlpfZ0oyb05sXzJhZmJxZmUwbVRmNHhPb2VVQlhtSjNteGdlR1BJWnZXMHRTMjVEUVFtOHhmbmVZWmtjSk9OWlhid0tLUHByYkVRbU1GX3c": "2026-11-23T12:01:55.796811+00:00",
-  "web:google actu:CBMi4wFBVV95cUxPQl9DRDRYQVdPYzhrU2RsaTVGYmMzUmVZXzVXbEdpeURkdWhLUFdJVVFmSWtvLTJUV1lmN0JkOG44VFhNdXBWQUtjaWV4a2MwVGlXRVkwUFZjdkx2bFQ1b2Rib1JqcmlNbXdaU3NGZW9GN1lXVkI5aXFTSGVxV0FIdldHeXVlSm96UlFZMkFWMGFvUjdBc25OcWl6dmRzdmt6MmxuWXdZbkphWVlzZjFaYWdMTC1paFRVTDBUUk8yeERTY2RYeGVieWN1d3RmNE1NZlpDRC1aNTJNMFdRRGd0bXZGNA": "2026-11-23T12:01:55.796811+00:00"
+  "web:google actu:CBMi4wFBVV95cUxPQl9DRDRYQVdPYzhrU2RsaTVGYmMzUmVZXzVXbEdpeURkdWhLUFdJVVFmSWtvLTJUV1lmN0JkOG44VFhNdXBWQUtjaWV4a2MwVGlXRVkwUFZjdkx2bFQ1b2Rib1JqcmlNbXdaU3NGZW9GN1lXVkI5aXFTSGVxV0FIdldHeXVlSm96UlFZMkFWMGFvUjdBc25OcWl6dmRzdmt6MmxuWXdZbkphWVlzZjFaYWdMTC1paFRVTDBUUk8yeERTY2RYeGVieWN1d3RmNE1NZlpDRC1aNTJNMFdRRGd0bXZGNA": "2026-11-23T12:01:55.796811+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=240541": "2026-11-23T13:01:48.784154+00:00",
+  "web:google actu:CBMiwgFBVV95cUxOdlh1cXhFWV9UWWJFMzJ2bWZLd25PZXdWNEdVSDFtZFVNaGI5U2kzTlUzcjFsdU40S09keHZfbURDZTN2NW52VVFLQ0otckRLWmZHb1NKQ1BjdnY3WkZWZUZoYVZFTEM1dWRBM1FBRlUtSDJaZU9sb0RsbzVuWUhkUHF2UFdmdmRUWjJ2TFphRW9tTy1UanF0dWg4YVRXLUxPa1FHU1lYdlQ3T1JqV0l0RkVTcGRPRVFlc3paaEctN3JDZw": "2026-11-23T13:01:48.784154+00:00",
+  "web:google actu:CBMirwFBVV95cUxNVGxPcHJVb2I3ZWQ2cm9jT1I1SEN3YU1paHZ2NjdaemZXS1F3TE4yeUlWZkFFMXh1dmNYQUVkRkxkelUtbFVwNzJKeDVBaEJCOURTaFlwUWZxMEpUUG5faUNVMUxKVEFJQzR5QVRYaHhMSVdVaWFkNUJITnJFbFJUWjA2TC1HbkZxLTUxbnFETnFMenBCdzdLd2ROZlVFd1lab3BoSVk1MnMtSlhKVGJv": "2026-11-23T13:01:48.784154+00:00",
+  "web:google actu:CBMilwFBVV95cUxOUDJKTUoxaE1CTVNMcU5ORVMtdTJSTFN2SFNIUDZJSWd4Q1A4MUtUZ1ZzZUtMYkVPUHhFZXhOLTJRTjdjQ2tQT3lZUFRuUUFnS3RFU0VGTWprTWZYSUxwQXE4dHJ6X0IzZHVUWkxnTlp3TUdoZU1HRHAzOXN5UUVyRzlNZGIwcHI3eFV2bGl0LVcwQUh5LTdJ": "2026-11-23T13:01:48.784154+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=240533": "2026-11-23T13:01:48.784154+00:00"
  },
  "publies": [
   {
@@ -2287,11 +2284,20 @@
    "lien": "https://www.instagram.com/p/DgFVqCSJcyT/",
    "reel": "https://www.instagram.com/reel/DgFVrwfEkEw/",
    "story": "18400615348206938"
+  },
+  {
+   "ts": "2026-11-23T13:01:48.784154+00:00",
+   "categorie": "GAMING",
+   "titre": "GTA 6 réalise quarante-cinq millions de ventes",
+   "source_id": "web:insider gaming:https://insider-gaming.com/?p=240533",
+   "lien": "https://www.instagram.com/p/DgFcgU8H8va/",
+   "reel": "https://www.instagram.com/reel/DgFcivaCcXf/",
+   "story": "18134199562706263"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 4710
+  "tweets": 4713
  },
  "x_recherches": {
   "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-23T10:02:54.098735+00:00"
