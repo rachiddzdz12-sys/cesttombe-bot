@@ -7,60 +7,58 @@ Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 102 infos
 Web · GOOGLE NEWS → 100 infos
-Web · BING ACTU → 11 infos
+Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 10 infos
-Web · ROCKSTAR INTEL → 10 infos
+Web · ROCKSTAR INTEL → HTTP 500
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
-Web · GAMEKULT → 12 infos
+Web · GAMEKULT → 11 infos
 Web · IGN FRANCE → 18 infos
 Web · JEUXVIDEO.COM → 14 infos
-Web · INSIDER GAMING → 6 infos
+Web · INSIDER GAMING → 7 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4714 / 10000)
-X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4715 / 10000)
-X · « ("GTA 6" OR "GTA VI") filter:native_vide » → 1 tweets lus, 0 gardés (ce mois : 4716 / 10000)
+X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4720 / 10000)
+X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4721 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-250 infos fraîches et jamais traitées (sur 471 lues)
-   6/10 ✓ « GTA 6 After Launch Weekend: Is It as Good as Players Expected? »
-   1/10 ✗ pas une news « Vous avez GTA 6 ? Vous allez le kiffer un max sur cette TV OLED Samsun »
-   5/10 ✓ « GTA 6 gets a 603MB PS5 update, but Rockstar has not explained what it  »
-   3/10 ✗ pas une news « GTA 6 sur PC en 60 FPS : voici la config à viser, en tour PC comme en  »
-   4/10 ✗ trop faible (mini 5) « GTA 6 : les achats dans les jeux mobiles chutent de 36,6 % en France »
-   5/10 ✓ « Ce week-end, Vice City a été visitée 400 fois plus que Paris »
-   7/10 ✗ déjà publiée « GTA 6 en serait à 45 millions d'exemplaires vendus, dont 75 % sur PS5, »
-   7/10 ✗ déjà publiée « GTA 6 en serait à 45 millions d'exemplaires vendus, dont 75 % sur PS5, »
-   6/10 ✓ « On a presque tout dit sur « GTA 6 », mais le jeu est-il vraiment bon ? »
-   6/10 ✗ déjà publiée « ‘GTA VI’ success causes spike in flight searches to Miami »
-   7/10 ✗ déjà publiée « Plus fort que Netflix et YouTube réunis : l’impact affolant de GTA 6 s »
-   8/10 ✗ déjà publiée « Grand Theft Auto VI posted $3.79 billion in day-one sales, an entertai »
-   4/10 ✗ pas une news « Best Funny GTA 6 Clips—Glitches, NPC Encounters, and Accidents »
-   0/10 ✗ pas une news « Ocelot Jugular GTA 6 : Où trouver cette voiture pour Randy ? »
-   8/10 ✗ déjà publiée « GTA 6 se serait vendu à 44,9 millions d’exemplaires en quatre jours, s »
-   7/10 ✓ « GTA 6 Motion Capture Actor Has No Idea Who He Is in the Game, Sparks S »
-   5/10 ✓ « Enthousiasmé par GTA VI, Wedbush relève sa cible sur Take-Two »
-   7/10 ✗ déjà publiée « GTA 6 : pourquoi Rockstar a supprimé des mini-jeux pourtant présents d »
-   6/10 ✓ « Sony et Microsoft bloquent l'accès public à GTA 6 et exigent 70 dollar »
-   6/10 ✗ déjà publiée « Sony and Microsoft are blocking public access to GTA 6 and demanding $ »
-GAMING · 7 infos retenues, meilleure : « GTA 6 Motion Capture Actor Has No Idea Who He Is in the Game, Sparks Social Medi » (7/10)
-  article · ign.com
-  article · 2599 caractères lus
-  photo · échec : image trop petite (508x287)
-  photo · aucune image
-  visuels · steam « Grand Theft Auto VI » → 3 image(s)
-  visuels · commons_personne « Guy A. Fortt » → 0 image(s)
-  vidéo · recherche X « Guy A. Fortt GTA 6 Instagram » : rien qui montre vraiment le sujet
-  vidéo · recherche X « Guy A. » : rien qui montre vraiment le sujet
+248 infos fraîches et jamais traitées (sur 462 lues)
+   2/10 ✗ pas une news « Tout ce que nous savons sur la sortie très attendue de GTA 6 sur PC »
+   7/10 ✓ « ‘It’s Not Just a Song on the Radio’: How Music Became A Main Character »
+   6/10 ✓ « Rockstar’s mobile downloads more than quadrupled thanks to GTA VI »
+   8/10 ✗ déjà publiée « (UPD) Update 01.002.002 for GTA VI is currenty being rolled out »
+   5/10 ✓ « New Hunger Games Movie Blows Past Expectations After Some Feared GTA 6 »
+   8/10 ✗ déjà publiée « GTA 6 Update 01.002.002—Patch Notes & Download Size »
+   8/10 ✗ déjà publiée « GTA 6 Update Now Live On Xbox Series X|S, Includes Seven Official Fixe »
+   9/10 ✓ « GTA 6 fait un carnage : Call of Duty, Fortnite et EA FC 27 perdent des »
+   8/10 ✗ déjà publiée « GTA 6 vient de sortir son premier patch, qu’est ce qu’il change ? »
+   8/10 ✓ « Deluxe 'Grand Theft Auto VI' Album Adds 23 Tracks: Listen »
+   2/10 ✗ pas une news « Lescar : des streams, une vraie princesse et un DJ international… Ils  »
+   8/10 ✗ déjà publiée « GTA 6's First Official Post-Release Update Has A Catch »
+   7/10 ✗ déjà publiée « Un bug permet de jouer à GTA 6 à 60 fps (mais ne testez pas) »
+   7/10 ✓ « GTA 6 goth girl Vicki already has thirsty fans forgetting about possib »
+   4/10 ✗ pas une news « I benched my gaming PC for Grand Theft Auto 6 on Xbox Series S. Here's »
+   8/10 ✗ déjà publiée « Rockstar Releases Deluxe Edition of Grand Theft Auto VI: The Album »
+   8/10 ✗ déjà publiée « GTA 6 Update Now Live On Xbox Series X|S, Players Share Their First Im »
+   6/10 ✓ « Clearing Up False Info About The ‘GTA 6’ Criminal Profile System »
+   8/10 ✗ déjà publiée « GTA 6 : la première mise à jour est disponible, tous les détails »
+   5/10 ✗ pas une news « Pourquoi GTA 6 est meilleur sur PS5, et pourquoi ce n'est pas une ques »
+GAMING · 7 infos retenues, meilleure : « GTA 6 fait un carnage : Call of Duty, Fortnite et EA FC 27 perdent des millions  » (9/10)
+  article · tomshardware.fr
+  article · 2399 caractères lus
+  photo · 1 image(s) : 2048x1152
+  contexte · 1 complément(s) : GAMEKULT
+  visuels · steam « Grand Theft Auto VI » → 4 image(s)
+  vidéo · recherche « GTA 6 official trailer 1 » trop vague : pas de vidéo
   vidéo · recherche X « GTA 6 gameplay » : rien qui montre vraiment le sujet
-  couverture · photo3 · zoom 1.8 · propre
-  carrousel prêt : « Un acteur de GTA 6 cherche son propre personnage » (4 slides)
-  voix · contrôle OK (96%, essai 1, gemini-3.1-flash-tts-preview)
-  voix · Gemini (Aoede) (8.4 s)
-  reel · 10.0 s · 6 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgFj4yiF5Mg/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgFj7xgmIbX/
+  couverture · photo1 · zoom 1.6 · propre
+  carrousel prêt : « GTA 6 vend 44,9 millions de copies en un week-end » (5 slides)
+  voix · ⚠️ refaite, mots en trop (121%) : « Bon, écoute ça les changements absolus. GTA VI a vendu 44,9 millions de copies. Le jeu génère 4 milliards de dollars et vide les serveurs de Fortnite. Tu fais p »
+  voix · contrôle OK (99%, essai 2, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (10.1 s)
+  reel · 11.8 s · 7 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgFqxrqF0DS/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgFqz1aCrFQ/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : réponse en 2 s · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3-flash-preview : réponse en 14 s
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3-flash-preview : réponse en 23 s · gemini-3-flash-preview : ReadTimeout après 60 s · gemini-3-flash-preview : réponse en 16 s
