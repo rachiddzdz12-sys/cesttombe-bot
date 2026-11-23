@@ -1,12 +1,12 @@
 Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
-Instagram · @cesttombe.actu (18 abonnés)
+Instagram · @cesttombe.actu (19 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 45 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 100 infos
-Web · GOOGLE NEWS → 100 infos
+Web · GOOGLE NEWS → HTTP 429
 Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
@@ -16,51 +16,49 @@ Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
 Web · GAMEKULT → 14 infos
 Web · IGN FRANCE → 20 infos
-Web · JEUXVIDEO.COM → 12 infos
+Web · JEUXVIDEO.COM → 13 infos
 Web · INSIDER GAMING → 7 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4666 / 10000)
-X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4667 / 10000)
+X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4671 / 10000)
+X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4672 / 10000)
+X · « ("GTA 6" OR "GTA VI") filter:native_vide » → 1 tweets lus, 0 gardés (ce mois : 4673 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-205 infos fraîches et jamais traitées (sur 475 lues)
-   7/10 ✓ « 'It's Better Not to Do It Than to Do It and Have It Not Be Good Enough »
-   5/10 ✓ « GTA 6's T-shirts Are True Works of Art »
-   0/10 ✗ pas une news « How To Get A Six-Star Wanted Level In GTA 6 »
-   8/10 ✓ « GTA 6 reviews are a near-perfect 99 out of 100 on Metacritic »
-   0/10 ✗ pas une news « How to Unlock Vanessa's Free Garage and Get Her Pink Growler in GTA 6 »
-   7/10 ✓ « GTA 6 needed a dedicated team to make sure all its different body type »
-   0/10 ✗ pas une news « GTA 6 Buck’s Pawn Shop Walkthrough With Gold Card Location and Escape  »
-   0/10 ✗ pas une news « GTA 6 Trust Halifax or Not? All Outcomes and Missable Rewards »
-   7/10 ✓ « Le récap tech de la semaine : GTA 6 explose les records, la cybermenac »
-   0/10 ✗ pas une news « Cloneur de Clé GTA 6 : Comment débloquer le meilleur outil de vol de v »
-   9/10 ✗ déjà publiée « 'Grand Theft Auto VI' sets record with $3.79B in first-day retail sale »
-   0/10 ✗ pas une news « Bye Bye Don (Revolver de Donnie) | Soluce GTA 6 »
-   0/10 ✗ pas une news « Permission de sortie (yacht de Mattia) | Soluce GTA 6 »
-   5/10 ✓ « A resurgent ‘Hunger Games’ goes big at the box office, despite competi »
-   6/10 ✓ « Du padel dans GTA VI ? Une vidéo fait le buzz sur Instagram »
-   6/10 ✗ déjà publiée « How Metacritic Tried — and Failed — to Stop ‘GTA 6’ Review Bombing »
-   0/10 ✗ pas une news « 5 GTA 6 Driving Tips And Tricks To Make Getting Around Easier »
-   8/10 ✓ « 'GTA 6' Bombshell: Husband Melts Down After Wife Hid Her Role In Game  »
-   6/10 ✓ « How Grand Theft Auto Measures Up Against James Bond »
-   8/10 ✓ « Mode multijoueur de GTA 6 : quand arrivera le nouveau GTA Online ? »
-GAMING · 10 infos retenues, meilleure : « GTA 6 reviews are a near-perfect 99 out of 100 on Metacritic » (8/10)
-  article · cbsnews.com
-  article · 0 caractères lus
-  ⏭️ article illisible, info écartée : « GTA 6 reviews are a near-perfect 99 out of 100 on Metacritic »
-  article · polygon.com
-  article · 2592 caractères lus
+119 infos fraîches et jamais traitées (sur 376 lues)
+   3/10 ✗ pas une news « GTA 6 Strip Clubs: Locations, Prices and Private Dances »
+   4/10 ✗ pas une news « Avec la sortie de GTA 6, la PS5 se fait rare : sauf sur Amazon ce lund »
+   7/10 ✓ « GTA 6 : Lamborghini, Ferrari, Porsche… voici les vraies voitures qui s »
+   6/10 ✓ « Hameçonnage, virus : les arnaques derrière la sortie de GTA VI »
+   5/10 ✓ « La version PC non officielle de GTA 6 nécessitera un Ryzen 5 5600X et  »
+   0/10 ✗ pas une news « 2,3 milliards US en précommandes pour GTA VI »
+   2/10 ✗ pas une news « How to Get the Crabshack VF5 SMG for Free in GTA 6 »
+   2/10 ✗ pas une news « GTA 6 Safe, Door and Garage Codes and Where to Find the Clues »
+   8/10 ✓ « Restaurant owners left in tears after discovering their family busines »
+   6/10 ✓ « "GTA VI" et ses stations cultes, un modèle dont les radios françaises  »
+   1/10 ✗ pas une news « Le guide complet de GTA 6 : soluce, astuces et infos vérifiées »
+   3/10 ✗ pas une news « GTA 6 Sur Ps5/Series Gears Sur Series et Zelda sur Switch 2 »
+   6/10 ✓ « Des experts ont démenti les rumeurs concernant un taux de rafraîchisse »
+   4/10 ✗ pas une news « Voiture Fast & Furious GTA 6 : où trouver la Mitsubishi Eclipse de Pau »
+   4/10 ✗ pas une news « Voiture Fast & Furious GTA 6 : où trouver la Mitsubishi Eclipse de Pau »
+   5/10 ✓ « Rockstar affirme avoir retiré les fléchettes de GTA 6, faute de moyens »
+   1/10 ✗ pas une news « Sortie d'hôpital (Fin du Chapitre 1) | Soluce GTA 6 »
+   8/10 ✓ « iShowSpeed Rushed GTA 6 and Got a Bad Ending »
+   5/10 ✗ pas une news « GTA 6 : tous les codes de triche sur PS5 et Xbox, et comment les déblo »
+   5/10 ✗ pas une news « GTA 6 a enfin révélé qui est la mystérieuse fille du tout premier trai »
+GAMING · 8 infos retenues, meilleure : « Restaurant owners left in tears after discovering their family business in GTA 6 » (8/10)
+  article · 1493 caractères lus
   photo · 1 image(s) : 1600x900
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · recherche X « Amber Wallin GTA 6 » : rien qui montre vraiment le sujet
-  vidéo · recherche X « Amber Wallin » : rien qui montre vraiment le sujet
+  vidéo · recherche X « GTA 6 restaurant Oscars » : rien qui montre vraiment le sujet
+  vidéo · recherche X « restaurant Oscars » : rien qui montre vraiment le sujet
   vidéo · recherche X « GTA 6 gameplay » : rien qui montre vraiment le sujet
-  couverture · photo1 · zoom 1.6 · propre
-  carrousel prêt : « Amber Wallin cache son rôle dans GTA 6 pendant 2 ans » (4 slides)
-  voix · contrôle OK (98%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (5.8 s)
-  reel · 7.4 s · 5 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgDtGdnlyeH/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgDtIrGkoDJ/
+  couverture · photo1 · zoom 1.12 · PAS PROPRE
+  carrousel prêt : « Un restaurant familial recréé par surprise dans GTA 6 » (4 slides)
+  voix · contrôle OK (99%, essai 1, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (11.0 s)
+  voix · 11.0 s → accélérée ×1.00 (11.0 s)
+  reel · 12.6 s · 8 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgEspmupTyB/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgEsrUbHDzi/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 6 s
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s · texte sans accents ou sans apostrophes : réécriture demandée · gemini-flash-latest : ReadTimeout après 60 s · gemini-flash-latest : surchargé (HTTP 503) · gemini-3-flash-preview : réponse en 14 s
