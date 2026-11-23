@@ -925,7 +925,11 @@
   "web:gta boom:https://www.gtaboom.com/gta-6-self-aware-npc-garage-location-5885": "2026-11-23T21:31:41.551513+00:00",
   "web:google actu:CBMidEFVX3lxTE5QUkdBS2JBQkh4QW5PUGxldm1uY1MwOERjaVdLdHMyRnZ3Z0JlcUN1d0JlTWZzd0x2MEQyVnhsYjVRenhzN1NQRHc5QzRtbmVoU2FPVEpxRE1VTXhWMUEzSXY2QjhPU0hHU3NYU3RUZldMSjlh": "2026-11-23T21:31:41.551513+00:00",
   "web:google news:CBMic0FVX3lxTFBZYmc5bXE5VERKMkM4R0RGalF0bFRBVTBiX2xiMURIaWtGTTFablgwOUxralhuNDFWb3I1czNyOWlDOHJhZFJfU0p0Ni1yZUlueXE0M1FrSUsybjdWQVEwZVdtQnVlVXlXUHFwS2hNT3N2TkU": "2026-11-23T21:31:41.551513+00:00",
-  "web:google news:CBMingFBVV95cUxNU0Z4M251ejVxY2p5ZC1qS1NJc1hLWVEteV9TTGNlSVFMY1dBUDhtdHpVZGNsUlVzNjBSdXBqSThKUFVsMkdsbUpVWGU4LS15a2Q1QVg5V0pPZFBrMjhjUF9SZE81VkFkV0JTaHBlUVZUeWFXVkMxZDdjbkpPVFhOUnVXdk9JQmVtZ29DYmctU3VLNURfaXoxTjVlRjdxUQ": "2026-11-23T21:31:41.551513+00:00"
+  "web:google news:CBMingFBVV95cUxNU0Z4M251ejVxY2p5ZC1qS1NJc1hLWVEteV9TTGNlSVFMY1dBUDhtdHpVZGNsUlVzNjBSdXBqSThKUFVsMkdsbUpVWGU4LS15a2Q1QVg5V0pPZFBrMjhjUF9SZE81VkFkV0JTaHBlUVZUeWFXVkMxZDdjbkpPVFhOUnVXdk9JQmVtZ29DYmctU3VLNURfaXoxTjVlRjdxUQ": "2026-11-23T21:31:41.551513+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=239361": "2026-11-23T22:31:24.207348+00:00",
+  "web:gtabase:https://www.gtabase.com/gta-6/articles/how-to-lower-criminal-profile-in-gta-6": "2026-11-23T22:31:24.207348+00:00",
+  "web:google actu:CBMikwJBVV95cUxOUHBkVFhUeTVMak1UNVJZWkJTOHR6WUlnZ2gwRFdIZ0hXZDdTVko0OTRLZVY0Y1pJcTFhWUY5aG1fZUljejR0MHR1V2tjaDhfNUxOTVBkREQ3ZVhOMml3ay1vRUI4MkFPTjE1aU02dWM5ZnpsM000clBCMF9ONEcxSW5WbVZzWXVCYUxZd01fb2RDeXNXb3lNa1gzZGVqeUFWeHlfY3F5V2NrWVd4N05FS1lSRGg2UHdkdHJadjROTmdSZzhJNkR1NUp6aGEtbG1yLVptRVlFbDkzMzBCNGZlZjBfSnpOVUNrekJITGZvRGExeVExQk5mN0tnRW1VOEY3d0FFTWZUeF80Nk1tWWJtZzdwMA": "2026-11-23T22:31:24.207348+00:00",
+  "web:jeuxvideo.com:https://www.jeuxvideo.com/news/2116264/on-ne-joue-pas-a-gta-6-pour-acheter-des-fleurs-faire-des-courses-et-renover-un-appart-certains-joueurs-se-plaignent-de-la-simulation-de-couple.htm": "2026-11-23T22:31:24.207348+00:00"
  },
  "publies": [
   {
@@ -2399,11 +2403,20 @@
    "lien": "https://www.instagram.com/p/DgGW5xKEgvc/",
    "reel": "https://www.instagram.com/reel/DgGW7EjFBt6/",
    "story": "18173531662465239"
+  },
+  {
+   "ts": "2026-11-23T22:31:24.207348+00:00",
+   "categorie": "GAMING",
+   "titre": "Grand Theft Auto VI visé par un review bombing",
+   "source_id": "web:jeuxvideo.com:https://www.jeuxvideo.com/news/2116264/on-ne-joue-pas-a-gta-6-pour-acheter-des-fleurs-faire-des-courses-et-renover-un-appart-certains-joueurs-se-plaignent-de-la-simulation-de-couple.htm",
+   "lien": "https://www.instagram.com/p/DgGdqZ2jaKE/",
+   "reel": "https://www.instagram.com/reel/DgGdsO0iQhM/",
+   "story": "18099509306690350"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 4755
+  "tweets": 4760
  },
  "x_recherches": {
   "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-23T18:32:07.548977+00:00"
