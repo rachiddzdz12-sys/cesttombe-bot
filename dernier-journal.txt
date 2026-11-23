@@ -5,7 +5,7 @@ Instagram · @cesttombe.actu (19 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 39 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → 100 infos
+Web · GOOGLE ACTU → 96 infos
 Web · GOOGLE NEWS → 102 infos
 Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 11 infos
@@ -16,51 +16,51 @@ Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
 Web · GAMEKULT → 11 infos
 Web · IGN FRANCE → 16 infos
-Web · JEUXVIDEO.COM → 16 infos
-Web · INSIDER GAMING → 3 infos
+Web · JEUXVIDEO.COM → 17 infos
+Web · INSIDER GAMING → 7 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4741 / 10000)
-X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4742 / 10000)
+X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4746 / 10000)
+X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4747 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-294 infos fraîches et jamais traitées (sur 469 lues)
-   0/10 ✗ pas une news « How to Find and Beat Satan in GTA 6 for the Hellspawn Shotgun »
-   7/10 ✓ « GTA VI Broke Every Record in 24 Hours, So Why Did Take-Two Shareholder »
-   6/10 ✗ déjà publiée « GTA 6 First-Day Sales: $3.79B and an 8-Hour Average »
-   6/10 ✓ « L'utilisation de FSR 4.1.2 dans GTA 6 sur Xbox Series X peut entraîner »
-   8/10 ✓ « GTA VI Hype More Than Doubled Sony’s US PS5 And Microsoft’s Xbox Weekl »
-   6/10 ✓ « GTA VI Gave Florida a Mountain. The Real State Is Literally Flatter Th »
-   0/10 ✗ pas une news « What's the fastest car in GTA 6? »
-   7/10 ✗ déjà publiée « GTA 6 sur PC : Cyberleek partage l’exécutable, le portage Leonida prog »
-   7/10 ✗ déjà publiée « Mario Easter egg discovered in GTA VI »
-   5/10 ✗ déjà publiée « GTA VI Launch Weekend Sales Estimated at 44.9 Million Copies »
-   5/10 ✓ « Lionsgate kept ‘The Hunger Games’ opposite GTA VI’s launch. That paid  »
-   8/10 ✓ « GTA VI: le rappeur Leto est accusé de misogynie après avoir refusé de  »
-   3/10 ✗ pas une news « GTA VI Is More Than a Video Game. It’s a Branding Lesson for Entrepren »
-   0/10 ✗ pas une news « GTA 6 : toutes les fins possibles et comment les débloquer »
-   5/10 ✓ « The Latine Artists Shaping Vice City in 'GTA VI' »
-   0/10 ✗ pas une news « How To Get A Plane In GTA 6 »
-   4/10 ✗ pas une news « From scoffing chips to Snapmatic sh*tposts, GTA 6 is filled with brill »
-   6/10 ✓ « LISTEN: Power Trip Unleash Blistering New Song “Mutual Death Warrant”  »
-   8/10 ✓ « Des passionnés ont lancé le prologue de GTA 6 sur PC quelques heures a »
-   5/10 ✓ « GTA VI’s pretentious puzzler makes indie developers feel ‘part of larg »
-   6/10 ✗ trop faible (mini 9) « God of War : Deborah Ann Woll reprendra son rôle de Faye dans la série »
-GAMING · 10 infos retenues, meilleure : « GTA VI Hype More Than Doubled Sony’s US PS5 And Microsoft’s Xbox Weekly Sales, C » (8/10)
-  article · finance.yahoo.com
-  article · 3223 caractères lus
-  photo · 1 image(s) : 1200x800
-  contexte · 3 complément(s) : DEXERTO, NUMERAMA, ROCKSTAR INTEL
+292 infos fraîches et jamais traitées (sur 470 lues)
+   0/10 ✗ pas une news « How to Get a Key Cloner in GTA 6—Stealing Expensive Cars, Explained »
+   6/10 ✓ « A Cyberpunk 2 Director Joked His Game Was Cancelled After Seeing GTA 6 »
+   5/10 ✓ « How a Surprise D’Angelo Song Landed in GTA VI »
+   7/10 ✓ « GTA 6 Online Could Be Bigger Than Fortnite, Bank Of America Stock Anal »
+   4/10 ✗ trop faible (mini 5) « Tampa Spots We’re Shocked Didn’t Make it into GTA 6 »
+   0/10 ✗ pas une news « GTA 6 Chapter 3 Mission List – Every Mission in GTA 6 Chapter 3 in Ord »
+   3/10 ✗ déjà publiée « Fact Check Team: GTA VI generates $3.79 billion in first-day sales »
+   0/10 ✗ pas une news « Voiture DWNPLY GTA 6 : emplacement et revente à 22 000 $ (Downplay) »
+   0/10 ✗ pas une news « Where to Find Arthur Morgan's Hat in GTA 6 »
+   0/10 ✗ pas une news « GTA 6 Alien Encounter Walkthrough for All 3 Parts »
+   0/10 ✗ pas une news « GTA 6 Chapter 2 Mission List – Every Mission in GTA 6 Chapter 2 in Ord »
+   6/10 ✗ déjà publiée « Sur Xbox, GTA VI atteint 60 FPS grâce à un bug, mais le jeu tourne aus »
+   7/10 ✗ déjà publiée « GTA VI : 7 ans de prison pour le hacker à l'origine des fuites »
+   0/10 ✗ pas une news « GTA 6 Chapter 1 Mission List – Every Mission in GTA 6 Chapter 1 in Ord »
+   0/10 ✗ pas une news « Easy Method for Randy’s Supercars in GTA 6—How To Beat Advanced Tracke »
+   7/10 ✗ déjà publiée « L'homme à l'origine des fuites de vidéos de GTA VI condamné à sept ans »
+   6/10 ✓ « D’Angelo’s Estate Releases Posthumous Song ‘Kamikazi’ for ‘GTA 6’: Sin »
+   7/10 ✓ « GTA 6 Players Are Learning the Hard Way Not to Steal Teslas »
+   6/10 ✓ « Gary Plauche, who killed his son's kidnapper, spotted in 'GTA VI' airp »
+   0/10 ✗ pas une news « 10 Hacks Every 'GTA 6' Player Should Know »
+GAMING · 6 infos retenues, meilleure : « GTA 6 Online Could Be Bigger Than Fortnite, Bank Of America Stock Analyst Says » (7/10)
+  article · gamespot.com
+  article · 0 caractères lus
+  ⏭️ article illisible, info écartée : « GTA 6 Online Could Be Bigger Than Fortnite, Bank Of America  »
+  article · consequence.net
+  article · 921 caractères lus
+  photo · 1 image(s) : 1200x675
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · recherche X « GTA VI PS5 gameplay launch » : rien qui montre vraiment le sujet
-  vidéo · recherche X « PS5 launch » : rien qui montre vraiment le sujet
+  vidéo · recherche X « GTA 6 Tesla steal » : rien qui montre vraiment le sujet
+  vidéo · recherche X « Tesla steal » : rien qui montre vraiment le sujet
   vidéo · recherche X « GTA 6 gameplay » : rien qui montre vraiment le sujet
-  couverture · photo1 · zoom 1.4 · propre
-  carrousel prêt : « GTA VI booste les ventes de PS5 et Xbox » (5 slides)
+  couverture · photo1 · zoom 1.0 · propre
+  carrousel prêt : « Les joueurs de GTA 6 ne peuvent plus voler de Tesla » (4 slides)
   voix · contrôle OK (99%, essai 1, gemini-3.1-flash-tts-preview)
-  voix · Gemini (Aoede) (12.6 s)
-  voix · 12.6 s → accélérée ×1.15 (11.0 s)
-  reel · 12.6 s · 8 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgGKMutF4zs/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgGKOeFCkIl/
+  voix · Gemini (Aoede) (9.6 s)
+  reel · 11.2 s · 7 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgGQ1-JF8p8/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgGQ310FCE_/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3-flash-preview : réponse en 26 s
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : quota atteint (HTTP 429), réessai conseillé dans 40794 s · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : réponse en 4 s · gemini-3.5-flash-lite : réponse en 2 s
