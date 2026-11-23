@@ -5,9 +5,9 @@ Instagram · @cesttombe.actu (19 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 42 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → 100 infos
-Web · GOOGLE NEWS → 100 infos
-Web · BING ACTU → 11 infos
+Web · GOOGLE ACTU → 102 infos
+Web · GOOGLE NEWS → 102 infos
+Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 11 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
@@ -15,54 +15,15 @@ Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → erreur : HTTPSConnectionPool(host='www.gtabase.com', port=443): Read timed out. (read timeout=25)
 Web · GAMEKULT → 11 infos
-Web · IGN FRANCE → 17 infos
-Web · JEUXVIDEO.COM → 15 infos
-Web · INSIDER GAMING → 5 infos
+Web · IGN FRANCE → 16 infos
+Web · JEUXVIDEO.COM → 16 infos
+Web · INSIDER GAMING → 4 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4731 / 10000)
-X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4732 / 10000)
+X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4736 / 10000)
+X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4737 / 10000)
+X · « ("GTA 6" OR "GTA VI") filter:native_vide » → 1 tweets lus, 0 gardés (ce mois : 4738 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-286 infos fraîches et jamais traitées (sur 438 lues)
-   3/10 ✗ pas une news « Alex Consani Is The Ultimate Vice City Girl In All Emerging Designers »
-   8/10 ✗ déjà publiée « GTA 6 Smashes Expectations With an Incredible 32.5 Million Copies Sold »
-   0/10 ✗ pas une news « 10 Fastest Ways To Make Money In GTA 6 »
-   8/10 ✗ déjà publiée « Le jeune hacker qui avait fait fuiter des vidéos de GTA VI condamné à  »
-   0/10 ✗ pas une news « GTA 6 : la checklist pour terminer le jeu à 100 % »
-   0/10 ✗ pas une news « Should you sell the pure or cut coke for Boobie in GTA 6? »
-   7/10 ✗ déjà publiée « GTA 6 gets its first update for PS5 and Xbox Series X|S to fix game cr »
-   0/10 ✗ pas une news « How to use auto drive in GTA 6 to cruise around Leonida »
-   8/10 ✗ déjà publiée « Le hacker qui avait fait fuiter des vidéos de GTA VI condamné à sept a »
-   5/10 ✓ « GTA 6 Drag Queen Dancer Breaks NDA After Year of Waiting! »
-   7/10 ✓ « D'Angelo's 'GTA VI' Song 'Kamikaze' Released as Brother Teases Future  »
-   8/10 ✓ « 'GTA 6: The Album' Deluxe Edition: Offset, Travis Scott, Slayyyter, Mo »
-   6/10 ✓ « GTA 6’s Best-Kept Secret Is the Key to Its Whole Design »
-   7/10 ✗ déjà publiée « GTA 6 Update 01.002.002 Out Now, Rockstar Releases Official Patch Note »
-   7/10 ✓ « A ‘GTA 6’ Player Finds Tommy Vercetti’s Shirt And Portal To Original V »
-   9/10 ✗ déjà publiée « GTA 6 amasse 3,79 milliards de dollars en un jour »
-   8/10 ✗ déjà publiée « GTA 6 Is Causing PlayStation Bans of Up to 30 Days, and You Could Be t »
-   5/10 ✓ « Unofficial GTA 6 port for Windows called Leonida will take up almost 3 »
-   6/10 ✓ « The Greek Prime Minister Pitched GTA 6 as a Kids' Christmas Gift and I »
-   8/10 ✓ « Test : GTA VI, bien plus qu'un jeu vidéo »
-   0/10 ✗ pas une news « Une boutique en ligne centrée sur Clair Obscur: Expedition 33 vient d’ »
-   5/10 ✗ trop faible (mini 9) « Le patron de Massive Entertainment espère qu’Ubisoft deviendra un jour »
-   6/10 ✗ trop faible (mini 9) « Une offre d’emploi chez Activision laisse espérer un retour de Banjo-K »
-   5/10 ✗ trop faible (mini 9) « Après avoir été écarté pour des comportements inappropriés et un risqu »
-GAMING · 8 infos retenues, meilleure : « 'GTA 6: The Album' Deluxe Edition: Offset, Travis Scott, Slayyyter, More » (8/10)
-  article · billboard.com
-  article · 1992 caractères lus
-  photo · 1 image(s) : 1024x682
-  contexte · 3 complément(s) : @ROCKSTARGAMES, GTA BOOM, ROCKSTAR INTEL
-  visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · recherche X « GTA 6 Travis Scott album deluxe » : rien qui montre vraiment le sujet
-  vidéo · recherche X « Travis Scott » : rien qui montre vraiment le sujet
-  vidéo · recherche X « GTA 6 gameplay » : rien qui montre vraiment le sujet
-  couverture · photo1 · zoom 1.12 · PAS PROPRE
-  carrousel prêt : « Rockstar sort l'album Deluxe de GTA 6 » (5 slides)
-  voix · contrôle OK (94%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (9.5 s)
-  reel · 11.1 s · 7 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgF8D4JCXA7/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgF8F9TAGUO/
-  ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 7 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3-flash-preview : surchargé (HTTP 503) · gemini-3-flash-preview : surchargé (HTTP 503) · gemini-3.1-flash-lite : surchargé (HTTP 503) · gemini-3.1-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash : ReadTimeout après 60 s · gemini-3.5-flash : réponse en 24 s · texte sans accents ou sans apostrophes : réécriture demandée · gemini-3.5-flash : ReadTimeout après 60 s · gemini-3.5-flash : réponse illisible (JSONDecodeError)
+288 infos fraîches et jamais traitées (sur 442 lues)
+GAMING · tri IA impossible : Gemini n'a pas répondu correctement : gemini-3.5-flash : surchargé (HTTP 503)
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3-flash-preview : surchargé (HTTP 503) · gemini-3-flash-preview : surchargé (HTTP 503) · gemini-3.1-flash-lite : surchargé (HTTP 503) · gemini-3.1-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash : surchargé (HTTP 503) · gemini-3.5-flash : surchargé (HTTP 503)
