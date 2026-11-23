@@ -894,7 +894,15 @@
   "ag:https://www.actugaming.net/?p=835225": "2026-11-23T17:32:58.935311+00:00",
   "ag:https://www.actugaming.net/?p=835221": "2026-11-23T17:32:58.935311+00:00",
   "ag:https://www.actugaming.net/?p=835206": "2026-11-23T17:32:58.935311+00:00",
-  "web:google news:CBMirwFBVV95cUxNMTlydEJYeEVNZUMyNy1XNl9oNU85eEhiYWgtV2J3Xy1obG1vMm5BTk1kQmhySXRFV0EwZmxSQ2RiMDduMkhFT2NOc0VRWVYzTXpYbmZjdXVQb193TjFBTVl0SHNDMUUxTHc1OVF3MkZyclJwTE9ZZVFQYmt2c01RVUJjNDQ0Y25Cb3RhejNVcGZLT2IxaFFRY1NRSHBLODlUMkNGTlFJdDBkbzRWRGxB": "2026-11-23T17:32:58.935311+00:00"
+  "web:google news:CBMirwFBVV95cUxNMTlydEJYeEVNZUMyNy1XNl9oNU85eEhiYWgtV2J3Xy1obG1vMm5BTk1kQmhySXRFV0EwZmxSQ2RiMDduMkhFT2NOc0VRWVYzTXpYbmZjdXVQb193TjFBTVl0SHNDMUUxTHc1OVF3MkZyclJwTE9ZZVFQYmt2c01RVUJjNDQ0Y25Cb3RhejNVcGZLT2IxaFFRY1NRSHBLODlUMkNGTlFJdDBkbzRWRGxB": "2026-11-23T17:32:58.935311+00:00",
+  "web:gta boom:https://www.gtaboom.com/how-to-find-and-beat-satan-in-gta-6-for-the-hellspawn-shotgun-98d3": "2026-11-23T19:39:53.727162+00:00",
+  "web:google news:CBMiX0FVX3lxTE1DWUV6Q01QSzRUZTlPZU1FeVVacWs4VHVhZXRWMnUtZU9YU0prUmYzaGw2Nk9fRExUUlJ6Wk9qZGVveGwteFhpZUF0M1g5OVI4ZWZYaklCWGsxamx4U1M0": "2026-11-23T19:39:53.727162+00:00",
+  "web:google news:CBMiuwFBVV95cUxQbjk4Mm1pMEdmeWdrb2ZwRVgxODJDSzFDUzlrVHZKRG93Z0s4ZEI4czBYTTN1Vk9MZEtoVFk2cUlRbThNVTBZanVqQWl2dThjVkJSRFlaSjA3X0I2anF6TGEzQXo1enNJQTZMTzlVWGI2TFhkYjctak9tc0g2QjU1T1V2b25nWlpmY2tVSlpNbDlUWWo4NjJGOWlnbUQ3bHZHU2NZNXdNVmRvWUtoVHBELXh1TGFwZ08yVnJj": "2026-11-23T19:39:53.727162+00:00",
+  "web:google actu:CBMinwFBVV95cUxQY0ZnTVJkWU1ZeHdDaVRTTldrTXBsOTNlSUVJQlVsZnN3bHVYb21nVFlyZ2R0V3F6aHMtMVh3RDFCblR2Mlp5MlpvYmhjQ0M2OXkwakFrTERmWnNHaEpkQmk1VHJiWGU5Sk9IYUpzUlRiYkw3VWxvb1RmeVlIUjloMWlZVkZ5S1AycDBZZnJrRnF2d1ZhdUdzbS13Nk5MTG8": "2026-11-23T19:39:53.727162+00:00",
+  "web:google news:CBMiXEFVX3lxTE5lQmpCdURxdDdNZjRwNW5sc3lCVE40QW40X3o0YVZqOVJnN0MzbU1GZkswRk1YdERuZ1JXV3NIVjE5UkRmREhMSUlsS3lhQm1SRGxBMnVRT045WU9t": "2026-11-23T19:39:53.727162+00:00",
+  "web:gamesradar:PyhLmDo9khbhaMuQJM8jyi": "2026-11-23T19:39:53.727162+00:00",
+  "ag:https://www.actugaming.net/?p=835260": "2026-11-23T19:39:53.727162+00:00",
+  "web:google news:CBMikwFBVV95cUxQaWYxMXA1eGJTZTYzUTNZWC1IZi14NDRpUnVNMG02OEYxbDJXRFl5dW1kcUhSRTBVbkRqWXV5NHVJeldweGtzc1F4bGtMN0xEaUt6YnpiMkpIZl9fVmZtX3JkOEtPR1pSRFIzeS1ETGwtNXBIWTF1OUctQy1LQVlrQk9XcG54WEVTSkJHOFdYek5xbEk": "2026-11-23T19:39:53.727162+00:00"
  },
  "publies": [
   {
@@ -2341,11 +2349,20 @@
    "lien": "https://www.instagram.com/p/DgF8D4JCXA7/",
    "reel": "https://www.instagram.com/reel/DgF8F9TAGUO/",
    "story": "17961056844267470"
+  },
+  {
+   "ts": "2026-11-23T19:39:53.727162+00:00",
+   "categorie": "GAMING",
+   "titre": "GTA VI booste les ventes de PS5 et Xbox",
+   "source_id": "web:google news:CBMikwFBVV95cUxQaWYxMXA1eGJTZTYzUTNZWC1IZi14NDRpUnVNMG02OEYxbDJXRFl5dW1kcUhSRTBVbkRqWXV5NHVJeldweGtzc1F4bGtMN0xEaUt6YnpiMkpIZl9fVmZtX3JkOEtPR1pSRFIzeS1ETGwtNXBIWTF1OUctQy1LQVlrQk9XcG54WEVTSkJHOFdYek5xbEk",
+   "lien": "https://www.instagram.com/p/DgGKMutF4zs/",
+   "reel": "https://www.instagram.com/reel/DgGKOeFCkIl/",
+   "story": "18499159345108857"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 4740
+  "tweets": 4745
  },
  "x_recherches": {
   "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-23T18:32:07.548977+00:00"
