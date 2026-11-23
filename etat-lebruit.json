@@ -181,7 +181,9 @@
   "ig:18072634244781991": "2026-11-23T10:06:54.150847+00:00",
   "ig:18116792777169765": "2026-11-23T10:06:54.150847+00:00",
   "ig:18097228772221482": "2026-11-23T10:31:31.013437+00:00",
-  "ig:18163993579552532": "2026-11-23T10:31:31.013437+00:00"
+  "ig:18163993579552532": "2026-11-23T10:31:31.013437+00:00",
+  "ig:18129983213486210": "2026-11-23T11:32:52.117800+00:00",
+  "ig:18473752966143755": "2026-11-23T11:32:52.117800+00:00"
  },
  "publies": [
   {
@@ -382,11 +384,20 @@
    "lien": "https://www.instagram.com/p/DgDblpQF2gL/",
    "reel": "https://www.instagram.com/reel/DgDbnKjO87M/",
    "story": "17875809540640833"
+  },
+  {
+   "ts": "2026-11-23T11:32:52.117800+00:00",
+   "categorie": "RAP FR",
+   "titre": "Plusieurs artistes rap appellent à voter pour Jean-Luc Mélenchon en 2027",
+   "source_id": "ig:18473752966143755",
+   "lien": "https://www.instagram.com/p/DgFSf3PFws-/",
+   "reel": "https://www.instagram.com/reel/DgFShpNPO8Y/",
+   "story": "18140636935764661"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 1122
+  "tweets": 1128
  },
  "x_recherches": {}
 }
