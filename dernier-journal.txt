@@ -5,14 +5,14 @@ Instagram · @cesttombe.actu (20 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 42 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → 93 infos
+Web · GOOGLE ACTU → 100 infos
 Web · GOOGLE NEWS → 100 infos
 Web · BING ACTU → 2 infos
-Web · BING ACTU VI → 12 infos
+Web · BING ACTU VI → 11 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
-Web · GAMESRADAR → 50 infos
+Web · GAMESRADAR → HTTP 404
 Web · GTABASE → 30 infos
 Web · GAMEKULT → 12 infos
 Web · IGN FRANCE → 22 infos
@@ -20,10 +20,9 @@ Web · JEUXVIDEO.COM → 15 infos
 Web · INSIDER GAMING → 7 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4814 / 10000)
-X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4815 / 10000)
-X · « ("GTA 6" OR "GTA VI") filter:native_vide » → 1 tweets lus, 0 gardés (ce mois : 4816 / 10000)
+X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4817 / 10000)
+X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4818 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-260 infos fraîches et jamais traitées (sur 461 lues)
-GAMING · tri IA impossible : Gemini n'a pas répondu correctement : gemini-3.5-flash : ReadTimeout
-Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3-flash-preview : surchargé (HTTP 503) · gemini-3-flash-preview : surchargé (HTTP 503) · gemini-3.1-flash-lite : surchargé (HTTP 503) · gemini-3.1-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash : ReadTimeout après 60 s · gemini-3.5-flash : ReadTimeout après 60 s
+252 infos fraîches et jamais traitées (sur 417 lues)
+GAMING · tri IA impossible : Gemini n'a pas répondu correctement : gemini-3.5-flash : surchargé (HTTP 503)
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : ReadTimeout après 60 s · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3-flash-preview : surchargé (HTTP 503) · gemini-3-flash-preview : surchargé (HTTP 503) · gemini-3.1-flash-lite : surchargé (HTTP 503) · gemini-3.1-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash : surchargé (HTTP 503) · gemini-3.5-flash : surchargé (HTTP 503)
