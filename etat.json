@@ -1,6 +1,5 @@
 {
  "vus": {
-  "x:2120261065099382848": "2026-11-10T21:32:07.703505+00:00",
   "ag:https://www.actugaming.net/?p=833158": "2026-11-11T08:01:35.809310+00:00",
   "ag:https://www.actugaming.net/?p=833132": "2026-11-11T08:01:35.809310+00:00",
   "x:2120286269909750084": "2026-11-11T08:01:35.809310+00:00",
@@ -997,7 +996,14 @@
   "web:google news:CBMi0AFBVV95cUxNcktZNDFtM3d4MjlxZHF2VGpkZElVTGRiV29iNk91VDBWT2d4bXNhNmg3cWttTW16YkxvY0trSkFUR1VmVVpvQnV3VDdfazc2S2lHU3F2SGh4V0FIOXlyZlRSUGJRV1dGSU15ZTRpUHVjR0FYdWMzMld1OV9SZHV1ZGx2dDBxUTdwTkJaRlhXZHgyUUp0V1NQSDdNdWVoUXh6VndhdFBONlNrWEFldVhBUGNZSnkzUFNpU2dZVG9OeVN1dEZCOUlNMjU5V2RFSGlX": "2026-11-24T21:01:38.889972+00:00",
   "web:google actu:CBMi5wFBVV95cUxOelBENXNudE9FYzM1Y3REUHdKMW4wRzM5N2FVdDFyLWtfQzNUcnVOZFhkbFlNUzZGM2hCaDJaTS1SSHVnak5rZlVhb1pWbjdjRFJoNS1EZHBtd3Y3WS1UWWxudi0zREx4cFotd3UtTTZTZjQ5ZkkxeFA4ZjJzem95SE9UbkRkUFNfX2ZuWlRKNGE5S2poTEV0UkxhSlNjRHdIcTZUa01RdGIzM2s5YlJzTEdBdU9XZFJqTG9KOEdXTzlKWUhiMHI2VmM0cWRNMjFYOC1rUVBJc2RGNEwzQkVZTWlyMzQwXzg": "2026-11-24T21:01:38.889972+00:00",
   "web:google news:CBMixAFBVV95cUxNY2x4SlZKRlNGQ1FCOHRnQU9FM2xvLVltY0oxUWl6Z1NwajNlSS1PTEpxNWJ1RjdaY2pqZ3BkODZqS0llNnZlLXVuTXlDTXAzTEljeU9iS2lyRnNGSWJ6OTA5TWdTcEJhLVpBUHd4d1ZGcTlSaTRqcEF2b0JORzFPWUhNWEY5NHpGUnBGN0QxYTJYeEtwZVJaRHBNT1BONjJqWjZVS0pOVlRwQWZJVnNEdVBWejh3SVQzb0Itb0NYZFVJYzNU": "2026-11-24T21:01:38.889972+00:00",
-  "web:gta boom:https://www.gtaboom.com/the-final-act-podcast-in-gta-6-tells-you-what-happened-to-michael-franklin-and-trevor-0afc": "2026-11-24T21:01:38.889972+00:00"
+  "web:gta boom:https://www.gtaboom.com/the-final-act-podcast-in-gta-6-tells-you-what-happened-to-michael-franklin-and-trevor-0afc": "2026-11-24T21:01:38.889972+00:00",
+  "web:google actu:CBMivAFBVV95cUxNc2xrUVVmdjJsby1odktSSzQ0d3FPWk85OGpkZGY2VXhZM2xQWmtVbjlCY0I1ZVJaWFlvTmlzcmdjWkZvaDhvVzhSYzAwQUZsQnVkNEUtSmtudXJPSkRGZ3BqVlZvMmVKMUU0M2tWQ2tCcEJRRk5QcFFNWnRHZi1EVGJHOEF3bTREdTNCUnRtMEZiNmlneUNldjN5bTVxUW14ckJOR0FCdDUwcXZPUEpGM2dhWlA0Zm9MejVJVw": "2026-11-24T22:01:47.237260+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=241306": "2026-11-24T22:01:47.237260+00:00",
+  "web:google actu:CBMi4AFBVV95cUxOR0tTaEJGM0xxNVM5SkdhdklncjM3eU9najV4QnZtSHF6Zk1UYlM1Q29Hb005algxbDFOOFZZNnFhUkktVERxVjBsc1FZZlRpckpzWG5wTWwtYWpGdWtUdmU1NndCeTJ0RTZHU3JBX1ZqZXlJLUhFd0NfU3BTa1Rjd3FHNEhzSHB2Ty0tRGk0WU8zVG1pZkV2TUZtVUxxMHpyQUdHdWdmM2xRUUs3QmUxVkl6NGludWJNNmVDV3MtOTVsQTFsT19NREhxM2l1ZC1hRkNueDRaSldEbnpsaTlLUQ": "2026-11-24T22:01:47.237260+00:00",
+  "web:google actu:CBMikgJBVV95cUxNNjRaSTlyaVhxNHZkU1VIbkhod1V5bVVXTzNjamVZa0xkQXRNYWVHVnJBQ2gtX1FxRGJIb1RFNXJ0Y1NBenY5NVo2dnFvalNRWXEtVnluUHdNY0VTanhoUmIwVG5LVHVvNHV6dWR6ZG5JcWgybnA0Rm4wQ00tUWpTWlRfZzl0X19fZWlLdlRtZzBNeFcySjZsYmxDaS1ITDNTZ0hia2k3ZjdHak1zNU9yX2VfLU13MGJsUktfdzRfZmxIak8xSkNiQ09kcTZKckZmQktZSTRuUkhWUHZkZ0xpOUdBNVFtdlJsMjBpX2EyVElyeGxONXk2WnVfbGU4eERURzlwUzdYcXFkYjJnaG9YOVJn": "2026-11-24T22:01:47.237260+00:00",
+  "web:google actu:CBMi8gFBVV95cUxQUjJzZTd1RUh3UG0zUFRmajBhQm1YZk1kWE1CN1JYVXNtOTg0dzBxY25XYTRTWER4NEZzUGFqc2NOdkJlRHNCZzJFNDF5TG5qSXFNTUp2ZHI0VTllTmpMUzdzMTBaak8yLXI0Mm9SVnMtSW1zVDF1WUV5a1JzSVpBd2tsYXowc2pvbkptc2hSWU1XWjNWbllvRUJla29PbkVDTTloYUlYbTBXRXA1VHkxMGlYSlZNYWlWSG9DNVR6dXRUQU5tcVR0RlVuVGF2TUtFVVMxWm41eEhKcmtfamRJSmpSclZiU3hRaWd3Q2V1dGQtdw": "2026-11-24T22:01:47.237260+00:00",
+  "web:google actu:CBMi4gFBVV95cUxPMTFoWC1zRWZMMXhNRXVmX2FqS2dzVFVNQWRkTFdqR0lIckc0a0Zsenh0bEFVOEMzN0huLU9RVk5FVjdIOWlRM3FfU3N5UERXV25HNHJjT1l1cXc1NTVnQXhpVUZsWUhfdFl0UG9qTHBGTFBrLXFIdFpIeGN1d09DQTF6Q0pNUE9QVHh2QUgtOEFhd01BVUVEU2xPQzFPOEo2WExPZnZfY2wyd2FJaTZsdktJVDVVVTFJSExjOGxWMV9hb2RPWHdxaGlRQkp3ME9yckpteEdSQkI3c1pvckZEYlpn": "2026-11-24T22:01:47.237260+00:00",
+  "web:dexerto:https://www.dexerto.com/gta/rockstar-is-turning-gta-6s-in-game-trading-cards-into-real-collectibles-3431102/": "2026-11-24T22:01:47.237260+00:00"
  },
  "publies": [
   {
@@ -2606,11 +2612,20 @@
    "lien": "https://www.instagram.com/p/DgI4XW-jGKq/",
    "reel": "https://www.instagram.com/reel/DgI4ZTAlCgO/",
    "story": "17969645763200952"
+  },
+  {
+   "ts": "2026-11-24T22:01:47.237260+00:00",
+   "categorie": "GAMING",
+   "titre": "Rockstar sort de vraies cartes à collectionner GTA 6",
+   "source_id": "web:dexerto:https://www.dexerto.com/gta/rockstar-is-turning-gta-6s-in-game-trading-cards-into-real-collectibles-3431102/",
+   "lien": "https://www.instagram.com/p/DgI_FTTlzXa/",
+   "reel": "https://www.instagram.com/reel/DgI_GlwlGyx/",
+   "story": "18661441519020079"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 4855
+  "tweets": 4860
  },
  "x_recherches": {
   "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-24T19:02:01.703191+00:00"
