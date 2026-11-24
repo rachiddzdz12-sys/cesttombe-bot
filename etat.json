@@ -1,8 +1,5 @@
 {
  "vus": {
-  "ig:17915677626595849": "2026-11-10T13:34:32.028043+00:00",
-  "x:2120145826949242969": "2026-11-10T13:34:32.028043+00:00",
-  "x:2119884076656308302": "2026-11-10T13:34:32.028043+00:00",
   "ig:18093404930498003": "2026-11-10T14:01:48.453524+00:00",
   "x:2119888202375069923": "2026-11-10T14:36:32.707934+00:00",
   "x:2119873418820473032": "2026-11-10T14:36:32.707934+00:00",
@@ -962,7 +959,22 @@
   "web:gamesradar:U5fDb298imJEekn5At5vBY": "2026-11-24T12:32:19.435790+00:00",
   "web:insider gaming:https://insider-gaming.com/?p=238249": "2026-11-24T12:32:19.435790+00:00",
   "web:jeuxvideo.com:https://www.jeuxvideo.com/news/2116624/chercher-les-effigies-dans-les-arbres-gta-6-ou-les-trouver-pour-la-quete-du-singe-qui-pue-de-kirk.htm": "2026-11-24T12:32:19.435790+00:00",
-  "web:jeuxvideo.com:https://www.jeuxvideo.com/news/2116581/gta-6-fait-mieux-que-40-ans-de-prevention-pour-la-securite-routiere-il-fait-prendre-conscience-d-un-des-principaux-dangers-de-la-route.htm": "2026-11-24T12:32:19.435790+00:00"
+  "web:jeuxvideo.com:https://www.jeuxvideo.com/news/2116581/gta-6-fait-mieux-que-40-ans-de-prevention-pour-la-securite-routiere-il-fait-prendre-conscience-d-un-des-principaux-dangers-de-la-route.htm": "2026-11-24T12:32:19.435790+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=241087": "2026-11-24T13:31:51.612545+00:00",
+  "web:google actu:CBMi8AFBVV95cUxOLXcwMXltSlpxeEV5RC1LMDkwa00xYl91NHhKZzk3QWpkQzZUWDFuS0ZwOUJKM1VuckpQQzhFaHVkdXpLYW1XTVRKcmtoTkU0OVdMZEs0M3pYTWdmXzgwd0dRUUhmdVZsblI2X0JZY195aW9yU0JicE9ldzRXeDExNWNrTHBEY054WXVlWk1NVjRYa0Z2N2R0THhNNTRNM2FTdFFEdU1KcUpvR1Y5a2JuU19fZ0NhbTJNeWJkZzl6cDgwZ2k2MURWSkJmb2JRd3d3c2daWmtEM1FZSFhmazBxejZheE1oaVdCV2lwMmpkQjY": "2026-11-24T13:31:51.612545+00:00",
+  "web:google news:CBMibkFVX3lxTE9mMEJzMnpCQ1RvQWhVZEdKcUk2ZS1HWlZ6ZWxqZ0xaSDNLWkNOd296ZjlJY3ltQzZ6Mm0yMUxGQ3JEVjBfUGpfVmJrakNVd0RzMjk1SlJYVjRJZGVVOUpCNllwQWZHLTJrSXhoNEtR": "2026-11-24T13:31:51.612545+00:00",
+  "web:google news:CBMie0FVX3lxTE5md0FrUlRKMU5kYlFfLUFkR1lSSTQxWGNFd29tTldTTmF0Wmg0aENKT3BETWFEOGRXTU9MVWVvai0wdjIwM1NTSzJFQVZQRENlQXg2UV9BSGljWWZzOU5iSjhQbENYWDFwMFlJTDN0MC1lamJDUVp4ZDJ2RQ": "2026-11-24T13:31:51.612545+00:00",
+  "web:google news:CBMirAFBVV95cUxPX2p1Y0ZIT3FReFFnSWs5N2ZOeWxpaWUxVXB0aGNLWFZJX3RQSVpDWFo4X0ZlZ1NESUFNcWVIb2oyMUJKZlNxWjBuc0N0aGY2ZVNGUXZHQUk0Vjk5Z0gtYkczUnB6SlpaXzBTVl90V21uOG0wcUo5RkIxZjNPYkNTOVMzYXFIZVBXdWMxRU9FeDhUb1hhSHFqNUdsSkFtSEJWV09vZlpkbjNsQ3lk": "2026-11-24T13:31:51.612545+00:00",
+  "web:google actu:CBMivwFBVV95cUxOVUNiUnNDRG4yRzF5amlVcFVERDVaSHdjbHNXWnRONG9nUi1KTUxpVGJqX2V5ZENpTzMtOEhHVXgtYnFCcmpwQnpVNWZVdHVmRTdscnF5eXEweGI0LXVhOW00WnptZ3VTSzBGSWlSS0NZaE91N18yaWI5WnRTSnBzZTM1Zmg3TkR3bGxCNHpBc0gxQWtnUU1Dc3l2cWhENDlfQ3ItMzBySi0wMFZBS2hHQmphRVNFaE5KMGJWYTRrOA": "2026-11-24T13:31:51.612545+00:00",
+  "web:google news:CBMiqwFBVV95cUxOdUliamYxMFdkTk84OENkUDZvS054Q3NfNjU2X2k1b1IxZ0ZjMVEyd1psQ3lPR3kzaVM4Q0hVU3ZkSzNHNGpBMXRCaTZUek80cnpKaTN4OFRoQkRyalU2MkxqNlJUR0N2SWVoVF9VX2RUSEVZcmtUWWRGbkhtNC1wVGdpVHBMYzJkM2k0dEl3M3g5MngtVUJRWldCajlNd3A0cTNRTzBoMXkwQnc": "2026-11-24T13:31:51.612545+00:00",
+  "web:google news:CBMikAFBVV95cUxQT2tySy1rZVpadU5zM2ZOUV9ZMmRON01Ud0VKSXEwYjhrVkgxSUdwbUEyOE9abnFtT3ExOEJNWlJvNEJSbTBtVVREWHRxVkxZaFg2TTRXQTRGejBvcDFIeTdIeE1sTVVXeDN4OU1oTEMyMEcwT3FVTGtqaE9XVEZhSkdKTWtPcmxGNnFyMW5zMXk": "2026-11-24T13:31:51.612545+00:00",
+  "web:google actu:CBMinAFBVV95cUxPZWlENko4VF9xbFM0di1HUVM0RnFwUUtyUkZyUmRqVFV6cGZGdEhZcXdBblRlNHhuN3VtWFB1dU1hVDZJeE9ocTFEODYyYXBmVjFWNi1JZ1MzLW5JeEd6dDJVdmpiM2l0eTdwc2kzVllRbjV5MVd6a3loUzVkYlJMbGNBOVJzQ2tmRkJ6X3NELUY3ZWdSVVZlM2d1REk": "2026-11-24T13:31:51.612545+00:00",
+  "web:google actu:CBMiZ0FVX3lxTE92akdWS2tBX2JkOEh3Q2F4QmtFZE03YUtRSEs2NkpkeDc2LWpuMjBsblFlcEp5d3FqZHlFMWNKdnN3eWFkVWc0NVNtQzg5YWpGUC1pVjlWdVEwd3M2Sl8yTEJubDNiM2M": "2026-11-24T13:31:51.612545+00:00",
+  "web:gta boom:https://www.gtaboom.com/gta-6-cloud-streaming-guide-how-to-stream-gta-6-without-a-console-47a8": "2026-11-24T13:31:51.612545+00:00",
+  "web:google actu:CBMioAFBVV95cUxNRXdnWVd2Nzg3eE9CT3dWYXdGaG9od2RtU1RpSl9KaUJxTDc2M18taHpnTlFvRnd6TDdtRHYtUXYyWnlTdFpFUjB3QTgzQmVVdEY2WG1BYU1ySm8wWHF1WHNqeHJ6SGtpYkY0V29kSF9rZ3h5ZWZGSm9QbmdqUGg1UDEwSVZNVlpUSlVFc2FZcFBTQmJlMTQycFVVbVd1aUNw": "2026-11-24T13:31:51.612545+00:00",
+  "web:google news:CBMibkFVX3lxTE83dDFaTFdIOGVqLVBSNG5mbTVTZDdJdTNISVd4d0ZyekJYRVZHWmdqcWMxbm5UTzllckxoQTVOSDV3NGFBeE9SRnM3dmUxcXNhS2x4QUJudkF4THV3SktaYW1jWUp1dzM2X29ZVEVn": "2026-11-24T13:31:51.612545+00:00",
+  "web:google news:CBMiiwFBVV95cUxNYVFMUWZTVUE4YzBPWERhNEppU3g1b3JkNjZ1LWhkXy1fTk5iVEtiZ2VxUGJleF9mZ09GOTA3aUVtLU9Hd1NMVFZyeWNJRXVLZl9KTjhSOWhsUzJLZW1zSlRoeDJoMUVYajBfdXFMYUJPQkhwZV93UjFPd1p0ZUN4dTNKSUVDY2RUMmtJ0gGQAUFVX3lxTE0tekdvSFJQUXcweGx1MVFDdU9uN2s1WllhTWkwaVhSSFRRSnowbjNsbWZtczBQTllIUUF1Tl9qV3pWNVB0LUlDalZQaGNhOVpId1RKcVlJaE9qcDlDOV9VUWppaEZDQVQ4SXl0UHZSdWVzOERzMDNlVFdlaGNuWGNXSjZIeWlNTFpYSllqRG1YWQ": "2026-11-24T13:31:51.612545+00:00",
+  "web:google news:CBMirgFBVV95cUxOY1REZlBiWVpWZFotODhIckUxQTgzQzgxRGxSU2FlWXZYQ1c0Nl83ZHlURmdhbzhadVlFYXo4dXdmbGx0SmNJUEFGbXhzbnZBQUFZVC1rLWt3TDltZE1xTnZ6aGIxeWU0MnlIVm9HNlRlTTUtN0lvUktibmJ5VzI1RFUtVHNNVGROTjVwbG9CRjI1Y3JuYjNoYnNYS0tvTlpzX0VrejV0eTVoLWpBeHc": "2026-11-24T13:31:51.612545+00:00"
  },
  "publies": [
   {
@@ -2508,11 +2520,20 @@
    "lien": "https://www.instagram.com/p/DgH-HOGkown/",
    "reel": "https://www.instagram.com/reel/DgH-JbUDrEY/",
    "story": "18108170276010420"
+  },
+  {
+   "ts": "2026-11-24T13:31:51.612545+00:00",
+   "categorie": "GAMING",
+   "titre": "GTA 6 Online pourrait sortir seulement en 2027",
+   "source_id": "web:google news:CBMirgFBVV95cUxOY1REZlBiWVpWZFotODhIckUxQTgzQzgxRGxSU2FlWXZYQ1c0Nl83ZHlURmdhbzhadVlFYXo4dXdmbGx0SmNJUEFGbXhzbnZBQUFZVC1rLWt3TDltZE1xTnZ6aGIxeWU0MnlIVm9HNlRlTTUtN0lvUktibmJ5VzI1RFUtVHNNVGROTjVwbG9CRjI1Y3JuYjNoYnNYS0tvTlpzX0VrejV0eTVoLWpBeHc",
+   "lien": "https://www.instagram.com/p/DgIE4Tvl2ec/",
+   "reel": "https://www.instagram.com/reel/DgIE6RJkfvR/",
+   "story": "17931574803427388"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 4808
+  "tweets": 4813
  },
  "x_recherches": {
   "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-24T10:31:53.888029+00:00"

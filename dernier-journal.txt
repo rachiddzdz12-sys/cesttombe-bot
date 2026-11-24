@@ -5,8 +5,8 @@ Instagram · @cesttombe.actu (20 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 42 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → HTTP 503
-Web · GOOGLE NEWS → HTTP 503
+Web · GOOGLE ACTU → 92 infos
+Web · GOOGLE NEWS → 100 infos
 Web · BING ACTU → 2 infos
 Web · BING ACTU VI → 2 infos
 Web · ROCKSTAR INTEL → 10 infos
@@ -17,46 +17,49 @@ Web · GTABASE → 30 infos
 Web · GAMEKULT → 12 infos
 Web · IGN FRANCE → 22 infos
 Web · JEUXVIDEO.COM → 15 infos
-Web · INSIDER GAMING → 6 infos
+Web · INSIDER GAMING → 4 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4804 / 10000)
-X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4805 / 10000)
+X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4809 / 10000)
+X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4810 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-86 infos fraîches et jamais traitées (sur 257 lues)
-   6/10 ✗ déjà publiée « All GTA 6 first update patch notes »
-   3/10 ✗ pas une news « How to get the GTA 6 BF Bandito »
-   8/10 ✗ déjà publiée « GTA 6 "hit Call of Duty HARD," analyst reports, with a 42% drop in dai »
-   6/10 ✓ « Unofficial GTA 6 PC port scrapped as Rockstar allegedly takes down Dis »
-   7/10 ✗ déjà publiée « GTA 6 Leaker Arion Kurtaj Released the Day He Was Sentenced to Seven Y »
-   9/10 ✗ déjà publiée « GTA 6 is "biggest launch in PlayStation history," with Sony reporting  »
-   4/10 ✗ pas une news « All GTA 6 Cheats—Best Grand Theft Auto 6 Cheat Codes »
-   6/10 ✓ « L'application Waink de GTA 6 permet de débloquer de nouvelles coiffure »
-   9/10 ✗ déjà publiée « GTA VI Hits 39 Million PS5 Players in Biggest Launch Ever, Sony Confir »
-   7/10 ✗ déjà publiée « Des joueurs ont découvert un bug permettant d'atteindre les 60 fps sur »
-   2/10 ✗ pas une news « Chercher les Effigies dans les arbres GTA 6 : Où les trouver pour la q »
-   7/10 ✓ « GTA 6 fait mieux que 40 ans de prévention pour la sécurité routière. I »
-   7/10 ✓ « The Australian and New Zealand Version of GTA 6 Really Is Censored Aft »
-   7/10 ✓ « GTA 6 est-il vraiment un briseur de couple ? »
-   9/10 ✗ déjà publiée « GTA 6 a attiré plus de 39 millions de personnes rien que sur PS5 et a  »
-   7/10 ✓ « GTA 6 ou photo IRL ? Le jeu de Rockstar est tellement beau que des gen »
-   9/10 ✗ déjà publiée « GTA 6 marque le plus gros lancement de l'histoire de PlayStation »
-   6/10 ✓ « Exclusive: How Issa Lopez Gives GTA 6’s Cocoteo FM its Puerto Rican Ra »
-   7/10 ✗ déjà publiée « GTA 6 : la première mise à jour post-commercialisation corrige la mété »
-   6/10 ✓ « Voici tous les meilleurs extraits du premier week-end mondial consacré »
-GAMING · 8 infos retenues, meilleure : « GTA 6 fait mieux que 40 ans de prévention pour la sécurité routière. Il fait pre » (7/10)
-  article · 3291 caractères lus
-  photo · 1 image(s) : 1200x675
+258 infos fraîches et jamais traitées (sur 447 lues)
+   0/10 ✗ pas une news « Does GTA 6 Have Darts or Bowling? »
+   6/10 ✗ déjà publiée « Ce bug de GTA 6 permet de jouer à 60 FPS sur Xbox, mais vous ne devrie »
+   2/10 ✗ pas une news « Amazon distribue comme des petits pains le jeu GTA VI ce mercredi, il  »
+   5/10 ✓ « GTA 6 Spotify playlists: How to listen to the Grand Theft Auto VI radi »
+   0/10 ✗ pas une news « Can You Kill Mattia in GTA 6? All Starting From Zero Outcomes »
+   0/10 ✗ pas une news « How to find the serial killer in GTA 6 »
+   0/10 ✗ pas une news « Waiting for GTA 6 on PC? These 5 games capture some of its magic »
+   6/10 ✓ « GTA 6 PC Ports ‘Nuked’ Just Days Before Devs Expected It to Be Playabl »
+   3/10 ✗ pas une news « J'ai joué à GTA VI en streaming sur mon PC, c'était génial, même avec  »
+   4/10 ✗ pas une news « We went to every ‘GTA 6’ club for the ultimate virtual night out in Vi »
+   0/10 ✗ pas une news « GTA 6 Criminal Profile explained: morality levels and how to avoid Irr »
+   0/10 ✗ pas une news « GTA 6 : les 5 fins du jeu vidéo expliquées ! Comment les obtenir ? »
+   0/10 ✗ pas une news « GTA 6 sur PlayStation Portal sans PS5 : comment y jouer en cloud et à  »
+   7/10 ✓ « GTA VI’s jaw-dropping success: in figures »
+   8/10 ✓ « CD Projekt RED Creative Director Jokes Cyberpunk 2 Is Canceled, Callin »
+   6/10 ✗ déjà publiée « New D'Angelo GTA VI song now available on streamers »
+   0/10 ✗ pas une news « GTA 6 Cloud Streaming Guide: How to Stream GTA 6 Without a Console »
+   8/10 ✓ « When Does GTA 6 Online Come Out? Everything We Know »
+   1/10 ✗ pas une news « Petit Papa Noël, quand tu descendras… n’oublie pas GTA VI! »
+   0/10 ✗ pas une news « 5 TV settings to change for GTA VI to make it really pop – and instant »
+GAMING · 5 infos retenues, meilleure : « CD Projekt RED Creative Director Jokes Cyberpunk 2 Is Canceled, Calling Grand Th » (8/10)
+  article · lien Google Actualités non décodé : titre seul
+  ⏭️ article illisible, info écartée : « CD Projekt RED Creative Director Jokes Cyberpunk 2 Is Cancel »
+  article · huffingtonpost.co.uk
+  article · 2330 caractères lus
+  photo · 1 image(s) : 1200x630
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · recherche X « GTA 6 phone driving gameplay » : rien qui montre vraiment le sujet
-  vidéo · recherche X « phone driving » : rien qui montre vraiment le sujet
+  vidéo · recherche X « Danny Clancy Bloomberg GTA 6 interview » : rien qui montre vraiment le sujet
+  vidéo · recherche X « Danny Clancy » : rien qui montre vraiment le sujet
   vidéo · recherche X « GTA 6 gameplay » : rien qui montre vraiment le sujet
-  couverture · photo1 · zoom 1.0 · propre
-  carrousel prêt : « GTA 6 fait prendre conscience des dangers du téléphone » (4 slides)
-  voix · contrôle OK (99%, essai 1, gemini-3.1-flash-tts-preview)
-  voix · Gemini (Aoede) (8.0 s)
-  reel · 9.6 s · 6 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgH-HOGkown/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgH-JbUDrEY/
+  couverture · photo1 · zoom 1.12 · PAS PROPRE
+  carrousel prêt : « GTA 6 Online pourrait sortir seulement en 2027 » (5 slides)
+  voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (10.7 s)
+  reel · 12.4 s · 8 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgIE4Tvl2ec/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgIE6RJkfvR/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : réponse en 47 s · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : réponse en 3 s
+Gemini : gemini-flash-lite-latest : réponse en 3 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3-flash-preview : ReadTimeout après 60 s · gemini-3-flash-preview : réponse en 10 s
