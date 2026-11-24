@@ -2,13 +2,13 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (19 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 42 / 100
+Instagram · posts publiés par l'API sur 24 h : 45 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → HTTP 503
-Web · GOOGLE NEWS → HTTP 503
+Web · GOOGLE ACTU → 100 infos
+Web · GOOGLE NEWS → HTTP 429
 Web · BING ACTU → 12 infos
-Web · BING ACTU VI → 11 infos
+Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
@@ -20,46 +20,49 @@ Web · JEUXVIDEO.COM → 17 infos
 Web · INSIDER GAMING → 9 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4761 / 10000)
-X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4762 / 10000)
-X · « ("GTA 6" OR "GTA VI") filter:native_vide » → 1 tweets lus, 0 gardés (ce mois : 4763 / 10000)
+X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4767 / 10000)
+X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4768 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-95 infos fraîches et jamais traitées (sur 275 lues)
-   9/10 ✓ « GTA 6 : la folie des stats continue avec déjà 39 millions de joueurs r »
-   3/10 ✗ pas une news « How to Get Tommy Vercetti’s Shirt and Angel Motorcycle in GTA 6 »
-   2/10 ✗ pas une news « What Happens If You Go Back to Jason’s House in GTA 6? »
-   9/10 ✗ déjà publiée « Sony Touts Nearly 40 Million GTA 6 Players on PS5 »
-   2/10 ✗ pas une news « How to Get The Fastest Car in GTA 6 For Free—Truffade Andrew Node’s Th »
-   7/10 ✗ déjà publiée « GTA 6 Update 1.002.002 Fixes Failed Autosaves and Missing Story Calls »
-   8/10 ✗ déjà publiée « GTA 6 jouable sur PC ? Pas encore, malgré une nuit avec de vrais progr »
-   2/10 ✗ pas une news « How to Listen to Music on Foot in GTA 6 (Headphones Guide) »
-   3/10 ✗ pas une news « Derrière le succès de GTA VI, le prix du jeu Call of Duty Modern Warfa »
-   7/10 ✗ déjà publiée « Cyberpunk 2 Director Jokes His Game Is Cancelled After Seeing GTA 6 »
-   7/10 ✗ déjà publiée « The Last of Us 2 dev says "GTA 6 is the great pyramids of game develop »
-   8/10 ✓ « La France Insoumise de Jean-Luc Mélenchon répond à jeuxvideo.com sur G »
-   2/10 ✗ pas une news « Meilleures armes GTA 6 : Liste et emplacement des armes légendaires de »
-   8/10 ✓ « Le réalisme de GTA 6 est si extrême que la violence gratuite devient i »
-   2/10 ✗ pas une news « How to Find Underwater Treasure for Kenton in GTA 6 (All Shipwreck Tre »
-   8/10 ✗ déjà publiée « Le leaker GTA 6, Cyberleek, publie un fichier .exe qui correspondrait  »
-   6/10 ✓ « Quote of the Day from Telegram CEO: GTA 6's hardened criminals should  »
-   7/10 ✗ déjà publiée « Hacker behind GTA 6 leak released as judge says "don't let this happen »
-   4/10 ✗ pas une news « On a fait tourner GTA 6 avec le DLSS 5 : nos images comparatives »
-   3/10 ✗ pas une news « Le cloneur de clés est-il vraiment obligatoire pour voler toutes les v »
-GAMING · 4 infos retenues, meilleure : « GTA 6 : la folie des stats continue avec déjà 39 millions de joueurs rien que su » (9/10)
-  article · 1669 caractères lus
-  photo · 2 image(s) : 800x800, 1920x1080
-  contexte · 3 complément(s) : GAMEKULT
+166 infos fraîches et jamais traitées (sur 376 lues)
+   2/10 ✗ pas une news « Guide du chapitre 2 de GTA 6 : les meilleures techniques, stratégies e »
+   2/10 ✗ pas une news « GTA VI : 5 astuces pour échapper à la police dans Vice City »
+   9/10 ✗ déjà publiée « GTA 6 : 39 millions de joueurs sur PS5, le plus gros lancement de l'hi »
+   7/10 ✓ « GTA VI cache un easter egg Mario et Luigi au cœur de Leonida »
+   6/10 ✓ « GTA 6 sur PC : menus à 30 FPS avec XCL malgré la fin de Leonida »
+   8/10 ✓ « Sortie GTA VI : des consoles PS5 en rupture de stock »
+   9/10 ✗ déjà publiée « GTA 6 : la folie des stats continue avec déjà 39 millions de joueurs r »
+   6/10 ✓ « Les Bills chambrent les Dolphins avec GTA VI, une blague lancée avant  »
+   7/10 ✓ « Pour obtenir 60 FPS en 1440p dans GTA 6 sur PC, vous aurez besoin d'un »
+   8/10 ✓ « GTA 6 : les courses-poursuites sont-elles vraiment réalistes ? Un anci »
+   5/10 ✓ « Sortie de GTA VI, pourquoi le stationnement est devenu beaucoup plus s »
+   8/10 ✓ « GTA 6 peut désormais être lancé depuis le cloud sur PlayStation Portal »
+   8/10 ✗ déjà publiée « La PS5 en rupture de stock face au succès de GTA VI »
+   6/10 ✓ « Après la fermeture de Leonid, le projet XCL de Rockstar Games pour GTA »
+   8/10 ✗ déjà publiée « Mise à jour GTA 6 : le premier patch répare la sauvegarde automatique  »
+   8/10 ✗ déjà publiée « [Podcasts] Le 3216 RMC : La PS5 en rupture à cause de GTA 6 - 24/11 »
+   7/10 ✓ « Rockstar Games et Discord ont bloqué le projet de portage de GTA VI de »
+   6/10 ✓ « Le son a été ajouté à la version non officielle de GTA VI sur PC. »
+   7/10 ✓ « KFC offre un disque de remplacement « GTA 6 » en poulet frit »
+   3/10 ✗ pas une news « GTA 6 pas cher pour le Black Friday : où l'acheter au meilleur prix ? »
+GAMING · 12 infos retenues, meilleure : « Sortie GTA VI : des consoles PS5 en rupture de stock » (8/10)
+  article · rmc.bfmtv.com
+  article · 0 caractères lus
+  ⏭️ article illisible, info écartée : « Sortie GTA VI : des consoles PS5 en rupture de stock »
+  article · jeuxvideo.com
+  article · 0 caractères lus
+  ⏭️ article illisible, info écartée : « GTA 6 : les courses-poursuites sont-elles vraiment réalistes »
+  article · fr.gamegpu.com
+  article · 2118 caractères lus
+  photo · 1 image(s) : 2752x1536
+  contexte · 3 complément(s) : @PLAYSTATIONFR, GAMEKULT
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · recherche X « Grand Theft Auto VI PS5 gameplay » : rien qui montre vraiment le sujet
-  vidéo · recherche X « PS5 » : rien qui montre vraiment le sujet
+  vidéo · recherche X « GTA 6 PlayStation Portal cloud streaming » : rien qui montre vraiment le sujet
+  vidéo · recherche X « PlayStation Portal » : rien qui montre vraiment le sujet
   vidéo · recherche X « GTA 6 gameplay » : rien qui montre vraiment le sujet
-  couverture · photo2 · zoom 1.12 · propre
-  carrousel prêt : « GTA 6 : 39 millions de joueurs sur PS5 » (4 slides)
-  voix · ⚠️ refaite, texte différent (73%) : « Synthèse une Français à partir du profil suivant. Rattrapez les news. GTA VI explose les compteurs avec 39 millions de joueurs sur PS5. T'y as déjà joué de ton  »
-  voix · contrôle OK (98%, essai 2, gemini-3.1-flash-tts-preview)
-  voix · Gemini (Aoede) (6.4 s)
-  reel · 8.1 s · 5 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgHSwJwFxlj/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgHS065Eq9x/
-  ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
+  couverture · photo1 · zoom 1.12 · propre
+  carrousel prêt : « GTA 6 arrive en cloud streaming sur PlayStation Portal » (5 slides)
+  voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (8.8 s)
+  reel · 10.4 s · 6 plans dont 0 extraits vidéo · voix + musique
+  ⏭️ déjà publié sur le compte (https://www.instagram.com/p/DgHSwJwFxlj/) : on passe
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : ReadTimeout après 60 s · gemini-flash-latest : ReadTimeout après 60 s · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3-flash-preview : réponse en 12 s · gemini-3-flash-preview : réponse en 9 s · texte sans accents ou sans apostrophes : réécriture demandée · gemini-3-flash-preview : quota atteint (HTTP 429), réessai conseillé dans 3284 s · gemini-3.5-flash : réponse en 26 s
