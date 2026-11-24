@@ -929,7 +929,17 @@
   "web:insider gaming:https://insider-gaming.com/?p=239361": "2026-11-23T22:31:24.207348+00:00",
   "web:gtabase:https://www.gtabase.com/gta-6/articles/how-to-lower-criminal-profile-in-gta-6": "2026-11-23T22:31:24.207348+00:00",
   "web:google actu:CBMikwJBVV95cUxOUHBkVFhUeTVMak1UNVJZWkJTOHR6WUlnZ2gwRFdIZ0hXZDdTVko0OTRLZVY0Y1pJcTFhWUY5aG1fZUljejR0MHR1V2tjaDhfNUxOTVBkREQ3ZVhOMml3ay1vRUI4MkFPTjE1aU02dWM5ZnpsM000clBCMF9ONEcxSW5WbVZzWXVCYUxZd01fb2RDeXNXb3lNa1gzZGVqeUFWeHlfY3F5V2NrWVd4N05FS1lSRGg2UHdkdHJadjROTmdSZzhJNkR1NUp6aGEtbG1yLVptRVlFbDkzMzBCNGZlZjBfSnpOVUNrekJITGZvRGExeVExQk5mN0tnRW1VOEY3d0FFTWZUeF80Nk1tWWJtZzdwMA": "2026-11-23T22:31:24.207348+00:00",
-  "web:jeuxvideo.com:https://www.jeuxvideo.com/news/2116264/on-ne-joue-pas-a-gta-6-pour-acheter-des-fleurs-faire-des-courses-et-renover-un-appart-certains-joueurs-se-plaignent-de-la-simulation-de-couple.htm": "2026-11-23T22:31:24.207348+00:00"
+  "web:jeuxvideo.com:https://www.jeuxvideo.com/news/2116264/on-ne-joue-pas-a-gta-6-pour-acheter-des-fleurs-faire-des-courses-et-renover-un-appart-certains-joueurs-se-plaignent-de-la-simulation-de-couple.htm": "2026-11-23T22:31:24.207348+00:00",
+  "web:gta boom:https://www.gtaboom.com/how-to-get-tommy-vercettis-shirt-and-bike-in-gta-6-3313": "2026-11-24T06:15:28.799834+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=240844": "2026-11-24T06:15:28.799834+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=240825": "2026-11-24T06:15:28.799834+00:00",
+  "web:gtabase:https://www.gtabase.com/gta-6/articles/how-to-listen-to-music-on-foot-in-gta-6": "2026-11-24T06:15:28.799834+00:00",
+  "web:bing actu vi:http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b052b95bf6040419811d03da5afb176&url=https%3a%2f%2fwww.msn.com%2ffr-fr%2factualite%2fother%2fderri%25C3%25A8re-le-succ%25C3%25A8s-de-gta-vi-le-prix-du-jeu-call-of-duty-modern-warfare-4-fond-comme-neige-au-soleil-sur-amazon%2far-AA2i5wF1&c=4098630558822812266&mkt=fr-fr": "2026-11-24T06:15:28.799834+00:00",
+  "web:jeuxvideo.com:https://www.jeuxvideo.com/news/2116600/meilleures-armes-gta-6-liste-et-emplacement-des-armes-uniques-de-la-carte.htm": "2026-11-24T06:15:28.799834+00:00",
+  "web:gtabase:https://www.gtabase.com/gta-6/articles/how-to-find-treasures-underwater-for-kenton-in-gta-6": "2026-11-24T06:15:28.799834+00:00",
+  "web:jeuxvideo.com:https://www.jeuxvideo.com/news/2115863/on-a-fait-tourner-gta-6-avec-le-dlss-5-nos-images-comparatives.htm": "2026-11-24T06:15:28.799834+00:00",
+  "web:ign france:https://fr.ign.com/grand-theft-auto-6/94201/le-cloneur-de-cles-est-il-vraiment-obligatoire-pour-voler-toutes-les-voitures-de-gta-6": "2026-11-24T06:15:28.799834+00:00",
+  "web:gamekult:https://www.gamekult.com/actualite/gta-6-la-folie-des-stats-continue-avec-deja-39-millions-de-joueurs-rien-que-sur-ps5-revele-sony-3050873156.html": "2026-11-24T06:15:28.799834+00:00"
  },
  "publies": [
   {
@@ -2412,13 +2422,22 @@
    "lien": "https://www.instagram.com/p/DgGdqZ2jaKE/",
    "reel": "https://www.instagram.com/reel/DgGdsO0iQhM/",
    "story": "18099509306690350"
+  },
+  {
+   "ts": "2026-11-24T06:15:28.799834+00:00",
+   "categorie": "GAMING",
+   "titre": "GTA 6 : 39 millions de joueurs sur PS5",
+   "source_id": "web:gamekult:https://www.gamekult.com/actualite/gta-6-la-folie-des-stats-continue-avec-deja-39-millions-de-joueurs-rien-que-sur-ps5-revele-sony-3050873156.html",
+   "lien": "https://www.instagram.com/p/DgHSwJwFxlj/",
+   "reel": "https://www.instagram.com/reel/DgHS065Eq9x/",
+   "story": "17876157984640303"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 4760
+  "tweets": 4766
  },
  "x_recherches": {
-  "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-23T18:32:07.548977+00:00"
+  "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-24T06:16:03.745661+00:00"
  }
 }

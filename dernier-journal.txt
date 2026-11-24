@@ -5,8 +5,8 @@ Instagram · @cesttombe.actu (19 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 42 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → 92 infos
-Web · GOOGLE NEWS → HTTP 429
+Web · GOOGLE ACTU → HTTP 503
+Web · GOOGLE NEWS → HTTP 503
 Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 11 infos
 Web · ROCKSTAR INTEL → 10 infos
@@ -14,52 +14,52 @@ Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
-Web · GAMEKULT → 11 infos
+Web · GAMEKULT → 12 infos
 Web · IGN FRANCE → 16 infos
-Web · JEUXVIDEO.COM → 18 infos
-Web · INSIDER GAMING → 7 infos
+Web · JEUXVIDEO.COM → 17 infos
+Web · INSIDER GAMING → 9 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4756 / 10000)
-X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4757 / 10000)
+X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4761 / 10000)
+X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4762 / 10000)
+X · « ("GTA 6" OR "GTA VI") filter:native_vide » → 1 tweets lus, 0 gardés (ce mois : 4763 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-187 infos fraîches et jamais traitées (sur 365 lues)
-   6/10 ✗ déjà publiée « Rockstar Games a publié une mise à jour corrective pour GTA VI. »
+95 infos fraîches et jamais traitées (sur 275 lues)
+   9/10 ✓ « GTA 6 : la folie des stats continue avec déjà 39 millions de joueurs r »
+   3/10 ✗ pas une news « How to Get Tommy Vercetti’s Shirt and Angel Motorcycle in GTA 6 »
+   2/10 ✗ pas une news « What Happens If You Go Back to Jason’s House in GTA 6? »
+   9/10 ✗ déjà publiée « Sony Touts Nearly 40 Million GTA 6 Players on PS5 »
+   2/10 ✗ pas une news « How to Get The Fastest Car in GTA 6 For Free—Truffade Andrew Node’s Th »
    7/10 ✗ déjà publiée « GTA 6 Update 1.002.002 Fixes Failed Autosaves and Missing Story Calls »
-   5/10 ✓ « Après la découverte de GTA 6, Le réalisateur de Cyberpunk 2 annule son »
-   8/10 ✗ déjà publiée « On parle de milliards de dollars ! Après 13 ans d'attente, GTA VI entr »
-   0/10 ✗ pas une news « Best Early Game Locations For Easy Cash in GTA 6—Fast Money-Making, Ex »
-   8/10 ✓ « GTA 6 : il envoie la photo de personnages nus croisés dans le jeu à un »
-   9/10 ✓ « "On ne joue pas à GTA 6 pour acheter des fleurs, faire des courses et  »
-   9/10 ✓ « "On ne joue pas à GTA 6 pour acheter des fleurs, faire des courses et  »
-   6/10 ✓ « A Cyberpunk 2 Director Joked His Game Was Cancelled After Seeing GTA 6 »
-   5/10 ✓ « L’engagement sur Roblox n’a pas été sensiblement affecté par GTA VI, s »
-   7/10 ✓ « Chris Stassy et KETTAMA dévoilent leur collaboration issue de GTA VI »
-   7/10 ✗ déjà publiée « Sur Xbox, GTA VI atteint 60 FPS grâce à un bug, mais le jeu tourne aus »
-   7/10 ✗ déjà publiée « GTA VI : 7 ans de prison pour le hacker à l'origine des fuites »
-   7/10 ✗ déjà publiée « L'homme à l'origine des fuites de vidéos de GTA VI condamné à sept ans »
-   8/10 ✗ déjà publiée « The Last of Us 2 dev says "GTA 6 is the great pyramids of game develop »
-   6/10 ✗ déjà publiée « GTA 6 : le hacker de la fuite de 2022 libéré après une condamnation de »
-   7/10 ✗ déjà publiée « Sept ans de prison pour le pirate qui avait dévoilé des images volées  »
-   0/10 ✗ pas une news « How to Lower Criminal Profile in GTA 6 »
-   6/10 ✓ « L'utilisation de FSR 4.1.2 dans GTA 6 sur Xbox Series X peut entraîner »
-   7/10 ✗ déjà publiée « «GTA VI»: premières impressions sur le plus beau (et l’un des plus che »
-GAMING · 8 infos retenues, meilleure : « "On ne joue pas à GTA 6 pour acheter des fleurs, faire des courses et rénover un » (9/10)
-  article · lien Google Actualités non décodé : titre seul
-  ⏭️ article illisible, info écartée : « "On ne joue pas à GTA 6 pour acheter des fleurs, faire des c »
-  article · 256 caractères lus
-  photo · aucune image
+   8/10 ✗ déjà publiée « GTA 6 jouable sur PC ? Pas encore, malgré une nuit avec de vrais progr »
+   2/10 ✗ pas une news « How to Listen to Music on Foot in GTA 6 (Headphones Guide) »
+   3/10 ✗ pas une news « Derrière le succès de GTA VI, le prix du jeu Call of Duty Modern Warfa »
+   7/10 ✗ déjà publiée « Cyberpunk 2 Director Jokes His Game Is Cancelled After Seeing GTA 6 »
+   7/10 ✗ déjà publiée « The Last of Us 2 dev says "GTA 6 is the great pyramids of game develop »
+   8/10 ✓ « La France Insoumise de Jean-Luc Mélenchon répond à jeuxvideo.com sur G »
+   2/10 ✗ pas une news « Meilleures armes GTA 6 : Liste et emplacement des armes légendaires de »
+   8/10 ✓ « Le réalisme de GTA 6 est si extrême que la violence gratuite devient i »
+   2/10 ✗ pas une news « How to Find Underwater Treasure for Kenton in GTA 6 (All Shipwreck Tre »
+   8/10 ✗ déjà publiée « Le leaker GTA 6, Cyberleek, publie un fichier .exe qui correspondrait  »
+   6/10 ✓ « Quote of the Day from Telegram CEO: GTA 6's hardened criminals should  »
+   7/10 ✗ déjà publiée « Hacker behind GTA 6 leak released as judge says "don't let this happen »
+   4/10 ✗ pas une news « On a fait tourner GTA 6 avec le DLSS 5 : nos images comparatives »
+   3/10 ✗ pas une news « Le cloneur de clés est-il vraiment obligatoire pour voler toutes les v »
+GAMING · 4 infos retenues, meilleure : « GTA 6 : la folie des stats continue avec déjà 39 millions de joueurs rien que su » (9/10)
+  article · 1669 caractères lus
+  photo · 2 image(s) : 800x800, 1920x1080
+  contexte · 3 complément(s) : GAMEKULT
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · recherche X « Grand Theft Auto VI Lucia gameplay » : rien qui montre vraiment le sujet
-  vidéo · recherche X « Lucia » : rien qui montre vraiment le sujet
+  vidéo · recherche X « Grand Theft Auto VI PS5 gameplay » : rien qui montre vraiment le sujet
+  vidéo · recherche X « PS5 » : rien qui montre vraiment le sujet
   vidéo · recherche X « GTA 6 gameplay » : rien qui montre vraiment le sujet
-  couverture · photo1 · zoom 1.8 · propre
-  slide 3 · photo2 : pas de zone parfaitement propre
-  carrousel prêt : « Grand Theft Auto VI visé par un review bombing » (4 slides)
-  voix · contrôle OK (96%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (8.5 s)
-  reel · 10.2 s · 6 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgGdqZ2jaKE/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgGdsO0iQhM/
+  couverture · photo2 · zoom 1.12 · propre
+  carrousel prêt : « GTA 6 : 39 millions de joueurs sur PS5 » (4 slides)
+  voix · ⚠️ refaite, texte différent (73%) : « Synthèse une Français à partir du profil suivant. Rattrapez les news. GTA VI explose les compteurs avec 39 millions de joueurs sur PS5. T'y as déjà joué de ton  »
+  voix · contrôle OK (98%, essai 2, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (6.4 s)
+  reel · 8.1 s · 5 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgHSwJwFxlj/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgHS065Eq9x/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 6 s
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
