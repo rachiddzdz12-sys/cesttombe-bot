@@ -1,11 +1,5 @@
 {
  "vus": {
-  "ig:17892081096653879": "2026-11-10T11:31:23.885009+00:00",
-  "ig:18098616629440145": "2026-11-10T11:31:23.885009+00:00",
-  "ig:18122783027068348": "2026-11-10T11:31:23.885009+00:00",
-  "x:2119816177144717698": "2026-11-10T11:31:23.885009+00:00",
-  "x:2119738266459009290": "2026-11-10T11:31:23.885009+00:00",
-  "x:2119904623750529395": "2026-11-10T11:31:23.885009+00:00",
   "ag:https://www.actugaming.net/?p=832957": "2026-11-10T12:32:19.326527+00:00",
   "ag:https://www.actugaming.net/?p=833037": "2026-11-10T12:32:19.326527+00:00",
   "ig:17915677626595849": "2026-11-10T13:34:32.028043+00:00",
@@ -962,7 +956,11 @@
   "ag:https://www.actugaming.net/?p=835368": "2026-11-24T10:31:35.577968+00:00",
   "ag:https://www.actugaming.net/?p=835363": "2026-11-24T10:31:35.577968+00:00",
   "web:google actu:CBMihgFBVV95cUxPM0hfVVROOHl2M09Ydm9EeTFweGxnZDVEcmdtSnVhYjBIVk9pX0lfVkhqUU1zSkdtNWltbzJ6c1ZMcHY3RHJFaWVWVzVjOWhPUE5XcExXODlNb2o1ZDNETlBBMVp1dzdUUFgxY1ZzU01PS0Qzd0s2XzNMZHpaNXdlbWNvbzNPQQ": "2026-11-24T10:31:35.577968+00:00",
-  "web:ign france:https://fr.ign.com/grand-theft-auto-6/94213/les-joueurs-de-gta-6-ont-le-seum-parce-que-le-nouveau-train-peut-etre-arrete-contrairement-a-celui-d": "2026-11-24T10:31:35.577968+00:00"
+  "web:ign france:https://fr.ign.com/grand-theft-auto-6/94213/les-joueurs-de-gta-6-ont-le-seum-parce-que-le-nouveau-train-peut-etre-arrete-contrairement-a-celui-d": "2026-11-24T10:31:35.577968+00:00",
+  "web:google news:CBMiggFBVV95cUxNMVRlNm9td3hfUVZDcWRseFotbkdwSzd4WnNDdFpuamZVMEJoMGxaUmx2U3hvSzloVlNBdUktWWlZZkluRzhyRk96TlhmaG5vVHNsMXlueFd3a2ZxaUFjQUpWX3h1SXdIdV9iTTBpekJqcXhQWmg5azRPcDRtaWF0eXl3": "2026-11-24T11:31:31.212013+00:00",
+  "web:google news:CBMipAFBVV95cUxNb2xtLXllUmFSRFc0Ym5FSU0xRDc3V3FiQ2hjOVFVX1dHRHktd3JiTE5WY0FiV2poR25MUm5NYzF4dk5iQzlPd09xcXk3QTA5eE9DbDl0M1VSWkc1YzVSY2U1QzFSVlN6djNHNDBRVzdTaHZvQzVNUnN0ZlZaUTEwZ1NpYXcwRXowSUphdHFXWTVHc2tyeTBRWWN4SmJiUFFTOVJUMNIBqwFBVV95cUxPSFNScnJwT2s4bjczTU5WS2FkNVktLVRGNzVqeHRvTFJHaWczMVNBWW1ITFZJYkZqRXFtUDlzQjdRSy1xa1RfaDVEeHg0b0hKN3N5YlI2cUZkWU5GV2d0anRoM3o2bmJSWmFHTnJ6VG1vUGNfdE1ZdXc0NmNtWF9jTzJJTVp4Mk1YXy1pOXhxRUpwNU9yakZjVTB0SnV4S0MzamJXNy1xYzdLTEE": "2026-11-24T11:31:31.212013+00:00",
+  "web:google news:CBMipwFBVV95cUxQdlk5Qzg2NlJLNDU3Y3FfdjFtLVhNZ2pkNVZFNFdRMjdUazRYMGNXdTFTOVRMVTdUUmtSc1dWVTNLSjE3ZUlHSHkyRDNnMzY2aG9qb0p5Y1A1RTl1MGNxTUtHRDBMeGhwQ1QxNlBNUHRPTm9SZnNoaTlaaEZLMmk2blFIU3VpSmkzWDBvRk1ZOWJzajk0VFRGMmR2TVJYbkdSSVk1TGtHUQ": "2026-11-24T11:31:31.212013+00:00",
+  "web:rockstar intel:https://rockstarintel.com/?p=44879": "2026-11-24T11:31:31.212013+00:00"
  },
  "publies": [
   {
@@ -2490,11 +2488,20 @@
    "lien": "https://www.instagram.com/p/DgHwOsXIOBE/",
    "reel": "https://www.instagram.com/reel/DgHwVHgjjUO/",
    "story": "18000228039111007"
+  },
+  {
+   "ts": "2026-11-24T11:31:31.212013+00:00",
+   "categorie": "GAMING",
+   "titre": "Une version de GTA 6 leakée sur PC",
+   "source_id": "web:rockstar intel:https://rockstarintel.com/?p=44879",
+   "lien": "https://www.instagram.com/p/DgH3B9dCevV/",
+   "reel": "https://www.instagram.com/reel/DgH3KfCmaYG/",
+   "story": "17897312727436933"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 4798
+  "tweets": 4803
  },
  "x_recherches": {
   "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-24T10:31:53.888029+00:00"
