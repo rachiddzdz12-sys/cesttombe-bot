@@ -2,12 +2,12 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (19 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 42 / 100
+Instagram · posts publiés par l'API sur 24 h : 45 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → 92 infos
+Web · GOOGLE ACTU → 93 infos
 Web · GOOGLE NEWS → 100 infos
-Web · BING ACTU → 12 infos
+Web · BING ACTU → 2 infos
 Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
@@ -17,46 +17,65 @@ Web · GTABASE → 30 infos
 Web · GAMEKULT → 11 infos
 Web · IGN FRANCE → 20 infos
 Web · JEUXVIDEO.COM → 15 infos
-Web · INSIDER GAMING → 7 infos
+Web · INSIDER GAMING → 5 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4834 / 10000)
-X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4835 / 10000)
+X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4837 / 10000)
+X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4838 / 10000)
+X · « ("GTA 6" OR "GTA VI") filter:native_vide » → 1 tweets lus, 0 gardés (ce mois : 4839 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-286 infos fraîches et jamais traitées (sur 467 lues)
-   6/10 ✓ « Quote of the Day from GTA 6 writer: "We want players to be emotionally »
-   7/10 ✓ « Ultime bafouille - GTA 6 Online cultive autant de questions que de pro »
-   6/10 ✓ « 'GTA 6' drives streaming surge for Carly Rae Jepsen's 'Run Away With M »
-   5/10 ✓ « Highland man faces charges after GTA VI threats at Walmart »
-   4/10 ✗ trop faible (mini 5) « New GTA VI Release Puts Teen Sleep to the Test During School Break »
-   8/10 ✓ « Simulateur de vies, détails hyperréalistes, mécanismes cachés : pourqu »
-   7/10 ✓ « Lana Del Rey and Louisiana alligator tour guide husband featured in GT »
-   6/10 ✓ « GTA 6 : les cartes officielles Panini sortent en décembre 2026 »
-   3/10 ✗ pas une news « GTA 6 est un bon jeu d’action, mais c'est la partie infiltration qui f »
-   8/10 ✓ « Les joueurs de GTA 6 optimisent à l'extrême une faille pour faire de l »
-   7/10 ✓ « Gary Plauche, who killed son’s kidnapper in Baton Rouge airport, appea »
-   6/10 ✓ « Blockbuster GTA VI Raises Bar for CD Projekt RED’s Next Games »
-   6/10 ✓ « GTA VI tops the UK retail chart, while Black Friday deals push first-p »
-   7/10 ✓ « GTA 6 "isn't trying to make you a simp" it's just "daring" you to be h »
-   5/10 ✓ « ‘The Blood of Dawnwalker’ and ‘Grand Theft Auto VI’ lead the AP’s list »
-   6/10 ✗ déjà publiée « ‘Grand Theft Auto VI: The Album’ Adds 4 More Songs Following Deluxe Ed »
-   6/10 ✓ « Pour contrer l’absentéisme lié à GTA VI, cette école fait gagner à ses »
-   7/10 ✗ déjà publiée « GTA 6 n'a même pas encore de mode Online et Call of Duty aurait déjà p »
-   6/10 ✓ « Le raz-de-marée provoqué par GTA VI à des conséquences : où peut-on tr »
-   7/10 ✓ « Des moddeurs ont lancé GTA 6 sur PC à environ 4 FPS. »
-GAMING · 16 infos retenues, meilleure : « Simulateur de vies, détails hyperréalistes, mécanismes cachés : pourquoi GTA 6 e » (8/10)
-  article · lefigaro.fr
-  article · 1397 caractères lus
-  photo · 1 image(s) : 1200x630
+286 infos fraîches et jamais traitées (sur 456 lues)
+   6/10 ✓ « GTA VI Has Wild Monkeys. The Real Florida Has Them Too — and There's a »
+   2/10 ✗ pas une news « A Month In, and I Thought I'd Seen All of GTA 6. I Was So Wrong »
+   5/10 ✓ « Why Every GTA Is Better Than the Last, as Explained by the Former Take »
+   7/10 ✓ « GTA 6 Gets Real Trading Cards Based on In-Game Collectibles »
+   8/10 ✓ « GTA VI, plus grand lancement de l’histoire de PlayStation : à peine te »
+   8/10 ✓ « GTA 6, la course au portage PC commence dans le sillage des fuites »
+   0/10 ✗ pas une news « Chapitre 3 GTA 6 : Liste des missions, comment toutes les finir ? »
+   6/10 ✓ « GTA VI Netflix trailer tripled the weekly sales pace, while launch wee »
+   8/10 ✓ « Pour contrer l’absentéisme lié à GTA VI, cette école fait gagner à ses »
+   0/10 ✗ pas une news « Where To Find The New Best Car In ‘GTA 6,’ Which Can Steal ATMs »
+   2/10 ✗ pas une news « I felt some GTA 6 story missions were too easy, so I asked Rockstar if »
+   8/10 ✗ déjà publiée « Catastrophic GTA 6 leak officially kickstarts race for PC port »
+   7/10 ✓ « GTA 6 Cloud Streaming Reaches PS Plus Premium: PS5 and PS Portal Yes,  »
+   7/10 ✗ déjà publiée « GTA VI Official Trading Cards Announced by Panini »
+   8/10 ✓ « GTA 6 reportedly reaches in-game rendering on PC just a day after Xbox »
+   7/10 ✗ déjà publiée « Listen to ‘Grand Theft Auto VI: The Album’ deluxe edition »
+   7/10 ✗ déjà publiée « GTA 6 Cloud Streaming Comes To PS5 And PlayStation Portal »
+   7/10 ✓ « Comment GTA VI relance le débat sur le sexisme dans les jeux vidéo… et »
+   0/10 ✗ pas une news « How to download GTA VI faster – 4 ways to boost your speed »
+   8/10 ✓ « En France, GTA 6 a été le 2e meilleur lancement d’un jeu physique de l »
+   3/10 ✗ trop faible (mini 9) « Star Wars Galactic Racer va ajouter des véhicules en provenance de The »
+   2/10 ✗ pas une news « Votez dès maintenant pour les Steam Awards afin d’élire les meilleurs  »
+   9/10 ✓ « Nintendo vous fait oublier le mauvais temps avec le retour de Wave Rac »
+GAMING · 12 infos retenues, meilleure : « GTA VI, plus grand lancement de l’histoire de PlayStation : à peine testé, déjà  » (8/10)
+  article · chaosreign.fr
+  article · 2524 caractères lus
+  photo · 1 image(s) : 1024x635
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · recherche « GTA 6 trailer gameplay » trop vague : pas de vidéo
+  vidéo · recherche X « GTA 6 gameplay Vice City PS5 » : rien qui montre vraiment le sujet
+  vidéo · recherche X « Vice City » : rien qui montre vraiment le sujet
   vidéo · recherche X « GTA 6 gameplay » : rien qui montre vraiment le sujet
-  couverture · photo1 · zoom 1.12 · propre
-  carrousel prêt : « GTA 6 explose les records avec 32,5 millions de ventes » (4 slides)
-  voix · contrôle OK (94%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (8.4 s)
-  reel · 10.1 s · 6 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgIjqwbF8pd/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgIjttOic7S/
+  couverture · photo1 · zoom 1.0 · propre
+  slide 4 · photo2 : pas de zone parfaitement propre
+  carrousel prêt : « GTA VI devient le plus grand lancement de l'histoire PlayStation » (5 slides)
+  voix · contrôle OK (98%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (9.6 s)
+  reel · 11.3 s · 7 plans dont 0 extraits vidéo · voix + musique
+  ⏭️ déjà publié sur le compte (https://www.instagram.com/p/DgHSwJwFxlj/) : on passe
+  article · new-game-plus.fr
+  article · 2914 caractères lus
+  photo · 1 image(s) : 2804x1577
+  visuels · steam « Grand Theft Auto VI » → 4 image(s)
+  vidéo · recherche X « GTA 6 CyberLeek leak build menu » : rien qui montre vraiment le sujet
+  vidéo · recherche X « CyberLeek build » : rien qui montre vraiment le sujet
+  vidéo · recherche X « GTA 6 gameplay » : rien qui montre vraiment le sujet
+  couverture · photo1 · zoom 1.25 · propre
+  carrousel prêt : « GTA 6 : Rockstar supprimé un projet de portage PC » (5 slides)
+  voix · contrôle OK (98%, essai 1, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (9.5 s)
+  reel · 11.2 s · 7 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgIq_QUFzZF/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgIrBZ6ib8g/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3-flash-preview : réponse en 14 s · gemini-3-flash-preview : réponse en 8 s · gemini-3-flash-preview : ReadTimeout après 60 s · gemini-3-flash-preview : réponse en 8 s
