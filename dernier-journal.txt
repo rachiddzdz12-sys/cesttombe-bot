@@ -5,10 +5,10 @@ Instagram · @cesttombe.actu (20 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 42 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → 92 infos
-Web · GOOGLE NEWS → 100 infos
-Web · BING ACTU → 10 infos
-Web · BING ACTU VI → 12 infos
+Web · GOOGLE ACTU → HTTP 503
+Web · GOOGLE NEWS → HTTP 503
+Web · BING ACTU → 2 infos
+Web · BING ACTU VI → 2 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
@@ -20,44 +20,43 @@ Web · JEUXVIDEO.COM → 15 infos
 Web · INSIDER GAMING → 6 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4799 / 10000)
-X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4800 / 10000)
+X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4804 / 10000)
+X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4805 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-257 infos fraîches et jamais traitées (sur 467 lues)
-   6/10 ✓ « Quand la police judiciaire se met aux couleurs de GTA VI »
-   5/10 ✓ « 'The Blood of Dawnwalker' and 'Grand Theft Auto VI' lead the AP's list »
-   8/10 ✗ déjà publiée « GTA 6 Becomes the Biggest Launch in PlayStation History With Over 39 U »
-   7/10 ✓ « Qui sont les acteurs qui jouent dans GTA 6 ? »
-   7/10 ✗ déjà publiée « Patch GTA 6 : premier correctif post-lancement, plantages, météo bloqu »
-   7/10 ✓ « GTA 6 démarre déjà sur PC quelques jours après sa sortie »
-   3/10 ✗ pas une news « 5 ways GTA 6 revolutionises the open-world genre »
-   7/10 ✓ « Pour le Birkin aux couleurs de GTA 6 porté par Lana Del Rey fait le bu »
-   4/10 ✗ trop faible (mini 5) « GTA 6 interactive: How India is experiencing the world’s biggest gamin »
-   8/10 ✓ « Unofficial GTA 6 PC port scrapped as Rockstar allegedly takes down Dis »
-   8/10 ✓ « GTA VI Is Coming To PC Thanks To Major Leak »
-   8/10 ✗ déjà publiée « Rockstar is trying to have the unofficial PC port for GTA VI taken dow »
-   6/10 ✓ « This Crazy Secret In GTA 6 Takes You Back In Time »
-   8/10 ✗ déjà publiée « GTA 6 Hacker Who Pleaded Guilty Is Released on License »
-   6/10 ✓ « Why isn't GTA 6 on PC? Rockstar's console-first habit, and why fans go »
-   8/10 ✗ déjà publiée « PlayStation claims 39 million players for GTA VI, making it the bigges »
-   8/10 ✓ « GTA VI Player Banned From PlayStation Network for Sharing Photo He Too »
-   5/10 ✓ « Lyon. GTA VI : quand le jeu vidéo inspire une troupe de théâtre d’impr »
-   8/10 ✗ déjà publiée « Hacker Arion Kurtaj Is a Free Man After a Seven-Year Sentence for the  »
-   7/10 ✗ déjà publiée « GTA 6 : PlayStation est le grand gagnant de cette histoire »
-   4/10 ✗ trop faible (mini 9) « Nintendo Switch 2 adds free retro racer to GameCube library, but somet »
-GAMING · 11 infos retenues, meilleure : « GTA VI Is Coming To PC Thanks To Major Leak » (8/10)
-  photo · 2 image(s) : 1024x576, 1280x720
-  contexte · 3 complément(s) : ROCKSTAR INTEL, SELECTRA
+86 infos fraîches et jamais traitées (sur 257 lues)
+   6/10 ✗ déjà publiée « All GTA 6 first update patch notes »
+   3/10 ✗ pas une news « How to get the GTA 6 BF Bandito »
+   8/10 ✗ déjà publiée « GTA 6 "hit Call of Duty HARD," analyst reports, with a 42% drop in dai »
+   6/10 ✓ « Unofficial GTA 6 PC port scrapped as Rockstar allegedly takes down Dis »
+   7/10 ✗ déjà publiée « GTA 6 Leaker Arion Kurtaj Released the Day He Was Sentenced to Seven Y »
+   9/10 ✗ déjà publiée « GTA 6 is "biggest launch in PlayStation history," with Sony reporting  »
+   4/10 ✗ pas une news « All GTA 6 Cheats—Best Grand Theft Auto 6 Cheat Codes »
+   6/10 ✓ « L'application Waink de GTA 6 permet de débloquer de nouvelles coiffure »
+   9/10 ✗ déjà publiée « GTA VI Hits 39 Million PS5 Players in Biggest Launch Ever, Sony Confir »
+   7/10 ✗ déjà publiée « Des joueurs ont découvert un bug permettant d'atteindre les 60 fps sur »
+   2/10 ✗ pas une news « Chercher les Effigies dans les arbres GTA 6 : Où les trouver pour la q »
+   7/10 ✓ « GTA 6 fait mieux que 40 ans de prévention pour la sécurité routière. I »
+   7/10 ✓ « The Australian and New Zealand Version of GTA 6 Really Is Censored Aft »
+   7/10 ✓ « GTA 6 est-il vraiment un briseur de couple ? »
+   9/10 ✗ déjà publiée « GTA 6 a attiré plus de 39 millions de personnes rien que sur PS5 et a  »
+   7/10 ✓ « GTA 6 ou photo IRL ? Le jeu de Rockstar est tellement beau que des gen »
+   9/10 ✗ déjà publiée « GTA 6 marque le plus gros lancement de l'histoire de PlayStation »
+   6/10 ✓ « Exclusive: How Issa Lopez Gives GTA 6’s Cocoteo FM its Puerto Rican Ra »
+   7/10 ✗ déjà publiée « GTA 6 : la première mise à jour post-commercialisation corrige la mété »
+   6/10 ✓ « Voici tous les meilleurs extraits du premier week-end mondial consacré »
+GAMING · 8 infos retenues, meilleure : « GTA 6 fait mieux que 40 ans de prévention pour la sécurité routière. Il fait pre » (7/10)
+  article · 3291 caractères lus
+  photo · 1 image(s) : 1200x675
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · recherche X « GTA 6 PC leak build menu » : rien qui montre vraiment le sujet
-  vidéo · recherche X « PC build » : rien qui montre vraiment le sujet
+  vidéo · recherche X « GTA 6 phone driving gameplay » : rien qui montre vraiment le sujet
+  vidéo · recherche X « phone driving » : rien qui montre vraiment le sujet
   vidéo · recherche X « GTA 6 gameplay » : rien qui montre vraiment le sujet
-  couverture · photo2 · zoom 1.0 · propre
-  carrousel prêt : « Une version de GTA 6 leakée sur PC » (4 slides)
-  voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (5.9 s)
-  reel · 7.5 s · 5 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgH3B9dCevV/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgH3KfCmaYG/
+  couverture · photo1 · zoom 1.0 · propre
+  carrousel prêt : « GTA 6 fait prendre conscience des dangers du téléphone » (4 slides)
+  voix · contrôle OK (99%, essai 1, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (8.0 s)
+  reel · 9.6 s · 6 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgH-HOGkown/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgH-JbUDrEY/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : ReadTimeout après 60 s · gemini-flash-lite-latest : réponse en 9 s · gemini-flash-lite-latest : réponse en 9 s
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : réponse en 47 s · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : réponse en 3 s
