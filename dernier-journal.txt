@@ -1,1 +1,80 @@
-Pas de post : dernier post il y a 28 min (minimum 40)
+Mode : auto
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @cesttombe.actu (20 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 42 / 100
+Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
+  10 infos retenues après filtre
+Web · GOOGLE ACTU → 100 infos
+Web · GOOGLE NEWS → 100 infos
+Web · BING ACTU → 2 infos
+Web · BING ACTU VI → 11 infos
+Web · ROCKSTAR INTEL → 10 infos
+Web · DEXERTO → 50 infos
+Web · GTA BOOM → 30 infos
+Web · GAMESRADAR → 50 infos
+Web · GTABASE → 30 infos
+Web · GAMEKULT → 12 infos
+Web · IGN FRANCE → 23 infos
+Web · JEUXVIDEO.COM → 16 infos
+Web · INSIDER GAMING → 6 infos
+Instagram · @rockstargames → 12 posts lus, 12 gardés
+Instagram · @playstationfr → 12 posts lus, 6 gardés
+X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4790 / 10000)
+X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4791 / 10000)
+X · « ("GTA 6" OR "GTA VI") filter:native_vide » → 1 tweets lus, 0 gardés (ce mois : 4792 / 10000)
+Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
+260 infos fraîches et jamais traitées (sur 468 lues)
+   6/10 ✗ déjà publiée « Overmono, Chris Stassy, Kettama : une édition deluxe de l'album de GTA »
+   9/10 ✓ « « Le plus grand lancement de l’histoire de PlayStation »… « GTA 6 » pr »
+   9/10 ✗ déjà publiée « « Le plus grand lancement de l’histoire de PlayStation »… « GTA 6 » pr »
+   7/10 ✓ « Les joueurs de GTA 6 ont le seum parce que le nouveau train peut être  »
+   7/10 ✗ déjà publiée « Les joueurs de GTA 6 ont le seum parce que le nouveau train peut être  »
+   3/10 ✗ pas une news « GTA 6 Wasted or Busted: What You Lose, Including Your Pocket Cash »
+   9/10 ✗ déjà publiée « « GTA 6 » : Sony parle du « plus grand lancement de l’histoire de Play »
+   9/10 ✗ déjà publiée « GTA 6 établit un nouveau record historique sur PlayStation »
+   6/10 ✓ « Grand Theft Auto 6 fans spot north Florida landmarks in video game »
+   5/10 ✓ « GTA VI : 20 millions de personnes touchées en 48h pour jeuxvideo.com »
+   5/10 ✓ « Les seniors jouent à GTA VI / Les panneaux de direction ... »
+   6/10 ✓ « ‘Grand Theft Auto VI’ is a historic success. It could also be the last »
+   4/10 ✗ déjà publiée « GTA VI Review: The Best Stories Begin With a Wrong Turn »
+   2/10 ✗ pas une news « GTA 6 gets surprise PlayStation Plus perk that lets you play without a »
+   9/10 ✗ déjà publiée « GTA 6 is Officially the Biggest Launch in PlayStation History »
+   5/10 ✓ « Gone but not forgotten: Cape Romano Dome Homes appear in GTA 6 »
+   6/10 ✗ déjà publiée « GTA 6 Super Mario Easter Egg: 1 Block, 2 Hats »
+   7/10 ✗ déjà publiée « UK 'Grand Theft Auto VI' hacker gets 7-year sentence »
+   4/10 ✗ pas une news « GTA 6 est jouable en streaming sans PS5 grâce au PlayStation Portal, u »
+   4/10 ✗ trop faible (mini 5) « The poison of Grand Theft Auto VI »
+   5/10 ✗ trop faible (mini 9) « Koei Tecmo fête les 30 ans de Dead or Alive en rappelant que Dead or A »
+   5/10 ✗ trop faible (mini 9) « L’édition Complete de Nioh 3 est confirmée avec une version Xbox, le s »
+GAMING · 7 infos retenues, meilleure : « « Le plus grand lancement de l’histoire de PlayStation »… « GTA 6 » propulse la  » (9/10)
+  article · fr.news.yahoo.com
+  article · 1824 caractères lus
+  photo · 1 image(s) : 1200x769
+  contexte · 3 complément(s) : ACTUGAMING, GAMEKULT, ROCKSTAR INTEL
+  visuels · steam « Grand Theft Auto VI » → 4 image(s)
+  vidéo · recherche X « GTA 6 PS5 gameplay » : rien qui montre vraiment le sujet
+  vidéo · recherche X « PS5 » : rien qui montre vraiment le sujet
+  vidéo · recherche X « GTA 6 gameplay » : rien qui montre vraiment le sujet
+  couverture · photo1 · zoom 1.0 · PAS PROPRE
+  slide 3 · photo3 : pas de zone parfaitement propre
+  carrousel prêt : « GTA 6 réalise le plus grand lancement de l'histoire de PlayStation » (4 slides)
+  voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (8.0 s)
+  reel · 9.6 s · 6 plans dont 0 extraits vidéo · voix + musique
+  ⏭️ déjà publié sur le compte (https://www.instagram.com/p/DgHSwJwFxlj/) : on passe
+  article · 6000 caractères lus
+  photo · 1 image(s) : 1200x675
+  visuels · steam « Grand Theft Auto VI » → 4 image(s)
+  vidéo · recherche X « GTA 6 train stop gameplay » : rien qui montre vraiment le sujet
+  vidéo · recherche X « train stop » : rien qui montre vraiment le sujet
+  vidéo · recherche X « GTA 6 gameplay » : rien qui montre vraiment le sujet
+  couverture · photo1 · zoom 1.0 · propre
+  carrousel prêt : « Le train de GTA 6 peut être arrêté facilement » (4 slides)
+  voix · contrôle OK (94%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (7.5 s)
+  reel · 9.1 s · 6 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgHwOsXIOBE/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgHwVHgjjUO/
+  ✅ STORY PUBLIÉE (vidéo)
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s

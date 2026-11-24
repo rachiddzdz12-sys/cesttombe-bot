@@ -1,7 +1,5 @@
 {
  "vus": {
-  "ag:https://www.actugaming.net/?p=833054": "2026-11-10T10:35:05.111210+00:00",
-  "x:2120085554838528016": "2026-11-10T10:35:05.111210+00:00",
   "ig:17892081096653879": "2026-11-10T11:31:23.885009+00:00",
   "ig:18098616629440145": "2026-11-10T11:31:23.885009+00:00",
   "ig:18122783027068348": "2026-11-10T11:31:23.885009+00:00",
@@ -956,7 +954,15 @@
   "web:google actu:CBMipgFBVV95cUxPOXlHQ0dQd3pKcW5iUWdkZmxRWkRCWm8zNm5UMDdLUW9qVE5xa05hdU11NjB5eWRPYnBiSDcyN3NnSzJ6cG1wVzRwQzJuZGpYRVlub3haS2NhZzBrbHpuQmo0TEVIcGYyUzg0aS1FazJRRzBqYkRwMkNOZWF1c2RSS2JRd1ZWTFF5R3Vfei1JdktzeF9aU014dGZyWk0yYndQVVJMdGtR": "2026-11-24T09:32:02.561919+00:00",
   "web:google news:CBMisAFBVV95cUxNaXhQNjZRaVlGTHBDWng3WldBUDdNamZMcHhtb0ZzZzE0ZEZXS255RklzUTlPOURWQmZVRUtsYWJyS1lCcldlZGktUFBiSWdZbmRocEYxRU1nZFdtYkk1b29fd0hkSmNjSkJNSlhzMFdHUHBrajFYZlNwNUJhbXdxZm9uV1pwbFA5ZE9aVUZIUkc0ZU5pR3ZyUlFrSnhYRklEUDdjdlFKRlo3OG94TDl1Wg": "2026-11-24T09:32:02.561919+00:00",
   "web:google news:CBMingFBVV95cUxNVG10TDlnWTQyWkVMNngyYS1CVDRDdC0yY3ZhTnFhemFMVk5CV0dSTHRkMVByc3QwYXRxVDUtaEliX05tOS13RXdmS0t1X2ZRVWtCQ00zc1RHcm5zT1AweHBaeFdTbzFPaEk0bjlFN2tJbWVmVTNfQ292Y2VZUk1NcUZXLTJaMVB6dHpSdnZBMEVMeUdVQkJZOVM4MEtmZw": "2026-11-24T09:32:02.561919+00:00",
-  "web:ign france:https://fr.ign.com/call-of-duty-modern-warfare-4/94215/gta-6-a-tue-call-of-duty-ou-au-moins-la-blesse-tres-gravement": "2026-11-24T09:32:02.561919+00:00"
+  "web:ign france:https://fr.ign.com/call-of-duty-modern-warfare-4/94215/gta-6-a-tue-call-of-duty-ou-au-moins-la-blesse-tres-gravement": "2026-11-24T09:32:02.561919+00:00",
+  "web:google news:CBMiiwFBVV95cUxNSFdwdTJ3RU1uSGE4X3VMUlByNVRRbW9Qang1bnpGRURMYUdUY1JnOXE2UENvaFU1NmtvZ283RkhJOEFTTGlBV01VeGdGdXlPcjZMYUFURDd4dEhfbFh3YU1nbkhUQUk0YzU1V29YMTRVcWVXU3RoaS1KQXdKb1J2ZXphS05zRVJYVVFZ": "2026-11-24T10:31:35.577968+00:00",
+  "web:google news:CBMisAFBVV95cUxOYXVQcWgtQXh2MEpBZ25EaUozLWt3VWl1c21ZMXBxbGNyNGhza29Ibm9pci04MGR6c0RIMmcyZjM3Rm4weUtMV2JIVE95VXdwdVlDcWFZNndKcDZuVEVnbmF1dkpCZHhkX1IzMnFPbUhUU3FpTGI1ZEVYNlN1enphcWtFUW1IWXdMVmRkcFBtYmtmZE1GRlZNc3U3ek1lenUwR0ZsdjRRTzVCcV9LMkkyTA": "2026-11-24T10:31:35.577968+00:00",
+  "web:google actu:CBMi-gFBVV95cUxOUUQ5c1lQS1VlblAwUGIwdlF5ZHJpdm5rbmZFQnIydDQwcEVvWnNTbnNNbFBITTEtZFJ1eWJIanB1NWZEQTVwS0JkT3hENmExbzFIYWpFOF9qNWZWM0UxT0tMNndSTG5jNmJZdzE1djhyN3ZEc2FKOGVQN0kxNjRMY1AtN0EwcC1xcmxJLXdvWEV5Tzk5RXNubC1jcGFCbFV0TFhLdktmRGZ4RWExSjQtVWxUVjVfY0U2alE3VXZfenpwekZ6OVctUEhZZm1wNGNNOVBNZ0Mwdy0zNkdjaEJZRWgwZUNrMUhnbnVLQnltNXZfYU9Pc0M5SFFR": "2026-11-24T10:31:35.577968+00:00",
+  "web:google news:CBMixgFBVV95cUxPMkRmdXh0QXNqeEhqYjQ4Sm0xNUh3RC1YczFhSXF5R0lBXzBFdkhUVmNhRE0xR2J6SER2V3ZKZmlyN1JBRmhMRXpJaDZuaEVsSEY4UWZmN2pydktGUG4wQ1kyX1ZFQ08wWUEtdkY1NUF5SWFjLWJDQ1Bib2lIcGV5ZlRUc0hWQmVFQVVZWlBqYkNlalljM29aanB0eGJqZkZRTXJFdUZXRFkyYlVYUkltS0xpM1dqRWpQV3VCZWRxaDhKZmdMY2c": "2026-11-24T10:31:35.577968+00:00",
+  "ag:https://www.actugaming.net/?p=835368": "2026-11-24T10:31:35.577968+00:00",
+  "ag:https://www.actugaming.net/?p=835363": "2026-11-24T10:31:35.577968+00:00",
+  "web:google actu:CBMihgFBVV95cUxPM0hfVVROOHl2M09Ydm9EeTFweGxnZDVEcmdtSnVhYjBIVk9pX0lfVkhqUU1zSkdtNWltbzJ6c1ZMcHY3RHJFaWVWVzVjOWhPUE5XcExXODlNb2o1ZDNETlBBMVp1dzdUUFgxY1ZzU01PS0Qzd0s2XzNMZHpaNXdlbWNvbzNPQQ": "2026-11-24T10:31:35.577968+00:00",
+  "web:ign france:https://fr.ign.com/grand-theft-auto-6/94213/les-joueurs-de-gta-6-ont-le-seum-parce-que-le-nouveau-train-peut-etre-arrete-contrairement-a-celui-d": "2026-11-24T10:31:35.577968+00:00"
  },
  "publies": [
   {
@@ -2475,13 +2481,22 @@
    "lien": "https://www.instagram.com/p/DgHpOgxoGBG/",
    "reel": "https://www.instagram.com/reel/DgHpQQBkdzf/",
    "story": "17990932095093310"
+  },
+  {
+   "ts": "2026-11-24T10:31:35.577968+00:00",
+   "categorie": "GAMING",
+   "titre": "Le train de GTA 6 peut être arrêté facilement",
+   "source_id": "web:ign france:https://fr.ign.com/grand-theft-auto-6/94213/les-joueurs-de-gta-6-ont-le-seum-parce-que-le-nouveau-train-peut-etre-arrete-contrairement-a-celui-d",
+   "lien": "https://www.instagram.com/p/DgHwOsXIOBE/",
+   "reel": "https://www.instagram.com/reel/DgHwVHgjjUO/",
+   "story": "18000228039111007"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 4789
+  "tweets": 4798
  },
  "x_recherches": {
-  "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-24T06:16:03.745661+00:00"
+  "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-24T10:31:53.888029+00:00"
  }
 }
