@@ -2,11 +2,11 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (19 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 45 / 100
+Instagram · posts publiés par l'API sur 24 h : 42 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → 100 infos
-Web · GOOGLE NEWS → HTTP 429
+Web · GOOGLE ACTU → 93 infos
+Web · GOOGLE NEWS → 100 infos
 Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
@@ -17,52 +17,66 @@ Web · GTABASE → 30 infos
 Web · GAMEKULT → 12 infos
 Web · IGN FRANCE → 16 infos
 Web · JEUXVIDEO.COM → 17 infos
-Web · INSIDER GAMING → 9 infos
+Web · INSIDER GAMING → 8 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4767 / 10000)
-X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4768 / 10000)
+X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4772 / 10000)
+X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4773 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-166 infos fraîches et jamais traitées (sur 376 lues)
-   2/10 ✗ pas une news « Guide du chapitre 2 de GTA 6 : les meilleures techniques, stratégies e »
-   2/10 ✗ pas une news « GTA VI : 5 astuces pour échapper à la police dans Vice City »
+248 infos fraîches et jamais traitées (sur 468 lues)
+   8/10 ✓ « GTA 6 : il met le jeu en pause, sa PS5 part en fumée en plein live »
+   1/10 ✗ pas une news « Can You Take the Birds Behind Three Sheets Liquor in GTA 6’s Shirley’s »
+   7/10 ✗ déjà publiée « Plus de 39 millions d'utilisateurs de PS5 ont lancé Grand Theft Auto V »
+   7/10 ✗ déjà publiée « Over 39 million PS5 users have launched Grand Theft Auto VI in the fir »
+   8/10 ✓ « GTA 6 a réalisé le plus grand lancement de l’histoire de PlayStation »
+   5/10 ✓ « Telegram CEO Pavel Durov Says GTA 6 Is Unrealistic Without Telegram »
+   6/10 ✓ « 'Une simulation titanesque' : comment GTA 6 transforme le jeu vidéo en »
+   5/10 ✓ « GTA 6 ou le cache-misère du jeu vidéo »
+   0/10 ✗ pas une news « GTA 6 Prologue guide: how Lucia’s Hamlet Prison opening plays out »
+   7/10 ✓ « La mise à jour de GTA 6 ne corrige pas le plantage CE-108255-1 sur PS5 »
+   6/10 ✓ « Alors que le portage PC de GTA 6 est en passe de devenir jouable, Rock »
+   6/10 ✓ « Le PlayStation Portal peut diffuser GTA 6 en streaming via le cloud sa »
+   7/10 ✓ « Cyberleek publie le .exe de la version Xbox de GTA 6, augmentant les c »
+   7/10 ✓ « GTA 6 pourrait mettre la PS6 de Sony à genoux : selon le leaker Kepler »
+   7/10 ✓ « Un easter egg de GTA 6 vous ramène à Vice City en 2002 »
+   7/10 ✓ « Le portage de GTA 6 sur PC avance à une vitesse vertigineuse »
+   6/10 ✗ déjà publiée « GTA VI tourne jusqu’à 60 FPS sur Xbox Series X grâce à un bug »
    9/10 ✗ déjà publiée « GTA 6 : 39 millions de joueurs sur PS5, le plus gros lancement de l'hi »
-   7/10 ✓ « GTA VI cache un easter egg Mario et Luigi au cœur de Leonida »
-   6/10 ✓ « GTA 6 sur PC : menus à 30 FPS avec XCL malgré la fin de Leonida »
-   8/10 ✓ « Sortie GTA VI : des consoles PS5 en rupture de stock »
-   9/10 ✗ déjà publiée « GTA 6 : la folie des stats continue avec déjà 39 millions de joueurs r »
-   6/10 ✓ « Les Bills chambrent les Dolphins avec GTA VI, une blague lancée avant  »
-   7/10 ✓ « Pour obtenir 60 FPS en 1440p dans GTA 6 sur PC, vous aurez besoin d'un »
-   8/10 ✓ « GTA 6 : les courses-poursuites sont-elles vraiment réalistes ? Un anci »
-   5/10 ✓ « Sortie de GTA VI, pourquoi le stationnement est devenu beaucoup plus s »
-   8/10 ✓ « GTA 6 peut désormais être lancé depuis le cloud sur PlayStation Portal »
-   8/10 ✗ déjà publiée « La PS5 en rupture de stock face au succès de GTA VI »
-   6/10 ✓ « Après la fermeture de Leonid, le projet XCL de Rockstar Games pour GTA »
-   8/10 ✗ déjà publiée « Mise à jour GTA 6 : le premier patch répare la sauvegarde automatique  »
-   8/10 ✗ déjà publiée « [Podcasts] Le 3216 RMC : La PS5 en rupture à cause de GTA 6 - 24/11 »
-   7/10 ✓ « Rockstar Games et Discord ont bloqué le projet de portage de GTA VI de »
-   6/10 ✓ « Le son a été ajouté à la version non officielle de GTA VI sur PC. »
-   7/10 ✓ « KFC offre un disque de remplacement « GTA 6 » en poulet frit »
-   3/10 ✗ pas une news « GTA 6 pas cher pour le Black Friday : où l'acheter au meilleur prix ? »
-GAMING · 12 infos retenues, meilleure : « Sortie GTA VI : des consoles PS5 en rupture de stock » (8/10)
-  article · rmc.bfmtv.com
-  article · 0 caractères lus
-  ⏭️ article illisible, info écartée : « Sortie GTA VI : des consoles PS5 en rupture de stock »
-  article · jeuxvideo.com
-  article · 0 caractères lus
-  ⏭️ article illisible, info écartée : « GTA 6 : les courses-poursuites sont-elles vraiment réalistes »
-  article · fr.gamegpu.com
-  article · 2118 caractères lus
-  photo · 1 image(s) : 2752x1536
-  contexte · 3 complément(s) : @PLAYSTATIONFR, GAMEKULT
+   8/10 ✓ « GTA VI cache un easter egg Mario et Luigi au cœur de Leonida »
+   4/10 ✗ trop faible (mini 5) « GTA 6 sur PC : menus à 30 FPS avec XCL malgré la fin de Leonida »
+   0/10 ✗ pas une news « Commanders' Jayden Daniels-themed post aimed at Bengals tops NFL Week  »
+GAMING · 13 infos retenues, meilleure : « GTA 6 : il met le jeu en pause, sa PS5 part en fumée en plein live » (8/10)
+  article · tomsguide.fr
+  article · 2657 caractères lus
+  photo · 1 image(s) : 2048x1366
+  rédaction impossible pour « GTA 6 : il met le jeu en pause, sa PS5 part en fumée en plei » : réponse incomplète (titre ou slides manquants)
+  article · numerama.com
+  article · 3077 caractères lus
+  photo · 1 image(s) : 1600x900
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · recherche X « GTA 6 PlayStation Portal cloud streaming » : rien qui montre vraiment le sujet
-  vidéo · recherche X « PlayStation Portal » : rien qui montre vraiment le sujet
+  vidéo · recherche X « GTA 6 PS5 gameplay » : rien qui montre vraiment le sujet
+  vidéo · recherche X « PS5 » : rien qui montre vraiment le sujet
   vidéo · recherche X « GTA 6 gameplay » : rien qui montre vraiment le sujet
-  couverture · photo1 · zoom 1.12 · propre
-  carrousel prêt : « GTA 6 arrive en cloud streaming sur PlayStation Portal » (5 slides)
-  voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
+  couverture · photo1 · zoom 1.0 · propre
+  carrousel prêt : « GTA 6 réalise le plus grand lancement de l'histoire de PlayStation » (4 slides)
+  voix · contrôle OK (98%, essai 1, gemini-3.8-flash-tts)
   voix · Gemini (Aoede) (8.8 s)
   reel · 10.4 s · 6 plans dont 0 extraits vidéo · voix + musique
   ⏭️ déjà publié sur le compte (https://www.instagram.com/p/DgHSwJwFxlj/) : on passe
-Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : ReadTimeout après 60 s · gemini-flash-latest : ReadTimeout après 60 s · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3-flash-preview : réponse en 12 s · gemini-3-flash-preview : réponse en 9 s · texte sans accents ou sans apostrophes : réécriture demandée · gemini-3-flash-preview : quota atteint (HTTP 429), réessai conseillé dans 3284 s · gemini-3.5-flash : réponse en 26 s
+  article · p-nintendo.com
+  article · 303 caractères lus
+  photo · 1 image(s) : 1024x512
+  visuels · steam « Grand Theft Auto VI » → 4 image(s)
+  vidéo · recherche X « GTA 6 Mario Easter egg » : rien qui montre vraiment le sujet
+  vidéo · recherche X « Mario Easter » : rien qui montre vraiment le sujet
+  vidéo · recherche X « GTA 6 gameplay » : rien qui montre vraiment le sujet
+  couverture · photo1 · zoom 1.0 · PAS PROPRE
+  slide 3 · photo5 : pas de zone parfaitement propre
+  carrousel prêt : « GTA VI cache un easter egg Mario et Luigi au coeur de Leonida » (4 slides)
+  voix · contrôle OK (98%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (6.7 s)
+  reel · 8.4 s · 5 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgHbpDVDv18/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgHbsJfGfXP/
+  ✅ STORY PUBLIÉE (vidéo)
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
