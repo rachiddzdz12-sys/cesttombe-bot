@@ -1,14 +1,14 @@
 Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
-Instagram · @cesttombe.actu (19 abonnés)
+Instagram · @cesttombe.actu (18 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 45 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → HTTP 429
+Web · GOOGLE ACTU → 93 infos
 Web · GOOGLE NEWS → 100 infos
 Web · BING ACTU → 2 infos
-Web · BING ACTU VI → 12 infos
+Web · BING ACTU VI → 2 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
@@ -16,49 +16,49 @@ Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
 Web · GAMEKULT → 10 infos
 Web · IGN FRANCE → 17 infos
-Web · JEUXVIDEO.COM → 15 infos
+Web · JEUXVIDEO.COM → 14 infos
 Web · INSIDER GAMING → 3 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4846 / 10000)
-X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4847 / 10000)
+X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4851 / 10000)
+X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4852 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-195 infos fraîches et jamais traitées (sur 357 lues)
-   3/10 ✗ pas une news « PlayStation Plus drops 4 more games, including a must-play GTA 6 alter »
-   6/10 ✓ « I Can’t Believe It, They Put One Of Our Cars In Grand Theft Auto VI »
-   5/10 ✓ « Missed GTA 6’s Vintage Vice City bonus? Rockstar is now selling the pa »
-   6/10 ✓ « More Than Half of GTA 6 Watch Time on Streaming Platforms Came From Vi »
-   8/10 ✓ « GTA 6 Just Resurrected a 70s Pop Duo's Forgotten Song, Sending Its Str »
-   2/10 ✗ pas une news « Top 20 Fastest Cars In GTA 6—All Locations & How To Get Them »
-   2/10 ✗ pas une news « GTA 6 Players Should Do This Immediately Upon Starting The Game »
-   7/10 ✓ « GTA 6 Sparks Privacy Concerns Over What Rockstar Games and Take-Two Kn »
-   4/10 ✗ pas une news « 'GTA 6' chapter 1 is so good that I'm afraid to move on to chapter 2 »
-   6/10 ✓ « ‘Grand Theft Auto VI’ Album’s Secret Weapon? The ‘Barbie’ Soundtrack C »
-   1/10 ✗ pas une news « GTA 6 Launches at $79.99 on PS5 and Xbox, PC Undated »
-   7/10 ✓ « Dad Who Shot and Killed His Son’s Alleged Abuser at Airport in 1984 Ap »
-   6/10 ✓ « GTA 6 Data Reveals Only 40% of Players Have Cleared Chapter 2 »
-   7/10 ✓ « Woman Says Men Who Play GTA 6 Are Not High Value »
-   0/10 ✗ pas une news « Grand Theft Auto VI »
-   8/10 ✓ « According To A Research Firm ‘GTA 6’ Has Accomplished Something It Too »
-   4/10 ✗ pas une news « Here’s How To Listen To The Radio On Foot In GTA 6 Using Headphones »
-   8/10 ✗ déjà publiée « Grand Theft Auto VI Is PlayStation's Biggest Launch Ever With Over 39  »
-   5/10 ✓ « GTA VI Has Wild Monkeys. The Real Florida Has Them Too — and There's a »
-   5/10 ✓ « Temple Owls appear in the virtual world of ‘Grand Theft Auto VI’ »
-   3/10 ✗ pas une news « Nintendo vous fait oublier le mauvais temps avec le retour de Wave Rac »
-GAMING · 12 infos retenues, meilleure : « GTA 6 Just Resurrected a 70s Pop Duo's Forgotten Song, Sending Its Streams Soari » (8/10)
-  article · vice.com
-  article · 2016 caractères lus
-  photo · 1 image(s) : 1200x676
+273 infos fraîches et jamais traitées (sur 439 lues)
+   0/10 ✗ pas une news « GTA 6 - Mod Shop Locations, How to Customize Your Car and More »
+   6/10 ✓ « 'Crazy Secretive' — GTA 6 Voice Actor Reveals Details of Rockstar's 'H »
+   8/10 ✓ « The Final Act Podcast in GTA 6 Tells You What Happened to Michael, Fra »
+   7/10 ✓ « ‘Call of Duty’ And ‘Fortnite’ Engagement Plunges After ‘GTA VI’ Releas »
+   6/10 ✓ « Review: ‘Grand Theft Auto VI’ focuses on romance but there’s more to l »
+   7/10 ✓ « Exclusive: Sabii Garcia on the Drink Pose and Green Jersey in the GTA  »
+   8/10 ✗ déjà publiée « «C’est absolument génial» : Sylvie Vartan de retour dans les charts gr »
+   0/10 ✗ pas une news « Here’s How To Get A Banshee In GTA 6 And Unlock A GTA 3 -Inspired Trop »
+   0/10 ✗ pas une news « How to Find and Complete the La Cascara Motel Illegal Operation in GTA »
+   6/10 ✓ « ‘GTA VI’ Just Achieved Something Completely Unexpected »
+   8/10 ✓ « "Ça nous paraissait tellement évident de mettre The Weeknd dessus" : J »
+   3/10 ✗ pas une news « Should Christians Play GTA 6? Christian YouTuber Ruslan KD Weighs In »
+   4/10 ✗ pas une news « Pascalou découvre GTA VI - L’ABC de Bertrand Chameroy - 24/11/2026 »
+   7/10 ✓ « Nous avons rencontré le vrai Jason Duval, héros de GTA VI… et il est n »
+   8/10 ✗ déjà publiée « “Une surprise totale” : Sylvie Vartan voit l’écoute d’un de ses titres »
+   8/10 ✗ déjà publiée « The first 'GTA 6' patch is live: 7 fixes address fan complaints »
+   8/10 ✓ « "On n'était pas sûrs d'être forcément les bonnes personnes" : comment  »
+   6/10 ✓ « Just Like GTA 6, The Witcher 4 Has A PlayStation Deal »
+   5/10 ✓ « In 'GTA VI,' every stolen car is a music discovery machine »
+   8/10 ✗ déjà publiée « GTA 6 fait exploser les écoutes de Danse ta vie , une chanson de Sylvi »
+   1/10 ✗ pas une news « Video clips: Interview with Ian Scurlock of Smiling Sun Tattoo »
+GAMING · 11 infos retenues, meilleure : « The Final Act Podcast in GTA 6 Tells You What Happened to Michael, Franklin and  » (8/10)
+  article · 5753 caractères lus
+  photo · 1 image(s) : 1920x1080
+  contexte · 1 complément(s) : GAMESRADAR
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · recherche X « GTA 6 Extended Look Netflix trailer » : rien qui montre vraiment le sujet
-  vidéo · recherche X « Extended Netflix » : rien qui montre vraiment le sujet
+  vidéo · recherche X « GTA 6 Final Act podcast Michael Trevor » : rien qui montre vraiment le sujet
+  vidéo · recherche X « Final Act » : rien qui montre vraiment le sujet
   vidéo · recherche X « GTA 6 gameplay » : rien qui montre vraiment le sujet
-  couverture · photo1 · zoom 1.0 · propre
-  carrousel prêt : « GTA 6 fait exploser les streams de Captain & Tennille » (4 slides)
-  voix · contrôle OK (95%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (10.1 s)
-  reel · 11.8 s · 7 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgIxYMLgBEq/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgIxZ4wghmT/
+  couverture · photo1 · zoom 1.12 · propre
+  carrousel prêt : « GTA 6 révèle le destin de Michael, Franklin et Trevor » (5 slides)
+  voix · contrôle OK (99%, essai 1, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (10.7 s)
+  reel · 12.3 s · 8 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgI4XW-jGKq/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgI4ZTAlCgO/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : quota atteint (HTTP 429), réessai conseillé dans 43054 s · gemini-3.5-flash-lite : réponse en 2 s · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3-flash-preview : réponse en 9 s · texte sans accents ou sans apostrophes : réécriture demandée · gemini-3-flash-preview : réponse en 10 s
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : réponse en 2 s · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3-flash-preview : réponse en 11 s
