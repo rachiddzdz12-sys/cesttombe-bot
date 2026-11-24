@@ -952,7 +952,11 @@
   "web:google news:CBMijwFBVV95cUxPZE1MM2JvUldvaGliNnFiOGRtUGZfbXFydzBZV2JJd051SGJ1QkRNWWdYY2c1M2Y2SEN6TTF2cUdkM0hzbElFY3lYTE9ma2xLRHBmU2ZTOFVTZVBodS1LdGJiMldVSkFFcFR5UjhxQ01xOFFMZkN0Ny1XWl9JVmxSdlR3TkJOQ0dJdDBaTmE2aw": "2026-11-24T08:31:32.920402+00:00",
   "web:google news:CBMingFBVV95cUxPVTk5QTd4aXhMNzFOR2xuMC1DZnRIWlFtUWxMU0RHOTZQZGcwRDliZEljS0JteHZZMEw0VHh1WGxfa1B0YjljcVdmRWQ3VmFkQkxsck1hUlQ4aVZ5cklNOFVRR3hqcTlibjZMS09kaEpJZlJIN1BBLWhMZW45Y1RnUmxpaV9JSWJJdThDckhYZHFNTkFJaTlKYU5adTFtdw": "2026-11-24T08:31:32.920402+00:00",
   "web:google actu:CBMipwFBVV95cUxQVUxsR3RZcWphaDVsT2hyOHJfUGxINGNVbTY0ZklQcFZBanlVSmRNbk9GRUQ2clo5NDZEaVIxWFRKbGdoNEhuc1pKdFdiaFdBVTlmMlE3NU1Sd0w1a0I4alpRWHNrQVhPSmtUT3A2NzZyX1AtTkxqQ09GZjZ4dk1Jcy01N1g3MW42dHZzRi1OVDg3TEh5VW9GelNzdTJHMmdvUmRScU5JMA": "2026-11-24T08:31:32.920402+00:00",
-  "web:google news:CBMiakFVX3lxTFBBUFpSNkF1Rk9QbTU0RG1uQ0Q5YmhvdTFPYW9hQkhkZnY1OEVqVk5CTEozbU4zS2llc1Q1NEJ6SUhBTTVEeWJSSDRrUExVMndTNUcyemhMbjQ0VXYwUUtQb2lJVkZDSkhmVnc": "2026-11-24T08:31:32.920402+00:00"
+  "web:google news:CBMiakFVX3lxTFBBUFpSNkF1Rk9QbTU0RG1uQ0Q5YmhvdTFPYW9hQkhkZnY1OEVqVk5CTEozbU4zS2llc1Q1NEJ6SUhBTTVEeWJSSDRrUExVMndTNUcyemhMbjQ0VXYwUUtQb2lJVkZDSkhmVnc": "2026-11-24T08:31:32.920402+00:00",
+  "web:google actu:CBMipgFBVV95cUxPOXlHQ0dQd3pKcW5iUWdkZmxRWkRCWm8zNm5UMDdLUW9qVE5xa05hdU11NjB5eWRPYnBiSDcyN3NnSzJ6cG1wVzRwQzJuZGpYRVlub3haS2NhZzBrbHpuQmo0TEVIcGYyUzg0aS1FazJRRzBqYkRwMkNOZWF1c2RSS2JRd1ZWTFF5R3Vfei1JdktzeF9aU014dGZyWk0yYndQVVJMdGtR": "2026-11-24T09:32:02.561919+00:00",
+  "web:google news:CBMisAFBVV95cUxNaXhQNjZRaVlGTHBDWng3WldBUDdNamZMcHhtb0ZzZzE0ZEZXS255RklzUTlPOURWQmZVRUtsYWJyS1lCcldlZGktUFBiSWdZbmRocEYxRU1nZFdtYkk1b29fd0hkSmNjSkJNSlhzMFdHUHBrajFYZlNwNUJhbXdxZm9uV1pwbFA5ZE9aVUZIUkc0ZU5pR3ZyUlFrSnhYRklEUDdjdlFKRlo3OG94TDl1Wg": "2026-11-24T09:32:02.561919+00:00",
+  "web:google news:CBMingFBVV95cUxNVG10TDlnWTQyWkVMNngyYS1CVDRDdC0yY3ZhTnFhemFMVk5CV0dSTHRkMVByc3QwYXRxVDUtaEliX05tOS13RXdmS0t1X2ZRVWtCQ00zc1RHcm5zT1AweHBaeFdTbzFPaEk0bjlFN2tJbWVmVTNfQ292Y2VZUk1NcUZXLTJaMVB6dHpSdnZBMEVMeUdVQkJZOVM4MEtmZw": "2026-11-24T09:32:02.561919+00:00",
+  "web:ign france:https://fr.ign.com/call-of-duty-modern-warfare-4/94215/gta-6-a-tue-call-of-duty-ou-au-moins-la-blesse-tres-gravement": "2026-11-24T09:32:02.561919+00:00"
  },
  "publies": [
   {
@@ -2462,11 +2466,20 @@
    "lien": "https://www.instagram.com/p/DgHiUNxj4cV/",
    "reel": "https://www.instagram.com/reel/DgHiWIJiCBP/",
    "story": "17922461595464253"
+  },
+  {
+   "ts": "2026-11-24T09:32:02.561919+00:00",
+   "categorie": "GAMING",
+   "titre": "Call of Duty perd 42 pour cent de joueurs suite a la sortie de",
+   "source_id": "web:ign france:https://fr.ign.com/call-of-duty-modern-warfare-4/94215/gta-6-a-tue-call-of-duty-ou-au-moins-la-blesse-tres-gravement",
+   "lien": "https://www.instagram.com/p/DgHpOgxoGBG/",
+   "reel": "https://www.instagram.com/reel/DgHpQQBkdzf/",
+   "story": "17990932095093310"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 4784
+  "tweets": 4789
  },
  "x_recherches": {
   "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-24T06:16:03.745661+00:00"
