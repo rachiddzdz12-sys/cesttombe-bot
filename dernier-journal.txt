@@ -2,12 +2,12 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (20 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 42 / 100
+Instagram · posts publiés par l'API sur 24 h : 45 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → 92 infos
+Web · GOOGLE ACTU → HTTP 429
 Web · GOOGLE NEWS → 100 infos
-Web · BING ACTU → 12 infos
+Web · BING ACTU → 11 infos
 Web · BING ACTU VI → 11 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
@@ -17,48 +17,12 @@ Web · GTABASE → 30 infos
 Web · GAMEKULT → 11 infos
 Web · IGN FRANCE → 20 infos
 Web · JEUXVIDEO.COM → 15 infos
-Web · INSIDER GAMING → 9 infos
+Web · INSIDER GAMING → 7 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4827 / 10000)
-X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4828 / 10000)
+X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4832 / 10000)
+X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4833 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-276 infos fraîches et jamais traitées (sur 468 lues)
-   7/10 ✓ « La comparaison des graphismes de GTA 6 sur PS5 Pro et Xbox Series S ré »
-   7/10 ✓ « Overmono Made About 50 Original Songs for GTA VI, BMG Says »
-   8/10 ✓ « GTA VI : +35 % de congés posés en France le jour de la sortie »
-   7/10 ✓ « How long does it take to beat GTA 6? »
-   8/10 ✓ « Raté : en pleine partie de GTA VI, le streamer Anyme se moque de Rouen »
-   8/10 ✗ déjà publiée « Il avait fait fuiter 90 vidéos de GTA 6 avant sa sortie : Arion Kurtaj »
-   7/10 ✓ « D’Angelo’s ‘GTA VI’ Song “Kamikaze” Released as Brother Teases Future  »
-   2/10 ✗ pas une news « GTA 6 Strangers & Freaks trophy: the 8 stranger strands and which ones »
-   1/10 ✗ pas une news « GTA 6 Declasse Vamos garage door code »
-   9/10 ✓ « Rockstar Reportedly Open to Selling Red Dead Redemption TV Rights »
-   6/10 ✓ « GTA 6 recréé par une IA en 24 heures : le résultat est catastrophique »
-   9/10 ✓ « GTA 6 s’est vendu à 1 millions d’exemplaires physiques rien qu’en Fran »
-   9/10 ✗ déjà publiée « GTA 6 s'est vendu à 1 millions d'exemplaires physiques rien qu'en Fran »
-   2/10 ✗ pas une news « GTA VI Is a Romance Novel, But Rockstar Still Only Scratches the Surfa »
-   8/10 ✓ « GTA 6 est tellement un immense carton qu’il provoque des pénuries de P »
-   2/10 ✗ pas une news « ‘Grand Theft Auto VI’ built a familiar – and darker – world from the g »
-   2/10 ✗ pas une news « 'Grand Theft Auto VI' lives up to the hype as a global phenomenon »
-   7/10 ✗ déjà publiée « D’Angelo’s Estate Releases ‘Kamikazi,’ Featured in ‘Grand Theft Auto V »
-   1/10 ✗ pas une news « How to Find & Complete Tractor Revenge Encounter in GTA 6 »
-   1/10 ✗ pas une news « Where to find Auntie’s Place in GTA 6 »
-   3/10 ✗ trop faible (mini 9) « Sans surprise, Showa American Story ne sortira pas cette année, son st »
-GAMING · 10 infos retenues, meilleure : « Rockstar Reportedly Open to Selling Red Dead Redemption TV Rights » (9/10)
-  article · 1568 caractères lus
-  photo · 1 image(s) : 1920x1080
-  contexte · 3 complément(s) : DEXERTO, GAMEKULT, ROCKSTAR INTEL
-  visuels · steam « Red Dead Redemption 2 » → 4 image(s)
-  vidéo · recherche X « Red Dead Redemption 2 cinematic trailer » : rien qui montre vraiment le sujet
-  vidéo · recherche X « Red Dead » : rien qui montre vraiment le sujet
-  vidéo · recherche X « GTA 6 gameplay » : rien qui montre vraiment le sujet
-  couverture · photo1 · zoom 1.8 · propre
-  carrousel prêt : « Rockstar vendrait les droits de Red Dead Redemption pour 100 millions » (5 slides)
-  voix · contrôle OK (98%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (8.0 s)
-  reel · 9.7 s · 6 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgIZc1HjTbH/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgIZf6kEZx5/
-  ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : ReadTimeout après 60 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3-flash-preview : réponse en 13 s · gemini-3-flash-preview : réponse en 10 s
+197 infos fraîches et jamais traitées (sur 373 lues)
+GAMING · tri IA impossible : Gemini n'a pas répondu correctement : gemini-3.5-flash : surchargé (HTTP 503)
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3-flash-preview : surchargé (HTTP 503) · gemini-3-flash-preview : surchargé (HTTP 503) · gemini-3.1-flash-lite : ReadTimeout après 60 s · gemini-3.1-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash : surchargé (HTTP 503) · gemini-3.5-flash : surchargé (HTTP 503)
