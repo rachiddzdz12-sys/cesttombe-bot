@@ -1,1 +1,40 @@
-Pas de post : dernier post il y a 209 min (minimum 210)
+Mode : auto
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @le.bruit.rap (16 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 9 / 100
+Rap · @rap.minute → 12 posts lus
+Rap · @rapfractusofficiel → 12 posts lus
+Rap · @booska_p → 12 posts lus
+X · @RapFrActus → 1 tweets lus, 0 gardés (ce mois : 1170 / 9000)
+X · @FrenchRapUS → 1 tweets lus, 0 gardés (ce mois : 1171 / 9000)
+X · @Rapunchline → 1 tweets lus, 0 gardés (ce mois : 1172 / 9000)
+X · @SpotifyFrance → 1 tweets lus, 0 gardés (ce mois : 1173 / 9000)
+11 infos fraîches et jamais traitées (sur 36 lues)
+   8/10 ✓ « RK sortira son projet "TOP BOY" le 11 décembre 🌪️ »
+   8/10 ✓ « 🚨RK annonce la sortie de son NOUVEAU PROJET  »
+   0/10 ✗ pas une news « 🇲🇦 Le Maroc annonce vouloir engager de nouvelles procédures.  »
+   5/10 ✗ trop faible (mini 6) « Quel son de Theodora vous voulez absolument entendre en live cet été ? »
+   4/10 ✗ trop faible (mini 6) « ⌚️Clint419, toujours à l’heure de Corteiz ! »
+   7/10 ✓ « Alpha Wann de retour le 11 décembre 2026 ? 👀 »
+   0/10 ✗ pas une news « 🇸🇳 Le TAS a tranché, le Sénégal est déclaré vainqueur de la CAN 2025. »
+   0/10 ✗ pas une news « 🔴🔵 Samedi, le Parc des Princes a changé de décor. »
+   6/10 ✓ « Gazo rejoint Lagui à la Cigale 🤝 »
+   5/10 ✗ trop faible (mini 6) « La grande réflexion de Booba sur Leto 🤣 »
+   6/10 ✓ « Le crack Babydaiz nous raconte sa collaboration avec Tiakola sur le mo »
+RAP FR · 5 infos retenues, meilleure : « RK sortira son projet "TOP BOY" le 11 décembre 🌪️ » (8/10)
+  photo · 1 image(s) : 1080x1375
+  contexte · 1 complément(s) : @RAPFRACTUSOFFICIEL
+  visuels · deezer « RK » → 0 image(s)
+  vidéo · recherche X « RK TOP BOY » : rien qui montre vraiment le sujet
+  vidéo · recherche X « RK TOP » : rien qui montre vraiment le sujet
+  vidéo · @rkoff : compte introuvable ou trop petit, pas de vidéo officielle
+  couverture LE BRUIT · photo1 · haut
+  carrousel prêt : « RK annonce son projet « TOP BOY » pour le 11 décembre » (4 slides)
+  voix · contrôle OK (94%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (7.1 s)
+  reel LE BRUIT · 8.3 s · 4 plans · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgIkJwDl5AM/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgIkMPziIrn/
+  ✅ STORY PUBLIÉE (vidéo)
+Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : réponse en 3 s

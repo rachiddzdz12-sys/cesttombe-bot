@@ -1,14 +1,14 @@
 Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
-Instagram · @cesttombe.actu (20 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 45 / 100
+Instagram · @cesttombe.actu (19 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 42 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → HTTP 429
+Web · GOOGLE ACTU → 92 infos
 Web · GOOGLE NEWS → 100 infos
-Web · BING ACTU → 11 infos
-Web · BING ACTU VI → 11 infos
+Web · BING ACTU → 12 infos
+Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
@@ -20,9 +20,43 @@ Web · JEUXVIDEO.COM → 15 infos
 Web · INSIDER GAMING → 7 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4832 / 10000)
-X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4833 / 10000)
+X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4834 / 10000)
+X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4835 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-197 infos fraîches et jamais traitées (sur 373 lues)
-GAMING · tri IA impossible : Gemini n'a pas répondu correctement : gemini-3.5-flash : surchargé (HTTP 503)
-Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3-flash-preview : surchargé (HTTP 503) · gemini-3-flash-preview : surchargé (HTTP 503) · gemini-3.1-flash-lite : ReadTimeout après 60 s · gemini-3.1-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash : surchargé (HTTP 503) · gemini-3.5-flash : surchargé (HTTP 503)
+286 infos fraîches et jamais traitées (sur 467 lues)
+   6/10 ✓ « Quote of the Day from GTA 6 writer: "We want players to be emotionally »
+   7/10 ✓ « Ultime bafouille - GTA 6 Online cultive autant de questions que de pro »
+   6/10 ✓ « 'GTA 6' drives streaming surge for Carly Rae Jepsen's 'Run Away With M »
+   5/10 ✓ « Highland man faces charges after GTA VI threats at Walmart »
+   4/10 ✗ trop faible (mini 5) « New GTA VI Release Puts Teen Sleep to the Test During School Break »
+   8/10 ✓ « Simulateur de vies, détails hyperréalistes, mécanismes cachés : pourqu »
+   7/10 ✓ « Lana Del Rey and Louisiana alligator tour guide husband featured in GT »
+   6/10 ✓ « GTA 6 : les cartes officielles Panini sortent en décembre 2026 »
+   3/10 ✗ pas une news « GTA 6 est un bon jeu d’action, mais c'est la partie infiltration qui f »
+   8/10 ✓ « Les joueurs de GTA 6 optimisent à l'extrême une faille pour faire de l »
+   7/10 ✓ « Gary Plauche, who killed son’s kidnapper in Baton Rouge airport, appea »
+   6/10 ✓ « Blockbuster GTA VI Raises Bar for CD Projekt RED’s Next Games »
+   6/10 ✓ « GTA VI tops the UK retail chart, while Black Friday deals push first-p »
+   7/10 ✓ « GTA 6 "isn't trying to make you a simp" it's just "daring" you to be h »
+   5/10 ✓ « ‘The Blood of Dawnwalker’ and ‘Grand Theft Auto VI’ lead the AP’s list »
+   6/10 ✗ déjà publiée « ‘Grand Theft Auto VI: The Album’ Adds 4 More Songs Following Deluxe Ed »
+   6/10 ✓ « Pour contrer l’absentéisme lié à GTA VI, cette école fait gagner à ses »
+   7/10 ✗ déjà publiée « GTA 6 n'a même pas encore de mode Online et Call of Duty aurait déjà p »
+   6/10 ✓ « Le raz-de-marée provoqué par GTA VI à des conséquences : où peut-on tr »
+   7/10 ✓ « Des moddeurs ont lancé GTA 6 sur PC à environ 4 FPS. »
+GAMING · 16 infos retenues, meilleure : « Simulateur de vies, détails hyperréalistes, mécanismes cachés : pourquoi GTA 6 e » (8/10)
+  article · lefigaro.fr
+  article · 1397 caractères lus
+  photo · 1 image(s) : 1200x630
+  visuels · steam « Grand Theft Auto VI » → 4 image(s)
+  vidéo · recherche « GTA 6 trailer gameplay » trop vague : pas de vidéo
+  vidéo · recherche X « GTA 6 gameplay » : rien qui montre vraiment le sujet
+  couverture · photo1 · zoom 1.12 · propre
+  carrousel prêt : « GTA 6 explose les records avec 32,5 millions de ventes » (4 slides)
+  voix · contrôle OK (94%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (8.4 s)
+  reel · 10.1 s · 6 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgIjqwbF8pd/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgIjttOic7S/
+  ✅ STORY PUBLIÉE (vidéo)
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s

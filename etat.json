@@ -982,7 +982,10 @@
   "web:insider gaming:https://insider-gaming.com/?p=241134": "2026-11-24T16:31:31.233011+00:00",
   "web:gamesradar:3B8v5o7X9bJewKHiskWNvW": "2026-11-24T16:31:31.233011+00:00",
   "ag:https://www.actugaming.net/?p=835539": "2026-11-24T16:31:31.233011+00:00",
-  "web:insider gaming:https://insider-gaming.com/?p=241215": "2026-11-24T16:31:31.233011+00:00"
+  "web:insider gaming:https://insider-gaming.com/?p=241215": "2026-11-24T16:31:31.233011+00:00",
+  "web:google news:CBMiowFBVV95cUxQbUlvdXdLczBodmhicnluVVV0V25SNlpydExfUXBIWVBOLWIzWGExcFFJSDZxQ1hPRHNQcmFYM1pxaHRYODZpc24wLWdFOENuaThQY005cFhsSk1ESC1pbTFhMExqWXFWMnBWWjd6V2dtV05NYUVrQi1pRWVtMHRVV08xSWhTUjdLYlV0RXA5QU5ETHNGWW5rQkdVdTRPMy1MNzJj": "2026-11-24T18:02:10.479942+00:00",
+  "web:google actu:CBMiywFBVV95cUxObWRRRUphalFTSC11V01Ma2Y5UWtnaUZrb1U1Q2h2MmQ0bVRpU01EZnpwc09xeDJJR3dmVVFRdGVmRjJoT1FIMnRmY3FBZXJ2dWNXRnkwMGxYSklhbUcxZUpsMHFNRFI0akZsWklBVldEMzNkTGNsblQ3b19RR1BXZy0wcHB4MmFROXhZMHNCRVpYMkxoTHEyYWpHVk5TdkFZb19CSWNWNlhMOVFaUFEzYUROQkh0SGFROEdSd1hoeV9QRG0xdk8zRXgwaw": "2026-11-24T18:02:10.479942+00:00",
+  "web:google actu:CBMijgJBVV95cUxQZmw4TzZ6MnFENGtQMHBxZFQ2ZFhZc3ctSWhiQXRVTHIyVEF6N3E2SXJRQmZ0MEFQeDBUTXdPTjhSbzBVODgxZFF6NE1OWEItMGJGc3NmQThoX3FQYk9DQzhENEtwR1lVNzBwblZPazYxZzFpamJVd3NFbnpCSnFvUUVlamlxXzV1d2g5V1pOVVUwcDNnbE1Jb3M0SjZMc0dLNG50LXlqNG9nQXJSRlpIeDJNYmlQdk5lbUJGN040UzZ2U1NFUENublVqbW5NSDhuUGM4Rl9jTHlpWEU2Nk9kNU9LZUpwTFh5V3ROQ2ZRbkE5TmpkNnJXWFdmS0t0YV92Vml6eV9wWkNGdHpxY0E": "2026-11-24T18:02:10.479942+00:00"
  },
  "publies": [
   {
@@ -2555,11 +2558,20 @@
    "lien": "https://www.instagram.com/p/DgIZc1HjTbH/",
    "reel": "https://www.instagram.com/reel/DgIZf6kEZx5/",
    "story": "18659307319046448"
+  },
+  {
+   "ts": "2026-11-24T18:02:10.479942+00:00",
+   "categorie": "GAMING",
+   "titre": "GTA 6 explose les records avec 32,5 millions de ventes",
+   "source_id": "web:google actu:CBMijgJBVV95cUxQZmw4TzZ6MnFENGtQMHBxZFQ2ZFhZc3ctSWhiQXRVTHIyVEF6N3E2SXJRQmZ0MEFQeDBUTXdPTjhSbzBVODgxZFF6NE1OWEItMGJGc3NmQThoX3FQYk9DQzhENEtwR1lVNzBwblZPazYxZzFpamJVd3NFbnpCSnFvUUVlamlxXzV1d2g5V1pOVVUwcDNnbE1Jb3M0SjZMc0dLNG50LXlqNG9nQXJSRlpIeDJNYmlQdk5lbUJGN040UzZ2U1NFUENublVqbW5NSDhuUGM4Rl9jTHlpWEU2Nk9kNU9LZUpwTFh5V3ROQ2ZRbkE5TmpkNnJXWFdmS0t0YV92Vml6eV9wWkNGdHpxY0E",
+   "lien": "https://www.instagram.com/p/DgIjqwbF8pd/",
+   "reel": "https://www.instagram.com/reel/DgIjttOic7S/",
+   "story": "18101304239410629"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 4833
+  "tweets": 4836
  },
  "x_recherches": {
   "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-24T14:32:11.650822+00:00"
