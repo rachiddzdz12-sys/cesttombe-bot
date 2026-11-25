@@ -1085,7 +1085,11 @@
   "x:2125544473979502967": "2026-11-25T19:31:27.624357+00:00",
   "web:gta boom:https://www.gtaboom.com/how-to-get-lucias-prologue-gun-in-gta-6-the-low-point-nipper-38-afe5": "2026-11-25T19:31:27.624357+00:00",
   "web:google news:CBMilAFBVV95cUxOaDA5Q2g1WW5tdVZXc2l6Wmh6eG1NUDktek9hN25YOURsWnZkWF9lYktZY1ZMazBoQWRDRGVaLUl5Mm11aXN5Y3hGRVBmY1c1THMyelFOUGxfZ0FqR3JRNlQxX3djNWI1MkdudGlXQ1lOcS1VRXlnQzBQVmxjdG85aHdFd3hHSW1ZbkpTMU5KVlg2YllD": "2026-11-25T19:31:27.624357+00:00",
-  "x:2125245012460155371": "2026-11-25T19:31:27.624357+00:00"
+  "x:2125245012460155371": "2026-11-25T19:31:27.624357+00:00",
+  "web:google news:CBMitgFBVV95cUxQQno1LVVlT3VXaXdacF9VSzVkUExFS01wTmk1YTN3S3BFSVowNzlMQ2VIbnV5SGl5Z3hwb2w3eGRjWU1VVmZvQllMMXJzeTNMeXA5OUpLYmZNdmJuS0czaDBEcWxxNlRXN2NmX05JY1RPbWRyY2J1YWlMdnhiTWZtaFlEUjJweGVMWERJaGR2d0M5cGY3SVp2cF9ibmdTSEswWXNZNHlTbDhDX2szNXF1OHVYQm5CQQ": "2026-11-25T20:31:31.081856+00:00",
+  "web:gamesradar:4XPCEawBkTUwQgge5ReNnc": "2026-11-25T20:31:31.081856+00:00",
+  "web:google news:CBMijwFBVV95cUxNQ1pjUVVBaVJSU0pSMEkyOTc2UnRvMG1CV3VLZWo0TVlXLWxFZnlmckJSQVpfTXA5OFN2R1YyMWQ0Ti1EdWlJU2JQdTB2NVNjS2xXOGZ1ZWJsd3M2RUxRT1IybGpVX28wYVd3dEhyZGxZTmhTSmdQdUltRGc4emgwZERTWnBjcXlrVnh6SGJ5cw": "2026-11-25T20:31:31.081856+00:00",
+  "web:google news:CBMiwgFBVV95cUxNT2lNX2toa3c0S2dQZE9XbU0zZGppeW1iT1pZcHdJdGhGWEUzemVHdXZDc1lUWEZNbXprc3FXeXZVeDJsZEI5bmozdFhzSmJ6VE5zUmxZZlY3WTQyQTlCdjRtekFWbGR6bVQ1SHpXMEpjbmEzTE1WSlNTdTRPaWpUNmgtT1FVMThfaEpoSy0tdVJoM3luUnJHN2E0ZlJTTms1WFU5NHkzdVRSV3lJNjU1NDNVRmhEZURUUWFZWXNpcXNRdw": "2026-11-25T20:31:31.081856+00:00"
  },
  "publies": [
   {
@@ -2800,11 +2804,20 @@
    "lien": "https://www.instagram.com/p/DgLSrEDDptG/",
    "reel": "https://www.instagram.com/reel/DgLStfbhX_0/",
    "story": "17872368381660272"
+  },
+  {
+   "ts": "2026-11-25T20:31:31.081856+00:00",
+   "categorie": "GAMING",
+   "titre": "Niko Bellic fait un caméo dans GTA 6",
+   "source_id": "web:google news:CBMiwgFBVV95cUxNT2lNX2toa3c0S2dQZE9XbU0zZGppeW1iT1pZcHdJdGhGWEUzemVHdXZDc1lUWEZNbXprc3FXeXZVeDJsZEI5bmozdFhzSmJ6VE5zUmxZZlY3WTQyQTlCdjRtekFWbGR6bVQ1SHpXMEpjbmEzTE1WSlNTdTRPaWpUNmgtT1FVMThfaEpoSy0tdVJoM3luUnJHN2E0ZlJTTms1WFU5NHkzdVRSV3lJNjU1NDNVRmhEZURUUWFZWXNpcXNRdw",
+   "lien": "https://www.instagram.com/p/DgLZltrGgcp/",
+   "reel": "https://www.instagram.com/reel/DgLZntUz-28/",
+   "story": "18014661518994186"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 5108
+  "tweets": 5128
  },
  "x_recherches": {
   "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-25T19:31:50.854308+00:00"
