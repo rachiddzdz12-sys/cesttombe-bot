@@ -1,1 +1,38 @@
-Pas de post : hors horaires (10:30 à Paris)
+Mode : auto
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @le.bruit.rap (16 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 9 / 100
+Rap · @rap.minute → 12 posts lus
+Rap · @rapfractusofficiel → 12 posts lus
+Rap · @booska_p → 12 posts lus
+X · @RapFrActus → 1 tweets lus, 0 gardés (ce mois : 1176 / 9000)
+X · @FrenchRapUS → 1 tweets lus, 0 gardés (ce mois : 1177 / 9000)
+X · @Rapunchline → 1 tweets lus, 0 gardés (ce mois : 1178 / 9000)
+X · @SpotifyFrance → 1 tweets lus, 0 gardés (ce mois : 1179 / 9000)
+7 infos fraîches et jamais traitées (sur 36 lues)
+   0/10 ✗ pas une news « 🥊 Tyson Fury révèle ses troubles psychiques dans un documentaire Netfl »
+   2/10 ✗ pas une news « RK, SDM, Dosseh… Toute l’actu du jour est dans le Flash Rap ⚡️ »
+   3/10 ✗ pas une news « Pas de mayonnaise dans la sacoche mais…  »
+   3/10 ✗ pas une news « Pourquoi Ninho ne peut pas arrêter le rap ? »
+   7/10 ✗ déjà publiée « 🚨RK annonce la sortie de son NOUVEAU PROJET  »
+   8/10 ✓ « Alpha Wann de retour le 11 décembre 2026 ? 👀 »
+   6/10 ✓ « Gazo rejoint Lagui à la Cigale 🤝 »
+RAP FR · 2 infos retenues, meilleure : « Alpha Wann de retour le 11 décembre 2026 ? 👀 » (8/10)
+  photo · 1 image(s) : 1080x1375
+  contexte · 1 complément(s) : Deezer (officiel)
+  visuels · deezer « Alpha Wann » → 6 image(s)
+  vidéo · recherche X « Alpha Wann Plan B clip » : rien qui montre vraiment le sujet
+  vidéo · recherche X « Alpha Wann » : rien qui montre vraiment le sujet
+  vidéo · @alphawann : compte introuvable ou trop petit, pas de vidéo officielle
+  couverture LE BRUIT · photo1 · haut
+  carrousel prêt : « Alpha Wann de retour le 11 décembre 2026 ? » (4 slides)
+  voix · ⚠️ refaite, texte différent (64%) : « Des indices sèment le doute sur un retour d'Alfa One le 11 décembre après 6 ans sans projet. Tu penses qu'il va vraiment sortir ? Des indices sèment le doute su »
+  voix · ⚠️ refaite, texte différent (66%) : « Des indices sèment le doute sur un retour d'alpha-1 le 11 décembre après 6 ans sans projet. Tu penses qu'il va vraiment sortir ? Des indices sèment le doute sur »
+  voix · contrôle OK (95%, essai 3, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (7.9 s)
+  reel LE BRUIT · 9.0 s · 4 plans · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgKRa9YjODk/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgKRcTGRs9f/
+  ✅ STORY PUBLIÉE (vidéo)
+Gemini : gemini-flash-lite-latest : réponse en 4 s · gemini-flash-lite-latest : réponse en 7 s
