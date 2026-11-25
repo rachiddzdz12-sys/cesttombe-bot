@@ -1,13 +1,13 @@
 Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
-Instagram · @cesttombe.actu (18 abonnés)
+Instagram · @cesttombe.actu (19 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 45 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → 92 infos
-Web · GOOGLE NEWS → HTTP 429
-Web · BING ACTU → 2 infos
+Web · GOOGLE ACTU → 102 infos
+Web · GOOGLE NEWS → 100 infos
+Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 2 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
@@ -16,56 +16,51 @@ Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
 Web · GAMEKULT → 10 infos
 Web · IGN FRANCE → 17 infos
-Web · JEUXVIDEO.COM → 14 infos
-Web · INSIDER GAMING → 3 infos
+Web · JEUXVIDEO.COM → 15 infos
+Web · INSIDER GAMING → 4 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4856 / 10000)
-X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4857 / 10000)
+X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4861 / 10000)
+X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4862 / 10000)
+X · « ("GTA 6" OR "GTA VI") filter:native_vide » → 1 tweets lus, 0 gardés (ce mois : 4863 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-180 infos fraîches et jamais traitées (sur 338 lues)
-   0/10 ✗ pas une news « Satan GTA 6 : Comment tuer ce boss secret et gagner un bonus de santé  »
-   5/10 ✓ « Real-Life Strip Club Spearmint Rhino Is Recreating Dances From GTA 6 »
-   0/10 ✗ pas une news « How to Get Jason & Lucia’s Relationship to Max Level in GTA 6 »
-   6/10 ✗ déjà publiée « Les joueurs de GTA 6 ont découvert des voitures emblématiques issues d »
-   0/10 ✗ pas une news « Quel poids maximum peuvent atteindre Jason et Lucia dans GTA 6 ? Des j »
-   0/10 ✗ pas une news « GTA 6 moins cher : ce mercredi 25 novembre matin, c’est E.Leclerc qui  »
-   5/10 ✓ « GTA 6 : les rencontres aléatoires les plus étranges »
-   6/10 ✓ « Exclusive: Sabii Garcia on the Drink Pose and Green Jersey in the GTA  »
-   8/10 ✗ déjà publiée « «C’est absolument génial» : Sylvie Vartan de retour dans les charts gr »
-   8/10 ✓ « "Ça nous paraissait tellement évident de mettre The Weeknd dessus" : J »
-   6/10 ✓ « Nous avons rencontré le vrai Jason Duval, héros de GTA VI… et il est n »
-   8/10 ✗ déjà publiée « “Une surprise totale” : Sylvie Vartan voit l’écoute d’un de ses titres »
-   7/10 ✓ « "On n'était pas sûrs d'être forcément les bonnes personnes" : comment  »
-   8/10 ✗ déjà publiée « Cette chanson de Sylvie Vartan explose grâce au jeu GTA VI : "c'est ab »
-   8/10 ✗ déjà publiée « Sylvie Vartan, improbable star de GTA VI »
-   8/10 ✗ déjà publiée « Plus de 40 ans après sa sortie | GTA VI fait exploser les écoutes d’un »
-   7/10 ✓ « Rockstar is turning GTA 6’s in-game trading cards into real collectibl »
-   6/10 ✓ « GTA 6 accusé d’être « woke » : la colère des masculinistes »
-   8/10 ✗ déjà publiée « Une chanson de Vartan dans « GTA VI » fait exploser les écoutes, une « »
-   8/10 ✗ déjà publiée « « Une surprise totale »… Une chanson de Sylvie Vartan explose les comp »
-GAMING · 8 infos retenues, meilleure : « "Ça nous paraissait tellement évident de mettre The Weeknd dessus" : Justice dév » (8/10)
-  article · funradio.fr
-  article · 0 caractères lus
-  ⏭️ article illisible, info écartée : « "Ça nous paraissait tellement évident de mettre The Weeknd d »
-  article · funradio.fr
-  article · 0 caractères lus
-  ⏭️ article illisible, info écartée : « "On n'était pas sûrs d'être forcément les bonnes personnes"  »
-  article · 2091 caractères lus
-  photo · 1 image(s) : 1600x900
-  contexte · 1 complément(s) : DEXERTO
-  visuels · steam « Grand Theft Auto VI » → 3 image(s)
-  vidéo · recherche X « GTA 6 trading cards Panini » : rien qui montre vraiment le sujet
-  vidéo · recherche X « trading cards » : rien qui montre vraiment le sujet
+230 infos fraîches et jamais traitées (sur 460 lues)
+   6/10 ✓ « Après GTA VI, Sony a conclu un accord marketing pour The Witcher 4. »
+   7/10 ✓ « 'GTA 6' on PC update: What we know about when it releases »
+   6/10 ✓ « GTA VI : la romance centrale irrite les fans conservateurs »
+   0/10 ✗ pas une news « Guide GTA 6 : comment réussir le braquage de La Perle sans être détect »
+   7/10 ✓ « GTA VI : un engouement historique porté par des millions de joueurs, l »
+   0/10 ✗ pas une news « 'GTA 6' chapter 1 is so good that I'm afraid to move on to chapter 2 »
+   7/10 ✓ « 'GTA 6' is giving Carly Rae Jepsen's 'Run Away With Me' a second life »
+   8/10 ✗ déjà publiée « ‘GTA VI’ Sold 47 Million Copies By End Of Launch Weekend—And Siphoned  »
+   5/10 ✓ « 98% d'avis positifs ! C'est l'antithèse absolue de GTA 6 et il cartonn »
+   4/10 ✗ trop faible (mini 5) « Cal Thomas: The poison of Grand Theft Auto VI »
+   0/10 ✗ pas une news « GTA 6 : l'astuce incroyable pour jouer sur PC via votre navigateur web »
+   8/10 ✓ « La folie GTA 6 : démarrage dingue en France, les ventes « physiques »  »
+   0/10 ✗ pas une news « How to Complete the La Perle Heist Undetected - GTA 6 »
+   0/10 ✗ pas une news « GTA VI : les grands fans ne le savent pas, mais dès demain cette manet »
+   0/10 ✗ pas une news « A Month In, and I Thought I'd Seen All of GTA 6. I Was So Wrong »
+   5/10 ✓ « Glitch 60 FPS de GTA 6 sur Xbox : le test révèle 36 FPS de moyenne »
+   8/10 ✗ déjà publiée « GTA 6 sortira sur PC en mars 2027, en même temps que le lancement de G »
+   8/10 ✗ déjà publiée « GTA 6 will be released on PC in March 2027, along with the launch of G »
+   0/10 ✗ pas une news « Mission secondaire GTA 6 : Liste des quêtes annexes, comment les finir »
+   7/10 ✗ déjà publiée « Analyst estimates Call of Duty lost 44% of its players when GTA 6 came »
+   3/10 ✗ trop faible (mini 9) « Mise à jour Aniimo du 26 novembre : arrêt des serveurs et nouveautés,  »
+GAMING · 8 infos retenues, meilleure : « La folie GTA 6 : démarrage dingue en France, les ventes « physiques » franchisse » (8/10)
+  article · lien Google Actualités non décodé : titre seul
+  ⏭️ article illisible, info écartée : « La folie GTA 6 : démarrage dingue en France, les ventes « ph »
+  article · mashable.com
+  article · 4967 caractères lus
+  photo · 1 image(s) : 1200x675
+  visuels · steam « Grand Theft Auto VI » → 4 image(s)
+  vidéo · recherche « GTA 6 official trailer 1 » trop vague : pas de vidéo
   vidéo · recherche X « GTA 6 gameplay » : rien qui montre vraiment le sujet
-  couverture · photo1 · zoom 1.25 · PAS PROPRE
-  slide 2 · photo3 : pas de zone parfaitement propre
-  slide 3 · photo3 : pas de zone parfaitement propre
-  carrousel prêt : « Rockstar sort de vraies cartes à collectionner GTA 6 » (4 slides)
-  voix · contrôle OK (100%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (10.1 s)
-  reel · 11.7 s · 7 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgI_FTTlzXa/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgI_GlwlGyx/
+  couverture · photo1 · zoom 1.12 · PAS PROPRE
+  carrousel prêt : « GTA 6 sur PC dès le début de l'année 2027 » (5 slides)
+  voix · contrôle OK (98%, essai 1, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (10.7 s)
+  reel · 12.3 s · 8 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgJ2ENqjh6r/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgJ2GJWsnOi/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : quota atteint (HTTP 429), réessai conseillé dans 35853 s · gemini-3.5-flash-lite : réponse en 2 s · gemini-3.5-flash-lite : réponse en 2 s
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s · texte sans accents ou sans apostrophes : réécriture demandée · gemini-flash-latest : quota atteint (HTTP 429), réessai conseillé dans 7066 s · gemini-3-flash-preview : réponse en 25 s
