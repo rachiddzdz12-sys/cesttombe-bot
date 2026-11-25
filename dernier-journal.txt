@@ -6,59 +6,66 @@ Instagram · posts publiés par l'API sur 24 h : 45 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 100 infos
-Web · GOOGLE NEWS → 100 infos
+Web · GOOGLE NEWS → HTTP 429
 Web · BING ACTU → 11 infos
-Web · BING ACTU VI → 12 infos
+Web · BING ACTU VI → 2 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
 Web · GAMEKULT → 10 infos
-Web · IGN FRANCE → 16 infos
+Web · IGN FRANCE → 17 infos
 Web · JEUXVIDEO.COM → 16 infos
 Web · INSIDER GAMING → 4 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4868 / 10000)
-X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4869 / 10000)
+X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4873 / 10000)
+X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4874 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-234 infos fraîches et jamais traitées (sur 467 lues)
-   6/10 ✓ « CD Projekt RED Unaffected by GTA VI Launch in Q4 Earnings »
-   7/10 ✓ « À cause de GTA 6, la PS5 est en rupture de stock un peu partout »
+155 infos fraîches et jamais traitées (sur 358 lues)
+   7/10 ✓ « Portage de GTA VI sur PC : l’IA complique la vie de Rockstar »
+   6/10 ✓ « Le set de cartes à collectionner GTA 6 - Rockstar x Panini America »
+   6/10 ✗ pas une news « GTA 6 va avoir droit à ses propres cartes sous licence officielle, ins »
+   6/10 ✗ pas une news « GTA 6 va avoir droit à ses propres cartes sous licence officielle, ins »
+   7/10 ✓ « "C'est un vrai bonheur": Sylvie Vartan réagit à l'engouement autour sa »
+   6/10 ✓ « The Witcher 4 sera le GTA 6 de CD Projekt Red, promet le studio »
+   8/10 ✓ « GTA 6 tourne mieux sur Xbox Series X que sur PS5, malgré le marketing  »
+   5/10 ✓ « The Witcher 4 marquera un gap comparable à celui observé entre GTA 5 e »
+   5/10 ✗ déjà publiée « The Witcher 4 marquera un gap comparable à celui observé entre GTA 5 e »
+   8/10 ✓ « « GTA VI » piraté : comment des hackeurs assistés par IA font la cours »
+   8/10 ✗ déjà publiée « GTA 6 : PS5 vs Xbox Series X, le verdict Digital Foundry »
+   4/10 ✗ pas une news « GTA 6 : la liste complète des codes de triche sur PS5 et Xbox Series »
+   7/10 ✗ déjà publiée « Grâce à GTA VI, un titre de Sylvie Vartan s'envole sur Spotify »
+   7/10 ✗ déjà publiée « « Surprise totale » : une chanson de Sylvie Vartan utilisée dans GTA V »
+   8/10 ✓ « Sony a menti sur la version PS5 de GTA 6 »
+   6/10 ✓ « Des retraités français troquent le Scrabble contre GTA 6 et Lucienne,  »
+   6/10 ✓ « GTA 6 : les correctifs du 23 novembre touchent la sauvegarde et les ap »
+   7/10 ✗ déjà publiée « À cause de GTA 6, la PS5 est en rupture de stock un peu partout »
    7/10 ✓ « Le streaming cloud de GTA 6 arrive sur PS5 et PlayStation Portal, épar »
    5/10 ✓ « "Une sorte de défouloir" : "GTA 6", Lego, PlayStation, alimentaire...  »
-   6/10 ✓ « GTA 6 : le jeu vidéo signe-t-il le retour de la monoculture ? »
-   6/10 ✓ « Portage pirate de GTA 6 sur PC : Take-Two frappe, mais la course conti »
-   0/10 ✗ pas une news « All Leonida Carrier Warehouse Key Valuable Locations - GTA 6 »
-   8/10 ✓ « GTA 6 Becomes the Biggest Launch in PlayStation History »
-   7/10 ✗ déjà publiée « GTA 6 propulse au sommet Sylvie Vartan, une surprise qui l'a fait réag »
-   6/10 ✓ « Over Half of GTA 6 Watch Time Came From Viewers Under 25 Years Old »
-   8/10 ✗ déjà publiée « GTA 6 signe le plus grand lancement de l’histoire de PlayStation, selo »
-   0/10 ✗ pas une news « Grand Theft Auto VI : le monde ouvert »
-   0/10 ✗ pas une news « Grand Theft Auto VI : les PNJ »
-   0/10 ✗ pas une news « Grand Theft Auto VI : Le personnage de Lucia »
-   0/10 ✗ pas une news « Grand Theft Auto VI : la campagne »
-   6/10 ✓ « GTA 6 est aussi le projet musical le plus excitant de l’année »
-   0/10 ✗ pas une news « Avis – GTA 6 : un chef-d’œuvre technologique qui n’échappe pas à quelq »
-   7/10 ✗ déjà publiée « GTA 6 PC port takedown confirmed: Take-Two cites Rockstar's ban on rev »
-   9/10 ✗ déjà publiée « GTA 6 : 39 millions de joueurs sur PS5, record PlayStation »
-   7/10 ✓ « Yes, One Minor Function Was Censored from GTA 6 in Australia, NZ, but  »
-GAMING · 10 infos retenues, meilleure : « GTA 6 Becomes the Biggest Launch in PlayStation History » (8/10)
-  article · 80.lv
-  article · 2635 caractères lus
-  photo · 1 image(s) : 1120x630
-  contexte · 1 complément(s) : ROCKSTAR INTEL
+   4/10 ✗ trop faible (mini 9) « Mario Kart World se met à jour avec des circuits revisités et de nouve »
+GAMING · 12 infos retenues, meilleure : « GTA 6 tourne mieux sur Xbox Series X que sur PS5, malgré le marketing de Sony » (8/10)
+  article · kulturegeek.fr
+  article · 0 caractères lus
+  ⏭️ article illisible, info écartée : « GTA 6 tourne mieux sur Xbox Series X que sur PS5, malgré le  »
+  article · lemonde.fr
+  article · 657 caractères lus
+  photo · aucune image
+  rédaction impossible pour « « GTA VI » piraté : comment des hackeurs assistés par IA fon » : l'info ne dit pas de quoi il s'agit (titre, contenu…), rien pour compléter
+  article · numerama.com
+  article · 3761 caractères lus
+  photo · 1 image(s) : 1600x900
+  contexte · 3 complément(s) : GAMEKULT, GAMESRADAR, ROCKSTAR INTEL
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · recherche X « GTA 6 PS5 gameplay launch » : rien qui montre vraiment le sujet
-  vidéo · recherche X « PS5 launch » : rien qui montre vraiment le sujet
+  vidéo · recherche X « GTA 6 Digital Foundry comparison PS5 Xbox » : rien qui montre vraiment le sujet
+  vidéo · recherche X « Digital Foundry » : rien qui montre vraiment le sujet
   vidéo · recherche X « GTA 6 gameplay » : rien qui montre vraiment le sujet
-  couverture · photo1 · zoom 1.0 · propre
-  carrousel prêt : « GTA 6 explose les records sur PlayStation » (4 slides)
-  voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (7.2 s)
-  reel · 8.8 s · 5 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgKDramDQLD/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgKDtBTB-FW/
-  ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 3 s
+  couverture · photo1 · zoom 1.6 · propre
+  carrousel prêt : « GTA 6 est plus performant sur Xbox Series X que sur PS5 » (5 slides)
+  voix · ⚠️ refaite, texte différent (63%) : « GTA 6 est plus performant sur Xbox Series X que sur PS5. Digital Foundry confirme une meilleure stabilité et le VRR chez Microsoft. Tu veux être joué sur quel c »
+  voix · contrôle OK (98%, essai 2, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (9.5 s)
+  reel · 11.2 s · 7 plans dont 0 extraits vidéo · voix + musique
+  ⏭️ déjà publié sur le compte (https://www.instagram.com/p/DgKDramDQLD/) : on passe
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : ReadTimeout après 60 s · gemini-flash-latest : ReadTimeout après 60 s · gemini-3.5-flash-lite : réponse en 2 s · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3-flash-preview : réponse en 10 s
