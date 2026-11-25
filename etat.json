@@ -1064,7 +1064,12 @@
   "web:google news:CBMiugFBVV95cUxPanZxelQzRDFNbWNhbEs0Q1Zvd0JQeVpFdHl3aDhybmk2cU5wQTNCU1phQkhHYWRndDNaRWJDTGIwUHZwbHpfSEVmRW14NVpocnhjNUVBU212cGJPemNjdmRHYXBqV3kySk01ajlPWW5fVEg2TVpxZ0dCMEM1bTdKM0xfOC1SQ2RLRlFiQktYeXBlUmIzOU53Q0RwQ19EN2dwVU83aTR1bzNoVE9sVlVRQU40UzVFXzJkR2c": "2026-11-25T12:31:43.605257+00:00",
   "web:gamesradar:xfzfiQrJqWKNLrnBmi2Tzn": "2026-11-25T12:31:43.605257+00:00",
   "web:google actu:CBMi3wFBVV95cUxOZkwtWHJiVlBmemNrYzUwRl9rc1dUeUcxaGcwNlg0ZUlnT0I5eXlXampabjhDYjJJX2pTcWxMMzAzQWhqUDlBOXdJZjhxWS12bld0eG0tc0xMRnA0WGtkV1pjT2RWLUVnYnM5b243MDUzc3U1VmR0RFoxRGF0SG9xRkQzanc2Zm8xbnE2d1QwTmRyMk03Uk5FTUthRlZUZDBRYmZURzNMbWJsVkhoamJsRnM0SVFBU2ZSSWQzWkstYVFFQklPUm1vNEFoYmwzZy1VUXdLbFNJRXFKbXd5a1Fr": "2026-11-25T12:31:43.605257+00:00",
-  "web:google actu:CBMiyAFBVV95cUxQU0RhMzEzN0w3cklKMWg4RkpQdnlvV3c2VU0xb0ZSTkdhZ3B0WmVnaUR3VENpQ0E2cHdnTHh4N25vdS1XRkFpWmVaczE5RHNKaTFxbWNJRWVzbWhwM0pVY2JqTzRQcjV5ZmNHaDFoTVRUZHlrSE5DSlRSbTl5UFZmYVFVZXQ5QWhvVWpUNmQ5UnZVUnpFcVlBZkw1a1BMNVA4TVpqOHRZWC12dTlleXFxaWZpeEhicHVpbmU4ajV0eFN3cl9zRDY0NQ": "2026-11-25T12:31:43.605257+00:00"
+  "web:google actu:CBMiyAFBVV95cUxQU0RhMzEzN0w3cklKMWg4RkpQdnlvV3c2VU0xb0ZSTkdhZ3B0WmVnaUR3VENpQ0E2cHdnTHh4N25vdS1XRkFpWmVaczE5RHNKaTFxbWNJRWVzbWhwM0pVY2JqTzRQcjV5ZmNHaDFoTVRUZHlrSE5DSlRSbTl5UFZmYVFVZXQ5QWhvVWpUNmQ5UnZVUnpFcVlBZkw1a1BMNVA4TVpqOHRZWC12dTlleXFxaWZpeEhicHVpbmU4ajV0eFN3cl9zRDY0NQ": "2026-11-25T12:31:43.605257+00:00",
+  "web:google actu:CBMiXkFVX3lxTFA3cUk0RGlZTHVIMC1mTFVQZzliaDRBdDY2b21vbDcwT19pVEFwelQ2S2JSTXVOZ2FMMXRDb2NVcmNLMFpRcXpNRzZCVWpjb200Zks1UTd5YVRyODV4Z2c": "2026-11-25T13:31:32.485196+00:00",
+  "web:gamesradar:aXwy2S4pDmg6JBTQupQccJ": "2026-11-25T13:31:32.485196+00:00",
+  "web:gamesradar:5peYrgopTmsQbYScbj6YAX": "2026-11-25T13:31:32.485196+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=241654": "2026-11-25T13:31:32.485196+00:00",
+  "x:2125556353473368320": "2026-11-25T13:31:32.485196+00:00"
  },
  "publies": [
   {
@@ -2743,11 +2748,20 @@
    "lien": "https://www.instagram.com/p/DgKi0KPIHlB/",
    "reel": "https://www.instagram.com/reel/DgKi11ZBtng/",
    "story": "18175456192457440"
+  },
+  {
+   "ts": "2026-11-25T13:31:32.485196+00:00",
+   "categorie": "GAMING",
+   "titre": "Remedy qualifie de géniale sa collaboration avec Rockstar Games",
+   "source_id": "x:2125556353473368320",
+   "lien": "https://www.instagram.com/p/DgKpuUXDCE_/",
+   "reel": "https://www.instagram.com/reel/DgKpxm0heej/",
+   "story": "18649195642023638"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 4928
+  "tweets": 4956
  },
  "x_recherches": {
   "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-25T10:31:56.218300+00:00"
