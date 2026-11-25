@@ -1,9 +1,5 @@
 {
  "vus": {
-  "x:2120555537515340237": "2026-11-11T17:06:52.081322+00:00",
-  "x:2120541153691144213": "2026-11-11T17:06:52.081322+00:00",
-  "x:2120523204523421765": "2026-11-11T17:06:52.081322+00:00",
-  "ig:18113187746236100": "2026-11-11T17:06:52.081322+00:00",
   "x:2120592541523587274": "2026-11-11T19:31:38.603276+00:00",
   "x:2120572820719534276": "2026-11-11T19:31:38.603276+00:00",
   "x:2120576526718816626": "2026-11-11T19:31:38.603276+00:00",
@@ -1069,7 +1065,17 @@
   "web:gamesradar:aXwy2S4pDmg6JBTQupQccJ": "2026-11-25T13:31:32.485196+00:00",
   "web:gamesradar:5peYrgopTmsQbYScbj6YAX": "2026-11-25T13:31:32.485196+00:00",
   "web:insider gaming:https://insider-gaming.com/?p=241654": "2026-11-25T13:31:32.485196+00:00",
-  "x:2125556353473368320": "2026-11-25T13:31:32.485196+00:00"
+  "x:2125556353473368320": "2026-11-25T13:31:32.485196+00:00",
+  "x:2125626062629421141": "2026-11-25T17:02:51.764092+00:00",
+  "web:google news:CBMiigFBVV95cUxPRWFQSnBsRnM3aGdFdWpleG9PWWV2Tk83dWxRc0t5bDlHanhCTmlJb18tMHVyeWZ6VGszRml5NS1FN0JtaVFRdUR6QUtLSHk5Rks5MTJPQVNoSUltcURPeHNyWi1nb0o0c190SC1Kc0FPM2wxcUZRV1M3SVE5aUhZSTBqRFgydXNzZUE": "2026-11-25T17:02:51.764092+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=241866": "2026-11-25T17:02:51.764092+00:00",
+  "web:google actu:CBMiyAFBVV95cUxOS2hqTzExcWt6bkRzalZFUk1WUm1yakl0X2hXR2pGaDBfNFY5UExDMm1KMXkyTjRtUTNpMjBCQXQ1ajVKamJhRmNLdVE5bUpQeGhHVUVjeE1EeGUxMktHbGN1QlFSaFV4TnRwRGtiTEFRU0haX01EZDFSQk5BamlDWUE1elh6RnpwUVlFWGIyOGNuWkRXYXg0S0t5TzdBRGszMTNvWTJ1TG53Y09laG5fZi1BNUVCY2RvWEtGZUdOR1lmSURpS2Z0Mg": "2026-11-25T17:02:51.764092+00:00",
+  "web:gamesradar:mWjFLFYJMEe9uhnFXphNGH": "2026-11-25T17:02:51.764092+00:00",
+  "web:google news:CBMilwFBVV95cUxNUjRFNTVVM0lwZkN6RXZjclFtVGM1cjJpdVFhemtsLVVHNGNsQzAzejFESjFmWnE1VlFzcEgtSWktNFRPOVhOMFdtcnpzZE9jUExyc0E3UXY0WHdYX1pleV9HU0x2RkFaY08ydGFNUzhhZG5FSFBNakoyVzB5WTdpYXJWZXRWa3J2bnhTWFR4WXFYSXFJUHpB": "2026-11-25T17:02:51.764092+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=241840": "2026-11-25T17:02:51.764092+00:00",
+  "ag:https://www.actugaming.net/?p=836001": "2026-11-25T17:02:51.764092+00:00",
+  "ag:https://www.actugaming.net/?p=835996": "2026-11-25T17:02:51.764092+00:00",
+  "web:google news:CBMipgFBVV95cUxQaWxvS3Q0QVluRW5WN1JseElIRHFjRGhqSkRzRGdsQS1jNllSN0JUa0tmTTR2X0cwUXpyR3R0ZWc0bjVNdktobGdocFJVWG5VT2xMVlNrVEZ6S3pSOXNJRUFIWjZTengxLUJFMUZNOGFqZURhWXVpQzQ5aFJPN2tsbDFHWjZjTmIxVHY2Q3JUWW5vT3d5NEpuR2l0U2dyMWtZbkJjeFN3": "2026-11-25T17:02:51.764092+00:00"
  },
  "publies": [
   {
@@ -2757,11 +2763,20 @@
    "lien": "https://www.instagram.com/p/DgKpuUXDCE_/",
    "reel": "https://www.instagram.com/reel/DgKpxm0heej/",
    "story": "18649195642023638"
+  },
+  {
+   "ts": "2026-11-25T17:02:51.764092+00:00",
+   "categorie": "GAMING",
+   "titre": "Max Verstappen a joué 40 heures à GTA 6",
+   "source_id": "web:google news:CBMipgFBVV95cUxQaWxvS3Q0QVluRW5WN1JseElIRHFjRGhqSkRzRGdsQS1jNllSN0JUa0tmTTR2X0cwUXpyR3R0ZWc0bjVNdktobGdocFJVWG5VT2xMVlNrVEZ6S3pSOXNJRUFIWjZTengxLUJFMUZNOGFqZURhWXVpQzQ5aFJPN2tsbDFHWjZjTmIxVHY2Q3JUWW5vT3d5NEpuR2l0U2dyMWtZbkJjeFN3",
+   "lien": "https://www.instagram.com/p/DgLCV7ljUUl/",
+   "reel": "https://www.instagram.com/reel/DgLCXyrMBAM/",
+   "story": "18172791619465903"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 5036
+  "tweets": 5056
  },
  "x_recherches": {
   "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-25T15:02:52.991625+00:00"
