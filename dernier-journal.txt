@@ -6,8 +6,8 @@ Instagram · posts publiés par l'API sur 24 h : 36 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 100 infos
-Web · GOOGLE NEWS → 100 infos
-Web · BING ACTU → 11 infos
+Web · GOOGLE NEWS → 102 infos
+Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
@@ -15,50 +15,51 @@ Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
 Web · GAMEKULT → 9 infos
-Web · IGN FRANCE → 10 infos
-Web · JEUXVIDEO.COM → 17 infos
-Web · INSIDER GAMING → 7 infos
+Web · IGN FRANCE → 11 infos
+Web · JEUXVIDEO.COM → 16 infos
+Web · INSIDER GAMING → 6 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 5 gardés
-X · @RockstarGames → 2 tweets lus, 1 gardés (ce mois : 5130 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5140 / 10000)
+X · @RockstarGames → 2 tweets lus, 1 gardés (ce mois : 5150 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5160 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-287 infos fraîches et jamais traitées (sur 474 lues)
+288 infos fraîches et jamais traitées (sur 476 lues)
    6/10 ✗ déjà publiée « Grand Theft Auto VI: The Album (Deluxe Edition)  »
-   5/10 ✗ déjà publiée « Max Payne Remake Development With Rockstar Is "Amazing" Says Remedy  »
+   6/10 ✗ déjà publiée « Max Payne Remake Development With Rockstar Is "Amazing" Says Remedy  »
    6/10 ✗ déjà publiée « GTA VI Official Trading Cards Announced by Panini!  »
    7/10 ✗ déjà publiée « GTA VI Is Now Bootable On PC, Teams Racing Each Other For Fully Playab »
    7/10 ✗ déjà publiée « Rockstar Reportedly Shopping Red Dead Redemption Movie and TV Rights F »
-   6/10 ✗ déjà publiée « GTA VI The Album Deluxe Edition Announced  »
-   9/10 ✗ déjà publiée « GTA VI Hits 39 Million PS5 Players in Biggest Launch Ever, Sony Confir »
    6/10 ✗ déjà publiée « GTA VI Official Trading Cards Announced by Panini! »
+   6/10 ✗ déjà publiée « GTA VI The Album Deluxe Edition Announced  »
    7/10 ✗ déjà publiée « Rockstar Reportedly Shopping Red Dead Redemption Movie and TV Rights F »
-   0/10 ✗ pas une news « How to Find and Complete Kingpin Bowling Alley in GTA 6—All Key Valuab »
-   7/10 ✓ « The Wildlife in GTA 6 Is Unreal, and You Need to See It Up Close »
-   6/10 ✓ « GTA 6: Meet Lexie Shoaibi, the Actress Behind Mandy »
-   0/10 ✗ pas une news « GTA 6 crossplay et cross-save PS5 et Xbox : transfert de sauvegarde »
-   0/10 ✗ pas une news « Here’s Some Video Game Conversation Starters That’s Not About GTA 6 »
-   7/10 ✓ « GTA 6 Publisher Furious as Reverse Engineers Get It Running on PC »
-   6/10 ✓ « GTA 6 à 120 FPS sur PS6 et Xbox Helix, un insider dévoile ses estimati »
-   0/10 ✗ pas une news « Liquidation des stocks PS5 : Amazon frappe pour la sortie de GTA 6 »
-   6/10 ✓ « GTA VI Is A Smash Hit. Its Stock Is Another Story. »
-   0/10 ✗ pas une news « Pas besoin de PS5 pour GTA 6, un PlayStation Portal suffit »
-   5/10 ✓ « Révolution Permanente d'Anasse Kazib répond à jeuxvideo.com sur GTA 6  »
-GAMING · 6 infos retenues, meilleure : « The Wildlife in GTA 6 Is Unreal, and You Need to See It Up Close » (7/10)
-  article · pcmag.com
+   7/10 ✗ déjà publiée « GTA VI Is Now Bootable On PC, Teams Racing Each Other For Fully Playab »
+   0/10 ✗ pas une news « GTA 6 Leonida Carrier Warehouse: Safe Code, GRX-556 and Gunrunner Cama »
+   0/10 ✗ pas une news « How to Unlock and Enter All 4 Kitty Litter Labs in GTA 6 »
+   0/10 ✗ pas une news « GTA 6 Chatfield Storage Guide to the Suppressed ES9, Safe Code and Sup »
+   0/10 ✗ pas une news « All Peewees Billboard locations in GTA 6 »
+   7/10 ✗ déjà publiée « GTA 6 sur PC : plus de 10 fps, les portages pirates font de gros progr »
+   0/10 ✗ pas une news « This Website Lets You Play GTA 6 For Free, With One Big Catch »
+   5/10 ✓ « GTA VI, au moins une requête sur cinq provenait d’un bot »
+   0/10 ✗ pas une news « Can You Play GTA 6 From An External Hard Drive On PS5 Or Xbox Series X »
+   8/10 ✓ « GTA 6 Animation Director Reveals Rockstar Made 3 Animations for Each I »
+   4/10 ✗ trop faible (mini 5) « Cal Thomas: The poison of Grand Theft Auto VI »
+   0/10 ✗ pas une news « Buckingham Jubilee GTA 6 Location – Where to Find the Rolls-Royce SUV »
+GAMING · 2 infos retenues, meilleure : « GTA 6 Animation Director Reveals Rockstar Made 3 Animations for Each Item Intera » (8/10)
+  article · sea.ign.com
   article · 6000 caractères lus
-  photo · 1 image(s) : 1120x630
+  photo · 1 image(s) : 1200x675
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · recherche X « GTA 6 wildlife animals binoculars » : rien qui montre vraiment le sujet
-  vidéo · trouvée sur X « wildlife animals » (1419 likes) : i am again in cocoa fl this morning documenting their historic floodin
-  vidéo · téléchargée (12 s, 3 Mo)
-  vidéo · 12 images analysées, texte incrusté sur 0
-  couverture · video@6s · zoom 1.25 · propre
-  carrousel prêt : « 255 espèces animales recensées dans GTA 6 » (4 slides)
-  voix · contrôle OK (97%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (7.7 s)
-  reel · 9.3 s · 6 plans dont 6 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgLgZDMII3a/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgLge0kAb36/
+  vidéo · trouvée sur X « GTA 6 item interaction animation » (269 likes) : i gave my shop a gta 6-style product menu, then realized the selected 
+  vidéo · téléchargée (42 s, 4 Mo)
+  vidéo · 40 images analysées, texte incrusté sur 39
+  couverture · video@35s · zoom 1.0 · propre
+  carrousel prêt : « GTA 6 : Rockstar a créé 3 animations par objet » (4 slides)
+  voix · contrôle OK (98%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (6.9 s)
+  vidéo · 10 images analysées, texte incrusté sur 10
+  vidéo · temps forts : 5 passages (7s, 12s, 32s, 35s, 38s) sur 42 s
+  reel · 8.6 s · 5 plans dont 5 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgLnYpnDqAS/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgLnaz3tbIr/
   ✅ STORY PUBLIÉE (vidéo)
 Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
