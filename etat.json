@@ -1075,7 +1075,12 @@
   "web:insider gaming:https://insider-gaming.com/?p=241840": "2026-11-25T17:02:51.764092+00:00",
   "ag:https://www.actugaming.net/?p=836001": "2026-11-25T17:02:51.764092+00:00",
   "ag:https://www.actugaming.net/?p=835996": "2026-11-25T17:02:51.764092+00:00",
-  "web:google news:CBMipgFBVV95cUxQaWxvS3Q0QVluRW5WN1JseElIRHFjRGhqSkRzRGdsQS1jNllSN0JUa0tmTTR2X0cwUXpyR3R0ZWc0bjVNdktobGdocFJVWG5VT2xMVlNrVEZ6S3pSOXNJRUFIWjZTengxLUJFMUZNOGFqZURhWXVpQzQ5aFJPN2tsbDFHWjZjTmIxVHY2Q3JUWW5vT3d5NEpuR2l0U2dyMWtZbkJjeFN3": "2026-11-25T17:02:51.764092+00:00"
+  "web:google news:CBMipgFBVV95cUxQaWxvS3Q0QVluRW5WN1JseElIRHFjRGhqSkRzRGdsQS1jNllSN0JUa0tmTTR2X0cwUXpyR3R0ZWc0bjVNdktobGdocFJVWG5VT2xMVlNrVEZ6S3pSOXNJRUFIWjZTengxLUJFMUZNOGFqZURhWXVpQzQ5aFJPN2tsbDFHWjZjTmIxVHY2Q3JUWW5vT3d5NEpuR2l0U2dyMWtZbkJjeFN3": "2026-11-25T17:02:51.764092+00:00",
+  "web:google news:CBMicEFVX3lxTE5Tb245al9QNzMwUjA4aEMteEcyYm83VDF1ei1kU1pMN01CMXIweUt5ZVpvSmg0YUVUaGxXdFc4QlVTZERKTm9UY1IwX0ZVWnNMbi1MdFBuLW1FaGxLM2o3T0FIMVFzMjZmeWo5LXc2N0s": "2026-11-25T18:31:45.660440+00:00",
+  "web:google actu:CBMi0gFBVV95cUxPSnh6UjFuUXJyU0xqcGV2T3doWnZOMnF6aTVTOEpaVnlIcW1QY2pPYkpRVTJJUG1PeG5jaTVyWTB2djVIakRsWEdPRDRIVkRIYVVfeFRyYWJyUVgwZjFmZmlpX3JmcWowcnB3X2JzbEdXRmVLY1J1WkJUNWUxeWlHNWtfaGhzcHAwd3pCRXJOa3FwaEwxMTU1WUpuUFpHYjJueVdtMDVSYXFaWmdzSWhaZHh5WHd1NHY4V2tpSGZVYmVuTDM4Nl9XX3JOMFpKV1dkSXc": "2026-11-25T18:31:45.660440+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=241871": "2026-11-25T18:31:45.660440+00:00",
+  "ag:https://www.actugaming.net/?p=836004": "2026-11-25T18:31:45.660440+00:00",
+  "web:google actu:CBMimgFBVV95cUxOQjhURUlQNkpzUkFsNEltTmxuWW5OVmZMY2xEbGlsQURYVGlDNUMxSWdSMGtEc2szMjhmc01aUkVtMjlUWHRiWnlXU2ZiZi1JZFJGSmhjd056YlNWQXc0UHNLclNyV3RIdWdnQkxENlZ3RWFoNTdtZ29QUnl0MmpMTElhX1liRXAtN2JTbnRwY09tRnJIUjltcGxB": "2026-11-25T18:31:45.660440+00:00"
  },
  "publies": [
   {
@@ -2772,11 +2777,20 @@
    "lien": "https://www.instagram.com/p/DgLCV7ljUUl/",
    "reel": "https://www.instagram.com/reel/DgLCXyrMBAM/",
    "story": "18172791619465903"
+  },
+  {
+   "ts": "2026-11-25T18:31:45.660440+00:00",
+   "categorie": "GAMING",
+   "titre": "GTA VI : les réglages graphiques de chaque console ont fuité",
+   "source_id": "web:google actu:CBMimgFBVV95cUxOQjhURUlQNkpzUkFsNEltTmxuWW5OVmZMY2xEbGlsQURYVGlDNUMxSWdSMGtEc2szMjhmc01aUkVtMjlUWHRiWnlXU2ZiZi1JZFJGSmhjd056YlNWQXc0UHNLclNyV3RIdWdnQkxENlZ3RWFoNTdtZ29QUnl0MmpMTElhX1liRXAtN2JTbnRwY09tRnJIUjltcGxB",
+   "lien": "https://www.instagram.com/p/DgLMN4ll-ac/",
+   "reel": "https://www.instagram.com/reel/DgLMPU9AxVN/",
+   "story": "18122289617078255"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 5068
+  "tweets": 5088
  },
  "x_recherches": {
   "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-25T15:02:52.991625+00:00"
