@@ -5,9 +5,9 @@ Instagram · @cesttombe.actu (19 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 45 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → HTTP 429
+Web · GOOGLE ACTU → 100 infos
 Web · GOOGLE NEWS → 100 infos
-Web · BING ACTU → 12 infos
+Web · BING ACTU → 11 infos
 Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
@@ -15,52 +15,50 @@ Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
 Web · GAMEKULT → 10 infos
-Web · IGN FRANCE → 17 infos
-Web · JEUXVIDEO.COM → 15 infos
+Web · IGN FRANCE → 16 infos
+Web · JEUXVIDEO.COM → 16 infos
 Web · INSIDER GAMING → 4 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 6 gardés
-X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4865 / 10000)
-X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4866 / 10000)
+X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 4868 / 10000)
+X · @RockstarIntel → 1 tweets lus, 0 gardés (ce mois : 4869 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-161 infos fraîches et jamais traitées (sur 368 lues)
-   6/10 ✓ « Project Leonida, le fameux "portage" (pour ne pas dire projet pirate)  »
-   2/10 ✗ pas une news « grand theft auto vi: state of decay »
+234 infos fraîches et jamais traitées (sur 467 lues)
+   6/10 ✓ « CD Projekt RED Unaffected by GTA VI Launch in Q4 Earnings »
+   7/10 ✓ « À cause de GTA 6, la PS5 est en rupture de stock un peu partout »
+   7/10 ✓ « Le streaming cloud de GTA 6 arrive sur PS5 et PlayStation Portal, épar »
+   5/10 ✓ « "Une sorte de défouloir" : "GTA 6", Lego, PlayStation, alimentaire...  »
+   6/10 ✓ « GTA 6 : le jeu vidéo signe-t-il le retour de la monoculture ? »
+   6/10 ✓ « Portage pirate de GTA 6 sur PC : Take-Two frappe, mais la course conti »
+   0/10 ✗ pas une news « All Leonida Carrier Warehouse Key Valuable Locations - GTA 6 »
+   8/10 ✓ « GTA 6 Becomes the Biggest Launch in PlayStation History »
+   7/10 ✗ déjà publiée « GTA 6 propulse au sommet Sylvie Vartan, une surprise qui l'a fait réag »
    6/10 ✓ « Over Half of GTA 6 Watch Time Came From Viewers Under 25 Years Old »
-   5/10 ✓ « New GTA 6 PC footage shows water rendering at 5 FPS and using 22GB of  »
-   5/10 ✗ déjà publiée « Project Leonida DMCA Takedown: 2,900+ Forks Hit »
-   6/10 ✓ « 'Grand Theft Auto VI: The Album' Is Here: Listen »
-   6/10 ✓ « 'GTA 6' is giving Carly Rae Jepsen's 'Run Away With Me' a second life »
-   8/10 ✓ « ‘GTA VI’ Sold 47 Million Copies By End Of Launch Weekend—And Siphoned  »
-   6/10 ✓ « 'Grand Theft Auto VI: The Album': Every Song Ranked »
-   7/10 ✓ « YouTube celebrates the launch and cultural impact of Grand Theft Auto  »
-   3/10 ✗ pas une news « 98% d'avis positifs ! C'est l'antithèse absolue de GTA 6 et il cartonn »
-   2/10 ✗ pas une news « GTA 6 Take Out Kitty Litter: Where to Find All 12 Labs and What Each P »
-   8/10 ✓ « GTA 6 will be released on PC in March 2027, along with the launch of G »
-   7/10 ✗ déjà publiée « Analyst estimates Call of Duty lost 44% of its players when GTA 6 came »
-   3/10 ✗ pas une news « Grand Theft Auto VI Review, Gameplay Impressions, Videos and Top Featu »
-   6/10 ✓ « From Key Cloning To Car Trackers: How 'GTA 6' Is Making Car Theft A Bi »
-   7/10 ✓ « 'GTA 6' Online release update: What we know about when it comes out. »
-   1/10 ✗ pas une news « Essential GTA 6 Chapter 1 advice before starting ‘point of no return’  »
-   6/10 ✓ « GTA 6 Is Getting Its Own Sports Trading Cards »
-   8/10 ✗ déjà publiée « GTA 6 Draws 39 Million PS5 Players in Four Days, Sony's Biggest Launch »
-   7/10 ✗ trop faible (mini 9) « Fortnite annonce l’événement de fin du Chapitre 7, Requiem, prévu pour »
-GAMING · 12 infos retenues, meilleure : « ‘GTA VI’ Sold 47 Million Copies By End Of Launch Weekend—And Siphoned Players Fr » (8/10)
-  article · forbesmiddleeast.com
-  article · 0 caractères lus
-  ⏭️ article illisible, info écartée : « ‘GTA VI’ Sold 47 Million Copies By End Of Launch Weekend—And »
-  article · en.gamegpu.com
-  article · 2608 caractères lus
-  photo · 1 image(s) : 1920x1080
+   8/10 ✗ déjà publiée « GTA 6 signe le plus grand lancement de l’histoire de PlayStation, selo »
+   0/10 ✗ pas une news « Grand Theft Auto VI : le monde ouvert »
+   0/10 ✗ pas une news « Grand Theft Auto VI : les PNJ »
+   0/10 ✗ pas une news « Grand Theft Auto VI : Le personnage de Lucia »
+   0/10 ✗ pas une news « Grand Theft Auto VI : la campagne »
+   6/10 ✓ « GTA 6 est aussi le projet musical le plus excitant de l’année »
+   0/10 ✗ pas une news « Avis – GTA 6 : un chef-d’œuvre technologique qui n’échappe pas à quelq »
+   7/10 ✗ déjà publiée « GTA 6 PC port takedown confirmed: Take-Two cites Rockstar's ban on rev »
+   9/10 ✗ déjà publiée « GTA 6 : 39 millions de joueurs sur PS5, record PlayStation »
+   7/10 ✓ « Yes, One Minor Function Was Censored from GTA 6 in Australia, NZ, but  »
+GAMING · 10 infos retenues, meilleure : « GTA 6 Becomes the Biggest Launch in PlayStation History » (8/10)
+  article · 80.lv
+  article · 2635 caractères lus
+  photo · 1 image(s) : 1120x630
+  contexte · 1 complément(s) : ROCKSTAR INTEL
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · recherche « GTA 6 trailer leaks » trop vague : pas de vidéo
+  vidéo · recherche X « GTA 6 PS5 gameplay launch » : rien qui montre vraiment le sujet
+  vidéo · recherche X « PS5 launch » : rien qui montre vraiment le sujet
   vidéo · recherche X « GTA 6 gameplay » : rien qui montre vraiment le sujet
-  couverture · photo1 · zoom 1.4 · propre
-  carrousel prêt : « GTA 6 Online sortira en mars 2027 sur PC » (4 slides)
-  voix · contrôle OK (100%, essai 1, gemini-3.1-flash-tts-preview)
-  voix · Gemini (Aoede) (9.6 s)
-  reel · 11.2 s · 7 plans dont 0 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgJ86TZIOfh/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgJ88BgCdnc/
+  couverture · photo1 · zoom 1.0 · propre
+  carrousel prêt : « GTA 6 explose les records sur PlayStation » (4 slides)
+  voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (7.2 s)
+  reel · 8.8 s · 5 plans dont 0 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgKDramDQLD/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgKDtBTB-FW/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 3 s
