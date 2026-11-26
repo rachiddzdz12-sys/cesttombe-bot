@@ -5,65 +5,64 @@ Instagram · @cesttombe.actu (20 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 42 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → 100 infos
+Web · GOOGLE ACTU → HTTP 429
 Web · GOOGLE NEWS → 102 infos
-Web · BING ACTU → 12 infos
-Web · BING ACTU VI → 12 infos
-Web · ROCKSTAR INTEL → erreur : HTTPSConnectionPool(host='www.rockstarintel.com', port=443): Read timed out. (read timeout=25)
+Web · BING ACTU → 11 infos
+Web · BING ACTU VI → 2 infos
+Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
-Web · GAMEKULT → 9 infos
+Web · GAMEKULT → 10 infos
 Web · IGN FRANCE → 13 infos
-Web · JEUXVIDEO.COM → 12 infos
-Web · INSIDER GAMING → 4 infos
+Web · JEUXVIDEO.COM → 11 infos
+Web · INSIDER GAMING → 6 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 5 gardés
-X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 5327 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5337 / 10000)
+X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 5346 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5356 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-261 infos fraîches et jamais traitées (sur 461 lues)
+171 infos fraîches et jamais traitées (sur 362 lues)
    6/10 ✗ déjà publiée « Max Payne Remake Development With Rockstar Is "Amazing" Says Remedy  »
-   7/10 ✗ déjà publiée « GTA VI Official Trading Cards Announced by Panini!  »
-   6/10 ✗ déjà publiée « GTA VI Is Now Bootable On PC, Teams Racing Each Other For Fully Playab »
+   5/10 ✗ déjà publiée « GTA VI Official Trading Cards Announced by Panini!  »
+   7/10 ✗ déjà publiée « GTA VI Is Now Bootable On PC, Teams Racing Each Other For Fully Playab »
    7/10 ✗ déjà publiée « Rockstar Reportedly Shopping Red Dead Redemption Movie and TV Rights F »
-   7/10 ✗ déjà publiée « GTA VI Official Trading Cards Announced by Panini! »
-   6/10 ✓ « GTA VI The Album Deluxe Edition Announced  »
+   5/10 ✗ déjà publiée « GTA VI Official Trading Cards Announced by Panini! »
    7/10 ✗ déjà publiée « Rockstar Reportedly Shopping Red Dead Redemption Movie and TV Rights F »
-   6/10 ✗ déjà publiée « GTA VI Is Now Bootable On PC, Teams Racing Each Other For Fully Playab »
-   0/10 ✗ pas une news « GTA 6 Chapter 4 Mission List – Every Mission in GTA 6 Chapter 4 in Ord »
-   6/10 ✓ « GTA VI sur PC : le portage non officiel CGBJ à 91 %, déjà à 25 images  »
-   0/10 ✗ pas une news « How To Register Advanced Tracker Cars in GTA 6—Keep Stolen Cars & Remo »
-   0/10 ✗ pas une news « How to steal GTA 6 ATMs and get a winched vehicle »
-   0/10 ✗ pas une news « GTA 6 Car Repair: The Fastest Method »
-   7/10 ✓ « Take-Two Is Rebuilding Vice City Inside NBA 2K27 on November 27 »
-   8/10 ✗ déjà publiée « GTA 6 "Blackout" : le jeu massacre les PS5 à la pelle, les consoles su »
-   6/10 ✗ déjà publiée « GTA VI console graphics settings leaked, showing a lot of room for imp »
-   7/10 ✗ déjà publiée « GTA 6 : Panini sort en décembre des cartes officielles, avec des paral »
-   0/10 ✗ pas une news « Jason’s House GTA 6: How to Go Back »
-   6/10 ✓ « GTA 6 : réalisme, psychopathie et conséquences, d'où vient le plaisir  »
-   0/10 ✗ pas une news « GTA 6: Where To Find The Candy Cane Lure »
-   3/10 ✗ trop faible (mini 9) « MOUSE: P.I. For Hire tease l’annonce d’un DLC pour la semaine prochain »
-   6/10 ✗ trop faible (mini 9) « ‘If this is 3 days in, wonder where we are come Sunday’: the progress  »
-GAMING · 4 infos retenues, meilleure : « GTA VI The Album Deluxe Edition Announced  » (6/10)
-  photo · échec : image trop petite (48x48)
+   7/10 ✗ déjà publiée « GTA VI Is Now Bootable On PC, Teams Racing Each Other For Fully Playab »
+   1/10 ✗ pas une news « Get Ready for GTA 6 on PC With These Black Friday Monitor Deals From J »
+   6/10 ✓ « Agenda - PlayStation Plus : les jeux du mois de décembre avec Tony Haw »
+   8/10 ✓ « CD Projekt Red says The Witcher 4 upgrade over The Witcher 3 will be j »
+   8/10 ✓ « GTA 6's Cartel Heist Might Be Rockstar's Best Ever Mission, But Only I »
+   3/10 ✗ pas une news « Every Snapmatic Animal Location In GTA 6—Hunting Legendary Animals »
+   9/10 ✓ « GTA 6 has reportedly sold more copies on PS5 than Xbox has sold Series »
+   7/10 ✓ « GTA 6’s Criminal Profiles Are Meant to Encourage Choices “Beyond Just  »
+   2/10 ✗ pas une news « 10 Reasons You Will Be Playing GTA 6 For More Than a Decade »
+   8/10 ✓ « GTA VI Switch 2 Port: Digital Foundry on 30 FPS Cuts »
+   1/10 ✗ pas une news « How to Easily Get Gold Medals in GTA 6 Shooting Range Challenges »
+   7/10 ✓ « GTA 6 PC port hits 20 FPS just days after drawing one frame every two  »
+   7/10 ✓ « I’ve completed GTA 6 – this is what the driving physics are really lik »
+   3/10 ✗ pas une news « How to get abducted by aliens in GTA 6 »
+GAMING · 8 infos retenues, meilleure : « GTA 6 has reportedly sold more copies on PS5 than Xbox has sold Series X/S conso » (9/10)
+  article · pcguide.com
+  article · 2354 caractères lus
   photo · 1 image(s) : 1200x675
-  contexte · 2 complément(s) : @ROCKSTARGAMES, @ROCKSTARINTEL
+  contexte · 3 complément(s) : IGN FRANCE, NUMERAMA, ROCKSTAR INTEL
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · recherche X « Grand Theft Auto VI album Deluxe Edition » : rien qui montre vraiment le sujet
-  vidéo · recherche X « Deluxe Edition » : rien qui montre vraiment le sujet
-  vidéo · trouvée sur X « GTA 6 gameplay » (25295 likes) : final review: 60 hours in, since the very first minute of launch, i fi
-  vidéo · téléchargée (29 s, 7 Mo)
-  vidéo · 29 images analysées, texte incrusté sur 11
-  couverture · video@10s · zoom 1.0 · propre
-  carrousel prêt : « Annoncé de la Deluxe Édition de l'album GTA 6 » (4 slides)
-  voix · contrôle OK (98%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (7.7 s)
-  vidéo · 12 images analysées, texte incrusté sur 2
-  vidéo · temps forts : 6 passages (2s, 6s, 8s, 13s, 18s, 20s) sur 29 s
-  reel · 9.3 s · 6 plans dont 6 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgNLFM5jWSL/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgNLHPAMccK/
+  vidéo · trouvée sur X « GTA 6 PS5 vs Xbox Series X comparison » (1520 likes) : 🚨 عاجل:
+
+أكد موقع digital foundry بشكل رسمي أن منصات xbox series x|s ت
+  vidéo · téléchargée (47 s, 7 Mo)
+  vidéo · 40 images analysées, texte incrusté sur 25
+  couverture · video@8s · zoom 1.0 · propre
+  carrousel prêt : « GTA 6 plus joué sur PS5 que de Xbox vendues » (5 slides)
+  voix · contrôle OK (98%, essai 1, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (10.6 s)
+  vidéo · 14 images analysées, texte incrusté sur 12
+  vidéo · temps forts : 7 passages (3s, 5s, 8s, 11s, 13s, 15s, 38s) sur 47 s
+  reel · 12.2 s · 7 plans dont 7 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgNR7UklrXI/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgNR8-PhSNz/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 5 s · gemini-flash-lite-latest : réponse en 2 s
+Gemini : gemini-flash-lite-latest : réponse en 6 s · gemini-flash-lite-latest : réponse en 10 s · texte sans accents ou sans apostrophes : réécriture demandée · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3-flash-preview : réponse en 8 s
