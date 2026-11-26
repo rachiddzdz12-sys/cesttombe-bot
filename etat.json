@@ -1,10 +1,5 @@
 {
  "vus": {
-  "ig:18121912987983889": "2026-11-12T17:31:33.334552+00:00",
-  "ig:18036793154907304": "2026-11-12T17:31:33.334552+00:00",
-  "ig:18066208466547830": "2026-11-12T17:31:33.334552+00:00",
-  "ag:https://www.actugaming.net/?p=833330": "2026-11-12T18:01:42.904647+00:00",
-  "ig:17895038769653718": "2026-11-12T18:01:42.904647+00:00",
   "ig:17885659776528374": "2026-11-12T20:31:24.048560+00:00",
   "ag:https://www.actugaming.net/?p=833344": "2026-11-13T08:01:36.044159+00:00",
   "ag:https://www.actugaming.net/?p=833333": "2026-11-13T08:01:36.044159+00:00",
@@ -1160,7 +1155,14 @@
   "web:gamesradar:uHZX5S3btvLRKsvnzC2sz7": "2026-11-26T17:01:44.786667+00:00",
   "web:google news:CBMickFVX3lxTFAtaFU1MlA3Q0FFM3BlY0ltd0pqYVoyV2tvWnlheXFlT3Y4MGVIWjNMX01seWZ6aXNtd3htUlV2TUE3WGNnRlJyaW5GT1Y0QjBib1BaTHV2V2VaNklsTFdJZVlKek9ITm1wUnNzV25NRXlQQQ": "2026-11-26T17:01:44.786667+00:00",
   "web:google news:CBMif0FVX3lxTE9Zc19UeXZBMTFRNWZXZFQ4Y2ZRNnJtYVZmbmdVR0gxMW85a1hSZHl1TVRNMHFtZ2RnY2FVb0d0alpGUTFrSVpGeWRReGtSVm0xYVNKR2V1MlhSM0RRTnhaQ1M3YXpaQ3ZDWk9MYTcwYnhGSVNvVkl6NWFvSXNnQXM": "2026-11-26T17:01:44.786667+00:00",
-  "x:2125991722287292671": "2026-11-26T17:01:44.786667+00:00"
+  "x:2125991722287292671": "2026-11-26T17:01:44.786667+00:00",
+  "web:google news:CBMifEFVX3lxTE1sdXhMdnR0UEgtVXVUMUpQb3hZMmhhNkVEZFFJVTA3dHNoLVJtZmYyLWd1dmUwUjNqUUs2cmFPUDZmdDhQeFNfYmVJMWRxVEZob2pGcHJab25fMEZoRGZYbjRybHM2RnpMal9DQVNLT1Y3dmZGdHJZb3FycTk": "2026-11-26T18:01:43.561767+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=242223": "2026-11-26T18:01:43.561767+00:00",
+  "web:google news:CBMib0FVX3lxTE52ZU1FT2lDM3NWZWw1bG9YOXRhakJJczRheTZVR0x4VnlBaGZ6dG9hQXZyNjBPM3QtaEh3Yk5jUWc5aXhhT21CUVhvSml4bnA0Vl90S1pGVUp0dDRxY1NIcTVaS0YwNTlYS3ROaFdydw": "2026-11-26T18:01:43.561767+00:00",
+  "web:google news:CBMihAFBVV95cUxQSXNTV1FpQjBFdUlHcURPeEx2dzNORWtXWVgtTFFTMm51czZaY1RETXpJdEdFaVpieWZwVGxjXzVzUmtRMXlWdzQyaVNWTWVTdHMtcFR1QlcydWFhb0pTTkJIc3UwelZYeFBoeWJ1OXBWcHhJdXpfNFZ4X3loaWdObEdCY1M": "2026-11-26T18:01:43.561767+00:00",
+  "web:google news:CBMiWkFVX3lxTE1xQkU3N3ROMVgxSTVNVGYxQXQzbm9BQ212OXJEeDJRTHdiN3JNaWd0Z0tyY0M0Tmg0M0FWdGhYeDFLTjZEU0hDWmtZcDB0RDZqaHZHTWRDb01SUQ": "2026-11-26T18:01:43.561767+00:00",
+  "ag:https://www.actugaming.net/?p=836347": "2026-11-26T18:01:43.561767+00:00",
+  "web:gamesradar:P6SWGt2hLAbiv2g4KntdYm": "2026-11-26T18:01:43.561767+00:00"
  },
  "publies": [
   {
@@ -3010,11 +3012,20 @@
    "lien": "https://www.instagram.com/p/DgNmb0Io4vp/",
    "reel": "https://www.instagram.com/reel/DgNmeD2TnoZ/",
    "story": "18044649734836358"
+  },
+  {
+   "ts": "2026-11-26T18:01:43.561767+00:00",
+   "categorie": "GAMING",
+   "titre": "Rockstar savait que GTA 6 diviserait les joueurs",
+   "source_id": "web:gamesradar:P6SWGt2hLAbiv2g4KntdYm",
+   "lien": "https://www.instagram.com/p/DgNtOrJCWW6/",
+   "reel": "https://www.instagram.com/reel/DgNtRE9BwnC/",
+   "story": "18120713294088349"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 5431
+  "tweets": 5450
  },
  "x_recherches": {
   "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-26T15:02:18.502928+00:00"
