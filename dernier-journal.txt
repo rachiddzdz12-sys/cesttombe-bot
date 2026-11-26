@@ -2,7 +2,7 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (20 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 36 / 100
+Instagram · posts publiés par l'API sur 24 h : 39 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 100 infos
@@ -17,49 +17,52 @@ Web · GTABASE → 30 infos
 Web · GAMEKULT → 9 infos
 Web · IGN FRANCE → 11 infos
 Web · JEUXVIDEO.COM → 16 infos
-Web · INSIDER GAMING → 6 infos
+Web · INSIDER GAMING → 4 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 5 gardés
-X · @RockstarGames → 2 tweets lus, 1 gardés (ce mois : 5150 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5160 / 10000)
+X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 5165 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5175 / 10000)
+X · « ("GTA 6" OR "GTA VI") filter:native_vide » → 8 tweets lus, 7 gardés (ce mois : 5183 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-288 infos fraîches et jamais traitées (sur 476 lues)
-   6/10 ✗ déjà publiée « Grand Theft Auto VI: The Album (Deluxe Edition)  »
-   6/10 ✗ déjà publiée « Max Payne Remake Development With Rockstar Is "Amazing" Says Remedy  »
+261 infos fraîches et jamais traitées (sur 480 lues)
+   6/10 ✓ « Max Payne Remake Development With Rockstar Is "Amazing" Says Remedy  »
    6/10 ✗ déjà publiée « GTA VI Official Trading Cards Announced by Panini!  »
    7/10 ✗ déjà publiée « GTA VI Is Now Bootable On PC, Teams Racing Each Other For Fully Playab »
    7/10 ✗ déjà publiée « Rockstar Reportedly Shopping Red Dead Redemption Movie and TV Rights F »
    6/10 ✗ déjà publiée « GTA VI Official Trading Cards Announced by Panini! »
-   6/10 ✗ déjà publiée « GTA VI The Album Deluxe Edition Announced  »
+   7/10 ✗ déjà publiée « GTA VI The Album Deluxe Edition Announced  »
    7/10 ✗ déjà publiée « Rockstar Reportedly Shopping Red Dead Redemption Movie and TV Rights F »
    7/10 ✗ déjà publiée « GTA VI Is Now Bootable On PC, Teams Racing Each Other For Fully Playab »
-   0/10 ✗ pas une news « GTA 6 Leonida Carrier Warehouse: Safe Code, GRX-556 and Gunrunner Cama »
-   0/10 ✗ pas une news « How to Unlock and Enter All 4 Kitty Litter Labs in GTA 6 »
-   0/10 ✗ pas une news « GTA 6 Chatfield Storage Guide to the Suppressed ES9, Safe Code and Sup »
-   0/10 ✗ pas une news « All Peewees Billboard locations in GTA 6 »
-   7/10 ✗ déjà publiée « GTA 6 sur PC : plus de 10 fps, les portages pirates font de gros progr »
-   0/10 ✗ pas une news « This Website Lets You Play GTA 6 For Free, With One Big Catch »
-   5/10 ✓ « GTA VI, au moins une requête sur cinq provenait d’un bot »
-   0/10 ✗ pas une news « Can You Play GTA 6 From An External Hard Drive On PS5 Or Xbox Series X »
-   8/10 ✓ « GTA 6 Animation Director Reveals Rockstar Made 3 Animations for Each I »
-   4/10 ✗ trop faible (mini 5) « Cal Thomas: The poison of Grand Theft Auto VI »
-   0/10 ✗ pas une news « Buckingham Jubilee GTA 6 Location – Where to Find the Rolls-Royce SUV »
-GAMING · 2 infos retenues, meilleure : « GTA 6 Animation Director Reveals Rockstar Made 3 Animations for Each Item Intera » (8/10)
-  article · sea.ign.com
-  article · 6000 caractères lus
-  photo · 1 image(s) : 1200x675
+   5/10 ✓ « BRO FOUND A SECRET SAFE IN GTA 6 WITH HIDDEN CASH AND A RARE CAR KEY 😭 »
+   6/10 ✓ « You can sync shot in GTA 6!? https://t.co/zGdDBJGr5H »
+   2/10 ✗ pas une news « C’est le jeu d’une vie… Merci Rockstar pour ce GTA 6 https://t.co/gV0d »
+   5/10 ✓ « First time hearing jason express emotion  »
+   8/10 ✓ « Cyberpunk 2 director calls GTA 6 a “creative miracle” and says his own »
+   1/10 ✗ pas une news « All Missing Persons locations in GTA 6 »
+   7/10 ✓ « ‘South Park’ Season Finale Drops Kenny Into ‘Grand Theft Auto VI’ as S »
+   5/10 ✓ « F1 : "Je vais jouer avant le Qatar" : Gasly va tester GTA 6, comme Ham »
+   7/10 ✗ déjà publiée « ‘South Park’ Season 29 Finale: ‘GTA 6’ Inspires Stan, Kyle and Cartman »
+   6/10 ✓ « "On ne s'y attendait pas du tout", réagit un membre du duo électro fra »
+   2/10 ✗ pas une news « How to Get the Free Anime Car in GTA 6 »
+   7/10 ✓ « Waka Flocka Flame Calls 'GTA VI' Players Over 35 'Pathetic' »
+GAMING · 9 infos retenues, meilleure : « Cyberpunk 2 director calls GTA 6 a “creative miracle” and says his own sequel wi » (8/10)
+  article · mixed-news.com
+  article · 575 caractères lus
+  photo · aucune image
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · trouvée sur X « GTA 6 item interaction animation » (269 likes) : i gave my shop a gta 6-style product menu, then realized the selected 
-  vidéo · téléchargée (42 s, 4 Mo)
-  vidéo · 40 images analysées, texte incrusté sur 39
-  couverture · video@35s · zoom 1.0 · propre
-  carrousel prêt : « GTA 6 : Rockstar a créé 3 animations par objet » (4 slides)
-  voix · contrôle OK (98%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (6.9 s)
-  vidéo · 10 images analysées, texte incrusté sur 10
-  vidéo · temps forts : 5 passages (7s, 12s, 32s, 35s, 38s) sur 42 s
-  reel · 8.6 s · 5 plans dont 5 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgLnYpnDqAS/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgLnaz3tbIr/
+  vidéo · trouvée sur X « Cyberpunk 2 GTA 6 » (4737 likes) : acaba de salir el mapa interactivo de gta 6.
+
+tiene todo leonida marca
+  vidéo · téléchargée (25 s, 3 Mo)
+  vidéo · 25 images analysées, texte incrusté sur 25
+  couverture · video@16s · zoom 1.12 · PAS PROPRE
+  carrousel prêt : « Cyberpunk 2 qualifié GTA 6 de miracle créatif » (4 slides)
+  voix · contrôle OK (100%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (8.7 s)
+  vidéo · 12 images analysées, texte incrusté sur 12
+  vidéo · temps forts : 6 passages (1s, 3s, 5s, 8s, 10s, 16s) sur 25 s
+  reel · 10.4 s · 6 plans dont 6 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgMbBYmkor8/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgMbD9JiSeY/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 3 s · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : quota atteint (HTTP 429), réessai conseillé dans 6975 s · gemini-3.5-flash-lite : surchargé (HTTP 503) · gemini-3.5-flash-lite : réponse en 2 s
