@@ -6,7 +6,7 @@ Instagram · posts publiés par l'API sur 24 h : 51 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 100 infos
-Web · GOOGLE NEWS → 100 infos
+Web · GOOGLE NEWS → 102 infos
 Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
@@ -16,55 +16,52 @@ Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
 Web · GAMEKULT → 10 infos
 Web · IGN FRANCE → 16 infos
-Web · JEUXVIDEO.COM → 13 infos
-Web · INSIDER GAMING → 6 infos
+Web · JEUXVIDEO.COM → 12 infos
+Web · INSIDER GAMING → 5 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 4 gardés
-X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 5470 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5480 / 10000)
-X · « ("GTA 6" OR "GTA VI") filter:native_vide » → 8 tweets lus, 6 gardés (ce mois : 5488 / 10000)
+X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 5512 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5522 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-282 infos fraîches et jamais traitées (sur 481 lues)
+263 infos fraîches et jamais traitées (sur 475 lues)
+   0/10 ✗ pas une news « ⛈️ How To Fix The GTA VI Weather Bug And Make It Rain  »
    6/10 ✗ déjà publiée « GTA VI Causes Console Sales Surge, Physical Copies Dominate UK Charts! »
-   5/10 ✗ déjà publiée « Max Payne Remake Development With Rockstar Is "Amazing" Says Remedy  »
-   5/10 ✗ déjà publiée « GTA VI Official Trading Cards Announced by Panini!  »
-   6/10 ✗ déjà publiée « Rockstar Reportedly Shopping Red Dead Redemption Movie and TV Rights F »
-   6/10 ✓ « 🚨 GTA VI PC port hits 14 FPS! »
-   7/10 ✓ « A Miami resident spotted what looked like the view from his apartment  »
-   6/10 ✓ « GTA 6 gets a massive graphics upgrade in an NVIDIA DLSS 5 experiment h »
-   0/10 ✗ pas une news « This Black Friday shopping hack could help you save $15 on 'GTA 6' for »
-   8/10 ✓ « All 61 GTA 6 Cheat Codes Have Been Found »
-   0/10 ✗ pas une news « What’s the Easiest Bank to Rob in GTA 6—Easiest $200,000 Bank Heist Lo »
-   7/10 ✓ « GTA 6’s violence has consequences, and Rockstar’s Rob Nelson explains  »
-   8/10 ✓ « En tête des écoutes mondiales, Justice confie sa "fierté" d'avoir créé »
-   8/10 ✓ « Notre avis sur « GTA VI » après soixante heures de jeu : entre vertige »
-   9/10 ✓ « "C'est le manque de GTA 6, pire que la drogue" : privé de sa console d »
-   3/10 ✗ pas une news « Miami Blues : toute la folie de GTA 6 dans ce film oublié avec Alec Ba »
-   8/10 ✓ « France Inter. . "Grand Theft Auto VI: Original Score", la bande origin »
-   8/10 ✓ « GTA 6 shatters streaming records with 420M hours watched as BurntPeanu »
-   6/10 ✓ « For A Game Known For Stealing Cars, GTA 6's Transit System Is Actually »
-   0/10 ✗ pas une news « GTA 6: comment trouver la Mitsubishi de Paul Walker dans Fast & Furiou »
-   2/10 ✗ pas une news « GTA VI : le climat grand oublié »
-GAMING · 11 infos retenues, meilleure : « "C'est le manque de GTA 6, pire que la drogue" : privé de sa console de jeux, un » (9/10)
-  article · lien Google Actualités non décodé : titre seul
-  ⏭️ article illisible, info écartée : « "C'est le manque de GTA 6, pire que la drogue" : privé de sa »
-  article · 2154 caractères lus
-  photo · 1 image(s) : 1920x1080
-  contexte · 3 complément(s) : DEXERTO, JEUXVIDEO.COM
+   5/10 ✓ « Max Payne Remake Development With Rockstar Is "Amazing" Says Remedy  »
+   6/10 ✗ déjà publiée « GTA VI Official Trading Cards Announced by Panini!  »
+   0/10 ✗ pas une news « GTA 6 Has a Lot Going On. Here Are Some Tips for Your First Time in Vi »
+   9/10 ✓ « GTA 6 reportedly steals the launch-week streaming crown with 420 milli »
+   0/10 ✗ pas une news « E.Leclerc liquide ses stocks GTA 6 pour le Black Friday : nouvelle off »
+   3/10 ✗ pas une news « The Yakuzafication Of GTA VI »
+   2/10 ✗ pas une news « Les jeux gratuits du PlayStation Plus en décembre : notre avis sur ces »
+   7/10 ✓ « GTA VI Features a Hidden Memorial for Rockstar Developers’ Late Family »
+   7/10 ✗ déjà publiée « GTA VI Features a Hidden Memorial for Rockstar Developers’ Late Family »
+   6/10 ✗ déjà publiée « GTA 6 tourne sur PC à 44 FPS »
+   6/10 ✗ déjà publiée « GTA 6 runs on PC at up to 44 FPS »
+   4/10 ✗ pas une news « Game On: ‘Grand Theft Auto VI’ one week later »
+   7/10 ✓ « GTA VI Features a Previously Unreleased Song From D’Angelo »
+   7/10 ✗ déjà publiée « GTA VI Features a Previously Unreleased Song From D’Angelo »
+   6/10 ✓ « GTA 6 Frame Rate Unlock Arrives on Jailbroken PS5 Consoles »
+   6/10 ✓ « Rockstar Developer Explains How Players Should Experience GTA VI »
+   6/10 ✗ déjà publiée « Rockstar Developer Explains How Players Should Experience GTA VI »
+   2/10 ✗ pas une news « GTA 6 Fashion in the IGN Community »
+GAMING · 6 infos retenues, meilleure : « GTA 6 reportedly steals the launch-week streaming crown with 420 million hours w » (9/10)
+  article · digg.com
+  article · 371 caractères lus
+  photo · 1 image(s) : 1200x630
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · recherche X « GTA 6 cheat codes gameplay » : rien qui montre vraiment le sujet
-  vidéo · recherche X « cheat codes » : rien qui montre vraiment le sujet
-  vidéo · trouvée sur X « GTA 6 gameplay » (5891 likes) : new gta 6 pc gameplay shows walking around the prologue, with textures
-  vidéo · téléchargée (14 s, 1 Mo)
-  vidéo · 14 images analysées, texte incrusté sur 14
-  couverture · photo1 · zoom 1.0 · propre
-  carrousel prêt : « Tous les 61 codes de triche de GTA 6 trouvés » (4 slides)
-  voix · contrôle OK (93%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (4.7 s)
-  vidéo · 8 images analysées, texte incrusté sur 8
-  vidéo · temps forts : 4 passages (3s, 6s, 8s, 11s) sur 14 s
-  reel · 6.3 s · 4 plans dont 4 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgN6z1fjkjG/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgN62e1JiEo/
+  vidéo · trouvée sur X « GTA 6 Twitch stream records » (211 likes) : this is f**king dangerous
+
+watched an 18-year-old kid casually show ho
+  vidéo · téléchargée (36 s, 4 Mo)
+  vidéo · 36 images analysées, texte incrusté sur 25
+  couverture · video@6s · zoom 1.12 · propre
+  carrousel prêt : « GTA 6 explose les records sur Twitch » (4 slides)
+  voix · contrôle OK (99%, essai 1, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (10.4 s)
+  vidéo · 14 images analysées, texte incrusté sur 7
+  vidéo · temps forts : 7 passages (1s, 6s, 10s, 15s, 17s, 22s, 26s) sur 36 s
+  reel · 12.0 s · 7 plans dont 7 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgOCAGpF3yW/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgOCDPChF_O/
   ✅ STORY PUBLIÉE (vidéo)
 Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
