@@ -1162,7 +1162,14 @@
   "web:google news:CBMihAFBVV95cUxQSXNTV1FpQjBFdUlHcURPeEx2dzNORWtXWVgtTFFTMm51czZaY1RETXpJdEdFaVpieWZwVGxjXzVzUmtRMXlWdzQyaVNWTWVTdHMtcFR1QlcydWFhb0pTTkJIc3UwelZYeFBoeWJ1OXBWcHhJdXpfNFZ4X3loaWdObEdCY1M": "2026-11-26T18:01:43.561767+00:00",
   "web:google news:CBMiWkFVX3lxTE1xQkU3N3ROMVgxSTVNVGYxQXQzbm9BQ212OXJEeDJRTHdiN3JNaWd0Z0tyY0M0Tmg0M0FWdGhYeDFLTjZEU0hDWmtZcDB0RDZqaHZHTWRDb01SUQ": "2026-11-26T18:01:43.561767+00:00",
   "ag:https://www.actugaming.net/?p=836347": "2026-11-26T18:01:43.561767+00:00",
-  "web:gamesradar:P6SWGt2hLAbiv2g4KntdYm": "2026-11-26T18:01:43.561767+00:00"
+  "web:gamesradar:P6SWGt2hLAbiv2g4KntdYm": "2026-11-26T18:01:43.561767+00:00",
+  "web:google actu:CBMikgFBVV95cUxPWmo2NkJRWGRZazhqU2ZIVzdhS2JpR3lFSmZUOFJ2ZkdRNmtaZXRManlBNUt3V0czX2RFU0c5SWFUTmp5Y0xLLWxCZXp5OWlIZjRvQ1ZpdWg4SFI3SWJERUVfbk5PbmVYSHJDLWJIZElMTUJoSWpQLUNRM0FVMzV5QnAwZ3F1QzdhazJ2Ti15ZG41UQ": "2026-11-26T19:01:41.063031+00:00",
+  "web:google actu:CBMikwJBVV95cUxPdlpKQndra21SWkdOVXZoUnl6cDdIMkxDdnRFQVowZmNZUW5mRHplb0FVY0h6MUcwRnlJeTc0ZFlJcXNYckdYaFdTOUdRblNRTFNzaEJlRDBHem9yak5ESWR3QkZNZVhPdHJiOXY0SWdXTzJEaDJUdDR5bm91Tzc3T3pVbk1YTHRKbEh3em1EMGpka1JPY1RpSWJaY1NsemlxcUZMb2NINlZCc19OcVV4SjNRak9RQTg0S044X2lVTVBVaGxXV1JleUpsYWozODJ2elFGMVM0VklGYTRuTUs4bFYxMTdBWGJCYzRaRjNFdkhlSGc2T19zNHQxX0tYVU05T04ycWo2ZXNGaTZOQ1RBd1FNZw": "2026-11-26T19:01:41.063031+00:00",
+  "web:google news:CBMingFBVV95cUxQd2J6ZVhQXzk1cEFoeGVodHpYQWhrYkhYMFdjMVlOeEk5bFpPSWFURmNnVktNVkNuN0tyLVBBbFdCZkZ4U3JVa2ktalNfY2N4dktmQ05wSGJaajNwa2p6d3M0QzZNSXZna2VNN0tKbGpIUTUwMGoxVFBmWU0wSzBWSVNYc0JBMDFSN0VUcnNLVTJaeUo1MThVREtlSTVhUQ": "2026-11-26T19:01:41.063031+00:00",
+  "web:google news:CBMidEFVX3lxTE05UWRfUmV6V0NyRFVocDdHOXJ1RlNFRGExRmhzaWJKb3daSHpWNlRiQ0VwcmxWYjFmWXdaY2Y2T1RMeGhjcVM0elI5dlNBc2NJMm4yakFMQVRNMHBtcUk1T2llVkdkcFpURmlwbjFjWUo4RVIy": "2026-11-26T19:01:41.063031+00:00",
+  "ag:https://www.actugaming.net/?p=834142": "2026-11-26T19:01:41.063031+00:00",
+  "ag:https://www.actugaming.net/?p=836377": "2026-11-26T19:01:41.063031+00:00",
+  "x:2125338417160769783": "2026-11-26T19:01:41.063031+00:00"
  },
  "publies": [
   {
@@ -3021,11 +3028,20 @@
    "lien": "https://www.instagram.com/p/DgNtOrJCWW6/",
    "reel": "https://www.instagram.com/reel/DgNtRE9BwnC/",
    "story": "18120713294088349"
+  },
+  {
+   "ts": "2026-11-26T19:01:41.063031+00:00",
+   "categorie": "GAMING",
+   "titre": "GTA VI est désormais exécutable sur PC",
+   "source_id": "x:2125338417160769783",
+   "lien": "https://www.instagram.com/p/DgN0JemF-4p/",
+   "reel": "https://www.instagram.com/reel/DgN0SwbSUaG/",
+   "story": "18183630541447212"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 5450
+  "tweets": 5469
  },
  "x_recherches": {
   "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-26T15:02:18.502928+00:00"
