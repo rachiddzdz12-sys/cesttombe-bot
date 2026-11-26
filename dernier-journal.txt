@@ -2,7 +2,7 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (20 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 39 / 100
+Instagram · posts publiés par l'API sur 24 h : 36 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 100 infos
@@ -14,53 +14,53 @@ Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
-Web · GAMEKULT → 10 infos
+Web · GAMEKULT → 9 infos
 Web · IGN FRANCE → 11 infos
-Web · JEUXVIDEO.COM → 15 infos
+Web · JEUXVIDEO.COM → 14 infos
 Web · INSIDER GAMING → 4 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 5 gardés
-X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 5192 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5202 / 10000)
+X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 5216 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5226 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-247 infos fraîches et jamais traitées (sur 473 lues)
-   6/10 ✗ déjà publiée « Max Payne Remake Development With Rockstar Is "Amazing" Says Remedy  »
-   5/10 ✗ déjà publiée « GTA VI Official Trading Cards Announced by Panini!  »
+240 infos fraîches et jamais traitées (sur 471 lues)
+   5/10 ✗ déjà publiée « Max Payne Remake Development With Rockstar Is "Amazing" Says Remedy  »
+   6/10 ✗ déjà publiée « GTA VI Official Trading Cards Announced by Panini!  »
    7/10 ✗ déjà publiée « GTA VI Is Now Bootable On PC, Teams Racing Each Other For Fully Playab »
-   6/10 ✗ déjà publiée « Rockstar Reportedly Shopping Red Dead Redemption Movie and TV Rights F »
-   5/10 ✗ déjà publiée « GTA VI Official Trading Cards Announced by Panini! »
+   7/10 ✗ déjà publiée « Rockstar Reportedly Shopping Red Dead Redemption Movie and TV Rights F »
+   6/10 ✗ déjà publiée « GTA VI Official Trading Cards Announced by Panini! »
    6/10 ✗ déjà publiée « GTA VI The Album Deluxe Edition Announced  »
-   6/10 ✗ déjà publiée « Rockstar Reportedly Shopping Red Dead Redemption Movie and TV Rights F »
+   7/10 ✗ déjà publiée « Rockstar Reportedly Shopping Red Dead Redemption Movie and TV Rights F »
    7/10 ✗ déjà publiée « GTA VI Is Now Bootable On PC, Teams Racing Each Other For Fully Playab »
-   0/10 ✗ pas une news « GTA 6 The Cartel Heist Walkthrough: Full Guide & Max Payout Tips »
-   3/10 ✗ trop faible (mini 5) « Sidetracked with Annie and Nick | Taylor Swift Conspiracies, GTA VI Mu »
-   5/10 ✗ déjà publiée « GTA 6 : le chef-d'œuvre visuel presque parfait de Rockstar, qui oublie »
-   6/10 ✓ « South Park’s season finale skewers billionaires and power-sucking data »
-   5/10 ✗ déjà publiée « Grand Theft Auto VI lives up to its hype with compelling characters an »
-   6/10 ✗ déjà publiée « Leonida DMCA: 1 Repo, 2,900+ Forks, No GTA 6 PC Date »
-   3/10 ✗ trop faible (mini 5) « Grand Theft Auto VI demands a Protestant work ethic »
-   4/10 ✗ déjà publiée « Rockstar raises the bar with Grand Theft Auto VI »
-   6/10 ✓ « ‘South Park’ Season Finale Drops Kenny Into ‘Grand Theft Auto VI’ as S »
-   6/10 ✓ « GTA 6 : voici toutes les playlist et tous les morceaux que vous pouvez »
-   7/10 ✓ « GTA VI booste les écoutes de Black Sabbath : un titre multiplié par si »
-   0/10 ✗ pas une news « Code coffre GTA 6 : toutes les combinaisons des coffres-forts et des p »
-GAMING · 4 infos retenues, meilleure : « GTA VI booste les écoutes de Black Sabbath : un titre multiplié par six sur Spot » (7/10)
-  article · virginradio.fr
-  article · 2274 caractères lus
+   6/10 ✗ déjà publiée « Grand Theft Auto VI lives up to its hype »
+   0/10 ✗ pas une news « Vous pouvez jouer gratuitement à la version PS5 de GTA 6 en cloud gami »
+   5/10 ✓ « GTA 6 has 10 tattoo parlours you don't need the Ultimate Edition to vi »
+   0/10 ✗ pas une news « Panneaux Peewees GTA 6 : emplacement des 4 panneaux Mr. Enigma (WAiNK) »
+   6/10 ✗ déjà publiée « Ce que disent les paramètres graphiques de GTA 6 sur PS5 et Xbox »
+   5/10 ✓ « Un passionné a fait tourner l'écran de chargement de GTA 6 sur la cons »
+   5/10 ✗ déjà publiée « An enthusiast launched the GTA 6 loading screen on the Steam Deck port »
+   0/10 ✗ pas une news « Guide GTA 6 : où trouver la Bravado Banshee pour Randy et débloquer le »
+   6/10 ✓ « Le portage non officiel de GTA 6 sur PC bénéficie désormais d'un éclai »
+   6/10 ✗ déjà publiée « The unofficial PC port of GTA 6 has received PS5 Pro-level night light »
+   8/10 ✓ « GTA 6 : des joueurs trouvent comment mettre Lucia nue avec un glitch d »
+   0/10 ✗ pas une news « When to Sell Audacity Coin in GTA 6: Elevator Cash-Out »
+GAMING · 4 infos retenues, meilleure : « GTA 6 : des joueurs trouvent comment mettre Lucia nue avec un glitch de tenue » (8/10)
+  article · xboxygen.com
+  article · 2110 caractères lus
   photo · 1 image(s) : 1280x720
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · recherche X « GTA 6 radio metal gameplay » : rien qui montre vraiment le sujet
-  vidéo · recherche X « radio metal » : rien qui montre vraiment le sujet
-  vidéo · trouvée sur X « GTA 6 gameplay » (27435 likes) : update: 70 hours in. i finished the gta 6 story at 60 hours and spent 
-  vidéo · téléchargée (13 s, 3 Mo)
-  vidéo · 13 images analysées, texte incrusté sur 5
-  couverture · video@0s · zoom 1.0 · propre
-  carrousel prêt : « GTA 6 fait exploser les écoutes de Black Sabbath » (4 slides)
-  voix · contrôle OK (97%, essai 1, gemini-3.1-flash-tts-preview)
-  voix · Gemini (Aoede) (11.1 s)
-  voix · 11.1 s → accélérée ×1.01 (11.0 s)
-  reel · 12.6 s · 8 plans dont 8 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgMhsMZF13U/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgMhtohs7vW/
+  vidéo · trouvée sur X « GTA 6 Lucia outfit glitch Reddit » (2619 likes) : gta 6: lucia no top glitch (working method) #gta6 https://t.co/x7dxmoz
+  vidéo · téléchargée (182 s, 12 Mo)
+  vidéo · 40 images analysées, texte incrusté sur 40
+  couverture · video@30s · zoom 1.25 · propre
+  carrousel prêt : « GTA 6 : des joueurs trouvent un glitch de tenue » (4 slides)
+  voix · ⚠️ refaite, texte différent (66%) : « Des joueurs ont trouvé un glitch de tenue dans GTA VI qui fait disparaître le sous-vêtement de Lucia, avec une veste et un short précis. Tu penses que Rockstar  »
+  voix · contrôle OK (99%, essai 2, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (7.9 s)
+  vidéo · 12 images analysées, texte incrusté sur 12
+  vidéo · temps forts : 6 passages (2s, 6s, 16s, 68s, 70s, 154s) sur 182 s
+  reel · 9.6 s · 6 plans dont 6 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgMpcIBIFyw/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgMpeOWgdXH/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 4 s · gemini-flash-lite-latest : réponse en 8 s
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 3 s
