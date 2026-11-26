@@ -2,28 +2,29 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (20 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 42 / 100
+Instagram · posts publiés par l'API sur 24 h : 45 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → HTTP 429
+Web · GOOGLE ACTU → 102 infos
 Web · GOOGLE NEWS → 102 infos
-Web · BING ACTU → 11 infos
+Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 2 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
-Web · GAMEKULT → 10 infos
+Web · GAMEKULT → 9 infos
 Web · IGN FRANCE → 13 infos
 Web · JEUXVIDEO.COM → 11 infos
 Web · INSIDER GAMING → 6 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 5 gardés
-X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 5346 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5356 / 10000)
+X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 5365 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5375 / 10000)
+X · « ("GTA 6" OR "GTA VI") filter:native_vide » → 8 tweets lus, 6 gardés (ce mois : 5383 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-171 infos fraîches et jamais traitées (sur 362 lues)
+265 infos fraîches et jamais traitées (sur 470 lues)
    6/10 ✗ déjà publiée « Max Payne Remake Development With Rockstar Is "Amazing" Says Remedy  »
    5/10 ✗ déjà publiée « GTA VI Official Trading Cards Announced by Panini!  »
    7/10 ✗ déjà publiée « GTA VI Is Now Bootable On PC, Teams Racing Each Other For Fully Playab »
@@ -31,38 +32,38 @@ Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
    5/10 ✗ déjà publiée « GTA VI Official Trading Cards Announced by Panini! »
    7/10 ✗ déjà publiée « Rockstar Reportedly Shopping Red Dead Redemption Movie and TV Rights F »
    7/10 ✗ déjà publiée « GTA VI Is Now Bootable On PC, Teams Racing Each Other For Fully Playab »
-   1/10 ✗ pas une news « Get Ready for GTA 6 on PC With These Black Friday Monitor Deals From J »
-   6/10 ✓ « Agenda - PlayStation Plus : les jeux du mois de décembre avec Tony Haw »
-   8/10 ✓ « CD Projekt Red says The Witcher 4 upgrade over The Witcher 3 will be j »
-   8/10 ✓ « GTA 6's Cartel Heist Might Be Rockstar's Best Ever Mission, But Only I »
-   3/10 ✗ pas une news « Every Snapmatic Animal Location In GTA 6—Hunting Legendary Animals »
-   9/10 ✓ « GTA 6 has reportedly sold more copies on PS5 than Xbox has sold Series »
-   7/10 ✓ « GTA 6’s Criminal Profiles Are Meant to Encourage Choices “Beyond Just  »
-   2/10 ✗ pas une news « 10 Reasons You Will Be Playing GTA 6 For More Than a Decade »
-   8/10 ✓ « GTA VI Switch 2 Port: Digital Foundry on 30 FPS Cuts »
-   1/10 ✗ pas une news « How to Easily Get Gold Medals in GTA 6 Shooting Range Challenges »
-   7/10 ✓ « GTA 6 PC port hits 20 FPS just days after drawing one frame every two  »
-   7/10 ✓ « I’ve completed GTA 6 – this is what the driving physics are really lik »
-   3/10 ✗ pas une news « How to get abducted by aliens in GTA 6 »
-GAMING · 8 infos retenues, meilleure : « GTA 6 has reportedly sold more copies on PS5 than Xbox has sold Series X/S conso » (9/10)
-  article · pcguide.com
-  article · 2354 caractères lus
+   2/10 ✗ pas une news « Unexpected Plane crash in GTA 6 💀 https://t.co/1xDzO5N2Vm »
+   1/10 ✗ pas une news « Rainbow Daytona location in GTA VI. »
+   0/10 ✗ pas une news « 🚨ALERTE LES 30 FPS STABLE VIENNENT D'ÊTRE ATTEINT !!  »
+   0/10 ✗ pas une news « Mon pc va faire tourner GTA 6 »
+   6/10 ✓ « It's official 🚨 »
+   7/10 ✓ « GTA 6 sur PC : où en sont les versions pirates ? Entre performances en »
+   2/10 ✗ pas une news « How to unlock GTA 6 hurricanes and fix the weather bug on PS5 »
+   3/10 ✗ pas une news « Why GTA VI’s version of Florida feels so real »
+   3/10 ✗ pas une news « GTA 6: The 26 best Easter eggs and secrets found so far in Leonida »
+   5/10 ✓ « GTA 6 à 25 FPS sur PC (CGBJ) : vérité des benchmarks RTX 5090 »
+   5/10 ✓ « Internet rallies around woman trying to play GTA 6 to honor her late h »
+   2/10 ✗ pas une news « 9 subtle details in GTA 6 that make the game feel more realistic »
+   6/10 ✓ « "Ça arrive à un moment où elle fait ses adieux" : Michel Mallory, paro »
+   4/10 ✗ pas une news « Ils achètent une PS5 à 300 € sur Vinted et reçoivent une simple photo »
+GAMING · 5 infos retenues, meilleure : « GTA 6 sur PC : où en sont les versions pirates ? Entre performances en hausse et » (7/10)
+  article · jeuxvideo.com
+  article · 0 caractères lus
+  ⏭️ article illisible, info écartée : « GTA 6 sur PC : où en sont les versions pirates ? Entre perfo »
+  photo · échec : image trop petite (48x48)
   photo · 1 image(s) : 1200x675
-  contexte · 3 complément(s) : IGN FRANCE, NUMERAMA, ROCKSTAR INTEL
+  contexte · 1 complément(s) : GAMESRADAR
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · trouvée sur X « GTA 6 PS5 vs Xbox Series X comparison » (1520 likes) : 🚨 عاجل:
-
-أكد موقع digital foundry بشكل رسمي أن منصات xbox series x|s ت
-  vidéo · téléchargée (47 s, 7 Mo)
-  vidéo · 40 images analysées, texte incrusté sur 25
-  couverture · video@8s · zoom 1.0 · propre
-  carrousel prêt : « GTA 6 plus joué sur PS5 que de Xbox vendues » (5 slides)
-  voix · contrôle OK (98%, essai 1, gemini-3.1-flash-tts-preview)
-  voix · Gemini (Aoede) (10.6 s)
-  vidéo · 14 images analysées, texte incrusté sur 12
-  vidéo · temps forts : 7 passages (3s, 5s, 8s, 11s, 13s, 15s, 38s) sur 47 s
-  reel · 12.2 s · 7 plans dont 7 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgNR7UklrXI/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgNR8-PhSNz/
+  vidéo · téléchargée (85 s, 15 Mo)
+  vidéo · 40 images analysées, texte incrusté sur 40
+  couverture · video@44s · zoom 1.12 · propre
+  carrousel prêt : « GTA 6 tourne maintenant entre 30 et 60 fps sur PC » (4 slides)
+  voix · contrôle OK (98%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (6.6 s)
+  vidéo · 10 images analysées, texte incrusté sur 10
+  vidéo · temps forts : 5 passages (1s, 3s, 36s, 46s, 61s) sur 85 s
+  reel · 8.2 s · 5 plans dont 5 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgNYt2miaBq/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgNYvnnB7ta/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 6 s · gemini-flash-lite-latest : réponse en 10 s · texte sans accents ou sans apostrophes : réécriture demandée · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3-flash-preview : réponse en 8 s
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3.5-flash-lite : réponse en 7 s · gemini-3.5-flash-lite : réponse en 2 s
