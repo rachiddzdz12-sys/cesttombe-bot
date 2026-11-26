@@ -1,8 +1,5 @@
 {
  "vus": {
-  "ag:https://www.actugaming.net/?p=833275": "2026-11-12T16:01:53.876563+00:00",
-  "ag:https://www.actugaming.net/?p=833282": "2026-11-12T16:01:53.876563+00:00",
-  "ag:https://www.actugaming.net/?p=833314": "2026-11-12T16:01:53.876563+00:00",
   "ag:https://www.actugaming.net/?p=833285": "2026-11-12T17:01:53.202713+00:00",
   "ag:https://www.actugaming.net/?p=833272": "2026-11-12T17:01:53.202713+00:00",
   "ag:https://www.actugaming.net/?p=833324": "2026-11-12T17:01:53.202713+00:00",
@@ -1152,7 +1149,16 @@
   "web:google news:CBMiggFBVV95cUxOMjEtWTNBRjhJcW8xVjJwa3M0V2hodkxOa0Y5V3BtWUhGdF9XUWhpZXVBZmR0NWl2dF9nV1l2QVRCLXdfY0ZMYlRWRGRIMm80ajZXS1M1WjNoRTFrN2hwejRUUzY4Q2gxdmo2VVpXLV9oNFBqRlByajMxbWo0QzVtcWhn": "2026-11-26T15:01:45.438290+00:00",
   "web:google actu:CBMiwgFBVV95cUxNR21QUmtsLWdVc1dKbC1UNEFZdWxaT1NaNTAwYmlGeDB2dXlZRGhZQ2JJRDFLRzBYVXNid0J0WGY5SS1aU3ZFRFJFSWNKekRGTlJ3UFo1T0ZMU1U0OUtLcEZsNzJZXzVFQVlWLW9uTHBzdThsZVdwZ0h0SUl5MGxRUGV6UHN5TS1sOWk5RGpBMV9KaVJPZ1BlVnZQNG4xeVhDQ2NMWjdtZG9DOUVVWWs0VTlROEp3bjhQdHJyLVZSb3Jmdw": "2026-11-26T15:01:45.438290+00:00",
   "web:google actu:CBMi9wFBVV95cUxNeTBkQ0ZFcDBaREMwendpeVAtLUs4c204cTAzWjdrOWVBaHVibDcyZW50RXZydlEzYnpfZ1RlQ3plRXJ5ZnJjT0p1VWZPckc2LWpaalhJU24yNEhWalRJazNBRTJjTnNCaExEYm9FQThSUUw1eGt2WW5ORE5OaGpNdFdpVlRvYl9zSXNhajBNTGV2dTdEY2dna0FnQzhyQ2FaclRYbEZleksxQ1dWeDU5blUtOEpJZGRkSmF6c2RVbEhacDUtMEVia0xjYzVWMmZsMHI1RVlBS29ucGxmUHhwVHI0UkxyTk95bUtqQ29Ka0tuZlVDTTJN": "2026-11-26T15:01:45.438290+00:00",
-  "x:2125899855805432310": "2026-11-26T15:01:45.438290+00:00"
+  "x:2125899855805432310": "2026-11-26T15:01:45.438290+00:00",
+  "x:2125980900806812119": "2026-11-26T16:01:49.328261+00:00",
+  "x:2125973602734653871": "2026-11-26T16:01:49.328261+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=242241": "2026-11-26T16:01:49.328261+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=242236": "2026-11-26T16:01:49.328261+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=242183": "2026-11-26T16:01:49.328261+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=242171": "2026-11-26T16:01:49.328261+00:00",
+  "web:ign france:https://fr.ign.com/grand-theft-auto-6/94289/vous-avez-toujours-des-problemes-de-meteo-dans-gta-6-malgre-la-mise-a-jour-des-joueurs-ont-trouve-la": "2026-11-26T16:01:49.328261+00:00",
+  "web:gamesradar:H93DVBdSqF9MYBFR3AVPwn": "2026-11-26T16:01:49.328261+00:00",
+  "web:rockstar intel:https://rockstarintel.com/?p=44952": "2026-11-26T16:01:49.328261+00:00"
  },
  "publies": [
   {
@@ -2984,11 +2990,20 @@
    "lien": "https://www.instagram.com/p/DgNYt2miaBq/",
    "reel": "https://www.instagram.com/reel/DgNYvnnB7ta/",
    "story": "18119947589085360"
+  },
+  {
+   "ts": "2026-11-26T16:01:49.328261+00:00",
+   "categorie": "GAMING",
+   "titre": "GTA VI fait exploser les ventes de consoles au Royaume-Uni",
+   "source_id": "web:rockstar intel:https://rockstarintel.com/?p=44952",
+   "lien": "https://www.instagram.com/p/DgNfl79ifm6/",
+   "reel": "https://www.instagram.com/reel/DgNfnl_hU8-/",
+   "story": "18050818286684417"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 5383
+  "tweets": 5412
  },
  "x_recherches": {
   "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-26T15:02:18.502928+00:00"
