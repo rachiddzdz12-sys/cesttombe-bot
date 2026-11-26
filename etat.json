@@ -1,8 +1,5 @@
 {
  "vus": {
-  "ag:https://www.actugaming.net/?p=833285": "2026-11-12T17:01:53.202713+00:00",
-  "ag:https://www.actugaming.net/?p=833272": "2026-11-12T17:01:53.202713+00:00",
-  "ag:https://www.actugaming.net/?p=833324": "2026-11-12T17:01:53.202713+00:00",
   "ig:18121912987983889": "2026-11-12T17:31:33.334552+00:00",
   "ig:18036793154907304": "2026-11-12T17:31:33.334552+00:00",
   "ig:18066208466547830": "2026-11-12T17:31:33.334552+00:00",
@@ -1158,7 +1155,12 @@
   "web:insider gaming:https://insider-gaming.com/?p=242171": "2026-11-26T16:01:49.328261+00:00",
   "web:ign france:https://fr.ign.com/grand-theft-auto-6/94289/vous-avez-toujours-des-problemes-de-meteo-dans-gta-6-malgre-la-mise-a-jour-des-joueurs-ont-trouve-la": "2026-11-26T16:01:49.328261+00:00",
   "web:gamesradar:H93DVBdSqF9MYBFR3AVPwn": "2026-11-26T16:01:49.328261+00:00",
-  "web:rockstar intel:https://rockstarintel.com/?p=44952": "2026-11-26T16:01:49.328261+00:00"
+  "web:rockstar intel:https://rockstarintel.com/?p=44952": "2026-11-26T16:01:49.328261+00:00",
+  "web:insider gaming:https://insider-gaming.com/?p=242214": "2026-11-26T17:01:44.786667+00:00",
+  "web:gamesradar:uHZX5S3btvLRKsvnzC2sz7": "2026-11-26T17:01:44.786667+00:00",
+  "web:google news:CBMickFVX3lxTFAtaFU1MlA3Q0FFM3BlY0ltd0pqYVoyV2tvWnlheXFlT3Y4MGVIWjNMX01seWZ6aXNtd3htUlV2TUE3WGNnRlJyaW5GT1Y0QjBib1BaTHV2V2VaNklsTFdJZVlKek9ITm1wUnNzV25NRXlQQQ": "2026-11-26T17:01:44.786667+00:00",
+  "web:google news:CBMif0FVX3lxTE9Zc19UeXZBMTFRNWZXZFQ4Y2ZRNnJtYVZmbmdVR0gxMW85a1hSZHl1TVRNMHFtZ2RnY2FVb0d0alpGUTFrSVpGeWRReGtSVm0xYVNKR2V1MlhSM0RRTnhaQ1M3YXpaQ3ZDWk9MYTcwYnhGSVNvVkl6NWFvSXNnQXM": "2026-11-26T17:01:44.786667+00:00",
+  "x:2125991722287292671": "2026-11-26T17:01:44.786667+00:00"
  },
  "publies": [
   {
@@ -2999,11 +3001,20 @@
    "lien": "https://www.instagram.com/p/DgNfl79ifm6/",
    "reel": "https://www.instagram.com/reel/DgNfnl_hU8-/",
    "story": "18050818286684417"
+  },
+  {
+   "ts": "2026-11-26T17:01:44.786667+00:00",
+   "categorie": "GAMING",
+   "titre": "Les développeurs de GTA VI votent contre la syndicalisation",
+   "source_id": "x:2125991722287292671",
+   "lien": "https://www.instagram.com/p/DgNmb0Io4vp/",
+   "reel": "https://www.instagram.com/reel/DgNmeD2TnoZ/",
+   "story": "18044649734836358"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 5412
+  "tweets": 5431
  },
  "x_recherches": {
   "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-26T15:02:18.502928+00:00"

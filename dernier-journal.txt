@@ -2,64 +2,68 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (20 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 48 / 100
+Instagram · posts publiés par l'API sur 24 h : 51 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → HTTP 429
-Web · GOOGLE NEWS → HTTP 429
+Web · GOOGLE ACTU → 102 infos
+Web · GOOGLE NEWS → 100 infos
 Web · BING ACTU → 12 infos
-Web · BING ACTU VI → 2 infos
+Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
 Web · GAMEKULT → 10 infos
-Web · IGN FRANCE → 15 infos
-Web · JEUXVIDEO.COM → 11 infos
-Web · INSIDER GAMING → 8 infos
+Web · IGN FRANCE → 16 infos
+Web · JEUXVIDEO.COM → 13 infos
+Web · INSIDER GAMING → 7 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
-Instagram · @playstationfr → 12 posts lus, 5 gardés
-X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 5384 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5394 / 10000)
+Instagram · @playstationfr → 12 posts lus, 4 gardés
+X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 5413 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5423 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-109 infos fraîches et jamais traitées (sur 265 lues)
-   3/10 ✗ pas une news « ⛈️ How To Fix The GTA VI Weather Bug And Make It Rain »
-   4/10 ✗ pas une news « Top 10 GTA IV Mods That Fans Are Requesting!  »
-   7/10 ✓ « Max Payne Remake Development With Rockstar Is "Amazing" Says Remedy  »
+277 infos fraîches et jamais traitées (sur 478 lues)
+   7/10 ✓ « GTA VI Developers Vote Against Unionization Following Battle With Rock »
+   5/10 ✗ déjà publiée « Max Payne Remake Development With Rockstar Is "Amazing" Says Remedy  »
    6/10 ✗ déjà publiée « GTA VI Official Trading Cards Announced by Panini!  »
-   7/10 ✓ « GTA VI Is Now Bootable On PC, Teams Racing Each Other For Fully Playab »
+   8/10 ✗ déjà publiée « GTA VI Is Now Bootable On PC, Teams Racing Each Other For Fully Playab »
    8/10 ✗ déjà publiée « Rockstar Reportedly Shopping Red Dead Redemption Movie and TV Rights F »
    6/10 ✗ déjà publiée « GTA VI Official Trading Cards Announced by Panini! »
-   8/10 ✗ déjà publiée « GTA 6 is Reportedly the Biggest Physical Launch in the UK Since 2019 »
-   8/10 ✓ « Following GTA 6 release, Rockstar workers vote against union recogniti »
-   2/10 ✗ pas une news « Can You Continue Playing GTA 6 After The Ending? »
-   8/10 ✓ « Rockstar Games publie un communiqué après l'échec de la syndicalisatio »
-   8/10 ✓ « GTA VI Causes Console Sales Surge, Physical Copies Dominate UK Charts »
-   2/10 ✗ pas une news « Does GTA 6 Have a Point of No Return? GTA 6 Ending Mission, Explained »
-   8/10 ✗ déjà publiée « Au final, pas de reconnaissance du syndicat local chez Rockstar Games  »
-   8/10 ✗ déjà publiée « GTA VI Developers Vote Against Unionization Following Battle With Rock »
-   1/10 ✗ pas une news « How to Find and Complete the Farm Fix Meth Lab Illegal Operation in GT »
-   3/10 ✗ pas une news « All GTA 6 Endings Explained & How to Get The Best Ending »
-   3/10 ✗ pas une news « Vous avez toujours des problèmes de météo dans GTA 6 malgré la mise à  »
-   4/10 ✗ pas une news « I spent 20 hours playing GTA 6 like Stardew Valley and turned Jason in »
-   6/10 ✓ « Internet rallies around woman trying to play GTA 6 to honor her late h »
-GAMING · 6 infos retenues, meilleure : « GTA VI Causes Console Sales Surge, Physical Copies Dominate UK Charts » (8/10)
-  photo · 2 image(s) : 1280x720, 1280x720
+   8/10 ✗ déjà publiée « Sans disque dans la boîte, GTA 6 réussit le plus gros lancement physiq »
+   7/10 ✓ « ‘Grand Theft Auto VI: The Album’ Targets No. 1 With 150K First-Week Un »
+   7/10 ✓ « GTA 6 aurait pu aller encore plus loin : Rockstar révèle ses idées aba »
+   5/10 ✓ « GTA 6 via Xbox Cloud Gaming showed a latency of 184,5 ms on Xbox One »
+   7/10 ✗ déjà publiée « Staff at Grand Theft Auto VI developer vote against union recognition »
+   8/10 ✗ déjà publiée « Hobbyists and AI vibe coders have GTA 6 running on Windows PC days aft »
+   8/10 ✗ déjà publiée « Notre avis sur « GTA VI » après soixante heures de jeu : entre vertige »
+   9/10 ✗ déjà publiée « GTA 6 écrase les records de ventes physiques et dope les ventes de PS5 »
+   4/10 ✗ pas une news « All Mandy Scenes & Interactions in GTA 6 »
+   2/10 ✗ pas une news « Where to steal a GTA 6 Pegassi Vitello »
+   6/10 ✓ « Pourquoi il n'y a aucune vraie marque dans GTA 6 »
+   2/10 ✗ pas une news « GTA 6 Pegassi Infernus location and how to get it for Randy »
+   7/10 ✓ « Aspects of GTA 6 are inspired by Red Dead Redemption 2's honor system  »
+   3/10 ✗ pas une news « Where to find GTA 6's UFO and alien »
+GAMING · 6 infos retenues, meilleure : « GTA VI Developers Vote Against Unionization Following Battle With Rockstar! » (7/10)
+  photo · échec : image trop petite (48x48)
+  photo · 1 image(s) : 1200x675
+  contexte · 3 complément(s) : @ROCKSTARINTEL, INSIDER GAMING, ROCKSTAR INTEL
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · recherche X « GTA VI physical copies UK launch » : rien qui montre vraiment le sujet
-  vidéo · recherche X « physical copies » : rien qui montre vraiment le sujet
-  vidéo · trouvée sur X « GTA 6 gameplay » (25292 likes) : final review: 60 hours in, since the very first minute of launch, i fi
-  vidéo · téléchargée (29 s, 7 Mo)
-  vidéo · 29 images analysées, texte incrusté sur 11
-  couverture · video@20s · zoom 1.0 · propre
-  carrousel prêt : « GTA VI fait exploser les ventes de consoles au Royaume-Uni » (4 slides)
-  voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (6.3 s)
-  vidéo · 10 images analysées, texte incrusté sur 2
-  vidéo · temps forts : 5 passages (2s, 8s, 13s, 18s, 20s) sur 29 s
-  reel · 8.0 s · 5 plans dont 5 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgNfl79ifm6/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgNfnl_hU8-/
+  vidéo · recherche X « Rockstar Games UK office » : rien qui montre vraiment le sujet
+  vidéo · trouvée sur X « UK office » (2236 likes) : asylum coach driver whistleblower
+full interview from 7pm
+
+instructed 
+  vidéo · téléchargée (59 s, 8 Mo)
+  vidéo · 40 images analysées, texte incrusté sur 40
+  couverture · photo1 · zoom 1.12 · propre
+  carrousel prêt : « Les développeurs de GTA VI votent contre la syndicalisation » (4 slides)
+  voix · contrôle OK (96%, essai 1, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (10.5 s)
+  vidéo · 14 images analysées, texte incrusté sur 14
+  vidéo · temps forts : 7 passages (6s, 13s, 18s, 21s, 30s, 40s, 51s) sur 59 s
+  reel · 12.2 s · 7 plans dont 7 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgNmb0Io4vp/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgNmeD2TnoZ/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 7 s · gemini-flash-lite-latest : réponse en 5 s · texte sans accents ou sans apostrophes : réécriture demandée · gemini-flash-latest : surchargé (HTTP 503) · gemini-flash-latest : surchargé (HTTP 503) · gemini-3-flash-preview : réponse en 11 s
+Gemini : gemini-flash-lite-latest : réponse en 5 s · gemini-flash-lite-latest : réponse en 6 s
