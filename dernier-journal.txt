@@ -6,8 +6,8 @@ Instagram · posts publiés par l'API sur 24 h : 48 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 100 infos
-Web · GOOGLE NEWS → 102 infos
-Web · BING ACTU → 11 infos
+Web · GOOGLE NEWS → 100 infos
+Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
@@ -15,52 +15,56 @@ Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
 Web · GAMEKULT → 10 infos
-Web · IGN FRANCE → 18 infos
+Web · IGN FRANCE → 20 infos
 Web · JEUXVIDEO.COM → 12 infos
 Web · INSIDER GAMING → 3 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 4 gardés
-X · @RockstarGames → 0 tweets lus, 0 gardés (ce mois : 5588 / 10000)
-X · @RockstarIntel → 0 tweets lus, 0 gardés (ce mois : 5588 / 10000)
+X · @RockstarGames → 0 tweets lus, 0 gardés (ce mois : 5596 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5606 / 10000)
+X · « ("GTA 6" OR "GTA VI") filter:native_vide » → 8 tweets lus, 7 gardés (ce mois : 5614 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-224 infos fraîches et jamais traitées (sur 464 lues)
-   8/10 ✓ « Manni L. Perez says she landed the role of Lucia of GTA VI almost 10 y »
-   9/10 ✓ « Manni L. Perez, l'actrice qui incarne Lucia dans GTA 6, prend la parol »
-   9/10 ✗ déjà publiée « Manni L. Perez, l'actrice qui incarne Lucia dans GTA 6, prend la parol »
-   6/10 ✓ « Rick Ross Challenges GTA VI Players to Find His Lookalike Mansion »
-   0/10 ✗ pas une news « Repaires de gangs GTA 6 : les 39 emplacements et codes de coffres »
-   0/10 ✗ pas une news « Here’s What We Actually Know About Getting The Best Ending In GTA 6 »
-   7/10 ✓ « Avec la sortie de GTA VI, les arnaques à la PS5 se multiplient sur Vin »
-   0/10 ✗ pas une news « Accessoire PS5 inratable pour GTA 6, il est à prix record pour la Blac »
-   6/10 ✓ « The cloud gaming version of GTA VI on XBOX One is extremely stable »
-   6/10 ✓ « Grand Theft Auto VI Modded Multiplayer Runs at 25 to 30 FPS on the Uno »
-   8/10 ✓ « Rockstar Reveals 5 Features Cut From GTA VI »
-   0/10 ✗ pas une news « GTA 6 Free Luxury Cars: The Starfish Island Garage Raid »
-   0/10 ✗ pas une news « 🇺🇸 Loving these GTA VI heists. Unlike GTA V, you actually have to thin »
-   6/10 ✓ « GTA 6 : 20 FPS sur PC, mais encore des problèmes ! »
-   0/10 ✗ pas une news « Guide GTA 6 Backseat Pilot : comment livrer les 7 colis en hydravion d »
-   8/10 ✓ « GTA 6 a failli avoir un parc d’attractions inspiré de Disney World »
-   0/10 ✗ pas une news « Cartes Right Wing: Les héros de l’Amérique GTA 6 : où trouver les 36 c »
-   7/10 ✓ « 'Peggy' from GTA 6 talks viral popularity: 'It's so phenomenal to me' »
-   0/10 ✗ pas une news « Changez votre setup pour GTA 6 grâce à Gigabyte qui casse les prix de  »
-   8/10 ✗ déjà publiée « Les développeurs de Rockstar dévoilent les fonctionnalités retirées de »
-   0/10 ✗ pas une news « Chapter 5 Walkthrough and Guide »
-   6/10 ✗ trop faible (mini 9) « Microsoft-Owned GitHub Stuns Followers as It Celebrates AnyPS5 Repo in »
-GAMING · 10 infos retenues, meilleure : « Manni L. Perez, l'actrice qui incarne Lucia dans GTA 6, prend la parole pour la  » (9/10)
-  article · 6000 caractères lus
+230 infos fraîches et jamais traitées (sur 482 lues)
+   8/10 ✓ « GTA VI Features a Previously Unreleased Song From D’Angelo »
+   6/10 ✓ « Rockstar Developer Explains How Players Should Experience GTA VI »
+   7/10 ✗ déjà publiée « GTA VI Developers Vote Against Unionization Following Battle With Rock »
+   7/10 ✓ « NEW GTA Online Event Week is LIVE! »
+   8/10 ✗ déjà publiée « GTA VI Causes Console Sales Surge, Physical Copies Dominate UK Charts! »
+   6/10 ✓ « THIS IS INSANE!!! 😳🤯 »
+   5/10 ✓ « Current state of the GTA 6 PC port: https://t.co/1LR4WrAkPT »
+   2/10 ✗ pas une news « SECRET GUN SPOTS WITH NO FIGHTING IN GTA 6! A Legendary Sniper, 3 Lege »
+   3/10 ✗ pas une news « GTA 6 Trailer 1 in GTA 6 https://t.co/fRAhTcDPTl »
+   4/10 ✗ pas une news « Cleanest Bank Robbery you'll see in GTA 6. »
+   2/10 ✗ pas une news « me with my silencer pistol when it's time to commit a robbery in gta 6 »
+   8/10 ✗ déjà publiée « GTA 6 worries spread as Xbox joins PS5 in blackouts, tech expert expla »
+   8/10 ✗ déjà publiée « Lucia nue dans GTA 6 : quand un simple glitch créé la polémique »
+   0/10 ✗ pas une news « Transgressor 1967 GTA 6 : Où trouver les épaves de voiture pour Wyman  »
+   1/10 ✗ pas une news « El Niño, GTA VI, Ibiza, IA... Tour d'horizon de l'actualité du tourism »
+   5/10 ✓ « Je joue en 240 FPS toute l'année. GTA 6 à 30 FPS m'a fait mal aux yeux »
+   0/10 ✗ pas une news « Meilleure voiture pour fuir la police dans GTA 6 : Jugular, Neon, Raid »
+   5/10 ✓ « GTA VI est-il le nouveau "Les Sims" ? »
+   0/10 ✗ pas une news « GTA Black Friday Deals 2026: Best GTA 6, GTA 5 and GTA Trilogy Discoun »
+   6/10 ✓ « Study reveals how GTA 6’s release affected employee productivity in La »
+   4/10 ✗ trop faible (mini 9) « SNK continue de vouloir conquérir Hollywood avec la mise en chantier d »
+   5/10 ✗ trop faible (mini 9) « The Witcher 3 Remastered ajoute des mods sur consoles avec sa dernière »
+   0/10 ✗ pas une news « Black Friday Jeux vidéo et gaming : les bonnes affaires sur PS5, Xbox  »
+   0/10 ✗ pas une news « Best Ways to Make Money »
+GAMING · 8 infos retenues, meilleure : « GTA VI Features a Previously Unreleased Song From D’Angelo » (8/10)
+  photo · échec : image trop petite (48x48)
   photo · 1 image(s) : 1200x675
+  contexte · 2 complément(s) : @ROCKSTARINTEL, ROCKSTAR INTEL
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · trouvée sur X « Manni L Perez GTA 6 Lucia » (2507 likes) : manni l perez playing lucia caminos is very important for gta history.
-  vidéo · téléchargée (26 s, 2 Mo)
-  vidéo · 26 images analysées, texte incrusté sur 0
-  couverture · photo1 · zoom 1.0 · propre
-  carrousel prêt : « L'actrice de Lucia sort du silence sur GTA 6 » (4 slides)
-  voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (7.2 s)
-  vidéo · 10 images analysées, texte incrusté sur 0
-  vidéo · temps forts : 5 passages (3s, 5s, 8s, 14s, 17s) sur 26 s
-  reel · 8.8 s · 5 plans dont 5 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgPUOsDjtLK/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgPUR9eB05Z/
+  vidéo · recherche X « GTA 6 Worldwide FM D Angelo » : rien qui montre vraiment le sujet
+  vidéo · recherche X « Worldwide FM » : rien qui montre vraiment le sujet
+  vidéo · trouvée sur X « GTA 6 gameplay » (27421 likes) : update: 70 hours in. i finished the gta 6 story at 60 hours and spent 
+  vidéo · téléchargée (13 s, 3 Mo)
+  vidéo · 13 images analysées, texte incrusté sur 5
+  couverture · video@0s · zoom 1.0 · propre
+  carrousel prêt : « GTA VI intègre un morceau inédit de D'Angelo » (4 slides)
+  voix · contrôle OK (98%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (8.0 s)
+  reel · 9.7 s · 6 plans dont 6 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgPbBpWDeFa/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgPbDpKorzL/
   ✅ STORY PUBLIÉE (vidéo)
 Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
