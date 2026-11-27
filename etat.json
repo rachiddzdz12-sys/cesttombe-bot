@@ -1276,7 +1276,12 @@
   "x:2126339326027907295": "2026-11-27T19:01:47.320480+00:00",
   "web:google news:CBMiW0FVX3lxTE05V0l0QnBkOEtFeWs1ak0yMUQ1SjRTdHJfQmlsMWxiSzZ0MzdDOFd0eVVkd1EyLVZ1djNGYzN6dWU3bzRGeFFpUDZ1cVA0RUhHYXNRTGdTM2dRMUE": "2026-11-27T19:01:47.320480+00:00",
   "web:google news:CBMijwFBVV95cUxNVFNqWGgzWGZZV2xmQTZOVlE1bDAtV3RNYlRKNHM0Wko1cThxOWhNbVFmd0NlMW5aZC1NZ1NfeTBBdW1SVGZvMS1jQzZuNk1USEpqMWVCU2gxRDhKMFpvRkhlQjhiSXNwbERSNmpVbTJWbmpHMFdaUXJSdW1Xc0U5MVMxcl9SZjQ2NmY2SmxVbw": "2026-11-27T19:01:47.320480+00:00",
-  "x:2126390852339617927": "2026-11-27T19:01:47.320480+00:00"
+  "x:2126390852339617927": "2026-11-27T19:01:47.320480+00:00",
+  "web:google news:CBMi8wFBVV95cUxPSlNRdDB4elFPYUJBR090cEk1ckpZZjZSZEJaN1UycFE3RHVjNFZ0dlcyd2ZYanRKMGMxam90S3RranRsRXZSRHJ6c0YtZHQ2eW4wRDBWbk5NMXdkVDdMWkhrcm9FcEZSOVpxWGFhdEQ3Ykl4UmFONHpBT2xXYzVOcjVuWU1CZ1BhbnNKSjM4TllyOHFOejJlREFZekZjT1ZqY0hrUnpENVVacTBYWU5EUXh1dWMxU1Y5SUNES21kdEFUOUNQdklsVTJ2WDVpLUt4NmtQR0VOaVVzYXAzMEZSeHloaWhxSHVDX1pCV2FrdFNnR2s": "2026-11-27T20:01:42.999301+00:00",
+  "web:google news:CBMifkFVX3lxTE56dG5uaDg4ZXlPV3lJTHZoUWxSXzg1cEk1SGtrdkxfRGo5dUtxNmRjU05sa2gtMGdXcHF4a0ZSQ1lzbDllMFFJYjdia3FjYWlCd29VS01tZXJMVDBOM1dYN1RSTDlHR2xySVg5WGtwTDRlbF9KVV9SYkxXZVhYZw": "2026-11-27T20:01:42.999301+00:00",
+  "web:google news:CBMickFVX3lxTFA5U0hVdk5CUk9aYkdZZTJWdlRZTUNsYU9Db2loX0Z4eWhoX1B0Z0w2ZlpsU045aHRIUm9hSFc1aDU4TGE1U2J3Nmo0ZFFnbm01cUJXUFdzc3R4NnR0TDM2YTR3Ri0zbXNZdWViZEtQM1NxUQ": "2026-11-27T20:01:42.999301+00:00",
+  "web:google news:CBMiugFBVV95cUxQcnlNVUNGQXR6Q2RJMW9CMjUxek9pSllrN2lsZFJIQ0Iza3RVZjBIakdETExiQU5IZ19YUkMwLUhCNElqdDlodUlnWHVYMG1jZzlCMU8tMjN0dmdvSjYxVnlzZDJXcjBkYWdTRHV4dk5wSUpUdVlqVVlYS1VWbWtaRm9YTHUtZnhMSmhsYUFLd2U3RHY4OEJ5UTJVV1VrT1dJTjZkM3ByQzhPaTlIaUhyaDVxNHBBYkhFVUE": "2026-11-27T20:01:42.999301+00:00",
+  "web:dexerto:https://www.dexerto.com/gta/new-dad-defends-playing-gta-6-at-hospital-while-wife-is-in-labor-3431772/": "2026-11-27T20:01:42.999301+00:00"
  },
  "publies": [
   {
@@ -3288,11 +3293,20 @@
    "lien": "https://www.instagram.com/p/DgQY1vgjXwm/",
    "reel": "https://www.instagram.com/reel/DgQY3-phZGy/",
    "story": "18134404477823378"
+  },
+  {
+   "ts": "2026-11-27T20:01:42.999301+00:00",
+   "categorie": "GAMING",
+   "titre": "Il joué à GTA 6 à l'hôpital pendant l'accouchement",
+   "source_id": "web:dexerto:https://www.dexerto.com/gta/new-dad-defends-playing-gta-6-at-hospital-while-wife-is-in-labor-3431772/",
+   "lien": "https://www.instagram.com/p/DgQfzssmJ3t/",
+   "reel": "https://www.instagram.com/reel/DgQf8KqNTCt/",
+   "story": "18492031099114120"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 5812
+  "tweets": 5830
  },
  "x_recherches": {
   "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-27T19:02:20.023204+00:00"
