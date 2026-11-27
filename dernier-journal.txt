@@ -6,61 +6,63 @@ Instagram · posts publiés par l'API sur 24 h : 48 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → HTTP 429
-Web · GOOGLE NEWS → 100 infos
-Web · BING ACTU → 11 infos
+Web · GOOGLE NEWS → 102 infos
+Web · BING ACTU → 10 infos
 Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
-Web · GAMEKULT → 11 infos
-Web · IGN FRANCE → 20 infos
+Web · GAMEKULT → 10 infos
+Web · IGN FRANCE → 21 infos
 Web · JEUXVIDEO.COM → 14 infos
-Web · INSIDER GAMING → 6 infos
+Web · INSIDER GAMING → 8 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 3 gardés
-X · @RockstarGames → 0 tweets lus, 0 gardés (ce mois : 5665 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5675 / 10000)
+X · @RockstarGames → 0 tweets lus, 0 gardés (ce mois : 5683 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5693 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-171 infos fraîches et jamais traitées (sur 379 lues)
+183 infos fraîches et jamais traitées (sur 382 lues)
    6/10 ✓ « GTA VI x GTA+ Screenshots Gallery 📸 »
-   8/10 ✗ déjà publiée « We got GTA VI Multiplayer by a fan before GTA VI Online or PC by Rocks »
-   7/10 ✓ « Rockstar Developer Explains How Players Should Experience GTA VI »
-   7/10 ✗ déjà publiée « GTA VI Developers Vote Against Unionization Following Battle With Rock »
-   6/10 ✓ « NEW GTA Online Event Week is LIVE! »
+   7/10 ✗ déjà publiée « We got GTA VI Multiplayer by a fan before GTA VI Online or PC by Rocks »
+   8/10 ✗ déjà publiée « GTA VI Developers Vote Against Unionization Following Battle With Rock »
+   5/10 ✓ « NEW GTA Online Event Week is LIVE! »
    8/10 ✗ déjà publiée « GTA VI Causes Console Sales Surge, Physical Copies Dominate UK Charts! »
-   7/10 ✗ déjà publiée « The unofficial port of GTA VI on PC showed up to 53 FPS with frame gen »
-   6/10 ✓ « GTA 6 Is Bigger Than Taylor Swift, Analysts Say »
-   8/10 ✓ « Former Gran Turismo World Series Competitor Helped Tune GTA 6 Car Phys »
-   5/10 ✓ « GTA 6: Leakers clash about speculated PS6 and XBOX Project Helix perfo »
-   6/10 ✓ « Justice make Club Space debut as Miami club turns into GTA VI’s The Va »
-   2/10 ✗ pas une news « Should you participate or not as the pool boy in GTA 6? »
-   1/10 ✗ pas une news « Where to find all Sunrise RV Park Key Valuables in GTA 6 »
-   6/10 ✗ déjà publiée « Meet GTA VI Lucia voice actress Manni Perez who said ‘gender is fluid’ »
-   2/10 ✗ pas une news « The best hidden side missions in GTA 6 and where to find them »
-   8/10 ✗ déjà publiée « Max Verstappen Played 40 Hours of GTA 6 and Still Won the Las Vegas Gr »
-   6/10 ✓ « Despite Take-Two Takedown, Vibecoding Teen Behind Nuked GTA 6 PC Port  »
-   8/10 ✗ déjà publiée « GTA 6 multiplayer shown running on unofficial PC port »
-   5/10 ✓ « Mark Zuckerberg's Thanksgiving menu: 'GTA 6,' smoked meat, and Meta's  »
-   5/10 ✗ déjà publiée « Mark Zuckerberg's Thanksgiving menu: 'GTA 6,' smoked meat, and Meta's  »
-GAMING · 9 infos retenues, meilleure : « Rockstar Developer Explains How Players Should Experience GTA VI » (7/10)
-  photo · échec : image trop petite (400x400)
-  photo · échec : image trop petite (48x48)
-  photo · aucune image
-  contexte · 2 complément(s) : ROCKSTAR INTEL
+   0/10 ✗ pas une news « GTA VI PlayStation 5 »
+   5/10 ✓ « Was GTA VI’s biggest entertainment launch of all time good news for Ta »
+   4/10 ✗ trop faible (mini 5) « A resurgent 'Hunger Games' goes big at the box office, despite competi »
+   0/10 ✗ pas une news « The best vehicles for every situation in GTA 6 »
+   7/10 ✗ déjà publiée « Unofficial port of GTA VI delivered 12 FPS on PC with Ryzen 5 4500 and »
+   0/10 ✗ pas une news « Sneakthief Trophy & Achievement Walkthrough in GTA 6—How to Rob Stores »
+   0/10 ✗ pas une news « Sneakthief Trophy & Achievement Walkthrough in GTA 6—How to Rob Stores »
+   0/10 ✗ pas une news « Where to find the Buckingham Jubilee in GTA 6 »
+   0/10 ✗ pas une news « GTA 6 deals deliver this Black Friday with up to £15 off the game and  »
+   6/10 ✓ « Fresh Look Gives Thanks for the Wonderfully Detailed World of GTA VI »
+   7/10 ✓ « Danny Dyer makes surprise cameo in GTA 6 – but not all fans will find  »
+   6/10 ✓ « Jason pourrait bien avoir un passif avec Mandy dans GTA 6 finalement »
+   7/10 ✓ « GTA 6 will run more stably on PCs with 32GB of RAM thanks to new Victo »
+   8/10 ✗ déjà publiée « GTA 6 Sends PS5 and Xbox Series X|S Sales Soaring in the US »
+   9/10 ✓ « GTA VI Pushes Series To Nearly 1 Trillion YouTube Views With Record Br »
+   6/10 ✗ trop faible (mini 9) « CoD HQ Daily Users Crash 41%: 7.5M to 4.4M »
+GAMING · 8 infos retenues, meilleure : « GTA VI Pushes Series To Nearly 1 Trillion YouTube Views With Record Breaking Lau » (9/10)
+  article · rockstarintel.com
+  article · 2416 caractères lus
+  photo · 1 image(s) : 1280x720
+  contexte · 1 complément(s) : ROCKSTAR INTEL
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · trouvée sur X « Grand Theft Auto VI Leonida map » (539 likes) : grand theft auto 6 has an entire underground cave system that you can 
-  vidéo · téléchargée (109 s, 19 Mo)
-  vidéo · 40 images analysées, texte incrusté sur 31
-  couverture · video@1s · zoom 1.0 · propre
-  carrousel prêt : « Rockstar détaille l'expérience idéale sur GTA VI » (4 slides)
-  voix · contrôle OK (95%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (6.7 s)
-  vidéo · 10 images analysées, texte incrusté sur 10
-  vidéo · temps forts : 5 passages (66s, 72s, 90s, 96s, 102s) sur 109 s
-  reel · 8.4 s · 5 plans dont 5 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgPvpDolN9U/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgPvqtgyLKT/
+  vidéo · trouvée sur X « GTA 6 YouTube trailer launch views » (557 likes) : if you've ever wondered why like 80% of gta 6 content on youtube looks
+  vidéo · téléchargée (33 s, 3 Mo)
+  vidéo · 33 images analysées, texte incrusté sur 33
+  couverture · photo1 · zoom 1.25 · propre
+  carrousel prêt : « GTA 6 explose les records sur YouTube » (4 slides)
+  voix · contrôle OK (99%, essai 1, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (11.2 s)
+  voix · 11.2 s → accélérée ×1.02 (11.0 s)
+  vidéo · 14 images analysées, texte incrusté sur 14
+  vidéo · temps forts : 7 passages (4s, 7s, 14s, 17s, 20s, 24s, 28s) sur 33 s
+  reel · 12.6 s · 8 plans dont 8 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgP2n4VkWc6/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgP2pjgyKGn/
   ✅ STORY PUBLIÉE (vidéo)
 Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
