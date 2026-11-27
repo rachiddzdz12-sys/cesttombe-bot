@@ -5,8 +5,8 @@ Instagram · @cesttombe.actu (20 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 48 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → 100 infos
-Web · GOOGLE NEWS → HTTP 429
+Web · GOOGLE ACTU → HTTP 429
+Web · GOOGLE NEWS → 100 infos
 Web · BING ACTU → 11 infos
 Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
@@ -20,48 +20,47 @@ Web · JEUXVIDEO.COM → 14 infos
 Web · INSIDER GAMING → 6 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 3 gardés
-X · @RockstarGames → 0 tweets lus, 0 gardés (ce mois : 5647 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5657 / 10000)
+X · @RockstarGames → 0 tweets lus, 0 gardés (ce mois : 5665 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5675 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-176 infos fraîches et jamais traitées (sur 379 lues)
-   7/10 ✗ déjà publiée « We got GTA VI Multiplayer by a fan before GTA VI Online or PC by Rocks »
-   6/10 ✓ « Rockstar Developer Explains How Players Should Experience GTA VI »
-   8/10 ✗ déjà publiée « GTA VI Developers Vote Against Unionization Following Battle With Rock »
+171 infos fraîches et jamais traitées (sur 379 lues)
+   6/10 ✓ « GTA VI x GTA+ Screenshots Gallery 📸 »
+   8/10 ✗ déjà publiée « We got GTA VI Multiplayer by a fan before GTA VI Online or PC by Rocks »
+   7/10 ✓ « Rockstar Developer Explains How Players Should Experience GTA VI »
+   7/10 ✗ déjà publiée « GTA VI Developers Vote Against Unionization Following Battle With Rock »
    6/10 ✓ « NEW GTA Online Event Week is LIVE! »
    8/10 ✗ déjà publiée « GTA VI Causes Console Sales Surge, Physical Copies Dominate UK Charts! »
-   9/10 ✗ déjà publiée « GTA 6 établit un record absolu de vues en streaming dès sa première se »
-   7/10 ✗ déjà publiée « GTA 6 multiplayer reportedly running on PC as unofficial ports near co »
-   2/10 ✗ pas une news « Where To Find Nagasaki Hung Carbon RS In GTA 6—Fastest Motorcycles Loc »
-   8/10 ✗ déjà publiée « GTA VI : un record qui vaut une Coupe du monde »
-   2/10 ✗ pas une news « Where To Find Nagasaki Smokescreen Carbon RS In GTA 6—Fastest Motorcyc »
-   2/10 ✗ pas une news « GTA 6 : où trouver la voiture Ghostbusters Ecto-1 gratuite à Capri »
-   7/10 ✓ « GTA VI sur Xbox Series X|S : après la PS5, des consoles en panne ? Ce  »
-   7/10 ✓ « Voler une Tesla dans GTA 6 est une très mauvaise idée, voici pourquoi »
-   6/10 ✓ « 21 % des employés de Rockstar travaillent dans le studio depuis plus d »
-   8/10 ✓ « GTA 6 : le vrai Jason Duval est Français et il a une demande pour Rock »
-   2/10 ✗ pas une news « Where To Find Principe Emilio’s Lectro In GTA 6—Fastest Motorcycles Lo »
-   5/10 ✓ « When Will GTA 6 Online Come Out? GTA 6 Online Release Window »
-   8/10 ✓ « Xavier de Rosnay (Justice) : « Le score de GTA VI est un album de Just »
-   8/10 ✗ déjà publiée « GTA 6 « grille-t-il » vraiment les PS5 et Xbox Series ? Plantages, sur »
-   6/10 ✓ « Jeux video. Grand Theft Auto VI : le jeu de tous les superlatifs »
-   1/10 ✗ pas une news « Black Friday 2026 : les meilleurs bons plans jeux vidéo et high-tech ( »
-GAMING · 9 infos retenues, meilleure : « GTA 6 : le vrai Jason Duval est Français et il a une demande pour Rockstar Games » (8/10)
-  article · presse-citron.net
-  article · 2158 caractères lus
-  photo · 1 image(s) : 1600x900
+   7/10 ✗ déjà publiée « The unofficial port of GTA VI on PC showed up to 53 FPS with frame gen »
+   6/10 ✓ « GTA 6 Is Bigger Than Taylor Swift, Analysts Say »
+   8/10 ✓ « Former Gran Turismo World Series Competitor Helped Tune GTA 6 Car Phys »
+   5/10 ✓ « GTA 6: Leakers clash about speculated PS6 and XBOX Project Helix perfo »
+   6/10 ✓ « Justice make Club Space debut as Miami club turns into GTA VI’s The Va »
+   2/10 ✗ pas une news « Should you participate or not as the pool boy in GTA 6? »
+   1/10 ✗ pas une news « Where to find all Sunrise RV Park Key Valuables in GTA 6 »
+   6/10 ✗ déjà publiée « Meet GTA VI Lucia voice actress Manni Perez who said ‘gender is fluid’ »
+   2/10 ✗ pas une news « The best hidden side missions in GTA 6 and where to find them »
+   8/10 ✗ déjà publiée « Max Verstappen Played 40 Hours of GTA 6 and Still Won the Las Vegas Gr »
+   6/10 ✓ « Despite Take-Two Takedown, Vibecoding Teen Behind Nuked GTA 6 PC Port  »
+   8/10 ✗ déjà publiée « GTA 6 multiplayer shown running on unofficial PC port »
+   5/10 ✓ « Mark Zuckerberg's Thanksgiving menu: 'GTA 6,' smoked meat, and Meta's  »
+   5/10 ✗ déjà publiée « Mark Zuckerberg's Thanksgiving menu: 'GTA 6,' smoked meat, and Meta's  »
+GAMING · 9 infos retenues, meilleure : « Rockstar Developer Explains How Players Should Experience GTA VI » (7/10)
+  photo · échec : image trop petite (400x400)
+  photo · échec : image trop petite (48x48)
+  photo · aucune image
+  contexte · 2 complément(s) : ROCKSTAR INTEL
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · trouvée sur X « Grand Theft Auto VI Jason Duval » (1806 likes) : jason duval es uno de los protagonistas más humanos y profundos de gra
-  vidéo · téléchargée (27 s, 3 Mo)
-  vidéo · 27 images analysées, texte incrusté sur 20
-  couverture · photo1 · zoom 1.0 · propre
-  carrousel prêt : « Le vrai Jason Duval habite en France » (4 slides)
-  voix · ⚠️ refaite, texte différent (66%) : « Le vrai Jason Duval habite en France. Ce Normand a écrit à Rockstar Games pour demander un geste. T'aimerais t'appeler comme un héros ? Le vrai Jason Duval habi »
-  voix · contrôle OK (100%, essai 2, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (7.6 s)
-  vidéo · 12 images analysées, texte incrusté sur 10
-  vidéo · temps forts : 6 passages (4s, 6s, 9s, 18s, 21s, 24s) sur 27 s
-  reel · 9.3 s · 6 plans dont 6 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgPo2UgI9ND/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgPo4zMuIFF/
+  vidéo · trouvée sur X « Grand Theft Auto VI Leonida map » (539 likes) : grand theft auto 6 has an entire underground cave system that you can 
+  vidéo · téléchargée (109 s, 19 Mo)
+  vidéo · 40 images analysées, texte incrusté sur 31
+  couverture · video@1s · zoom 1.0 · propre
+  carrousel prêt : « Rockstar détaille l'expérience idéale sur GTA VI » (4 slides)
+  voix · contrôle OK (95%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (6.7 s)
+  vidéo · 10 images analysées, texte incrusté sur 10
+  vidéo · temps forts : 5 passages (66s, 72s, 90s, 96s, 102s) sur 109 s
+  reel · 8.4 s · 5 plans dont 5 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgPvpDolN9U/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgPvqtgyLKT/
   ✅ STORY PUBLIÉE (vidéo)
 Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s

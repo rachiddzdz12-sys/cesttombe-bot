@@ -1,7 +1,5 @@
 {
  "vus": {
-  "ag:https://www.actugaming.net/?p=833345": "2026-11-13T13:02:19.609318+00:00",
-  "ag:https://www.actugaming.net/?p=833382": "2026-11-13T13:02:19.609318+00:00",
   "ig:18124434347076241": "2026-11-13T15:32:10.361487+00:00",
   "ig:18650057863021381": "2026-11-13T15:32:10.361487+00:00",
   "ig:17980712955136374": "2026-11-13T15:32:10.361487+00:00",
@@ -1240,7 +1238,11 @@
   "web:google actu:CBMiogFBVV95cUxQR1NleUZCVEZjS0FmdFhqTERZLWczNm5Sc3g2S3h2OVk3RFMwQ1poUmVJYmxMRW9hRFgtcUFqY0ZnUG4tX2tfaXh3M3ZUSldtV1VGel9Rd1YtcXRlUks5V21JbU5LMDNZQkI0RThkdVJ4d3FTTlNmVUpHWGdBWFI0WU5VWDRLWGViTmNkd3MtR2lKVmxaSmJtTDVKeGdiWjhyQ1E": "2026-11-27T12:01:58.128400+00:00",
   "web:insider gaming:https://insider-gaming.com/?p=242409": "2026-11-27T12:01:58.128400+00:00",
   "ag:https://www.actugaming.net/?p=836562": "2026-11-27T12:01:58.128400+00:00",
-  "web:google actu:CBMigwFBVV95cUxQLXhUdnVTQ0ZFU0k5OXhoQXJyZXl6UkdHS1NZZFhlaS1aekFWQmt4ZmtNaWFPZ0JsTmtNSlVGYkE2VXJ1NG0xMHlPdXQteXBtZlpfVUtGMGdpZ3NpY0ZNMlRPam1iX3FyREJfak84LXNfaEZ0cUpsWmhrWngtQ0JrajFabw": "2026-11-27T12:01:58.128400+00:00"
+  "web:google actu:CBMigwFBVV95cUxQLXhUdnVTQ0ZFU0k5OXhoQXJyZXl6UkdHS1NZZFhlaS1aekFWQmt4ZmtNaWFPZ0JsTmtNSlVGYkE2VXJ1NG0xMHlPdXQteXBtZlpfVUtGMGdpZ3NpY0ZNMlRPam1iX3FyREJfak84LXNfaEZ0cUpsWmhrWngtQ0JrajFabw": "2026-11-27T12:01:58.128400+00:00",
+  "web:gamesradar:PsJDuoLvPnxtveLuoWDk7S": "2026-11-27T13:02:05.741903+00:00",
+  "web:google news:CBMid0FVX3lxTE1kVWQyQ0VoU2gwakpnNVJyM2FTa1R0SmdIanlZNFloQnR2N1ZGYmRSUV9yOTgweUl4MUdlamMxSmUwS2dzd1hFdlg5ZG5xZWhmUHRiOUNMWXptd0JVc0wyeUpiZkdRNUF0Z3AtZzU1SzN2X18zb3ZF": "2026-11-27T13:02:05.741903+00:00",
+  "web:google news:CBMiZkFVX3lxTE9mcHFTbjVXcUtRTmR0Y0E2UENZb1dCaFEtd1NYZVNkWGRsTTU1UDFwQ3ZxLVpoMno4emFrUTNheHFMc3pCclNCdEZqcFRyX25oZGZBaU9XSTQwWVd0UTlPd1preUNmQQ": "2026-11-27T13:02:05.741903+00:00",
+  "x:2126080305769730434": "2026-11-27T13:02:05.741903+00:00"
  },
  "publies": [
   {
@@ -3189,11 +3191,20 @@
    "lien": "https://www.instagram.com/p/DgPo2UgI9ND/",
    "reel": "https://www.instagram.com/reel/DgPo4zMuIFF/",
    "story": "18001613085056866"
+  },
+  {
+   "ts": "2026-11-27T13:02:05.741903+00:00",
+   "categorie": "GAMING",
+   "titre": "Rockstar détaille l'expérience idéale sur GTA VI",
+   "source_id": "x:2126080305769730434",
+   "lien": "https://www.instagram.com/p/DgPvpDolN9U/",
+   "reel": "https://www.instagram.com/reel/DgPvqtgyLKT/",
+   "story": "18000440913046853"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 5665
+  "tweets": 5683
  },
  "x_recherches": {
   "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-27T10:02:02.594057+00:00"
