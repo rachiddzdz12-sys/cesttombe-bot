@@ -2,11 +2,11 @@ Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
 Instagram · @cesttombe.actu (20 abonnés)
-Instagram · posts publiés par l'API sur 24 h : 51 / 100
+Instagram · posts publiés par l'API sur 24 h : 48 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 100 infos
-Web · GOOGLE NEWS → 102 infos
+Web · GOOGLE NEWS → HTTP 429
 Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
@@ -16,52 +16,51 @@ Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
 Web · GAMEKULT → 10 infos
 Web · IGN FRANCE → 16 infos
-Web · JEUXVIDEO.COM → 12 infos
+Web · JEUXVIDEO.COM → 14 infos
 Web · INSIDER GAMING → 5 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 4 gardés
-X · @RockstarGames → 1 tweets lus, 0 gardés (ce mois : 5512 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5522 / 10000)
+X · @RockstarGames → 0 tweets lus, 0 gardés (ce mois : 5528 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5538 / 10000)
+X · « ("GTA 6" OR "GTA VI") filter:native_vide » → 8 tweets lus, 7 gardés (ce mois : 5546 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-263 infos fraîches et jamais traitées (sur 475 lues)
-   0/10 ✗ pas une news « ⛈️ How To Fix The GTA VI Weather Bug And Make It Rain  »
-   6/10 ✗ déjà publiée « GTA VI Causes Console Sales Surge, Physical Copies Dominate UK Charts! »
-   5/10 ✓ « Max Payne Remake Development With Rockstar Is "Amazing" Says Remedy  »
-   6/10 ✗ déjà publiée « GTA VI Official Trading Cards Announced by Panini!  »
-   0/10 ✗ pas une news « GTA 6 Has a Lot Going On. Here Are Some Tips for Your First Time in Vi »
-   9/10 ✓ « GTA 6 reportedly steals the launch-week streaming crown with 420 milli »
-   0/10 ✗ pas une news « E.Leclerc liquide ses stocks GTA 6 pour le Black Friday : nouvelle off »
-   3/10 ✗ pas une news « The Yakuzafication Of GTA VI »
-   2/10 ✗ pas une news « Les jeux gratuits du PlayStation Plus en décembre : notre avis sur ces »
-   7/10 ✓ « GTA VI Features a Hidden Memorial for Rockstar Developers’ Late Family »
-   7/10 ✗ déjà publiée « GTA VI Features a Hidden Memorial for Rockstar Developers’ Late Family »
-   6/10 ✗ déjà publiée « GTA 6 tourne sur PC à 44 FPS »
-   6/10 ✗ déjà publiée « GTA 6 runs on PC at up to 44 FPS »
-   4/10 ✗ pas une news « Game On: ‘Grand Theft Auto VI’ one week later »
-   7/10 ✓ « GTA VI Features a Previously Unreleased Song From D’Angelo »
-   7/10 ✗ déjà publiée « GTA VI Features a Previously Unreleased Song From D’Angelo »
-   6/10 ✓ « GTA 6 Frame Rate Unlock Arrives on Jailbroken PS5 Consoles »
+179 infos fraîches et jamais traitées (sur 382 lues)
+   6/10 ✓ « GTA VI Features a Previously Unreleased Song From D’Angelo »
+   7/10 ✓ « GTA VI Features a Hidden Memorial for Rockstar Developers' Late Family »
    6/10 ✓ « Rockstar Developer Explains How Players Should Experience GTA VI »
-   6/10 ✗ déjà publiée « Rockstar Developer Explains How Players Should Experience GTA VI »
-   2/10 ✗ pas une news « GTA 6 Fashion in the IGN Community »
-GAMING · 6 infos retenues, meilleure : « GTA 6 reportedly steals the launch-week streaming crown with 420 million hours w » (9/10)
-  article · digg.com
-  article · 371 caractères lus
-  photo · 1 image(s) : 1200x630
+   8/10 ✗ déjà publiée « GTA VI Developers Vote Against Unionization Following Battle With Rock »
+   7/10 ✓ « NEW GTA Online Event Week is LIVE! »
+   7/10 ✗ déjà publiée « GTA VI Causes Console Sales Surge, Physical Copies Dominate UK Charts! »
+   5/10 ✓ « THIS IS INSANE!!! 😳🤯 »
+   2/10 ✗ pas une news « I still don't understand how some people hate on GTA 6. »
+   6/10 ✓ « 🚨 SURRÉALISTE ! »
+   4/10 ✗ trop faible (mini 5) « 🚨BREAKING: GTA VI Online before GTA VI Online from rockstar https://t. »
+   3/10 ✗ pas une news « This SECRET Location has a $500,000 Rainbow Rolex for FREE in GTA 6! »
+   1/10 ✗ pas une news « Guide GTA 6 : PNJ Terminator à Key Lento et astuces survie »
+   6/10 ✓ « Plus vraies que nature, les voitures de GTA VI reflètent (aussi) l'ess »
+   2/10 ✗ pas une news « GTA 6 : voici la voiture la plus rapide selon sa note de vitesse et co »
+   8/10 ✗ déjà publiée « Sylvie Vartan, Justice, Carly Rae Jepsen, mais pas que... Ces artistes »
+   5/10 ✗ déjà publiée « Des joueurs passionnés ont rapporté avoir atteint la 4K et 120 FPS sur »
+   1/10 ✗ pas une news « Guide GTA 6 : toutes les scènes avec Mandy, ses secrets à Key Lento et »
+   7/10 ✗ déjà publiée « La sortie de GTA 6 rend inutilisables de nombreuses consoles Xbox, apr »
+   6/10 ✓ « Alors que les joueurs attendent la version PC de GTA 6, les moddeurs o »
+   6/10 ✗ déjà publiée « Alors que les projets de portage de GTA 6 sur PC avancent à grands pas »
+GAMING · 8 infos retenues, meilleure : « GTA VI Features a Hidden Memorial for Rockstar Developers' Late Family Members » (7/10)
+  photo · échec : image trop petite (48x48)
+  photo · 1 image(s) : 1200x675
+  contexte · 1 complément(s) : ROCKSTAR INTEL
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · trouvée sur X « GTA 6 Twitch stream records » (211 likes) : this is f**king dangerous
-
-watched an 18-year-old kid casually show ho
-  vidéo · téléchargée (36 s, 4 Mo)
-  vidéo · 36 images analysées, texte incrusté sur 25
-  couverture · video@6s · zoom 1.12 · propre
-  carrousel prêt : « GTA 6 explose les records sur Twitch » (4 slides)
-  voix · contrôle OK (99%, essai 1, gemini-3.1-flash-tts-preview)
-  voix · Gemini (Aoede) (10.4 s)
-  vidéo · 14 images analysées, texte incrusté sur 7
-  vidéo · temps forts : 7 passages (1s, 6s, 10s, 15s, 17s, 22s, 26s) sur 36 s
-  reel · 12.0 s · 7 plans dont 7 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgOCAGpF3yW/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgOCDPChF_O/
+  vidéo · trouvée sur X « GTA 6 memorial easter egg » (356401 likes) : an easter egg in gta 6 has been found that transports you back the ori
+  vidéo · téléchargée (169 s, 34 Mo)
+  vidéo · 40 images analysées, texte incrusté sur 34
+  couverture · video@142s · zoom 1.12 · propre
+  carrousel prêt : « GTA 6 integre un mémorial cache pour les développeurs » (4 slides)
+  voix · contrôle OK (96%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (6.4 s)
+  vidéo · 10 images analysées, texte incrusté sur 3
+  vidéo · temps forts : 5 passages (18s, 20s, 22s, 24s, 26s) sur 169 s
+  reel · 8.0 s · 5 plans dont 5 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgO_ijdoz_s/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgO_kdvAcSM/
   ✅ STORY PUBLIÉE (vidéo)
 Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
