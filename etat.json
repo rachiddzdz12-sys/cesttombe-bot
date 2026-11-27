@@ -1,9 +1,5 @@
 {
  "vus": {
-  "ig:18099241691132341": "2026-11-13T20:31:38.513881+00:00",
-  "ig:18426604420157312": "2026-11-13T20:31:38.513881+00:00",
-  "ig:18137215744587405": "2026-11-13T20:31:38.513881+00:00",
-  "ig:17880527655565700": "2026-11-13T20:31:38.513881+00:00",
   "ag:https://www.actugaming.net/?p=707217": "2026-11-14T08:01:48.651750+00:00",
   "ag:https://www.actugaming.net/?p=833472": "2026-11-14T08:01:48.651750+00:00",
   "ag:https://www.actugaming.net/?p=833453": "2026-11-14T08:01:48.651750+00:00",
@@ -1281,7 +1277,14 @@
   "web:google news:CBMifkFVX3lxTE56dG5uaDg4ZXlPV3lJTHZoUWxSXzg1cEk1SGtrdkxfRGo5dUtxNmRjU05sa2gtMGdXcHF4a0ZSQ1lzbDllMFFJYjdia3FjYWlCd29VS01tZXJMVDBOM1dYN1RSTDlHR2xySVg5WGtwTDRlbF9KVV9SYkxXZVhYZw": "2026-11-27T20:01:42.999301+00:00",
   "web:google news:CBMickFVX3lxTFA5U0hVdk5CUk9aYkdZZTJWdlRZTUNsYU9Db2loX0Z4eWhoX1B0Z0w2ZlpsU045aHRIUm9hSFc1aDU4TGE1U2J3Nmo0ZFFnbm01cUJXUFdzc3R4NnR0TDM2YTR3Ri0zbXNZdWViZEtQM1NxUQ": "2026-11-27T20:01:42.999301+00:00",
   "web:google news:CBMiugFBVV95cUxQcnlNVUNGQXR6Q2RJMW9CMjUxek9pSllrN2lsZFJIQ0Iza3RVZjBIakdETExiQU5IZ19YUkMwLUhCNElqdDlodUlnWHVYMG1jZzlCMU8tMjN0dmdvSjYxVnlzZDJXcjBkYWdTRHV4dk5wSUpUdVlqVVlYS1VWbWtaRm9YTHUtZnhMSmhsYUFLd2U3RHY4OEJ5UTJVV1VrT1dJTjZkM3ByQzhPaTlIaUhyaDVxNHBBYkhFVUE": "2026-11-27T20:01:42.999301+00:00",
-  "web:dexerto:https://www.dexerto.com/gta/new-dad-defends-playing-gta-6-at-hospital-while-wife-is-in-labor-3431772/": "2026-11-27T20:01:42.999301+00:00"
+  "web:dexerto:https://www.dexerto.com/gta/new-dad-defends-playing-gta-6-at-hospital-while-wife-is-in-labor-3431772/": "2026-11-27T20:01:42.999301+00:00",
+  "web:google news:CBMifkFVX3lxTFBUcG5sX1BRbFRJZU00LURoOEFIUFRHa3U2eFB3TGxyanNnUmlDc1UwR1ZhQVZRMnh5Q0dXQjc1VzEzcEF0d2JxVk9zOC1EcUtXWkpPaHBuYXFzN3YwcUxFb1ZJYmZNR3E5Sld5YW1CR0dzcFB1ZDAxWXk0QXpmdw": "2026-11-27T21:01:39.343184+00:00",
+  "web:google news:CBMimAFBVV95cUxNREZFZXoycDc2d09DOUI1a0dHWUpIQzB1VnNoS2lmYUtmSzN6eXpfZ3RYeWUyZDU4TkVSNkJDOHI0UDd5cUV2emVYcXkwSnl0M3NiQlVTYmEwU3JPZkJicG9FRnY0aUpNaXlNajk1OHlKd1IzTEJkV0pET3YxSHd3ODdSR1RiTllPaW81N3lpdDRWZVhleE5SYQ": "2026-11-27T21:01:39.343184+00:00",
+  "web:rockstar intel:https://rockstarintel.com/?p=45081": "2026-11-27T21:01:39.343184+00:00",
+  "web:google news:CBMibEFVX3lxTE5nOEVISVFzWkx6UkF3dGhKYjZndXZCR0o2WlRRSHFnMDdaaGlYdUFOUG9zMlc0UlVnZ01yU0JSWjJPYXowSTFpc2ZzNnE4MXNjSmFJNHBRWXJ4LW5MOThaNzU1blh6RVZ3dG5GRA": "2026-11-27T21:01:39.343184+00:00",
+  "web:google news:CBMiggFBVV95cUxPVVdsYkFfVFR2cXFHNE5ZQU5jdXM5b0p3UWl1YXpvbVd1bDMyZkZERlozLVZaUUx4YkQwZjE4UzYzTkN6MFR0NGpWU19iWnRVR1k0UW9rSnZjWFdzMkxHeUN2NDE3VFBiNFN2aTVWRGhNNWpZVVhlUWQyLTVHVFZUY2ln": "2026-11-27T21:01:39.343184+00:00",
+  "web:google actu:CBMisgFBVV95cUxQVmpua1ZwdEJrd25ZNWcwdlJNUUZMQkxFN0c3SF93WVZ1T3I3bFU1SzFPQnVwTy00MnpEOU8tZ3J1dmloQUp3YnpxWG4xaHBTVjV2b1dOOGM5VnpXZjMtODF0MnZ3dENic1I3N0tlT0ZLWG5BR3oyWndzako1c2R5OEptck1vVkl4Qk9naFJOMlZGaW9LTVVGNi1tWGQ4Z0FhTjc0RExNRGdZdnotR1Zkdzd3": "2026-11-27T21:01:39.343184+00:00",
+  "web:rockstar intel:https://rockstarintel.com/?p=45094": "2026-11-27T21:01:39.343184+00:00"
  },
  "publies": [
   {
@@ -3302,11 +3305,18 @@
    "lien": "https://www.instagram.com/p/DgQfzssmJ3t/",
    "reel": "https://www.instagram.com/reel/DgQf8KqNTCt/",
    "story": "18492031099114120"
+  },
+  {
+   "ts": "2026-11-27T21:01:39.343184+00:00",
+   "categorie": "GAMING",
+   "titre": "Pourquoi Rockstar a retiré des fonctionnalités dans GTA 6",
+   "source_id": "web:rockstar intel:https://rockstarintel.com/?p=45094",
+   "lien": null
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 5830
+  "tweets": 5848
  },
  "x_recherches": {
   "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-27T19:02:20.023204+00:00"

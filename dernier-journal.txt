@@ -5,10 +5,10 @@ Instagram · @cesttombe.actu (19 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 48 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → HTTP 429
+Web · GOOGLE ACTU → 100 infos
 Web · GOOGLE NEWS → 100 infos
-Web · BING ACTU → 11 infos
-Web · BING ACTU VI → 2 infos
+Web · BING ACTU → 12 infos
+Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
@@ -16,50 +16,44 @@ Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
 Web · GAMEKULT → 11 infos
 Web · IGN FRANCE → 23 infos
-Web · JEUXVIDEO.COM → 17 infos
-Web · INSIDER GAMING → 8 infos
+Web · JEUXVIDEO.COM → 18 infos
+Web · INSIDER GAMING → 7 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 3 gardés
-X · @RockstarGames → 0 tweets lus, 0 gardés (ce mois : 5812 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5822 / 10000)
+X · @RockstarGames → 0 tweets lus, 0 gardés (ce mois : 5830 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5840 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-202 infos fraîches et jamais traitées (sur 377 lues)
-   8/10 ✗ déjà publiée « GTA VI Pushes Series To Nearly 1 Trillion YouTube Views With Record Br »
+283 infos fraîches et jamais traitées (sur 488 lues)
+   9/10 ✗ déjà publiée « GTA VI Pushes Series To Nearly 1 Trillion YouTube Views With Record Br »
   10/10 ✗ déjà publiée « GTA VI Hits 53 Million Copies Sold in Just 1 Week, Generating $4.7 Bil »
    7/10 ✗ déjà publiée « GTA VI Features a Previously Unreleased Song From D’Angelo  »
    8/10 ✗ déjà publiée « GTA VI Causes Console Sales Surge, Physical Copies Dominate UK Charts! »
-   8/10 ✗ déjà publiée « GTA VI Pushes Series To Nearly 1 Trillion YouTube Views With Record Br »
-   7/10 ✗ déjà publiée « Rockstar Developer Explains How Players Should Experience GTA VI  »
-   2/10 ✗ pas une news « After falling in love with PS5 haptic feedback in GTA 6, I'm eyeing th »
-   8/10 ✓ « Will GTA 6 Get a Story DLC? GTA 6 DLC Plans, Explained »
-   1/10 ✗ pas une news « Limited-edition: The GTA 6 DualSense PS5 Controller is up at Best Buy  »
-   6/10 ✓ « Florida artist's tattoo designs appear in GTA VI video game »
-   7/10 ✓ « The Strange Backlash Against ‘GTA 6,’ Explained »
-   2/10 ✗ pas une news « Grotti Itali RSX GTA 6 Location – Where to Find It for Randy’s Wishlis »
-   8/10 ✓ « What's on the Hard Drive in GTA 6? GTA 6 Ending Explained »
-   8/10 ✗ déjà publiée « What’s on the Hard Drive in GTA 6? GTA 6 Ending Explained »
-   7/10 ✓ « Where To Find GTA 6's The Last Of Us Easter Egg »
-   6/10 ✓ « GitHub deletes post promoting PS5-to-PC project AnyPS5 days after axin »
-   5/10 ✓ « Michaël Brun Talks Ten Years of BAYO, 'GTA VI,' and His Kodak Black Co »
-   4/10 ✗ trop faible (mini 5) « Anthropic Gets a Blockbuster IPO; Take-Two Gets a Blockbuster GTA VI R »
-   9/10 ✓ « New dad defends playing GTA 6 at hospital while wife is in labor »
-  10/10 ✗ déjà publiée « GTA 6 passes massive sales milestone just 1 week in »
-GAMING · 8 infos retenues, meilleure : « New dad defends playing GTA 6 at hospital while wife is in labor » (9/10)
-  article · 2174 caractères lus
-  photo · 1 image(s) : 1600x900
+   9/10 ✗ déjà publiée « GTA VI Pushes Series To Nearly 1 Trillion YouTube Views With Record Br »
+   8/10 ✗ déjà publiée « Rockstar Developer Explains How Players Should Experience GTA VI  »
+   8/10 ✓ « GTA 6 : physique, PNJ et audio, Rockstar ouvre le capot »
+   8/10 ✓ « Rockstar Explains Why GTA VI Left Some Classic Features Behind »
+   2/10 ✗ pas une news « 'GTA 6' is here, and these are the top 3 TVs I'd play it on »
+   7/10 ✓ « Inside GTA 6 – How Rockstar Made the Game of the Generation »
+   9/10 ✓ « Rockstar va ajouter du contenu dans GTA 6 : la map va s'enrichir »
+   3/10 ✗ pas une news « How To Find The GTA VI Scarface Easter Egg & Unlock A Special Weapon »
+   3/10 ✗ pas une news « How To Find The GTA VI Scarface Easter Egg & Unlock A Special Weapon »
+   2/10 ✗ pas une news « Fastest Motorcycle in GTA 6 – Where to Find the Principe Burnished Alv »
+   6/10 ✓ « Is ‘GTA 6’ Pushing The PS5 & XBOX Series S/X Consoles Beyond Their Lim »
+   5/10 ✓ « Is a version of Anna Paulina Luna in GTA 6? »
+   2/10 ✗ pas une news « Brainwashing Easter egg walkthrough in GTA 6 »
+   1/10 ✗ pas une news « Black Friday GTA 6 : où trouver le jeu phénomène au meilleur prix sur  »
+   6/10 ✓ « Ils ont posé des jours de congés pour faire des braquages en amoureux  »
+   8/10 ✗ déjà publiée « ‘GTA VI’ release has swept PlayStation 5 off the shelves worldwide »
+GAMING · 7 infos retenues, meilleure : « Rockstar Explains Why GTA VI Left Some Classic Features Behind » (8/10)
+  photo · 2 image(s) : 1024x576, 1280x720
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · recherche X « GTA 6 hospital gameplay dad » : rien qui montre vraiment le sujet
-  vidéo · trouvée sur X « hospital dad » (1411 likes) : raped at 15 as a virgin saving herself for marriage, then raped again 
-  vidéo · téléchargée (186 s, 18 Mo)
-  vidéo · 40 images analysées, texte incrusté sur 0
-  couverture · video@2s · zoom 1.0 · propre
-  carrousel prêt : « Il joué à GTA 6 à l'hôpital pendant l'accouchement » (4 slides)
-  voix · contrôle OK (95%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (10.5 s)
-  vidéo · 14 images analysées, texte incrusté sur 0
-  vidéo · temps forts : 7 passages (19s, 31s, 55s, 64s, 95s, 154s, 158s) sur 186 s
-  reel · 12.2 s · 7 plans dont 7 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgQfzssmJ3t/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgQf8KqNTCt/
-  ✅ STORY PUBLIÉE (vidéo)
+  vidéo · trouvée sur X « GTA 6 gameplay Vice City » (5266 likes) : update: 80 hours in. i gave gta 6 one more chance and played every big
+  vidéo · téléchargée (12 s, 1 Mo)
+  vidéo · 11 images analysées, texte incrusté sur 0
+  couverture · photo2 · zoom 1.0 · propre
+  carrousel prêt : « Pourquoi Rockstar a retiré des fonctionnalités dans GTA 6 » (5 slides)
+  voix · contrôle OK (98%, essai 1, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (9.8 s)
+  reel · 11.4 s · 7 plans dont 7 extraits vidéo · voix + musique
+❌ Erreur : MediaRefuse : Only photo or video can be accepted as media type.
 Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
