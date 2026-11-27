@@ -5,9 +5,9 @@ Instagram · @cesttombe.actu (20 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 48 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
-Web · GOOGLE ACTU → HTTP 429
-Web · GOOGLE NEWS → 102 infos
-Web · BING ACTU → 10 infos
+Web · GOOGLE ACTU → 100 infos
+Web · GOOGLE NEWS → 100 infos
+Web · BING ACTU → 11 infos
 Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
@@ -15,54 +15,54 @@ Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
 Web · GAMEKULT → 10 infos
-Web · IGN FRANCE → 21 infos
-Web · JEUXVIDEO.COM → 14 infos
-Web · INSIDER GAMING → 8 infos
+Web · IGN FRANCE → 22 infos
+Web · JEUXVIDEO.COM → 13 infos
+Web · INSIDER GAMING → 9 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 3 gardés
-X · @RockstarGames → 0 tweets lus, 0 gardés (ce mois : 5683 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5693 / 10000)
+X · @RockstarGames → 0 tweets lus, 0 gardés (ce mois : 5701 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5711 / 10000)
+X · « ("GTA 6" OR "GTA VI") filter:native_vide » → 8 tweets lus, 7 gardés (ce mois : 5719 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-183 infos fraîches et jamais traitées (sur 382 lues)
+266 infos fraîches et jamais traitées (sur 489 lues)
+   6/10 ✓ « NEW GTA Online Event Week is LIVE!  »
+   5/10 ✗ déjà publiée « Rockstar Developer Explains How Players Should Experience GTA VI  »
    6/10 ✓ « GTA VI x GTA+ Screenshots Gallery 📸 »
-   7/10 ✗ déjà publiée « We got GTA VI Multiplayer by a fan before GTA VI Online or PC by Rocks »
-   8/10 ✗ déjà publiée « GTA VI Developers Vote Against Unionization Following Battle With Rock »
-   5/10 ✓ « NEW GTA Online Event Week is LIVE! »
-   8/10 ✗ déjà publiée « GTA VI Causes Console Sales Surge, Physical Copies Dominate UK Charts! »
-   0/10 ✗ pas une news « GTA VI PlayStation 5 »
-   5/10 ✓ « Was GTA VI’s biggest entertainment launch of all time good news for Ta »
-   4/10 ✗ trop faible (mini 5) « A resurgent 'Hunger Games' goes big at the box office, despite competi »
-   0/10 ✗ pas une news « The best vehicles for every situation in GTA 6 »
-   7/10 ✗ déjà publiée « Unofficial port of GTA VI delivered 12 FPS on PC with Ryzen 5 4500 and »
-   0/10 ✗ pas une news « Sneakthief Trophy & Achievement Walkthrough in GTA 6—How to Rob Stores »
-   0/10 ✗ pas une news « Sneakthief Trophy & Achievement Walkthrough in GTA 6—How to Rob Stores »
-   0/10 ✗ pas une news « Where to find the Buckingham Jubilee in GTA 6 »
-   0/10 ✗ pas une news « GTA 6 deals deliver this Black Friday with up to £15 off the game and  »
-   6/10 ✓ « Fresh Look Gives Thanks for the Wonderfully Detailed World of GTA VI »
-   7/10 ✓ « Danny Dyer makes surprise cameo in GTA 6 – but not all fans will find  »
-   6/10 ✓ « Jason pourrait bien avoir un passif avec Mandy dans GTA 6 finalement »
-   7/10 ✓ « GTA 6 will run more stably on PCs with 32GB of RAM thanks to new Victo »
-   8/10 ✗ déjà publiée « GTA 6 Sends PS5 and Xbox Series X|S Sales Soaring in the US »
-   9/10 ✓ « GTA VI Pushes Series To Nearly 1 Trillion YouTube Views With Record Br »
-   6/10 ✗ trop faible (mini 9) « CoD HQ Daily Users Crash 41%: 7.5M to 4.4M »
-GAMING · 8 infos retenues, meilleure : « GTA VI Pushes Series To Nearly 1 Trillion YouTube Views With Record Breaking Lau » (9/10)
-  article · rockstarintel.com
-  article · 2416 caractères lus
-  photo · 1 image(s) : 1280x720
-  contexte · 1 complément(s) : ROCKSTAR INTEL
+   6/10 ✗ déjà publiée « We got GTA VI Multiplayer by a fan before GTA VI Online or PC by Rocks »
+   7/10 ✗ déjà publiée « GTA VI Developers Vote Against Unionization Following Battle With Rock »
+   6/10 ✗ déjà publiée « NEW GTA Online Event Week is LIVE! »
+   4/10 ✗ trop faible (mini 5) « THIS IS INSANE!!! 😳🤯 »
+   7/10 ✓ « There is a GIANT Cave system underground in GTA 6! »
+   3/10 ✗ pas une news « como se siente invitar a tus colegas sin PS5 a tu casa para que pruebe »
+   8/10 ✓ « GTA 6 has officially launched—and it has a feature the series has neve »
+   8/10 ✓ « GTA 6 VS Zelda Ocarina of Time : la guerre absurde du review-bombing é »
+   2/10 ✗ pas une news « Avoid the bad GTA 6 Black Friday deals – use this price hack instead »
+   4/10 ✗ pas une news « How to unlock Hurricanes in GTA 6 »
+   7/10 ✓ « GTA 6 fait exploser la demande de PS5 et Xbox Series sur Leboncoin (et »
+   5/10 ✗ pas une news « GTA 6's pirate PC ports: new tools, old problem | Opinion »
+   3/10 ✗ pas une news « If you're not using Auto Drive and Cinematic Camera in GTA 6, you're m »
+   7/10 ✓ « Justice et GTA VI réunis à Paris pour une soirée exclusive »
+   4/10 ✗ pas une news « Et si GTA 6 avait ravivé la nostalgie des soirées de lancement des ann »
+   8/10 ✓ « GTA 6 affole le marché du hardware : les ventes de manettes PS5 explos »
+   7/10 ✓ « GTA 6 : la bande originale du jeu vidéo numéro un des ventes en France »
+   6/10 ✗ trop faible (mini 9) « Dans les magasins de Lisieux, la console PS5 est en rupture de stock à »
+GAMING · 9 infos retenues, meilleure : « GTA 6 has officially launched—and it has a feature the series has never seen bef » (8/10)
+  photo · échec : image trop petite (400x400)
+  photo · échec : image trop petite (200x200)
+  photo · 1 image(s) : 1200x675
+  contexte · 1 complément(s) : GAMESRADAR
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · trouvée sur X « GTA 6 YouTube trailer launch views » (557 likes) : if you've ever wondered why like 80% of gta 6 content on youtube looks
-  vidéo · téléchargée (33 s, 3 Mo)
-  vidéo · 33 images analysées, texte incrusté sur 33
-  couverture · photo1 · zoom 1.25 · propre
-  carrousel prêt : « GTA 6 explose les records sur YouTube » (4 slides)
-  voix · contrôle OK (99%, essai 1, gemini-3.1-flash-tts-preview)
-  voix · Gemini (Aoede) (11.2 s)
-  voix · 11.2 s → accélérée ×1.02 (11.0 s)
-  vidéo · 14 images analysées, texte incrusté sur 14
-  vidéo · temps forts : 7 passages (4s, 7s, 14s, 17s, 20s, 24s, 28s) sur 33 s
-  reel · 12.6 s · 8 plans dont 8 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgP2n4VkWc6/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgP2pjgyKGn/
+  vidéo · échec : vidéo trop lourde
+  vidéo · téléchargée (1013 s, 48 Mo)
+  vidéo · 40 images analysées, texte incrusté sur 11
+  couverture · photo1 · zoom 1.0 · propre
+  carrousel prêt : « GTA 6 lance une nouveauté avec des mécaniques d'empathie » (4 slides)
+  voix · contrôle OK (99%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (8.4 s)
+  vidéo · 12 images analysées, texte incrusté sur 3
+  vidéo · temps forts : 6 passages (86s, 117s, 188s, 245s, 596s, 758s) sur 1013 s
+  reel · 10.1 s · 6 plans dont 6 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgP9ZdjI1gJ/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgP9bzzRO92/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
+Gemini : gemini-flash-lite-latest : surchargé (HTTP 503) · gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
