@@ -6,9 +6,9 @@ Instagram · posts publiés par l'API sur 24 h : 48 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 100 infos
-Web · GOOGLE NEWS → 100 infos
-Web · BING ACTU → 12 infos
-Web · BING ACTU VI → 12 infos
+Web · GOOGLE NEWS → 102 infos
+Web · BING ACTU → 11 infos
+Web · BING ACTU VI → 2 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
@@ -17,51 +17,50 @@ Web · GTABASE → 30 infos
 Web · GAMEKULT → 11 infos
 Web · IGN FRANCE → 23 infos
 Web · JEUXVIDEO.COM → 16 infos
-Web · INSIDER GAMING → 9 infos
+Web · INSIDER GAMING → 8 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 3 gardés
-X · @RockstarGames → 0 tweets lus, 0 gardés (ce mois : 5754 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5764 / 10000)
+X · @RockstarGames → 0 tweets lus, 0 gardés (ce mois : 5772 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5782 / 10000)
+X · « ("GTA 6" OR "GTA VI") filter:native_vide » → 8 tweets lus, 7 gardés (ce mois : 5790 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-288 infos fraîches et jamais traitées (sur 488 lues)
-   7/10 ✓ « We got GTA VI Multiplayer by a fan before GTA VI Online or PC by Rocks »
+288 infos fraîches et jamais traitées (sur 485 lues)
+   6/10 ✓ « GTA VI x GTA+ Screenshots Gallery 📸  »
    9/10 ✗ déjà publiée « GTA VI Hits 53 Million Copies Sold in Just 1 Week, Generating $4.7 Bil »
-   7/10 ✗ déjà publiée « GTA VI Features a Previously Unreleased Song From D’Angelo  »
+   8/10 ✗ déjà publiée « GTA VI Features a Previously Unreleased Song From D’Angelo  »
    8/10 ✗ déjà publiée « GTA VI Causes Console Sales Surge, Physical Copies Dominate UK Charts! »
-   8/10 ✗ déjà publiée « GTA VI Pushes Series To Nearly 1 Trillion YouTube Views With Record Br »
-   7/10 ✗ déjà publiée « Rockstar Developer Explains How Players Should Experience GTA VI  »
-   7/10 ✗ déjà publiée « We got GTA VI Multiplayer by a fan before GTA VI Online or PC by Rocks »
-   6/10 ✓ « Une IA a-t-elle réussi à finir GTA VI en seulement 12 heures »
-   1/10 ✗ pas une news « Where to Buy Masks in GTA 6 – All Shop Locations »
-   6/10 ✓ « Grand Theft Auto VI soundtrack opens with almost 35,000 sales as multi »
-   5/10 ✓ « GTA VI's record launch strengthens the case for human-made games, says »
-   6/10 ✓ « Certains joueurs jettent Lucia et transforment GTA 6 en simulateur de  »
-   8/10 ✓ « All the ‘GTA 6’ Celebrity Cameos: Jeremy Irons, Janelle James, John Le »
-   7/10 ✓ « Game Developers Say GTA VI Looks Like Something From the Future »
-   2/10 ✗ pas une news « GTA VI est là (pas encore sur PC), mais quelle évolution depuis le pre »
-   6/10 ✓ « GTA VI Is Already Bringing More Tourists to Miami »
-   5/10 ✓ « GTA 6 Phishing Surge Puts Corporate Credentials at Risk »
-   8/10 ✗ déjà publiée « GTA 6 Lucia actor "dedicated almost a decade" to bringing Rockstar's n »
-   6/10 ✓ « VIDEO. Saint-Malo, Brest et Penmarc'h dans GTA 6 : ces clins d'œil à l »
-   7/10 ✓ « Grand Theft Auto VI become a Spotify top 10 Artist whilst dominating t »
-   7/10 ✗ trop faible (mini 9) « Hollow Knight: Silksong : Team Cherry dévoile la date de sortie du DLC »
-   3/10 ✗ pas une news « EA Sports FC 27 dévoile la deuxième équipe Thunderstruck »
-GAMING · 11 infos retenues, meilleure : « We got GTA VI Multiplayer by a fan before GTA VI Online or PC by Rockstar  » (7/10)
+   9/10 ✗ déjà publiée « GTA VI Pushes Series To Nearly 1 Trillion YouTube Views With Record Br »
+   8/10 ✗ déjà publiée « Rockstar Developer Explains How Players Should Experience GTA VI  »
+   8/10 ✗ déjà publiée « We got GTA VI Multiplayer by a fan before GTA VI Online or PC by Rocks »
+   2/10 ✗ pas une news « Nobody told me that GTA 6 was the 100% service connected VA disability »
+   3/10 ✗ pas une news « Este dominicano vive en un pueblo alejado de la ciudad donde no tiene  »
+   4/10 ✗ pas une news « eu estava caçando no GTA VI e assim que eu abati um animal eu apertei  »
+   3/10 ✗ pas une news « SECRET $100,000 GOLDEN BILL IN GTA 6! »
+   7/10 ✓ « New dad defends playing GTA 6 at hospital while wife is in labor »
+   8/10 ✗ déjà publiée « ‘GTA VI’ release has swept PlayStation 5 off the shelves worldwide »
+   6/10 ✓ « Carly Rae Jepsen Says She’s ‘Really Enjoying’ Viral Moment Following ‘ »
+   8/10 ✗ déjà publiée « We Got GTA 6 Online Before GTA 6 Online »
+   4/10 ✗ pas une news « GTA 6 Players Are Not, In Fact, Eating Good »
+   5/10 ✓ « GTA VI reportedly runs on Macs. The frames are taking their time. »
+   4/10 ✗ pas une news « 'GTA 6' Fans Are Pulling Off Perfect Robberies With Only A Six Pack of »
+   7/10 ✓ « La version 2.2.0 du portage non officiel de GTA VI a réduit les problè »
+   7/10 ✗ déjà publiée « Version 2.2.0 of the unofficial GTA VI port has reduced frame rate lag »
+GAMING · 5 infos retenues, meilleure : « GTA VI x GTA+ Screenshots Gallery 📸  » (6/10)
   photo · échec : image trop petite (48x48)
   photo · 1 image(s) : 1200x675
-  contexte · 3 complément(s) : @ROCKSTARINTEL, ROCKSTAR INTEL
+  contexte · 1 complément(s) : @ROCKSTARINTEL
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · trouvée sur X « GTA 6 PC mod multiplayer » (2246 likes) : we already have a mod menu on the gta 6 pc port lmao https://t.co/9aex
-  vidéo · téléchargée (24 s, 5 Mo)
-  vidéo · 24 images analysées, texte incrusté sur 24
-  couverture · photo1 · zoom 1.0 · propre
-  carrousel prêt : « Du multijoueur sur GTA VI par un fan » (4 slides)
-  voix · contrôle OK (98%, essai 1, gemini-3.1-flash-tts-preview)
-  voix · Gemini (Aoede) (8.6 s)
-  vidéo · 12 images analysées, texte incrusté sur 12
-  vidéo · temps forts : 6 passages (3s, 6s, 8s, 10s, 18s, 20s) sur 24 s
-  reel · 10.2 s · 6 plans dont 6 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgQR8-SGi-0/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgQR_U7htAR/
+  vidéo · recherche X « GTA VI GTA+ screenshots 4K » : rien qui montre vraiment le sujet
+  vidéo · recherche X « GTA+ screenshots » : rien qui montre vraiment le sujet
+  vidéo · trouvée sur X « GTA 6 gameplay » (16646 likes) : cellbit tendo uma gameplay normal de gta 6 é tipo: https://t.co/a7sa0l
+  vidéo · téléchargée (14 s, 2 Mo)
+  vidéo · 14 images analysées, texte incrusté sur 3
+  couverture · video@12s · zoom 1.0 · propre
+  carrousel prêt : « Galerie d'images GTA VI x GTA+ en 4K » (3 slides)
+  voix · contrôle OK (100%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (7.9 s)
+  reel · 9.5 s · 6 plans dont 6 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgQY1vgjXwm/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgQY3-phZGy/
   ✅ STORY PUBLIÉE (vidéo)
-Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
+Gemini : gemini-flash-lite-latest : réponse en 1 s · gemini-flash-lite-latest : réponse en 2 s

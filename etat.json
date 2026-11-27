@@ -1269,7 +1269,14 @@
   "web:google actu:CBMiuAFBVV95cUxPYUt3TER0U241OG9PM2p3TnNXWTZOdENDYjJHUkRIRGRRUUdreVd2T09aWVp1cHU1NldZbXlYM2d1Q0xsYlVxRVJvZkJtQlpuYlp3UnUzU2tVSk1iNWtZcXlkVUR2N2JJZnV3VUF4aUR6OWFueXBUMjk3aVc5RHdjS0o5VFZpTnBDSG9IeVJrTm0tOWtCRFluZXZUNlMtM0J6QU1JT0JpT2cwVElSUVlyZ21GakJNRmVC": "2026-11-27T18:01:43.102702+00:00",
   "ag:https://www.actugaming.net/?p=836609": "2026-11-27T18:01:43.102702+00:00",
   "ag:https://www.actugaming.net/?p=836625": "2026-11-27T18:01:43.102702+00:00",
-  "x:2126375752711221532": "2026-11-27T18:01:43.102702+00:00"
+  "x:2126375752711221532": "2026-11-27T18:01:43.102702+00:00",
+  "x:2125615205384077649": "2026-11-27T19:01:47.320480+00:00",
+  "x:2125960838905221600": "2026-11-27T19:01:47.320480+00:00",
+  "x:2125918341311181265": "2026-11-27T19:01:47.320480+00:00",
+  "x:2126339326027907295": "2026-11-27T19:01:47.320480+00:00",
+  "web:google news:CBMiW0FVX3lxTE05V0l0QnBkOEtFeWs1ak0yMUQ1SjRTdHJfQmlsMWxiSzZ0MzdDOFd0eVVkd1EyLVZ1djNGYzN6dWU3bzRGeFFpUDZ1cVA0RUhHYXNRTGdTM2dRMUE": "2026-11-27T19:01:47.320480+00:00",
+  "web:google news:CBMijwFBVV95cUxNVFNqWGgzWGZZV2xmQTZOVlE1bDAtV3RNYlRKNHM0Wko1cThxOWhNbVFmd0NlMW5aZC1NZ1NfeTBBdW1SVGZvMS1jQzZuNk1USEpqMWVCU2gxRDhKMFpvRkhlQjhiSXNwbERSNmpVbTJWbmpHMFdaUXJSdW1Xc0U5MVMxcl9SZjQ2NmY2SmxVbw": "2026-11-27T19:01:47.320480+00:00",
+  "x:2126390852339617927": "2026-11-27T19:01:47.320480+00:00"
  },
  "publies": [
   {
@@ -3272,13 +3279,22 @@
    "lien": "https://www.instagram.com/p/DgQR8-SGi-0/",
    "reel": "https://www.instagram.com/reel/DgQR_U7htAR/",
    "story": "18352672474255172"
+  },
+  {
+   "ts": "2026-11-27T19:01:47.320480+00:00",
+   "categorie": "GAMING",
+   "titre": "Galerie d'images GTA VI x GTA+ en 4K",
+   "source_id": "x:2126390852339617927",
+   "lien": "https://www.instagram.com/p/DgQY1vgjXwm/",
+   "reel": "https://www.instagram.com/reel/DgQY3-phZGy/",
+   "story": "18134404477823378"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 5772
+  "tweets": 5812
  },
  "x_recherches": {
-  "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-27T15:02:11.872713+00:00"
+  "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-27T19:02:20.023204+00:00"
  }
 }
