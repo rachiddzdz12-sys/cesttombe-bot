@@ -1,10 +1,5 @@
 {
  "vus": {
-  "ag:https://www.actugaming.net/?p=833462": "2026-11-13T18:01:55.029145+00:00",
-  "ag:https://www.actugaming.net/?p=833434": "2026-11-13T18:01:55.029145+00:00",
-  "ag:https://www.actugaming.net/?p=833393": "2026-11-13T18:01:55.029145+00:00",
-  "ag:https://www.actugaming.net/?p=833412": "2026-11-13T18:01:55.029145+00:00",
-  "ag:https://www.actugaming.net/?p=833420": "2026-11-13T18:01:55.029145+00:00",
   "ig:18099241691132341": "2026-11-13T20:31:38.513881+00:00",
   "ig:18426604420157312": "2026-11-13T20:31:38.513881+00:00",
   "ig:18137215744587405": "2026-11-13T20:31:38.513881+00:00",
@@ -1269,7 +1264,12 @@
   "web:google actu:CBMiX0FVX3lxTE40cmZNSDJDMmlTbWNTRWZTRHcxWEZYdkRlUDlHS2gxeHhPeHFnX2dfQ1lwd0tEaC1LOGV4TkE4Z3JkVUxHb24xemh6dDVtZ1dVVjRBcy10Z25RWkVqbExn": "2026-11-27T17:01:44.316129+00:00",
   "web:gamesradar:a6AaqbXCgPM2p9qCqAmXt8": "2026-11-27T17:01:44.316129+00:00",
   "web:google actu:CBMirgFBVV95cUxNM2otWjI5bWV2RE13M2d3c0lmOGM1X0pGUVhMaERvNmVzeTFRQkNSbWlwZHpRX3hhTTJfeWZMT3NyMjdMdkQ4THp1VlFnR0dDRkN5WUpDS2pXbmRHOEl0bjRIMVpULXFOSXVvVVd6MkpfODM4ZThsREwwOUs1RjFZS055b3k4eE9NUFlBbEhvN21fSTdzaDdNa09KeDhTM2kyZmFKQTBZVmZkWTRjRlE": "2026-11-27T17:01:44.316129+00:00",
-  "web:google news:CBMieEFVX3lxTE5yWGdSNzdSZE9xNmFIaVdHVE1xLTdhTmhaUnhWc3J2aHhnU1FkeEVCNU8tdkNMeXdlUlNiYXhZM0lrbzJCT0FUa3k5Q0VWNS1QbUQxckFzQjJLZ2pLYXFPdXhBRXhsS0M2Y2dCOGRHWFQ0TFBWNmE1Vw": "2026-11-27T17:01:44.316129+00:00"
+  "web:google news:CBMieEFVX3lxTE5yWGdSNzdSZE9xNmFIaVdHVE1xLTdhTmhaUnhWc3J2aHhnU1FkeEVCNU8tdkNMeXdlUlNiYXhZM0lrbzJCT0FUa3k5Q0VWNS1QbUQxckFzQjJLZ2pLYXFPdXhBRXhsS0M2Y2dCOGRHWFQ0TFBWNmE1Vw": "2026-11-27T17:01:44.316129+00:00",
+  "web:google news:CBMiaEFVX3lxTE9HM2FrQ0xPdHk3S1dCa1ZhT2FLcDhESlN4cDRUSl9WamxHekNGZF80Z2tXS0ZoNWQ0TF9fdVVpMTlYS0ZxQzFFMGktYUJ6ZjRSTF9ycWZGNXJxOGRNUUJKVXhWRF9TNXB5": "2026-11-27T18:01:43.102702+00:00",
+  "web:google actu:CBMiuAFBVV95cUxPYUt3TER0U241OG9PM2p3TnNXWTZOdENDYjJHUkRIRGRRUUdreVd2T09aWVp1cHU1NldZbXlYM2d1Q0xsYlVxRVJvZkJtQlpuYlp3UnUzU2tVSk1iNWtZcXlkVUR2N2JJZnV3VUF4aUR6OWFueXBUMjk3aVc5RHdjS0o5VFZpTnBDSG9IeVJrTm0tOWtCRFluZXZUNlMtM0J6QU1JT0JpT2cwVElSUVlyZ21GakJNRmVC": "2026-11-27T18:01:43.102702+00:00",
+  "ag:https://www.actugaming.net/?p=836609": "2026-11-27T18:01:43.102702+00:00",
+  "ag:https://www.actugaming.net/?p=836625": "2026-11-27T18:01:43.102702+00:00",
+  "x:2126375752711221532": "2026-11-27T18:01:43.102702+00:00"
  },
  "publies": [
   {
@@ -3263,11 +3263,20 @@
    "lien": "https://www.instagram.com/p/DgQLOXODaMI/",
    "reel": "https://www.instagram.com/reel/DgQLQhrhBS1/",
    "story": "18109038973996667"
+  },
+  {
+   "ts": "2026-11-27T18:01:43.102702+00:00",
+   "categorie": "GAMING",
+   "titre": "Du multijoueur sur GTA VI par un fan",
+   "source_id": "x:2126375752711221532",
+   "lien": "https://www.instagram.com/p/DgQR8-SGi-0/",
+   "reel": "https://www.instagram.com/reel/DgQR_U7htAR/",
+   "story": "18352672474255172"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 5754
+  "tweets": 5772
  },
  "x_recherches": {
   "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-27T15:02:11.872713+00:00"

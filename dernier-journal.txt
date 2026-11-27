@@ -1,12 +1,12 @@
 Mode : auto
 Meta · token valide (utilisateur : cesttombe-bot)
 Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
-Instagram · @cesttombe.actu (20 abonnés)
+Instagram · @cesttombe.actu (19 abonnés)
 Instagram · posts publiés par l'API sur 24 h : 48 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 100 infos
-Web · GOOGLE NEWS → 102 infos
+Web · GOOGLE NEWS → 100 infos
 Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
@@ -14,54 +14,54 @@ Web · DEXERTO → 50 infos
 Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
-Web · GAMEKULT → 10 infos
+Web · GAMEKULT → 11 infos
 Web · IGN FRANCE → 23 infos
-Web · JEUXVIDEO.COM → 15 infos
+Web · JEUXVIDEO.COM → 16 infos
 Web · INSIDER GAMING → 9 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 3 gardés
-X · @RockstarGames → 0 tweets lus, 0 gardés (ce mois : 5736 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5746 / 10000)
+X · @RockstarGames → 0 tweets lus, 0 gardés (ce mois : 5754 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5764 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-274 infos fraîches et jamais traitées (sur 488 lues)
-   6/10 ✗ déjà publiée « GTA VI Features a Previously Unreleased Song From D’Angelo  »
-   7/10 ✗ déjà publiée « GTA VI Causes Console Sales Surge, Physical Copies Dominate UK Charts! »
+288 infos fraîches et jamais traitées (sur 488 lues)
+   7/10 ✓ « We got GTA VI Multiplayer by a fan before GTA VI Online or PC by Rocks »
+   9/10 ✗ déjà publiée « GTA VI Hits 53 Million Copies Sold in Just 1 Week, Generating $4.7 Bil »
+   7/10 ✗ déjà publiée « GTA VI Features a Previously Unreleased Song From D’Angelo  »
+   8/10 ✗ déjà publiée « GTA VI Causes Console Sales Surge, Physical Copies Dominate UK Charts! »
    8/10 ✗ déjà publiée « GTA VI Pushes Series To Nearly 1 Trillion YouTube Views With Record Br »
    7/10 ✗ déjà publiée « Rockstar Developer Explains How Players Should Experience GTA VI  »
-   3/10 ✗ pas une news « GTA VI x GTA+ Screenshots Gallery 📸 »
    7/10 ✗ déjà publiée « We got GTA VI Multiplayer by a fan before GTA VI Online or PC by Rocks »
-   1/10 ✗ pas une news « « Certains attendaient GTA VI, nous, on attendait Solutions4Good » : d »
-   2/10 ✗ pas une news « 6 essential GTA 6 car mods you should pay for to make racing and heist »
-   4/10 ✗ pas une news « Quelle est la musique de la pub GTA 6 ? »
-   3/10 ✗ pas une news « Our favorite GTA 6 outfits and where to find them »
-   6/10 ✓ « How GTA 6's Graphics Evolved from Pre-Release Trailers to the Final Ga »
-   6/10 ✗ déjà publiée « GTA VI memorial honors developers’ late family members, RockstarINTEL  »
-   5/10 ✓ « Cal Thomas: The poison of Grand Theft Auto VI »
-   7/10 ✓ « Ex-Rockstar dev says GTA 6 looks "almost flawless" but loses to Red De »
-   0/10 ✗ pas une news « Yago GTA 6 : Quel choix faire, comment finir ses missions secondaires  »
-   8/10 ✓ « One week on, here's the impact GTA 6's launch had on the industry so f »
-   7/10 ✗ déjà publiée « Cocorico ! Les fans de GTA 6 ont retrouvé le vrai Jason Duval - et il  »
-   7/10 ✗ déjà publiée « Cocorico ! Les fans de GTA 6 ont retrouvé le vrai Jason Duval - et il  »
-   5/10 ✓ « GT-Caliber: Claude Agents Built GTA 6 Basics in 7 Days »
-   9/10 ✓ « GTA 6 Sales Hit 53 Million, Becoming 13th Best-Selling Game »
-GAMING · 6 infos retenues, meilleure : « GTA 6 Sales Hit 53 Million, Becoming 13th Best-Selling Game » (9/10)
-  article · wolfsgamingblog.com
-  article · 1577 caractères lus
-  photo · 1 image(s) : 1199x675
-  contexte · 1 complément(s) : ROCKSTAR INTEL
+   6/10 ✓ « Une IA a-t-elle réussi à finir GTA VI en seulement 12 heures »
+   1/10 ✗ pas une news « Where to Buy Masks in GTA 6 – All Shop Locations »
+   6/10 ✓ « Grand Theft Auto VI soundtrack opens with almost 35,000 sales as multi »
+   5/10 ✓ « GTA VI's record launch strengthens the case for human-made games, says »
+   6/10 ✓ « Certains joueurs jettent Lucia et transforment GTA 6 en simulateur de  »
+   8/10 ✓ « All the ‘GTA 6’ Celebrity Cameos: Jeremy Irons, Janelle James, John Le »
+   7/10 ✓ « Game Developers Say GTA VI Looks Like Something From the Future »
+   2/10 ✗ pas une news « GTA VI est là (pas encore sur PC), mais quelle évolution depuis le pre »
+   6/10 ✓ « GTA VI Is Already Bringing More Tourists to Miami »
+   5/10 ✓ « GTA 6 Phishing Surge Puts Corporate Credentials at Risk »
+   8/10 ✗ déjà publiée « GTA 6 Lucia actor "dedicated almost a decade" to bringing Rockstar's n »
+   6/10 ✓ « VIDEO. Saint-Malo, Brest et Penmarc'h dans GTA 6 : ces clins d'œil à l »
+   7/10 ✓ « Grand Theft Auto VI become a Spotify top 10 Artist whilst dominating t »
+   7/10 ✗ trop faible (mini 9) « Hollow Knight: Silksong : Team Cherry dévoile la date de sortie du DLC »
+   3/10 ✗ pas une news « EA Sports FC 27 dévoile la deuxième équipe Thunderstruck »
+GAMING · 11 infos retenues, meilleure : « We got GTA VI Multiplayer by a fan before GTA VI Online or PC by Rockstar  » (7/10)
+  photo · échec : image trop petite (48x48)
+  photo · 1 image(s) : 1200x675
+  contexte · 3 complément(s) : @ROCKSTARINTEL, ROCKSTAR INTEL
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · recherche « GTA 6 gameplay trailer » trop vague : pas de vidéo
-  vidéo · trouvée sur X « GTA 6 gameplay » (53468 likes) : gta 6 players are deliberately leaving lucia behind bars for up to 30 
-  vidéo · téléchargée (159 s, 13 Mo)
-  vidéo · 40 images analysées, texte incrusté sur 37
-  couverture · video@133s · zoom 1.25 · propre
-  carrousel prêt : « GTA 6 atteint 53 millions de ventes et 4,7 milliards » (4 slides)
-  voix · contrôle OK (99%, essai 1, gemini-3.1-flash-tts-preview)
-  voix · Gemini (Aoede) (9.8 s)
-  vidéo · 14 images analysées, texte incrusté sur 12
-  vidéo · temps forts : 7 passages (16s, 22s, 54s, 58s, 80s, 111s, 153s) sur 159 s
-  reel · 11.5 s · 7 plans dont 7 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgQLOXODaMI/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgQLQhrhBS1/
+  vidéo · trouvée sur X « GTA 6 PC mod multiplayer » (2246 likes) : we already have a mod menu on the gta 6 pc port lmao https://t.co/9aex
+  vidéo · téléchargée (24 s, 5 Mo)
+  vidéo · 24 images analysées, texte incrusté sur 24
+  couverture · photo1 · zoom 1.0 · propre
+  carrousel prêt : « Du multijoueur sur GTA VI par un fan » (4 slides)
+  voix · contrôle OK (98%, essai 1, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (8.6 s)
+  vidéo · 12 images analysées, texte incrusté sur 12
+  vidéo · temps forts : 6 passages (3s, 6s, 8s, 10s, 18s, 20s) sur 24 s
+  reel · 10.2 s · 6 plans dont 6 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgQR8-SGi-0/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgQR_U7htAR/
   ✅ STORY PUBLIÉE (vidéo)
 Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
