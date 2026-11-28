@@ -1284,7 +1284,14 @@
   "web:google news:CBMibEFVX3lxTE5nOEVISVFzWkx6UkF3dGhKYjZndXZCR0o2WlRRSHFnMDdaaGlYdUFOUG9zMlc0UlVnZ01yU0JSWjJPYXowSTFpc2ZzNnE4MXNjSmFJNHBRWXJ4LW5MOThaNzU1blh6RVZ3dG5GRA": "2026-11-27T21:01:39.343184+00:00",
   "web:google news:CBMiggFBVV95cUxPVVdsYkFfVFR2cXFHNE5ZQU5jdXM5b0p3UWl1YXpvbVd1bDMyZkZERlozLVZaUUx4YkQwZjE4UzYzTkN6MFR0NGpWU19iWnRVR1k0UW9rSnZjWFdzMkxHeUN2NDE3VFBiNFN2aTVWRGhNNWpZVVhlUWQyLTVHVFZUY2ln": "2026-11-27T21:01:39.343184+00:00",
   "web:google actu:CBMisgFBVV95cUxQVmpua1ZwdEJrd25ZNWcwdlJNUUZMQkxFN0c3SF93WVZ1T3I3bFU1SzFPQnVwTy00MnpEOU8tZ3J1dmloQUp3YnpxWG4xaHBTVjV2b1dOOGM5VnpXZjMtODF0MnZ3dENic1I3N0tlT0ZLWG5BR3oyWndzako1c2R5OEptck1vVkl4Qk9naFJOMlZGaW9LTVVGNi1tWGQ4Z0FhTjc0RExNRGdZdnotR1Zkdzd3": "2026-11-27T21:01:39.343184+00:00",
-  "web:rockstar intel:https://rockstarintel.com/?p=45094": "2026-11-27T21:01:39.343184+00:00"
+  "web:rockstar intel:https://rockstarintel.com/?p=45094": "2026-11-27T21:01:39.343184+00:00",
+  "x:2126180493934923918": "2026-11-28T06:01:34.214660+00:00",
+  "x:2125981633841070516": "2026-11-28T06:01:34.214660+00:00",
+  "x:2126066377253412980": "2026-11-28T06:01:34.214660+00:00",
+  "web:google news:CBMic0FVX3lxTE5kTlNEUTM3QmMzRUNnV2lRT1oydlp6SEY2dHU3RDd6UnNGQ1JKZlVza012eFo2VXNUb1o0NmlJU1RDbmMya3Q2WXZKcXlYZFFoM3lpTlBMd216UVpDWklIZTI1TERBcFVvcURuRXV3Y3pmRXM": "2026-11-28T06:01:34.214660+00:00",
+  "web:google news:CBMic0FVX3lxTE5aanVCeEZkS0JyMFFpSUR1OWFscXJYVnRVLUlfYmZnTkVOUlhsU1JTRDlBSE9vTkFGMXlWODUyUDJoeWVPNlkwY0hKMkcwTDlmUi1Rc1l1c3R0T2txT1FqTmU4R1hzTFZoMzd2Ti1yVzdpaU0": "2026-11-28T06:01:34.214660+00:00",
+  "web:google news:CBMihgFBVV95cUxQQjE0LXdjdVFQNms3X0ZDME9ULV9qR213d1RlQzl4RlE1VThVTG5xdHM4S0FXS3pTMVl4M0tUM2JBLThqeFVUMzF2QUtBcEZ6ODQ2UlY1MTBxdzNkRHJqcVJsX3BPeHhCMHlwSC1kZEZXX0lSajZuTFh0LVJQRGliUXpsM0didw": "2026-11-28T06:01:34.214660+00:00",
+  "web:google news:CBMiigFBVV95cUxNRjNwQl9QRFRma2ZFY0xXOWJEaHlxNVdZbjR4SGpHcXIwZWlWNnR4cFhfNFNJUzhrbTBUUm8xci1heWFBS0tRbVhzZHVVRWZOWS1KZFl3YWJsMi1sZ2g1Vm5qLVR3RDlSVGlfcVhqZnpIdGpobS05NkRVQVAxaTJ2Z2kwUlFLTGg2UGc": "2026-11-28T06:01:34.214660+00:00"
  },
  "publies": [
   {
@@ -3312,13 +3319,22 @@
    "titre": "Pourquoi Rockstar a retiré des fonctionnalités dans GTA 6",
    "source_id": "web:rockstar intel:https://rockstarintel.com/?p=45094",
    "lien": null
+  },
+  {
+   "ts": "2026-11-28T06:01:34.214660+00:00",
+   "categorie": "GAMING",
+   "titre": "Un directeur de Naughty Dog comparé GTA 6 à une Bugatti",
+   "source_id": "web:google news:CBMiigFBVV95cUxNRjNwQl9QRFRma2ZFY0xXOWJEaHlxNVdZbjR4SGpHcXIwZWlWNnR4cFhfNFNJUzhrbTBUUm8xci1heWFBS0tRbVhzZHVVRWZOWS1KZFl3YWJsMi1sZ2g1Vm5qLVR3RDlSVGlfcVhqZnpIdGpobS05NkRVQVAxaTJ2Z2kwUlFLTGg2UGc",
+   "lien": "https://www.instagram.com/p/DgRkbXjjXnW/",
+   "reel": "https://www.instagram.com/reel/DgRkeu-R_Lg/",
+   "story": "18171832948482716"
   }
  ],
  "x_mois": {
   "mois": "2026-11",
-  "tweets": 5848
+  "tweets": 5890
  },
  "x_recherches": {
-  "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-27T19:02:20.023204+00:00"
+  "(\"GTA 6\" OR \"GTA VI\") filter:native_video min_faves:5000": "2026-11-28T06:01:55.917674+00:00"
  }
 }
