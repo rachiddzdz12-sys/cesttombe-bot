@@ -6,8 +6,8 @@ Instagram · posts publiés par l'API sur 24 h : 45 / 100
 Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 100 infos
-Web · GOOGLE NEWS → HTTP 429
-Web · BING ACTU → 12 infos
+Web · GOOGLE NEWS → 100 infos
+Web · BING ACTU → 11 infos
 Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
@@ -15,58 +15,55 @@ Web · GTA BOOM → 30 infos
 Web · GAMESRADAR → 50 infos
 Web · GTABASE → 30 infos
 Web · GAMEKULT → 12 infos
-Web · IGN FRANCE → 23 infos
-Web · JEUXVIDEO.COM → 16 infos
+Web · IGN FRANCE → 24 infos
+Web · JEUXVIDEO.COM → 17 infos
 Web · INSIDER GAMING → 5 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 2 gardés
-X · @RockstarGames → 0 tweets lus, 0 gardés (ce mois : 5976 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5986 / 10000)
+X · @RockstarGames → 0 tweets lus, 0 gardés (ce mois : 5990 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 6000 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-160 infos fraîches et jamais traitées (sur 384 lues)
-   9/10 ✗ déjà publiée « GTA VI Pushes Series To Nearly 1 Trillion YouTube Views With Record Br »
-  10/10 ✗ déjà publiée « GTA VI Hits 53 Million Copies Sold in Just 1 Week, Generating $4.7 Bil »
-   8/10 ✗ déjà publiée « GTA VI Features a Previously Unreleased Song From D’Angelo  »
-   9/10 ✗ déjà publiée « GTA VI Causes Console Sales Surge, Physical Copies Dominate UK Charts! »
-   9/10 ✗ déjà publiée « GTA VI Pushes Series To Nearly 1 Trillion YouTube Views With Record Br »
-   8/10 ✗ déjà publiée « Rockstar Developer Explains How Players Should Experience GTA VI  »
+234 infos fraîches et jamais traitées (sur 485 lues)
+   8/10 ✓ « GTA6 is dominating the Spotify Charts by having the current most playe »
+   8/10 ✗ déjà publiée « GTA VI Pushes Series To Nearly 1 Trillion YouTube Views With Record Br »
+   9/10 ✗ déjà publiée « GTA VI Hits 53 Million Copies Sold in Just 1 Week, Generating $4.7 Bil »
+   7/10 ✗ déjà publiée « GTA VI Features a Previously Unreleased Song From D’Angelo  »
+   8/10 ✗ déjà publiée « GTA VI Causes Console Sales Surge, Physical Copies Dominate UK Charts! »
+   8/10 ✗ déjà publiée « GTA VI Pushes Series To Nearly 1 Trillion YouTube Views With Record Br »
+   7/10 ✗ déjà publiée « Rockstar Developer Explains How Players Should Experience GTA VI  »
+   6/10 ✓ « GTA 6 Is Great, but It’s Missing a Feature Saints Row Nailed 20 Years  »
+   7/10 ✓ « Des moddeurs font tourner GTA 6 sur Mac grâce à l’IA, mais il y a enco »
+   6/10 ✓ « Il recycle sa machine de minage de crypto pour y faire tourner GTA 6 »
+   5/10 ✓ « GTA 6 sur PC a affiché 7 FPS sur un ordinateur portable équipé d'un Ry »
+   5/10 ✗ déjà publiée « GTA 6 for PC delivered 7 FPS on a laptop with a Ryzen 5 8645HS and RTX »
+   3/10 ✗ pas une news « Tesla FSD v15 Reality View : la vidéo « GTA 6 en vrai » »
+   8/10 ✓ « GTA VI Gets Special Treatment From XBOX When Cloud Streamed »
+   8/10 ✓ « GTA VI : le record de lancement PlayStation en chiffres »
    6/10 ✗ déjà publiée « GTA 6 n’a pas encore de mode multijoueur, mais ce site a trouvé une so »
-   7/10 ✗ déjà publiée « GTA 6 : les joueurs tentent de porter le jeu sur PC et de contourner l »
-   0/10 ✗ pas une news « Randy GTA 6 : Liste des véhicules demandés et où les trouver ? »
-   6/10 ✓ « GTA VI se joue mieux sur PS5 et… « crashe » mieux sur Xbox Series, app »
-   7/10 ✓ « « GTA 6 est enfin là » : GitHub salue l'outil qui fait tourner les jeu »
-   7/10 ✓ « GTA 6 : ce un glitch qui permet de voler des voitures de luxe sans déc »
-   5/10 ✓ « Sortie de GTA VI: comment l'industrie du jeu vidéo a largement dépassé »
-   6/10 ✓ « Physique de GTA 6 : qui sont les vrais pilotes derrière la conduite de »
-   6/10 ✓ « Rockstar a révélé pourquoi il n'y a pas de parodie de Walt Disney Worl »
-   7/10 ✓ « Le salon de tatouage de cette Vaudoise est dans GTA VI »
-   7/10 ✓ « France Inter. . Fabrice Luchini, énorme gamer de Vice City, a passé so »
-   5/10 ✓ « The Witcher 4 ambitionne d’être le GTA 6 de sa franchise »
-   7/10 ✗ déjà publiée « Rockstar n’a jamais sorti GTA 5 sur Mac, mais GTA 6 tourne déjà sur Ma »
-   7/10 ✓ « PlayStation ne rigole pas tellement des nudes de GTA 6 (et vous bannit »
-GAMING · 10 infos retenues, meilleure : « « GTA 6 est enfin là » : GitHub salue l'outil qui fait tourner les jeux PS5 sur  » (7/10)
-  article · 01net.com
-  article · 3258 caractères lus
-  photo · 1 image(s) : 1600x900
-  contexte · 1 complément(s) : GAMEKULT
+   6/10 ✓ « Configuration avec Ryzen 9 9950X3D et RX 9070 XT GTA VI a atteint jusq »
+   6/10 ✗ déjà publiée « Build with Ryzen 9 9950X3D and RX 9070 XT delivered up to 48 FPS in th »
+   8/10 ✓ « Even GTA 6 devs "felt like the day would never come" that it launches, »
+   6/10 ✓ « Optimisation du portage PC de GTA VI Radeon RX 7900 XTX augmentation d »
+GAMING · 10 infos retenues, meilleure : « GTA6 is dominating the Spotify Charts by having the current most played Album &a » (8/10)
+  photo · échec : image trop petite (48x48)
+  photo · 1 image(s) : 1091x577
+  contexte · 1 complément(s) : ROCKSTAR INTEL
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · recherche X « GitHub AnyPS5 tweet deleted » : rien qui montre vraiment le sujet
-  vidéo · trouvée sur X « GitHub AnyPS5 » (1453 likes) : gta 6 pc - %98
+  vidéo · trouvée sur X « GTA 6 Spotify charts » (813 likes) : spotify global charts 🌎
 
-bir port torrente düştü. 30 fps'de çalışıyor ve 208 gb
-  vidéo · téléchargée (30 s, 6 Mo)
-  vidéo · 30 images analysées, texte incrusté sur 26
-  couverture · video@0s · zoom 1.0 · propre
-  carrousel prêt : « GitHub célèbre par erreur AnyPS5 avant de supprimer son tweet » (4 slides)
-  voix · ⚠️ refaite, texte différent (65%) : « Tu savais que GitHub a supprimé en urgence un tweet sur l'outil Nips5 ? T'as vu ce gros impart ? Tu savais que GitHub a supprimé en urgence un tweet sur l'outil »
-  voix · ⚠️ refaite, texte différent (65%) : « Tu savais que GitHub a supprimé en urgence un tweet sur l'outil Nips5 ? T'as vu ce gros impère ? Tu savais que GitHub a supprimé en urgence un tweet sur l'outil »
-  voix · ⚠️ refaite, texte différent (72%) : « Tu savais que GitHub a supprimé en urgence un tweet sur l'outil NIPA5 ? T'as vu ce gros impère ? Et que GitHub a... Ur... Sur l'outil NIPA5 ? T'as vu ce gros im »
-  voix · Gemini (Aoede) indisponible : essai 1 : texte différent (65%) : « Tu savais que GitHub a supprimé en urgence un tweet sur l'outil Nips5 ? T'as vu ce g
-  voix · edge-tts (6.8 s)
-  vidéo · 10 images analysées, texte incrusté sur 10
-  vidéo · temps forts : 5 passages (2s, 8s, 20s, 22s, 26s) sur 30 s
-  reel · 8.5 s · 5 plans dont 5 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgSGysajQ-7/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgSG1SpRnDS/
+#6. [+3] nicole kidman — 3,204,150
+#10. [=] a
+  vidéo · téléchargée (66 s, 12 Mo)
+  vidéo · 40 images analysées, texte incrusté sur 2
+  couverture · photo1 · zoom 1.0 · propre
+  carrousel prêt : « GTA 6 domine Spotify avec son premier morceau » (4 slides)
+  voix · contrôle OK (97%, essai 1, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (12.3 s)
+  voix · 12.3 s → accélérée ×1.12 (11.0 s)
+  vidéo · 14 images analysées, texte incrusté sur 1
+  vidéo · temps forts : 7 passages (1s, 4s, 6s, 46s, 52s, 56s, 60s) sur 66 s
+  reel · 12.7 s · 8 plans dont 8 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgSNko1DukJ/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgSNoJBIwOr/
   ✅ STORY PUBLIÉE (vidéo)
 Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
