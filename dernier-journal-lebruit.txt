@@ -1,1 +1,50 @@
-Pas de post : hors horaires (10:01 à Paris)
+Mode : auto
+Meta · token valide (utilisateur : cesttombe-bot)
+Meta · autorisations du token : ads_read, business_management, instagram_basic, instagram_content_publish, instagram_manage_insights, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Instagram · @le.bruit.rap (17 abonnés)
+Instagram · posts publiés par l'API sur 24 h : 9 / 100
+Rap · @rap.minute → 12 posts lus
+Rap · @rapfractusofficiel → 12 posts lus
+Rap · @booska_p → 12 posts lus
+X · @RapFrActus → 10 tweets lus, 2 gardés (ce mois : 1404 / 9000)
+X · @FrenchRapUS → 10 tweets lus, 2 gardés (ce mois : 1414 / 9000)
+X · @Rapunchline → 4 tweets lus, 4 gardés (ce mois : 1418 / 9000)
+X · @SpotifyFrance → 5 tweets lus, 5 gardés (ce mois : 1423 / 9000)
+20 infos fraîches et jamais traitées (sur 49 lues)
+   4/10 ✗ trop faible (mini 6) « Le meilleur rappeur du 93 dans sa génération a encore frappé  »
+   0/10 ✗ pas une news « 🚨 ALERTE ! »
+   0/10 ✗ pas une news « 🚨 LES FRANÇAIS ONT FRAPPÉ TRÈS FORT !!  »
+   5/10 ✗ trop faible (mini 6) « 🚨VARNISH LA PISCINE VA FAIRE L’OLYMPIA !  »
+   8/10 ✓ « 🚨 BOOBA RÉAGIT AU REFUS D'HIMRA POUR UN FEAT »
+   6/10 ✓ « Les albums les plus écoutés de la semaine sur Spotify 📈 »
+   3/10 ✗ pas une news « Vous écoutez qui en premier cette semaine ? ➡️ https://t.co/TX3a9FoNVn »
+   3/10 ✗ pas une news « Triangle de Bermudes a retourné Bercy 🤯 »
+   6/10 ✓ « 🎧 Rim’K dévoile « Pour toi », l’un des trois morceaux mis en ligne à m »
+   2/10 ✗ pas une news « makalaxtrm sort le grand jeu et tape son meilleur moonwalk sur la scèn »
+   2/10 ✗ pas une news « C’est trop méchant 🤯 »
+   7/10 ✓ « Bon anniversaire à SDM qui fête ses 31 ans 🎂 »
+   2/10 ✗ pas une news « Une affaire de famille 🇨🇩 »
+   3/10 ✗ pas une news « L’ambiance à Bercy ce soir, quelle dinguerie 🔥🔥🔥 »
+   2/10 ✗ pas une news « Peut-être c’est le meilleur concert de l’année ? »
+   3/10 ✗ pas une news « RK a mangé un gros coup de pression 😂 »
+   2/10 ✗ pas une news « Rnboi, Zed, Niro… Toute l’actu du jour est dans le Flash Rap ⚡️ »
+   6/10 ✓ « Guizmo nous parle de La Fouine, santé mentale, Alpha Wann, l’Afrique,  »
+   3/10 ✗ pas une news « "Les Tarterêts, c’est un quartier légendaire" »
+   7/10 ✓ « ZED continue son run en invitant Ninho, KLN, Genezio et Isaac G sur la »
+RAP FR · 6 infos retenues, meilleure : « 🚨 BOOBA RÉAGIT AU REFUS D'HIMRA POUR UN FEAT » (8/10)
+  photo · 1 image(s) : 1200x1200
+  visuels · deezer « Booba » → 6 image(s)
+  vidéo · trouvée sur X « Booba Himra clash » (348 likes) : l’équipe de showbuzz décrypte le clash entre booba &amp; himra https:/
+  vidéo · téléchargée (193 s, 24 Mo)
+  vidéo · 40 images analysées, texte incrusté sur 40
+  couverture LE BRUIT · photo1 · plein
+  carrousel prêt : « Booba réagit vertement au refus d'Himra » (5 slides)
+  voix · contrôle OK (99%, essai 1, gemini-3.1-flash-tts-preview)
+  voix · Gemini (Aoede) (9.5 s)
+  vidéo · 14 images analysées, texte incrusté sur 14
+  vidéo · temps forts : 7 passages (15s, 23s, 50s, 64s, 128s, 177s, 180s) sur 193 s
+  reel LE BRUIT · 12.7 s · 5 plans · vidéo de la source en fond (cadre, 12.7 s) · voix + son de la vidéo
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgSAZT8DV3K/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgSAcFcM_NL/
+  ✅ STORY PUBLIÉE (vidéo)
+Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 3 s

@@ -7,7 +7,7 @@ Gaming · https://www.actugaming.net/actualites/feed/ → HTTP 200
   10 infos retenues après filtre
 Web · GOOGLE ACTU → 100 infos
 Web · GOOGLE NEWS → 100 infos
-Web · BING ACTU → 11 infos
+Web · BING ACTU → 12 infos
 Web · BING ACTU VI → 12 infos
 Web · ROCKSTAR INTEL → 10 infos
 Web · DEXERTO → 50 infos
@@ -20,46 +20,52 @@ Web · JEUXVIDEO.COM → 16 infos
 Web · INSIDER GAMING → 5 infos
 Instagram · @rockstargames → 12 posts lus, 12 gardés
 Instagram · @playstationfr → 12 posts lus, 2 gardés
-X · @RockstarGames → 0 tweets lus, 0 gardés (ce mois : 5926 / 10000)
-X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5936 / 10000)
+X · @RockstarGames → 0 tweets lus, 0 gardés (ce mois : 5951 / 10000)
+X · @RockstarIntel → 10 tweets lus, 10 gardés (ce mois : 5961 / 10000)
+X · « ("GTA 6" OR "GTA VI") filter:native_vide » → 8 tweets lus, 7 gardés (ce mois : 5969 / 10000)
 Lancement GTA 6 jusqu'au 2026-11-30T23:59 : 16 posts/jour maxi, note mini 5
-239 infos fraîches et jamais traitées (sur 483 lues)
+233 infos fraîches et jamais traitées (sur 491 lues)
    9/10 ✗ déjà publiée « GTA VI Pushes Series To Nearly 1 Trillion YouTube Views With Record Br »
   10/10 ✗ déjà publiée « GTA VI Hits 53 Million Copies Sold in Just 1 Week, Generating $4.7 Bil »
    8/10 ✗ déjà publiée « GTA VI Features a Previously Unreleased Song From D’Angelo  »
    8/10 ✗ déjà publiée « GTA VI Causes Console Sales Surge, Physical Copies Dominate UK Charts! »
    9/10 ✗ déjà publiée « GTA VI Pushes Series To Nearly 1 Trillion YouTube Views With Record Br »
    7/10 ✗ déjà publiée « Rockstar Developer Explains How Players Should Experience GTA VI  »
-   7/10 ✓ « France Inter. . Fabrice Luchini, énorme gamer de Vice City, a passé so »
-   9/10 ✓ « GTA 6 fait chuter la fréquentation de Pornhub »
-   5/10 ✓ « The Witcher 4 ambitionne d’être le GTA 6 de sa franchise »
-   0/10 ✗ pas une news « GTA 6 : guide des cadeaux de Noël pour un fan du jeu »
-   0/10 ✗ pas une news « DualSense Edge : la meilleure manette PS5 est bradée pour le Black Fri »
-   0/10 ✗ pas une news « GTA 6 Stash Bag Duplication Glitch: How to Sell the Loot »
-   0/10 ✗ pas une news « La communauté de gaming n’en revient pas : GTA 6 est enfin de retour e »
-   7/10 ✓ « Rockstar n’a jamais sorti GTA 5 sur Mac, mais GTA 6 tourne déjà sur Ma »
-   8/10 ✓ « PlayStation ne rigole pas tellement des nudes de GTA 6 (et vous bannit »
-   8/10 ✗ déjà publiée « PlayStation ne rigole pas tellement des nudes de GTA 6 (et vous bannit »
-   4/10 ✗ trop faible (mini 5) « GTA 6 Florida Man: Satire, Influencers and Social Media »
+   2/10 ✗ pas une news « This is the best GTA VI vid I’ve seen yet https://t.co/tkK04bNRyq »
+   4/10 ✗ pas une news « Codes de triche GTA 6 : comment les débloquer et les activer »
+   3/10 ✗ pas une news « GTA 6 : 5 conseils pour optimiser les performances de votre PS5 ou Xbo »
+   7/10 ✓ « Sortie de GTA VI: comment l'industrie du jeu vidéo a largement dépassé »
+   7/10 ✓ « Physique de GTA 6 : qui sont les vrais pilotes derrière la conduite de »
    6/10 ✓ « ‘Grand Theft Auto VI’ Soundtrack Debuts at No. 1 in Australia as ‘Flow »
-   5/10 ✓ « GTA 6 Could Make Your PC the Most Expensive Part of the Console War »
-   6/10 ✓ « GTA VI Controversy: Sexism, Violence and Gaming Ethics »
-GAMING · 8 infos retenues, meilleure : « GTA 6 fait chuter la fréquentation de Pornhub » (9/10)
+   7/10 ✓ « Rockstar a révélé pourquoi il n'y a pas de parodie de Walt Disney Worl »
+   6/10 ✓ « Le salon de tatouage de cette Vaudoise est dans GTA VI »
+   8/10 ✓ « GTA 6 : pourquoi frapper un chien choque plus que tuer un passant »
+   8/10 ✓ « GTA 6 : les joueurs PS5 ont passé plus de 17 heures sur le jeu lors du »
+   5/10 ✓ « GTA VI and the Moral Dilemmas Behind Violence in Video Games »
+   8/10 ✓ « France Inter. . Fabrice Luchini, énorme gamer de Vice City, a passé so »
+   5/10 ✗ pas une news « Test du jeu vidéo : GTA VI »
+   6/10 ✓ « The Witcher 4 ambitionne d’être le GTA 6 de sa franchise »
+GAMING · 10 infos retenues, meilleure : « GTA 6 : pourquoi frapper un chien choque plus que tuer un passant » (8/10)
+  article · leparisien.fr
+  article · 164 caractères lus
+  ⏭️ article illisible, info écartée : « GTA 6 : pourquoi frapper un chien choque plus que tuer un pa »
   article · worldissmall.fr
-  article · 2939 caractères lus
-  photo · 1 image(s) : 1280x718
+  article · 2243 caractères lus
+  photo · 1 image(s) : 2000x1500
   visuels · steam « Grand Theft Auto VI » → 4 image(s)
-  vidéo · recherche X « GTA 6 gameplay launch PS5 » : rien qui montre vraiment le sujet
-  vidéo · recherche X « launch PS5 » : rien qui montre vraiment le sujet
-  vidéo · trouvée sur X « GTA 6 gameplay » (17204 likes) : cellbit tendo uma gameplay normal de gta 6 é tipo: https://t.co/a7sa0l
-  vidéo · téléchargée (14 s, 2 Mo)
-  vidéo · 14 images analysées, texte incrusté sur 3
-  couverture · video@10s · zoom 1.0 · propre
-  carrousel prêt : « GTA 6 fait chuter la fréquentation de Pornhub » (4 slides)
-  voix · contrôle OK (98%, essai 1, gemini-3.8-flash-tts)
-  voix · Gemini (Aoede) (8.6 s)
-  reel · 10.2 s · 6 plans dont 6 extraits vidéo · voix + musique
-  ✅ PUBLIÉ : https://www.instagram.com/p/DgR46Eojmv7/
-  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgR49yIhm8n/
+  vidéo · trouvée sur X « GTA 6 PS5 gameplay launch » (524 likes) : gta 6 on ps5 is massive:
+
+-biggest launch in playstation history
+-high
+  vidéo · téléchargée (12 s, 1 Mo)
+  vidéo · 12 images analysées, texte incrusté sur 3
+  couverture · video@8s · zoom 1.0 · propre
+  carrousel prêt : « GTA 6 : 39 millions de joueurs sur PS5 » (4 slides)
+  voix · ⚠️ refaite, texte différent (65%) : « Plus de 39 millions de joueurs ont déjà découvert le jeu sur PS5, avec un temps de jeu moyen impressionnant de 17,4 heures. T'as déjà testé le jeu sur PS5 ? Plu »
+  voix · contrôle OK (97%, essai 2, gemini-3.8-flash-tts)
+  voix · Gemini (Aoede) (9.0 s)
+  reel · 10.7 s · 7 plans dont 7 extraits vidéo · voix + musique
+  ✅ PUBLIÉ : https://www.instagram.com/p/DgR_2LUDcwh/
+  ✅ REEL PUBLIÉ : https://www.instagram.com/reel/DgR_3v7TTx5/
   ✅ STORY PUBLIÉE (vidéo)
 Gemini : gemini-flash-lite-latest : réponse en 2 s · gemini-flash-lite-latest : réponse en 2 s
